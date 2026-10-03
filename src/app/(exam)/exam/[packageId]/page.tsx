@@ -107,6 +107,24 @@ export default function ExamSessionPage() {
         setQuestions(attemptData.questions);
         setAnswers(attemptData.answers || {});
 
+        if (typeof window !== 'undefined') {
+          const sp = new URLSearchParams(window.location.search);
+          const qParam = sp.get('q');
+          if (qParam) {
+            const targetNum = parseInt(qParam, 10);
+            if (!isNaN(targetNum) && targetNum >= 1 && targetNum <= attemptData.questions.length) {
+              const targetIdx = targetNum - 1;
+              setCurrentIndex(targetIdx);
+              if (sp.get('zoom') === '1' || sp.get('zoom') === 'true') {
+                const targetQ = attemptData.questions[targetIdx];
+                if (targetQ && targetQ.imageUrl) {
+                  setZoomImageUrl(targetQ.imageUrl);
+                }
+              }
+            }
+          }
+        }
+
         const isCurrentlyPaused = attemptData.attempt.status === 'PAUSED';
         setIsPaused(isCurrentlyPaused);
 
