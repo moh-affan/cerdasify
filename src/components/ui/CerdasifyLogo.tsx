@@ -1,0 +1,117 @@
+import React from 'react';
+
+interface CerdasifyLogoProps {
+  className?: string;
+  size?: number;
+  showText?: boolean;
+  textColor?: string;
+  subtitle?: string;
+}
+
+export function CerdasifyIcon({ size = 36, className = '' }: { size?: number; className?: string }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 100 100"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={`shrink-0 ${className}`}
+    >
+      <defs>
+        <linearGradient id="bgGradient" x1="10" y1="10" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#4F46E5" />
+          <stop offset="0.6" stopColor="#7C3AED" />
+          <stop offset="1" stopColor="#2563EB" />
+        </linearGradient>
+        <linearGradient id="glowGradient" x1="20" y1="20" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#38BDF8" />
+          <stop offset="1" stopColor="#818CF8" />
+        </linearGradient>
+        <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#38BDF8" floodOpacity="0.4" />
+        </filter>
+      </defs>
+
+      {/* Rounded Squircle Background */}
+      <rect x="4" y="4" width="92" height="92" rx="26" fill="url(#bgGradient)" />
+      <rect
+        x="4.5"
+        y="4.5"
+        width="91"
+        height="91"
+        rx="25.5"
+        stroke="#A5B4FC"
+        strokeOpacity="0.3"
+        strokeWidth="1.5"
+      />
+
+      {/* Geometric Academic Cap & C Emblem */}
+      <g filter="url(#neonGlow)">
+        {/* Toga Cap Top */}
+        <polygon
+          points="50,18 78,28 50,38 22,28"
+          fill="#38BDF8"
+          fillOpacity="0.2"
+          stroke="#E0F2FE"
+          strokeWidth="3.5"
+          strokeLinejoin="round"
+        />
+
+        {/* Tassel */}
+        <path
+          d="M68,32 L72,44 M72,44 C72,46 70,47 70,47 C70,47 74,47 74,47 C74,47 72,46 72,44 Z"
+          stroke="#BAE6FD"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          fill="#BAE6FD"
+        />
+
+        {/* Stylized Hexagonal 'C' Arc */}
+        <path
+          d="M62,47 L70,52 L50,82 L30,70 L30,42 L42,35"
+          stroke="#38BDF8"
+          strokeWidth="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          fill="none"
+        />
+
+        {/* Inner Star of Intellect */}
+        <polygon
+          points="50,47 53.5,55 62,55 55,60 58,68 50,63 42,68 45,60 38,55 46.5,55"
+          fill="#FFFFFF"
+          stroke="#BAE6FD"
+          strokeWidth="1.5"
+          strokeLinejoin="round"
+        />
+      </g>
+    </svg>
+  );
+}
+
+export default function CerdasifyLogo({
+  className = '',
+  size = 36,
+  showText = true,
+  textColor = 'text-slate-900',
+  subtitle = 'Ujian & Bank Soal',
+}: CerdasifyLogoProps) {
+  return (
+    <div className={`flex items-center gap-2.5 ${className}`}>
+      <CerdasifyIcon size={size} />
+      {showText && (
+        <div>
+          <span className={`font-black tracking-tight text-base block leading-tight ${textColor}`}>
+            Cerdasify
+          </span>
+          {subtitle && (
+            <span className="text-[10px] text-slate-400 font-medium block leading-tight">
+              {subtitle}
+            </span>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}

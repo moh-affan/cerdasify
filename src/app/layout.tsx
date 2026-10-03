@@ -17,6 +17,16 @@ export const metadata: Metadata = {
   title: 'Cerdasify — Platform Simulasi Ujian & Bank Soal Matematika, Sains & CPNS',
   description:
     'Platform latihan soal dan simulasi ujian presisi tinggi dengan formula KaTeX, penilaian server-side aman, dan antarmuka responsif bebas distraksi.',
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/icon.png', sizes: '512x512', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({

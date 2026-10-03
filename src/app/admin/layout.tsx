@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { getCurrentUser } from '@/lib/auth';
+import CerdasifyLogo from '@/components/ui/CerdasifyLogo';
 import {
   Sparkles,
   LayoutDashboard,
@@ -39,17 +40,10 @@ export default async function AdminLayout({
       <aside className="w-full md:w-64 bg-slate-900 text-white shrink-0 flex flex-col justify-between p-4 md:p-6 md:sticky md:top-0 md:h-screen">
         <div className="space-y-6">
           {/* Logo & Brand */}
-          <div className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-indigo-600 text-white flex items-center justify-center shadow-lg shadow-indigo-500/20">
-              <Sparkles className="w-5 h-5" />
-            </div>
-            <div>
-              <span className="font-extrabold text-base tracking-tight text-white block leading-tight">
-                Cerdasify Admin
-              </span>
-              <span className="text-[10px] text-indigo-300 font-mono">Control Panel</span>
-            </div>
-          </div>
+          <CerdasifyLogo
+            textColor="text-white"
+            subtitle="Control Panel"
+          />
 
           {/* Navigation Items */}
           <nav className="space-y-1">

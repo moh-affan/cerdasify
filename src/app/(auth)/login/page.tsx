@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Sparkles, Shield, User, GraduationCap, Lock, ArrowRight, Loader2, AlertCircle } from 'lucide-react';
+import { CerdasifyIcon } from '@/components/ui/CerdasifyLogo';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -58,14 +59,14 @@ export default function LoginPage() {
     <div className="min-h-screen bg-slate-900 text-white flex flex-col justify-center items-center p-4 selection:bg-indigo-500">
       <div className="w-full max-w-md space-y-6">
         {/* Brand Header */}
-        <div className="text-center space-y-2">
-          <div className="w-12 h-12 rounded-2xl bg-indigo-600 text-white mx-auto flex items-center justify-center shadow-lg shadow-indigo-500/30">
-            <Sparkles className="w-6 h-6" />
+        <div className="text-center space-y-3 flex flex-col items-center">
+          <CerdasifyIcon size={56} className="shadow-2xl shadow-indigo-500/30 rounded-2xl" />
+          <div>
+            <h1 className="text-2xl font-black tracking-tight text-white">Cerdasify</h1>
+            <p className="text-slate-400 text-xs sm:text-sm mt-1">
+              Platform Simulasi Ujian & Bank Soal Matematika, Sains & CPNS
+            </p>
           </div>
-          <h1 className="text-2xl font-black tracking-tight text-white">Cerdasify</h1>
-          <p className="text-slate-400 text-xs sm:text-sm">
-            Platform Simulasi Ujian & Bank Soal Matematika, Sains & CPNS
-          </p>
         </div>
 
         {/* Login Card */}
