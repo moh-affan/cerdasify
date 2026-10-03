@@ -42,7 +42,7 @@ export const ExamTimer: React.FC<ExamTimerProps> = ({
         }
         const next = prev - 1;
         if (onTick && next % 5 === 0) {
-          onTick(next);
+          setTimeout(() => onTick(next), 0);
         }
         return next;
       });
