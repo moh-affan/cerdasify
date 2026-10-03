@@ -21,7 +21,11 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
   - Pilihan ganda standar (A–E) 1 jawaban benar.
   - Pilihan ganda kompleks / multi-jawaban (model AKM/SNBT).
   - Soal skala bobot bertingkat (khusus **TKP CPNS** dengan skor opsi bernilai 1–5).
-- **Dukungan Rumus Matematika (KaTeX/LaTeX):** Mendukung penulisan simbol dan formula sains yang rapi dan cepat.
+- **Dukungan Penuh Rumus Matematika & Sains (LaTeX, KaTeX, AsciiMath):**
+  - Rendering formula inline (`$...$`) dan display block (`$$...$$`).
+  - Mendukung pecahan kompleks, akar bertingkat, integral, limit, matriks, deret/sigma, serta notasi fisika & kimia.
+  - Editor Admin dilengkapi **Live Math Preview** dan **Toolbar Rumus Cepat**.
+  - Responsif di layar smartphone dengan *horizontal auto-scroll* agar rumus panjang tidak memotong tampilan.
 - **Media Gambar:** Dukungan gambar pada teks pertanyaan, opsi pilihan jawaban, dan penjelasan pembahasan.
 - **Pengacakan Soal & Opsi:** Soal dan pilihan jawaban dapat diacak secara otomatis saat paket ujian dimulai.
 
@@ -76,6 +80,40 @@ Template berkas impor soal dapat diunduh langsung melalui panel Super Admin di m
 | `kunci_jawaban` | Ya | Untuk tipe `SINGLE`: Masukkan huruf kunci, misal `C`.<br>Untuk tipe `SCALE` (TKP): Masukkan bobot opsi, misal: `A:3,B:5,C:1,D:4,E:2` |
 | `pembahasan` | Ya | Teks penjelasan materi dan cara pengerjaan soal |
 | `tingkat_kesulitan` | Tidak | `MUDAH`, `SEDANG`, `SULIT`, atau `HOTS` (Default: `SEDANG`) |
+
+---
+
+## 📐 Panduan Penulisan Notasi Matematika & Sains (LaTeX)
+
+Cerdasify mendukung penuh notasi matematis standar LaTeX dan notasi sains di seluruh teks soal, opsi jawaban (A–E), dan pembahasan:
+
+### 1. Formula Sebaris (Inline Math)
+Gunakan tanda dollar tunggal (`$...$`) untuk rumus yang menyatu dengan kalimat:
+```markdown
+Tentukan himpunan penyelesaian dari persamaan $2x^2 - 5x + 3 = 0$.
+```
+
+### 2. Formula Blok (Display Math)
+Gunakan tanda double dollar (`$$...$$`) untuk rumus utama yang berdiri sendiri di baris baru:
+```markdown
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
+```
+
+### 3. Contoh Formula Umum
+| Kategori Rumus | Contoh Kode LaTeX | Hasil Tampilan |
+|---|---|---|
+| **Pecahan & Akar** | `$\frac{3x + 1}{\sqrt{x^2 - 4}}$` | Pecahan aljabar dengan bentuk akar |
+| **Pangkat & Indeks** | `$a_n = a_1 \cdot r^{n-1}$` | Rumus barisan geometri |
+| **Kalkulus (Integral & Limit)** | `$$\int_0^\pi \sin(x) \,dx = 2$$` | Integral tentu dengan batas |
+| **Matriks & Determinan** | `$$\begin{pmatrix} a & b \\ c & d \end{pmatrix}$$` | Matriks 2x2 |
+| **Persamaan Bercabang** | `$$f(x) = \begin{cases} -x, & x < 0 \\ x, & x \ge 0 \end{cases}$$` | Fungsi nilai mutlak piecewise |
+| **Kimia & Fisika** | `$\text{H}_2\text{SO}_4$`, `$v = v_0 + at$` | Notasi molekul dan GLBB |
+
+> 💡 **Tips Penggunaan di Excel / CSV:**
+> - Simbol backslash `\` pada formula (seperti `\frac` atau `\sqrt`) didukung penuh.
+> - Jika menggunakan berkas CSV, teks yang mengandung tanda koma di dalam formula wajib diapit dengan tanda petik ganda (`"..."`).
 
 ---
 

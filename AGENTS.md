@@ -97,18 +97,28 @@ cerdasify/
 
 ---
 
-## 4. Konvensi Penulisan Soal & Math Formula (KaTeX)
+## 4. Konvensi Penulisan Soal & Math Formula (KaTeX & Notasi Sains)
 
-1. Teks soal dan pembahasan disimpan dalam format **Markdown**.
-2. Formula matematika atau sains disisipkan menggunakan notasi:
-   - Inline formula: `$E = mc^2$` atau `$\frac{a}{b}$`
-   - Block/Display formula:
+1. **Format Penyimpanan:** Teks soal, opsi jawaban (A–E), dan pembahasan disimpan dalam format **Markdown** dengan dukungan formula matematika/sains.
+2. **Notasi Formula yang Wajib Didukung:**
+   - **Inline Formula:** `$E = mc^2$` atau `$\frac{a}{b}$` atau `\( x^2 + y^2 = r^2 \)`.
+   - **Display / Block Formula:**
      ```markdown
      $$
      x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
      $$
      ```
-3. Komponen `MathRenderer` harus menangani error parsing KaTeX secara aman tanpa me-render halaman menjadi crash (*graceful fallback* ke teks asli).
+   - **Multi-line & Environments:** Persamaan majemuk seperti `\begin{aligned} ... \end{aligned}` dan `\begin{cases} ... \end{cases}`.
+   - **Matriks & Vektor:** `\begin{pmatrix} a & b \\ c & d \end{pmatrix}`.
+   - **Simbol Sains & Notasi Kimia:** Subscript/superscript (`H_2O`, `Fe^{2+}`), derajat celcius, panah reaksi (`\rightarrow`), dan simbol Yunani.
+   - **Shorthand / AsciiMath Support:** Konversi otomatis notasi umum yang ditulis cepat (seperti `sqrt(x)` atau `x^2`) melalui utilitas `src/lib/math-parser.ts`.
+3. **Aturan Komponen `MathRenderer` (`src/components/katex/MathRenderer.tsx`):**
+   - Wajib menyetel konfigurasi KaTeX: `{ throwOnError: false, errorColor: '#ef4444', displayMode: boolean }`.
+   - **Graceful Fallback:** Jangan biarkan salah ketik LaTeX membuat seluruh layar crash (*No React White-Screen of Death*). Tangkap error dan tampilkan teks aslinya dengan border lembut.
+   - **Mobile-Responsive Wrap:** Bungkus formula block dalam container `<div className="overflow-x-auto max-w-full py-1">` agar rumus panjang pada smartphone dapat digeser mendatar secara halus tanpa merusak tata letak kartu soal.
+4. **Editor Soal Admin (`src/components/admin/MathEditorToolbar.tsx`):**
+   - Sediakan tombol pintas (*quick-insert toolbar*) untuk menyisipkan template rumus umum: Pecahan (`\frac{}{}`), Akar (`\sqrt{}`), Pangkat (`x^2`), Subskrip (`x_1`), Integral (`\int`), Sigma (`\sum`), Matriks, dan Simbol Yunani.
+   - Sediakan panel Live Preview berdampingan secara instan saat admin mengetik soal.
 
 ---
 

@@ -40,13 +40,28 @@ Sistem dirancang sebagai **Closed/Managed System**, di mana manajemen akun peser
    - **Pilihan Ganda Standar (A–E):** 1 jawaban benar dengan bobot poin kustom.
    - **Pilihan Ganda Kompleks / Multi-Answer:** Lebih dari satu jawaban benar (model AKM/SNBT).
    - **Soal Bobot Skala Bertingkat (CPNS TKP):** Tiap opsi jawaban memiliki nilai 1–5 (tidak ada jawaban bernilai 0).
-   - **Formula Matematika & Simbol Sains:** Rendering LaTeX / KaTeX di soal, pilihan, maupun pembahasan.
+   - **Formula Matematika & Simbol Sains:** Rendering penuh LaTeX / KaTeX dan notasi matematika lainnya pada teks soal, seluruh opsi pilihan jawaban (A–E), dan teks pembahasan.
    - **Rich Media:** Dukungan gambar pada stimulus soal, opsi pilihan, dan gambar penjelasan pembahasan.
-3. **Impor & Ekspor Massal:**
+3. **Engine Notasi Matematika & Sains (LaTeX / KaTeX / AsciiMath):**
+   - **Format Notasi yang Didukung:**
+     - *Inline Math:* Menggunakan tanda dollar tunggal `$f(x) = ax^2 + bx + c$` atau `\( ... \)`.
+     - *Display / Block Math:* Menggunakan tanda double dollar `$$\lim_{x \to 0} \frac{\sin x}{x} = 1$$` atau `\[ ... \]`.
+     - *Multi-line & Environments:* Persamaan bercabang (`cases`), matriks (`matrix`, `pmatrix`, `bmatrix`), dan sistem persamaan (`aligned`).
+     - *Simbol Sains & Rumus Kompleks:* Fraksi (`\frac`), akar bertingkat (`\sqrt[n]{x}`), integral (`\int`), deret & sigma (`\sum`), limit, simbol Yunani ($\alpha, \beta, \gamma, \theta, \pi, \lambda$), serta notasi himpunan dan logika ($\in, \subset, \cup, \cap, \forall, \exists$).
+     - *Dukungan AsciiMath / Shorthand:* Opsi konverter otomatis untuk penulisan cepat tanpa backslash (misal: `sqrt(x)`, `x^2`, `a/b`, `<=`, `>=`).
+   - **Live Math Preview & Toolbar pada Admin Editor:**
+     - Toolbar interaktif untuk Super Admin/Admin dengan tombol cepat (*quick-insert*) rumus umum: pecahan, akar pangkat, pangkat/indeks, sigma, integral, matriks, dan simbol sains.
+     - Pratinjau langsung berdampingan (*real-time side-by-side preview*) saat menyusun soal atau pembahasan.
+   - **Rendering Responsif di Layar HP:**
+     - Formula matematika panjang otomatis dibungkus kontainer responsif (`overflow-x: auto`) dengan scrollbar halus agar tidak merusak layout (*no horizontal layout blowout*) pada layar 360px–420px.
+   - **Zero-Crash Graceful Degradation:**
+     - Error sintaks LaTeX (seperti kurung kurawal yang belum tertutup) ditangani dengan aman oleh parser tanpa membuat aplikasi crash, menampilkan teks formula asli dengan penanda visual lembut.
+4. **Impor & Ekspor Massal:**
    - Format: Excel (`.xlsx`) dan `.csv`.
    - Engine validasi pra-impor: memvalidasi format kolom, mendeteksi baris rusak, opsi jawaban kosong, dan format bobot salah sebelum data disimpan ke database.
+   - Dukungan karakter khusus formula (menjaga backslash `\` dan tanda koma di dalam formula agar tidak memecah kolom CSV).
    - Halaman khusus **Panduan Format Impor & Download Template Resmi**.
-4. **Fitur Bank Soal:**
+5. **Fitur Bank Soal:**
    - Pencarian cerdas, filter multi-kategori, duplikasi paket soal, arsip soal, dan statistik tingkat kesulitan.
 
 ### 3.2. Mode Pengerjaan Soal (Testing & Practice Engine)
