@@ -87,9 +87,9 @@ export const ExamGridNav: React.FC<ExamGridNavProps> = ({
   return (
     <>
       {/* Desktop Panel */}
-      <div className="hidden lg:block w-72 bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden h-[calc(100vh-140px)] sticky top-20">
+      <aside className="hidden lg:block w-72 shrink-0 bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden max-h-[calc(100vh-100px)] sticky top-20">
         {content}
-      </div>
+      </aside>
 
       {/* Mobile Bottom Sheet / Modal */}
       {isOpenMobile && (

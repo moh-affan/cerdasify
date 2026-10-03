@@ -304,27 +304,30 @@ export default function ExamSessionPage() {
     <div className="min-h-screen bg-slate-100 flex flex-col selection:bg-indigo-100 relative">
       {/* Top Distraction-free Header */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs px-4 py-3 sm:px-8 flex items-center justify-between">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 min-w-0">
           <button
             type="button"
             onClick={() => router.push('/')}
             title="Keluar ke Dashboard"
-            className="w-9 h-9 rounded-xl border border-slate-200 flex items-center justify-center text-slate-500 hover:text-slate-800 hover:bg-slate-50 transition cursor-pointer"
+            className="w-9 h-9 rounded-xl border border-slate-200 flex items-center justify-center text-slate-500 hover:text-slate-800 hover:bg-slate-50 transition cursor-pointer shrink-0"
           >
             <Home className="w-4 h-4" />
           </button>
-          <div>
+          <div className="min-w-0">
             <div className="flex items-center gap-2">
-              <h1 className="font-bold text-slate-800 text-sm sm:text-base line-clamp-1 max-w-[160px] sm:max-w-md">
+              <h1
+                title={packageTitle}
+                className="font-bold text-slate-800 text-sm sm:text-base lg:text-lg truncate max-w-xs sm:max-w-md md:max-w-xl lg:max-w-3xl xl:max-w-5xl"
+              >
                 {packageTitle}
               </h1>
               {packageType === 'PRACTICE' && (
-                <span className="hidden sm:inline-block px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-50 text-amber-800 border border-amber-200 uppercase">
+                <span className="shrink-0 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-50 text-amber-800 border border-amber-200 uppercase">
                   Mode Latihan
                 </span>
               )}
             </div>
-            <div className="flex items-center gap-2 text-[11px] text-slate-500">
+            <div className="flex items-center gap-2 text-[11px] text-slate-500 truncate">
               <span>Soal {currentIndex + 1} dari {questions.length}</span>
               <span>•</span>
               <span className="font-medium text-indigo-600">{currentQ.topicName}</span>
@@ -482,11 +485,13 @@ export default function ExamSessionPage() {
           </div>
         </main>
 
-        {/* Desktop Sidebar Grid Navigation */}
+        {/* Sidebar Grid Navigation (Desktop Sidebar & Mobile Drawer) */}
         <ExamGridNav
           items={gridItems}
           currentIndex={currentIndex}
           onSelectIndex={(idx) => setCurrentIndex(idx)}
+          isOpenMobile={isNavOpenMobile}
+          onCloseMobile={() => setIsNavOpenMobile(false)}
         />
       </div>
 
@@ -622,15 +627,6 @@ export default function ExamSessionPage() {
           </button>
         )}
       </div>
-
-      {/* Mobile Navigation Drawer */}
-      <ExamGridNav
-        items={gridItems}
-        currentIndex={currentIndex}
-        onSelectIndex={(idx) => setCurrentIndex(idx)}
-        isOpenMobile={isNavOpenMobile}
-        onCloseMobile={() => setIsNavOpenMobile(false)}
-      />
 
       {/* Confirmation Submit Modal */}
       <ExamConfirmModal
