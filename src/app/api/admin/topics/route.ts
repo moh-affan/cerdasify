@@ -1,0 +1,14 @@
+import { NextRequest, NextResponse } from 'next/server';
+import { db } from '@/db';
+import { topics } from '@/db/schema';
+import { requireAdmin } from '@/lib/auth';
+
+export async function GET() {
+  try {
+    await requireAdmin();
+    const allTopics = db.select().from(topics).all();
+    return NextResponse.json({ topics: allTopics });
+  } catch (error: any) {
+    return NextResponse.json({ error: error.message || 'Unauthorized' }, { status: 401 });
+  }
+}
