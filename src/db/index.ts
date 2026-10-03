@@ -1,0 +1,24 @@
+import Database from 'better-sqlite3';
+import { drizzle } from 'drizzle-orm/better-sqlite3';
+import * as schema from './schema';
+import fs from 'fs';
+import path from 'path';
+
+const dbPath = process.env.DATABASE_PATH || path.join(process.cwd(), 'data', 'cerdasify.db');
+const dbDir = path.dirname(dbPath);
+
+if (!fs.existsSync(dbDir)) {
+  fs.mkdirSync(dbDir, { recursive: true });
+}
+
+const sqlite = new Database(dbPath);
+
+// Konfigurasi performa tinggi & anti database-lock (Wajib AGENTS.md)
+sqlite.pragma('journal_mode = WAL');
+sqlite.pragma('synchronous = NORMAL');
+sqlite.pragma('busy_timeout = 5000');
+sqlite.pragma('foreign_keys = ON');
+sqlite.pragma('cache_size = -64000'); // 64MB Cache
+
+export const db = drizzle(sqlite, { schema });
+export { sqlite };
