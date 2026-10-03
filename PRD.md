@@ -1,9 +1,9 @@
 # Product Requirements Document (PRD) — Cerdasify
 
 - **Nama Produk:** Cerdasify
-- **Tipe Aplikasi:** Fullstack Web Application (Next.js + SQLite WAL Mode)
-- **Versi Dokumen:** 1.0.0
-- **Status:** Draft Disetujui
+- **Tipe Aplikasi:** Fullstack Web Application (Next.js 16 + SQLite WAL Mode)
+- **Versi Dokumen:** 1.1.0
+- **Status:** Production Ready (Selesai Diimplementasikan)
 - **Terakhir Diperbarui:** 2026-10-03
 
 ---
@@ -14,7 +14,9 @@
 
 Aplikasi ini mengusung filosofi **ringan (lightweight), cepat, mobile-friendly**, serta memiliki estetika antarmuka yang bersih, elegan, dan fokus bebas distraksi (*distraction-free testing environment*).
 
-Sistem dirancang sebagai **Closed/Managed System**, di mana manajemen akun peserta dikontrol terpusat oleh Super Admin melalui antarmuka admin atau impor massal CSV/Excel, serta mendukung manajemen bank soal canggih dengan formula matematika (KaTeX/LaTeX), gambar, dan penilaian bertingkat (seperti TKP CPNS skala 1–5).
+Sistem dirancang sebagai **Closed/Managed System**, di mana manajemen akun peserta dikontrol terpusat oleh Super Admin melalui antarmuka admin atau impor massal CSV/Excel, serta mendukung manajemen bank soal canggih dengan formula matematika (KaTeX/LaTeX), stimulus gambar (*rich media with lightbox*), mode latihan yang bisa dijeda (*pausable practice mode*), dan penilaian bertingkat (seperti TKP CPNS skala 1–5).
+
+Saat ini, sistem telah memiliki **492 butir soal aktif** yang terbagi ke dalam **13 paket soal** (meliputi Olimpiade Matematika PRISMA 2024–2025 Level 1–3, Paket Buku Soal standar 40 butir per sesi, Aljabar Marathon 100 butir, dan Simulasi Mini CPNS SKD).
 
 ---
 
@@ -23,55 +25,51 @@ Sistem dirancang sebagai **Closed/Managed System**, di mana manajemen akun peser
 | Peran (Role) | Deskripsi | Kebutuhan Utama |
 |---|---|---|
 | **Super Admin** | Pengelola sistem utama / pemilik bimbel / koordinator tes | Manajemen bank soal global, impor massal soal & peserta (CSV/Excel), konfigurasi paket ujian, monitoring analitik pengerjaan, manajemen akun & RBAC. |
-| **Admin / Pengajar** | Kontributor soal & peninjau konten | Pembuatan & editing soal, upload media pembahasan, kurasi bank soal per kategori, validasi kunci jawaban. |
-| **Peserta / Siswa** | Siswa olimpiade, peserta bimbel, atau pejuang CPNS/TKA | Mengerjakan latihan mandiri & simulasi ujian berbasis waktu, melihat skor instan & analisis pembahasan mendalam, mengulang paket soal berkali-kali untuk evaluasi progres. |
+| **Admin / Pengajar** | Kontributor soal & peninjau konten | Pembuatan & editing soal, upload media stimulus & pembahasan, kurasi bank soal per kategori, validasi kunci jawaban. |
+| **Peserta / Siswa** | Siswa olimpiade, peserta bimbel, atau pejuang CPNS/TKA | Mengerjakan latihan mandiri (bisa dijeda & dilanjutkan) & simulasi ujian berbasis waktu, melihat skor instan & analisis pembahasan mendalam, memperbesar gambar soal (lightbox), mengulang paket soal berkali-kali untuk evaluasi progres. |
 
 ---
 
 ## 3. Fitur Utama & Kebutuhan Fungsional
 
 ### 3.1. Bank Soal & Manajemen Soal (Question Engine)
-1. **Hierarki Soal:**
-   - **Kategori Utama:** e.g., CPNS SKD, Olimpiade Sains, UTBK-SNBT, TKA Saintek/Soshum.
-   - **Subkategori / Topik:** e.g., TWK (Tes Wawasan Kebangsaan), TIU (Tes Inteligensia Umum), TKP (Tes Karakteristik Pribadi), Matematika Diskrit, Fisika Mekanika.
+1. **Hierarki Soal & Paket Siap Pakai:**
+   - **Kategori Utama:** Olimpiade Sains / Matematika, Buku Soal Standar, CPNS SKD, Aljabar & Matematika Lanjut.
+   - **Struktur Paket Soal (13 Paket Resmi):**
+     - *Paket per Berkas PRISMA:* PRISMA Olimpiade Matematika 2025 Level 1, Level 2, Level 3, dan PRISMA 2024 Level 1.
+     - *Paket Standar 40 Butir:* Buku Soal Sesi 1, 2, 3, 4, 5, 13, 21 (masing-masing 40 butir soal acak berbobot).
+     - *Paket Tematik:* Aljabar Marathon 100 Soal, Mini CPNS SKD 2026.
    - **Tingkat Kesulitan:** Mudah, Sedang, Sulit, HOTS (*Higher Order Thinking Skills*).
-   - **Tagging:** Multi-tag untuk fleksibilitas pencarian.
 2. **Format Soal yang Didukung:**
    - **Pilihan Ganda Standar (A–E):** 1 jawaban benar dengan bobot poin kustom.
    - **Pilihan Ganda Kompleks / Multi-Answer:** Lebih dari satu jawaban benar (model AKM/SNBT).
    - **Soal Bobot Skala Bertingkat (CPNS TKP):** Tiap opsi jawaban memiliki nilai 1–5 (tidak ada jawaban bernilai 0).
    - **Formula Matematika & Simbol Sains:** Rendering penuh LaTeX / KaTeX dan notasi matematika lainnya pada teks soal, seluruh opsi pilihan jawaban (A–E), dan teks pembahasan.
-   - **Rich Media:** Dukungan gambar pada stimulus soal, opsi pilihan, dan gambar penjelasan pembahasan.
-3. **Engine Notasi Matematika & Sains (LaTeX / KaTeX / AsciiMath):**
-   - **Format Notasi yang Didukung:**
-     - *Inline Math:* Menggunakan tanda dollar tunggal `$f(x) = ax^2 + bx + c$` atau `\( ... \)`.
-     - *Display / Block Math:* Menggunakan tanda double dollar `$$\lim_{x \to 0} \frac{\sin x}{x} = 1$$` atau `\[ ... \]`.
-     - *Multi-line & Environments:* Persamaan bercabang (`cases`), matriks (`matrix`, `pmatrix`, `bmatrix`), dan sistem persamaan (`aligned`).
-     - *Simbol Sains & Rumus Kompleks:* Fraksi (`\frac`), akar bertingkat (`\sqrt[n]{x}`), integral (`\int`), deret & sigma (`\sum`), limit, simbol Yunani ($\alpha, \beta, \gamma, \theta, \pi, \lambda$), serta notasi himpunan dan logika ($\in, \subset, \cup, \cap, \forall, \exists$).
-     - *Dukungan AsciiMath / Shorthand:* Opsi konverter otomatis untuk penulisan cepat tanpa backslash (misal: `sqrt(x)`, `x^2`, `a/b`, `<=`, `>=`).
-   - **Live Math Preview & Toolbar pada Admin Editor:**
-     - Toolbar interaktif untuk Super Admin/Admin dengan tombol cepat (*quick-insert*) rumus umum: pecahan, akar pangkat, pangkat/indeks, sigma, integral, matriks, dan simbol sains.
-     - Pratinjau langsung berdampingan (*real-time side-by-side preview*) saat menyusun soal atau pembahasan.
-   - **Rendering Responsif di Layar HP:**
-     - Formula matematika panjang otomatis dibungkus kontainer responsif (`overflow-x: auto`) dengan scrollbar halus agar tidak merusak layout (*no horizontal layout blowout*) pada layar 360px–420px.
-   - **Zero-Crash Graceful Degradation:**
-     - Error sintaks LaTeX (seperti kurung kurawal yang belum tertutup) ditangani dengan aman oleh parser tanpa membuat aplikasi crash, menampilkan teks formula asli dengan penanda visual lembut.
-4. **Impor & Ekspor Massal:**
+3. **Rich Media & Soal Bergambar (Image Support):**
+   - Media gambar pada teks pertanyaan, stimulus diagram/geometri, opsi jawaban, dan penjelasan pembahasan.
+   - **API Upload Gambar:** Endpoint `/api/admin/upload-image` di sisi server yang memvalidasi jenis berkas (`image/jpeg`, `image/png`, `image/webp`) dengan batasan ukuran 5MB dan penyimpanan otomatis ke `public/uploads/`.
+   - **Fitur Lightbox Zoom:** Peserta dapat mengeklik gambar di kartu soal untuk membukanya dalam modal pembesar layar penuh dengan latar belakang redup (*dim backdrop*), sangat krusial untuk soal geometri, diagram venn, dan grafik koordinat di layar smartphone.
+4. **Engine Notasi Matematika & Sains (LaTeX / KaTeX / AsciiMath):**
+   - *Inline Math:* Menggunakan tanda dollar tunggal `$f(x) = ax^2 + bx + c$` atau `\( ... \)`.
+   - *Display / Block Math:* Menggunakan tanda double dollar `$$\lim_{x \to 0} \frac{\sin x}{x} = 1$$` atau `\[ ... \]`.
+   - *Multi-line & Environments:* Persamaan bercabang (`cases`), matriks (`matrix`, `pmatrix`, `bmatrix`), dan sistem persamaan (`aligned`).
+   - *Simbol Sains & Rumus Kompleks:* Fraksi (`\frac`), akar bertingkat (`\sqrt[n]{x}`), integral (`\int`), deret & sigma (`\sum`), limit, simbol Yunani, derajat, dan subscript/superscript.
+   - *Live Math Preview & Toolbar:* Editor Admin dilengkapi quick-insert button untuk menyisipkan rumus umum tanpa harus menghafal sintaks LaTeX.
+   - *Mobile-Responsive & Zero-Crash:* Kontainer formula dilengkapi auto-scroll mendatar dan mekanisme penanganan error yang anggun (*graceful fallback*).
+5. **Impor & Ekspor Massal:**
    - Format: Excel (`.xlsx`) dan `.csv`.
    - Engine validasi pra-impor: memvalidasi format kolom, mendeteksi baris rusak, opsi jawaban kosong, dan format bobot salah sebelum data disimpan ke database.
-   - Dukungan karakter khusus formula (menjaga backslash `\` dan tanda koma di dalam formula agar tidak memecah kolom CSV).
-   - Halaman khusus **Panduan Format Impor & Download Template Resmi**.
-5. **Fitur Bank Soal:**
-   - Pencarian cerdas, filter multi-kategori, duplikasi paket soal, arsip soal, dan statistik tingkat kesulitan.
+   - Template resmi dapat diunduh langsung di panel admin (`public/templates/`).
 
 ### 3.2. Mode Pengerjaan Soal (Testing & Practice Engine)
-1. **Mode Latihan Mandiri (Self-Study Mode):**
-   - Bebas durasi waktu.
-   - Pembahasan dan status benar/salah dapat dicek langsung setelah menjawab.
-   - Opsi ulangi pengerjaan (*unlimited retakes*) dengan perbandingan riwayat skor.
+1. **Mode Latihan Mandiri (Pausable Practice Mode):**
+   - Mendukung fitur **Jeda (Pause)** dan **Lanjutkan (Resume)** via endpoint `/api/exam/pause` dan `/api/exam/resume`.
+   - **Proteksi Integritas Saat Jeda:** Saat latihan dijeda, sisa waktu tersimpan ke database (`remaining_seconds`), status attempt beralih ke `'PAUSED'`, dan kartu soal di antarmuka client ditutupi tirai pelindung (*screen blackout overlay*) sehingga peserta tidak dapat membaca soal sambil mencari jawaban saat waktu dihentikan.
+   - Peserta dapat menekan tombol **Lanjutkan Pengerjaan** kapan saja untuk membuka kembali soal dan melanjutkan timer secara tepat.
+   - Pembahasan dan status benar/salah dapat ditelaah setelah pengerjaan selesai.
 2. **Mode Simulasi / Ujian (Exam Simulation Mode):**
    - Countdown timer dengan mekanisme sinkronisasi anti-cheat berbasis server time.
-   - Antarmuka ala CAT BKN / UTBK:
+   - Antarmuka CAT BKN / UTBK:
      - Nomor soal cepat (*grid navigation*), indikator status (Sudah Dijawab, Ragu-ragu, Belum Dijawab).
      - Tombol "Ragu-ragu" yang dapat difilter.
      - Auto-save jawaban ke database setiap kali peserta memilih opsi (mencegah kehilangan data saat koneksi terputus).
@@ -80,52 +78,47 @@ Sistem dirancang sebagai **Closed/Managed System**, di mana manajemen akun peser
 3. **Pengacakan (Randomization):**
    - Opsi acak urutan soal (*Question Shuffle*).
    - Opsi acak urutan opsi jawaban (*Option Shuffle* - dengan tetap memetakan kunci jawaban secara akurat di backend).
-   - Opsi pengambilan sampel acak dari bank soal (misal: ambil 30 soal acak dari 100 soal dalam kategori TIU).
 
 ### 3.3. Sistem Penilaian Fleksibel (Scoring Engine)
 1. **Standar Penilaian CPNS SKD:**
-   - **TWK:** Benar = 5, Salah/Kosong = 0 (Passing Grade kustom, default misal: 65).
-   - **TIU:** Benar = 5, Salah/Kosong = 0 (Passing Grade kustom, default misal: 80).
-   - **TKP:** Tiap opsi bernilai 1 sampai 5 (Passing Grade kustom, default misal: 166).
-   - Penentuan status: **MEMENUHI AMBANG BATAS (LULUS PG)** atau **TIDAK MEMENUHI AMBANG BATAS**.
+   - **TWK:** Benar = 5, Salah/Kosong = 0 (Passing Grade default: 65).
+   - **TIU:** Benar = 5, Salah/Kosong = 0 (Passing Grade default: 80).
+   - **TKP:** Tiap opsi bernilai 1 sampai 5 (Passing Grade default: 166).
 2. **Standar Bobot Skor Kustom (Olimpiade/TKA):**
    - Bobot poin benar kustom (misal: +4), salah (-1 atau 0), kosong (0).
    - Konversi persentase nilai akhir (0–100) dan kalkulasi rata-rata waktu pengerjaan per soal.
 3. **Riwayat & Analisis Hasil:**
    - Skor breakdown per kategori/topik.
-   - Review lembar jawaban lengkap: kunci jawaban, alasan pembahasan, dan catatan materi.
+   - Review lembar jawaban lengkap: kunci jawaban, alasan pembahasan, dan catatan materi dengan formula KaTeX.
    - Riwayat percobaan (*Attempt History*) untuk melihat kurva peningkatan skor.
 
 ### 3.4. Manajemen Pengguna & RBAC (User & Security Engine)
 1. **Closed Registration Model:**
-   - Tidak ada pendaftaran umum publik tanpa izin.
-   - Super Admin dapat membuat akun satu per satu atau melakukan **Impor Peserta Massal** melalui file Excel/CSV (berisi Nama, Email/Username, Password default, Role, dan Kategori Kelas/Grup).
-   - Fitur reset password dan nonaktifkan akun peserta oleh Super Admin.
+   - Akun peserta dibuat langsung oleh Super Admin atau via **Impor Peserta Massal** (.xlsx / .csv).
 2. **Tingkatan Hak Akses (RBAC):**
-   - `SUPER_ADMIN`: Akses penuh ke seluruh sistem, master data, konfigurasi ujian, bank soal, akun pengguna, dan log audit.
-   - `ADMIN`: Akses ke pembuatan soal, kategori, dan melihat analitik peserta.
-   - `USER` (Peserta): Hanya dapat melihat paket soal yang ditugaskan/tersedia, mengerjakan ujian, dan melihat riwayat hasil pribadinya.
+   - `SUPER_ADMIN`: Akses penuh sistem, master data, konfigurasi ujian, bank soal, akun pengguna, dan log audit.
+   - `ADMIN`: Akses pembuatan soal, kategori, paket, dan statistik.
+   - `USER` (Peserta): Mengakses paket latihan/ujian dan riwayat hasil pribadi.
 
 ---
 
 ## 4. Desain UI/UX & Prinsip Tampilan
 
-1. **Lightweight & Fast-Loading:** Zero unnecessary heavy libraries, asset optimasi tinggi, performa skor Google Lighthouse 95+ di Mobile dan Desktop.
+1. **Lightweight & Fast-Loading:** Zero unnecessary heavy libraries, performa tinggi di perangkat mobile entry-level.
 2. **Mobile-First & Touch-Friendly:**
-   - Target sentuh (tap target) tombol opsi jawaban minimal 48px.
-   - Bottom sheet / Drawer yang ergonomis untuk navigasi daftar nomor soal pada layar ponsel.
-   - Sticky action bar bawah (Sebelumnya, Ragu-ragu, Selanjutnya).
+   - Target sentuh tombol opsi minimal 48px.
+   - Drawer ergonomis untuk navigasi daftar nomor soal pada layar ponsel.
+   - Sticky action bar bawah (Sebelumnya, Ragu-ragu, Jeda, Selanjutnya, Kumpulkan).
 3. **Simpel, Bersih, & Elegan:**
-   - Tipografi modern (Geist / Inter) dengan kontras warna yang nyaman untuk membaca teks panjang soal.
-   - Mode Terang (Clean Minimalist) dan dukungan Mode Gelap (OLED-friendly dark mode) yang tidak melelahkan mata saat ujian malam hari.
-   - Math rendering mulus tanpa lonjakan layout (*zero Cumulative Layout Shift*).
+   - Mode Terang dan Mode Gelap OLED-friendly.
+   - Modal Lightbox untuk pembesaran gambar stimulus soal secara instan.
 
 ---
 
 ## 5. Arsitektur Teknis
 
 ### 5.1. Tech Stack
-- **Framework:** Next.js (App Router, React 19 / Server Components + Route Handlers).
+- **Framework:** Next.js 16 (App Router, Server Components + Route Handlers).
 - **Language:** TypeScript (Strict Mode).
 - **Styling:** Tailwind CSS + Lucide Icons + KaTeX CSS.
 - **Database:** SQLite (menggunakan driver performa tinggi `better-sqlite3`).
@@ -137,10 +130,10 @@ Sistem dirancang sebagai **Closed/Managed System**, di mana manajemen akun peser
   PRAGMA foreign_keys = ON;
   PRAGMA cache_size = -64000; -- 64MB memory cache
   ```
-- **ORM / Query Builder:** Drizzle ORM (type-safe, zero overhead, dukungan migrasi teruji).
-- **Authentication & Session:** Session berbasis enkripsi Cookie HttpOnly (`iron-session` atau token terverifikasi aman), tanpa ketergantungan pihak ketiga.
-- **Parsing Spreadsheet:** `xlsx` (SheetJS) dan `csv-parse` untuk parsing berkas upload di sisi server.
-- **Math Rendering:** `katex` (SSR / fast client rendering).
+- **ORM / Query Builder:** Drizzle ORM.
+- **Authentication & Session:** Session berbasis enkripsi Cookie HttpOnly.
+- **Parsing Spreadsheet:** `xlsx` (SheetJS) dan `csv-parse`.
+- **Math Rendering:** `katex`.
 
 ### 5.2. Skema Relasi Database (Entity Relationship)
 
@@ -226,10 +219,11 @@ erDiagram
         text package_id FK
         datetime started_at
         datetime finished_at
+        integer remaining_seconds "Sisa detik saat di-pause"
         integer score_total
         json score_breakdown
         boolean is_passed
-        text status "IN_PROGRESS | COMPLETED | TIMED_OUT"
+        text status "IN_PROGRESS | PAUSED | COMPLETED | TIMED_OUT"
     }
 
     ATTEMPT_ANSWERS {
@@ -248,65 +242,49 @@ erDiagram
 ## 6. Format Dokumen Impor (CSV & Excel)
 
 ### 6.1. Spesifikasi Format Impor Soal
-Kolom wajib pada template:
-1. `kategori` — e.g., "CPNS SKD"
-2. `topik` — e.g., "TIU", "TWK", atau "TKP"
-3. `tipe_soal` — `SINGLE` (Pilihan Ganda Biasa), `SCALE` (Skala Bobot 1–5 CPNS TKP), atau `MULTI` (Multi-Jawaban)
-4. `pertanyaan` — Teks soal (mendukung format LaTeX dengan `$...$` atau `$$...$$`)
-5. `opsi_a` — Teks opsi A
-6. `opsi_b` — Teks opsi B
-7. `opsi_c` — Teks opsi C
-8. `opsi_d` — Teks opsi D
-9. `opsi_e` — Teks opsi E (opsional jika 4 pilihan)
-10. `kunci_jawaban` — Huruf opsi benar (`A`, `B`, `C`, `D`, atau `E`). Untuk tipe `SCALE` (TKP), format bobot nilai: `A:3,B:5,C:2,D:4,E:1`
-11. `pembahasan` — Penjelasan materi dan langkah penyelesaian
-12. `tingkat_kesulitan` — `MUDAH`, `SEDANG`, `SULIT`, atau `HOTS`
+1. `kategori` — e.g., "Olimpiade Matematika" atau "CPNS SKD"
+2. `topik` — e.g., "Geometri", "Aljabar", atau "TKP"
+3. `tipe_soal` — `SINGLE` (Pilihan Ganda Biasa), `SCALE` (Skala Bobot 1–5 CPNS TKP), atau `MULTI`
+4. `pertanyaan` — Teks soal (mendukung LaTeX `$...$` atau `$$...$$` dan tag gambar Markdown)
+5. `opsi_a` s/d `opsi_e` — Teks opsi pilihan jawaban
+6. `kunci_jawaban` — Huruf opsi benar (`A`–`E`) atau bobot `A:3,B:5,C:2,D:4,E:1`
+7. `pembahasan` — Penjelasan materi dan langkah penyelesaian matematis
+8. `tingkat_kesulitan` — `MUDAH`, `SEDANG`, `SULIT`, atau `HOTS`
 
 ### 6.2. Spesifikasi Format Impor Peserta
 1. `nama_lengkap` — e.g., "Budi Santoso"
-2. `username_atau_email` — e.g., "budi.cpns@gmail.com" atau "peserta_01"
-3. `password` — Password awal (akan di-hash aman dengan bcrypt/argon2 di server)
+2. `username_atau_email` — e.g., "siswa_budi"
+3. `password` — Password awal (di-hash aman dengan bcrypt)
 4. `role` — `USER` atau `ADMIN`
 
 ---
 
 ## 7. Keamanan & Kepatuhan (Security & Integrity)
 
-1. **Proteksi Autentikasi:**
-   - Password hashing standar industri (`bcrypt` dengan cost factor 12 atau `argon2id`).
-   - Session Cookies HttpOnly, Secure, SameSite=Lax.
-   - Proteksi brute-force login dengan rate limiter di Route Handler.
+1. **Proteksi Autentikasi:** Password hashing `bcrypt`, session cookie HttpOnly, proteksi RBAC per rute.
 2. **Integritas Ujian (Anti-Cheating Design):**
-   - Validasi batas waktu pengerjaan di server (jawaban yang disubmit melewati toleransi toleransi jaringan pasca-timer habis akan diabaikan).
-   - Kunci jawaban tidak pernah dikirim ke frontend selama sesi ujian berlangsung (hanya ID pertanyaan dan opsi yang dikirim ke browser peserta).
-   - Nilai dan pembahasan hanya di-generate di server saat status attempt berstatus `COMPLETED`.
+   - Validasi durasi di server.
+   - Kunci jawaban tidak pernah dikirim ke browser peserta saat ujian/latihan aktif berlangsung.
+   - Screen privacy overlay otomatis saat pengerjaan dijeda (*pause*).
 3. **Keamanan Basis Data SQLite WAL:**
-   - Menggunakan Prepared Statements untuk seluruh operasi query (kebal dari SQL Injection).
-   - Penanganan konkurensi dengan `PRAGMA busy_timeout = 5000` mencegah error `database is locked`.
-   - File `.sqlite` diletakkan di luar folder public (`./data/cerdasify.db`) dan tidak dapat diakses langsung via HTTP.
+   - Prepared statements anti-SQL Injection.
+   - `PRAGMA busy_timeout = 5000` mencegah lock pada transaksi auto-save paralel.
+   - Berkas database tersimpan aman di direktori `./data/cerdasify.db`.
 4. **Validasi File Upload:**
-   - Batasan ukuran berkas import maksimal 5MB.
-   - Pengecekan MIME type berkas sebelum parsing.
-   - Sanitasi teks input untuk mencegah serangan Stored XSS.
+   - Ukuran unggahan dibatasi maksimal 5MB.
+   - Whitelist MIME type gambar (`image/jpeg`, `image/png`, `image/webp`).
 
 ---
 
-## 8. Milestone & Rencana Implementasi
+## 8. Milestone & Status Implementasi
 
-1. **Phase 1: Foundation & Database Setup**
-   - Setup project Next.js TypeScript, Tailwind CSS, Drizzle ORM, SQLite WAL mode.
-   - Migrasi skema database & seeder akun Super Admin default.
-2. **Phase 2: Authentication & RBAC**
-   - Engine autentikasi aman berbasis cookie HttpOnly.
-   - Middleware otorisasi halaman berdasarkan role (Super Admin, Admin, User).
-3. **Phase 3: Bank Soal & Import Engine**
-   - CRUD Kategori, Topik, dan Soal dengan preview KaTeX.
-   - Parser Excel & CSV, validator baris, dan generator template unduhan.
-4. **Phase 4: Exam & Practice Engine**
-   - Antarmuka simulasi pengerjaan soal responsif & hemat memori.
-   - Auto-save jawaban, navigasi grid nomor, dan penanganan timeout.
-5. **Phase 5: Scoring, Analytics & History**
-   - Kalkulasi skor TKP (bobot bertingkat) dan passing grade CPNS/TKA.
-   - Halaman hasil ujian, analisis topik kelemahan, dan rekap ranking.
-6. **Phase 6: Testing, Polish & Hardening**
-   - Uji coba performa mobile, audit aksesibilitas, dan verifikasi konkurensi database WAL.
+| Fase | Deskripsi | Status | Catatan |
+|---|---|---|---|
+| **Phase 1** | Foundation & Database Setup (Next.js, Drizzle, SQLite WAL) | ✅ Selesai | PRAGMA WAL & busy_timeout terkonfigurasi |
+| **Phase 2** | Authentication & RBAC (HttpOnly Session, Middleware) | ✅ Selesai | 3 Akun Role Awal aktif |
+| **Phase 3** | Bank Soal, KaTeX Engine & Import (Excel/CSV) | ✅ Selesai | Live Math Toolbar & Template resmi siap unduh |
+| **Phase 4** | Exam Engine (Simulasi & Latihan, Auto-Save, Grid CAT) | ✅ Selesai | Navigasi interaktif responsif mobile |
+| **Phase 5** | Scoring, Analytics & History | ✅ Selesai | Review pembahasan & kalkulasi skor server-side |
+| **Phase 6** | Polish & Real Question Extraction | ✅ Selesai | 492 butir soal ter-extract dari dokumen Olimpiade & Buku Soal |
+| **Phase 7** | Rich Media & Pausable Practice Mode | ✅ Selesai | Upload gambar, Lightbox zoom, dan Pause & Resume aktif |
+

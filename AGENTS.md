@@ -54,6 +54,26 @@ export const db = drizzle(sqlite, { schema });
   - Penilaian dilakukan **100% di server** saat event submit atau time-out terjadi.
   - Server memvalidasi timestamp pengerjaan (`started_at` vs `finished_at`) untuk mendeteksi manipulasi durasi.
 
+### 2.4. Penanganan Soal Bergambar & Rich Media
+- **Penyimpanan Berkas:** Gambar yang diunggah disimpan di folder `public/uploads/` dengan nama unik acak (`timestamp-random.ext`) untuk menghindari benturan nama.
+- **Validasi Unggahan (`/api/admin/upload-image`):** Wajib memvalidasi MIME type (`image/jpeg`, `image/png`, `image/webp`) dan batasan ukuran berkas (maksimal 5MB).
+- **Lightbox Zoom:** Komponen kartu soal ([QuestionCard.tsx](file:///home/affan/projects/cerdasify/src/components/exam/QuestionCard.tsx)) dan halaman ulasan hasil ([results/[attemptId]/page.tsx](file:///home/affan/projects/cerdasify/src/app/(dashboard)/results/[attemptId]/page.tsx)) wajib membungkus gambar dengan interaksi klik pembesar (Lightbox Modal) untuk memudahkan membaca diagram/geometri di layar smartphone.
+
+### 2.5. Mekanisme State Pause & Resume (Mode Latihan)
+- **Tujuan:** Memberikan fleksibilitas pada peserta latihan mandiri tanpa mengorbankan integritas soal.
+- **Implementasi Database:**
+  - Skema tabel `attempts` memiliki kolom `remaining_seconds: integer('remaining_seconds')` dan status `'PAUSED'`.
+- **Rute API:**
+  - `POST /api/exam/pause`: Menerima `attemptId` dan `remainingSeconds`, memverifikasi kepemilikan attempt, lalu mengupdate status ke `'PAUSED'`.
+  - `POST /api/exam/resume`: Mengembalikan status attempt ke `'IN_PROGRESS'` dan mengembalikan sisa detik pengerjaan.
+- **Proteksi Tampilan (Screen Privacy Overlay):** Saat state `isPaused` bernilai `true`, konten soal di antarmuka browser **WAJIB** disembunyikan di balik backdrop overlay (*screen blackout*) sehingga peserta tidak dapat membaca soal sambil menghentikan timer.
+
+### 2.6. Struktur Paket Soal (13 Paket Bawaan)
+- **Paket Berkas PRISMA:** Mengelompokkan soal per berkas kompetisi (PRISMA 2025 Level 1, 2, 3 dan PRISMA 2024 Level 1) lengkap dengan aset gambar asli.
+- **Paket Standar 40 Butir:** Mengelompokkan soal per sesi latihan berisi tepat 40 butir (Buku Soal Sesi 1, 2, 3, 4, 5, 13, 21).
+- **Paket Tematik:** Aljabar Marathon 100 Soal dan Mini CPNS SKD 2026.
+- Total terdapat 492 butir soal terdistribusi yang dikelola secara atomic via `src/db/seed.ts`.
+
 ---
 
 ## 3. Aturan Manajemen Kode & Struktur Direktori
@@ -64,32 +84,36 @@ Struktur proyek standar yang harus dipatuhi:
 cerdasify/
 ├── data/                      # Lokasi file SQLite (*.db, *.db-wal, *.db-shm) - gitignored
 ├── public/                    # Aset statis, template import (.csv, .xlsx), logo
-│   └── templates/             # File template import resmi untuk diunduh user
+│   ├── templates/             # File template import resmi untuk diunduh user
+│   └── uploads/               # Berkas gambar stimulus soal & opsi
 ├── src/
 │   ├── app/                   # App Router Next.js
 │   │   ├── (auth)/            # Login & session checkpoint
-│   │   ├── (dashboard)/       # Dashboard user/peserta
+│   │   ├── (dashboard)/       # Dashboard user/peserta & ulasan hasil
 │   │   ├── (exam)/            # Halaman pengerjaan ujian (Distraction-free)
 │   │   ├── admin/             # Panel Super Admin & Admin
 │   │   │   ├── bank-soal/     # Manajemen Soal, Kategori & Topik
 │   │   │   ├── import/        # Fitur Import Soal & Peserta
 │   │   │   ├── users/         # Manajemen Pengguna
 │   │   │   └── packages/      # Manajemen Paket Soal & Ujian
-│   │   └── api/               # Route Handlers jika diperlukan (misal: export streaming)
+│   │   └── api/               # Route Handlers (Auth, Exam, Admin, Upload)
 │   ├── components/            # Reusable UI components
-│   │   ├── exam/              # Timer, GridNav, QuestionCard, OptionItem
+│   │   ├── exam/              # Timer, GridNav, QuestionCard, PauseOverlay, Lightbox
 │   │   ├── katex/             # MathRenderer (LaTeX)
 │   │   ├── ui/                # Button, Modal, Drawer, Badge, Input
-│   │   └── admin/             # FileUploader, Table, StatsCard
+│   │   └── admin/             # MathEditorToolbar, FileUploader, Table, StatsCard
 │   ├── db/                    # Drizzle schema, migrations, connection singleton
 │   │   ├── schema/
-│   │   └── index.ts
+│   │   ├── index.ts
+│   │   └── seed.ts            # Seeder 492 butir soal & 13 paket
 │   ├── lib/                   # Utility functions
 │   │   ├── auth.ts            # Hashing, token/session management, RBAC checks
 │   │   ├── import-parser.ts   # Parser & validator Excel/CSV
 │   │   ├── scoring.ts         # Logic penilaian (Standard, CPNS TKP scale 1-5)
 │   │   └── utils.ts
 │   └── types/                 # Shared TypeScript interfaces & types
+├── DOCS_PANDUAN_PENGGUNAAN.md # Panduan Lengkap Pengguna & Operator
+├── DOCS_DEVELOPMENT.md        # Panduan Arsitektur & Rekayasa Developer
 ├── PRD.md                     # Product Requirements Document
 ├── AGENTS.md                  # File petunjuk ini
 └── README.md                  # Dokumentasi proyek & panduan deployment
@@ -138,8 +162,21 @@ Ketika mengimplementasikan atau memodifikasi modul import (`import-parser.ts`):
 ## 6. Checklist Verifikasi Sebelum Menandai Tugas Selesai
 
 Setiap agen yang menyelesaikan tugas wajib memverifikasi:
-- [ ] `npm run lint` / TypeScript check lolos tanpa error tipe.
+- [ ] `npm run lint` / TypeScript check (`npx tsc --noEmit`) lolos tanpa error tipe.
 - [ ] Fitur berjalan dengan responsif pada resolusi layar mobile (360px–420px) dan desktop.
 - [ ] Tidak ada kunci jawaban yang bocor di network tab / response JSON pada rute ujian aktif.
+- [ ] Fitur Pause & Resume mode latihan berfungsi presisi dan menutup tampilan soal saat dijeda.
+- [ ] Soal bergambar dapat di-zoom melalui modal Lightbox.
 - [ ] Error database SQLite ditangani dengan try-catch yang informatif dan tidak crash pada server.
 - [ ] File template impor (`.csv` dan `.xlsx`) tetap sinkron dengan skema validasi.
+- [ ] Dokumentasi (`README.md`, `PRD.md`, `AGENTS.md`, `DOCS_PANDUAN_PENGGUNAAN.md`, `DOCS_DEVELOPMENT.md`) tetap mutakhir.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->
