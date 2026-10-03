@@ -11516,24 +11516,24 @@
     "topic": "Matematika Level 2 (2025)",
     "difficulty": "MEDIUM",
     "type": "SINGLE_CHOICE",
-    "question": "Urutkan pecahan-pecahan berikut dari yang terbesar : 56 , 34 , 79 , 23",
+    "question": "Urutkan pecahan-pecahan berikut dari yang terbesar : $\\frac{5}{6} , \\frac{3}{4} , \\frac{7}{9} , \\frac{2}{3}$",
     "image_url": null,
     "options": [
       {
         "label": "A",
-        "content": "23 , 34 , 79 , 56"
+        "content": "$\\frac{2}{3} , \\frac{3}{4} , \\frac{7}{9} , \\frac{5}{6}$"
       },
       {
         "label": "B",
-        "content": "56 , 79 , 34 , 23"
+        "content": "$\\frac{5}{6} , \\frac{7}{9} , \\frac{3}{4} , \\frac{2}{3}$"
       },
       {
         "label": "C",
-        "content": "34 , 23 , 56 , 79"
+        "content": "$\\frac{3}{4} , \\frac{2}{3} , \\frac{5}{6} , \\frac{7}{9}$"
       },
       {
         "label": "D",
-        "content": "79 , 56 , 34 , 23"
+        "content": "$\\frac{7}{9} , \\frac{5}{6} , \\frac{3}{4} , \\frac{2}{3}$"
       }
     ],
     "correct_answer": "B",
@@ -11545,28 +11545,28 @@
     "topic": "Matematika Level 2 (2025)",
     "difficulty": "MEDIUM",
     "type": "SINGLE_CHOICE",
-    "question": "Sudut 25  putaran besarnya ...",
+    "question": "Sudut $\\frac{2}{5}$ putaran besarnya ...",
     "image_url": null,
     "options": [
       {
         "label": "A",
-        "content": "72o"
+        "content": "$72^\\circ$"
       },
       {
         "label": "B",
-        "content": "144 o"
+        "content": "$144^\\circ$"
       },
       {
         "label": "C",
-        "content": "180 o"
+        "content": "$180^\\circ$"
       },
       {
         "label": "D",
-        "content": "216 o"
+        "content": "$216^\\circ$"
       }
     ],
     "correct_answer": "B",
-    "explanation": "Langkah penyelesaian untuk soal Sudut 25  putaran besarnya ......"
+    "explanation": "Besar sudut satu putaran penuh adalah $360^\\circ$. Maka sudut $\\frac{2}{5}$ putaran besarnya adalah $\\frac{2}{5} \\times 360^\\circ = 144^\\circ$."
   },
   {
     "package_key": "pkg_prisma_2025_m2",
@@ -12962,24 +12962,24 @@
     "topic": "Matematika Level 3 (2025)",
     "difficulty": "MEDIUM",
     "type": "SINGLE_CHOICE",
-    "question": "Sebuah segitga ABC memiliki sudut A = 60o dan sudut B = 80o. Di dalam segitiga tersebut, terdapat titik D sedemikian sehingga garis AD membagi sudut A menjadi dua sama besar, dan garis BD membagi sudut B menjadi dua sama besar. Besar sudut ADB adalah …",
+    "question": "Sebuah segitiga ABC memiliki sudut  = 60^\\circ$ dan sudut  = 80^\\circ$. Di dalam segitiga tersebut, terdapat titik D sedemikian sehingga garis AD membagi sudut A menjadi dua sama besar, dan garis BD membagi sudut B menjadi dua sama besar. Besar sudut ADB adalah …",
     "image_url": null,
     "options": [
       {
         "label": "A",
-        "content": "100o"
+        "content": "00^\\circ$"
       },
       {
         "label": "B",
-        "content": "110o"
+        "content": "10^\\circ$"
       },
       {
         "label": "C",
-        "content": "120o"
+        "content": "20^\\circ$"
       },
       {
         "label": "D",
-        "content": "130o"
+        "content": "30^\\circ$"
       }
     ],
     "correct_answer": "B",

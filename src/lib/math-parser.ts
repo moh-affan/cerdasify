@@ -22,6 +22,13 @@ export function convertShorthandToLatex(input: string): string {
 
   let res = input;
 
+  // Convert degree notations like 72o, 144 o, 180 o, 216 o, 60o, 80o, 90°, 360° to LaTeX
+  res = res.replace(/(^|[^a-zA-Z0-9_\$])(\d+)\s*[o°º](?![a-zA-Z0-9])/g, '$1$$$2^\\circ$$');
+
+  // Also replace freestanding degree symbols inside math formulas
+  res = res.replace(/°/g, '^\\circ');
+  res = res.replace(/º/g, '^\\circ');
+
   // Replace unicode shapes with LaTeX equivalents if inside or near math
   res = res
     .replace(/☐/g, '\\square ')
