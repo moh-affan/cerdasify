@@ -1,0 +1,67 @@
+import { notFound } from 'next/navigation';
+import { db } from '@/db';
+import { questions, questionOptions, topics, categories } from '@/db/schema';
+import { requireAdmin } from '@/lib/auth';
+import { eq, asc } from 'drizzle-orm';
+import EditQuestionClient from './EditQuestionClient';
+
+interface EditQuestionPageProps {
+  params: Promise<{ id: string }>;
+}
+
+export default async function EditQuestionPage({ params }: EditQuestionPageProps) {
+  await requireAdmin();
+  const { id } = await params;
+
+  // 1. Fetch Question
+  const question = db
+    .select()
+    .from(questions)
+    .where(eq(questions.id, id))
+    .get();
+
+  if (!question) {
+    notFound();
+  }
+
+  // 2. Fetch Options
+  const options = db
+    .select()
+    .from(questionOptions)
+    .where(eq(questionOptions.questionId, id))
+    .orderBy(asc(questionOptions.orderIndex))
+    .all();
+
+  // 3. Fetch all topics and categories
+  const allCategories = db.select().from(categories).all();
+  const catMap = new Map(allCategories.map((c) => [c.id, c.name]));
+
+  const allTopics = db.select().from(topics).orderBy(asc(topics.name)).all();
+  const topicsList = allTopics.map((t) => ({
+    id: t.id,
+    name: t.name,
+    categoryName: catMap.get(t.categoryId),
+  }));
+
+  return (
+    <EditQuestionClient
+      question={{
+        id: question.id,
+        topicId: question.topicId,
+        type: question.type as any,
+        difficulty: question.difficulty as any,
+        contentMarkdown: question.contentMarkdown,
+        imageUrl: question.imageUrl,
+        explanationMarkdown: question.explanationMarkdown,
+      }}
+      initialOptions={options.map((opt) => ({
+        id: opt.id,
+        label: opt.label,
+        contentMarkdown: opt.contentMarkdown,
+        isCorrect: Boolean(opt.isCorrect),
+        scoreValue: opt.scoreValue,
+      }))}
+      topicsList={topicsList}
+    />
+  );
+}

@@ -350,6 +350,13 @@ export default async function AdminBankSoalPage({
                     <span className="text-[10px] font-mono text-slate-400">
                       ID: {q.id}
                     </span>
+                    <Link
+                      href={`/admin/bank-soal/${q.id}`}
+                      className="p-1.5 rounded-xl text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 border border-slate-200/60 hover:border-indigo-200 transition active:scale-95"
+                      title="Edit Butir Soal"
+                    >
+                      <Edit3 className="w-3.5 h-3.5" />
+                    </Link>
                   </div>
                 </div>
 
