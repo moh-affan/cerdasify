@@ -11,6 +11,7 @@ import {
   Clock,
   Award,
   ChevronRight,
+  ChevronLeft,
   LogOut,
   Shield,
   User,
@@ -21,10 +22,24 @@ import {
   RotateCcw,
   Image as ImageIcon,
   PauseCircle,
+  Search,
+  Filter,
+  X,
 } from 'lucide-react';
 
-export default async function UserDashboardPage() {
+export default async function UserDashboardPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string; category?: string; type?: string; page?: string }>;
+}) {
   const user = await getCurrentUser();
+  const sp = await searchParams;
+
+  const searchQuery = (sp.q || '').trim().toLowerCase();
+  const selectedCategory = sp.category || '';
+  const selectedType = sp.type || '';
+  const requestedPage = Math.max(1, parseInt(sp.page || '1', 10));
+  const PAGE_SIZE = 9;
 
   // Load published packages
   const packagesList = db
@@ -41,7 +56,7 @@ export default async function UserDashboardPage() {
     .where(eq(examPackages.isPublished, true))
     .all();
 
-  const allCategories = db.select().from(categories).all();
+  const allCategories = db.select().from(categories).orderBy(categories.orderIndex).all();
   const categoryMap = new Map(allCategories.map((c) => [c.id, c.name]));
 
   // Get question counts and image presence for each package
@@ -65,6 +80,40 @@ export default async function UserDashboardPage() {
       hasImages,
     };
   });
+
+  // Filter packages based on search query, category, and type
+  const filteredPackages = packageStats.filter((pkg) => {
+    if (searchQuery && !pkg.title.toLowerCase().includes(searchQuery) && !pkg.categoryName.toLowerCase().includes(searchQuery)) {
+      return false;
+    }
+    if (selectedCategory && pkg.categoryId !== selectedCategory) {
+      return false;
+    }
+    if (selectedType && pkg.type !== selectedType) {
+      return false;
+    }
+    return true;
+  });
+
+  // Pagination calculation
+  const totalFiltered = filteredPackages.length;
+  const totalPages = Math.max(1, Math.ceil(totalFiltered / PAGE_SIZE));
+  const currentPage = Math.min(requestedPage, totalPages);
+  const startIdx = (currentPage - 1) * PAGE_SIZE;
+  const paginatedPackages = filteredPackages.slice(startIdx, startIdx + PAGE_SIZE);
+
+  // Helper to build pagination links
+  const createPageUrl = (pageNumber: number) => {
+    const params = new URLSearchParams();
+    if (sp.q) params.set('q', sp.q);
+    if (sp.category) params.set('category', sp.category);
+    if (sp.type) params.set('type', sp.type);
+    if (pageNumber > 1) params.set('page', String(pageNumber));
+    const qs = params.toString();
+    return qs ? `/?${qs}` : '/';
+  };
+
+  const isFilterActive = Boolean(searchQuery || selectedCategory || selectedType);
 
   // User's past attempts
   const userAttempts = user
@@ -142,81 +191,235 @@ export default async function UserDashboardPage() {
         </section>
 
         {/* Available Packages Section */}
-        <section className="space-y-4">
-          <div className="flex items-center justify-between">
+        <section className="space-y-5">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
               <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2">
                 <BookOpen className="w-5 h-5 text-indigo-600" />
                 Daftar Paket Soal & Simulasi Ujian
               </h2>
               <p className="text-xs text-slate-500 mt-0.5">
-                Pilih paket ujian untuk memulai simulasi pengerjaan soal
+                Tersedia {packageStats.length} paket latihan & simulasi siap dikerjakan
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {packageStats.map((pkg) => (
-              <div
-                key={pkg.id}
-                className="bg-white rounded-3xl border border-slate-200 p-6 shadow-xs hover:shadow-md hover:border-indigo-300 transition-all duration-200 flex flex-col justify-between group"
-              >
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-100 uppercase tracking-wide">
-                      {pkg.categoryName}
-                    </span>
-                    <span className="text-[11px] font-semibold text-slate-500 flex items-center gap-1">
-                      <Clock className="w-3.5 h-3.5 text-slate-400" />
-                      {pkg.durationMinutes} Menit
-                    </span>
-                  </div>
-
-                  <h3 className="font-bold text-slate-900 text-base leading-snug group-hover:text-indigo-600 transition">
-                    {pkg.title}
-                  </h3>
-
-                  {/* Feature Badges */}
-                  <div className="flex flex-wrap items-center gap-1.5 pt-1">
-                    {pkg.type === 'PRACTICE' ? (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-amber-50 text-amber-800 border border-amber-200">
-                        <PauseCircle className="w-3 h-3 text-amber-600" />
-                        Mode Latihan (Bisa Dijeda)
-                      </span>
-                    ) : (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">
-                        Simulasi Resmi
-                      </span>
-                    )}
-
-                    {pkg.hasImages && (
-                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-purple-50 text-purple-700 border border-purple-200">
-                        <ImageIcon className="w-3 h-3 text-purple-600" />
-                        Soal Bergambar
-                      </span>
-                    )}
-                  </div>
-
-                  <div className="flex items-center gap-4 text-xs text-slate-500 pt-1">
-                    <span className="flex items-center gap-1.5 font-medium">
-                      <Award className="w-4 h-4 text-indigo-500" />
-                      {pkg.questionCount} Butir Soal
-                    </span>
-                  </div>
-                </div>
-
-                <div className="pt-6 mt-6 border-t border-slate-100">
-                  <Link
-                    href={`/exam/${pkg.id}`}
-                    className="w-full py-2.5 px-4 rounded-xl bg-slate-900 group-hover:bg-indigo-600 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-xs group-hover:shadow-indigo-500/20 active:scale-98 transition"
-                  >
-                    <Play className="w-3.5 h-3.5 fill-current" />
-                    <span>Mulai Pengerjaan</span>
-                  </Link>
-                </div>
+          {/* Filter & Search Bar */}
+          <div className="bg-white rounded-2xl p-4 border border-slate-200/80 shadow-xs">
+            <form method="GET" action="/" className="flex flex-col md:flex-row gap-3">
+              {/* Search text */}
+              <div className="relative flex-1">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-3" />
+                <input
+                  type="text"
+                  name="q"
+                  defaultValue={sp.q || ''}
+                  placeholder="Cari judul paket ujian atau kompetisi..."
+                  className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-800 placeholder:text-slate-400 focus:outline-hidden focus:border-indigo-500 focus:bg-white transition"
+                />
               </div>
-            ))}
+
+              {/* Category Filter */}
+              <div className="w-full md:w-56">
+                <select
+                  name="category"
+                  defaultValue={selectedCategory}
+                  className="w-full py-2.5 px-3 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-700 focus:outline-hidden focus:border-indigo-500 focus:bg-white transition"
+                >
+                  <option value="">Semua Kategori ({allCategories.length})</option>
+                  {allCategories.map((c) => {
+                    const cnt = packageStats.filter((p) => p.categoryId === c.id).length;
+                    return (
+                      <option key={c.id} value={c.id}>
+                        {c.name} ({cnt})
+                      </option>
+                    );
+                  })}
+                </select>
+              </div>
+
+              {/* Type Filter */}
+              <div className="w-full md:w-44">
+                <select
+                  name="type"
+                  defaultValue={selectedType}
+                  className="w-full py-2.5 px-3 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-700 focus:outline-hidden focus:border-indigo-500 focus:bg-white transition"
+                >
+                  <option value="">Semua Mode</option>
+                  <option value="SIMULATION">Simulasi Resmi</option>
+                  <option value="PRACTICE">Mode Latihan (Jeda)</option>
+                </select>
+              </div>
+
+              {/* Actions */}
+              <div className="flex items-center gap-2">
+                <button
+                  type="submit"
+                  className="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold shadow-xs transition active:scale-95 flex items-center justify-center gap-1.5"
+                >
+                  <Filter className="w-3.5 h-3.5" />
+                  <span>Terapkan</span>
+                </button>
+
+                {isFilterActive && (
+                  <Link
+                    href="/"
+                    className="p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-semibold transition"
+                    title="Reset Filter"
+                  >
+                    <X className="w-4 h-4" />
+                  </Link>
+                )}
+              </div>
+            </form>
           </div>
+
+          {/* Results Summary */}
+          <div className="flex items-center justify-between text-xs text-slate-500 px-1">
+            <span>
+              Menampilkan {totalFiltered > 0 ? startIdx + 1 : 0}–{Math.min(startIdx + PAGE_SIZE, totalFiltered)} dari {totalFiltered} paket soal
+              {isFilterActive && ' (difilter)'}
+            </span>
+            {totalPages > 1 && (
+              <span>Halaman {currentPage} dari {totalPages}</span>
+            )}
+          </div>
+
+          {/* Packages Grid */}
+          {paginatedPackages.length === 0 ? (
+            <div className="bg-white rounded-3xl border border-dashed border-slate-300 p-12 text-center space-y-3">
+              <BookOpen className="w-10 h-10 text-slate-300 mx-auto" />
+              <h3 className="font-bold text-slate-800 text-sm">Tidak Ada Paket Soal yang Cocok</h3>
+              <p className="text-xs text-slate-500 max-w-sm mx-auto">
+                Silakan ubah kata kunci pencarian atau bersihkan filter kategori/mode ujian untuk melihat paket soal lainnya.
+              </p>
+              {isFilterActive && (
+                <Link
+                  href="/"
+                  className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold transition"
+                >
+                  <X className="w-3.5 h-3.5" />
+                  <span>Hapus Semua Filter</span>
+                </Link>
+              )}
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {paginatedPackages.map((pkg) => (
+                <div
+                  key={pkg.id}
+                  className="bg-white rounded-3xl border border-slate-200 p-6 shadow-xs hover:shadow-md hover:border-indigo-300 transition-all duration-200 flex flex-col justify-between group"
+                >
+                  <div className="space-y-3">
+                    <div className="flex items-center justify-between">
+                      <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-100 uppercase tracking-wide">
+                        {pkg.categoryName}
+                      </span>
+                      <span className="text-[11px] font-semibold text-slate-500 flex items-center gap-1">
+                        <Clock className="w-3.5 h-3.5 text-slate-400" />
+                        {pkg.durationMinutes} Menit
+                      </span>
+                    </div>
+
+                    <h3 className="font-bold text-slate-900 text-base leading-snug group-hover:text-indigo-600 transition">
+                      {pkg.title}
+                    </h3>
+
+                    {/* Feature Badges */}
+                    <div className="flex flex-wrap items-center gap-1.5 pt-1">
+                      {pkg.type === 'PRACTICE' ? (
+                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-amber-50 text-amber-800 border border-amber-200">
+                          <PauseCircle className="w-3 h-3 text-amber-600" />
+                          Mode Latihan (Bisa Dijeda)
+                        </span>
+                      ) : (
+                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">
+                          Simulasi Resmi
+                        </span>
+                      )}
+
+                      {pkg.hasImages && (
+                        <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-purple-50 text-purple-700 border border-purple-200">
+                          <ImageIcon className="w-3 h-3 text-purple-600" />
+                          Soal Bergambar
+                        </span>
+                      )}
+                    </div>
+
+                    <div className="flex items-center gap-4 text-xs text-slate-500 pt-1">
+                      <span className="flex items-center gap-1.5 font-medium">
+                        <Award className="w-4 h-4 text-indigo-500" />
+                        {pkg.questionCount} Butir Soal
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="pt-6 mt-6 border-t border-slate-100">
+                    <Link
+                      href={`/exam/${pkg.id}`}
+                      className="w-full py-2.5 px-4 rounded-xl bg-slate-900 group-hover:bg-indigo-600 text-white font-semibold text-xs flex items-center justify-center gap-2 shadow-xs group-hover:shadow-indigo-500/20 active:scale-98 transition"
+                    >
+                      <Play className="w-3.5 h-3.5 fill-current" />
+                      <span>Mulai Pengerjaan</span>
+                    </Link>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Pagination Controls */}
+          {totalPages > 1 && (
+            <div className="flex items-center justify-center gap-2 pt-6">
+              {/* Previous */}
+              <Link
+                href={currentPage > 1 ? createPageUrl(currentPage - 1) : '#'}
+                className={`p-2.5 rounded-xl border text-xs font-semibold flex items-center gap-1 transition ${
+                  currentPage > 1
+                    ? 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
+                    : 'border-slate-100 bg-slate-50 text-slate-300 pointer-events-none'
+                }`}
+                aria-disabled={currentPage <= 1}
+              >
+                <ChevronLeft className="w-4 h-4" />
+                <span className="hidden sm:inline">Sebelumnya</span>
+              </Link>
+
+              {/* Numbered Page Buttons */}
+              <div className="flex items-center gap-1">
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => {
+                  const isActive = p === currentPage;
+                  return (
+                    <Link
+                      key={p}
+                      href={createPageUrl(p)}
+                      className={`w-9 h-9 rounded-xl font-bold text-xs flex items-center justify-center transition ${
+                        isActive
+                          ? 'bg-indigo-600 text-white shadow-xs'
+                          : 'border border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
+                      }`}
+                    >
+                      {p}
+                    </Link>
+                  );
+                })}
+              </div>
+
+              {/* Next */}
+              <Link
+                href={currentPage < totalPages ? createPageUrl(currentPage + 1) : '#'}
+                className={`p-2.5 rounded-xl border text-xs font-semibold flex items-center gap-1 transition ${
+                  currentPage < totalPages
+                    ? 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50'
+                    : 'border-slate-100 bg-slate-50 text-slate-300 pointer-events-none'
+                }`}
+                aria-disabled={currentPage >= totalPages}
+              >
+                <span className="hidden sm:inline">Selanjutnya</span>
+                <ChevronRight className="w-4 h-4" />
+              </Link>
+            </div>
+          )}
         </section>
 
         {/* History of Past Attempts */}

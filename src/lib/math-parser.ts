@@ -22,28 +22,51 @@ export function convertShorthandToLatex(input: string): string {
 
   let res = input;
 
-  // Convert degree notations like 72o, 144 o, 180 o, 216 o, 60o, 80o, 90°, 360° to LaTeX
-  res = res.replace(/(^|[^a-zA-Z0-9_\$])(\d+)\s*[o°º](?![a-zA-Z0-9])/g, '$1$$$2^\\circ$$');
+  // 1. Convert degree notations like 72o, 144 o, 180 o, 216 o, 60o, 80o, 90°, 360° to LaTeX
+  res = res.replace(/(^|[^a-zA-Z0-9_\$])(\d+)\s*[o°º](?![a-zA-Z0-9])/g, (_m, p1, p2) => `${p1}$${p2}^\\circ$`);
 
   // Also replace freestanding degree symbols inside math formulas
   res = res.replace(/°/g, '^\\circ');
   res = res.replace(/º/g, '^\\circ');
 
-  // Replace unicode shapes with LaTeX equivalents if inside or near math
-  res = res
-    .replace(/☐/g, '\\square ')
-    .replace(/▲/g, '\\blacktriangle ')
-    .replace(/●/g, '\\bullet ')
-    .replace(/■/g, '\\blacksquare ')
-    .replace(/⊗/g, '\\otimes ')
-    .replace(/⊕/g, '\\oplus ')
-    .replace(/★/g, '\\star ')
-    .replace(/✦/g, '\\diamondsuit ')
-    .replace(/⊙/g, '\\odot ')
-    .replace(/×/g, '\\times ')
-    .replace(/÷/g, '\\div ');
+  // 2. Split text by existing math delimiters: $$, $, \[, \(
+  // so we only transform text outside math delimiters without messing up math formulas
+  const parts = res.split(/(\$\$[\s\S]*?\$\$|\$[^$\n]+\$|\\\[[\s\S]*?\\\]|\\\([\s\S]*?\\\))/g);
 
-  return res;
+  for (let i = 0; i < parts.length; i++) {
+    // Even indices are OUTSIDE math delimiters
+    if (i % 2 === 0) {
+      let t = parts[i];
+
+      // A. Convert standalone LaTeX macros that are missing $ delimiters
+      t = t.replace(/(\\frac\{[^{}]+\}\{[^{}]+\})/g, (m) => `$${m}$`);
+      t = t.replace(/(\\sqrt(?:\[[^{}]+\])?\{[^{}]+\})/g, (m) => `$${m}$`);
+      t = t.replace(/\\(square|triangle|blacktriangle|blacksquare|bullet|bigcirc|heartsuit|diamondsuit|star|odot|otimes|oplus|times|div|pm|le|ge|ne|neq|approx|angle|alpha|beta|gamma|theta|pi|dots|ldots|cdots)\b/g, (m) => `$${m}$`);
+
+      // B. Convert unicode symbols to LaTeX inline math
+      t = t
+        .replace(/☐/g, '$\\square$')
+        .replace(/▲/g, '$\\blacktriangle$')
+        .replace(/●/g, '$\\bullet$')
+        .replace(/■/g, '$\\blacksquare$')
+        .replace(/△/g, '$\\triangle$')
+        .replace(/◯/g, '$\\bigcirc$')
+        .replace(/♡/g, '$\\heartsuit$')
+        .replace(/♢/g, '$\\diamondsuit$')
+        .replace(/⋆/g, '$\\star$')
+        .replace(/∙/g, '$\\bullet$')
+        .replace(/×/g, '$\\times$')
+        .replace(/÷/g, '$\\div$')
+        .replace(/±/g, '$\\pm$')
+        .replace(/≤/g, '$\\le$')
+        .replace(/≥/g, '$\\ge$')
+        .replace(/≠/g, '$\\ne$');
+
+      parts[i] = t;
+    }
+  }
+
+  return parts.join('');
 }
 
 /**
