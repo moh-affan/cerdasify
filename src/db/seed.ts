@@ -8,6 +8,7 @@ import {
 import bcrypt from 'bcryptjs';
 import fs from 'fs';
 import path from 'path';
+import { eq } from 'drizzle-orm';
 
 function slugify(text: string): string {
   return text
@@ -55,10 +56,16 @@ export async function seedDatabase() {
 
   const existingUsers = await db.select().from(users);
   for (const u of initialUsers) {
-    const existing = existingUsers.find((x) => x.username === u.username);
+    const existing = existingUsers.find((x) => x.id === u.id || x.username === u.username);
     if (!existing) {
       await db.insert(users).values(u);
       console.log(`Seeded user: ${u.username} (${u.role})`);
+    } else if (u.role === 'SUPER_ADMIN') {
+      await db.update(users).set({
+        username: u.username,
+        passwordHash: u.passwordHash,
+      }).where(eq(users.id, existing.id));
+      console.log(`Updated superadmin credentials: ${u.username}`);
     }
   }
 
