@@ -10,13 +10,13 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 
 - **Total Berkas Naskah Soal & Kunci:** `381` berkas
 
-- **Sudah Diimpor ke Database:** `34` berkas (`8.9%`)
+- **Sudah Diimpor ke Database:** `36` berkas (`9.4%`)
 
-- **Belum Diimpor (Antrean Todo):** `347` berkas
+- **Belum Diimpor (Antrean Todo):** `345` berkas
 
-- **Total Soal di Cerdasify Saat Ini:** `1,402` butir soal (100% lengkap kunci & pembahasan)
+- **Total Soal di Cerdasify Saat Ini:** `1,542` butir soal (100% lengkap kunci & pembahasan)
 
-- **Total Paket Ujian Aktif Saat Ini:** `39` paket ujian
+- **Total Paket Ujian Aktif Saat Ini:** `43` paket ujian
 
 
 
@@ -172,7 +172,7 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `PAST PAPPER FABI/FC SOAL PENYISIHAN FABI 14 S3.pdf` (603 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `PAST PAPPER FABI/SOAL PENYISIHAN FABI 14 S4.pdf` (626 KB) | *Siap diimpor ke paket baru* |
 
-## 5. Java Science Olympiad (JSO 2024–2026) (0/33 Selesai)
+## 5. Java Science Olympiad (JSO 2024–2026) (1/33 Selesai)
 
 | Status | Format | Nama Berkas & Jalur | Paket / Keterangan di Cerdasify |
 | :---: | :---: | :--- | :--- |
@@ -207,10 +207,10 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `SOAL GF FIX JSO 2026.pdf` (7375 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` (7603 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `TYPE E SOAL PENYISIHAN JSO 2026.pdf` (5802 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `english/JSO_2025_Bahasa_Inggris_Level_1_2.pdf` (902 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `PDF` | `english/JSO_2025_Bahasa_Inggris_Level_1_2.pdf` (902 KB) | **pkg_jso_2025_ing_1** & **pkg_jso_2025_ing_2**: Olimpiade JSO 2025 — Bahasa Inggris Level 1 & 2 (Bergambar) (60 Soal) |
 | [ ] Belum | `PDF` | `jso penyisihan 2025.pdf` (7603 KB) | *Siap diimpor ke paket baru* |
 
-## 6. Kompetisi Matematika, Sains & Inggris (KMSI 2023–2025) (0/26 Selesai)
+## 6. Kompetisi Matematika, Sains & Inggris (KMSI 2023–2025) (1/26 Selesai)
 
 | Status | Format | Nama Berkas & Jalur | Paket / Keterangan di Cerdasify |
 | :---: | :---: | :--- | :--- |
@@ -238,7 +238,7 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `Level 2/kmsi mtk 2 penyisihan 2024 tipe b.pdf` (906 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/New-Soal-Type-a-Penyisihan-Kmsi-2024.pdf` (8810 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/type-B-new-final-provinsi-kmsi-2024.pdf` (12715 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `english/KMSI_2024_Bahasa_Inggris_Level_1_dan_2.pdf` (1330 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `PDF` | `english/KMSI_2024_Bahasa_Inggris_Level_1_dan_2.pdf` (1330 KB) | **pkg_kmsi_2024_ing_1** & **pkg_kmsi_2024_ing_2**: Olimpiade KMSI 2024 — Bahasa Inggris Level 1 & 2 (Bergambar) (80 Soal) |
 | [ ] Belum | `PDF` | `kmsi all provinsi 2024.pdf` (8962 KB) | *Siap diimpor ke paket baru* |
 
 ## 7. Olimpiade Bahasa Inggris Nasional (5/20 Selesai)
