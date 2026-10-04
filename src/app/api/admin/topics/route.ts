@@ -6,7 +6,7 @@ import { requireAdmin } from '@/lib/auth';
 export async function GET() {
   try {
     await requireAdmin();
-    const allTopics = db.select().from(topics).all();
+    const allTopics = await db.select().from(topics);
     return NextResponse.json({ topics: allTopics });
   } catch (error: any) {
     return NextResponse.json({ error: error.message || 'Unauthorized' }, { status: 401 });

@@ -1,5 +1,5 @@
 import * as XLSX from 'xlsx';
-import { db, sqlite } from '@/db';
+import { db, client } from '@/db';
 import { categories, topics, questions, questionOptions, users } from '@/db/schema';
 import { slugify } from '@/lib/utils';
 import bcrypt from 'bcryptjs';
@@ -80,7 +80,6 @@ export async function importQuestions(rows: Record<string, any>[]): Promise<Impo
     }
 
     if (type === 'SCALE') {
-      // Validate A:5,B:4,...
       const pairs = kunci.split(',');
       if (pairs.length < 2) {
         errors.push({
@@ -118,63 +117,55 @@ export async function importQuestions(rows: Record<string, any>[]): Promise<Impo
     };
   }
 
-  // Insert valid rows transactionally
   let importedCount = 0;
-  const insertTransaction = sqlite.transaction(() => {
+  await client.begin(async (sql) => {
     const categoryCache = new Map<string, string>();
     const topicCache = new Map<string, string>();
 
+    const allExistingCats = await db.select().from(categories);
+    for (const c of allExistingCats) {
+      categoryCache.set(c.name.toLowerCase(), c.id);
+    }
+
+    const allExistingTopics = await db.select().from(topics);
+    for (const t of allExistingTopics) {
+      topicCache.set(`${t.categoryId}:::${t.name.toLowerCase()}`, t.id);
+    }
+
     for (const r of validRows) {
       // 1. Category
-      let catId = categoryCache.get(r.kategori);
+      let catId = categoryCache.get(r.kategori.toLowerCase());
       if (!catId) {
-        const existingCat = db.select().from(categories).all().find((c) => c.name.toLowerCase() === r.kategori.toLowerCase());
-        if (existingCat) {
-          catId = existingCat.id;
-        } else {
-          catId = `cat_${slugify(r.kategori)}_${Date.now()}`;
-          sqlite.prepare(`INSERT INTO categories (id, name, slug, description) VALUES (?, ?, ?, ?)`).run(
-            catId,
-            r.kategori,
-            slugify(r.kategori),
-            `Kategori ${r.kategori}`
-          );
-        }
-        categoryCache.set(r.kategori, catId);
+        catId = `cat_${slugify(r.kategori)}_${Date.now()}`;
+        await sql`
+          INSERT INTO categories (id, name, slug, description)
+          VALUES (${catId}, ${r.kategori}, ${slugify(r.kategori)}, ${`Kategori ${r.kategori}`})
+          ON CONFLICT (id) DO NOTHING
+        `;
+        categoryCache.set(r.kategori.toLowerCase(), catId);
       }
 
       // 2. Topic
-      const tKey = `${catId}:::${r.topik}`;
+      const tKey = `${catId}:::${r.topik.toLowerCase()}`;
       let topicId = topicCache.get(tKey);
       if (!topicId) {
-        const existingTop = db.select().from(topics).all().find((t) => t.categoryId === catId && t.name.toLowerCase() === r.topik.toLowerCase());
-        if (existingTop) {
-          topicId = existingTop.id;
-        } else {
-          topicId = `top_${slugify(r.topik)}_${Date.now()}`;
-          sqlite.prepare(`INSERT INTO topics (id, category_id, name, slug) VALUES (?, ?, ?, ?)`).run(
-            topicId,
-            catId,
-            r.topik,
-            slugify(r.topik)
-          );
-        }
+        topicId = `top_${slugify(r.topik)}_${Date.now()}`.slice(0, 40);
+        await sql`
+          INSERT INTO topics (id, category_id, name, slug)
+          VALUES (${topicId}, ${catId}, ${r.topik}, ${slugify(r.topik)})
+          ON CONFLICT (id) DO NOTHING
+        `;
         topicCache.set(tKey, topicId);
       }
 
       // 3. Question
       const qId = `q_imp_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
-      sqlite.prepare(`
+      const difficulty = ['EASY', 'MEDIUM', 'HARD', 'HOTS'].includes(r.tingkat_kesulitan) ? r.tingkat_kesulitan : 'MEDIUM';
+
+      await sql`
         INSERT INTO questions (id, topic_id, type, content_markdown, explanation_markdown, difficulty)
-        VALUES (?, ?, ?, ?, ?, ?)
-      `).run(
-        qId,
-        topicId,
-        r.type,
-        r.pertanyaan,
-        r.pembahasan,
-        ['EASY', 'MEDIUM', 'HARD', 'HOTS'].includes(r.tingkat_kesulitan) ? r.tingkat_kesulitan : 'MEDIUM'
-      );
+        VALUES (${qId}, ${topicId}, ${r.type}, ${r.pertanyaan}, ${r.pembahasan}, ${difficulty})
+      `;
 
       // 4. Options
       const optionsToInsert: { label: string; content: string }[] = [];
@@ -198,17 +189,15 @@ export async function importQuestions(rows: Record<string, any>[]): Promise<Impo
         const isCorrect = r.type === 'GRADED_SCALE' ? true : opt.label === r.kunci_jawaban;
         const scoreVal = r.type === 'GRADED_SCALE' ? scaleMap[opt.label] || 1 : isCorrect ? 4 : 0;
 
-        sqlite.prepare(`
+        await sql`
           INSERT INTO question_options (id, question_id, label, content_markdown, is_correct, score_value, order_index)
-          VALUES (?, ?, ?, ?, ?, ?, ?)
-        `).run(optId, qId, opt.label, opt.content, isCorrect ? 1 : 0, scoreVal, oIdx);
+          VALUES (${optId}, ${qId}, ${opt.label}, ${opt.content}, ${Boolean(isCorrect)}, ${scoreVal}, ${oIdx})
+        `;
       }
 
       importedCount++;
     }
   });
-
-  insertTransaction();
 
   return {
     success: importedCount > 0,
@@ -255,8 +244,10 @@ export async function importUsers(rows: Record<string, any>[]): Promise<ImportRe
   }
 
   let importedCount = 0;
+  const existingUsers = await db.select().from(users);
+
   for (const u of validUsers) {
-    const existing = db.select().from(users).all().find((x) => x.username.toLowerCase() === u.username.toLowerCase());
+    const existing = existingUsers.find((x) => x.username.toLowerCase() === u.username.toLowerCase());
     if (existing) {
       errors.push({
         row: u.rowNum,
@@ -268,10 +259,10 @@ export async function importUsers(rows: Record<string, any>[]): Promise<ImportRe
     const passwordHash = await bcrypt.hash(u.rawPass, 10);
     const userId = `usr_imp_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
 
-    sqlite.prepare(`
+    await client`
       INSERT INTO users (id, username, name, password_hash, role, is_active)
-      VALUES (?, ?, ?, ?, ?, 1)
-    `).run(userId, u.username, u.name, passwordHash, u.role);
+      VALUES (${userId}, ${u.username}, ${u.name}, ${passwordHash}, ${u.role}, true)
+    `;
 
     importedCount++;
   }

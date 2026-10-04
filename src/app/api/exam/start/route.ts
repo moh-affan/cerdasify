@@ -18,13 +18,13 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Package ID required' }, { status: 400 });
     }
 
-    const pkg = db.select().from(examPackages).where(eq(examPackages.id, packageId)).get();
+    const [pkg] = await db.select().from(examPackages).where(eq(examPackages.id, packageId)).limit(1);
     if (!pkg) {
       return NextResponse.json({ error: 'Paket ujian tidak ditemukan' }, { status: 404 });
     }
 
     // Check if there is already an active in-progress or paused attempt for this user & package
-    const existing = db
+    const [existing] = await db
       .select()
       .from(attempts)
       .where(
@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
           or(eq(attempts.status, 'IN_PROGRESS'), eq(attempts.status, 'PAUSED'))
         )
       )
-      .get();
+      .limit(1);
 
     if (existing) {
       return NextResponse.json({
@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Check that package has questions
-    const pkgQs = db.select().from(packageQuestions).where(eq(packageQuestions.packageId, packageId)).all();
+    const pkgQs = await db.select().from(packageQuestions).where(eq(packageQuestions.packageId, packageId));
     if (pkgQs.length === 0) {
       return NextResponse.json({ error: 'Paket ujian belum memiliki butir soal' }, { status: 400 });
     }
@@ -54,7 +54,7 @@ export async function POST(req: NextRequest) {
     const newAttemptId = `att_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
     const nowIso = new Date().toISOString();
 
-    db.insert(attempts)
+    await db.insert(attempts)
       .values({
         id: newAttemptId,
         userId: user.userId,
@@ -62,8 +62,7 @@ export async function POST(req: NextRequest) {
         startedAt: nowIso,
         status: 'IN_PROGRESS',
         scoreTotal: 0,
-      })
-      .run();
+      });
 
     return NextResponse.json({
       attemptId: newAttemptId,

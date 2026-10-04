@@ -1,24 +1,36 @@
-import Database from 'better-sqlite3';
-import { drizzle } from 'drizzle-orm/better-sqlite3';
+import { drizzle } from 'drizzle-orm/postgres-js';
+import postgres from 'postgres';
+import { loadEnvConfig } from '@next/env';
 import * as schema from './schema';
-import fs from 'fs';
-import path from 'path';
 
-const dbPath = process.env.DATABASE_PATH || path.join(process.cwd(), 'data', 'cerdasify.db');
-const dbDir = path.dirname(dbPath);
+loadEnvConfig(process.cwd());
 
-if (!fs.existsSync(dbDir)) {
-  fs.mkdirSync(dbDir, { recursive: true });
+let databaseUrl = process.env.DATABASE_URL || '';
+
+// Auto-fix tenant ID format for Supabase pooler if needed
+try {
+  if (databaseUrl) {
+    const u = new URL(databaseUrl);
+    if (u.hostname.includes('pooler.supabase.com') && u.username === 'postgres') {
+      const projectRef = process.env.NEXT_PUBLIC_SUPABASE_URL
+        ? new URL(process.env.NEXT_PUBLIC_SUPABASE_URL).hostname.split('.')[0]
+        : 'slpncrcjzsgicopwudsd';
+      u.username = `postgres.${projectRef}`;
+      databaseUrl = u.toString();
+    }
+  }
+} catch {}
+
+if (!databaseUrl && process.env.NODE_ENV === 'production') {
+  throw new Error('DATABASE_URL environment variable is required in production.');
 }
 
-const sqlite = new Database(dbPath);
+// Fallback dummy for build time if DATABASE_URL is not yet provided
+const client = postgres(databaseUrl || 'postgresql://postgres:postgres@localhost:5432/cerdasify', {
+  prepare: false, // Wajib false untuk Supabase connection pooler (transaction mode)
+  ssl: databaseUrl.includes('supabase.co') || databaseUrl.includes('pooler.supabase.com') ? 'require' : undefined,
+  max: 10,
+});
 
-// Konfigurasi performa tinggi & anti database-lock (Wajib AGENTS.md)
-sqlite.pragma('journal_mode = WAL');
-sqlite.pragma('synchronous = NORMAL');
-sqlite.pragma('busy_timeout = 5000');
-sqlite.pragma('foreign_keys = ON');
-sqlite.pragma('cache_size = -64000'); // 64MB Cache
-
-export const db = drizzle(sqlite, { schema });
-export { sqlite };
+export const db = drizzle(client, { schema });
+export { client };

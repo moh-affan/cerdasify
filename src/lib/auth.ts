@@ -88,7 +88,7 @@ export async function getCurrentUser(): Promise<SessionPayload | null> {
   if (!session) return null;
 
   // Verify user is still active in database
-  const user = db.select().from(users).where(eq(users.id, session.userId)).get();
+  const [user] = await db.select().from(users).where(eq(users.id, session.userId)).limit(1);
   if (!user || !user.isActive) return null;
 
   return {

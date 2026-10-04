@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'attemptId and questionId are required' }, { status: 400 });
     }
 
-    const attempt = db.select().from(attempts).where(eq(attempts.id, attemptId)).get();
+    const [attempt] = await db.select().from(attempts).where(eq(attempts.id, attemptId)).limit(1);
     if (!attempt) {
       return NextResponse.json({ error: 'Sesi ujian tidak ditemukan' }, { status: 404 });
     }
@@ -32,33 +32,31 @@ export async function POST(req: NextRequest) {
     }
 
     // Check if an answer record already exists
-    const existing = db
+    const [existing] = await db
       .select()
       .from(attemptAnswers)
       .where(and(eq(attemptAnswers.attemptId, attemptId), eq(attemptAnswers.questionId, questionId)))
-      .get();
+      .limit(1);
 
     const selectedJson = JSON.stringify(selectedOptionIds || []);
 
     if (existing) {
-      db.update(attemptAnswers)
+      await db.update(attemptAnswers)
         .set({
           selectedOptionIds: selectedJson,
           isDoubtful: Boolean(isDoubtful),
         })
-        .where(eq(attemptAnswers.id, existing.id))
-        .run();
+        .where(eq(attemptAnswers.id, existing.id));
     } else {
       const answerId = `ans_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
-      db.insert(attemptAnswers)
+      await db.insert(attemptAnswers)
         .values({
           id: answerId,
           attemptId,
           questionId,
           selectedOptionIds: selectedJson,
           isDoubtful: Boolean(isDoubtful),
-        })
-        .run();
+        });
     }
 
     return NextResponse.json({ success: true });

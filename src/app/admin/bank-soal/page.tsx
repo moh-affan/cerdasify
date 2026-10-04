@@ -41,10 +41,10 @@ export default async function AdminBankSoalPage({
   const requestedPage = Math.max(1, parseInt(sp.page || '1', 10));
   const PAGE_SIZE = 15;
 
-  const allCategories = db.select().from(categories).orderBy(categories.orderIndex).all();
+  const allCategories = await db.select().from(categories).orderBy(categories.orderIndex);
   const catMap = new Map(allCategories.map((c) => [c.id, c.name]));
 
-  const allTopics = db.select().from(topics).orderBy(topics.name).all();
+  const allTopics = await db.select().from(topics).orderBy(topics.name);
   const topicMap = new Map(allTopics.map((t) => [t.id, t.name]));
   const topicCategoryMap = new Map(allTopics.map((t) => [t.id, t.categoryId]));
 
@@ -54,11 +54,10 @@ export default async function AdminBankSoalPage({
     : allTopics;
 
   // Fetch all questions with order by latest
-  const allQs = db
+  const allQs = await db
     .select()
     .from(questions)
-    .orderBy(desc(questions.createdAt))
-    .all();
+    .orderBy(desc(questions.createdAt));
 
   // Filter in memory for maximum speed and flex
   const filtered = allQs.filter((q) => {
@@ -88,6 +87,13 @@ export default async function AdminBankSoalPage({
   const currentPage = Math.min(requestedPage, totalPages);
   const startIdx = (currentPage - 1) * PAGE_SIZE;
   const paginatedQuestions = filtered.slice(startIdx, startIdx + PAGE_SIZE);
+
+  const allOpts = await db.select().from(questionOptions).orderBy(asc(questionOptions.orderIndex));
+  const optionsByQuestionId = new Map<string, typeof allOpts>();
+  for (const opt of allOpts) {
+    if (!optionsByQuestionId.has(opt.questionId)) optionsByQuestionId.set(opt.questionId, []);
+    optionsByQuestionId.get(opt.questionId)!.push(opt);
+  }
 
   // Helper to build pagination links
   const createPageUrl = (pageNumber: number) => {
@@ -297,12 +303,7 @@ export default async function AdminBankSoalPage({
             const catId = topicCategoryMap.get(q.topicId);
             const cName = catId ? catMap.get(catId) : null;
 
-            const opts = db
-              .select()
-              .from(questionOptions)
-              .where(eq(questionOptions.questionId, q.id))
-              .orderBy(asc(questionOptions.orderIndex))
-              .all();
+            const opts = optionsByQuestionId.get(q.id) || [];
 
             return (
               <div

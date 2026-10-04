@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Username dan password wajib diisi' }, { status: 400 });
     }
 
-    const user = db.select().from(users).where(eq(users.username, username.trim())).get();
+    const [user] = await db.select().from(users).where(eq(users.username, username.trim())).limit(1);
 
     if (!user) {
       return NextResponse.json({ error: 'Username atau password tidak cocok' }, { status: 401 });

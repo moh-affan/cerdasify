@@ -1,15 +1,17 @@
-import { sqlite } from './index';
+import { client } from './index';
 
-export function runMigrations() {
-  sqlite.exec(`
+export async function runMigrations() {
+  console.log('Running PostgreSQL migrations...');
+
+  await client.unsafe(`
     CREATE TABLE IF NOT EXISTS users (
       id TEXT PRIMARY KEY,
       username TEXT NOT NULL UNIQUE,
       name TEXT NOT NULL,
       password_hash TEXT NOT NULL,
       role TEXT NOT NULL DEFAULT 'USER',
-      is_active INTEGER NOT NULL DEFAULT 1,
-      created_at TEXT NOT NULL DEFAULT (datetime('now'))
+      is_active BOOLEAN NOT NULL DEFAULT TRUE,
+      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP::text
     );
 
     CREATE TABLE IF NOT EXISTS categories (
@@ -36,7 +38,7 @@ export function runMigrations() {
       explanation_markdown TEXT,
       explanation_image_url TEXT,
       difficulty TEXT NOT NULL DEFAULT 'MEDIUM',
-      created_at TEXT NOT NULL DEFAULT (datetime('now'))
+      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP::text
     );
 
     CREATE TABLE IF NOT EXISTS question_options (
@@ -45,7 +47,7 @@ export function runMigrations() {
       label TEXT NOT NULL,
       content_markdown TEXT NOT NULL,
       image_url TEXT,
-      is_correct INTEGER NOT NULL DEFAULT 0,
+      is_correct BOOLEAN NOT NULL DEFAULT FALSE,
       score_value INTEGER NOT NULL DEFAULT 0,
       order_index INTEGER NOT NULL DEFAULT 0
     );
@@ -57,11 +59,11 @@ export function runMigrations() {
       category_id TEXT NOT NULL REFERENCES categories(id) ON DELETE CASCADE,
       type TEXT NOT NULL DEFAULT 'SIMULATION',
       duration_minutes INTEGER NOT NULL DEFAULT 60,
-      shuffle_questions INTEGER NOT NULL DEFAULT 0,
-      shuffle_options INTEGER NOT NULL DEFAULT 0,
+      shuffle_questions BOOLEAN NOT NULL DEFAULT FALSE,
+      shuffle_options BOOLEAN NOT NULL DEFAULT FALSE,
       passing_grade_rules TEXT,
-      is_published INTEGER NOT NULL DEFAULT 1,
-      created_at TEXT NOT NULL DEFAULT (datetime('now'))
+      is_published BOOLEAN NOT NULL DEFAULT TRUE,
+      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP::text
     );
 
     CREATE TABLE IF NOT EXISTS package_questions (
@@ -79,8 +81,9 @@ export function runMigrations() {
       finished_at TEXT,
       score_total INTEGER NOT NULL DEFAULT 0,
       score_breakdown TEXT,
-      is_passed INTEGER NOT NULL DEFAULT 0,
-      status TEXT NOT NULL DEFAULT 'IN_PROGRESS'
+      is_passed BOOLEAN NOT NULL DEFAULT FALSE,
+      status TEXT NOT NULL DEFAULT 'IN_PROGRESS',
+      remaining_seconds INTEGER
     );
 
     CREATE TABLE IF NOT EXISTS attempt_answers (
@@ -89,8 +92,8 @@ export function runMigrations() {
       question_id TEXT NOT NULL REFERENCES questions(id) ON DELETE CASCADE,
       selected_option_ids TEXT,
       score_awarded INTEGER NOT NULL DEFAULT 0,
-      is_doubtful INTEGER NOT NULL DEFAULT 0,
-      answered_at TEXT NOT NULL DEFAULT (datetime('now'))
+      is_doubtful BOOLEAN NOT NULL DEFAULT FALSE,
+      answered_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP::text
     );
 
     CREATE INDEX IF NOT EXISTS idx_questions_topic ON questions(topic_id);
@@ -101,13 +104,14 @@ export function runMigrations() {
     CREATE INDEX IF NOT EXISTS idx_attempt_answers_attempt ON attempt_answers(attempt_id);
   `);
 
-  try {
-    sqlite.exec(`ALTER TABLE attempts ADD COLUMN remaining_seconds INTEGER;`);
-  } catch {}
-
-  console.log('Database tables verified and ready.');
+  console.log('PostgreSQL database tables and indexes verified and ready.');
 }
 
 if (require.main === module) {
-  runMigrations();
+  runMigrations()
+    .then(() => process.exit(0))
+    .catch((err) => {
+      console.error('Migration failed:', err);
+      process.exit(1);
+    });
 }

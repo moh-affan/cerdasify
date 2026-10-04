@@ -14,29 +14,28 @@ export default async function EditQuestionPage({ params }: EditQuestionPageProps
   const { id } = await params;
 
   // 1. Fetch Question
-  const question = db
+  const [question] = await db
     .select()
     .from(questions)
     .where(eq(questions.id, id))
-    .get();
+    .limit(1);
 
   if (!question) {
     notFound();
   }
 
   // 2. Fetch Options
-  const options = db
+  const options = await db
     .select()
     .from(questionOptions)
     .where(eq(questionOptions.questionId, id))
-    .orderBy(asc(questionOptions.orderIndex))
-    .all();
+    .orderBy(asc(questionOptions.orderIndex));
 
   // 3. Fetch all topics and categories
-  const allCategories = db.select().from(categories).all();
+  const allCategories = await db.select().from(categories);
   const catMap = new Map(allCategories.map((c) => [c.id, c.name]));
 
-  const allTopics = db.select().from(topics).orderBy(asc(topics.name)).all();
+  const allTopics = await db.select().from(topics).orderBy(asc(topics.name));
   const topicsList = allTopics.map((t) => ({
     id: t.id,
     name: t.name,

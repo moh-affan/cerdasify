@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { requireAdmin } from '@/lib/auth';
+import { uploadToSupabaseStorage } from '@/lib/storage';
 import fs from 'fs';
 import path from 'path';
 
@@ -22,16 +23,23 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Ukuran gambar maksimal 5MB' }, { status: 400 });
     }
 
+    const ext = path.extname(file.name) || '.png';
+    const filename = `img_${Date.now()}_${Math.random().toString(36).slice(2, 7)}${ext}`;
+    const buffer = Buffer.from(await file.arrayBuffer());
+
+    // 1. Try uploading to Supabase Storage first (ideal for Vercel / Cloud)
+    const remoteUrl = await uploadToSupabaseStorage(buffer, filename, file.type);
+    if (remoteUrl) {
+      return NextResponse.json({ success: true, url: remoteUrl });
+    }
+
+    // 2. Fallback to local filesystem (for local dev)
     const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
     if (!fs.existsSync(uploadsDir)) {
       fs.mkdirSync(uploadsDir, { recursive: true });
     }
 
-    const ext = path.extname(file.name) || '.png';
-    const filename = `img_${Date.now()}_${Math.random().toString(36).slice(2, 7)}${ext}`;
     const filePath = path.join(uploadsDir, filename);
-
-    const buffer = Buffer.from(await file.arrayBuffer());
     fs.writeFileSync(filePath, buffer);
 
     const url = `/uploads/${filename}`;

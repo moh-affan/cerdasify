@@ -8,7 +8,7 @@ import { eq, desc } from 'drizzle-orm';
 export async function GET() {
   try {
     await requireAdmin();
-    const pkgs = db.select().from(examPackages).orderBy(desc(examPackages.createdAt)).all();
+    const pkgs = await db.select().from(examPackages).orderBy(desc(examPackages.createdAt));
     return NextResponse.json({ packages: pkgs });
   } catch (error: any) {
     return NextResponse.json({ error: error.message || 'Unauthorized' }, { status: 401 });
@@ -28,7 +28,7 @@ export async function POST(req: NextRequest) {
     const pkgId = `pkg_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
     const pkgSlug = `${slugify(title)}-${Date.now().toString(36).slice(-4)}`;
 
-    db.insert(examPackages)
+    await db.insert(examPackages)
       .values({
         id: pkgId,
         title,
@@ -37,8 +37,7 @@ export async function POST(req: NextRequest) {
         type,
         durationMinutes: parseInt(durationMinutes, 10) || 60,
         isPublished: true,
-      })
-      .run();
+      });
 
     return NextResponse.json({ success: true, packageId: pkgId });
   } catch (error: any) {

@@ -13,6 +13,7 @@ Panduan ini ditujukan untuk setiap AI Agent maupun Software Engineer yang berkon
   2. **Rock-Solid Exam Integrity:** Kunci jawaban soal ujian **HARAM** dikirim ke client browser selama sesi ujian berlangsung.
   3. **Data Safety & Concurrency:** Database SQLite wajib dikonfigurasi dalam mode **WAL (Write-Ahead Logging)** dengan timeout yang aman.
   4. **Strict RBAC:** Super Admin, Admin, dan User terisolasi secara ketat di level API, Middleware, dan Database Query.
+  5. **Environment & Secret Privacy:** Kredensial, password, JWT secret, dan connection string (`.env`, `.env.local`) **HARAM** diekspos atau dicetak ke output chat maupun log terminal. Eksekusi skrip wajib me-load berkas environment secara internal tanpa melakukan echo/print rahasia ke stdout.
 
 ---
 

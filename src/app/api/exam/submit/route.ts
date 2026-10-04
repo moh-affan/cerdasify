@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { db, sqlite } from '@/db';
+import { db, client } from '@/db';
 import {
   attempts,
   examPackages,
@@ -11,7 +11,7 @@ import {
 } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
 import { calculateScore, QuestionGradingData, UserAnswerData } from '@/lib/scoring';
-import { eq, and } from 'drizzle-orm';
+import { eq } from 'drizzle-orm';
 
 export async function POST(req: NextRequest) {
   try {
@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'attemptId is required' }, { status: 400 });
     }
 
-    const attempt = db.select().from(attempts).where(eq(attempts.id, attemptId)).get();
+    const [attempt] = await db.select().from(attempts).where(eq(attempts.id, attemptId)).limit(1);
     if (!attempt) {
       return NextResponse.json({ error: 'Sesi ujian tidak ditemukan' }, { status: 404 });
     }
@@ -43,21 +43,21 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    const pkg = db.select().from(examPackages).where(eq(examPackages.id, attempt.packageId)).get();
+    const [pkg] = await db.select().from(examPackages).where(eq(examPackages.id, attempt.packageId)).limit(1);
     if (!pkg) {
       return NextResponse.json({ error: 'Paket ujian tidak ditemukan' }, { status: 404 });
     }
 
     // 1. Gather all questions and options for grading
-    const pkgQs = db.select().from(packageQuestions).where(eq(packageQuestions.packageId, pkg.id)).all();
+    const pkgQs = await db.select().from(packageQuestions).where(eq(packageQuestions.packageId, pkg.id));
     const gradingQuestions: QuestionGradingData[] = [];
 
     for (const pq of pkgQs) {
-      const q = db.select().from(questions).where(eq(questions.id, pq.questionId)).get();
+      const [q] = await db.select().from(questions).where(eq(questions.id, pq.questionId)).limit(1);
       if (!q) continue;
 
-      const topic = db.select().from(topics).where(eq(topics.id, q.topicId)).get();
-      const opts = db.select().from(questionOptions).where(eq(questionOptions.questionId, q.id)).all();
+      const [topic] = await db.select().from(topics).where(eq(topics.id, q.topicId)).limit(1);
+      const opts = await db.select().from(questionOptions).where(eq(questionOptions.questionId, q.id));
 
       gradingQuestions.push({
         questionId: q.id,
@@ -73,7 +73,7 @@ export async function POST(req: NextRequest) {
     }
 
     // 2. Gather user answers
-    const userAnswersDb = db.select().from(attemptAnswers).where(eq(attemptAnswers.attemptId, attemptId)).all();
+    const userAnswersDb = await db.select().from(attemptAnswers).where(eq(attemptAnswers.attemptId, attemptId));
     const answersData: UserAnswerData[] = userAnswersDb.map((a) => ({
       questionId: a.questionId,
       selectedOptionIds: a.selectedOptionIds ? JSON.parse(a.selectedOptionIds) : [],
@@ -93,37 +93,27 @@ export async function POST(req: NextRequest) {
     const nowIso = new Date().toISOString();
 
     // 5. Update database transactionally
-    const submitTx = sqlite.transaction(() => {
+    await client.begin(async (sql) => {
       // Update individual answer scores
       for (const gradedAns of scoreResult.scoreBreakdown.answersGraded) {
-        sqlite
-          .prepare(
-            `UPDATE attempt_answers SET score_awarded = ? WHERE attempt_id = ? AND question_id = ?`
-          )
-          .run(gradedAns.scoreAwarded, attemptId, gradedAns.questionId);
+        await sql`
+          UPDATE attempt_answers 
+          SET score_awarded = ${gradedAns.scoreAwarded} 
+          WHERE attempt_id = ${attemptId} AND question_id = ${gradedAns.questionId}
+        `;
       }
 
       // Update attempt
-      sqlite
-        .prepare(
-          `UPDATE attempts
-           SET finished_at = ?,
-               score_total = ?,
-               score_breakdown = ?,
-               is_passed = ?,
-               status = 'COMPLETED'
-           WHERE id = ?`
-        )
-        .run(
-          nowIso,
-          scoreResult.totalScore,
-          JSON.stringify(scoreResult),
-          scoreResult.isPassed ? 1 : 0,
-          attemptId
-        );
+      await sql`
+        UPDATE attempts
+        SET finished_at = ${nowIso},
+            score_total = ${scoreResult.totalScore},
+            score_breakdown = ${JSON.stringify(scoreResult)},
+            is_passed = ${scoreResult.isPassed},
+            status = 'COMPLETED'
+        WHERE id = ${attemptId}
+      `;
     });
-
-    submitTx();
 
     return NextResponse.json({
       success: true,

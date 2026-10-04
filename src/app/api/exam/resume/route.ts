@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'attemptId is required' }, { status: 400 });
     }
 
-    const attempt = db.select().from(attempts).where(eq(attempts.id, attemptId)).get();
+    const [attempt] = await db.select().from(attempts).where(eq(attempts.id, attemptId)).limit(1);
     if (!attempt) {
       return NextResponse.json({ error: 'Sesi ujian tidak ditemukan' }, { status: 404 });
     }
@@ -26,12 +26,11 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
     }
 
-    db.update(attempts)
+    await db.update(attempts)
       .set({
         status: 'IN_PROGRESS',
       })
-      .where(eq(attempts.id, attemptId))
-      .run();
+      .where(eq(attempts.id, attemptId));
 
     return NextResponse.json({
       success: true,

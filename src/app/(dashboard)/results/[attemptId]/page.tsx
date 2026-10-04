@@ -19,7 +19,7 @@ export default async function ExamResultPage({
   }
 
   const { attemptId } = await params;
-  const attempt = db.select().from(attempts).where(eq(attempts.id, attemptId)).get();
+  const [attempt] = await db.select().from(attempts).where(eq(attempts.id, attemptId)).limit(1);
 
   if (!attempt) {
     notFound();
@@ -29,12 +29,12 @@ export default async function ExamResultPage({
     redirect('/');
   }
 
-  const pkg = db.select().from(examPackages).where(eq(examPackages.id, attempt.packageId)).get();
+  const [pkg] = await db.select().from(examPackages).where(eq(examPackages.id, attempt.packageId)).limit(1);
   if (!pkg) {
     notFound();
   }
 
-  const cat = db.select().from(categories).where(eq(categories.id, pkg.categoryId)).get();
+  const [cat] = await db.select().from(categories).where(eq(categories.id, pkg.categoryId)).limit(1);
 
   // Parse breakdown
   let breakdown: any = {};
@@ -43,40 +43,27 @@ export default async function ExamResultPage({
   } catch {}
 
   // Load answers and full questions with explanations
-  const answersDb = db.select().from(attemptAnswers).where(eq(attemptAnswers.attemptId, attempt.id)).all();
+  const answersDb = await db.select().from(attemptAnswers).where(eq(attemptAnswers.attemptId, attempt.id));
   const answersMap = new Map(answersDb.map((a) => [a.questionId, a]));
 
-  const allQuestions = db
-    .select({
-      id: questions.id,
-      topicId: questions.topicId,
-      type: questions.type,
-      contentMarkdown: questions.contentMarkdown,
-      explanationMarkdown: questions.explanationMarkdown,
-      difficulty: questions.difficulty,
-    })
-    .from(questions)
-    .all();
+  const allQuestions = await db.select().from(questions);
+  const qMap = new Map(allQuestions.map((q) => [q.id, q]));
 
-  // Filter questions belonging to this package
-  const packageQuestionsList = db.query?.packageQuestions
-    ? await db.query.packageQuestions.findMany({
-        where: eq(examPackages.id, pkg.id),
-      })
-    : [];
+  const allTopics = await db.select().from(topics);
+  const topicMap = new Map(allTopics.map((t) => [t.id, t.name]));
 
-  // If using direct select for package_questions
-  const rawPkgQs = db
-    .select()
-    .from(attemptAnswers)
-    .where(eq(attemptAnswers.attemptId, attempt.id))
-    .all();
+  const allOpts = await db.select().from(questionOptions).orderBy(asc(questionOptions.orderIndex));
+  const optsMap = new Map<string, typeof allOpts>();
+  for (const opt of allOpts) {
+    if (!optsMap.has(opt.questionId)) optsMap.set(opt.questionId, []);
+    optsMap.get(opt.questionId)!.push(opt);
+  }
 
   // Load detailed question cards
   const detailedQuestions = answersDb.map((ans, idx) => {
-    const q = db.select().from(questions).where(eq(questions.id, ans.questionId)).get();
-    const topic = q ? db.select().from(topics).where(eq(topics.id, q.topicId)).get() : null;
-    const opts = q ? db.select().from(questionOptions).where(eq(questionOptions.questionId, q.id)).orderBy(asc(questionOptions.orderIndex)).all() : [];
+    const q = qMap.get(ans.questionId);
+    const topicName = q ? topicMap.get(q.topicId) || 'Umum' : 'Umum';
+    const opts = q ? (optsMap.get(q.id) || []) : [];
 
     const selectedIds = ans.selectedOptionIds ? JSON.parse(ans.selectedOptionIds) : [];
     const correctOption = opts.find((o) => o.isCorrect);
@@ -87,7 +74,7 @@ export default async function ExamResultPage({
     return {
       index: idx + 1,
       question: q,
-      topicName: topic ? topic.name : 'Umum',
+      topicName,
       options: opts,
       selectedIds,
       isCorrect,

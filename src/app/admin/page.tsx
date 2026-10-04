@@ -19,12 +19,21 @@ import {
 export default async function AdminDashboardOverviewPage() {
   const user = await getCurrentUser();
 
-  const totalQuestions = db.select().from(questions).all().length;
-  const totalPackages = db.select().from(examPackages).all().length;
-  const totalUsers = db.select().from(users).all().length;
-  const totalAttempts = db.select().from(attempts).all().length;
+  const allQuestionsList = await db.select({ id: questions.id }).from(questions);
+  const totalQuestions = allQuestionsList.length;
 
-  const recentAttempts = db
+  const allPkgs = await db.select().from(examPackages);
+  const totalPackages = allPkgs.length;
+  const pkgMap = new Map(allPkgs.map((p) => [p.id, p.title]));
+
+  const allUsers = await db.select().from(users);
+  const totalUsers = allUsers.length;
+  const userMap = new Map(allUsers.map((u) => [u.id, u.name]));
+
+  const allAttemptsList = await db.select({ id: attempts.id }).from(attempts);
+  const totalAttempts = allAttemptsList.length;
+
+  const recentAttempts = await db
     .select({
       id: attempts.id,
       userId: attempts.userId,
@@ -37,14 +46,7 @@ export default async function AdminDashboardOverviewPage() {
     })
     .from(attempts)
     .orderBy(desc(attempts.startedAt))
-    .limit(10)
-    .all();
-
-  const allUsers = db.select().from(users).all();
-  const userMap = new Map(allUsers.map((u) => [u.id, u.name]));
-
-  const allPkgs = db.select().from(examPackages).all();
-  const pkgMap = new Map(allPkgs.map((p) => [p.id, p.title]));
+    .limit(10);
 
   return (
     <div className="max-w-6xl mx-auto space-y-8">

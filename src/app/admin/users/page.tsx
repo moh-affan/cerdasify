@@ -12,7 +12,7 @@ export default async function AdminUsersPage() {
     redirect('/admin');
   }
 
-  const allUsers = db
+  const allUsers = await db
     .select({
       id: users.id,
       name: users.name,
@@ -22,8 +22,7 @@ export default async function AdminUsersPage() {
       createdAt: users.createdAt,
     })
     .from(users)
-    .orderBy(desc(users.createdAt))
-    .all();
+    .orderBy(desc(users.createdAt));
 
   const formattedUsers: UserItem[] = allUsers.map((u) => ({
     id: u.id,

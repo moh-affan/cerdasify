@@ -42,7 +42,7 @@ export default async function UserDashboardPage({
   const PAGE_SIZE = 9;
 
   // Load published packages
-  const packagesList = db
+  const packagesList = await db
     .select({
       id: examPackages.id,
       title: examPackages.title,
@@ -53,24 +53,23 @@ export default async function UserDashboardPage({
       passingGradeRules: examPackages.passingGradeRules,
     })
     .from(examPackages)
-    .where(eq(examPackages.isPublished, true))
-    .all();
+    .where(eq(examPackages.isPublished, true));
 
-  const allCategories = db.select().from(categories).orderBy(categories.orderIndex).all();
+  const allCategories = await db.select().from(categories).orderBy(categories.orderIndex);
   const categoryMap = new Map(allCategories.map((c) => [c.id, c.name]));
 
   // Get question counts and image presence for each package
-  const packageStats = packagesList.map((pkg) => {
-    const pkgQs = db
-      .select({
-        questionId: packageQuestions.questionId,
-        imageUrl: questions.imageUrl,
-      })
-      .from(packageQuestions)
-      .innerJoin(questions, eq(packageQuestions.questionId, questions.id))
-      .where(eq(packageQuestions.packageId, pkg.id))
-      .all();
+  const allPkgQuestions = await db
+    .select({
+      packageId: packageQuestions.packageId,
+      questionId: packageQuestions.questionId,
+      imageUrl: questions.imageUrl,
+    })
+    .from(packageQuestions)
+    .innerJoin(questions, eq(packageQuestions.questionId, questions.id));
 
+  const packageStats = packagesList.map((pkg) => {
+    const pkgQs = allPkgQuestions.filter((q) => q.packageId === pkg.id);
     const hasImages = pkgQs.some((q) => Boolean(q.imageUrl));
 
     return {
@@ -117,12 +116,11 @@ export default async function UserDashboardPage({
 
   // User's past attempts
   const userAttempts = user
-    ? db
+    ? await db
         .select()
         .from(attempts)
         .where(eq(attempts.userId, user.userId))
         .orderBy(desc(attempts.startedAt))
-        .all()
     : [];
 
   const pkgTitleMap = new Map(packagesList.map((p) => [p.id, p.title]));

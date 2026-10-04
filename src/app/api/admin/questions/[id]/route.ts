@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { db, sqlite } from '@/db';
-import { questions, questionOptions, topics } from '@/db/schema';
+import { db, client } from '@/db';
+import { questions, questionOptions } from '@/db/schema';
 import { requireAdmin } from '@/lib/auth';
 import { eq, asc } from 'drizzle-orm';
 
@@ -12,22 +12,21 @@ export async function GET(
     await requireAdmin();
     const { id } = await params;
 
-    const question = db
+    const [question] = await db
       .select()
       .from(questions)
       .where(eq(questions.id, id))
-      .get();
+      .limit(1);
 
     if (!question) {
       return NextResponse.json({ error: 'Soal tidak ditemukan' }, { status: 404 });
     }
 
-    const options = db
+    const options = await db
       .select()
       .from(questionOptions)
       .where(eq(questionOptions.questionId, id))
-      .orderBy(asc(questionOptions.orderIndex))
-      .all();
+      .orderBy(asc(questionOptions.orderIndex));
 
     return NextResponse.json({
       question,
@@ -66,62 +65,47 @@ export async function PUT(
     }
 
     // Check if question exists
-    const existing = db
+    const [existing] = await db
       .select()
       .from(questions)
       .where(eq(questions.id, id))
-      .get();
+      .limit(1);
 
     if (!existing) {
       return NextResponse.json({ error: 'Soal tidak ditemukan' }, { status: 404 });
     }
 
     // Execute atomic update
-    const updateTx = sqlite.transaction(() => {
+    await client.begin(async (sql) => {
       // 1. Update questions table
-      sqlite
-        .prepare(
-          `UPDATE questions 
-           SET topic_id = ?, type = ?, content_markdown = ?, image_url = ?, explanation_markdown = ?, difficulty = ?
-           WHERE id = ?`
-        )
-        .run(
-          topicId,
-          type,
-          contentMarkdown,
-          imageUrl || null,
-          explanationMarkdown || '',
-          difficulty,
-          id
-        );
+      await sql`
+        UPDATE questions 
+        SET topic_id = ${topicId}, type = ${type}, content_markdown = ${contentMarkdown}, 
+            image_url = ${imageUrl || null}, explanation_markdown = ${explanationMarkdown || ''}, difficulty = ${difficulty}
+        WHERE id = ${id}
+      `;
 
       // 2. Delete existing options
-      sqlite
-        .prepare(`DELETE FROM question_options WHERE question_id = ?`)
-        .run(id);
+      await sql`DELETE FROM question_options WHERE question_id = ${id}`;
 
       // 3. Re-insert updated options
       for (let idx = 0; idx < options.length; idx++) {
         const opt = options[idx];
         const optId = `opt_${id}_${idx}_${opt.label || String.fromCharCode(65 + idx)}`;
-        sqlite
-          .prepare(
-            `INSERT INTO question_options (id, question_id, label, content_markdown, is_correct, score_value, order_index)
-             VALUES (?, ?, ?, ?, ?, ?, ?)`
+        await sql`
+          INSERT INTO question_options (id, question_id, label, content_markdown, is_correct, score_value, order_index)
+          VALUES (
+            ${optId},
+            ${id},
+            ${opt.label || String.fromCharCode(65 + idx)},
+            ${opt.contentMarkdown},
+            ${Boolean(opt.isCorrect)},
+            ${opt.scoreValue ?? (opt.isCorrect ? 4 : 0)},
+            ${idx}
           )
-          .run(
-            optId,
-            id,
-            opt.label || String.fromCharCode(65 + idx),
-            opt.contentMarkdown,
-            opt.isCorrect ? 1 : 0,
-            opt.scoreValue ?? (opt.isCorrect ? 4 : 0),
-            idx
-          );
+        `;
       }
     });
-
-    updateTx();
 
     return NextResponse.json({ success: true, message: 'Soal berhasil diperbarui' });
   } catch (error: any) {
@@ -138,24 +122,22 @@ export async function DELETE(
     await requireAdmin();
     const { id } = await params;
 
-    const existing = db
+    const [existing] = await db
       .select()
       .from(questions)
       .where(eq(questions.id, id))
-      .get();
+      .limit(1);
 
     if (!existing) {
       return NextResponse.json({ error: 'Soal tidak ditemukan' }, { status: 404 });
     }
 
-    const deleteTx = sqlite.transaction(() => {
-      sqlite.prepare(`DELETE FROM question_options WHERE question_id = ?`).run(id);
-      sqlite.prepare(`DELETE FROM package_questions WHERE question_id = ?`).run(id);
-      sqlite.prepare(`DELETE FROM attempt_answers WHERE question_id = ?`).run(id);
-      sqlite.prepare(`DELETE FROM questions WHERE id = ?`).run(id);
+    await client.begin(async (sql) => {
+      await sql`DELETE FROM question_options WHERE question_id = ${id}`;
+      await sql`DELETE FROM package_questions WHERE question_id = ${id}`;
+      await sql`DELETE FROM attempt_answers WHERE question_id = ${id}`;
+      await sql`DELETE FROM questions WHERE id = ${id}`;
     });
-
-    deleteTx();
 
     return NextResponse.json({ success: true, message: 'Soal berhasil dihapus' });
   } catch (error: any) {

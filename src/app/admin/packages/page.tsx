@@ -6,23 +6,21 @@ import { desc, eq } from 'drizzle-orm';
 import { Package, Clock, Award, PlusCircle, CheckCircle2, Play, ExternalLink } from 'lucide-react';
 
 export default async function AdminPackagesPage() {
-  const allPkgs = db.select().from(examPackages).orderBy(desc(examPackages.createdAt)).all();
-  const allCats = db.select().from(categories).all();
+  const allPkgs = await db.select().from(examPackages).orderBy(desc(examPackages.createdAt));
+  const allCats = await db.select().from(categories);
   const catMap = new Map(allCats.map((c) => [c.id, c.name]));
 
-  const packagesWithStats = allPkgs.map((pkg) => {
-    const qCount = db
-      .select()
-      .from(packageQuestions)
-      .where(eq(packageQuestions.packageId, pkg.id))
-      .all().length;
+  const allPkgQuestions = await db.select().from(packageQuestions);
+  const pkgQuestionCountMap = new Map<string, number>();
+  for (const pq of allPkgQuestions) {
+    pkgQuestionCountMap.set(pq.packageId, (pkgQuestionCountMap.get(pq.packageId) || 0) + 1);
+  }
 
-    return {
-      ...pkg,
-      categoryName: catMap.get(pkg.categoryId) || 'Umum',
-      questionCount: qCount,
-    };
-  });
+  const packagesWithStats = allPkgs.map((pkg) => ({
+    ...pkg,
+    categoryName: catMap.get(pkg.categoryId) || 'Umum',
+    questionCount: pkgQuestionCountMap.get(pkg.id) || 0,
+  }));
 
   return (
     <div className="max-w-6xl mx-auto space-y-6">

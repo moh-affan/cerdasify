@@ -7,7 +7,7 @@ import { eq, desc } from 'drizzle-orm';
 export async function GET() {
   try {
     await requireSuperAdmin();
-    const list = db
+    const list = await db
       .select({
         id: users.id,
         username: users.username,
@@ -17,8 +17,7 @@ export async function GET() {
         createdAt: users.createdAt,
       })
       .from(users)
-      .orderBy(desc(users.createdAt))
-      .all();
+      .orderBy(desc(users.createdAt));
 
     return NextResponse.json({ users: list });
   } catch (error: any) {
@@ -36,7 +35,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Username, Nama, dan Password wajib diisi' }, { status: 400 });
     }
 
-    const existing = db.select().from(users).where(eq(users.username, username.trim())).get();
+    const [existing] = await db.select().from(users).where(eq(users.username, username.trim())).limit(1);
     if (existing) {
       return NextResponse.json({ error: 'Username sudah digunakan' }, { status: 400 });
     }
@@ -44,7 +43,7 @@ export async function POST(req: NextRequest) {
     const passwordHash = await hashPassword(password);
     const userId = `usr_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
 
-    db.insert(users)
+    await db.insert(users)
       .values({
         id: userId,
         username: username.trim(),
@@ -52,8 +51,7 @@ export async function POST(req: NextRequest) {
         passwordHash,
         role,
         isActive: true,
-      })
-      .run();
+      });
 
     return NextResponse.json({ success: true, userId });
   } catch (error: any) {

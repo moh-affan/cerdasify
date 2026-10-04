@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { db, sqlite } from '@/db';
-import { users, attempts, attemptAnswers } from '@/db/schema';
+import { db, client } from '@/db';
+import { users } from '@/db/schema';
 import { requireSuperAdmin, hashPassword } from '@/lib/auth';
 import { eq, and, ne } from 'drizzle-orm';
 
@@ -12,7 +12,7 @@ export async function GET(
     await requireSuperAdmin();
     const { id } = await params;
 
-    const user = db
+    const [user] = await db
       .select({
         id: users.id,
         username: users.username,
@@ -23,7 +23,7 @@ export async function GET(
       })
       .from(users)
       .where(eq(users.id, id))
-      .get();
+      .limit(1);
 
     if (!user) {
       return NextResponse.json({ error: 'Pengguna tidak ditemukan' }, { status: 404 });
@@ -46,7 +46,7 @@ export async function PUT(
 
     const { name, username, role, isActive, password } = body;
 
-    const existingUser = db.select().from(users).where(eq(users.id, id)).get();
+    const [existingUser] = await db.select().from(users).where(eq(users.id, id)).limit(1);
     if (!existingUser) {
       return NextResponse.json({ error: 'Pengguna tidak ditemukan' }, { status: 404 });
     }
@@ -69,11 +69,11 @@ export async function PUT(
 
     // Check if new username is already taken by another user
     if (username && username.trim() !== existingUser.username) {
-      const duplicateUsername = db
+      const [duplicateUsername] = await db
         .select()
         .from(users)
         .where(and(eq(users.username, username.trim()), ne(users.id, id)))
-        .get();
+        .limit(1);
 
       if (duplicateUsername) {
         return NextResponse.json(
@@ -99,10 +99,9 @@ export async function PUT(
       updates.passwordHash = await hashPassword(password.trim());
     }
 
-    db.update(users)
+    await db.update(users)
       .set(updates)
-      .where(eq(users.id, id))
-      .run();
+      .where(eq(users.id, id));
 
     return NextResponse.json({
       success: true,
@@ -136,29 +135,17 @@ export async function DELETE(
       );
     }
 
-    const existingUser = db.select().from(users).where(eq(users.id, id)).get();
+    const [existingUser] = await db.select().from(users).where(eq(users.id, id)).limit(1);
     if (!existingUser) {
       return NextResponse.json({ error: 'Pengguna tidak ditemukan' }, { status: 404 });
     }
 
     // Cascade delete attempts and user
-    const deleteTx = sqlite.transaction(() => {
-      // 1. Delete attempt answers of user attempts
-      sqlite
-        .prepare(
-          `DELETE FROM attempt_answers 
-           WHERE attempt_id IN (SELECT id FROM attempts WHERE user_id = ?)`
-        )
-        .run(id);
-
-      // 2. Delete attempts
-      sqlite.prepare(`DELETE FROM attempts WHERE user_id = ?`).run(id);
-
-      // 3. Delete user
-      sqlite.prepare(`DELETE FROM users WHERE id = ?`).run(id);
+    await client.begin(async (sql) => {
+      await sql`DELETE FROM attempt_answers WHERE attempt_id IN (SELECT id FROM attempts WHERE user_id = ${id})`;
+      await sql`DELETE FROM attempts WHERE user_id = ${id}`;
+      await sql`DELETE FROM users WHERE id = ${id}`;
     });
-
-    deleteTx();
 
     return NextResponse.json({
       success: true,
