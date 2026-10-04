@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Sparkles, Shield, User, GraduationCap, Lock, ArrowRight, Loader2, AlertCircle } from 'lucide-react';
+import { User, Lock, ArrowRight, Loader2, AlertCircle } from 'lucide-react';
 import { CerdasifyIcon } from '@/components/ui/CerdasifyLogo';
 
 export default function LoginPage() {
@@ -12,12 +12,10 @@ export default function LoginPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const handleLogin = async (e?: React.FormEvent, customUser?: string, customPass?: string) => {
-    if (e) e.preventDefault();
-    const u = customUser || username;
-    const p = customPass || password;
+  const handleLogin = async (e: React.FormEvent) => {
+    e.preventDefault();
 
-    if (!u || !p) {
+    if (!username || !password) {
       setError('Masukkan username dan kata sandi');
       return;
     }
@@ -29,7 +27,7 @@ export default function LoginPage() {
       const res = await fetch('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ username: u, password: p }),
+        body: JSON.stringify({ username: username.trim(), password }),
       });
 
       const data = await res.json();
@@ -47,12 +45,6 @@ export default function LoginPage() {
       setError(err.message || 'Terjadi kesalahan sistem');
       setLoading(false);
     }
-  };
-
-  const handleQuickLogin = (u: string, p: string) => {
-    setUsername(u);
-    setPassword(p);
-    handleLogin(undefined, u, p);
   };
 
   return (
@@ -94,7 +86,7 @@ export default function LoginPage() {
                   required
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  placeholder="Contoh: peserta_budi atau superadmin"
+                  placeholder="Masukkan username Anda"
                   className="w-full pl-10 pr-4 py-2.5 bg-slate-900/60 border border-slate-700 rounded-xl text-sm text-white placeholder-slate-500 focus:outline-hidden focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition"
                 />
                 <User className="w-4 h-4 text-slate-500 absolute left-3.5 top-3" />
@@ -136,54 +128,10 @@ export default function LoginPage() {
               )}
             </button>
           </form>
-
-          {/* Quick Demo Accounts */}
-          <div className="pt-4 border-t border-slate-700/60 space-y-2">
-            <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">
-              Akses Cepat (Demo Akun):
-            </span>
-            <div className="grid grid-cols-1 gap-2">
-              <button
-                type="button"
-                onClick={() => handleQuickLogin('superadmin', 'SuperPassword123!')}
-                className="w-full py-2 px-3 rounded-lg bg-slate-700/50 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-medium flex items-center justify-between border border-slate-600/40 transition"
-              >
-                <span className="flex items-center gap-2">
-                  <Shield className="w-3.5 h-3.5 text-amber-400" />
-                  Super Admin
-                </span>
-                <span className="text-[10px] text-slate-400 font-mono">superadmin</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => handleQuickLogin('guru_olimpiade', 'GuruPassword123!')}
-                className="w-full py-2 px-3 rounded-lg bg-slate-700/50 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-medium flex items-center justify-between border border-slate-600/40 transition"
-              >
-                <span className="flex items-center gap-2">
-                  <GraduationCap className="w-3.5 h-3.5 text-indigo-400" />
-                  Admin / Pembina Olimpiade
-                </span>
-                <span className="text-[10px] text-slate-400 font-mono">guru_olimpiade</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => handleQuickLogin('peserta_budi', 'Peserta123!')}
-                className="w-full py-2 px-3 rounded-lg bg-slate-700/50 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-medium flex items-center justify-between border border-slate-600/40 transition"
-              >
-                <span className="flex items-center gap-2">
-                  <User className="w-3.5 h-3.5 text-emerald-400" />
-                  Peserta / Siswa Ujian
-                </span>
-                <span className="text-[10px] text-slate-400 font-mono">peserta_budi</span>
-              </button>
-            </div>
-          </div>
         </div>
 
         <p className="text-center text-xs text-slate-500">
-          Cerdasify Engine v1.0 • High-Speed SQLite WAL Mode
+          Cerdasify Engine v1.0 • Secure Cloud Edition
         </p>
       </div>
     </div>
