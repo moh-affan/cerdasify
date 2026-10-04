@@ -66,6 +66,27 @@ def parse_english_questions(relpath, keys_dict, topic_id, prefix):
     pos = txt.find("BAHASA INGGRIS LEVEL")
     if pos != -1:
         txt = txt[pos:]
+
+    # 1. Extract reading passages and map to question ranges
+    passage_map = {}
+    pat_passage = r"((?:The following\s+(?:text|dialog|dialogue|picture)|Read the\s+(?:passage|text|short story))[^\n]*?(?:question|number|questions)\s*(?:number\s*)?(\d+)\s*(?:to|-|–|and)\s*(\d+)[^\n]*\n)([\s\S]*?)(?=\n\d+\.\s+)"
+    for m in re.finditer(pat_passage, txt, re.IGNORECASE):
+        header_line = m.group(1).strip()
+        start_q = int(m.group(2))
+        end_q = int(m.group(3))
+        body_text = m.group(4).strip()
+        title = f"Teks Bacaan (Soal No. {start_q} – {end_q})"
+        if "dialog" in header_line.lower():
+            title = f"Dialog (Soal No. {start_q} – {end_q})"
+        elif "story" in header_line.lower():
+            title = f"Cerita (Soal No. {start_q} – {end_q})"
+        elif "direction" in body_text.lower():
+            title = f"Petunjuk Arah (Soal No. {start_q} – {end_q})"
+
+        block = f":::passage[{title}]\n*{header_line}*\n\n{body_text}\n:::"
+        for q_num in range(start_q, end_q + 1):
+            passage_map[q_num] = block
+
     q_start = re.search(r"\n1\.\s+", txt)
     if not q_start: return []
     body = txt[q_start.start():]
@@ -78,7 +99,16 @@ def parse_english_questions(relpath, keys_dict, topic_id, prefix):
         m = re.match(r"^(\d+)\.\s+(.*?)(?=\n[a-d]\.|\n[A-D]\.|$)(.*)", p, re.DOTALL)
         if m:
             num = int(m.group(1))
-            q_text = m.group(2).strip()
+            raw_q_text = m.group(2).strip()
+            # Clean any trailing passage intro that got caught before the next question
+            raw_q_text = re.split(r"\n(?:The following|Read the)", raw_q_text)[0].strip()
+
+            # Attach passage if question belongs to a passage group
+            if num in passage_map:
+                q_text = f"{passage_map[num]}\n\n{raw_q_text}"
+            else:
+                q_text = raw_q_text
+
             opts_part = m.group(3).strip()
             opts = re.findall(r"([a-dA-D])\.\s*(.*?)(?=(?:[a-dA-D]\.|$))", opts_part, re.DOTALL)
             parsed_opts = {o[0].upper(): o[1].strip().replace("\n", " ") for o in opts}
@@ -86,7 +116,7 @@ def parse_english_questions(relpath, keys_dict, topic_id, prefix):
             if len(parsed_opts) >= 2 and num in keys_dict:
                 correct_key = keys_dict[num]
                 correct_text = parsed_opts.get(correct_key, "")
-                exp = f"Jawaban yang benar adalah **{correct_key} ({correct_text})**. Berdasarkan kaidah tata bahasa dan konteks soal: \"{q_text}\"."
+                exp = f"Jawaban yang benar adalah **{correct_key} ({correct_text})**. Berdasarkan kaidah tata bahasa dan konteks soal: \"{raw_q_text}\"."
                 records.append({
                     "id": f"{prefix}_{num:02d}",
                     "num": num,

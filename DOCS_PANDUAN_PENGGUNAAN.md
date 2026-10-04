@@ -102,11 +102,14 @@ Antarmuka pengerjaan Cerdasify didesain bersih, modern, dan bebas distraksi (*di
    - Nama paket soal yang sedang dikerjakan.
    - Indikator Timer waktu pengerjaan.
    - Tombol **Jeda** (pada mode latihan).
-2. **Kartu Pertanyaan:**
+2. **Kartu Stimulus Soal Cerita / Teks Bacaan (Jika Ada):**
+   - Untuk soal-soal berbasis wacana, cerita, dialog, atau petunjuk arah yang berlaku untuk lebih dari 1 soal (seperti pada *Olimpiade Bahasa Inggris Soal No. 1–5*), teks cerita ditampilkan dalam **Kotak Stimulus Bacaan** berlatar lembut dengan badge *Stimulus Bacaan*.
+   - **Tampilan Konsisten Multi-Nomor:** Kotak bacaan ini **otomatis tetap tampil di atas setiap nomor soal yang relevan** (misalnya saat peserta berada di nomor 1, 2, 3, 4, maupun 5), sehingga peserta dapat langsung merujuk ke teks tanpa perlu bolak-balik menekan tombol kembali ke nomor 1.
+3. **Kartu Pertanyaan:**
    - Teks pertanyaan yang mendukung penuh simbol matematika dan sains (KaTeX).
    - Area gambar stimulus (jika soal memiliki gambar).
    - Opsi jawaban pilihan ganda (A sampai E).
-3. **Navigasi Grid Nomor Soal:**
+4. **Navigasi Grid Nomor Soal:**
    - **Desktop:** Panel nomor soal di sebelah kanan layar.
    - **Smartphone:** Tombol drawer di kanan atas untuk memunculkan daftar nomor tanpa menutupi soal.
    - **Indikator Warna Tombol Nomor:**
@@ -114,7 +117,7 @@ Antarmuka pengerjaan Cerdasify didesain bersih, modern, dan bebas distraksi (*di
      - 🟩 *Hijau*: Soal yang sudah Anda jawab.
      - 🟨 *Kuning*: Soal yang Anda tandai "Ragu-ragu".
      - ⬜ *Abu-abu*: Soal yang belum dijawab.
-4. **Auto-Save Otomatis:**
+5. **Auto-Save Otomatis:**
    - Setiap kali Anda mengeklik opsi jawaban, sistem secara otomatis mengirimkan jawaban Anda ke server di latar belakang (*background auto-save*). Anda tidak perlu khawatir kehilangan jawaban jika koneksi internet mendadak lambat.
 
 ---
@@ -196,10 +199,21 @@ Pada halaman hasil:
      - `\sum` & `\int` : Menyisipkan simbol sigma deret dan integral
      - `\begin{pmatrix}` : Menyisipkan template matriks
      - `\alpha, \pi, \theta` : Menyisipkan simbol Yunani
-4. **Live Preview Panel:**
-   - Saat Anda mengetik formula (contoh: `$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$`), panel pratinjau di samping kanan akan merender formula secara langsung dalam tampilan grafis matematis yang rapi.
-5. Masukkan pilihan jawaban (A sampai E) dan tandai jawaban yang benar.
-6. Tuliskan langkah pembahasan soal di kolom Pembahasan.
+4. **Toolbar Stimulus & Soal Cerita (Multi-Soal):**
+   - Jika satu wacana atau cerita digunakan untuk lebih dari 1 butir pertanyaan (misalnya wacana teks untuk soal nomor 1 sampai 5), gunakan format blok `:::passage[...]`:
+     ```markdown
+     :::passage[Teks Bacaan (Soal No. 1 – 5)]
+     Tuliskan cerita, narasi, petunjuk, atau dialog percakapan di sini.
+     :::
+
+     Pertanyaan spesifik untuk butir soal ini...
+     ```
+   - Di toolbar editor terdapat tombol pintas **📖 Kotak Cerita / Bacaan** dan **💬 Dialog Percakapan** untuk menyisipkan template blok ini secara instan.
+   - Cantumkan blok `:::passage[...]` yang sama pada setiap butir soal di dalam rentang tersebut agar peserta selalu dapat membaca stimulus wacana tanpa harus berpindah ke nomor sebelumnya.
+5. **Live Preview Panel:**
+   - Saat Anda mengetik formula (contoh: `$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$`) atau menyisipkan blok cerita `:::passage`, panel pratinjau langsung merender wacana dan formula secara instan.
+6. Masukkan pilihan jawaban (A sampai E) dan tandai jawaban yang benar.
+7. Tuliskan langkah pembahasan soal di kolom Pembahasan.
 
 ---
 

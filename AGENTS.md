@@ -143,7 +143,12 @@ cerdasify/
    - **Mobile-Responsive Wrap:** Bungkus formula block dalam container `<div className="overflow-x-auto max-w-full py-1">` agar rumus panjang pada smartphone dapat digeser mendatar secara halus tanpa merusak tata letak kartu soal.
 4. **Editor Soal Admin (`src/components/admin/MathEditorToolbar.tsx`):**
    - Sediakan tombol pintas (*quick-insert toolbar*) untuk menyisipkan template rumus umum: Pecahan (`\frac{}{}`), Akar (`\sqrt{}`), Pangkat (`x^2`), Subskrip (`x_1`), Integral (`\int`), Sigma (`\sum`), Matriks, dan Simbol Yunani.
+   - Sediakan tombol pintas Stimulus & Cerita (`📖 Kotak Cerita / Bacaan` dan `💬 Dialog Percakapan`).
    - Sediakan panel Live Preview berdampingan secara instan saat admin mengetik soal.
+5. **Penanganan Soal Cerita & Wacana Multi-Nomor (Reading Passages):**
+   - Gunakan format blok `:::passage[Judul Wacana]\nIsi wacana/dialog/cerita...\n:::\n\nPertanyaan...`.
+   - Ketika 1 wacana/cerita berlaku untuk lebih dari 1 butir soal (misal Soal No. 1–5), blok wacana ini **WAJIB disertakan pada seluruh butir soal di rentang tersebut** agar peserta ujian selalu memiliki akses langsung ke teks bacaan di nomor manapun tanpa kehilangan konteks.
+   - `MathRenderer` merender blok wacana ini menjadi kartu wacana visual elegan dengan ikon `BookOpen` dan badge *Stimulus Bacaan*.
 
 ---
 

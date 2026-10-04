@@ -414,6 +414,12 @@ export default function ExamSessionPage() {
                   Bergambar
                 </span>
               )}
+              {currentQ.contentMarkdown.includes(':::passage') && (
+                <span className="text-[11px] font-bold text-amber-800 bg-amber-50 border border-amber-200 px-2.5 py-0.5 rounded-full flex items-center gap-1">
+                  <BookOpen className="w-3.5 h-3.5 text-amber-600" />
+                  Soal Cerita / Teks Bacaan
+                </span>
+              )}
             </div>
 
             <button

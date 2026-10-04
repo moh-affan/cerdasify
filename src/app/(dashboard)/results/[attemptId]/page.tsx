@@ -283,10 +283,18 @@ export default async function ExamResultPage({
                     <span className="w-8 h-8 rounded-xl bg-slate-900 text-white font-bold text-sm flex items-center justify-center">
                       {item.index}
                     </span>
-                    <div>
+                    <div className="flex items-center flex-wrap gap-1">
                       <span className="text-xs font-semibold text-indigo-600">{item.topicName}</span>
-                      <span className="text-xs text-slate-400 mx-1.5">•</span>
+                      <span className="text-xs text-slate-400">•</span>
                       <span className="text-xs text-slate-500 uppercase">{item.question?.difficulty}</span>
+                      {item.question?.contentMarkdown?.includes(':::passage') && (
+                        <>
+                          <span className="text-xs text-slate-400">•</span>
+                          <span className="text-[11px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
+                            Soal Cerita
+                          </span>
+                        </>
+                      )}
                     </div>
                   </div>
 

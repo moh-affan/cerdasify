@@ -49,6 +49,21 @@ const TOOLBAR_GROUPS = [
       { label: 'Δ Delta', snippet: '$\\Delta$', desc: 'Delta' },
     ],
   },
+  {
+    name: 'Stimulus & Cerita',
+    items: [
+      {
+        label: '📖 Kotak Cerita / Bacaan',
+        snippet: ':::passage[Teks Bacaan (Soal No. 1 – 5)]\nTuliskan isi teks cerita / narasi di sini...\n:::\n\n',
+        desc: 'Sisipkan stimulus teks cerita/bacaan untuk soal',
+      },
+      {
+        label: '💬 Dialog Percakapan',
+        snippet: ':::passage[Dialog Soal]\n**Tokoh A :** “Teks ucapan...”\n**Tokoh B :** “Teks balasan...”\n:::\n\n',
+        desc: 'Sisipkan stimulus percakapan atau wawancara',
+      },
+    ],
+  },
 ];
 
 export const MathEditorToolbar: React.FC<MathEditorToolbarProps> = ({
