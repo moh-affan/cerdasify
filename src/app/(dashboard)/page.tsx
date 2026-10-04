@@ -4,6 +4,7 @@ import { db } from '@/db';
 import { examPackages, categories, packageQuestions, questions, attempts } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
 import CerdasifyLogo from '@/components/ui/CerdasifyLogo';
+import InstallButton from '@/components/pwa/InstallButton';
 import { eq, desc } from 'drizzle-orm';
 import {
   Sparkles,
@@ -132,7 +133,9 @@ export default async function UserDashboardPage({
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <CerdasifyLogo />
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <InstallButton variant="header" />
+
             {user ? (
               <div className="flex items-center gap-3">
                 {(user.role === 'SUPER_ADMIN' || user.role === 'ADMIN') && (

@@ -1,0 +1,59 @@
+import type { MetadataRoute } from 'next';
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: 'Cerdasify — Platform Simulasi & Bank Soal',
+    short_name: 'Cerdasify',
+    description:
+      'Platform latihan soal dan simulasi ujian olimpiade sains, matematika, bahasa inggris, dan CPNS dengan pembahasan interaktif.',
+    start_url: '/',
+    id: '/',
+    scope: '/',
+    display: 'standalone',
+    orientation: 'portrait-primary',
+    background_color: '#0f172a',
+    theme_color: '#4f46e5',
+    lang: 'id',
+    categories: ['education', 'productivity'],
+    icons: [
+      {
+        src: '/icons/icon-192x192.png',
+        sizes: '192x192',
+        type: 'image/png',
+        purpose: 'any',
+      },
+      {
+        src: '/icons/icon-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'any',
+      },
+      {
+        src: '/icons/maskable-icon-192x192.png',
+        sizes: '192x192',
+        type: 'image/png',
+        purpose: 'maskable',
+      },
+      {
+        src: '/icons/maskable-icon-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'maskable',
+      },
+      {
+        src: '/icon.png',
+        sizes: '512x512',
+        type: 'image/png',
+      },
+    ],
+    shortcuts: [
+      {
+        name: 'Daftar Paket Ujian',
+        short_name: 'Paket Ujian',
+        description: 'Jelajahi semua paket simulasi dan latihan soal',
+        url: '/',
+        icons: [{ src: '/icons/icon-192x192.png', sizes: '192x192' }],
+      },
+    ],
+  };
+}

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { getCurrentUser } from '@/lib/auth';
 import CerdasifyLogo from '@/components/ui/CerdasifyLogo';
+import InstallButton from '@/components/pwa/InstallButton';
 import {
   Sparkles,
   LayoutDashboard,
@@ -64,6 +65,10 @@ export default async function AdminLayout({
               );
             })}
           </nav>
+
+          <div className="pt-2">
+            <InstallButton variant="sidebar" />
+          </div>
         </div>
 
         {/* User Card & Logout */}
