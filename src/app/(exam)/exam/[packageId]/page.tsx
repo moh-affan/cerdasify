@@ -68,91 +68,93 @@ export default function ExamSessionPage() {
   const [zoomImageUrl, setZoomImageUrl] = useState<string | null>(null);
 
   // Initialize session
-  useEffect(() => {
-    async function initExam() {
-      try {
-        setIsLoading(true);
-        setError(null);
+  const initExam = useCallback(async () => {
+    try {
+      setIsLoading(true);
+      setError(null);
 
-        // 1. Start or resume attempt
-        const startRes = await fetch('/api/exam/start', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ packageId }),
-        });
+      // 1. Start or resume attempt (now loads questions and answers in 1 bulk query)
+      const startRes = await fetch('/api/exam/start', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ packageId }),
+      });
 
-        const startData = await startRes.json();
-        if (!startRes.ok) {
-          throw new Error(startData.error || 'Gagal memulai ujian');
-        }
+      const startData = await startRes.json();
+      if (!startRes.ok) {
+        throw new Error(startData.error || 'Gagal memulai ujian');
+      }
 
-        const activeAttemptId = startData.attemptId;
-        setAttemptId(activeAttemptId);
+      const activeAttemptId = startData.attemptId;
+      setAttemptId(activeAttemptId);
 
-        // 2. Fetch questions and saved answers
+      let attemptData = startData;
+      // Fallback if questions were not returned directly
+      if (!attemptData.questions || !attemptData.attempt) {
         const attemptRes = await fetch(`/api/exam/attempt/${activeAttemptId}`);
-        const attemptData = await attemptRes.json();
-
+        attemptData = await attemptRes.json();
         if (!attemptRes.ok) {
           throw new Error(attemptData.error || 'Gagal memuat soal');
         }
+      }
 
-        if (attemptData.attempt.status !== 'IN_PROGRESS' && attemptData.attempt.status !== 'PAUSED') {
-          router.replace(`/results/${activeAttemptId}`);
-          return;
-        }
+      if (attemptData.attempt.status !== 'IN_PROGRESS' && attemptData.attempt.status !== 'PAUSED') {
+        router.replace(`/results/${activeAttemptId}`);
+        return;
+      }
 
-        setPackageTitle(attemptData.attempt.packageTitle);
-        setPackageType(attemptData.attempt.packageType || 'SIMULATION');
-        setQuestions(attemptData.questions);
-        setAnswers(attemptData.answers || {});
+      setPackageTitle(attemptData.attempt.packageTitle);
+      setPackageType(attemptData.attempt.packageType || 'SIMULATION');
+      setQuestions(attemptData.questions);
+      setAnswers(attemptData.answers || {});
 
-        if (typeof window !== 'undefined') {
-          const sp = new URLSearchParams(window.location.search);
-          const qParam = sp.get('q');
-          if (qParam) {
-            const targetNum = parseInt(qParam, 10);
-            if (!isNaN(targetNum) && targetNum >= 1 && targetNum <= attemptData.questions.length) {
-              const targetIdx = targetNum - 1;
-              setCurrentIndex(targetIdx);
-              if (sp.get('zoom') === '1' || sp.get('zoom') === 'true') {
-                const targetQ = attemptData.questions[targetIdx];
-                if (targetQ && targetQ.imageUrl) {
-                  setZoomImageUrl(targetQ.imageUrl);
-                }
+      if (typeof window !== 'undefined') {
+        const sp = new URLSearchParams(window.location.search);
+        const qParam = sp.get('q');
+        if (qParam) {
+          const targetNum = parseInt(qParam, 10);
+          if (!isNaN(targetNum) && targetNum >= 1 && targetNum <= attemptData.questions.length) {
+            const targetIdx = targetNum - 1;
+            setCurrentIndex(targetIdx);
+            if (sp.get('zoom') === '1' || sp.get('zoom') === 'true') {
+              const targetQ = attemptData.questions[targetIdx];
+              if (targetQ && targetQ.imageUrl) {
+                setZoomImageUrl(targetQ.imageUrl);
               }
             }
           }
         }
-
-        const isCurrentlyPaused = attemptData.attempt.status === 'PAUSED';
-        setIsPaused(isCurrentlyPaused);
-
-        // Compute elapsed seconds or restore remainingSeconds
-        if (
-          attemptData.attempt.remainingSeconds !== null &&
-          attemptData.attempt.remainingSeconds !== undefined
-        ) {
-          setRemainingSeconds(attemptData.attempt.remainingSeconds);
-        } else {
-          const startTime = new Date(attemptData.attempt.startedAt).getTime();
-          const durationSec = attemptData.attempt.durationMinutes * 60;
-          const now = Date.now();
-          const elapsed = Math.floor((now - startTime) / 1000);
-          const rem = Math.max(0, durationSec - elapsed);
-          setRemainingSeconds(rem);
-        }
-      } catch (err: any) {
-        setError(err.message || 'Terjadi kesalahan');
-      } finally {
-        setIsLoading(false);
       }
-    }
 
+      const isCurrentlyPaused = attemptData.attempt.status === 'PAUSED';
+      setIsPaused(isCurrentlyPaused);
+
+      // Compute elapsed seconds or restore remainingSeconds
+      if (
+        attemptData.attempt.remainingSeconds !== null &&
+        attemptData.attempt.remainingSeconds !== undefined
+      ) {
+        setRemainingSeconds(attemptData.attempt.remainingSeconds);
+      } else {
+        const startTime = new Date(attemptData.attempt.startedAt).getTime();
+        const durationSec = attemptData.attempt.durationMinutes * 60;
+        const now = Date.now();
+        const elapsed = Math.floor((now - startTime) / 1000);
+        const rem = Math.max(0, durationSec - elapsed);
+        setRemainingSeconds(rem);
+      }
+    } catch (err: any) {
+      setError(err.message || 'Terjadi kesalahan saat memuat ujian. Silakan coba lagi.');
+    } finally {
+      setIsLoading(false);
+    }
+  }, [packageId, router]);
+
+  useEffect(() => {
     if (packageId) {
       initExam();
     }
-  }, [packageId, router]);
+  }, [packageId, initExam]);
 
   // Save answer to server in background
   const triggerAutoSave = useCallback(
@@ -289,12 +291,20 @@ export default function ExamSessionPage() {
           <AlertCircle className="w-12 h-12 text-rose-500 mx-auto mb-3" />
           <h2 className="text-lg font-bold text-slate-800">Tidak Dapat Membuka Ujian</h2>
           <p className="text-sm text-slate-600 mt-2">{error || 'Paket soal belum tersedia'}</p>
-          <button
-            onClick={() => router.push('/')}
-            className="mt-6 w-full py-3 bg-indigo-600 text-white rounded-xl font-semibold text-sm hover:bg-indigo-700 transition cursor-pointer"
-          >
-            Kembali ke Dashboard
-          </button>
+          <div className="mt-6 flex flex-col sm:flex-row gap-3">
+            <button
+              onClick={() => initExam()}
+              className="flex-1 py-3 bg-indigo-600 text-white rounded-xl font-semibold text-sm hover:bg-indigo-700 transition cursor-pointer shadow-sm"
+            >
+              Coba Lagi
+            </button>
+            <button
+              onClick={() => router.push('/')}
+              className="flex-1 py-3 bg-slate-100 text-slate-700 rounded-xl font-semibold text-sm hover:bg-slate-200 transition cursor-pointer border border-slate-200"
+            >
+              Ke Dashboard
+            </button>
+          </div>
         </div>
       </div>
     );

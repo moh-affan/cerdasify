@@ -1,9 +1,9 @@
 import React from 'react';
 import { notFound, redirect } from 'next/navigation';
 import { db } from '@/db';
-import { attempts, examPackages, questions, questionOptions, attemptAnswers, topics, categories } from '@/db/schema';
+import { attempts, examPackages, packageQuestions, questions, questionOptions, attemptAnswers, topics, categories } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
-import { eq, asc } from 'drizzle-orm';
+import { eq, asc, inArray } from 'drizzle-orm';
 import { MathRenderer } from '@/components/katex/MathRenderer';
 import { CheckCircle2, XCircle, HelpCircle, Trophy, RotateCcw, ArrowLeft, Clock, BarChart3, BookOpen } from 'lucide-react';
 import Link from 'next/link';
@@ -46,15 +46,33 @@ export default async function ExamResultPage({
   const answersDb = await db.select().from(attemptAnswers).where(eq(attemptAnswers.attemptId, attempt.id));
   const answersMap = new Map(answersDb.map((a) => [a.questionId, a]));
 
-  const allQuestions = await db.select().from(questions);
-  const qMap = new Map(allQuestions.map((q) => [q.id, q]));
+  const pkgQs = await db
+    .select({ questionId: packageQuestions.questionId })
+    .from(packageQuestions)
+    .where(eq(packageQuestions.packageId, pkg.id))
+    .orderBy(asc(packageQuestions.orderIndex));
+
+  const relevantQIds = pkgQs.length > 0
+    ? pkgQs.map((pq) => pq.questionId)
+    : answersDb.map((a) => a.questionId);
+
+  const relevantQuestions = relevantQIds.length > 0
+    ? await db.select().from(questions).where(inArray(questions.id, relevantQIds))
+    : [];
+  const qMap = new Map(relevantQuestions.map((q) => [q.id, q]));
 
   const allTopics = await db.select().from(topics);
   const topicMap = new Map(allTopics.map((t) => [t.id, t.name]));
 
-  const allOpts = await db.select().from(questionOptions).orderBy(asc(questionOptions.orderIndex));
-  const optsMap = new Map<string, typeof allOpts>();
-  for (const opt of allOpts) {
+  const relevantOpts = relevantQIds.length > 0
+    ? await db
+        .select()
+        .from(questionOptions)
+        .where(inArray(questionOptions.questionId, relevantQIds))
+        .orderBy(asc(questionOptions.orderIndex))
+    : [];
+  const optsMap = new Map<string, typeof relevantOpts>();
+  for (const opt of relevantOpts) {
     if (!optsMap.has(opt.questionId)) optsMap.set(opt.questionId, []);
     optsMap.get(opt.questionId)!.push(opt);
   }

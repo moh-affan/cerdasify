@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/db';
-import { attempts, examPackages, packageQuestions, questions, questionOptions, attemptAnswers, topics } from '@/db/schema';
+import { attempts, examPackages } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
-import { eq, asc } from 'drizzle-orm';
+import { eq } from 'drizzle-orm';
+import { getAttemptQuestionsAndAnswers } from '@/lib/exam-data';
 
 export async function GET(
   req: NextRequest,
@@ -30,67 +31,8 @@ export async function GET(
       return NextResponse.json({ error: 'Paket ujian tidak ditemukan' }, { status: 404 });
     }
 
-    // Load questions ordered by package_questions.order_index
-    const pkgQs = await db
-      .select({
-        questionId: packageQuestions.questionId,
-        orderIndex: packageQuestions.orderIndex,
-      })
-      .from(packageQuestions)
-      .where(eq(packageQuestions.packageId, pkg.id))
-      .orderBy(asc(packageQuestions.orderIndex));
-
-    const questionsPayload = [];
-
-    for (const pq of pkgQs) {
-      const [q] = await db.select().from(questions).where(eq(questions.id, pq.questionId)).limit(1);
-      if (!q) continue;
-
-      const [topic] = await db.select().from(topics).where(eq(topics.id, q.topicId)).limit(1);
-
-      // Fetch options ordered by orderIndex
-      const opts = await db
-        .select({
-          id: questionOptions.id,
-          label: questionOptions.label,
-          contentMarkdown: questionOptions.contentMarkdown,
-          imageUrl: questionOptions.imageUrl,
-          orderIndex: questionOptions.orderIndex,
-        })
-        .from(questionOptions)
-        .where(eq(questionOptions.questionId, q.id))
-        .orderBy(asc(questionOptions.orderIndex));
-
-      // ANTI-LEAK: Notice NO is_correct, NO score_value, NO explanation!
-      questionsPayload.push({
-        id: q.id,
-        topicName: topic ? topic.name : 'Umum',
-        type: q.type,
-        difficulty: q.difficulty,
-        contentMarkdown: q.contentMarkdown,
-        imageUrl: q.imageUrl,
-        options: opts.map((o) => ({
-          id: o.id,
-          label: o.label,
-          contentMarkdown: o.contentMarkdown,
-          imageUrl: o.imageUrl,
-        })),
-      });
-    }
-
-    // Load existing user answers
-    const existingAnswers = await db
-      .select()
-      .from(attemptAnswers)
-      .where(eq(attemptAnswers.attemptId, attempt.id));
-
-    const answersMap: Record<string, { selectedOptionIds: string[]; isDoubtful: boolean }> = {};
-    for (const ans of existingAnswers) {
-      answersMap[ans.questionId] = {
-        selectedOptionIds: ans.selectedOptionIds ? JSON.parse(ans.selectedOptionIds) : [],
-        isDoubtful: ans.isDoubtful || false,
-      };
-    }
+    const { questions: questionsPayload, answers: answersMap } =
+      await getAttemptQuestionsAndAnswers(pkg.id, attempt.id);
 
     return NextResponse.json({
       attempt: {

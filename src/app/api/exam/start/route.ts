@@ -3,6 +3,7 @@ import { db } from '@/db';
 import { attempts, examPackages, packageQuestions } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
 import { eq, and, or } from 'drizzle-orm';
+import { getAttemptQuestionsAndAnswers } from '@/lib/exam-data';
 
 export async function POST(req: NextRequest) {
   try {
@@ -37,17 +38,35 @@ export async function POST(req: NextRequest) {
       .limit(1);
 
     if (existing) {
+      const { questions: questionsPayload, answers: answersMap } =
+        await getAttemptQuestionsAndAnswers(pkg.id, existing.id);
+
       return NextResponse.json({
         attemptId: existing.id,
-        startedAt: existing.startedAt,
-        durationMinutes: pkg.durationMinutes,
+        attempt: {
+          id: existing.id,
+          packageId: existing.packageId,
+          packageTitle: pkg.title,
+          packageType: pkg.type,
+          durationMinutes: pkg.durationMinutes,
+          startedAt: existing.startedAt,
+          status: existing.status,
+          remainingSeconds: existing.remainingSeconds,
+        },
+        questions: questionsPayload,
+        answers: answersMap,
         resumed: true,
       });
     }
 
     // Check that package has questions
-    const pkgQs = await db.select().from(packageQuestions).where(eq(packageQuestions.packageId, packageId));
-    if (pkgQs.length === 0) {
+    const [firstPkgQ] = await db
+      .select({ questionId: packageQuestions.questionId })
+      .from(packageQuestions)
+      .where(eq(packageQuestions.packageId, packageId))
+      .limit(1);
+
+    if (!firstPkgQ) {
       return NextResponse.json({ error: 'Paket ujian belum memiliki butir soal' }, { status: 400 });
     }
 
@@ -64,10 +83,23 @@ export async function POST(req: NextRequest) {
         scoreTotal: 0,
       });
 
+    const { questions: questionsPayload, answers: answersMap } =
+      await getAttemptQuestionsAndAnswers(pkg.id, newAttemptId);
+
     return NextResponse.json({
       attemptId: newAttemptId,
-      startedAt: nowIso,
-      durationMinutes: pkg.durationMinutes,
+      attempt: {
+        id: newAttemptId,
+        packageId: pkg.id,
+        packageTitle: pkg.title,
+        packageType: pkg.type,
+        durationMinutes: pkg.durationMinutes,
+        startedAt: nowIso,
+        status: 'IN_PROGRESS',
+        remainingSeconds: null,
+      },
+      questions: questionsPayload,
+      answers: answersMap,
       resumed: false,
     });
   } catch (error: any) {

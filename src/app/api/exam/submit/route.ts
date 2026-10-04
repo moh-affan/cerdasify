@@ -11,7 +11,7 @@ import {
 } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
 import { calculateScore, QuestionGradingData, UserAnswerData } from '@/lib/scoring';
-import { eq } from 'drizzle-orm';
+import { eq, inArray } from 'drizzle-orm';
 
 export async function POST(req: NextRequest) {
   try {
@@ -48,28 +48,64 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Paket ujian tidak ditemukan' }, { status: 404 });
     }
 
-    // 1. Gather all questions and options for grading
-    const pkgQs = await db.select().from(packageQuestions).where(eq(packageQuestions.packageId, pkg.id));
+    // 1. Gather all questions and options for grading in batch
+    const pkgQs = await db
+      .select({ questionId: packageQuestions.questionId })
+      .from(packageQuestions)
+      .where(eq(packageQuestions.packageId, pkg.id));
+
     const gradingQuestions: QuestionGradingData[] = [];
 
-    for (const pq of pkgQs) {
-      const [q] = await db.select().from(questions).where(eq(questions.id, pq.questionId)).limit(1);
-      if (!q) continue;
+    if (pkgQs.length > 0) {
+      const qIds = pkgQs.map((p) => p.questionId);
 
-      const [topic] = await db.select().from(topics).where(eq(topics.id, q.topicId)).limit(1);
-      const opts = await db.select().from(questionOptions).where(eq(questionOptions.questionId, q.id));
+      const questionsDb = await db
+        .select({
+          id: questions.id,
+          topicName: topics.name,
+          type: questions.type,
+        })
+        .from(questions)
+        .leftJoin(topics, eq(questions.topicId, topics.id))
+        .where(inArray(questions.id, qIds));
 
-      gradingQuestions.push({
-        questionId: q.id,
-        topicName: topic ? topic.name : 'Umum',
-        type: q.type as any,
-        options: opts.map((o) => ({
-          id: o.id,
-          label: o.label,
-          isCorrect: o.isCorrect || false,
-          scoreValue: o.scoreValue || 0,
-        })),
-      });
+      const questionsMap = new Map(questionsDb.map((q) => [q.id, q]));
+
+      const optsDb = await db
+        .select({
+          id: questionOptions.id,
+          questionId: questionOptions.questionId,
+          label: questionOptions.label,
+          isCorrect: questionOptions.isCorrect,
+          scoreValue: questionOptions.scoreValue,
+        })
+        .from(questionOptions)
+        .where(inArray(questionOptions.questionId, qIds));
+
+      const optsMap = new Map<string, typeof optsDb>();
+      for (const opt of optsDb) {
+        if (!optsMap.has(opt.questionId)) {
+          optsMap.set(opt.questionId, []);
+        }
+        optsMap.get(opt.questionId)!.push(opt);
+      }
+
+      for (const pq of pkgQs) {
+        const q = questionsMap.get(pq.questionId);
+        if (!q) continue;
+        const opts = optsMap.get(q.id) || [];
+        gradingQuestions.push({
+          questionId: q.id,
+          topicName: q.topicName || 'Umum',
+          type: q.type as QuestionGradingData['type'],
+          options: opts.map((o) => ({
+            id: o.id,
+            label: o.label,
+            isCorrect: o.isCorrect || false,
+            scoreValue: o.scoreValue || 0,
+          })),
+        });
+      }
     }
 
     // 2. Gather user answers
