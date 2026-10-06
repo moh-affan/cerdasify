@@ -191,36 +191,36 @@ def parse_tricky_soal():
     
     # Hand-crafted verified pedagogical solutions & answer keys for these 30 tricky questions
     solutions = {
-        1: ("B", "Satu piring kosong sejak awal, artinya piring yang berisi kue hanya 2 piring. Maka banyak kue di meja adalah $2 \\times 4 = 8$ kue."),
-        2: ("C", "Rani awalnya punya 9 permen, memberi 3 (sisa 6), lalu memegang kembali 2 permen yang tadi diberikan. Banyak permen sekarang: $9 - 3 + 2 = 8$."),
-        3: ("B", "Awalnya 5 burung, 2 burung terbang ($5 - 2 = 3$), lalu 1 burung datang ($3 + 1 = 4$). Sekarang ada 4 burung di dahan."),
-        4: ("C", "Jumlah kelereng 10 buah. Yang disimpan di saku 4 kelereng. Maka yang TIDAK di saku adalah $10 - 4 = 6$ kelereng."),
-        5: ("C", "Di rak ada 8 buku dan 3 buku dipinjam. Buku yang tersisa di rak adalah $8 - 3 = 5$ buku."),
-        6: ("C", "Ani memiliki 6 apel, membeli 4 ($6 + 4 = 10$). Kemudian 2 busuk dibuang ($10 - 2 = 8$). Sisa apel Ani adalah 8 apel."),
-        7: ("C", "Total ada 12 bola. 4 bola merah tidak dihitung, maka bola yang dihitung berjumlah $12 - 4 = 8$ bola."),
-        8: ("C", "Ada 2 anak masing-masing punya 5 permen (total 10). Satu anak memberi ke temannya hanya memindahkan kepemilikan antar mereka, sehingga jumlah total permen tetap 10 permen."),
-        9: ("B", "Manusia normal memiliki 10 jari pada dua tangan (5 jari per tangan). Jika satu tangan ditutup, jari pada satu tangan lainnya yang terlihat ada 5 jari."),
-        10: ("B", "Pensil yang patah tetap merupakan pensil di atas meja, hanya kondisinya patah. Jika di meja ada 7 pensil, banyak pensil di meja tetap 7 pensil."),
-        11: ("B", "Budi memakan 2 potong apel miliknya sendiri. Kue tidak dimakan, sehingga banyak kue di piring tetap utuh."),
-        12: ("B", "Di meja ada 4 piring dan setiap piring diisi 2 jeruk. Banyak jeruk di meja adalah $4 \\times 2 = 8$ jeruk."),
-        13: ("B", "Siti memiliki 5 balon merah dan 3 balon biru. Yang ditanyakan khusus balon merah, yaitu tetap 5 balon."),
-        14: ("B", "Awalnya 6 kucing, 1 pergi ($6 - 1 = 5$), lalu 2 kucing datang ($5 + 2 = 7$). Sekarang ada 7 kucing."),
-        15: ("B", "Ada 10 permen dibagikan sama rata kepada 2 anak. Masing-masing mendapat $10 \\div 2 = 5$ permen."),
-        16: ("B", "Awalnya 8 kue, dimakan 3 sisa 5 kue. Ibu membuat 4 kue lagi: $5 + 4 = 9$ kue."),
-        17: ("C", "Buku ke-4 dari kiri berarti di sebelah kirinya ada 3 buku. Buku ke-5 dari kanan berarti di sebelah kanannya ada 4 buku. Total buku: $3 + 1 + 4 = 8$ buku."),
-        18: ("B", "Pohon mangga berada pada urutan ke-3 dari 5 pohon berjejer. Pohon tersebut tetap pohon ke-3."),
-        19: ("B", "Ada 12 telur, pecah 2 butir ($12 - 2 = 10$). Yang tidak pecah ada 10 butir."),
-        20: ("B", "Antrean ada 7 anak. Jika 2 anak paling depan sudah selesai dilayani, sisa yang antre adalah $7 - 2 = 5$ anak."),
-        21: ("C", "Tiga anak masing-masing membawa 3 buku. Total buku adalah $3 \\times 3 = 9$ buku."),
-        22: ("B", "Kotak A berisi 4 kelereng, Kotak B berisi 6 kelereng. Selisihnya adalah $6 - 4 = 2$ kelereng."),
-        23: ("B", "Ada 9 bola, diambil 4 bola ($9 - 4 = 5$). Sisa bola di keranjang adalah 5 bola."),
-        24: ("B", "Doni punya 6 stiker, diberi 3 lagi oleh kakak ($6 + 3 = 9$). Stiker Doni sekarang ada 9."),
-        25: ("B", "Lampu menyala setiap 2 detik. Dalam 6 detik, lampu menyala sebanyak $6 \\div 2 = 3$ kali."),
-        26: ("B", "Di sebuah piring ada 5 pisang. Ayah makan 1, Ibu makan 1. Sisa pisang adalah $5 - 2 = 3$ pisang."),
-        27: ("B", "Dina punya 8 pita, 3 pita berwarna merah dan sisanya kuning. Pita kuning berjumlah $8 - 3 = 5$ pita."),
-        28: ("B", "Sebuah bus membawa 15 penumpang. Di halte, turun 5 orang dan naik 2 orang. Penumpang sekarang: $15 - 5 + 2 = 12$ orang."),
-        29: ("B", "Ada 4 meja, setiap meja memiliki 4 kaki. Total kaki meja adalah $4 \\times 4 = 16$ kaki."),
-        30: ("B", "Riko berdiri di antrean ke-5 dari depan. Di depan Riko ada tepat 4 anak.")
+        1: ("B", "Satu piring kosong sejak awal, artinya piring yang berisi kue hanya 2 piring. Maka banyak kue di meja adalah $2 \\times 4 = 8$ kue.\n\nKunci Jawaban: **B (8)**."),
+        2: ("C", "Rani awalnya memiliki 9 permen. Setelah memberi 3 permen, tersisa $9 - 3 = 6$ permen. Kemudian ia memegang kembali 2 permen, sehingga banyak permen Rani sekarang adalah $6 + 2 = 8$ permen.\n\nKunci Jawaban: **C (8)**."),
+        3: ("B", "Awalnya ada 5 burung di dahan. Ketika 2 burung terbang, burung yang tersisa ada $5 - 2 = 3$ burung. Kemudian datang 1 burung lagi, sehingga banyak burung di dahan sekarang menjadi $3 + 1 = 4$ burung.\n\nKunci Jawaban: **B (4)**."),
+        4: ("C", "Total kelereng Budi berjumlah 10 butir. Yang disimpan di dalam saku ada 4 butir. Yang ditanyakan adalah kelereng yang **tidak di saku**, yaitu $10 - 4 = 6$ kelereng.\n\nKunci Jawaban: **C (6)**."),
+        5: ("C", "Di rak awalnya ada 8 buku. Sebanyak 3 buku dipinjam, sehingga buku yang tersisa di rak adalah $8 - 3 = 5$ buku.\n\nKunci Jawaban: **C (5)**."),
+        6: ("C", "Ani memiliki 6 apel lalu membeli 4 apel ($6 + 4 = 10$ apel). Sebanyak 2 apel busuk dan dibuang, sehingga sisa apel Ani sekarang adalah $10 - 2 = 8$ apel.\n\nKunci Jawaban: **C (8)**."),
+        7: ("C", "Total bola di dalam kotak ada 12 bola. Karena 4 bola merah tidak dihitung, maka bola yang dihitung berjumlah $12 - 4 = 8$ bola.\n\nKunci Jawaban: **C (8)**."),
+        8: ("C", "Awalnya ada 2 anak yang masing-masing memiliki 5 permen, sehingga jumlah total permen adalah $5 + 5 = 10$ permen. Ketika satu anak memberikan 1 permen kepada temannya (menjadi 4 dan 6 permen), pemberian tersebut hanya memindahkan kepemilikan antar mereka tanpa ada permen yang dibuang atau dimakan. Jadi **jumlah permen sekarang tetap 10 permen**.\n\nKunci Jawaban: **C (10)**."),
+        9: ("B", "Manusia memiliki 10 jari pada dua tangan (5 jari di setiap tangan). Jika satu tangan ditutup, maka jari pada tangan satunya yang masih terlihat berjumlah **5 jari**.\n\nKunci Jawaban: **B (5)**."),
+        10: ("C", "Di meja ada 7 pensil. Sebanyak 2 pensil patah dan tidak dipakai. Yang ditanyakan adalah pensil yang **bisa dipakai**, yaitu $7 - 2 = 5$ pensil.\n\nKunci Jawaban: **C (5)**."),
+        11: ("B", "Tono memiliki 8 kelereng. Kehilangan 3 kelereng sehingga tersisa $8 - 3 = 5$ kelereng. Kemudian Tono menemukan 1 kelereng, sehingga jumlah kelereng Tono sekarang adalah $5 + 1 = 6$ kelereng.\n\nKunci Jawaban: **B (6)**."),
+        12: ("A", "Total ikan di kolam ada 10 ekor. Karena 5 ikan kecil tidak dihitung, maka banyak ikan yang dihitung adalah $10 - 5 = 5$ ekor.\n\nKunci Jawaban: **A (5)**."),
+        13: ("C", "Mula-mula ada 12 murid di kelas. Sebanyak 3 murid keluar kelas ($12 - 3 = 9$ murid), lalu 2 murid masuk kelas ($9 + 2 = 11$ murid). Jadi banyak murid di kelas sekarang adalah **11 murid**.\n\nKunci Jawaban: **C (11)**."),
+        14: ("B", "Ada 3 kotak pensil dan 1 kotak belum dibuka, berarti kotak yang sudah dibuka dan pensilnya terlihat berjumlah $3 - 1 = 2$ kotak. Karena setiap kotak berisi 6 pensil, banyak pensil yang terlihat adalah $2 \\times 6 = 12$ pensil.\n\nKunci Jawaban: **B (12)**."),
+        15: ("B", "Ayah membawa 10 jeruk dan membagikannya sama rata kepada 2 anak, sehingga jatah masing-masing anak adalah $10 \\div 2 = 5$ jeruk. Karena satu anak tidak mengambil bagiannya, jatah 5 jeruk anak tersebut masih tetap dibawa oleh Ayah. Jadi jeruk yang masih dibawa Ayah adalah **5 jeruk**.\n\nKunci Jawaban: **B (5)**."),
+        16: ("C", "Angka dari 1 sampai 9 terdiri dari 9 angka: {1, 2, 3, 4, 5, 6, 7, 8, 9}. Bilangan genap yang dihapus adalah {2, 4, 6, 8} (ada 4 angka). Maka angka yang tersisa adalah bilangan ganjil {1, 3, 5, 7, 9}, yaitu sebanyak **5 angka** ($9 - 4 = 5$).\n\nKunci Jawaban: **C (5)**."),
+        17: ("C", "Dina awalnya memiliki 7 permen lalu memakan 2 permen, sehingga tersisa $7 - 2 = 5$ permen. Agar jumlahnya menjadi 8 permen, maka permen yang dibeli Dina adalah $8 - 5 = 3$ permen.\n\nKunci Jawaban: **C (3)**."),
+        18: ("B", "Ada 4 kantong dan 1 kantong di antaranya kosong, sehingga kantong yang berisi bola hanya ada $4 - 1 = 3$ kantong. Karena setiap kantong berisi 3 bola, jumlah bola seluruhnya adalah $3 \\times 3 = 9$ bola.\n\nKunci Jawaban: **B (9)**."),
+        19: ("B", "Jam menunjukkan pukul 4. Jika dimajukan 3 jam menjadi pukul $4 + 3 = 7$. Kemudian dimundurkan 1 jam menjadi $7 - 1 = 6$. Jadi jam menunjukkan **pukul 6**.\n\nKunci Jawaban: **B (6)**."),
+        20: ("C", "Bilangan ganjil dari 1 sampai 9 adalah: 1, 3, 5, 7, dan 9. Jadi ada **5 bilangan** yang ditulis.\n\nKunci Jawaban: **C (5)**."),
+        21: ("A", "Di atas meja ada 10 koin. Karena 5 koin perak tidak dihitung, maka koin yang dihitung berjumlah $10 - 5 = 5$ koin.\n\nKunci Jawaban: **A (5)**."),
+        22: ("C", "Rudi memiliki 6 pensil. Ketika 2 pensil dipinjamkan lalu dikembalikan ke tempat semula, tidak ada pensil yang berkurang. Banyak pensil Rudi sekarang tetap **6 pensil** ($6 - 2 + 2 = 6$).\n\nKunci Jawaban: **C (6)**."),
+        23: ("C", "Kotak pertama berisi 4 bola, kotak kedua berisi 5 bola, dan kotak ketiga kosong (0 bola). Jumlah bola seluruhnya adalah $4 + 5 + 0 = 9$ bola.\n\nKunci Jawaban: **C (9)**."),
+        24: ("C", "Ibu membeli 12 butir telur. Karena 2 butir telur pecah dan dibuang, maka telur yang masih utuh dan bisa dimakan berjumlah $12 - 2 = 10$ butir telur.\n\nKunci Jawaban: **C (10)**."),
+        25: ("B", "Andi awalnya memiliki 5 buku. Setelah membeli beberapa buku, jumlah bukunya menjadi 9. Banyak buku yang dibeli Andi adalah $9 - 5 = 4$ buku.\n\nKunci Jawaban: **B (4)**."),
+        26: ("B", "Di taman ada 7 bunga. Karena 3 bunga merah tidak dihitung, maka banyak bunga yang dihitung adalah $7 - 3 = 4$ bunga.\n\nKunci Jawaban: **B (4)**."),
+        27: ("C", "Ada 10 anak yang sedang berbaris. Ketika 2 anak keluar dari barisan, banyak anak yang masih berbaris adalah $10 - 2 = 8$ anak.\n\nKunci Jawaban: **C (8)**."),
+        28: ("C", "Satu kotak berisi 10 permen dibagikan sama banyak kepada 2 anak. Banyak permen yang diterima tiap anak adalah $10 \\div 2 = 5$ permen.\n\nKunci Jawaban: **C (5)**."),
+        29: ("B", "Jam mula-mula menunjukkan pukul 7. Ketika dimundurkan 2 jam, maka waktu sekarang menunjukkan $7 - 2 = 5$, yaitu **pukul 5**.\n\nKunci Jawaban: **B (5)**."),
+        30: ("B", "Bilangan genap lebih dari 2 dan kurang dari 12 adalah bilangan genap di antara 2 dan 12, yaitu: **4, 6, 8, dan 10**. Jumlah bilangan yang ditulis adalah **4 bilangan**.\n\nKunci Jawaban: **B (4)**.")
     }
 
     records = []
@@ -234,14 +234,18 @@ def parse_tricky_soal():
             q_text = m.group(2).strip().replace("\n", " ")
             opts_part = m.group(3).strip()
             opts = re.findall(r"([a-dA-D])\.\s*(.*?)(?=(?:[a-dA-D]\.|$))", opts_part, re.DOTALL)
-            parsed_opts = {o[0].upper(): o[1].strip().replace("\n", " ") for o in opts}
+            parsed_opts = {}
+            for o in opts:
+                k = o[0].upper()
+                v = o[1].strip().replace("\n", " ")
+                # Clean trailing section headers from PDF
+                v = re.split(r"(?:Soal\s+\d+–\d+|Jika kamu mau)", v)[0].strip()
+                if num == 30 and k == "A" and not v:
+                    v = "3"
+                parsed_opts[k] = v
             
             sol = solutions.get(num, ("A", "Analisis logika soal cerita."))
-            # Fallback if parsed options don't match key exactly
-            if sol[0] not in parsed_opts and parsed_opts:
-                correct_k = list(parsed_opts.keys())[0]
-            else:
-                correct_k = sol[0]
+            correct_k = sol[0]
 
             if len(parsed_opts) >= 2:
                 records.append({
