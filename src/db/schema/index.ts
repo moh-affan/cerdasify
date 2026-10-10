@@ -8,6 +8,8 @@ export const users = pgTable('users', {
   passwordHash: text('password_hash').notNull(),
   role: text('role', { enum: ['SUPER_ADMIN', 'ADMIN', 'USER'] }).notNull().default('USER'),
   isActive: boolean('is_active').notNull().default(true),
+  gradeLevel: integer('grade_level'), // 1-12 = SD 1 s.d. SMA 12, 13 = Lanjut/Umum
+  parentId: text('parent_id'), // akun orang tua (relasi orang tua-anak)
   createdAt: text('created_at').notNull().default(sql`CURRENT_TIMESTAMP::text`),
 });
 
@@ -110,6 +112,8 @@ export const attempts = pgTable('attempts', {
     .notNull()
     .default('IN_PROGRESS'),
   remainingSeconds: integer('remaining_seconds'),
+  // Awal segmen waktu berjalan (saat mulai / dilanjutkan). Dipakai server menghitung sisa waktu.
+  segmentStartedAt: text('segment_started_at'),
 });
 
 export const attemptAnswers = pgTable('attempt_answers', {
@@ -125,3 +129,95 @@ export const attemptAnswers = pgTable('attempt_answers', {
   isDoubtful: boolean('is_doubtful').notNull().default(false),
   answeredAt: text('answered_at').notNull().default(sql`CURRENT_TIMESTAMP::text`),
 });
+
+// ─── Pustaka Belajar (Learning Content) ─────────────────────────────────────
+
+export const subjects = pgTable('subjects', {
+  id: text('id').primaryKey(),
+  name: text('name').notNull(),
+  slug: text('slug').notNull().unique(),
+  icon: text('icon'), // emoji
+  orderIndex: integer('order_index').notNull().default(0),
+});
+
+export const learningContents = pgTable('learning_contents', {
+  id: text('id').primaryKey(),
+  slug: text('slug').notNull().unique(),
+  subjectId: text('subject_id')
+    .notNull()
+    .references(() => subjects.id, { onDelete: 'cascade' }),
+  type: text('type', {
+    enum: ['DAILY_READING', 'STORY', 'ENCYCLOPEDIA', 'COMIC', 'SPEECH', 'LESSON'],
+  }).notNull(),
+  phaseMin: text('phase_min', { enum: ['A', 'B', 'C', 'D', 'E', 'F', 'L'] }).notNull(),
+  phaseMax: text('phase_max', { enum: ['A', 'B', 'C', 'D', 'E', 'F', 'L'] }).notNull(),
+  cefrLevel: text('cefr_level'), // PRE_A1, A1, A2, B1, B2, C1
+  theme: text('theme'),
+  title: text('title').notNull(),
+  titleTranslation: text('title_translation'),
+  summary: text('summary'),
+  coverEmoji: text('cover_emoji'),
+  coverImageUrl: text('cover_image_url'),
+  segmentsJson: text('segments_json'), // JSON: ContentSegment[] (kalimat + terjemahan / teks Arab)
+  bodyMarkdown: text('body_markdown'),
+  readingMinutes: integer('reading_minutes').notNull().default(3),
+  orderIndex: integer('order_index').notNull().default(0),
+  isPublished: boolean('is_published').notNull().default(true),
+  createdAt: text('created_at').notNull().default(sql`CURRENT_TIMESTAMP::text`),
+  editedAt: text('edited_at'), // diisi saat diubah lewat editor admin; seeder tidak menimpa konten ini
+});
+
+export const contentVocab = pgTable('content_vocab', {
+  id: text('id').primaryKey(),
+  contentId: text('content_id')
+    .notNull()
+    .references(() => learningContents.id, { onDelete: 'cascade' }),
+  word: text('word').notNull(),
+  forms: text('forms'), // JSON string[]: bentuk lain yang ikut di-highlight (cats, ran, ...)
+  partOfSpeech: text('part_of_speech'),
+  meaning: text('meaning').notNull(),
+  example: text('example'),
+  emoji: text('emoji'),
+  orderIndex: integer('order_index').notNull().default(0),
+});
+
+export const contentGrammarNotes = pgTable('content_grammar_notes', {
+  id: text('id').primaryKey(),
+  contentId: text('content_id')
+    .notNull()
+    .references(() => learningContents.id, { onDelete: 'cascade' }),
+  title: text('title').notNull(),
+  pattern: text('pattern'),
+  explanation: text('explanation').notNull(),
+  examples: text('examples'), // JSON string[] (kutipan kalimat dari bacaan)
+  orderIndex: integer('order_index').notNull().default(0),
+});
+
+export const contentQuizItems = pgTable('content_quiz_items', {
+  id: text('id').primaryKey(),
+  contentId: text('content_id')
+    .notNull()
+    .references(() => learningContents.id, { onDelete: 'cascade' }),
+  prompt: text('prompt').notNull(),
+  options: text('options').notNull(), // JSON string[]
+  correctIndex: integer('correct_index').notNull(),
+  explanation: text('explanation'),
+  orderIndex: integer('order_index').notNull().default(0),
+});
+
+export const readingProgress = pgTable(
+  'reading_progress',
+  {
+    userId: text('user_id')
+      .notNull()
+      .references(() => users.id, { onDelete: 'cascade' }),
+    contentId: text('content_id')
+      .notNull()
+      .references(() => learningContents.id, { onDelete: 'cascade' }),
+    completedAt: text('completed_at').notNull(),
+    readDate: text('read_date').notNull(), // YYYY-MM-DD (Asia/Jakarta) untuk streak harian
+    quizScore: integer('quiz_score').notNull().default(0),
+    quizTotal: integer('quiz_total').notNull().default(0),
+  },
+  (table) => [primaryKey({ columns: [table.userId, table.contentId] })]
+);
