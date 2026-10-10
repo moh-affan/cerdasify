@@ -69,6 +69,8 @@ export function calculateScore(
   }
 
   let totalScore = 0;
+  let maxPossibleScore = 0;
+  let answeredCount = 0;
   let correctCount = 0;
   let wrongCount = 0;
   let emptyCount = 0;
@@ -83,68 +85,67 @@ export function calculateScore(
     }
     byTopic[topicKey].total += 1;
 
-    const userAns = answerMap.get(q.questionId);
-    const selectedIds = userAns?.selectedOptionIds || [];
+    const validIds = new Set(q.options.map((o) => o.id));
+    // Abaikan ID opsi yang bukan milik soal ini & duplikat
+    const selectedIds = [...new Set(answerMap.get(q.questionId)?.selectedOptionIds ?? [])].filter((id) =>
+      validIds.has(id)
+    );
+
+    if (q.type === 'GRADED_SCALE') {
+      maxPossibleScore += Math.max(0, ...q.options.map((o) => o.scoreValue));
+    } else {
+      maxPossibleScore += correctWeight;
+    }
 
     if (selectedIds.length === 0) {
-      // Empty
       emptyCount += 1;
-      const awarded = emptyWeight;
-      totalScore += awarded;
-      byTopic[topicKey].score += awarded;
-      answersGraded.push({
-        questionId: q.questionId,
-        scoreAwarded: awarded,
-        isCorrect: false,
-        selectedOptionIds: [],
-      });
+      totalScore += emptyWeight;
+      byTopic[topicKey].score += emptyWeight;
+      answersGraded.push({ questionId: q.questionId, scoreAwarded: emptyWeight, isCorrect: false, selectedOptionIds: [] });
       continue;
     }
 
+    answeredCount += 1;
+
     if (q.type === 'GRADED_SCALE') {
-      // CPNS TKP style: Option has scoreValue 1 to 5
-      const chosenOpt = q.options.find((o) => selectedIds.includes(o.id));
-      const scoreAwarded = chosenOpt ? chosenOpt.scoreValue : 1;
+      // CPNS TKP: setiap opsi bernilai 1–5, hanya satu opsi yang boleh dipilih
+      const chosenOpt = selectedIds.length === 1 ? q.options.find((o) => o.id === selectedIds[0]) : undefined;
+      const scoreAwarded = chosenOpt ? chosenOpt.scoreValue : 0;
+      const topScore = Math.max(0, ...q.options.map((o) => o.scoreValue));
+      const isTop = Boolean(chosenOpt) && scoreAwarded === topScore;
       totalScore += scoreAwarded;
       byTopic[topicKey].score += scoreAwarded;
-      if (scoreAwarded === 5) {
+      if (isTop) {
         correctCount += 1;
         byTopic[topicKey].correct += 1;
       }
-      answersGraded.push({
-        questionId: q.questionId,
-        scoreAwarded,
-        isCorrect: scoreAwarded === 5,
-        selectedOptionIds: selectedIds,
-      });
-    } else {
-      // SINGLE_CHOICE standard
-      const correctOption = q.options.find((o) => o.isCorrect);
-      const isCorrect = correctOption ? selectedIds.includes(correctOption.id) : false;
-
-      let awarded = 0;
-      if (isCorrect) {
-        correctCount += 1;
-        byTopic[topicKey].correct += 1;
-        awarded = correctWeight;
-      } else {
-        wrongCount += 1;
-        awarded = wrongWeight;
-      }
-
-      totalScore += awarded;
-      byTopic[topicKey].score += awarded;
-      answersGraded.push({
-        questionId: q.questionId,
-        scoreAwarded: awarded,
-        isCorrect,
-        selectedOptionIds: selectedIds,
-      });
+      answersGraded.push({ questionId: q.questionId, scoreAwarded, isCorrect: isTop, selectedOptionIds: selectedIds });
+      continue;
     }
+
+    // SINGLE_CHOICE: tepat satu opsi dan itu yang benar.
+    // MULTI_CHOICE: himpunan pilihan harus sama persis dengan himpunan opsi benar.
+    const correctIds = q.options.filter((o) => o.isCorrect).map((o) => o.id);
+    const isCorrect =
+      correctIds.length > 0 &&
+      (q.type === 'MULTI_CHOICE'
+        ? selectedIds.length === correctIds.length && correctIds.every((id) => selectedIds.includes(id))
+        : selectedIds.length === 1 && correctIds.includes(selectedIds[0]));
+
+    const awarded = isCorrect ? correctWeight : wrongWeight;
+    if (isCorrect) {
+      correctCount += 1;
+      byTopic[topicKey].correct += 1;
+    } else {
+      wrongCount += 1;
+    }
+    totalScore += awarded;
+    byTopic[topicKey].score += awarded;
+    answersGraded.push({ questionId: q.questionId, scoreAwarded: awarded, isCorrect, selectedOptionIds: selectedIds });
   }
 
   // Determine passing status
-  let isPassed = false;
+  let isPassed: boolean;
   if (rules.passingScore !== undefined) {
     isPassed = totalScore >= rules.passingScore;
   } else if (rules.twkPassingGrade || rules.tiuPassingGrade || rules.tkpPassingGrade) {
@@ -167,15 +168,15 @@ export function calculateScore(
     }
     isPassed = passTwk && passTiu && passTkp;
   } else {
-    // Default 60% of max score
-    isPassed = totalScore >= questions.length * correctWeight * 0.6;
+    // Default: 60% dari skor maksimum
+    isPassed = totalScore >= maxPossibleScore * 0.6;
   }
 
   return {
     totalScore,
-    maxPossibleScore: questions.length * correctWeight,
+    maxPossibleScore,
     totalQuestions: questions.length,
-    answeredCount: correctCount + wrongCount,
+    answeredCount,
     correctCount,
     wrongCount,
     emptyCount,

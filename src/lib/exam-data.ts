@@ -1,6 +1,7 @@
 import { db } from '@/db';
 import { packageQuestions, questions, questionOptions, attemptAnswers, topics } from '@/db/schema';
 import { eq, asc, inArray } from 'drizzle-orm';
+import { parseSelectedIds } from '@/lib/exam-grading';
 
 export interface PublicQuestionOption {
   id: string;
@@ -26,11 +27,58 @@ export interface AnswerStateMap {
   };
 }
 
+export interface ShuffleConfig {
+  shuffleQuestions: boolean;
+  shuffleOptions: boolean;
+}
+
+/** Pengacakan deterministik (Fisher–Yates + PRNG mulberry32) berdasarkan seed string. */
+export function seededShuffle<T>(items: T[], seed: string): T[] {
+  let h = 1779033703 ^ seed.length;
+  for (let i = 0; i < seed.length; i++) {
+    h = Math.imul(h ^ seed.charCodeAt(i), 3432918353);
+    h = (h << 13) | (h >>> 19);
+  }
+  let state = h >>> 0;
+  const rand = () => {
+    state = (state + 0x6d2b79f5) >>> 0;
+    let t = state;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+  const out = [...items];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+/** Urutan soal untuk satu attempt (stabil saat dimuat ulang & sama di halaman pembahasan). */
+export function orderQuestionsForAttempt<T>(items: T[], attemptId: string, cfg: ShuffleConfig): T[] {
+  return cfg.shuffleQuestions ? seededShuffle(items, `${attemptId}:q`) : items;
+}
+
+/** Urutan opsi satu soal untuk satu attempt; label ditulis ulang A, B, C… sesuai posisi tampil. */
+export function orderOptionsForAttempt<T extends { label: string }>(
+  options: T[],
+  attemptId: string,
+  questionId: string,
+  cfg: ShuffleConfig
+): T[] {
+  if (!cfg.shuffleOptions) return options;
+  return seededShuffle(options, `${attemptId}:${questionId}`).map((o, i) => ({ ...o, label: String.fromCharCode(65 + i) }));
+}
+
 /**
  * Loads exam questions and answers in bulk (O(1) queries instead of N+1).
  * Strictly enforces Anti-Leak: no is_correct, score_value, or explanation are exposed.
  */
-export async function getAttemptQuestionsAndAnswers(packageId: string, attemptId: string): Promise<{
+export async function getAttemptQuestionsAndAnswers(
+  pkg: { id: string } & ShuffleConfig,
+  attemptId: string
+): Promise<{
   questions: PublicQuestion[];
   answers: AnswerStateMap;
 }> {
@@ -41,14 +89,18 @@ export async function getAttemptQuestionsAndAnswers(packageId: string, attemptId
       orderIndex: packageQuestions.orderIndex,
     })
     .from(packageQuestions)
-    .where(eq(packageQuestions.packageId, packageId))
+    .where(eq(packageQuestions.packageId, pkg.id))
     .orderBy(asc(packageQuestions.orderIndex));
 
   if (pkgQs.length === 0) {
     return { questions: [], answers: {} };
   }
 
-  const questionIds = pkgQs.map((p) => p.questionId);
+  const questionIds = orderQuestionsForAttempt(
+    pkgQs.map((p) => p.questionId),
+    attemptId,
+    pkg
+  );
 
   // 2. Batch fetch questions with their topic names in a single query
   const questionsDb = await db
@@ -96,8 +148,8 @@ export async function getAttemptQuestionsAndAnswers(packageId: string, attemptId
 
   // 4. Construct payload maintaining package questions orderIndex
   const questionsPayload: PublicQuestion[] = [];
-  for (const pq of pkgQs) {
-    const q = questionsMap.get(pq.questionId);
+  for (const questionId of questionIds) {
+    const q = questionsMap.get(questionId);
     if (!q) continue;
     questionsPayload.push({
       id: q.id,
@@ -106,7 +158,7 @@ export async function getAttemptQuestionsAndAnswers(packageId: string, attemptId
       difficulty: q.difficulty,
       contentMarkdown: q.contentMarkdown,
       imageUrl: q.imageUrl,
-      options: optionsMap.get(q.id) || [],
+      options: orderOptionsForAttempt(optionsMap.get(q.id) || [], attemptId, q.id, pkg),
     });
   }
 
@@ -119,7 +171,7 @@ export async function getAttemptQuestionsAndAnswers(packageId: string, attemptId
   const answersMap: AnswerStateMap = {};
   for (const ans of existingAnswers) {
     answersMap[ans.questionId] = {
-      selectedOptionIds: ans.selectedOptionIds ? JSON.parse(ans.selectedOptionIds) : [],
+      selectedOptionIds: parseSelectedIds(ans.selectedOptionIds),
       isDoubtful: ans.isDoubtful || false,
     };
   }

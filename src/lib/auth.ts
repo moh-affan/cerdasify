@@ -6,7 +6,21 @@ import { users } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 
 const COOKIE_NAME = 'cerdasify_session';
-const SESSION_SECRET = process.env.SESSION_SECRET || 'cerdasify_super_secret_session_key_min_32_chars';
+const DEV_FALLBACK_SECRET = 'cerdasify-dev-only-secret-do-not-use-in-production';
+
+/** Secret penandatangan sesi. Wajib diset (≥ 32 karakter) di produksi agar sesi tidak bisa dipalsukan. */
+function getSessionSecret(): string {
+  const secret = process.env.SESSION_SECRET;
+  if (secret && secret.length >= 32) return secret;
+  if (process.env.NODE_ENV === 'production') {
+    throw new Error('SESSION_SECRET wajib diisi minimal 32 karakter pada environment produksi.');
+  }
+  return DEV_FALLBACK_SECRET;
+}
+
+export const USER_ROLES = ['SUPER_ADMIN', 'ADMIN', 'USER'] as const;
+export type UserRole = (typeof USER_ROLES)[number];
+export const isUserRole = (v: unknown): v is UserRole => typeof v === 'string' && (USER_ROLES as readonly string[]).includes(v);
 
 export interface SessionPayload {
   userId: string;
@@ -24,8 +38,15 @@ export async function verifyPassword(plain: string, hash: string): Promise<boole
   return bcrypt.compare(plain, hash);
 }
 
+/** Perbandingan string yang tidak bocor lewat waktu eksekusi (untuk rahasia dari environment). */
+export function safeEqual(a: string, b: string): boolean {
+  const ha = crypto.createHash('sha256').update(a).digest();
+  const hb = crypto.createHash('sha256').update(b).digest();
+  return crypto.timingSafeEqual(ha, hb);
+}
+
 function signPayload(payloadString: string): string {
-  const hmac = crypto.createHmac('sha256', SESSION_SECRET);
+  const hmac = crypto.createHmac('sha256', getSessionSecret());
   hmac.update(payloadString);
   return hmac.digest('base64url');
 }

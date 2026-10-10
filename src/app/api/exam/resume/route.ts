@@ -1,44 +1,31 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/db';
 import { attempts } from '@/db/schema';
-import { getCurrentUser } from '@/lib/auth';
+import { requireUser } from '@/lib/auth';
+import { ApiError, apiError, readJson } from '@/lib/api';
+import { loadAttempt } from '@/lib/exam-session';
 import { eq } from 'drizzle-orm';
 
+// Melanjutkan attempt yang dijeda; waktu mulai berjalan lagi dari sekarang.
 export async function POST(req: NextRequest) {
   try {
-    const user = await getCurrentUser();
-    if (!user) {
-      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    const user = await requireUser();
+    const { attemptId } = await readJson<{ attemptId?: unknown }>(req);
+    const { attempt, pkg } = await loadAttempt(attemptId, user);
+
+    if (attempt.status === 'IN_PROGRESS') {
+      return NextResponse.json({ success: true, status: 'IN_PROGRESS' });
     }
+    if (attempt.status !== 'PAUSED') throw new ApiError('Sesi ujian sudah selesai', 409, { redirectUrl: `/results/${attempt.id}` });
 
-    const { attemptId } = await req.json();
+    const remainingSeconds = Math.max(0, attempt.remainingSeconds ?? pkg.durationMinutes * 60);
+    await db
+      .update(attempts)
+      .set({ status: 'IN_PROGRESS', remainingSeconds, segmentStartedAt: new Date().toISOString() })
+      .where(eq(attempts.id, attempt.id));
 
-    if (!attemptId) {
-      return NextResponse.json({ error: 'attemptId is required' }, { status: 400 });
-    }
-
-    const [attempt] = await db.select().from(attempts).where(eq(attempts.id, attemptId)).limit(1);
-    if (!attempt) {
-      return NextResponse.json({ error: 'Sesi ujian tidak ditemukan' }, { status: 404 });
-    }
-
-    if (attempt.userId !== user.userId) {
-      return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
-    }
-
-    await db.update(attempts)
-      .set({
-        status: 'IN_PROGRESS',
-      })
-      .where(eq(attempts.id, attemptId));
-
-    return NextResponse.json({
-      success: true,
-      status: 'IN_PROGRESS',
-      remainingSeconds: attempt.remainingSeconds,
-    });
-  } catch (error: any) {
-    console.error('Error resuming exam:', error);
-    return NextResponse.json({ error: error.message || 'Server error' }, { status: 500 });
+    return NextResponse.json({ success: true, status: 'IN_PROGRESS', remainingSeconds });
+  } catch (error) {
+    return apiError(error, 'Error resuming exam');
   }
 }
