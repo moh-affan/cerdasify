@@ -49,6 +49,12 @@ interface QuizResult {
   explanation: string | null;
 }
 
+export interface NavItem {
+  slug: string;
+  title: string;
+  coverEmoji?: string | null;
+}
+
 interface ReadingViewProps {
   contentId: string;
   segments: ContentSegment[];
@@ -62,6 +68,8 @@ interface ReadingViewProps {
   notesHeading?: string;
   /** Tampilkan tombol mode latihan pidato (teleprompter) */
   practiceMode?: boolean;
+  prevContent?: NavItem | null;
+  nextContent?: NavItem | null;
 }
 
 const noopSubscribe = () => () => {};
@@ -117,6 +125,8 @@ export default function ReadingView({
   previousScore,
   notesHeading,
   practiceMode,
+  prevContent,
+  nextContent,
 }: ReadingViewProps) {
   const [practicing, setPracticing] = useState(false);
   const { supported, speakingIdx, slow, setSlow, speak, stop } = useSpeech(kidsMode);
@@ -552,6 +562,15 @@ export default function ReadingView({
                   : `Kamu benar ${score.score} dari ${score.total}. Terus semangat!`}
               </p>
               <div className="flex flex-wrap justify-center gap-2">
+                {nextContent && (
+                  <Link
+                    href={`/belajar/${nextContent.slug}`}
+                    className="px-4 py-2 rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-900 text-sm font-extrabold shadow-sm transition flex items-center gap-1.5"
+                  >
+                    <span>Lanjut: {nextContent.title}</span>
+                    <span>→</span>
+                  </Link>
+                )}
                 <button
                   type="button"
                   onClick={resetQuiz}
@@ -576,6 +595,47 @@ export default function ReadingView({
             </button>
           )}
         </section>
+      )}
+
+      {/* Navigasi Bacaan Sebelumnya & Selanjutnya */}
+      {(prevContent || nextContent) && (
+        <nav className="pt-4 border-t border-slate-200 grid grid-cols-1 sm:grid-cols-2 gap-3" aria-label="Navigasi bacaan">
+          {prevContent ? (
+            <Link
+              href={`/belajar/${prevContent.slug}`}
+              className="group flex items-center gap-3 p-4 rounded-2xl bg-white border border-slate-200 hover:border-indigo-300 hover:shadow-sm transition"
+            >
+              <div className="text-2xl shrink-0 group-hover:-translate-x-1 transition-transform">
+                {prevContent.coverEmoji || '👈'}
+              </div>
+              <div className="min-w-0 text-left">
+                <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">← Sebelumnya</span>
+                <span className="text-sm font-bold text-slate-800 group-hover:text-indigo-600 truncate block">
+                  {prevContent.title}
+                </span>
+              </div>
+            </Link>
+          ) : (
+            <div className="hidden sm:block" />
+          )}
+
+          {nextContent && (
+            <Link
+              href={`/belajar/${nextContent.slug}`}
+              className="group flex items-center justify-between sm:justify-end gap-3 p-4 rounded-2xl bg-white border border-slate-200 hover:border-indigo-300 hover:shadow-sm transition sm:text-right"
+            >
+              <div className="min-w-0 text-left sm:text-right flex-1 sm:flex-initial">
+                <span className="text-[11px] font-bold text-indigo-600 uppercase tracking-wider block">Selanjutnya →</span>
+                <span className="text-sm font-bold text-slate-800 group-hover:text-indigo-600 truncate block">
+                  {nextContent.title}
+                </span>
+              </div>
+              <div className="text-2xl shrink-0 group-hover:translate-x-1 transition-transform">
+                {nextContent.coverEmoji || '👉'}
+              </div>
+            </Link>
+          )}
+        </nav>
       )}
 
       {/* Popup Kosakata */}

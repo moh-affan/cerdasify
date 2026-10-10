@@ -5,6 +5,7 @@ import { learningContents, readingProgress, subjects, users } from '@/db/schema'
 import { getCurrentUser } from '@/lib/auth';
 import CerdasifyLogo from '@/components/ui/CerdasifyLogo';
 import GradePicker from '@/components/learn/GradePicker';
+import ContinueReadingBanner, { type LastReadItem } from '@/components/learn/ContinueReadingBanner';
 import {
   PHASES,
   PHASE_INFO,
@@ -97,6 +98,39 @@ export default async function BelajarPage({
   const dailyReadings = phaseAll.filter((c) => c.type === 'DAILY_READING');
   const readToday = dailyReadings.find((c) => progressMap.get(c.id)?.readDate === today);
   const todayReading = readToday ?? pickDailyReading(dailyReadings, completedIds, today);
+
+  // Ambil bacaan yang paling baru diselesaikan oleh pengguna
+  const latestProgress =
+    user && progress.length > 0
+      ? [...progress].sort((a, b) => b.completedAt.localeCompare(a.completedAt))[0]
+      : null;
+
+  let serverLastRead: LastReadItem | null = null;
+  if (latestProgress) {
+    const lastContent = contents.find((c) => c.id === latestProgress.contentId);
+    if (lastContent) {
+      const sameGroup = contents.filter(
+        (c) =>
+          c.type === lastContent.type &&
+          (lastContent.type === 'LESSON' && lastContent.theme ? c.theme === lastContent.theme : true)
+      );
+      const curIdx = sameGroup.findIndex((c) => c.id === lastContent.id);
+      const nextContent = curIdx >= 0 && curIdx < sameGroup.length - 1 ? sameGroup[curIdx + 1] : null;
+
+      serverLastRead = {
+        slug: lastContent.slug,
+        title: lastContent.title,
+        theme: lastContent.theme,
+        coverEmoji: lastContent.coverEmoji,
+        coverImageUrl: lastContent.coverImageUrl,
+        completedAt: latestProgress.completedAt,
+        nextSlug: nextContent?.slug ?? null,
+        nextTitle: nextContent?.title ?? null,
+        quizScore: latestProgress.quizScore,
+        quizTotal: latestProgress.quizTotal,
+      };
+    }
+  }
 
   // Bacaan, cerita & ensiklopedia dikelompokkan per jenis; materi (LESSON) per tema (mis. "Doa Harian").
   // Urutan kelompok mengikuti orderIndex konten pertamanya.
@@ -230,6 +264,9 @@ export default async function BelajarPage({
             ))}
           </nav>
         )}
+
+        {/* Lanjutkan Membaca */}
+        <ContinueReadingBanner serverItem={serverLastRead} />
 
         {/* Bacaan hari ini */}
         {todayReading && !subjectFilter && (

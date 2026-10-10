@@ -12,6 +12,7 @@ import {
 } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
 import ReadingView from '@/components/learn/ReadingView';
+import LastReadTracker from '@/components/learn/LastReadTracker';
 import { MathRenderer } from '@/components/katex/MathRenderer';
 import {
   CONTENT_TYPE_LABEL,
@@ -45,7 +46,7 @@ export default async function ReadingPage({ params }: { params: Promise<{ slug: 
   // Draf hanya bisa dipratinjau admin
   if (!content || (!content.isPublished && !isAdmin)) notFound();
 
-  const [vocabRows, grammarRows, quizRows, progressRows, userRows] = await Promise.all([
+  const [vocabRows, grammarRows, quizRows, progressRows, userRows, siblings] = await Promise.all([
     db.select().from(contentVocab).where(eq(contentVocab.contentId, content.id)).orderBy(asc(contentVocab.orderIndex)),
     db
       .select()
@@ -68,7 +69,28 @@ export default async function ReadingPage({ params }: { params: Promise<{ slug: 
     user
       ? db.select({ gradeLevel: users.gradeLevel }).from(users).where(eq(users.id, user.userId)).limit(1)
       : Promise.resolve([]),
+    db
+      .select({
+        id: learningContents.id,
+        slug: learningContents.slug,
+        title: learningContents.title,
+        coverEmoji: learningContents.coverEmoji,
+        orderIndex: learningContents.orderIndex,
+      })
+      .from(learningContents)
+      .where(
+        and(
+          eq(learningContents.isPublished, true),
+          eq(learningContents.type, content.type),
+          content.type === 'LESSON' && content.theme ? eq(learningContents.theme, content.theme) : undefined
+        )
+      )
+      .orderBy(asc(learningContents.orderIndex)),
   ]);
+
+  const currentIndex = siblings.findIndex((s) => s.id === content.id);
+  const prevContent = currentIndex > 0 ? siblings[currentIndex - 1] : null;
+  const nextContent = currentIndex >= 0 && currentIndex < siblings.length - 1 ? siblings[currentIndex + 1] : null;
 
   // Mode anak mengikuti fase pengguna bila cocok dengan rentang konten, selain itu fase minimum konten
   const userPhase = gradeToPhase(userRows[0]?.gradeLevel);
@@ -135,6 +157,14 @@ export default async function ReadingPage({ params }: { params: Promise<{ slug: 
           </div>
         )}
 
+        <LastReadTracker
+          slug={content.slug}
+          title={content.title}
+          theme={content.theme}
+          coverEmoji={content.coverEmoji}
+          coverImageUrl={content.coverImageUrl}
+        />
+
         <ReadingView
           contentId={content.id}
           segments={parseSegments(content.segmentsJson)}
@@ -158,6 +188,8 @@ export default async function ReadingPage({ params }: { params: Promise<{ slug: 
           practiceMode={content.type === 'SPEECH'}
           isLoggedIn={!!user}
           previousScore={progress ? { score: progress.quizScore, total: progress.quizTotal } : null}
+          prevContent={prevContent}
+          nextContent={nextContent}
         />
       </main>
     </div>
