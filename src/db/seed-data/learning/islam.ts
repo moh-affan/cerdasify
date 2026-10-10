@@ -4,12 +4,12 @@
 // PENTING: verifikasi setiap teks Arab terhadap mushaf/sumber terpercaya sebelum dipublikasikan.
 
 import type { SeedLesson } from './types';
+import { suratPendek78to84 } from './surat-pendek-78-84';
+import { suratPendek85to90 } from './surat-pendek-85-90';
+import { suratPendek91to104 } from './surat-pendek-91-104';
+import { suratPendek105to114, BASMALAH } from './surat-pendek-105-114';
 
-const BASMALAH: [string, string, string] = [
-  'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ',
-  'Bismillaahir rahmaanir rahiim',
-  'Dengan nama Allah Yang Maha Pengasih, Maha Penyayang.',
-];
+export { BASMALAH };
 
 export const doaHarian: SeedLesson[] = [
   {
@@ -252,182 +252,10 @@ export const doaHarian: SeedLesson[] = [
 ];
 
 export const suratPendek: SeedLesson[] = [
-  {
-    slug: 'surat-al-fatihah',
-    theme: 'Surat Pendek',
-    emoji: '📗',
-    title: 'Surat Al-Fatihah',
-    titleId: 'Pembukaan · 7 ayat',
-    minutes: 4,
-    intro:
-      "**Surat ke-1** dalam Al-Qur'an · **7 ayat** · Makkiyah (turun di Makkah).\n\n" +
-      "Al-Fatihah artinya **pembukaan**, karena surat ini membuka Al-Qur'an. Al-Fatihah wajib dibaca di setiap rakaat salat dan disebut juga *Ummul Kitab* (induk Al-Qur'an).",
-    lines: [
-      ['بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ', 'Bismillaahir rahmaanir rahiim', 'Dengan nama Allah Yang Maha Pengasih, Maha Penyayang.', 1],
-      ['اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ', "Alhamdu lillaahi rabbil 'aalamiin", 'Segala puji bagi Allah, Tuhan seluruh alam,', 2],
-      ['الرَّحْمٰنِ الرَّحِيْمِ', 'Ar-rahmaanir rahiim', 'Yang Maha Pengasih, Maha Penyayang,', 3],
-      ['مٰلِكِ يَوْمِ الدِّيْنِ', 'Maaliki yaumid diin', 'Pemilik hari pembalasan.', 4],
-      ['اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ', "Iyyaaka na'budu wa iyyaaka nasta'iin", 'Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan.', 5],
-      ['اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ', 'Ihdinash shiraathal mustaqiim', 'Tunjukilah kami jalan yang lurus,', 6],
-      [
-        'صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّآلِّيْنَ',
-        "Shiraathal ladziina an'amta 'alaihim ghairil maghdhuubi 'alaihim wa ladh dhaalliin",
-        '(yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat.',
-        7,
-      ],
-    ],
-    quiz: [
-      ['Al-Fatihah artinya …', ['Pembukaan', 'Penutup', 'Cahaya'], 0, 'Al-Fatihah = pembukaan.'],
-      ['Surat Al-Fatihah terdiri dari … ayat.', ['5', '6', '7'], 2, 'Al-Fatihah terdiri dari 7 ayat.'],
-      ['"Ihdinash shiraathal mustaqiim" artinya …', ['Tunjukilah kami jalan yang lurus', 'Segala puji bagi Allah', 'Pemilik hari pembalasan'], 0, 'Ayat ke-6: tunjukilah kami jalan yang lurus.'],
-    ],
-  },
-  {
-    slug: 'surat-al-ikhlas',
-    theme: 'Surat Pendek',
-    emoji: '☝️',
-    title: 'Surat Al-Ikhlas',
-    titleId: 'Memurnikan Keesaan Allah · 4 ayat',
-    minutes: 3,
-    intro:
-      "**Surat ke-112** · **4 ayat** · Makkiyah.\n\n" +
-      "Surat ini menjelaskan bahwa **Allah itu Maha Esa (satu)**, tidak beranak dan tidak diperanakkan, dan tidak ada yang setara dengan-Nya.",
-    lines: [
-      BASMALAH,
-      ['قُلْ هُوَ اللّٰهُ اَحَدٌ', 'Qul huwallaahu ahad', 'Katakanlah (Muhammad), "Dialah Allah, Yang Maha Esa.', 1],
-      ['اَللّٰهُ الصَّمَدُ', 'Allaahush shamad', 'Allah tempat meminta segala sesuatu.', 2],
-      ['لَمْ يَلِدْ وَلَمْ يُوْلَدْ', 'Lam yalid wa lam yuulad', '(Allah) tidak beranak dan tidak pula diperanakkan.', 3],
-      ['وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌ', 'Wa lam yakul lahuu kufuwan ahad', 'Dan tidak ada sesuatu yang setara dengan Dia."', 4],
-    ],
-    quiz: [
-      ['Surat Al-Ikhlas terdiri dari … ayat.', ['3', '4', '5'], 1, 'Al-Ikhlas terdiri dari 4 ayat.'],
-      ['"Qul huwallaahu ahad" artinya: Katakanlah, Dialah Allah Yang Maha …', ['Esa', 'Besar', 'Pengasih'], 0, 'Ahad = Esa (satu).'],
-      ['Isi pokok surat Al-Ikhlas adalah …', ['Kisah para nabi', 'Keesaan Allah', 'Perintah puasa'], 1, 'Al-Ikhlas menjelaskan keesaan Allah (tauhid).'],
-    ],
-  },
-  {
-    slug: 'surat-al-falaq',
-    theme: 'Surat Pendek',
-    emoji: '🌄',
-    title: 'Surat Al-Falaq',
-    titleId: 'Waktu Subuh · 5 ayat',
-    minutes: 3,
-    intro:
-      "**Surat ke-113** · **5 ayat** · Makkiyah.\n\n" +
-      "Al-Falaq artinya **waktu subuh**. Surat ini berisi permohonan perlindungan kepada Allah dari berbagai kejahatan. Bersama Al-Ikhlas dan An-Nas, surat ini dianjurkan dibaca pagi, petang, dan sebelum tidur.",
-    lines: [
-      BASMALAH,
-      ['قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِ', "Qul a'uudzu birabbil falaq", 'Katakanlah, "Aku berlindung kepada Tuhan yang menguasai subuh (fajar),', 1],
-      ['مِنْ شَرِّ مَا خَلَقَ', 'Min syarri maa khalaq', 'dari kejahatan (makhluk yang) Dia ciptakan,', 2],
-      ['وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَ', 'Wa min syarri ghaasiqin idzaa waqab', 'dan dari kejahatan malam apabila telah gelap gulita,', 3],
-      ['وَمِنْ شَرِّ النَّفّٰثٰتِ فِى الْعُقَدِ', "Wa min syarrin naffaatsaati fil 'uqad", 'dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),', 4],
-      ['وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ', 'Wa min syarri haasidin idzaa hasad', 'dan dari kejahatan orang yang dengki apabila dia dengki."', 5],
-    ],
-    quiz: [
-      ['Al-Falaq artinya …', ['Manusia', 'Waktu subuh', 'Masa'], 1, 'Al-Falaq = waktu subuh (fajar).'],
-      ['Surat Al-Falaq terdiri dari … ayat.', ['5', '6', '7'], 0, 'Al-Falaq terdiri dari 5 ayat.'],
-      ['Surat Al-Falaq berisi permohonan …', ['Perlindungan dari kejahatan', 'Tambahan rezeki', 'Ampunan dosa'], 0, '"Aku berlindung kepada Tuhan yang menguasai subuh…"'],
-    ],
-  },
-  {
-    slug: 'surat-an-nas',
-    theme: 'Surat Pendek',
-    emoji: '👥',
-    title: 'Surat An-Nas',
-    titleId: 'Manusia · 6 ayat',
-    minutes: 3,
-    intro:
-      "**Surat ke-114** (surat terakhir dalam Al-Qur'an) · **6 ayat** · Makkiyah.\n\n" +
-      "An-Nas artinya **manusia**. Surat ini mengajarkan kita berlindung kepada Allah dari bisikan jahat setan, baik dari golongan jin maupun manusia.",
-    lines: [
-      BASMALAH,
-      ['قُلْ اَعُوْذُ بِرَبِّ النَّاسِ', "Qul a'uudzu birabbin naas", 'Katakanlah, "Aku berlindung kepada Tuhannya manusia,', 1],
-      ['مَلِكِ النَّاسِ', 'Malikin naas', 'Raja manusia,', 2],
-      ['اِلٰهِ النَّاسِ', 'Ilaahin naas', 'sembahan manusia,', 3],
-      ['مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ', 'Min syarril waswaasil khannaas', 'dari kejahatan (bisikan) setan yang bersembunyi,', 4],
-      ['الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِ', 'Alladzii yuwaswisu fii shuduurin naas', 'yang membisikkan (kejahatan) ke dalam dada manusia,', 5],
-      ['مِنَ الْجِنَّةِ وَالنَّاسِ', 'Minal jinnati wan naas', 'dari (golongan) jin dan manusia."', 6],
-    ],
-    quiz: [
-      ['An-Nas artinya …', ['Manusia', 'Jin', 'Raja'], 0, 'An-Nas = manusia.'],
-      ['Surat An-Nas adalah surat ke- … dalam Al-Qur\'an.', ['112', '113', '114'], 2, 'An-Nas adalah surat ke-114, surat terakhir.'],
-      ['Surat An-Nas terdiri dari … ayat.', ['4', '5', '6'], 2, 'An-Nas terdiri dari 6 ayat.'],
-    ],
-  },
-  {
-    slug: 'surat-al-kautsar',
-    theme: 'Surat Pendek',
-    emoji: '💧',
-    title: 'Surat Al-Kautsar',
-    titleId: 'Nikmat yang Banyak · 3 ayat',
-    minutes: 2,
-    intro:
-      "**Surat ke-108** · **3 ayat** · Makkiyah. Surat terpendek dalam Al-Qur'an.\n\n" +
-      "Al-Kautsar artinya **nikmat yang banyak**. Allah memerintahkan kita mensyukuri nikmat dengan salat dan berkurban.",
-    lines: [
-      BASMALAH,
-      ['اِنَّآ اَعْطَيْنٰكَ الْكَوْثَرَ', "Innaa a'thainaakal kautsar", 'Sungguh, Kami telah memberimu (Muhammad) nikmat yang banyak.', 1],
-      ['فَصَلِّ لِرَبِّكَ وَانْحَرْ', 'Fashalli lirabbika wanhar', 'Maka laksanakanlah salat karena Tuhanmu, dan berkurbanlah (sebagai ibadah dan mendekatkan diri kepada Allah).', 2],
-      ['اِنَّ شَانِئَكَ هُوَ الْاَبْتَرُ', 'Inna syaani-aka huwal abtar', 'Sungguh, orang-orang yang membencimu dialah yang terputus (dari rahmat Allah).', 3],
-    ],
-    quiz: [
-      ['Al-Kautsar artinya …', ['Nikmat yang banyak', 'Pertolongan', 'Waktu'], 0, 'Al-Kautsar = nikmat yang banyak.'],
-      ['Surat terpendek dalam Al-Qur\'an adalah …', ['Al-Ikhlas', 'Al-Kautsar', 'Al-\'Asr'], 1, 'Al-Kautsar hanya 3 ayat pendek.'],
-      ['Ayat ke-2 memerintahkan kita untuk salat dan …', ['Berpuasa', 'Berkurban', 'Bersedekah'], 1, 'Wanhar = dan berkurbanlah.'],
-    ],
-  },
-  {
-    slug: 'surat-al-asr',
-    theme: 'Surat Pendek',
-    emoji: '⏳',
-    title: "Surat Al-'Asr",
-    titleId: 'Masa · 3 ayat',
-    minutes: 2,
-    intro:
-      "**Surat ke-103** · **3 ayat** · Makkiyah.\n\n" +
-      "Al-'Asr artinya **masa/waktu**. Manusia akan merugi, kecuali yang beriman, beramal saleh, dan saling menasihati dalam kebenaran dan kesabaran. Pesannya: gunakan waktu sebaik-baiknya!",
-    lines: [
-      BASMALAH,
-      ['وَالْعَصْرِ', "Wal 'ashr", 'Demi masa,', 1],
-      ['اِنَّ الْاِنْسَانَ لَفِيْ خُسْرٍ', 'Innal insaana lafii khusr', 'sungguh, manusia berada dalam kerugian,', 2],
-      [
-        'اِلَّا الَّذِيْنَ اٰمَنُوْا وَعَمِلُوا الصّٰلِحٰتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ',
-        "Illal ladziina aamanuu wa 'amilush shaalihaati wa tawaashau bil haqqi wa tawaashau bish shabr",
-        'kecuali orang-orang yang beriman dan mengerjakan kebajikan serta saling menasihati untuk kebenaran dan saling menasihati untuk kesabaran.',
-        3,
-      ],
-    ],
-    quiz: [
-      ["Al-'Asr artinya …", ['Masa / waktu', 'Manusia', 'Subuh'], 0, "Al-'Asr = masa atau waktu."],
-      ['Menurut surat ini, manusia berada dalam …', ['Kebahagiaan', 'Kerugian', 'Kemenangan'], 1, 'Innal insaana lafii khusr = manusia dalam kerugian.'],
-      ['Orang yang TIDAK merugi adalah yang …', ['Banyak bermain', 'Beriman dan beramal saleh', 'Banyak tidur'], 1, 'Kecuali orang yang beriman, beramal saleh, dan saling menasihati.'],
-    ],
-  },
-  {
-    slug: 'surat-an-nasr',
-    theme: 'Surat Pendek',
-    emoji: '🏳️',
-    title: 'Surat An-Nasr',
-    titleId: 'Pertolongan · 3 ayat',
-    minutes: 2,
-    intro:
-      "**Surat ke-110** · **3 ayat** · Madaniyah (turun di Madinah).\n\n" +
-      "An-Nasr artinya **pertolongan**. Surat ini menceritakan pertolongan Allah dan kemenangan kaum muslimin, ketika manusia masuk Islam berbondong-bondong. Saat mendapat keberhasilan, kita diajarkan bertasbih, memuji Allah, dan memohon ampun.",
-    lines: [
-      BASMALAH,
-      ['اِذَا جَآءَ نَصْرُ اللّٰهِ وَالْفَتْحُ', 'Idzaa jaa-a nashrullaahi wal fat-h', 'Apabila telah datang pertolongan Allah dan kemenangan,', 1],
-      ['وَرَاَيْتَ النَّاسَ يَدْخُلُوْنَ فِيْ دِيْنِ اللّٰهِ اَفْوَاجًا', 'Wa ra-aitan naasa yadkhuluuna fii diinillaahi afwaajaa', 'dan engkau melihat manusia berbondong-bondong masuk agama Allah,', 2],
-      [
-        'فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ اِنَّهٗ كَانَ تَوَّابًا',
-        'Fasabbih bihamdi rabbika wastaghfirh, innahuu kaana tawwaabaa',
-        'maka bertasbihlah dengan memuji Tuhanmu dan mohonlah ampunan kepada-Nya. Sungguh, Dia Maha Penerima tobat.',
-        3,
-      ],
-    ],
-    quiz: [
-      ['An-Nasr artinya …', ['Pertolongan', 'Kemenangan', 'Manusia'], 0, 'An-Nasr = pertolongan.'],
-      ['Surat An-Nasr termasuk surat …', ['Makkiyah', 'Madaniyah', 'Tidak keduanya'], 1, 'An-Nasr turun di Madinah (Madaniyah).'],
-      ['Ketika mendapat kemenangan, kita diajarkan untuk …', ['Berbangga diri', 'Bertasbih dan memohon ampun', 'Berpesta'], 1, 'Fasabbih bihamdi rabbika wastaghfirh.'],
-    ],
-  },
+  suratPendek105to114[0], // Surat Al-Fatihah (1)
+  ...suratPendek78to84, // Surat 78 s.d. 84 (An-Naba' s.d. Al-Insyiqaq)
+  ...suratPendek85to90, // Surat 85 s.d. 90 (Al-Buruj s.d. Al-Balad)
+  ...suratPendek91to104, // Surat 91 s.d. 104 (Asy-Syams s.d. Al-Humazah)
+  ...suratPendek105to114.slice(1), // Surat 105 s.d. 114 (Al-Fil s.d. An-Nas)
 ];
+
