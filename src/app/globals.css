@@ -38,3 +38,8 @@ body {
 .overflow-x-auto::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+
+/* Teks Arab (doa, ayat) pada Pustaka Belajar */
+.font-arabic {
+  font-family: var(--font-arabic), 'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+}
