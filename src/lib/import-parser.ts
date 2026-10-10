@@ -1,6 +1,7 @@
 import * as XLSX from 'xlsx';
+import crypto from 'crypto';
 import { db, client } from '@/db';
-import { categories, topics, questions, questionOptions, users } from '@/db/schema';
+import { categories, topics, users } from '@/db/schema';
 import { slugify } from '@/lib/utils';
 import bcrypt from 'bcryptjs';
 
@@ -10,188 +11,227 @@ export interface ImportError {
   message: string;
 }
 
+export interface GeneratedCredential {
+  row: number;
+  username: string;
+  password: string;
+}
+
 export interface ImportResult {
   success: boolean;
   totalRows: number;
   importedCount: number;
   errors: ImportError[];
+  /** Password acak untuk baris peserta yang kolom password-nya kosong (tampilkan sekali ke Super Admin) */
+  generatedCredentials?: GeneratedCredential[];
 }
 
-export function parseSpreadsheetBuffer(buffer: Buffer): Record<string, any>[] {
+export type SpreadsheetRow = Record<string, unknown>;
+
+type QuestionType = 'SINGLE_CHOICE' | 'MULTI_CHOICE' | 'GRADED_SCALE';
+type Difficulty = 'EASY' | 'MEDIUM' | 'HARD' | 'HOTS';
+
+interface ValidQuestionRow {
+  rowNum: number;
+  kategori: string;
+  topik: string;
+  type: QuestionType;
+  pertanyaan: string;
+  options: { label: string; content: string }[];
+  correctLabels: Set<string>;
+  scaleMap: Record<string, number>;
+  pembahasan: string;
+  difficulty: Difficulty;
+}
+
+const OPTION_LABELS = ['A', 'B', 'C', 'D', 'E'] as const;
+
+/** Template resmi memakai istilah Indonesia; nilai bahasa Inggris tetap diterima. */
+const DIFFICULTY_MAP: Record<string, Difficulty> = {
+  EASY: 'EASY',
+  MUDAH: 'EASY',
+  MEDIUM: 'MEDIUM',
+  SEDANG: 'MEDIUM',
+  HARD: 'HARD',
+  SULIT: 'HARD',
+  SUKAR: 'HARD',
+  HOTS: 'HOTS',
+};
+
+export function parseSpreadsheetBuffer(buffer: Buffer): SpreadsheetRow[] {
   const workbook = XLSX.read(buffer, { type: 'buffer' });
   const firstSheetName = workbook.SheetNames[0];
   if (!firstSheetName) return [];
   const worksheet = workbook.Sheets[firstSheetName];
-  return XLSX.utils.sheet_to_json(worksheet, { defval: '' });
+  return XLSX.utils.sheet_to_json<SpreadsheetRow>(worksheet, { defval: '' });
 }
 
-export async function importQuestions(rows: Record<string, any>[]): Promise<ImportResult> {
+/** Kunci header dibuat huruf kecil & nilai dijadikan string ter-trim. */
+function normalizeRow(row: SpreadsheetRow): Record<string, string> {
+  const normalized: Record<string, string> = {};
+  for (const key of Object.keys(row)) {
+    const value = row[key];
+    normalized[key.trim().toLowerCase()] = value === null || value === undefined ? '' : String(value).trim();
+  }
+  return normalized;
+}
+
+const randomSuffix = () => crypto.randomBytes(4).toString('hex');
+
+export async function importQuestions(rows: SpreadsheetRow[]): Promise<ImportResult> {
   const errors: ImportError[] = [];
-  const validRows: any[] = [];
+  const validRows: ValidQuestionRow[] = [];
 
   const requiredFields = ['kategori', 'topik', 'tipe_soal', 'pertanyaan', 'opsi_a', 'opsi_b', 'kunci_jawaban'];
 
   for (let idx = 0; idx < rows.length; idx++) {
-    const rowNum = idx + 2; // header is row 1
-    const row = rows[idx];
+    const rowNum = idx + 2; // baris 1 = header
+    const normalized = normalizeRow(rows[idx]);
+    const fail = (field: string, message: string) => errors.push({ row: rowNum, field, message });
 
-    // Normalize keys to lowercase
-    const normalized: Record<string, string> = {};
-    for (const key of Object.keys(row)) {
-      normalized[key.trim().toLowerCase()] = String(row[key] || '').trim();
-    }
-
-    // Check required fields
-    let missingField: string | null = null;
-    for (const req of requiredFields) {
-      if (!normalized[req]) {
-        missingField = req;
-        break;
-      }
-    }
-
+    const missingField = requiredFields.find((f) => !normalized[f]);
     if (missingField) {
-      errors.push({
-        row: rowNum,
-        field: missingField,
-        message: `Kolom wajib '${missingField}' tidak boleh kosong`,
-      });
+      fail(missingField, `Kolom wajib '${missingField}' tidak boleh kosong`);
       continue;
     }
 
-    const type = (normalized['tipe_soal'] || 'SINGLE').toUpperCase();
-    if (!['SINGLE', 'SCALE', 'MULTI'].includes(type)) {
-      errors.push({
-        row: rowNum,
-        field: 'tipe_soal',
-        message: `Tipe soal '${type}' tidak valid. Harus SINGLE, SCALE, atau MULTI`,
-      });
+    const rawType = normalized['tipe_soal'].toUpperCase();
+    if (!['SINGLE', 'SCALE', 'MULTI'].includes(rawType)) {
+      fail('tipe_soal', `Tipe soal '${rawType}' tidak valid. Harus SINGLE, SCALE, atau MULTI`);
       continue;
     }
+    const type: QuestionType = rawType === 'SCALE' ? 'GRADED_SCALE' : rawType === 'MULTI' ? 'MULTI_CHOICE' : 'SINGLE_CHOICE';
 
-    const kunci = normalized['kunci_jawaban'].toUpperCase();
-    if (type === 'SINGLE' && !['A', 'B', 'C', 'D', 'E'].includes(kunci)) {
-      errors.push({
-        row: rowNum,
-        field: 'kunci_jawaban',
-        message: `Kunci jawaban '${kunci}' tidak valid untuk tipe SINGLE. Harus A, B, C, D, atau E`,
-      });
-      continue;
-    }
+    const options = OPTION_LABELS.map((label) => ({ label, content: normalized[`opsi_${label.toLowerCase()}`] || '' })).filter(
+      (o) => o.content
+    );
+    const optionLabels = new Set<string>(options.map((o) => o.label));
+    const kunci = normalized['kunci_jawaban'].toUpperCase().replace(/\s+/g, '');
 
-    if (type === 'SCALE') {
-      const pairs = kunci.split(',');
-      if (pairs.length < 2) {
-        errors.push({
-          row: rowNum,
-          field: 'kunci_jawaban',
-          message: `Format kunci skala tidak valid. Contoh format yang benar: A:5,B:4,C:3,D:2,E:1`,
-        });
+    const correctLabels = new Set<string>();
+    const scaleMap: Record<string, number> = {};
+
+    if (type === 'SINGLE_CHOICE') {
+      if (!optionLabels.has(kunci)) {
+        fail('kunci_jawaban', `Kunci '${kunci}' tidak valid: harus salah satu opsi yang terisi (${[...optionLabels].join(', ')})`);
         continue;
       }
+      correctLabels.add(kunci);
+    } else if (type === 'MULTI_CHOICE') {
+      const keys = kunci.split(',').filter(Boolean);
+      const invalid = keys.filter((k) => !optionLabels.has(k));
+      if (keys.length === 0 || invalid.length > 0) {
+        fail('kunci_jawaban', `Kunci MULTI harus daftar opsi yang terisi, contoh: A,C${invalid.length ? ` (tidak valid: ${invalid.join(', ')})` : ''}`);
+        continue;
+      }
+      keys.forEach((k) => correctLabels.add(k));
+    } else {
+      // SCALE (TKP): setiap opsi wajib punya poin 1–5, contoh A:3,B:5,C:2,D:4,E:1
+      let malformed = false;
+      for (const pair of kunci.split(',').filter(Boolean)) {
+        const match = pair.match(/^([A-E]):([1-5])$/);
+        if (!match) {
+          malformed = true;
+          break;
+        }
+        scaleMap[match[1]] = Number(match[2]);
+      }
+      const missing = [...optionLabels].filter((l) => scaleMap[l] === undefined);
+      const extra = Object.keys(scaleMap).filter((l) => !optionLabels.has(l));
+      if (malformed || missing.length > 0 || extra.length > 0) {
+        fail(
+          'kunci_jawaban',
+          `Format kunci skala tidak valid${missing.length ? `; opsi tanpa poin: ${missing.join(', ')}` : ''}${
+            extra.length ? `; poin untuk opsi kosong: ${extra.join(', ')}` : ''
+          }. Contoh: A:3,B:5,C:2,D:4,E:1 (poin 1–5)`
+        );
+        continue;
+      }
+    }
+
+    const rawDifficulty = (normalized['tingkat_kesulitan'] || 'MEDIUM').toUpperCase();
+    const difficulty = DIFFICULTY_MAP[rawDifficulty];
+    if (!difficulty) {
+      fail('tingkat_kesulitan', `Tingkat kesulitan '${rawDifficulty}' tidak valid. Gunakan MUDAH, SEDANG, SULIT, atau HOTS`);
+      continue;
     }
 
     validRows.push({
       rowNum,
       kategori: normalized['kategori'],
       topik: normalized['topik'],
-      type: type === 'SCALE' ? 'GRADED_SCALE' : type === 'MULTI' ? 'MULTI_CHOICE' : 'SINGLE_CHOICE',
+      type,
       pertanyaan: normalized['pertanyaan'],
-      opsi_a: normalized['opsi_a'],
-      opsi_b: normalized['opsi_b'],
-      opsi_c: normalized['opsi_c'] || '',
-      opsi_d: normalized['opsi_d'] || '',
-      opsi_e: normalized['opsi_e'] || '',
-      kunci_jawaban: kunci,
+      options,
+      correctLabels,
+      scaleMap,
       pembahasan: normalized['pembahasan'] || '',
-      tingkat_kesulitan: (normalized['tingkat_kesulitan'] || 'MEDIUM').toUpperCase(),
+      difficulty,
     });
   }
 
-  if (errors.length > 0 && validRows.length === 0) {
-    return {
-      success: false,
-      totalRows: rows.length,
-      importedCount: 0,
-      errors,
-    };
+  if (validRows.length === 0) {
+    return { success: false, totalRows: rows.length, importedCount: 0, errors };
   }
 
+  // Semua baris valid ditulis dalam satu transaksi: gagal satu, batal semua.
   let importedCount = 0;
   await client.begin(async (sql) => {
     const categoryCache = new Map<string, string>();
     const topicCache = new Map<string, string>();
 
-    const allExistingCats = await db.select().from(categories);
-    for (const c of allExistingCats) {
+    for (const c of await db.select().from(categories)) {
       categoryCache.set(c.name.toLowerCase(), c.id);
+      categoryCache.set(`slug:${c.slug}`, c.id);
     }
-
-    const allExistingTopics = await db.select().from(topics);
-    for (const t of allExistingTopics) {
+    for (const t of await db.select().from(topics)) {
       topicCache.set(`${t.categoryId}:::${t.name.toLowerCase()}`, t.id);
     }
 
     for (const r of validRows) {
-      // 1. Category
-      let catId = categoryCache.get(r.kategori.toLowerCase());
+      // 1. Kategori (dibuat otomatis bila belum ada; dicocokkan juga lewat slug agar tidak bentrok)
+      const catSlug = slugify(r.kategori) || `kategori-${randomSuffix()}`;
+      let catId = categoryCache.get(r.kategori.toLowerCase()) ?? categoryCache.get(`slug:${catSlug}`);
       if (!catId) {
-        catId = `cat_${slugify(r.kategori)}_${Date.now()}`;
+        catId = `cat_${catSlug.slice(0, 30)}_${randomSuffix()}`;
         await sql`
           INSERT INTO categories (id, name, slug, description)
-          VALUES (${catId}, ${r.kategori}, ${slugify(r.kategori)}, ${`Kategori ${r.kategori}`})
-          ON CONFLICT (id) DO NOTHING
+          VALUES (${catId}, ${r.kategori}, ${catSlug}, ${`Kategori ${r.kategori}`})
         `;
         categoryCache.set(r.kategori.toLowerCase(), catId);
+        categoryCache.set(`slug:${catSlug}`, catId);
       }
 
-      // 2. Topic
+      // 2. Topik
       const tKey = `${catId}:::${r.topik.toLowerCase()}`;
       let topicId = topicCache.get(tKey);
       if (!topicId) {
-        topicId = `top_${slugify(r.topik)}_${Date.now()}`.slice(0, 40);
+        topicId = `top_${slugify(r.topik).slice(0, 30)}_${randomSuffix()}`;
         await sql`
           INSERT INTO topics (id, category_id, name, slug)
           VALUES (${topicId}, ${catId}, ${r.topik}, ${slugify(r.topik)})
-          ON CONFLICT (id) DO NOTHING
         `;
         topicCache.set(tKey, topicId);
       }
 
-      // 3. Question
-      const qId = `q_imp_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
-      const difficulty = ['EASY', 'MEDIUM', 'HARD', 'HOTS'].includes(r.tingkat_kesulitan) ? r.tingkat_kesulitan : 'MEDIUM';
-
+      // 3. Soal
+      const qId = `q_imp_${Date.now()}_${randomSuffix()}`;
       await sql`
         INSERT INTO questions (id, topic_id, type, content_markdown, explanation_markdown, difficulty)
-        VALUES (${qId}, ${topicId}, ${r.type}, ${r.pertanyaan}, ${r.pembahasan}, ${difficulty})
+        VALUES (${qId}, ${topicId}, ${r.type}, ${r.pertanyaan}, ${r.pembahasan || null}, ${r.difficulty})
       `;
 
-      // 4. Options
-      const optionsToInsert: { label: string; content: string }[] = [];
-      if (r.opsi_a) optionsToInsert.push({ label: 'A', content: r.opsi_a });
-      if (r.opsi_b) optionsToInsert.push({ label: 'B', content: r.opsi_b });
-      if (r.opsi_c) optionsToInsert.push({ label: 'C', content: r.opsi_c });
-      if (r.opsi_d) optionsToInsert.push({ label: 'D', content: r.opsi_d });
-      if (r.opsi_e) optionsToInsert.push({ label: 'E', content: r.opsi_e });
-
-      const scaleMap: Record<string, number> = {};
-      if (r.type === 'GRADED_SCALE') {
-        for (const pair of r.kunci_jawaban.split(',')) {
-          const [lbl, val] = pair.split(':');
-          if (lbl && val) scaleMap[lbl.trim().toUpperCase()] = parseInt(val.trim(), 10) || 0;
-        }
-      }
-
-      for (let oIdx = 0; oIdx < optionsToInsert.length; oIdx++) {
-        const opt = optionsToInsert[oIdx];
-        const optId = `opt_${qId}_${oIdx}_${opt.label}`;
-        const isCorrect = r.type === 'GRADED_SCALE' ? true : opt.label === r.kunci_jawaban;
-        const scoreVal = r.type === 'GRADED_SCALE' ? scaleMap[opt.label] || 1 : isCorrect ? 4 : 0;
-
+      // 4. Opsi
+      for (const [oIdx, opt] of r.options.entries()) {
+        const isScale = r.type === 'GRADED_SCALE';
+        // soal berbobot: opsi berbobot tertinggi ditandai sebagai pilihan terbaik
+        const isCorrect = isScale
+          ? r.scaleMap[opt.label] === Math.max(...Object.values(r.scaleMap))
+          : r.correctLabels.has(opt.label);
+        const scoreVal = isScale ? r.scaleMap[opt.label] : isCorrect ? 4 : 0;
         await sql`
           INSERT INTO question_options (id, question_id, label, content_markdown, is_correct, score_value, order_index)
-          VALUES (${optId}, ${qId}, ${opt.label}, ${opt.content}, ${Boolean(isCorrect)}, ${scoreVal}, ${oIdx})
+          VALUES (${`opt_${qId}_${opt.label}`}, ${qId}, ${opt.label}, ${opt.content}, ${isCorrect}, ${scoreVal}, ${oIdx})
         `;
       }
 
@@ -199,72 +239,87 @@ export async function importQuestions(rows: Record<string, any>[]): Promise<Impo
     }
   });
 
-  return {
-    success: importedCount > 0,
-    totalRows: rows.length,
-    importedCount,
-    errors,
-  };
+  return { success: importedCount > 0, totalRows: rows.length, importedCount, errors };
 }
 
-export async function importUsers(rows: Record<string, any>[]): Promise<ImportResult> {
+/** Password acak yang mudah dibacakan (tanpa karakter mirip seperti 0/O, 1/l). */
+function generatePassword(): string {
+  const alphabet = 'abcdefghjkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  const bytes = crypto.randomBytes(10);
+  return Array.from(bytes, (b) => alphabet[b % alphabet.length]).join('');
+}
+
+/**
+ * Impor peserta. Hanya untuk Super Admin (dicek di route).
+ * Role SUPER_ADMIN tidak dapat dibuat lewat impor massal.
+ */
+export async function importUsers(rows: SpreadsheetRow[]): Promise<ImportResult> {
   const errors: ImportError[] = [];
-  const validUsers: any[] = [];
+  const generatedCredentials: GeneratedCredential[] = [];
+  const existing = new Set((await db.select({ username: users.username }).from(users)).map((u) => u.username.toLowerCase()));
+  const seenInFile = new Set<string>();
+
+  const validUsers: { rowNum: number; name: string; username: string; password: string; role: 'ADMIN' | 'USER' }[] = [];
 
   for (let idx = 0; idx < rows.length; idx++) {
     const rowNum = idx + 2;
-    const row = rows[idx];
-
-    const normalized: Record<string, string> = {};
-    for (const key of Object.keys(row)) {
-      normalized[key.trim().toLowerCase()] = String(row[key] || '').trim();
-    }
+    const normalized = normalizeRow(rows[idx]);
 
     const name = normalized['nama_lengkap'] || normalized['nama'];
     const username = normalized['username_atau_email'] || normalized['username'];
-    const rawPass = normalized['password'] || 'Cerdasify123!';
     const roleRaw = (normalized['role'] || 'USER').toUpperCase();
-    const role = ['SUPER_ADMIN', 'ADMIN', 'USER'].includes(roleRaw) ? roleRaw : 'USER';
 
     if (!name || !username) {
-      errors.push({
-        row: rowNum,
-        message: 'Nama lengkap dan username tidak boleh kosong',
-      });
+      errors.push({ row: rowNum, message: 'Nama lengkap dan username tidak boleh kosong' });
+      continue;
+    }
+    if (roleRaw !== 'USER' && roleRaw !== 'ADMIN') {
+      errors.push({ row: rowNum, field: 'role', message: `Role '${roleRaw}' tidak diizinkan lewat impor. Gunakan USER atau ADMIN` });
+      continue;
+    }
+    const key = username.toLowerCase();
+    if (existing.has(key)) {
+      errors.push({ row: rowNum, field: 'username', message: `Username '${username}' sudah terdaftar` });
+      continue;
+    }
+    if (seenInFile.has(key)) {
+      errors.push({ row: rowNum, field: 'username', message: `Username '${username}' muncul lebih dari sekali di file` });
       continue;
     }
 
-    validUsers.push({
-      rowNum,
-      name,
-      username,
-      rawPass,
-      role,
-    });
+    let password = normalized['password'];
+    if (password && password.length < 6) {
+      errors.push({ row: rowNum, field: 'password', message: 'Password minimal 6 karakter' });
+      continue;
+    }
+    if (!password) {
+      password = generatePassword();
+      generatedCredentials.push({ row: rowNum, username, password });
+    }
+
+    seenInFile.add(key);
+    validUsers.push({ rowNum, name, username, password, role: roleRaw });
   }
 
   let importedCount = 0;
-  const existingUsers = await db.select().from(users);
-
+  const insertedRows = new Set<number>();
   for (const u of validUsers) {
-    const existing = existingUsers.find((x) => x.username.toLowerCase() === u.username.toLowerCase());
-    if (existing) {
-      errors.push({
-        row: u.rowNum,
-        message: `Username '${u.username}' sudah terdaftar`,
+    const passwordHash = await bcrypt.hash(u.password, 10);
+    try {
+      await db.insert(users).values({
+        id: `usr_imp_${Date.now()}_${randomSuffix()}`,
+        username: u.username,
+        name: u.name,
+        passwordHash,
+        role: u.role,
+        isActive: true,
       });
-      continue;
+      importedCount++;
+      insertedRows.add(u.rowNum);
+    } catch (err) {
+      console.error(`Import user row ${u.rowNum} failed:`, err);
+      errors.push({ row: u.rowNum, message: 'Gagal menyimpan baris ini ke database' });
     }
-
-    const passwordHash = await bcrypt.hash(u.rawPass, 10);
-    const userId = `usr_imp_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
-
-    await client`
-      INSERT INTO users (id, username, name, password_hash, role, is_active)
-      VALUES (${userId}, ${u.username}, ${u.name}, ${passwordHash}, ${u.role}, true)
-    `;
-
-    importedCount++;
   }
 
   return {
@@ -272,5 +327,6 @@ export async function importUsers(rows: Record<string, any>[]): Promise<ImportRe
     totalRows: rows.length,
     importedCount,
     errors,
+    generatedCredentials: generatedCredentials.filter((c) => insertedRows.has(c.row)),
   };
 }

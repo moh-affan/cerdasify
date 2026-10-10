@@ -3,6 +3,8 @@ import { db, client } from '@/db';
 import { users } from '@/db/schema';
 import { requireSuperAdmin, hashPassword } from '@/lib/auth';
 import { eq, and, ne } from 'drizzle-orm';
+import { apiError, readJson } from '@/lib/api';
+import { isUserRole } from '@/lib/auth';
 
 export async function GET(
   req: NextRequest,
@@ -30,8 +32,8 @@ export async function GET(
     }
 
     return NextResponse.json({ user });
-  } catch (error: any) {
-    return NextResponse.json({ error: error.message || 'Forbidden' }, { status: 403 });
+  } catch (error) {
+    return apiError(error, 'Admin API error');
   }
 }
 
@@ -42,9 +44,17 @@ export async function PUT(
   try {
     const currentAdmin = await requireSuperAdmin();
     const { id } = await params;
-    const body = await req.json();
+    const { name, username, role, isActive, password } = await readJson<{
+      name?: string;
+      username?: string;
+      role?: string;
+      isActive?: boolean;
+      password?: string;
+    }>(req);
 
-    const { name, username, role, isActive, password } = body;
+    if (role !== undefined && !isUserRole(role)) {
+      return NextResponse.json({ error: 'Role tidak valid' }, { status: 400 });
+    }
 
     const [existingUser] = await db.select().from(users).where(eq(users.id, id)).limit(1);
     if (!existingUser) {
@@ -83,7 +93,7 @@ export async function PUT(
       }
     }
 
-    const updates: Record<string, any> = {};
+    const updates: Partial<typeof users.$inferInsert> = {};
     if (name !== undefined) updates.name = name.trim();
     if (username !== undefined) updates.username = username.trim();
     if (role !== undefined) updates.role = role;
@@ -107,9 +117,8 @@ export async function PUT(
       success: true,
       message: 'Data pengguna berhasil diperbarui',
     });
-  } catch (error: any) {
-    console.error('Error updating user:', error);
-    return NextResponse.json({ error: error.message || 'Server error' }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error updating user');
   }
 }
 
@@ -151,8 +160,7 @@ export async function DELETE(
       success: true,
       message: `Pengguna @${existingUser.username} berhasil dihapus`,
     });
-  } catch (error: any) {
-    console.error('Error deleting user:', error);
-    return NextResponse.json({ error: error.message || 'Server error' }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error deleting user');
   }
 }

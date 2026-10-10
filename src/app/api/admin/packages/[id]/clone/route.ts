@@ -4,6 +4,7 @@ import { examPackages, packageQuestions } from '@/db/schema';
 import { requireAdmin } from '@/lib/auth';
 import { slugify } from '@/lib/utils';
 import { eq, asc } from 'drizzle-orm';
+import { apiError } from '@/lib/api';
 
 export async function POST(
   req: NextRequest,
@@ -65,9 +66,7 @@ export async function POST(
       newTitle,
       questionCount: existingQuestions.length,
     });
-  } catch (error: unknown) {
-    console.error('Error cloning package:', error);
-    const msg = error instanceof Error ? error.message : 'Server error';
-    return NextResponse.json({ error: msg }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error cloning package');
   }
 }

@@ -47,8 +47,8 @@ export default async function EditQuestionPage({ params }: EditQuestionPageProps
       question={{
         id: question.id,
         topicId: question.topicId,
-        type: question.type as any,
-        difficulty: question.difficulty as any,
+        type: question.type,
+        difficulty: question.difficulty,
         contentMarkdown: question.contentMarkdown,
         imageUrl: question.imageUrl,
         explanationMarkdown: question.explanationMarkdown,

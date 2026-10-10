@@ -4,6 +4,7 @@ import { examPackages, packageQuestions, categories, attempts } from '@/db/schem
 import { requireAdmin } from '@/lib/auth';
 import { slugify } from '@/lib/utils';
 import { desc, asc } from 'drizzle-orm';
+import { apiError } from '@/lib/api';
 
 export async function GET(req: NextRequest) {
   try {
@@ -77,9 +78,8 @@ export async function GET(req: NextRequest) {
     }
 
     return NextResponse.json({ packages: filtered, categories: allCats });
-  } catch (error: unknown) {
-    const msg = error instanceof Error ? error.message : 'Unauthorized';
-    return NextResponse.json({ error: msg }, { status: 401 });
+  } catch (error) {
+    return apiError(error, 'Admin API error');
   }
 }
 
@@ -139,9 +139,7 @@ export async function POST(req: NextRequest) {
       packageId: pkgId,
       slug: finalSlug,
     });
-  } catch (error: unknown) {
-    console.error('Error creating package:', error);
-    const msg = error instanceof Error ? error.message : 'Server error';
-    return NextResponse.json({ error: msg }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error creating package');
   }
 }

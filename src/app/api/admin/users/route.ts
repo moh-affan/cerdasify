@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/db';
 import { users } from '@/db/schema';
-import { requireSuperAdmin, hashPassword } from '@/lib/auth';
+import { requireSuperAdmin, hashPassword, isUserRole } from '@/lib/auth';
 import { eq, desc } from 'drizzle-orm';
+import { apiError, readJson } from '@/lib/api';
 
 export async function GET() {
   try {
@@ -20,19 +21,29 @@ export async function GET() {
       .orderBy(desc(users.createdAt));
 
     return NextResponse.json({ users: list });
-  } catch (error: any) {
-    return NextResponse.json({ error: error.message || 'Forbidden' }, { status: 403 });
+  } catch (error) {
+    return apiError(error, 'Admin API error');
   }
 }
 
 export async function POST(req: NextRequest) {
   try {
     await requireSuperAdmin();
-    const body = await req.json();
-    const { username, name, password, role = 'USER' } = body;
+    const { username, name, password, role = 'USER' } = await readJson<{
+      username?: string;
+      name?: string;
+      password?: string;
+      role?: string;
+    }>(req);
 
-    if (!username || !name || !password) {
+    if (!username?.trim() || !name?.trim() || !password) {
       return NextResponse.json({ error: 'Username, Nama, dan Password wajib diisi' }, { status: 400 });
+    }
+    if (!isUserRole(role)) {
+      return NextResponse.json({ error: 'Role tidak valid' }, { status: 400 });
+    }
+    if (password.length < 6) {
+      return NextResponse.json({ error: 'Password minimal 6 karakter' }, { status: 400 });
     }
 
     const [existing] = await db.select().from(users).where(eq(users.username, username.trim())).limit(1);
@@ -54,8 +65,7 @@ export async function POST(req: NextRequest) {
       });
 
     return NextResponse.json({ success: true, userId });
-  } catch (error: any) {
-    console.error('Error creating user:', error);
-    return NextResponse.json({ error: error.message || 'Server error' }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error creating user');
   }
 }

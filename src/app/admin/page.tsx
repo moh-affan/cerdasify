@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { db } from '@/db';
 import { questions, examPackages, users, attempts } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
-import { desc, eq } from 'drizzle-orm';
+import { desc } from 'drizzle-orm';
 import {
   BookOpen,
   Package,
@@ -152,7 +152,7 @@ export default async function AdminDashboardOverviewPage() {
                 {recentAttempts.map((att) => {
                   const studentName = userMap.get(att.userId) || 'Peserta';
                   const pkgName = pkgMap.get(att.packageId) || 'Paket Ujian';
-                  const isDone = att.status === 'COMPLETED';
+                  const isDone = att.status === 'COMPLETED' || att.status === 'TIMED_OUT';
 
                   return (
                     <tr key={att.id} className="hover:bg-slate-50/80 transition">

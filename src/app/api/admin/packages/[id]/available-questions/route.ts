@@ -3,6 +3,7 @@ import { db } from '@/db';
 import { questions, questionOptions, packageQuestions, topics, categories } from '@/db/schema';
 import { requireAdmin } from '@/lib/auth';
 import { eq, desc, asc } from 'drizzle-orm';
+import { apiError } from '@/lib/api';
 
 export async function GET(
   req: NextRequest,
@@ -107,9 +108,7 @@ export async function GET(
       totalPages,
       assignedCount: assignedSet.size,
     });
-  } catch (error: unknown) {
-    console.error('Error fetching available questions:', error);
-    const msg = error instanceof Error ? error.message : 'Server error';
-    return NextResponse.json({ error: msg }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error fetching available questions');
   }
 }

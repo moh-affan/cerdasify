@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { client } from '@/db';
 import { requireAdmin } from '@/lib/auth';
+import { apiError } from '@/lib/api';
 
 export async function PUT(
   req: NextRequest,
@@ -28,9 +29,7 @@ export async function PUT(
     });
 
     return NextResponse.json({ success: true, message: 'Urutan butir soal berhasil disimpan' });
-  } catch (error: unknown) {
-    console.error('Error reordering questions:', error);
-    const msg = error instanceof Error ? error.message : 'Server error';
-    return NextResponse.json({ error: msg }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error reordering questions');
   }
 }

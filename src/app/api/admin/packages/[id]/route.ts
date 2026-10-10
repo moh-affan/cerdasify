@@ -3,7 +3,8 @@ import { db, client } from '@/db';
 import { examPackages, packageQuestions, questions, questionOptions, categories, topics, attempts, users } from '@/db/schema';
 import { requireAdmin } from '@/lib/auth';
 import { slugify } from '@/lib/utils';
-import { eq, asc, desc } from 'drizzle-orm';
+import { eq, asc, desc, and, ne } from 'drizzle-orm';
+import { apiError } from '@/lib/api';
 
 export async function GET(
   req: NextRequest,
@@ -109,10 +110,8 @@ export async function GET(
       },
       recentAttempts: pkgAttempts.slice(0, 20),
     });
-  } catch (error: unknown) {
-    console.error('Error fetching package detail:', error);
-    const msg = error instanceof Error ? error.message : 'Server error';
-    return NextResponse.json({ error: msg }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error fetching package detail');
   }
 }
 
@@ -148,7 +147,16 @@ export async function PUT(
       updates.title = title.trim();
     }
     if (customSlug !== undefined && customSlug.trim()) {
-      updates.slug = slugify(customSlug);
+      const slug = slugify(customSlug);
+      const [taken] = await db
+        .select({ id: examPackages.id })
+        .from(examPackages)
+        .where(and(eq(examPackages.slug, slug), ne(examPackages.id, id)))
+        .limit(1);
+      if (taken) {
+        return NextResponse.json({ error: `Slug "${slug}" sudah dipakai paket lain` }, { status: 400 });
+      }
+      updates.slug = slug;
     }
     if (categoryId !== undefined && categoryId.trim()) {
       updates.categoryId = categoryId.trim();
@@ -181,10 +189,8 @@ export async function PUT(
     const [updatedPkg] = await db.select().from(examPackages).where(eq(examPackages.id, id)).limit(1);
 
     return NextResponse.json({ success: true, package: updatedPkg });
-  } catch (error: unknown) {
-    console.error('Error updating package:', error);
-    const msg = error instanceof Error ? error.message : 'Server error';
-    return NextResponse.json({ error: msg }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error updating package');
   }
 }
 
@@ -208,9 +214,7 @@ export async function DELETE(
     });
 
     return NextResponse.json({ success: true, message: 'Paket berhasil dihapus' });
-  } catch (error: unknown) {
-    console.error('Error deleting package:', error);
-    const msg = error instanceof Error ? error.message : 'Server error';
-    return NextResponse.json({ error: msg }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error deleting package');
   }
 }

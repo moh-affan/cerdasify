@@ -3,6 +3,7 @@ import { db, client } from '@/db';
 import { examPackages, packageQuestions, questions } from '@/db/schema';
 import { requireAdmin } from '@/lib/auth';
 import { eq, asc } from 'drizzle-orm';
+import { apiError } from '@/lib/api';
 
 export async function POST(
   req: NextRequest,
@@ -73,10 +74,8 @@ export async function POST(
       message: `Berhasil menambahkan ${idsToInsert.length} butir soal ke paket`,
       addedCount: idsToInsert.length,
     });
-  } catch (error: unknown) {
-    console.error('Error adding questions to package:', error);
-    const msg = error instanceof Error ? error.message : 'Server error';
-    return NextResponse.json({ error: msg }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error adding questions to package');
   }
 }
 
@@ -127,9 +126,7 @@ export async function DELETE(
     });
 
     return NextResponse.json({ success: true, message: 'Soal berhasil dihapus dari paket' });
-  } catch (error: unknown) {
-    console.error('Error removing questions from package:', error);
-    const msg = error instanceof Error ? error.message : 'Server error';
-    return NextResponse.json({ error: msg }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Error removing questions from package');
   }
 }

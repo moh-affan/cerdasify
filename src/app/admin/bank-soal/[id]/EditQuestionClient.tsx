@@ -13,7 +13,6 @@ import {
   CheckCircle2,
   ImageIcon,
   AlertTriangle,
-  RotateCcw,
   Check,
 } from 'lucide-react';
 import Link from 'next/link';
@@ -105,26 +104,20 @@ export default function EditQuestionClient({
     } else if (activeInputFocus === 'explanation') {
       setExplanationMarkdown((prev) => prev + snippet);
     } else if (typeof activeInputFocus === 'number') {
-      setOptions((prev) => {
-        const copy = [...prev];
-        copy[activeInputFocus].contentMarkdown += snippet;
-        return copy;
-      });
+      const focusIdx = activeInputFocus;
+      setOptions((prev) =>
+        prev.map((o, i) => (i === focusIdx ? { ...o, contentMarkdown: o.contentMarkdown + snippet } : o))
+      );
     }
   };
 
-  const handleOptionChange = (idx: number, field: keyof OptionInput, value: any) => {
-    setOptions((prev) => {
-      const copy = [...prev];
-      if (field === 'isCorrect' && questionType === 'SINGLE_CHOICE') {
-        copy.forEach((o, i) => {
-          o.isCorrect = i === idx;
-        });
-      } else {
-        (copy[idx] as any)[field] = value;
-      }
-      return copy;
-    });
+  const handleOptionChange = <K extends keyof OptionInput>(idx: number, field: K, value: OptionInput[K]) => {
+    setOptions((prev) =>
+      field === 'isCorrect' && questionType === 'SINGLE_CHOICE'
+        ? // Pilihan tunggal: hanya opsi ini yang benar
+          prev.map((o, i) => ({ ...o, isCorrect: i === idx }))
+        : prev.map((o, i) => (i === idx ? { ...o, [field]: value } : o))
+    );
   };
 
   const handleAddOption = () => {
@@ -184,8 +177,8 @@ export default function EditQuestionClient({
         router.push('/admin/bank-soal');
         router.refresh();
       }, 1000);
-    } catch (err: any) {
-      alert(err.message || 'Terjadi kesalahan sistem');
+    } catch (err) {
+      alert(err instanceof Error ? err.message : 'Terjadi kesalahan sistem');
       setIsSubmitting(false);
     }
   };
@@ -204,8 +197,8 @@ export default function EditQuestionClient({
 
       router.push('/admin/bank-soal');
       router.refresh();
-    } catch (err: any) {
-      alert(err.message || 'Terjadi kesalahan sistem');
+    } catch (err) {
+      alert(err instanceof Error ? err.message : 'Terjadi kesalahan sistem');
       setIsDeleting(false);
     }
   };
@@ -276,12 +269,12 @@ export default function EditQuestionClient({
             <label className="block text-xs font-bold text-slate-700 mb-1.5">Tipe Soal</label>
             <select
               value={questionType}
-              onChange={(e) => setQuestionType(e.target.value as any)}
+              onChange={(e) => setQuestionType(e.target.value as typeof questionType)}
               className="w-full py-2.5 px-3 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-800 focus:outline-hidden focus:border-indigo-500 focus:bg-white transition"
             >
               <option value="SINGLE_CHOICE">Pilihan Ganda (Single Correct)</option>
               <option value="MULTI_CHOICE">Pilihan Ganda Kompleks</option>
-              <option value="GRADED_SCALE">Skala Bertingkat (CPNS TKP 1-5)</option>
+              <option value="GRADED_SCALE">Soal Berbobot (tiap opsi 1–5 poin, mis. TKP/SJT)</option>
             </select>
           </div>
 
@@ -289,7 +282,7 @@ export default function EditQuestionClient({
             <label className="block text-xs font-bold text-slate-700 mb-1.5">Tingkat Kesulitan</label>
             <select
               value={difficulty}
-              onChange={(e) => setDifficulty(e.target.value as any)}
+              onChange={(e) => setDifficulty(e.target.value as typeof difficulty)}
               className="w-full py-2.5 px-3 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-800 focus:outline-hidden focus:border-indigo-500 focus:bg-white transition"
             >
               <option value="EASY">Mudah (EASY)</option>
@@ -349,7 +342,7 @@ export default function EditQuestionClient({
                 <span>{isUploadingImage ? 'Mengunggah...' : 'Unggah / Ganti Gambar'}</span>
                 <input
                   type="file"
-                  accept="image/*"
+                  accept="image/png,image/jpeg,image/webp"
                   onChange={handleUploadImage}
                   disabled={isUploadingImage}
                   className="hidden"
@@ -379,6 +372,7 @@ export default function EditQuestionClient({
 
           {imageUrl && (
             <div className="mt-2 p-2 bg-slate-50 rounded-2xl border border-slate-200 inline-block">
+              {/* eslint-disable-next-line @next/next/no-img-element -- gambar soal dari URL unggahan dinamis */}
               <img
                 src={imageUrl}
                 alt="Pratinjau Gambar Soal"

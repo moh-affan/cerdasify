@@ -7,11 +7,8 @@ import {
   Shield,
   User,
   GraduationCap,
-  CheckCircle2,
-  XCircle,
   PlusCircle,
   Search,
-  Filter,
   Edit2,
   Trash2,
   KeyRound,
@@ -173,8 +170,8 @@ export default function UsersManagementClient({
         prev.map((u) => (u.id === user.id ? { ...u, isActive: newStatus } : u))
       );
       showToast(`Status @${user.username} diubah menjadi ${newStatus ? 'Aktif' : 'Nonaktif'}`);
-    } catch (err: any) {
-      alert(err.message || 'Terjadi kesalahan sistem');
+    } catch (err) {
+      alert(err instanceof Error ? err.message : 'Terjadi kesalahan sistem');
     } finally {
       setTogglingId(null);
     }
@@ -231,8 +228,8 @@ export default function UsersManagementClient({
       });
       showToast(`Pengguna @${newUser.username} berhasil dibuat!`);
       router.refresh();
-    } catch (err: any) {
-      setAddError(err.message || 'Terjadi kesalahan');
+    } catch (err) {
+      setAddError(err instanceof Error ? err.message : 'Terjadi kesalahan');
     } finally {
       setIsSubmittingAdd(false);
     }
@@ -260,7 +257,7 @@ export default function UsersManagementClient({
 
     try {
       setIsSubmittingEdit(true);
-      const payload: any = {
+      const payload: { name: string; username: string; role: UserItem['role']; isActive: boolean; password?: string } = {
         name: editForm.name.trim(),
         username: editForm.username.trim(),
         role: editForm.role,
@@ -296,8 +293,8 @@ export default function UsersManagementClient({
       setEditingUser(null);
       showToast(`Data @${editForm.username} berhasil diperbarui!`);
       router.refresh();
-    } catch (err: any) {
-      setEditError(err.message || 'Terjadi kesalahan');
+    } catch (err) {
+      setEditError(err instanceof Error ? err.message : 'Terjadi kesalahan');
     } finally {
       setIsSubmittingEdit(false);
     }
@@ -328,8 +325,8 @@ export default function UsersManagementClient({
       showToast(`Password untuk @${resettingPasswordUser.username} berhasil diperbarui!`);
       setResettingPasswordUser(null);
       setNewQuickPassword('');
-    } catch (err: any) {
-      setResetError(err.message || 'Terjadi kesalahan');
+    } catch (err) {
+      setResetError(err instanceof Error ? err.message : 'Terjadi kesalahan');
     } finally {
       setIsSubmittingReset(false);
     }
@@ -352,8 +349,8 @@ export default function UsersManagementClient({
       showToast(`Pengguna @${deletingUser.username} berhasil dihapus`);
       setDeletingUser(null);
       router.refresh();
-    } catch (err: any) {
-      alert(err.message || 'Gagal menghapus pengguna');
+    } catch (err) {
+      alert(err instanceof Error ? err.message : 'Gagal menghapus pengguna');
     } finally {
       setIsDeleting(false);
     }
@@ -771,7 +768,7 @@ export default function UsersManagementClient({
                 <label className="block text-xs font-bold text-slate-700 mb-1.5">Peran / Role Pengguna</label>
                 <select
                   value={addForm.role}
-                  onChange={(e) => setAddForm({ ...addForm, role: e.target.value as any })}
+                  onChange={(e) => setAddForm({ ...addForm, role: e.target.value as UserItem['role'] })}
                   className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 focus:outline-hidden focus:border-indigo-500 focus:bg-white"
                 >
                   <option value="USER">Peserta Ujian (Akses Mengerjakan Soal & Melihat Hasil)</option>
@@ -863,7 +860,7 @@ export default function UsersManagementClient({
                 <select
                   value={editForm.role}
                   disabled={editingUser.id === currentUserId}
-                  onChange={(e) => setEditForm({ ...editForm, role: e.target.value as any })}
+                  onChange={(e) => setEditForm({ ...editForm, role: e.target.value as UserItem['role'] })}
                   className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-900 focus:outline-hidden focus:border-indigo-500 focus:bg-white disabled:opacity-50"
                 >
                   <option value="USER">Peserta Ujian</option>

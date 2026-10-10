@@ -2,12 +2,13 @@
 
 import React, { useState } from 'react';
 import { UploadCloud, FileSpreadsheet, Download, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
+import type { ImportResult } from '@/lib/import-parser';
 
 export default function AdminImportPage() {
   const [activeTab, setActiveTab] = useState<'questions' | 'users'>('questions');
   const [file, setFile] = useState<File | null>(null);
   const [isUploading, setIsUploading] = useState(false);
-  const [result, setResult] = useState<any | null>(null);
+  const [result, setResult] = useState<ImportResult | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -45,8 +46,8 @@ export default function AdminImportPage() {
       }
 
       setResult(data);
-    } catch (err: any) {
-      setErrorMsg(err.message || 'Terjadi kesalahan');
+    } catch (err) {
+      setErrorMsg(err instanceof Error ? err.message : 'Terjadi kesalahan');
     } finally {
       setIsUploading(false);
     }
@@ -210,12 +211,34 @@ export default function AdminImportPage() {
             <div className="mt-4 p-4 rounded-2xl bg-amber-50 border border-amber-200 text-xs text-amber-900 space-y-2">
               <span className="font-bold block">Peringatan / Baris yang Dilewati:</span>
               <ul className="list-disc pl-5 space-y-1">
-                {result.errors.map((err: any, i: number) => (
+                {result.errors.map((rowErr, i) => (
                   <li key={i}>
-                    Baris {err.row}: {err.message}
+                    Baris {rowErr.row}
+                    {rowErr.field ? ` (${rowErr.field})` : ''}: {rowErr.message}
                   </li>
                 ))}
               </ul>
+            </div>
+          )}
+
+          {result.generatedCredentials && result.generatedCredentials.length > 0 && (
+            <div className="p-4 rounded-2xl bg-sky-50 border border-sky-200 text-xs text-sky-950 space-y-2">
+              <span className="font-bold block">
+                Password dibuat otomatis untuk {result.generatedCredentials.length} akun (kolom password kosong)
+              </span>
+              <p>Salin dan bagikan sekarang. Password ini tidak akan ditampilkan lagi.</p>
+              <div className="overflow-x-auto">
+                <table className="w-full font-mono">
+                  <tbody>
+                    {result.generatedCredentials.map((c) => (
+                      <tr key={c.row} className="border-t border-sky-100">
+                        <td className="py-1 pr-3">{c.username}</td>
+                        <td className="py-1 select-all">{c.password}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           )}
         </div>

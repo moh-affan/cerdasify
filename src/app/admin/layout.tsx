@@ -5,7 +5,6 @@ import { getCurrentUser } from '@/lib/auth';
 import CerdasifyLogo from '@/components/ui/CerdasifyLogo';
 import InstallButton from '@/components/pwa/InstallButton';
 import {
-  Sparkles,
   LayoutDashboard,
   BookOpen,
   Package,
@@ -13,7 +12,7 @@ import {
   Users,
   Home,
   LogOut,
-  ShieldAlert,
+  Library,
 } from 'lucide-react';
 
 export default async function AdminLayout({
@@ -32,6 +31,7 @@ export default async function AdminLayout({
     { label: 'Bank Soal', href: '/admin/bank-soal', icon: BookOpen },
     { label: 'Paket Ujian', href: '/admin/packages', icon: Package },
     { label: 'Impor Massal', href: '/admin/import', icon: UploadCloud },
+    { label: 'Pustaka Belajar', href: '/admin/konten', icon: Library },
     { label: 'Pengguna & RBAC', href: '/admin/users', icon: Users, superAdminOnly: true },
   ];
 

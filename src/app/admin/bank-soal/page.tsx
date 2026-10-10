@@ -8,7 +8,6 @@ import {
   Search,
   Filter,
   BookOpen,
-  Trash2,
   Edit3,
   ChevronLeft,
   ChevronRight,
@@ -16,9 +15,8 @@ import {
   ChevronsRight,
   X,
   Image as ImageIcon,
-  CheckCircle2,
 } from 'lucide-react';
-import { desc, eq, asc } from 'drizzle-orm';
+import { desc, asc } from 'drizzle-orm';
 
 export default async function AdminBankSoalPage({
   searchParams,
@@ -232,7 +230,7 @@ export default async function AdminBankSoalPage({
                 <option value="">Semua Tipe Soal</option>
                 <option value="SINGLE_CHOICE">Pilihan Ganda Biasa</option>
                 <option value="MULTI_CHOICE">Pilihan Ganda Kompleks</option>
-                <option value="GRADED_SCALE">Skala TKP CPNS (1–5)</option>
+                <option value="GRADED_SCALE">Soal Berbobot (1–5 poin)</option>
               </select>
             </div>
           </div>
@@ -337,7 +335,7 @@ export default async function AdminBankSoalPage({
                       {q.difficulty}
                     </span>
                     <span className="text-[11px] text-slate-400">
-                      {q.type === 'GRADED_SCALE' ? 'Skala TKP' : 'Pilihan Ganda'}
+                      {q.type === 'GRADED_SCALE' ? 'Berbobot' : 'Pilihan Ganda'}
                     </span>
                     {q.imageUrl && (
                       <span className="inline-flex items-center gap-1 text-[10px] font-bold text-purple-700 bg-purple-50 border border-purple-200 px-2 py-0.5 rounded-md">
@@ -366,6 +364,7 @@ export default async function AdminBankSoalPage({
                   <MathRenderer content={q.contentMarkdown} />
                   {q.imageUrl && (
                     <div className="mt-2 p-1.5 bg-slate-50 border border-slate-200 rounded-xl inline-block">
+                      {/* eslint-disable-next-line @next/next/no-img-element -- gambar soal dari URL unggahan dinamis */}
                       <img
                         src={q.imageUrl}
                         alt="Stimulus Soal"

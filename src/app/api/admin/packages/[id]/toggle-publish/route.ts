@@ -3,6 +3,7 @@ import { db } from '@/db';
 import { examPackages } from '@/db/schema';
 import { requireAdmin } from '@/lib/auth';
 import { eq } from 'drizzle-orm';
+import { apiError } from '@/lib/api';
 
 export async function POST(
   req: NextRequest,
@@ -21,8 +22,7 @@ export async function POST(
     await db.update(examPackages).set({ isPublished: nextState }).where(eq(examPackages.id, id));
 
     return NextResponse.json({ success: true, isPublished: nextState });
-  } catch (error: unknown) {
-    const msg = error instanceof Error ? error.message : 'Server error';
-    return NextResponse.json({ error: msg }, { status: 500 });
+  } catch (error) {
+    return apiError(error, 'Admin API error');
   }
 }

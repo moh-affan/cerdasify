@@ -1,39 +1,38 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { requireAdmin } from '@/lib/auth';
+import { requireAdmin, requireSuperAdmin } from '@/lib/auth';
 import { parseSpreadsheetBuffer, importQuestions, importUsers } from '@/lib/import-parser';
+import { ApiError, apiError } from '@/lib/api';
 
+const MAX_BYTES = 5 * 1024 * 1024;
+
+// Impor massal soal (Admin) atau peserta (khusus Super Admin) dari CSV/XLSX.
 export async function POST(req: NextRequest) {
   try {
     await requireAdmin();
-    const formData = await req.formData();
-    const file = formData.get('file') as File | null;
-    const type = (formData.get('type') as string) || 'questions'; // 'questions' | 'users'
+    const formData = await req.formData().catch(() => {
+      throw new ApiError('Data unggahan tidak valid');
+    });
+    const file = formData.get('file');
+    const type = formData.get('type') === 'users' ? 'users' : 'questions';
 
-    if (!file) {
-      return NextResponse.json({ error: 'Berkas tidak ditemukan' }, { status: 400 });
+    if (!(file instanceof File)) throw new ApiError('Berkas tidak ditemukan');
+    if (file.size > MAX_BYTES) throw new ApiError('Ukuran file melebihi batas 5MB');
+    if (!/\.(csv|xlsx)$/i.test(file.name)) throw new ApiError('Format berkas harus .csv atau .xlsx');
+
+    // Manajemen pengguna (termasuk impor peserta) hanya untuk Super Admin
+    if (type === 'users') await requireSuperAdmin();
+
+    let rows;
+    try {
+      rows = parseSpreadsheetBuffer(Buffer.from(await file.arrayBuffer()));
+    } catch {
+      throw new ApiError('Berkas tidak dapat dibaca. Pastikan memakai template resmi.');
     }
+    if (rows.length === 0) throw new ApiError('File kosong atau format lembar kerja tidak valid');
 
-    if (file.size > 5 * 1024 * 1024) {
-      return NextResponse.json({ error: 'Ukuran file melebihi batas 5MB' }, { status: 400 });
-    }
-
-    const arrayBuffer = await file.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-
-    const rows = parseSpreadsheetBuffer(buffer);
-    if (!rows || rows.length === 0) {
-      return NextResponse.json({ error: 'File kosong atau format lembar kerja tidak valid' }, { status: 400 });
-    }
-
-    if (type === 'users') {
-      const result = await importUsers(rows);
-      return NextResponse.json(result);
-    } else {
-      const result = await importQuestions(rows);
-      return NextResponse.json(result);
-    }
-  } catch (error: any) {
-    console.error('Import error:', error);
-    return NextResponse.json({ error: error.message || 'Server error saat memproses impor' }, { status: 500 });
+    const result = type === 'users' ? await importUsers(rows) : await importQuestions(rows);
+    return NextResponse.json(result);
+  } catch (error) {
+    return apiError(error, 'Import error');
   }
 }

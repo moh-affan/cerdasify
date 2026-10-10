@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { MathEditorToolbar } from '@/components/admin/MathEditorToolbar';
 import { MathRenderer } from '@/components/katex/MathRenderer';
-import { ArrowLeft, Save, Loader2, Plus, Trash2, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, Save, Loader2, CheckCircle2 } from 'lucide-react';
 import Link from 'next/link';
 
 interface OptionInput {
@@ -82,27 +82,20 @@ export default function NewQuestionPage() {
     } else if (activeInputFocus === 'explanation') {
       setExplanationMarkdown((prev) => prev + snippet);
     } else if (typeof activeInputFocus === 'number') {
-      setOptions((prev) => {
-        const copy = [...prev];
-        copy[activeInputFocus].contentMarkdown += snippet;
-        return copy;
-      });
+      const focusIdx = activeInputFocus;
+      setOptions((prev) =>
+        prev.map((o, i) => (i === focusIdx ? { ...o, contentMarkdown: o.contentMarkdown + snippet } : o))
+      );
     }
   };
 
-  const handleOptionChange = (idx: number, field: keyof OptionInput, value: any) => {
-    setOptions((prev) => {
-      const copy = [...prev];
-      if (field === 'isCorrect' && questionType === 'SINGLE_CHOICE') {
-        // Toggle only this one as correct
-        copy.forEach((o, i) => {
-          o.isCorrect = i === idx;
-        });
-      } else {
-        (copy[idx] as any)[field] = value;
-      }
-      return copy;
-    });
+  const handleOptionChange = <K extends keyof OptionInput>(idx: number, field: K, value: OptionInput[K]) => {
+    setOptions((prev) =>
+      field === 'isCorrect' && questionType === 'SINGLE_CHOICE'
+        ? // Pilihan tunggal: hanya opsi ini yang benar
+          prev.map((o, i) => ({ ...o, isCorrect: i === idx }))
+        : prev.map((o, i) => (i === idx ? { ...o, [field]: value } : o))
+    );
   };
 
   const handleSaveQuestion = async (e: React.FormEvent) => {
@@ -136,8 +129,8 @@ export default function NewQuestionPage() {
 
       router.push('/admin/bank-soal');
       router.refresh();
-    } catch (err: any) {
-      alert(err.message || 'Terjadi kesalahan sistem');
+    } catch (err) {
+      alert(err instanceof Error ? err.message : 'Terjadi kesalahan sistem');
       setIsSubmitting(false);
     }
   };
@@ -180,11 +173,11 @@ export default function NewQuestionPage() {
             <label className="block text-xs font-bold text-slate-700 mb-1.5">Tipe Soal</label>
             <select
               value={questionType}
-              onChange={(e) => setQuestionType(e.target.value as any)}
+              onChange={(e) => setQuestionType(e.target.value as typeof questionType)}
               className="w-full py-2.5 px-3 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-800 focus:outline-hidden"
             >
               <option value="SINGLE_CHOICE">Pilihan Ganda (Single Correct)</option>
-              <option value="GRADED_SCALE">Skala Bertingkat (CPNS TKP 1-5)</option>
+              <option value="GRADED_SCALE">Soal Berbobot (tiap opsi 1–5 poin, mis. TKP/SJT)</option>
             </select>
           </div>
 
@@ -192,7 +185,7 @@ export default function NewQuestionPage() {
             <label className="block text-xs font-bold text-slate-700 mb-1.5">Tingkat Kesulitan</label>
             <select
               value={difficulty}
-              onChange={(e) => setDifficulty(e.target.value as any)}
+              onChange={(e) => setDifficulty(e.target.value as typeof difficulty)}
               className="w-full py-2.5 px-3 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-800 focus:outline-hidden"
             >
               <option value="EASY">Mudah (EASY)</option>
@@ -240,7 +233,7 @@ export default function NewQuestionPage() {
                 <span>{isUploadingImage ? 'Mengunggah...' : '📁 Unggah Gambar Soal'}</span>
                 <input
                   type="file"
-                  accept="image/*"
+                  accept="image/png,image/jpeg,image/webp"
                   onChange={handleUploadImage}
                   disabled={isUploadingImage}
                   className="hidden"
@@ -270,6 +263,7 @@ export default function NewQuestionPage() {
 
           {imageUrl && (
             <div className="mt-2 p-2 bg-slate-50 rounded-2xl border border-slate-200 inline-block">
+              {/* eslint-disable-next-line @next/next/no-img-element -- gambar soal dari URL unggahan dinamis */}
               <img
                 src={imageUrl}
                 alt="Pratinjau Gambar Soal"

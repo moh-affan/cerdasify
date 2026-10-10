@@ -794,6 +794,7 @@ export default function PackageDetailClient({
                   {/* Stimulus Image if exists */}
                   {q.imageUrl && (
                     <div className="pt-1">
+                      {/* eslint-disable-next-line @next/next/no-img-element -- gambar soal dari URL unggahan dinamis */}
                       <img
                         src={q.imageUrl}
                         alt="Stimulus Soal"
