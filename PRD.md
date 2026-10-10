@@ -1,7 +1,7 @@
 # Product Requirements Document (PRD) — Cerdasify
 
 - **Nama Produk:** Cerdasify
-- **Tipe Aplikasi:** Fullstack Web Application (Next.js 16 + SQLite WAL Mode)
+- **Tipe Aplikasi:** Fullstack Web Application (Next.js 16 + PostgreSQL/Supabase)
 - **Versi Dokumen:** 1.1.0
 - **Status:** Production Ready (Selesai Diimplementasikan)
 - **Terakhir Diperbarui:** 2026-10-03
@@ -16,7 +16,7 @@ Aplikasi ini mengusung filosofi **ringan (lightweight), cepat, mobile-friendly**
 
 Sistem dirancang sebagai **Closed/Managed System**, di mana manajemen akun peserta dikontrol terpusat oleh Super Admin melalui antarmuka admin atau impor massal CSV/Excel, serta mendukung manajemen bank soal canggih dengan formula matematika (KaTeX/LaTeX), stimulus gambar (*rich media with lightbox*), mode latihan yang bisa dijeda (*pausable practice mode*), dan penilaian bertingkat (seperti TKP CPNS skala 1–5).
 
-Saat ini, sistem telah memiliki **492 butir soal aktif** yang terbagi ke dalam **13 paket soal** (meliputi Olimpiade Matematika PRISMA 2024–2025 Level 1–3, Paket Buku Soal standar 40 butir per sesi, Aljabar Marathon 100 butir, dan Simulasi Mini CPNS SKD).
+Per Oktober 2026 sistem memiliki **1.623 butir soal** dalam **50 paket** (olimpiade Matematika/Sains/Bahasa Inggris PRISMA, CEO, ORION, JSO, KMSI, IMOCSEA, OSN; Buku Soal Sesi; Aljabar Marathon; profiling ASN; Mini CPNS SKD). Bank soal disimpan di repo (`src/db/seed-data/question-bank/`) sebagai sumber kebenaran seeder dan telah diaudit ulang terhadap naskah sumber.
 
 ---
 
@@ -35,15 +35,15 @@ Saat ini, sistem telah memiliki **492 butir soal aktif** yang terbagi ke dalam *
 ### 3.1. Bank Soal & Manajemen Soal (Question Engine)
 1. **Hierarki Soal & Paket Siap Pakai:**
    - **Kategori Utama:** Olimpiade Sains / Matematika, Buku Soal Standar, CPNS SKD, Aljabar & Matematika Lanjut.
-   - **Struktur Paket Soal (13 Paket Resmi):**
-     - *Paket per Berkas PRISMA:* PRISMA Olimpiade Matematika 2025 Level 1, Level 2, Level 3, dan PRISMA 2024 Level 1.
-     - *Paket Standar 40 Butir:* Buku Soal Sesi 1, 2, 3, 4, 5, 13, 21 (masing-masing 40 butir soal acak berbobot).
-     - *Paket Tematik:* Aljabar Marathon 100 Soal, Mini CPNS SKD 2026.
+   - **Struktur Paket Soal (50 paket, lihat `DOCS_DEVELOPMENT.md` §9):**
+     - *Olimpiade per berkas lomba:* PRISMA, CEO, ORION, JSO, KMSI, IMOCSEA, OSN, latihan Bahasa Inggris Level 1–2.
+     - *Paket Standar 40 Butir:* Buku Soal Sesi 1, 2, 3, 4, 5, 13, 21.
+     - *Paket Tematik:* Aljabar Marathon 100 Soal, Soal Cerita Tricky, profiling ASN (SJT, kognitif, literasi digital), Mini CPNS SKD.
    - **Tingkat Kesulitan:** Mudah, Sedang, Sulit, HOTS (*Higher Order Thinking Skills*).
 2. **Format Soal yang Didukung:**
    - **Pilihan Ganda Standar (A–E):** 1 jawaban benar dengan bobot poin kustom.
    - **Pilihan Ganda Kompleks / Multi-Answer:** Lebih dari satu jawaban benar (model AKM/SNBT).
-   - **Soal Bobot Skala Bertingkat (CPNS TKP):** Tiap opsi jawaban memiliki nilai 1–5 (tidak ada jawaban bernilai 0).
+   - **Soal Berbobot (SJT ASN / TKP CPNS):** Tidak ada benar/salah mutlak; tiap opsi bernilai 1–5 poin sesuai kepatutan tindakan (tanpa nilai minus). Hasil menampilkan perolehan poin per soal dan pembahasan menjelaskan alasan kelima bobot.
    - **Formula Matematika & Simbol Sains:** Rendering penuh LaTeX / KaTeX dan notasi matematika lainnya pada teks soal, seluruh opsi pilihan jawaban (A–E), dan teks pembahasan.
 3. **Rich Media & Soal Bergambar (Image Support):**
    - Media gambar pada teks pertanyaan, stimulus diagram/geometri, opsi jawaban, dan penjelasan pembahasan.
@@ -81,9 +81,10 @@ Saat ini, sistem telah memiliki **492 butir soal aktif** yang terbagi ke dalam *
 
 ### 3.3. Sistem Penilaian Fleksibel (Scoring Engine)
 1. **Standar Penilaian CPNS SKD:**
-   - **TWK:** Benar = 5, Salah/Kosong = 0 (Passing Grade default: 65).
-   - **TIU:** Benar = 5, Salah/Kosong = 0 (Passing Grade default: 80).
-   - **TKP:** Tiap opsi bernilai 1 sampai 5 (Passing Grade default: 166).
+   - **TWK:** Benar = 5, Salah/Kosong = 0 (SKD resmi: ambang 65 untuk 30 soal).
+   - **TIU:** Benar = 5, Salah/Kosong = 0 (SKD resmi: ambang 80 untuk 35 soal).
+   - **TKP:** Tiap opsi bernilai 1 sampai 5 (SKD resmi: ambang 166 untuk 45 soal).
+   - Ambang per paket disesuaikan dengan jumlah soalnya (mis. Mini SKD 1 soal per subtes: TWK 5, TIU 5, TKP 4).
 2. **Standar Bobot Skor Kustom (Olimpiade/TKA):**
    - Bobot poin benar kustom (misal: +4), salah (-1 atau 0), kosong (0).
    - Konversi persentase nilai akhir (0–100) dan kalkulasi rata-rata waktu pengerjaan per soal.
@@ -121,15 +122,7 @@ Saat ini, sistem telah memiliki **492 butir soal aktif** yang terbagi ke dalam *
 - **Framework:** Next.js 16 (App Router, Server Components + Route Handlers).
 - **Language:** TypeScript (Strict Mode).
 - **Styling:** Tailwind CSS + Lucide Icons + KaTeX CSS.
-- **Database:** SQLite (menggunakan driver performa tinggi `better-sqlite3`).
-- **Database Mode:** WAL (Write-Ahead Logging) dengan setting optimal:
-  ```sql
-  PRAGMA journal_mode = WAL;
-  PRAGMA synchronous = NORMAL;
-  PRAGMA busy_timeout = 5000;
-  PRAGMA foreign_keys = ON;
-  PRAGMA cache_size = -64000; -- 64MB memory cache
-  ```
+- **Database:** PostgreSQL (Supabase) via `postgres` + Drizzle ORM, koneksi pooler dengan `prepare: false` dan SSL.
 - **ORM / Query Builder:** Drizzle ORM.
 - **Authentication & Session:** Session berbasis enkripsi Cookie HttpOnly.
 - **Parsing Spreadsheet:** `xlsx` (SheetJS) dan `csv-parse`.
@@ -266,10 +259,10 @@ erDiagram
    - Validasi durasi di server.
    - Kunci jawaban tidak pernah dikirim ke browser peserta saat ujian/latihan aktif berlangsung.
    - Screen privacy overlay otomatis saat pengerjaan dijeda (*pause*).
-3. **Keamanan Basis Data SQLite WAL:**
-   - Prepared statements anti-SQL Injection.
-   - `PRAGMA busy_timeout = 5000` mencegah lock pada transaksi auto-save paralel.
-   - Berkas database tersimpan aman di direktori `./data/cerdasify.db`.
+3. **Keamanan Basis Data:**
+   - Query terparameter (Drizzle / tagged template) anti-SQL Injection.
+   - Operasi multi-tabel di dalam transaksi; auto-save jawaban memakai upsert atomik.
+   - Kredensial database hanya dari environment variable, tidak pernah dicetak ke log.
 4. **Validasi File Upload:**
    - Ukuran unggahan dibatasi maksimal 5MB.
    - Whitelist MIME type gambar (`image/jpeg`, `image/png`, `image/webp`).
@@ -280,11 +273,12 @@ erDiagram
 
 | Fase | Deskripsi | Status | Catatan |
 |---|---|---|---|
-| **Phase 1** | Foundation & Database Setup (Next.js, Drizzle, SQLite WAL) | ✅ Selesai | PRAGMA WAL & busy_timeout terkonfigurasi |
+| **Phase 1** | Foundation & Database Setup (Next.js, Drizzle, PostgreSQL) | ✅ Selesai | Migrasi idempoten & transaksi atomik |
 | **Phase 2** | Authentication & RBAC (HttpOnly Session, Middleware) | ✅ Selesai | 3 Akun Role Awal aktif |
 | **Phase 3** | Bank Soal, KaTeX Engine & Import (Excel/CSV) | ✅ Selesai | Live Math Toolbar & Template resmi siap unduh |
 | **Phase 4** | Exam Engine (Simulasi & Latihan, Auto-Save, Grid CAT) | ✅ Selesai | Navigasi interaktif responsif mobile |
 | **Phase 5** | Scoring, Analytics & History | ✅ Selesai | Review pembahasan & kalkulasi skor server-side |
-| **Phase 6** | Polish & Real Question Extraction | ✅ Selesai | 492 butir soal ter-extract dari dokumen Olimpiade & Buku Soal |
+| **Phase 6** | Polish & Real Question Extraction | ✅ Selesai | 492 butir soal awal ter-extract dari dokumen Olimpiade & Buku Soal |
 | **Phase 7** | Rich Media & Pausable Practice Mode | ✅ Selesai | Upload gambar, Lightbox zoom, dan Pause & Resume aktif |
+| **Phase 8** | Audit Bank Soal & Seeder Kanonik | ✅ Selesai | 1.623 soal diaudit terhadap naskah sumber; bank soal kanonik + `npm run bank:export`; soal berbobot SJT diperbaiki |
 

@@ -7,7 +7,7 @@
 
 ## 📌 Sekilas Tentang Cerdasify
 
-**Cerdasify** adalah sistem aplikasi web fullstack modern berbasis **Next.js 16 (App Router)** dan **SQLite (WAL Mode)** yang dirancang untuk kebutuhan latihan soal mandiri serta simulasi ujian berskala profesional. Platform ini telah dilengkapi dengan **492 butir soal nyata** yang terbagi ke dalam **13 paket soal siap pakai** (Olimpiade Sains PRISMA 2024 & 2025, Buku Soal Sesi 40 butir, Aljabar Marathon, dan Simulasi CPNS SKD).
+**Cerdasify** adalah sistem aplikasi web fullstack modern berbasis **Next.js 16 (App Router)** dan **PostgreSQL (Supabase)** yang dirancang untuk kebutuhan latihan soal mandiri serta simulasi ujian berskala profesional. Platform ini dilengkapi **1.623 butir soal** dalam **50 paket** (olimpiade Matematika, Sains, dan Bahasa Inggris; OSN; profiling ASN; dan simulasi CPNS SKD), ditambah Pustaka Belajar untuk anak.
 
 Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa distraksi**, dengan performa instan di ponsel pintar (smartphone) maupun komputer desktop tanpa memberatkan kuota internet atau memori perangkat.
 
@@ -15,13 +15,11 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 
 ## ✨ Fitur Unggulan
 
-### 1. Bank Soal & Konten Lengkap (492 Soal, 13 Paket)
-- **13 Paket Soal Siap Pakai:**
-  - **PRISMA Olimpiade Matematika 2025 (Level 1, 2, 3)** — Dilengkapi soal geometri bergambar arsiran & lingkaran.
-  - **PRISMA Olimpiade Matematika 2024 (Level 1)** — Dilengkapi diagram soal bergambar.
-  - **Buku Soal Sesi 1, 2, 3, 4, 5, 13, 21** — Format standar paket 40 butir soal per sesi.
-  - **Aljabar Marathon 100 Soal** — Kumpulan soal aljabar komprehensif dari tingkat dasar hingga HOTS.
-  - **Mini CPNS SKD 2026** — Simulasi gabungan TWK, TIU, dan TKP bertingkat.
+### 1. Bank Soal & Konten Lengkap (1.623 Soal, 50 Paket)
+- **Olimpiade Matematika:** PRISMA 2024/2025, CEO 2025, ORION 2025/2026, IMOCSEA, OSN SD (97 soal hasil rekonstruksi dari buku sumber), Buku Soal Sesi 1–5/13/21, Aljabar Marathon 100.
+- **Olimpiade Sains & Bahasa Inggris:** PRISMA, CEO, JSO 2025, KMSI 2024, dan latihan Level 1–2 (penyisihan & provinsi), lengkap dengan gambar asli naskah.
+- **ASN/CPNS:** SJT Manajerial, Sosio-Kultural BerAKHLAK, Potensi Kognitif, Literasi Digital, Mini CPNS SKD.
+- Seluruh bank soal disimpan di repo (`src/db/seed-data/question-bank/`) dan diaudit ulang Oktober 2026 (kunci dihitung ulang, gambar & wacana dicocokkan dengan naskah sumber).
 - **Dukungan Soal Bergambar (Rich Media & Lightbox):**
   - Gambar pada teks pertanyaan, opsi jawaban, dan penjelasan pembahasan.
   - Fitur **Lightbox Zoom**: klik gambar pada soal untuk memperbesar secara interaktif tanpa merusak tata letak.
@@ -31,9 +29,19 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
   - Mendukung pecahan kompleks, akar bertingkat, matriks, limit, integral, serta notasi kimia/fisika.
   - Editor Admin dilengkapi **Live Math Preview** dan **Toolbar Rumus Cepat**.
   - Responsif di layar HP dengan auto-scroll mendatar (*no layout blowout*).
-- **Format Pilihan Ganda & Skala Bobot:**
-  - Pilihan ganda standar (A–E).
-  - Soal skala bobot bertingkat khusus **TKP CPNS** (nilai opsi 1–5).
+- **Pilihan Ganda & Soal Berbobot:**
+  - Pilihan ganda standar (A–E) dan pilihan ganda kompleks.
+  - **Soal berbobot** (SJT/TKP): tidak ada benar/salah mutlak, setiap opsi bernilai 1–5 poin; hasil menampilkan perolehan poin dan alasan setiap bobot.
+
+### 1b. Pustaka Belajar (Daily English Reading)
+- Bacaan harian bahasa Inggris berjenjang mengikuti Fase Kurikulum Merdeka (SD → SMP → lanjut) dengan level CEFR.
+- Kosakata yang bisa diketuk, audio per kalimat (Web Speech API), terjemahan, analisis grammar, dan kuis pemahaman yang dinilai di server.
+- Pendidikan Agama Islam: 11 doa harian & 7 surat pendek dengan teks Arab berharakat, latin, dan terjemahan.
+- Cerita pendek berpesan moral, ensiklopedia anak, dan materi Matematika kelas 1–2 (dengan suara pembaca bahasa Indonesia).
+- Bacaan Fase B, materi IPA & Bahasa Indonesia, contoh pidato dengan mode latihan teleprompter, dan komik edukasi.
+- Editor konten di panel admin (`/admin/konten`): tulis/ubah bacaan, materi, pidato, dan komik tanpa menyentuh kode.
+- Dasbor Orang Tua (`/orang-tua`): buat akun anak dan pantau streak, bacaan, skor kuis, serta aktivitas 7 hari terakhir.
+- Streak membaca harian & progres per pengguna. Seed konten: `npm run seed:learning`.
 
 ### 2. Engine Ujian & Mode Pengerjaan Fleksibel
 - **Mode Latihan Mandiri (Bisa Dijeda / Pausable Practice Mode):**
@@ -59,23 +67,18 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 - **Admin / Pengajar:** Kurasi bank soal, pembuatan soal baru, dan peninjauan statistik.
 - **User / Siswa:** Mengakses katalog paket, mengerjakan ujian/latihan, dan memantau riwayat progres.
 
-### 5. Arsitektur Ringan & SQLite WAL Mode
-- Basis data **SQLite** dengan mode **WAL (Write-Ahead Logging)**:
-  - Konkurensi tinggi, bebas database lock (`busy_timeout = 5000`).
-  - Cache memori 64MB dan transaksi atomic aman.
-  - Sangat hemat RAM & CPU, siap dijalankan di server lokal, Raspberry Pi, maupun VPS minimalis.
+### 5. Arsitektur Ringan & Aman
+- Basis data **PostgreSQL (Supabase)** dengan Drizzle ORM dan transaksi atomik.
+- Penilaian 100% di server, validasi waktu ujian di server, kunci jawaban tidak pernah dikirim ke browser selama ujian berlangsung.
+- Unggahan gambar tervalidasi (JPEG/PNG/WebP, maks. 5MB, cek isi file) dan tersimpan di Supabase Storage.
 
 ---
 
-## 🔑 Akun Bawaan (Default Accounts)
+## 🔑 Akun
 
-Untuk mempermudah pengujian, sistem telah menyediakan 3 akun awal dengan berbagai peran:
-
-| Peran (Role) | Username | Password | Hak Akses |
-|---|---|---|---|
-| **Super Admin** | `superadmin` | `SuperPassword123!` | Akses penuh: Admin, Bank Soal, Paket, Users, Import |
-| **Admin / Guru** | `guru_matematika` | `GuruPassword123!` | Kelola Bank Soal, Buat Soal Baru, Buat Paket |
-| **Peserta / Siswa** | `siswa_budi` | `SiswaPassword123!` | Mengerjakan Ujian, Mode Latihan, Riwayat & Hasil |
+- **Super Admin** dibuat dari env `DEFAULT_ADMIN_USERNAME` dan `DEFAULT_ADMIN_PASSWORD` saat `npm run seed` bila belum ada; login dengan kredensial env selalu berhasil dan menyinkronkan akun tersebut (gunakan password kuat, jangan di-commit).
+- Akun guru dan peserta dibuat oleh Super Admin lewat menu **Pengguna** atau impor massal (password acak dibuat sistem).
+- Akun demo (`guru_olimpiade`, `peserta_budi`) **tidak** memiliki password bawaan. Untuk lingkungan uji, jalankan seed dengan `SEED_DEMO_USERS=true`, `DEMO_ADMIN_PASSWORD`, dan `DEMO_USER_PASSWORD` di env.
 
 ---
 
@@ -85,7 +88,7 @@ Untuk mempermudah pengujian, sistem telah menyediakan 3 akun awal dengan berbaga
 - **Language:** [TypeScript](https://www.typescriptlang.org/) (Strict Mode)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/) + [Lucide Icons](https://lucide.dev/)
 - **Math Engine:** [KaTeX](https://katex.org/)
-- **Database:** SQLite via [`better-sqlite3`](https://github.com/WiseLibs/better-sqlite3) (WAL Mode)
+- **Database:** PostgreSQL (Supabase) via [`postgres`](https://github.com/porsager/postgres) + Drizzle ORM
 - **ORM:** [Drizzle ORM](https://orm.drizzle.team/)
 - **Session & Auth:** Encrypted HttpOnly Cookies
 - **Data Parser:** `xlsx` (SheetJS) & `csv-parse`
@@ -121,13 +124,19 @@ SESSION_SECRET="cerdasify_super_secret_session_key_production_2026_xyz"
 
 # Akun Super Admin Awal
 DEFAULT_ADMIN_USERNAME="superadmin"
-DEFAULT_ADMIN_PASSWORD="SuperPassword123!"
+DEFAULT_ADMIN_PASSWORD="<password-kuat-anda>"
 ```
 
-### 4. Migrasi Skema & Seeding Data Lengkap (492 Soal & 13 Paket)
+### 4. Migrasi Skema & Seeding Bank Soal
 ```bash
-# Buat tabel dan seed 492 butir soal (PRISMA + Buku Soal + CPNS)
+# Buat/perbarui tabel dan semai seluruh bank soal (1.623 soal, 50 paket) dari src/db/seed-data/question-bank
 npm run seed
+
+# Setelah mengedit soal di panel admin: simpan kembali ke berkas bank soal, lalu commit
+npm run bank:export
+
+# Konten Pustaka Belajar
+npm run seed:learning
 ```
 
 ### 5. Menjalankan Server
@@ -147,7 +156,7 @@ Buka browser dan buka alamat **`http://localhost:3000`**.
 
 ```
 cerdasify/
-├── data/                      # File database SQLite (cerdasify.db, cerdasify.db-wal)
+├── data/                      # Berkas lokal (cadangan) - tidak di-commit
 ├── public/                    # Aset statis publik
 │   ├── templates/             # Berkas template resmi impor (.xlsx, .csv)
 │   └── uploads/               # Berkas gambar stimulus soal & opsi
@@ -164,10 +173,10 @@ cerdasify/
 │   │   └── api/               # Server Route Handlers (Auth, Exam, Admin, Upload)
 │   ├── components/            # Komponen UI Reusable
 │   │   ├── admin/             # MathEditorToolbar, FileUploader, Form Controls
-│   │   ├── exam/              # ExamTimer, GridNav, QuestionCard, PauseOverlay
+│   │   ├── exam/              # ExamTimer, ExamGridNav, OptionItem, ExamConfirmModal
 │   │   ├── katex/             # MathRenderer (LaTeX parser aman)
 │   │   └── ui/                # Button, Modal, Card, Input
-│   ├── db/                    # Drizzle ORM Schema, Koneksi SQLite WAL, & Seeder
+│   ├── db/                    # Drizzle ORM Schema, koneksi PostgreSQL, migrasi & seeder
 │   ├── lib/                   # Autentikasi Session, Parser Spreadsheet, Engine Skor
 │   └── types/                 # Definisi Tipe TypeScript Global
 ├── DOCS_PANDUAN_PENGGUNAAN.md # Panduan Lengkap Pengguna & Operator
@@ -183,7 +192,7 @@ cerdasify/
 
 Untuk panduan mendalam, silakan baca dokumentasi pendukung berikut:
 - **[Panduan Penggunaan Lengkap (User Guide)](file:///home/affan/projects/cerdasify/DOCS_PANDUAN_PENGGUNAAN.md)** — Panduan langkah demi langkah bagi Peserta, Pengajar, dan Super Admin.
-- **[Panduan Pengembangan & Arsitektur (Developer Guide)](file:///home/affan/projects/cerdasify/DOCS_DEVELOPMENT.md)** — Arsitektur sistem, skema SQLite, pola anti-leak, dan referensi REST API.
+- **[Panduan Pengembangan & Arsitektur (Developer Guide)](file:///home/affan/projects/cerdasify/DOCS_DEVELOPMENT.md)** — Arsitektur sistem, skema PostgreSQL, pola anti-leak, dan referensi REST API.
 - **[Product Requirements Document (PRD)](file:///home/affan/projects/cerdasify/PRD.md)** — Spesifikasi produk, kebutuhan fungsional, dan skema data.
 - **[Development Guidelines (AGENTS.md)](file:///home/affan/projects/cerdasify/AGENTS.md)** — Standar pengkodean, konvensi KaTeX, dan checklist verifikasi.
 

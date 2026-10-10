@@ -11,7 +11,7 @@ Panduan ini ditujukan untuk setiap AI Agent maupun Software Engineer yang berkon
 - **Prinsip Utama:**
   1. **Zero-Fluff, Maximum Speed:** Antarmuka harus instan, ringan (*lightweight*), tidak menggunakan library berat yang memperlambat rendering ponsel kelas menengah ke bawah.
   2. **Rock-Solid Exam Integrity:** Kunci jawaban soal ujian **HARAM** dikirim ke client browser selama sesi ujian berlangsung.
-  3. **Data Safety & Concurrency:** Database SQLite wajib dikonfigurasi dalam mode **WAL (Write-Ahead Logging)** dengan timeout yang aman.
+  3. **Data Safety & Concurrency:** Basis data PostgreSQL (Supabase) diakses lewat satu koneksi singleton; operasi multi-tabel wajib di dalam transaksi.
   4. **Strict RBAC:** Super Admin, Admin, dan User terisolasi secara ketat di level API, Middleware, dan Database Query.
   5. **Environment & Secret Privacy:** Kredensial, password, JWT secret, dan connection string (`.env`, `.env.local`) **HARAM** diekspos atau dicetak ke output chat maupun log terminal. Eksekusi skrip wajib me-load berkas environment secara internal tanpa melakukan echo/print rahasia ke stdout.
 
@@ -25,40 +25,49 @@ Panduan ini ditujukan untuk setiap AI Agent maupun Software Engineer yang berkon
 - Gunakan **Client Components (`'use client'`)** hanya untuk interaktivitas ujian (state timer, opsi terpilih, toggle navigasi soal, LaTeX preview input).
 - Kelola state pengerjaan ujian secara lokal dengan sinkronisasi background (*optimistic auto-save*) ke server.
 
-### 2.2. SQLite WAL Mode — Konfigurasi Wajib
-Setiap inisialisasi koneksi basis data SQLite (via `better-sqlite3` dan `drizzle-orm`) **WAJIB** mengeksekusi PRAGMA berikut:
+### 2.2. PostgreSQL (Supabase) — Konfigurasi Wajib
+Koneksi basis data diinisialisasi **sekali** di `src/db/index.ts` memakai `postgres` (postgres-js) dan `drizzle-orm/postgres-js`:
 
 ```typescript
-import Database from 'better-sqlite3';
-import { drizzle } from 'drizzle-orm/better-sqlite3';
+import { drizzle } from 'drizzle-orm/postgres-js';
+import postgres from 'postgres';
 import * as schema from './schema';
 
-const sqlite = new Database(process.env.DATABASE_PATH || './data/cerdasify.db');
+const client = postgres(process.env.DATABASE_URL!, {
+  prepare: false, // WAJIB untuk Supabase connection pooler (transaction mode)
+  ssl: 'require',
+  max: 10,
+});
 
-// Konfigurasi performa tinggi & anti database-lock
-sqlite.pragma('journal_mode = WAL');
-sqlite.pragma('synchronous = NORMAL');
-sqlite.pragma('busy_timeout = 5000');
-sqlite.pragma('foreign_keys = ON');
-sqlite.pragma('cache_size = -64000'); // 64MB Cache
-
-export const db = drizzle(sqlite, { schema });
+export const db = drizzle(client, { schema });
 ```
 
-> **Aturan Agen:** Jangan pernah menghapus `busy_timeout` atau mengubah `journal_mode` ke `DELETE` / `MEMORY` tanpa alasan kritis yang terdokumentasi.
+- Operasi yang menyentuh lebih dari satu tabel/baris yang saling bergantung **wajib** memakai `db.transaction(...)`.
+- Perubahan skema ditulis di `src/db/schema/index.ts` **dan** `src/db/migrate.ts` secara idempoten (`CREATE TABLE IF NOT EXISTS`, `ADD COLUMN IF NOT EXISTS`, `CREATE INDEX IF NOT EXISTS`).
+- Error API dikembalikan lewat `apiError()` (`src/lib/api.ts`): detail error database hanya dicatat di log server, klien menerima pesan umum.
+
+> **Aturan Agen:** Jangan pernah mencetak `DATABASE_URL`/kredensial ke output, dan jangan menjalankan migrasi atau seed ke database produksi tanpa izin eksplisit pemilik proyek.
 
 ### 2.3. Keamanan Sesi Ujian (Exam Session Anti-Leak)
 - **Saat Mengambil Soal Ujian (Active Attempt):**
   - Endpoint API / Server Action **HANYA** boleh mengembalikan: `question_id`, `content_markdown`, `image_url`, dan opsi jawaban (`option_id`, `label`, `content_markdown`, `image_url`).
   - **DILARANG KERAS** menyertakan field `is_correct`, `score_value`, `explanation_markdown`, atau `explanation_image_url` pada payload soal ujian aktif.
 - **Kalkulasi Nilai:**
-  - Penilaian dilakukan **100% di server** saat event submit atau time-out terjadi.
-  - Server memvalidasi timestamp pengerjaan (`started_at` vs `finished_at`) untuk mendeteksi manipulasi durasi.
+  - Penilaian dilakukan **100% di server** (`finalizeAttempt` di `src/lib/exam-grading.ts`) saat submit atau saat waktu habis.
+  - Soal pilihan tunggal hanya benar bila **tepat satu** opsi dipilih dan itu kuncinya; pilihan ganda kompleks harus sama persis dengan himpunan kunci.
+  - Aturan paket (`passing_grade_rules`) hanya mengenal `correctScore`, `wrongScore`, `emptyScore`, `passingScore`, dan `twk/tiu/tkpPassingGrade`. Tulis secara eksplisit di setiap paket (tanpa aturan, salah = −1); paket latihan anak memakai `wrongScore: 0` dan `emptyScore` tidak boleh negatif.
+- **Soal Berbobot (`GRADED_SCALE`):** setiap opsi berbobot 1–5 (SJT/TKP), tanpa nilai minus; bobot 5 = tindakan tuntas & sesuai aturan, 1 = melanggar etika/hukum. Setiap opsi harus masuk akal dan pembahasan menjelaskan alasan kelima bobot.
+- **Perbaikan Isi Soal:** kunci, pembahasan, dan gambar wajib diverifikasi ulang (hitung sendiri, buka berkas gambarnya, cocokkan dengan naskah sumber) — jangan percaya teks hasil ekstraksi PDF maupun kunci sumber begitu saja. Simpan hasil akhirnya ke bank soal (lihat §2.6).
+- **Validasi Waktu di Server (`src/lib/exam-time.ts`):**
+  - Sisa waktu dihitung server dari `remaining_seconds` + `segment_started_at`; nilai dari klien hanya boleh *mengurangi* sisa waktu.
+  - Jawaban yang dikirim setelah batas waktu (+ toleransi 30 detik) ditolak dan attempt otomatis dinilai sebagai `TIMED_OUT`.
+  - Halaman hasil/pembahasan **tidak boleh** menampilkan kunci selama attempt masih `IN_PROGRESS`/`PAUSED`.
+- **Acak Soal/Opsi:** bila `shuffle_questions`/`shuffle_options` aktif, urutan diacak deterministik per attempt (`orderQuestionsForAttempt`/`orderOptionsForAttempt`) dan dipakai sama di halaman pembahasan.
 
 ### 2.4. Penanganan Soal Bergambar & Rich Media
-- **Penyimpanan Berkas:** Gambar yang diunggah disimpan di folder `public/uploads/` dengan nama unik acak (`timestamp-random.ext`) untuk menghindari benturan nama.
-- **Validasi Unggahan (`/api/admin/upload-image`):** Wajib memvalidasi MIME type (`image/jpeg`, `image/png`, `image/webp`) dan batasan ukuran berkas (maksimal 5MB).
-- **Lightbox Zoom:** Komponen kartu soal ([QuestionCard.tsx](file:///home/affan/projects/cerdasify/src/components/exam/QuestionCard.tsx)) dan halaman ulasan hasil ([results/[attemptId]/page.tsx](file:///home/affan/projects/cerdasify/src/app/(dashboard)/results/[attemptId]/page.tsx)) wajib membungkus gambar dengan interaksi klik pembesar (Lightbox Modal) untuk memudahkan membaca diagram/geometri di layar smartphone.
+- **Penyimpanan Berkas:** Gambar diunggah ke Supabase Storage (bucket `uploads`); saat pengembangan lokal jatuh ke `public/uploads/`. Nama file selalu dibuat ulang server dengan format `timestamp-random.ext`.
+- **Validasi Unggahan (`/api/admin/upload-image`):** Hanya `image/jpeg`, `image/png`, `image/webp`, maksimal 5MB, dan isi file wajib cocok dengan *magic bytes* formatnya (Content-Type dari klien tidak dipercaya).
+- **Lightbox Zoom:** Gambar soal di halaman ujian ([exam/[packageId]/page.tsx](src/app/(exam)/exam/[packageId]/page.tsx)) dan seluruh gambar soal/opsi/pembahasan di halaman hasil ([results/[attemptId]/page.tsx](src/app/(dashboard)/results/[attemptId]/page.tsx), komponen `ZoomableImage`) wajib bisa diklik untuk diperbesar.
 
 ### 2.5. Mekanisme State Pause & Resume (Mode Latihan)
 - **Tujuan:** Memberikan fleksibilitas pada peserta latihan mandiri tanpa mengorbankan integritas soal.
@@ -69,11 +78,22 @@ export const db = drizzle(sqlite, { schema });
   - `POST /api/exam/resume`: Mengembalikan status attempt ke `'IN_PROGRESS'` dan mengembalikan sisa detik pengerjaan.
 - **Proteksi Tampilan (Screen Privacy Overlay):** Saat state `isPaused` bernilai `true`, konten soal di antarmuka browser **WAJIB** disembunyikan di balik backdrop overlay (*screen blackout*) sehingga peserta tidak dapat membaca soal sambil menghentikan timer.
 
-### 2.6. Struktur Paket Soal (13 Paket Bawaan)
-- **Paket Berkas PRISMA:** Mengelompokkan soal per berkas kompetisi (PRISMA 2025 Level 1, 2, 3 dan PRISMA 2024 Level 1) lengkap dengan aset gambar asli.
-- **Paket Standar 40 Butir:** Mengelompokkan soal per sesi latihan berisi tepat 40 butir (Buku Soal Sesi 1, 2, 3, 4, 5, 13, 21).
-- **Paket Tematik:** Aljabar Marathon 100 Soal dan Mini CPNS SKD 2026.
-- Total terdapat 492 butir soal terdistribusi yang dikelola secara atomic via `src/db/seed.ts`.
+### 2.6. Bank Soal Kanonik (`src/db/seed-data/question-bank/`)
+- Seluruh kategori, topik, 50 paket, dan 1.623 soal (Oktober 2026) disimpan sebagai JSON di repo dan menjadi **sumber kebenaran** `npm run seed` (idempoten, satu transaksi, validasi sebelum menulis).
+- Setelah soal/paket diubah lewat panel admin, **wajib** `npm run bank:export` lalu commit, agar seed berikutnya tidak menimpa perubahan.
+- Jangan menambah skrip impor/perbaikan sekali-jalan yang menulis langsung ke database tanpa memperbarui bank soal. Riwayat alasan perbaikan audit ada di `src/db/seed-data/audit/question_fixes_2026_10.jsonl`.
+- Gambar soal disimpan di `public/uploads/` dan ikut di-deploy; pastikan setiap `imageUrl` di bank soal ada berkasnya.
+- Akun demo tidak memiliki password bawaan; hanya dibuat bila `SEED_DEMO_USERS=true` dengan password dari env.
+
+### 2.7. Pustaka Belajar (Learning Content)
+- Konten belajar (Daily Reading, cerita, ensiklopedia, komik, pidato, materi) memakai **satu model generik** `learning_contents` dengan rentang Fase Kurikulum Merdeka (`phase_min`/`phase_max`: A–F, L). Jangan membuat tabel terpisah per jenis konten.
+- Kunci kuis bacaan (`content_quiz_items.correct_index`) **HARAM** dikirim ke browser sebelum submit; penilaian dilakukan di `POST /api/learn/complete`.
+- Konten untuk Fase A–B wajib ramah anak: kalimat pendek, terjemahan per kalimat, kosakata dengan emoji, tanpa istilah grammar teknis.
+- Teks Arab (doa/ayat) disimpan di segmen `{ ar, latin, id }` dan wajib diverifikasi terhadap mushaf/sumber terpercaya sebelum di-seed.
+- Konten baru ditambahkan via `src/db/seed-data/learning/` + `npm run seed:learning` (idempoten, tidak menghapus `reading_progress`).
+- Konten yang diedit lewat panel admin (`edited_at` terisi) **tidak boleh** ditimpa seeder tanpa `--force`.
+- Gambar konten (sampul/panel komik) wajib ringan: WebP/JPEG ≤ 640px untuk aset bawaan di `public/learning/`, dan hanya gambar orisinal, berlisensi bebas, atau hasil AI — jangan menyalin gambar berhak cipta.
+- **RBAC Orang Tua–Anak:** relasi lewat `users.parent_id`. Setiap rute `/api/parent/*` wajib memfilter `parent_id = user.userId`; akun yang memiliki `parent_id` (akun anak) tidak boleh mengakses `/orang-tua` maupun membuat akun anak.
 
 ---
 
@@ -83,7 +103,7 @@ Struktur proyek standar yang harus dipatuhi:
 
 ```
 cerdasify/
-├── data/                      # Lokasi file SQLite (*.db, *.db-wal, *.db-shm) - gitignored
+├── data/                      # Berkas lokal (cadangan, catatan kerja) - tidak di-commit
 ├── public/                    # Aset statis, template import (.csv, .xlsx), logo
 │   ├── templates/             # File template import resmi untuk diunduh user
 │   └── uploads/               # Berkas gambar stimulus soal & opsi
@@ -99,18 +119,20 @@ cerdasify/
 │   │   │   └── packages/      # Manajemen Paket Soal & Ujian
 │   │   └── api/               # Route Handlers (Auth, Exam, Admin, Upload)
 │   ├── components/            # Reusable UI components
-│   │   ├── exam/              # Timer, GridNav, QuestionCard, PauseOverlay, Lightbox
+│   │   ├── exam/              # ExamTimer, ExamGridNav, OptionItem, ExamConfirmModal
 │   │   ├── katex/             # MathRenderer (LaTeX)
 │   │   ├── ui/                # Button, Modal, Drawer, Badge, Input
 │   │   └── admin/             # MathEditorToolbar, FileUploader, Table, StatsCard
 │   ├── db/                    # Drizzle schema, migrations, connection singleton
 │   │   ├── schema/
 │   │   ├── index.ts
-│   │   └── seed.ts            # Seeder 492 butir soal & 13 paket
+│   │   ├── seed-data/question-bank/  # Bank soal kanonik (JSON)
+│   │   ├── export_question_bank.ts   # npm run bank:export
+│   │   └── seed.ts            # Seeder bank soal + Super Admin
 │   ├── lib/                   # Utility functions
 │   │   ├── auth.ts            # Hashing, token/session management, RBAC checks
 │   │   ├── import-parser.ts   # Parser & validator Excel/CSV
-│   │   ├── scoring.ts         # Logic penilaian (Standard, CPNS TKP scale 1-5)
+│   │   ├── scoring.ts         # Logic penilaian (pilihan ganda & soal berbobot 1-5)
 │   │   └── utils.ts
 │   └── types/                 # Shared TypeScript interfaces & types
 ├── DOCS_PANDUAN_PENGGUNAAN.md # Panduan Lengkap Pengguna & Operator
@@ -161,19 +183,19 @@ Ketika mengimplementasikan atau memodifikasi modul import (`import-parser.ts`):
    - Kolom kategori dan topik harus valid (buat otomatis jika belum ada).
    - Tipe soal `SINGLE`: wajib memiliki opsi yang sesuai dengan kunci (`A` sampai `E`).
    - Tipe soal `SCALE` (TKP): format kunci harus memetakan poin valid (contoh: `A:3,B:5,C:2,D:4,E:1`), pastikan tidak ada opsi yang terlewat.
-3. **Transaction Safety:** Gunakan transaksi SQLite (`db.transaction(...)`) sehingga jika terjadi kesalahan fatal pada baris ke-X, seluruh transaksi dibatalkan atau dikumpulkan ke dalam log laporan error yang jelas per nomor baris untuk Super Admin.
+3. **Transaction Safety:** Gunakan transaksi PostgreSQL (`db.transaction(...)` / `client.begin(...)`) sehingga jika terjadi kesalahan fatal pada baris ke-X, seluruh transaksi dibatalkan atau dikumpulkan ke dalam log laporan error yang jelas per nomor baris untuk Super Admin.
 
 ---
 
 ## 6. Checklist Verifikasi Sebelum Menandai Tugas Selesai
 
 Setiap agen yang menyelesaikan tugas wajib memverifikasi:
-- [ ] `npm run lint` / TypeScript check (`npx tsc --noEmit`) lolos tanpa error tipe.
+- [ ] `npm run lint` (0 error) dan TypeScript check (`npx tsc --noEmit`) lolos tanpa error tipe.
 - [ ] Fitur berjalan dengan responsif pada resolusi layar mobile (360px–420px) dan desktop.
 - [ ] Tidak ada kunci jawaban yang bocor di network tab / response JSON pada rute ujian aktif.
 - [ ] Fitur Pause & Resume mode latihan berfungsi presisi dan menutup tampilan soal saat dijeda.
 - [ ] Soal bergambar dapat di-zoom melalui modal Lightbox.
-- [ ] Error database SQLite ditangani dengan try-catch yang informatif dan tidak crash pada server.
+- [ ] Error database ditangani dengan `apiError()` (log informatif di server, pesan aman ke klien) dan tidak membuat server crash.
 - [ ] File template impor (`.csv` dan `.xlsx`) tetap sinkron dengan skema validasi.
 - [ ] Dokumentasi (`README.md`, `PRD.md`, `AGENTS.md`, `DOCS_PANDUAN_PENGGUNAAN.md`, `DOCS_DEVELOPMENT.md`) tetap mutakhir.
 

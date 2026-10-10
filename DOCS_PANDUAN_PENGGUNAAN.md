@@ -26,15 +26,17 @@ Selamat datang di **Panduan Penggunaan Resmi Cerdasify**! Dokumen ini dirancang 
 
 ---
 
-## 1. Akun Bawaan untuk Pengujian
+## 1. Akun Pengguna
 
-Sistem Cerdasify telah dikonfigurasi dengan 3 peran pengguna bawaan yang siap digunakan untuk simulasi maupun demonstrasi:
+Cerdasify memiliki tiga peran:
 
-| Peran (Role) | Username | Password | Deskripsi Wewenang |
-|---|---|---|---|
-| **Super Admin** | `superadmin` | `SuperPassword123!` | Akses tak terbatas: kelola bank soal, paket ujian, impor massal, dan akun pengguna. |
-| **Admin / Guru** | `guru_matematika` | `GuruPassword123!` | Kelola bank soal, buat paket latihan, dan periksa statistik soal. |
-| **Peserta / Siswa** | `siswa_budi` | `SiswaPassword123!` | Mengakses katalog paket, mengerjakan latihan/ujian, jeda waktu, dan ulasan nilai. |
+| Peran (Role) | Cara Mendapatkan Akun | Wewenang |
+|---|---|---|
+| **Super Admin** | Dibuat dari pengaturan server (`DEFAULT_ADMIN_USERNAME`/`DEFAULT_ADMIN_PASSWORD`) | Akses penuh: bank soal, paket ujian, impor massal, dan akun pengguna. |
+| **Admin / Guru** | Dibuat Super Admin di menu **Pengguna** | Kelola bank soal, buat paket latihan, dan periksa statistik soal. |
+| **Peserta / Siswa** | Dibuat Super Admin (atau impor massal), atau akun anak dari menu **Orang Tua** | Mengerjakan latihan/ujian, jeda waktu, ulasan nilai, dan Pustaka Belajar. |
+
+Tidak ada akun demo dengan password bawaan. Simpan password setiap akun dengan aman dan ganti bila pernah dibagikan.
 
 ---
 
@@ -129,7 +131,7 @@ Pada paket bertipe **Mode Latihan**, Anda dapat menghentikan waktu sementara ket
    - Layar ujian akan seketika ditutupi oleh tirai pelindung redup (*screen blackout overlay*) bertuliskan:
      > *"Sesi Latihan Dijeda — Timer dihentikan sementara. Sisa waktu Anda tersimpan aman."*
    - Konten pertanyaan disembunyikan untuk menjaga fokus serta sportivitas latihan mandiri.
-3. Sisa waktu pengerjaan langsung disimpan ke basis data SQLite.
+3. Sisa waktu pengerjaan dihitung dan disimpan oleh server, sehingga tidak bisa dimanipulasi dari browser.
 4. Ketika Anda sudah siap kembali, cukup klik tombol hijau besar: **Lanjutkan Pengerjaan (Resume)**. Layar akan terbuka seketika dan timer kembali berjalan persis dari detik terakhir.
 
 ---
@@ -168,10 +170,18 @@ Pada halaman hasil:
 
 ---
 
+### 2.9 Soal Berbobot (SJT ASN & TKP CPNS)
+Pada soal berbobot tidak ada jawaban yang sekadar benar atau salah. Setiap pilihan bernilai **1 sampai 5 poin** sesuai kepatutan tindakannya, dan tidak ada nilai minus.
+- Di ruang ujian, soal ini bertanda **"Soal Berbobot — setiap pilihan bernilai 1–5"**. Pilih tindakan yang paling tepat menurut Anda.
+- Di halaman hasil, setiap soal menampilkan perolehan **"+X dari 5 poin"**. Pilihan terbaik ditandai hijau, sedangkan pilihan Anda yang bernilai sebagian ditandai kuning, bukan merah.
+- Pembahasan menjelaskan urutan bobot kelima pilihan beserta alasannya, sehingga Anda bisa memahami mengapa sebuah tindakan dinilai lebih baik.
+
+---
+
 ## 3. Panduan Pengajar / Admin
 
 ### 3.1 Akses Panel Admin
-1. Masuk menggunakan akun ber-role `ADMIN` atau `SUPER_ADMIN` (misal: `superadmin` atau `guru_matematika`).
+1. Masuk menggunakan akun ber-role `ADMIN` atau `SUPER_ADMIN` (misal: akun Super Admin atau akun guru).
 2. Klik tombol **Panel Admin** di menu navigasi utama.
 3. Dashboard admin akan menampilkan statistik bank soal, total paket, peserta aktif, dan riwayat aktivitas.
 
@@ -179,7 +189,7 @@ Pada halaman hasil:
 
 ### 3.2 Mengelola Bank Soal
 1. Masuk ke menu **Bank Soal** (`/admin/bank-soal`).
-2. Anda dapat melihat daftar 492 butir soal yang telah terindeks rapi.
+2. Anda dapat melihat seluruh butir soal (1.623 soal per Oktober 2026) yang telah terindeks rapi.
 3. Gunakan filter pencarian untuk menyaring soal berdasarkan:
    - Kategori (misal: *Olimpiade Matematika*, *Buku Soal*, *CPNS SKD*)
    - Topik (misal: *Geometri*, *Aljabar*, *TIU*, *TKP*)
@@ -250,7 +260,7 @@ Jika Anda memiliki ratusan butir soal atau daftar ratusan siswa dari berkas spre
 3. **Format Kolom Impor Soal:**
    - `kategori` : Kategori besar soal (contoh: `Olimpiade Matematika`)
    - `topik` : Sub-materi (contoh: `Aljabar`)
-   - `tipe_soal` : `SINGLE` atau `SCALE` (khusus bobot TKP 1-5)
+   - `tipe_soal` : `SINGLE`, `MULTI`, atau `SCALE` (soal berbobot: setiap opsi 1–5 poin, mis. TKP/SJT)
    - `pertanyaan` : Teks soal, mendukung rumus `$...$` atau `$$...$$`
    - `opsi_a` s/d `opsi_e` : Teks untuk tiap opsi jawaban
    - `kunci_jawaban` : Huruf kunci (`A`, `B`, `C`, `D`, `E`) atau bobot `A:5,B:4,C:3,D:2,E:1`

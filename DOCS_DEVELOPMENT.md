@@ -7,13 +7,13 @@ Dokumen ini merupakan panduan teknis mendalam bagi para insinyur perangkat lunak
 ## 📑 Daftar Isi
 1. [Prinsip Arsitektur & Rekayasa](#1-prinsip-arsitektur--rekayasa)
 2. [Tech Stack & Dependensi Inti](#2-tech-stack--dependensi-inti)
-3. [Arsitektur Basis Data SQLite WAL & Drizzle ORM](#3-arsitektur-basis-data-sqlite-wal--drizzle-orm)
+3. [Arsitektur Basis Data PostgreSQL & Drizzle ORM](#3-arsitektur-basis-data-postgresql--drizzle-orm)
 4. [Protokol Keamanan Ujian (Anti-Leak Architecture)](#4-protokol-keamanan-ujian-anti-leak-architecture)
 5. [Mekanisme State Jeda & Lanjut (Pause & Resume Engine)](#5-mekanisme-state-jeda--lanjut-pause--resume-engine)
 6. [Arsitektur Rich Media & Penanganan Gambar](#6-arsitektur-rich-media--penanganan-gambar)
 7. [Engine Notasi Matematika (KaTeX & Graceful Degradation)](#7-engine-notasi-matematika-katex--graceful-degradation)
 8. [Referensi REST API & Route Handlers](#8-referensi-rest-api--route-handlers)
-9. [Struktur Paket Soal & Dataset 492 Butir](#9-struktur-paket-soal--dataset-492-butir)
+9. [Bank Soal & Seeder Kanonik](#9-bank-soal--seeder-kanonik)
 10. [Perintah Pengembangan, Testing, & Deployment](#10-perintah-pengembangan-testing--deployment)
 
 ---
@@ -23,7 +23,7 @@ Dokumen ini merupakan panduan teknis mendalam bagi para insinyur perangkat lunak
 Pengembangan Cerdasify berpijak pada empat pilar rekayasa perangkat lunak:
 1. **Zero-Fluff, Maximum Speed:** Antarmuka harus instan, berukuran bundle kecil, dan mengutamakan **React Server Components (RSC)**. Hindari penggunaan library UI raksasa yang membebani CPU ponsel entry-level.
 2. **Rock-Solid Exam Integrity:** Integritas ujian dijamin secara arsitektural. Kunci jawaban dan bobot penilaian **HARAM** dikirim ke browser client selama sesi ujian aktif berlangsung. Penilaian dilakukan 100% di server.
-3. **Data Safety & High-Concurrency WAL:** SQLite dikonfigurasi dengan Write-Ahead Logging (WAL) dan timeout busy yang aman agar mampu melayani puluhan koneksi auto-save jawaban peserta secara simultan tanpa database lock.
+3. **Data Safety & Concurrency:** PostgreSQL (Supabase) diakses lewat satu koneksi singleton dengan pool terbatas; operasi multi-tabel selalu di dalam transaksi, dan auto-save jawaban memakai upsert atomik (`ON CONFLICT`) sehingga aman dari race condition.
 4. **Strict Isolation & RBAC:** Hak akses antara Super Admin, Guru/Admin, dan Peserta/User dipisahkan secara ketat di tingkat middleware, route handlers, dan query database.
 
 ---
@@ -35,7 +35,7 @@ Pengembangan Cerdasify berpijak pada empat pilar rekayasa perangkat lunak:
 | **Framework Utama** | [Next.js (App Router)](https://nextjs.org/) | Versi 16 (React 19, Server Components) |
 | **Bahasa Pemrograman** | [TypeScript](https://www.typescriptlang.org/) | Strict Mode (`noImplicitAny`, `strictNullChecks`) |
 | **Styling & Ikon** | [Tailwind CSS](https://tailwindcss.com/) + [Lucide Icons](https://lucide.dev/) | Utility-first, mobile-first responsive |
-| **Basis Data** | [SQLite](https://sqlite.org/) via [`better-sqlite3`](https://github.com/WiseLibs/better-sqlite3) | Mode WAL, Synchronous NORMAL, Busy Timeout 5000ms |
+| **Basis Data** | [PostgreSQL](https://www.postgresql.org/) (Supabase) via [`postgres`](https://github.com/porsager/postgres) + Drizzle ORM | `prepare: false` untuk connection pooler, SSL wajib |
 | **ORM / Query Builder** | [Drizzle ORM](https://orm.drizzle.team/) | Zero-overhead, type-safe SQL schema |
 | **Rendering Matematika** | [KaTeX](https://katex.org/) | SSR + Client fast rendering |
 | **Autentikasi & Sesi** | Encrypted Session Cookies | HttpOnly, SameSite=Lax, AES-256 |
@@ -43,32 +43,28 @@ Pengembangan Cerdasify berpijak pada empat pilar rekayasa perangkat lunak:
 
 ---
 
-## 3. Arsitektur Basis Data SQLite WAL & Drizzle ORM
+## 3. Arsitektur Basis Data PostgreSQL & Drizzle ORM
 
-### 3.1 Konfigurasi PRAGMA Wajib
-Koneksi basis data SQLite diinisialisasi melalui singleton di [src/db/index.ts](file:///home/affan/projects/cerdasify/src/db/index.ts). Setiap inisialisasi **WAJIB** mengeksekusi parameter PRAGMA berikut:
+### 3.1 Koneksi & Migrasi
+Koneksi diinisialisasi sekali (singleton) di [src/db/index.ts](src/db/index.ts):
 
 ```typescript
-import Database from 'better-sqlite3';
-import { drizzle } from 'drizzle-orm/better-sqlite3';
+import { drizzle } from 'drizzle-orm/postgres-js';
+import postgres from 'postgres';
 import * as schema from './schema';
 
-const sqlite = new Database(process.env.DATABASE_PATH || './data/cerdasify.db');
+const client = postgres(process.env.DATABASE_URL!, {
+  prepare: false, // wajib untuk Supabase connection pooler (transaction mode)
+  ssl: 'require',
+  max: 10,
+});
 
-// Konfigurasi performa tinggi & pencegahan database-lock
-sqlite.pragma('journal_mode = WAL');
-sqlite.pragma('synchronous = NORMAL');
-sqlite.pragma('busy_timeout = 5000');
-sqlite.pragma('foreign_keys = ON');
-sqlite.pragma('cache_size = -64000'); // 64MB In-Memory Cache
-
-export const db = drizzle(sqlite, { schema });
+export const db = drizzle(client, { schema });
 ```
 
 > **Catatan Kritis:**
-> - `journal_mode = WAL` memisahkan operasi baca (read) dan tulis (write) sehingga pembaca tidak pernah memblokir penulis dan sebaliknya.
-> - `busy_timeout = 5000` memberikan toleransi hingga 5 detik bagi proses tulis untuk mengantre sebelum melempar error `database is locked`.
-> - **Jangan pernah mengubah parameter ini** tanpa pengujian beban (*load testing*) menyeluruh.
+> - Skema tabel didefinisikan di `src/db/schema/index.ts` dan dibuat/diperbarui secara idempoten oleh `src/db/migrate.ts` (`CREATE TABLE IF NOT EXISTS`, `ADD COLUMN IF NOT EXISTS`). Migrasi dijalankan otomatis oleh `npm run seed` dan `npm run seed:learning`.
+> - `attempt_answers` memiliki unique index `(attempt_id, question_id)` sehingga auto-save jawaban selalu upsert, tidak pernah duplikat.
 
 ---
 
@@ -139,10 +135,29 @@ Implementasi query database **secara ketat mengabaikan** field rahasia:
 Dengan desain ini, peserta yang membuka DevTools / Network Tab pada browser **tidak akan pernah menemukan kunci jawaban**.
 
 ### 4.2 Penilaian Sisi Server (Server-Side Grading)
-Seluruh kalkulasi skor dilakukan pada `POST /api/exam/submit`:
-1. Server mencocokkan `selected_option_id` dari tabel `attempt_answers` dengan `question_options.is_correct` atau `question_options.score_value`.
-2. Validasi durasi: Server memeriksa selisih waktu antara `started_at` dan waktu submit untuk mendeteksi manipulasi timer client.
-3. Setelah status berubah menjadi `'COMPLETED'`, barulah ulasan pembahasan dan kunci jawaban dapat diakses oleh peserta di halaman ulasan hasil (`/results/[attemptId]`).
+Seluruh kalkulasi skor dilakukan oleh `finalizeAttempt()` ([src/lib/exam-grading.ts](src/lib/exam-grading.ts)), dipanggil dari `POST /api/exam/submit` atau otomatis saat waktu habis:
+1. Opsi yang dipilih dicocokkan dengan `question_options.is_correct` / `score_value`. Pilihan tunggal hanya benar bila **tepat satu** opsi dipilih; pilihan ganda kompleks harus sama persis dengan himpunan kunci; TKP memakai poin 1–5.
+2. **Validasi waktu di server** ([src/lib/exam-time.ts](src/lib/exam-time.ts)): sisa waktu dihitung dari `remaining_seconds` dan `segment_started_at` (awal segmen berjalan). Auto-save setelah batas waktu (+30 detik toleransi) ditolak dan attempt ditutup sebagai `TIMED_OUT`.
+3. `POST /api/exam/save-answer` hanya menerima soal milik paket tersebut dan opsi milik soal tersebut.
+4. `POST /api/exam/start` memakai `pg_advisory_xact_lock` per (pengguna, paket) sehingga klik ganda / dua tab tidak membuat dua attempt aktif.
+5. Halaman `/results/[attemptId]` baru menampilkan kunci & pembahasan setelah status `COMPLETED`/`TIMED_OUT`; selama attempt masih berjalan peserta diarahkan kembali ke ruang ujian.
+
+**Aturan penilaian paket (`exam_packages.passing_grade_rules`, JSON).** Hanya kunci berikut yang dibaca `calculateScore()` ([src/lib/scoring.ts](src/lib/scoring.ts)); kunci lain (mis. `correctWeight`) diabaikan diam-diam:
+
+| Kunci | Arti | Default bila tidak diisi |
+|---|---|---|
+| `correctScore` / `wrongScore` / `emptyScore` | Poin soal pilihan tunggal/kompleks yang benar / salah / kosong | `4` / `-1` / `0` |
+| `passingScore` | Ambang lulus skor total | 60% skor maksimum |
+| `twkPassingGrade`, `tiuPassingGrade`, `tkpPassingGrade` | Ambang per subtes CPNS (dicocokkan dari nama topik) | — |
+
+Konvensi: paket latihan anak/olimpiade tanpa nilai minus memakai `wrongScore: 0`; simulasi yang meniru lomba bernilai minus (PRISMA, Sesi Simulasi) memakai `-1`; `emptyScore` tidak pernah lebih kecil dari 0. Soal `GRADED_SCALE` (SJT/TKP) selalu memakai poin opsi 1–5, jadi `correctScore`/`wrongScore` tidak berlaku. Tulis aturan secara eksplisit di setiap paket agar tidak jatuh ke default `-1`.
+
+**Soal berbobot (`GRADED_SCALE`).** Untuk soal tanpa benar/salah mutlak (SJT ASN, TKP CPNS, atau soal sikap lainnya), setiap opsi punya bobot sendiri di `question_options.score_value` (bilangan bulat 1–5):
+- Peserta memilih satu opsi dan memperoleh bobot opsi itu; tidak pernah ada nilai minus. Soal kosong mengikuti `emptyScore` (default 0).
+- Skor maksimum soal = bobot tertinggi; opsi berbobot tertinggi ditandai `is_correct = true` dan dihitung sebagai "pilihan terbaik" pada statistik.
+- Halaman hasil menampilkan "+X dari 5 poin" (bukan Benar/Salah) dan memberi warna kuning, bukan merah, untuk pilihan bernilai sebagian. Pada paket yang seluruhnya berbobot, kartu ringkasan berubah menjadi *Pilihan Terbaik / Bernilai Sebagian / Perolehan Poin*.
+- Soal berbobot dibuat lewat editor (tipe "Soal Berbobot") atau impor dengan `tipe_soal = SCALE` dan kunci `A:3,B:5,C:2,D:4,E:1`.
+- Satu paket boleh mencampur soal pilihan ganda dan soal berbobot; kelulusan CPNS memakai `twk/tiu/tkpPassingGrade` per topik.
 
 ---
 
@@ -178,7 +193,7 @@ POST /api/exam/resume { attemptId }
 ```
 
 **Aturan Rekayasa UI:**
-- Saat `isPaused === true`, komponen [QuestionCard.tsx](file:///home/affan/projects/cerdasify/src/components/exam/QuestionCard.tsx) ditutupi oleh [PauseOverlay](file:///home/affan/projects/cerdasify/src/app/(exam)/exam/[packageId]/page.tsx) dengan backdrop glassmorphism redup guna mencegah eksploitasi membaca soal tanpa menghitung waktu.
+- Saat `isPaused === true`, area soal di [halaman ujian](src/app/(exam)/exam/[packageId]/page.tsx) ditutupi overlay jeda dengan backdrop glassmorphism redup guna mencegah eksploitasi membaca soal tanpa menghitung waktu.
 
 ---
 
@@ -193,7 +208,7 @@ POST /api/exam/resume { attemptId }
   - Penamaan file otomatis: `upload-{Date.now()}-{random}.{ext}` untuk mencegah tabrakan nama dan serangan Path Traversal.
 
 ### 6.2 Lightbox Zoom Modal
-Komponen kartu soal ([QuestionCard.tsx](file:///home/affan/projects/cerdasify/src/components/exam/QuestionCard.tsx)) dan ulasan hasil ([results/[attemptId]/page.tsx](file:///home/affan/projects/cerdasify/src/app/(dashboard)/results/[attemptId]/page.tsx)) menyediakan modal Lightbox interaktif. Ketika gambar diklik:
+Halaman ujian dan ulasan hasil ([results/[attemptId]/page.tsx](src/app/(dashboard)/results/[attemptId]/page.tsx), komponen [`ZoomableImage`](src/components/ui/ZoomableImage.tsx)) menyediakan modal Lightbox interaktif untuk gambar soal, opsi, dan pembahasan. Ketika gambar diklik:
 - Gambar ditampilkan di tengah layar dalam resolusi aslinya.
 - Latar belakang redup dengan animasi transisi halus (*backdrop fade*).
 - Menutup dengan tombol ✕, tombol ESC, atau klik di luar area modal.
@@ -253,23 +268,47 @@ Ini memastikan pada layar ponsel selebar 360px–420px, rumus dapat di-scroll se
 
 ---
 
-## 9. Struktur Paket Soal & Dataset 492 Butir
+## 9. Bank Soal & Seeder Kanonik
 
-Database sistem dilengkapi dengan 492 butir soal nyata yang terbagi ke dalam 13 paket:
+Bank soal (1.623 butir, 50 paket, 11 kategori, 67 topik per Oktober 2026) disimpan di repo sebagai **sumber kebenaran**:
 
-1. **Paket Olimpiade PRISMA (1 Paket per Berkas):**
-   - `prisma-2025-level-1` : Soal Matematika PRISMA 2025 Level 1 (SD/MI Pemula).
-   - `prisma-2025-level-2` : Soal Matematika PRISMA 2025 Level 2 (SD/MI Lanjutan, dilengkapi gambar geometri arsiran).
-   - `prisma-2025-level-3` : Soal Matematika PRISMA 2025 Level 3 (SMP/MTs, dilengkapi gambar lingkaran & garis singgung).
-   - `prisma-2024-level-1` : Soal Matematika PRISMA 2024 Level 1 (Dilengkapi diagram soal bergambar).
-2. **Paket Standar 40 Butir per Sesi (Buku Soal):**
-   - `buku-soal-sesi-1` s/d `buku-soal-sesi-5` : Masing-masing memuat tepat 40 butir soal latihan.
-   - `buku-soal-sesi-13` & `buku-soal-sesi-21` : Masing-masing memuat tepat 40 butir soal latihan pengayaan.
-3. **Paket Tematik Komprehensif:**
-   - `aljabar-marathon-100` : 100 butir soal aljabar berjenjang dari dasar hingga tingkat tinggi.
-   - `cpns-skd-mini` : Simulasi terpadu TWK, TIU, dan TKP berbobot skala 1–5.
+```
+src/db/seed-data/question-bank/
+├── categories.json        # kategori
+├── topics.json            # topik
+├── packages.json          # paket: judul, tipe, durasi, aturan penilaian, status terbit, urutan id soal
+└── questions/<paket>.json # soal + opsi; setiap soal disimpan sekali di berkas "paket rumah"-nya
+```
 
-Seluruh data disemai secara atomic melalui skrip [src/db/seed.ts](file:///home/affan/projects/cerdasify/src/db/seed.ts).
+| Kelompok | Paket |
+|---|---|
+| Olimpiade Matematika | PRISMA 2024/2025 L1–3, CEO 2025 L1–2, ORION 2025 A/B & 2026 A/B, IMOCSEA 2022, OSN (97 soal), Soal Cerita Tricky, Buku Soal Sesi 1–5/13/21, Aljabar Marathon 100 |
+| Olimpiade Sains | PRISMA 2024 IPA L1–3, CEO 2025 Sains L1–3 |
+| Olimpiade Bahasa Inggris | Level 1–2 Penyisihan/Provinsi, PRISMA 2025, CEO 2025, JSO 2025, KMSI 2024 |
+| ASN/CPNS | SJT Manajerial, Sosio-Kultural BerAKHLAK, Potensi Kognitif, Literasi Digital, Mini CPNS SKD |
+
+Paket `pkg_osn_buku_draft` (3 soal esai/duplikat) dan `pkg_ceo_2025_s1` (duplikat `pkg_ceo_2025_sains_1`) sengaja tidak diterbitkan.
+
+### 9.1 Alur Kerja
+
+```bash
+npm run seed         # migrasi + Super Admin (bila belum ada) + sinkron seluruh bank soal (satu transaksi, idempoten)
+npm run bank:export  # tulis isi database (setelah edit di panel admin) kembali ke berkas bank soal
+```
+
+- `npm run seed` memvalidasi berkas dulu (id unik, label opsi berurutan, tepat satu kunci untuk pilihan tunggal, bobot 1–5 untuk soal berbobot, semua id soal paket ada). Data di berkas **menimpa** baris dengan id yang sama; soal/paket yang belum ada di berkas tidak disentuh.
+- **Setelah mengedit soal lewat panel admin, jalankan `npm run bank:export` lalu commit** agar seed berikutnya tidak menimpa perubahan tersebut.
+- Ekspor → seed → ekspor menghasilkan berkas identik (diverifikasi dengan hash), sehingga diff git hanya memuat perubahan nyata.
+- Akun demo tidak lagi memiliki password bawaan. Untuk membuatnya: `SEED_DEMO_USERS=true` dengan `DEMO_ADMIN_PASSWORD` dan `DEMO_USER_PASSWORD` (min. 8 karakter) di env.
+
+### 9.2 Riwayat Audit (Oktober 2026)
+
+Seluruh soal diperiksa ulang: jawaban dihitung ulang, setiap gambar dibuka, dan bila tersedia dicocokkan dengan naskah sumber (folder `olympiad/`: buku OSN, KMSI 2024, JSO 2025 beserta kunci resmi, Bahasa Inggris Level 1–2 beserta kunci, dan CEO 2025). Alasan setiap perubahan tercatat di [src/db/seed-data/audit/question_fixes_2026_10.jsonl](src/db/seed-data/audit/question_fixes_2026_10.jsonl) (satu baris per perbaikan, field `reason`). Skrip impor/perbaikan lama yang sudah tertanam dalam bank soal telah dihapus (tersedia di riwayat git).
+
+Temuan yang perlu diingat saat menambah soal:
+- Gambar sering terpasang di nomor yang salah atau wacana diganti cerita lain; selalu buka gambarnya dan bandingkan dengan naskah.
+- Kunci/pembahasan dari dokumen sumber pun bisa keliru (mis. buku OSN no. 18, 65, 75; kunci JSO no. 9) — hitung sendiri.
+- Soal berbobot (SJT/TKP): setiap opsi harus masuk akal, bobot 5 = tindakan tuntas & sesuai aturan, 1 = melanggar etika/hukum, dan pembahasan menjelaskan alasan kelima bobot.
 
 ---
 
@@ -280,8 +319,11 @@ Seluruh data disemai secara atomic melalui skrip [src/db/seed.ts](file:///home/a
 # Instalasi pustaka dependensi
 npm install
 
-# Inisialisasi skema tabel & seed 492 butir soal lengkap
+# Inisialisasi skema tabel & seed seluruh bank soal (src/db/seed-data/question-bank)
 npm run seed
+
+# Simpan perubahan soal dari panel admin ke berkas bank soal
+npm run bank:export
 
 # Menjalankan server pengembangan (development mode)
 npm run dev
@@ -306,6 +348,64 @@ Sebelum melakukan *merge* kode atau *deploy* ke server produksi:
 - [ ] Buka Network Tab di browser dan pastikan respon dari `/api/exam/attempt/*` tidak mengandung field `is_correct` atau `score_value`.
 - [ ] Uji fitur jeda (*pause*) dan lanjutkan (*resume*) pada salah satu paket latihan, pastikan sisa detik tidak tereset.
 - [ ] Uji klik pada gambar stimulus di soal dan pastikan modal Lightbox terbuka dengan tajam.
+
+---
+
+## 11. Pustaka Belajar (Learning Content)
+
+Modul belajar mandiri di luar engine ujian, dirancang untuk dipakai dari SD hingga tingkat lanjut.
+
+### 11.1 Sumbu Level
+- Setiap konten memiliki rentang `phase_min`–`phase_max` mengikuti **Fase Kurikulum Merdeka**: A (SD 1–2), B (SD 3–4), C (SD 5–6), D (SMP), E (SMA 10), F (SMA 11–12), L (Lanjut).
+- Konten bahasa Inggris juga memiliki `cefr_level` (`PRE_A1`, `A1`, `A2`, `B1`, ...).
+- `users.grade_level` (1–13) diatur sendiri oleh pengguna lewat `POST /api/learn/profile`, lalu dipetakan ke fase oleh `gradeToPhase()` di `src/lib/learning.ts`.
+- Fase A–B memakai **mode anak**: huruf besar, tombol audio & terjemahan per kalimat, label "Pola Kalimat" alih-alih istilah grammar teknis.
+
+### 11.2 Skema
+| Tabel | Keterangan |
+|---|---|
+| `subjects` | Mata pelajaran (Bahasa Inggris, Bahasa Indonesia, Matematika, IPA, PAI, Pengetahuan Umum) |
+| `learning_contents` | Konten generik; `type` = `DAILY_READING`, `STORY`, `ENCYCLOPEDIA`, `COMIC`, `SPEECH`, `LESSON`. Teks disimpan di `segments_json` (array `{ en?, tx?, ar?, latin?, id?, n?, break? }`; `en` = kalimat Inggris, `tx` = teks Indonesia, `ar` = teks Arab) dan/atau `body_markdown` |
+| `content_vocab` | Kata kunci + arti + emoji + `forms` (bentuk lain yang ikut di-highlight) |
+| `content_grammar_notes` | Pola/analisis grammar beserta contoh kalimat dari bacaan |
+| `content_quiz_items` | Kuis pemahaman; `correct_index` **tidak pernah** dikirim ke browser |
+| `reading_progress` | PK (`user_id`, `content_id`); `read_date` (Asia/Jakarta) dipakai menghitung streak harian, skor kuis menyimpan nilai terbaik |
+
+### 11.3 Rute
+- `/belajar` — beranda pustaka: bacaan hari ini, streak, filter fase.
+- `/belajar/[slug]` — pembaca interaktif (`src/components/learn/ReadingView.tsx`): audio Web Speech API, highlight kosakata, terjemahan, grammar, kuis.
+- `POST /api/learn/complete` — menilai kuis di server dan menyimpan progres.
+- `POST /api/learn/profile` — menyimpan kelas pengguna.
+- `/orang-tua` — dasbor orang tua: membuat akun anak, mengatur kelas & password anak, memantau streak, bacaan selesai, ketepatan kuis, aktivitas 7 hari, dan ujian.
+- `POST /api/parent/children` — membuat akun anak (`role = USER`, `parent_id` = orang tua). Akun anak tidak boleh membuat akun anak.
+- `PATCH /api/parent/children/[id]` — mengubah nama/kelas/password, hanya untuk anak dengan `parent_id` = pengguna saat ini.
+
+### 11.4 Menambah Konten
+Konten ditulis sebagai data TypeScript di `src/db/seed-data/learning/` (format di `types.ts`), lalu dijalankan:
+
+```bash
+npm run seed:learning
+```
+
+Konten yang tersedia saat ini:
+- `english-phase-a.ts` — 30 Daily Reading Fase A–B (Pre-A1).
+- `english-phase-d.ts` — 4 Daily Reading Fase D (A2).
+- `english-phase-b.ts` — 15 Daily Reading Fase B (A1): simple past, comparative, going to, should.
+- `ipa-fase-ab.ts` — 8 materi IPA Fase A–B; `bahasa-indonesia-fase-ab.ts` — 6 materi Bahasa Indonesia (EYD V).
+- `pidato.ts` — 6 contoh pidato (`SPEECH`) dengan segmen ber-`h` (Pembukaan/Isi/Penutup) + mode latihan teleprompter.
+- `komik.ts` — 4 komik (`COMIC`): segmen `{ panel: { caption, scene, img?, bg, bubbles[] } }`; sampul di `public/learning/comics/` (ilustrasi AI, WebP 640px).
+- `cerita-pendek.ts` — 8 cerita pendek berbahasa Indonesia (`STORY`, Fase A–B) dengan pesan moral.
+- `ensiklopedia.ts` — 8 artikel ensiklopedia anak (`ENCYCLOPEDIA`, Fase A–C).
+- `matematika-fase-a.ts` — 7 materi Matematika kelas 1–2 (`LESSON`) dalam Markdown + KaTeX.
+- `islam.ts` — 11 Doa Harian & 7 Surat Pendek (`type = LESSON`, subjek PAI) dengan segmen `{ ar, latin, id, n }`. Teks Arab dirender dengan font Amiri (`next/font/google`, variabel `--font-arabic`); audio TTS sengaja tidak dipakai untuk teks Arab.
+
+### 11.5 Editor Konten (Panel Admin)
+- `/admin/konten` — daftar, filter, terbitkan/sembunyikan, hapus. `/admin/konten/baru` dan `/admin/konten/[id]` — editor lengkap: info, Markdown + toolbar rumus, segmen (Inggris, Indonesia, Arab, panel komik dengan pratinjau), tempel banyak baris (`||` sebagai pemisah kolom), kosakata, catatan, kuis, dan unggah gambar.
+- API (Admin/Super Admin): `POST /api/admin/contents`, `PUT|PATCH|DELETE /api/admin/contents/[id]`. Validasi terpusat di `src/lib/content-admin.ts`.
+- Setiap simpan dari editor mengisi `learning_contents.edited_at`; seeder **melewati** konten tersebut kecuali dijalankan dengan `npm run seed:learning -- --force`.
+- Draf (`is_published = false`) hanya dapat dipratinjau admin di `/belajar/[slug]`.
+
+Seeder bersifat idempoten (upsert berdasarkan slug), mengacak urutan opsi kuis secara deterministik, dan **tidak menghapus** progres baca pengguna.
 
 ---
 
