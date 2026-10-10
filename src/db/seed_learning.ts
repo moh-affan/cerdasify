@@ -19,6 +19,10 @@ import type {
 } from './seed-data/learning/types';
 import type { ContentSegment, Phase } from '../lib/learning';
 import { englishPhaseA } from './seed-data/learning/english-phase-a';
+import { englishPhaseAYear1 } from './seed-data/learning/english-phase-a-year-1';
+import { englishPhaseAYear2 } from './seed-data/learning/english-phase-a-year-2';
+import { englishPhaseAYear3 } from './seed-data/learning/english-phase-a-year-3';
+import { englishPhaseAYear4 } from './seed-data/learning/english-phase-a-year-4';
 import { englishPhaseD } from './seed-data/learning/english-phase-d';
 import { doaHarian, suratPendek } from './seed-data/learning/islam';
 import { ceritaPendek } from './seed-data/learning/cerita-pendek';
@@ -166,7 +170,13 @@ const fromComic = (c: SeedComic): Entry => ({
 const CONTENT_SETS: { meta: SetMeta; entries: Entry[] }[] = [
   {
     meta: { subjectId: 'subj_english', type: 'DAILY_READING', phaseMin: 'A', phaseMax: 'B', cefrLevel: 'PRE_A1', orderBase: 1000 },
-    entries: englishPhaseA.map(fromReading),
+    entries: [
+      ...englishPhaseA,
+      ...englishPhaseAYear1,
+      ...englishPhaseAYear2,
+      ...englishPhaseAYear3,
+      ...englishPhaseAYear4,
+    ].map(fromReading),
   },
   {
     meta: { subjectId: 'subj_english', type: 'DAILY_READING', phaseMin: 'D', phaseMax: 'D', cefrLevel: 'A2', orderBase: 4000 },
