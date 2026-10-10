@@ -1,13 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 import { db } from '@/db';
-import { examPackages, categories, packageQuestions, questions, attempts } from '@/db/schema';
+import { examPackages, categories, packageQuestions, questions, attempts, users } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
 import CerdasifyLogo from '@/components/ui/CerdasifyLogo';
 import InstallButton from '@/components/pwa/InstallButton';
 import { eq, desc } from 'drizzle-orm';
 import {
-  Sparkles,
   BookOpen,
   Clock,
   Award,
@@ -17,15 +16,13 @@ import {
   Shield,
   User,
   History,
-  CheckCircle2,
-  XCircle,
   Play,
-  RotateCcw,
   Image as ImageIcon,
   PauseCircle,
   Search,
   Filter,
   X,
+  Users,
 } from 'lucide-react';
 
 export default async function UserDashboardPage({
@@ -35,6 +32,10 @@ export default async function UserDashboardPage({
 }) {
   const user = await getCurrentUser();
   const sp = await searchParams;
+  const [userRow] = user
+    ? await db.select({ parentId: users.parentId }).from(users).where(eq(users.id, user.userId)).limit(1)
+    : [];
+  const isChildAccount = Boolean(userRow?.parentId);
 
   const searchQuery = (sp.q || '').trim().toLowerCase();
   const selectedCategory = sp.category || '';
@@ -148,6 +149,16 @@ export default async function UserDashboardPage({
                   </Link>
                 )}
 
+                {!isChildAccount && (
+                  <Link
+                    href="/orang-tua"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-50 text-sky-800 border border-sky-200 text-xs font-semibold hover:bg-sky-100 transition"
+                  >
+                    <Users className="w-3.5 h-3.5 text-sky-600" />
+                    <span className="hidden sm:inline">Orang Tua</span>
+                  </Link>
+                )}
+
                 <div className="hidden sm:flex flex-col text-right">
                   <span className="text-xs font-bold text-slate-800 leading-tight">{user.name}</span>
                   <span className="text-[10px] text-slate-400 font-mono">@{user.username} ({user.role})</span>
@@ -190,6 +201,21 @@ export default async function UserDashboardPage({
             </p>
           </div>
         </section>
+
+        {/* Pustaka Belajar */}
+        <Link
+          href="/belajar"
+          className="flex items-center gap-4 sm:gap-6 bg-gradient-to-br from-sky-500 via-indigo-500 to-fuchsia-500 rounded-3xl p-5 sm:p-7 text-white shadow-lg hover:shadow-xl transition group"
+        >
+          <div className="text-5xl sm:text-6xl shrink-0">📚</div>
+          <div className="flex-1 min-w-0 space-y-1">
+            <h2 className="text-lg sm:text-2xl font-extrabold">Pustaka Belajar</h2>
+            <p className="text-xs sm:text-sm text-white/85">
+              Daily English Reading dengan kosakata, pola kalimat, audio & kuis — dari SD hingga tingkat lanjut.
+            </p>
+          </div>
+          <ChevronRight className="w-6 h-6 shrink-0 group-hover:translate-x-1 transition" />
+        </Link>
 
         {/* Available Packages Section */}
         <section className="space-y-5">
@@ -442,7 +468,7 @@ export default async function UserDashboardPage({
               <div className="divide-y divide-slate-100">
                 {userAttempts.map((att) => {
                   const pkgTitle = pkgTitleMap.get(att.packageId) || 'Paket Ujian';
-                  const isCompleted = att.status === 'COMPLETED';
+                  const isCompleted = att.status === 'COMPLETED' || att.status === 'TIMED_OUT';
 
                   return (
                     <div
@@ -511,7 +537,7 @@ export default async function UserDashboardPage({
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p>© 2026 Cerdasify • Platform Simulasi Ujian & Bank Soal Cerdas</p>
           <div className="flex items-center gap-4">
-            <span>SQLite WAL Mode Enabled</span>
+            <span>Penilaian Aman di Server</span>
             <span>•</span>
             <span>KaTeX Formula Engine</span>
           </div>
