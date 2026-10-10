@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "q_0380_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika $x + 7 = 15$, maka nilai $x$ yang benar adalah ...",
+    "imageUrl": null,
+    "explanation": "Menyelesaikan persamaan satu variabel:\n$$x + 7 = 15 \\implies x = 15 - 7 = 8$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0380_matematika-leve_0_A",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0380_matematika-leve_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0380_matematika-leve_2_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0380_matematika-leve_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0381_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "30 satuan + 5 puluhan + 4 ratusan = ...",
+    "imageUrl": null,
+    "explanation": "Menghitung nilai tempat:\n30 satuan $= 30$\n5 puluhan $= 50$\n4 ratusan $= 400$\nTotal $= 30 + 50 + 400 = 480$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0381_matematika-leve_0_A",
+        "label": "A",
+        "content": "4530",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0381_matematika-leve_1_B",
+        "label": "B",
+        "content": "435",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0381_matematika-leve_2_C",
+        "label": "C",
+        "content": "354",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0381_matematika-leve_3_D",
+        "label": "D",
+        "content": "480",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0382_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "5 + 3 + 0 + 9 = ...",
+    "imageUrl": null,
+    "explanation": "Penjumlahan langsung: $$5 + 3 + 0 + 9 = 17$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0382_matematika-leve_0_A",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0382_matematika-leve_1_B",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0382_matematika-leve_2_C",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0382_matematika-leve_3_D",
+        "label": "D",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0383_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Total berat 2 buah pir dan 1 buah melon adalah 1200 gram. Berat sebuah melon adalah dua kali berat sebuah pir. Selisih berat melon dan sebuah pir adalah ...gram.",
+    "imageUrl": null,
+    "explanation": "Misalkan berat pir $= P$ dan melon $= M$.\nDiketahui $M = 2P$.\n$$2P + M = 1200 \\implies 2P + 2P = 4P = 1200 \\implies P = 300 \\text{ gram}$$.\nBerat melon $M = 2 \\times 300 = 600 \\text{ gram}$.\nSelisih berat $= 600 - 300 = 300 \\text{ gram}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0383_matematika-leve_0_A",
+        "label": "A",
+        "content": "200",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0383_matematika-leve_1_B",
+        "label": "B",
+        "content": "300",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0383_matematika-leve_2_C",
+        "label": "C",
+        "content": "400",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0383_matematika-leve_3_D",
+        "label": "D",
+        "content": "600",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0384_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Lambang bilangan seribu tiga ratus lima adalah ...",
+    "imageUrl": null,
+    "explanation": "Lambang bilangan seribu tiga ratus lima adalah **1305**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0384_matematika-leve_0_A",
+        "label": "A",
+        "content": "1305",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0384_matematika-leve_1_B",
+        "label": "B",
+        "content": "1035",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0384_matematika-leve_2_C",
+        "label": "C",
+        "content": "1503",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0384_matematika-leve_3_D",
+        "label": "D",
+        "content": "1350",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0385_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Manakah bilangan yang paling besar?",
+    "imageUrl": null,
+    "explanation": "Membandingkan nilai tempat ratusan dan puluhan:\n2357, 2375, 2537, 2573.\nBilangan terbesar adalah **2573**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0385_matematika-leve_0_A",
+        "label": "A",
+        "content": "2357",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0385_matematika-leve_1_B",
+        "label": "B",
+        "content": "2375",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0385_matematika-leve_2_C",
+        "label": "C",
+        "content": "2537",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0385_matematika-leve_3_D",
+        "label": "D",
+        "content": "2573",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0386_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bangun ruang yang memiliki alas berbentuk persegi adalah ...",
+    "imageUrl": null,
+    "explanation": "Kubus adalah bangun ruang yang dibatasi oleh 6 bidang sisi berbentuk persegi kongruen (termasuk bidang alasnya).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0386_matematika-leve_0_A",
+        "label": "A",
+        "content": "Balok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0386_matematika-leve_1_B",
+        "label": "B",
+        "content": "Kubus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0386_matematika-leve_2_C",
+        "label": "C",
+        "content": "Tabung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0386_matematika-leve_3_D",
+        "label": "D",
+        "content": "Kerucut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0387_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu membeli 2 kg apel dengan harga Rp 20.000 per kg dan 3 kg jeruk dengan harga Rp15.000 per kg. Berapa total uang yang harus dibayar Ibu?",
+    "imageUrl": null,
+    "explanation": "Total biaya belanja:\n- 2 kg apel: $2 \\times \\text{Rp } 20.000 = \\text{Rp } 40.000$\n- 3 kg jeruk: $3 \\times \\text{Rp } 15.000 = \\text{Rp } 45.000$\nTotal $= 40.000 + 45.000 = \\text{Rp } 85.000$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0387_matematika-leve_0_A",
+        "label": "A",
+        "content": "Rp 75.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0387_matematika-leve_1_B",
+        "label": "B",
+        "content": "Rp 85.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0387_matematika-leve_2_C",
+        "label": "C",
+        "content": "Rp 95.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0387_matematika-leve_3_D",
+        "label": "D",
+        "content": "Rp 105.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0388_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Angka 7 pada bilangan 6753 bernilai ...",
+    "imageUrl": null,
+    "explanation": "Pada bilangan 6753, angka 7 menempati posisi ratusan sehingga bernilai **700**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0388_matematika-leve_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0388_matematika-leve_1_B",
+        "label": "B",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0388_matematika-leve_2_C",
+        "label": "C",
+        "content": "700",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0388_matematika-leve_3_D",
+        "label": "D",
+        "content": "7000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0389_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dina memiliki 15 permen. Dia memberikan beberapa permen kepada adiknya. Sekarang Dina memiliki 7 permen. Berapa banyak permen yang diberikan Dina kepada adiknya?",
+    "imageUrl": null,
+    "explanation": "Permen yang diberikan $= 15 - 7 = 8$ butir.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0389_matematika-leve_0_A",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0389_matematika-leve_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0389_matematika-leve_2_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0389_matematika-leve_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0390_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika kemarin hari Sabtu, maka besok lusa adalah hari ...",
+    "imageUrl": null,
+    "explanation": "Kemarin Sabtu $\\implies$ Hari ini Minggu $\\implies$ Besok Senin $\\implies$ Besok lusa adalah hari **Selasa**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0390_matematika-leve_0_A",
+        "label": "A",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0390_matematika-leve_1_B",
+        "label": "B",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0390_matematika-leve_2_C",
+        "label": "C",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0390_matematika-leve_3_D",
+        "label": "D",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0391_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "273 – 120 = ...",
+    "imageUrl": null,
+    "explanation": "Pengurangan bersusun: $$273 - 120 = 153$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0391_matematika-leve_0_A",
+        "label": "A",
+        "content": "135",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0391_matematika-leve_1_B",
+        "label": "B",
+        "content": "145",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0391_matematika-leve_2_C",
+        "label": "C",
+        "content": "153",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0391_matematika-leve_3_D",
+        "label": "D",
+        "content": "143",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0392_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola bilangan berikut:\n$$10 - 15 - \\dots - 25 - \\dots - 35$$\nBilangan yang tepat untuk mengisi titik-titik tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola bilangan bertambah 5:\n$$10, 15, \\mathbf{20}, 25, \\mathbf{30}, 35$$.\nJadi bilangan yang tepat adalah **20 dan 30**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0392_matematika-leve_0_A",
+        "label": "A",
+        "content": "19 dan 29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0392_matematika-leve_1_B",
+        "label": "B",
+        "content": "20 dan 30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0392_matematika-leve_2_C",
+        "label": "C",
+        "content": "21 dan 31",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0392_matematika-leve_3_D",
+        "label": "D",
+        "content": "18 dan 32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0393_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan 12 setelah 48 adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan 12 setelah 48 adalah: $$48 + 12 = 60$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0393_matematika-leve_0_A",
+        "label": "A",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0393_matematika-leve_1_B",
+        "label": "B",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0393_matematika-leve_2_C",
+        "label": "C",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0393_matematika-leve_3_D",
+        "label": "D",
+        "content": "62",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0394_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "A + B = 20. Nilai A dan B yang benar adalah ...",
+    "imageUrl": null,
+    "explanation": "Mengevaluasi pilihan penjumlahan yang menghasilkan 20:\n- A: $13 + 7 = 20$ (Benar)\n- B: $12 + 6 = 18$\n- C: $15 + 3 = 18$\n- D: $18 + 1 = 19$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0394_matematika-leve_0_A",
+        "label": "A",
+        "content": "13 dan 7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0394_matematika-leve_1_B",
+        "label": "B",
+        "content": "12 dan 6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0394_matematika-leve_2_C",
+        "label": "C",
+        "content": "15 dan 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0394_matematika-leve_3_D",
+        "label": "D",
+        "content": "18 dan 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0395_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rina mempunyai 10 permen. Susi mempunyai 4 permen lebih sedikit dari Rina. Banyak permen yang mereka miliki seluruhnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Rina $= 10$ permen.\nSusi $= 10 - 4 = 6$ permen.\nTotal seluruhnya $= 10 + 6 = 16$ permen.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0395_matematika-leve_0_A",
+        "label": "A",
+        "content": "6 permen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0395_matematika-leve_1_B",
+        "label": "B",
+        "content": "24 permen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0395_matematika-leve_2_C",
+        "label": "C",
+        "content": "26 permen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0395_matematika-leve_3_D",
+        "label": "D",
+        "content": "16 permen",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0396_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan 25 lebih kecil dari 150 adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan 25 lebih kecil dari 150 adalah: $$150 - 25 = 125$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0396_matematika-leve_0_A",
+        "label": "A",
+        "content": "125",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0396_matematika-leve_1_B",
+        "label": "B",
+        "content": "175",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0396_matematika-leve_2_C",
+        "label": "C",
+        "content": "165",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0396_matematika-leve_3_D",
+        "label": "D",
+        "content": "135",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0397_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika hari ini adalah hari Senin, maka 10 hari lagi adalah hari ...",
+    "imageUrl": null,
+    "explanation": "Satu minggu ada 7 hari. $10 \\pmod 7 = 3$ hari setelah hari Senin:\nSenin $+ 3$ hari = Selasa, Rabu, **Kamis**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0397_matematika-leve_0_A",
+        "label": "A",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0397_matematika-leve_1_B",
+        "label": "B",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0397_matematika-leve_2_C",
+        "label": "C",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0397_matematika-leve_3_D",
+        "label": "D",
+        "content": "Jum’at",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0398_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bentuk panjang dari 45 adalah ...",
+    "imageUrl": null,
+    "explanation": "Bentuk panjang 45 berdasarkan nilai tempat puluhan dan satuan adalah **40 + 5**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0398_matematika-leve_0_A",
+        "label": "A",
+        "content": "4 + 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0398_matematika-leve_1_B",
+        "label": "B",
+        "content": "50 + 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0398_matematika-leve_2_C",
+        "label": "C",
+        "content": "40 + 5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0398_matematika-leve_3_D",
+        "label": "D",
+        "content": "50 + 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0399_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "30 = ... + 12",
+    "imageUrl": null,
+    "explanation": "$$30 = \\dots + 12 \\implies \\dots = 30 - 12 = 18$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0399_matematika-leve_0_A",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0399_matematika-leve_1_B",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0399_matematika-leve_2_C",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0399_matematika-leve_3_D",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0400_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "9 + 3 – 5 + 2 = ...",
+    "imageUrl": null,
+    "explanation": "Operasi hitung berurutan:\n$$9 + 3 - 5 + 2 = 12 - 5 + 2 = 7 + 2 = 9$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0400_matematika-leve_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0400_matematika-leve_1_B",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0400_matematika-leve_2_C",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0400_matematika-leve_3_D",
+        "label": "D",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0401_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan 7 sebelum 50 adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan 7 sebelum 50 adalah: $$50 - 7 = 43$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0401_matematika-leve_0_A",
+        "label": "A",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0401_matematika-leve_1_B",
+        "label": "B",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0401_matematika-leve_2_C",
+        "label": "C",
+        "content": "41",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0401_matematika-leve_3_D",
+        "label": "D",
+        "content": "43",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0402_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "5 m + 50 cm = ... cm",
+    "imageUrl": null,
+    "explanation": "Konversi ke cm:\n$$5 \\text{ m} = 500 \\text{ cm} \\implies 500 + 50 = 550 \\text{ cm}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0402_matematika-leve_0_A",
+        "label": "A",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0402_matematika-leve_1_B",
+        "label": "B",
+        "content": "500",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0402_matematika-leve_2_C",
+        "label": "C",
+        "content": "550",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0402_matematika-leve_3_D",
+        "label": "D",
+        "content": "600",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0403_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "6 × 8 : 3 = ...",
+    "imageUrl": null,
+    "explanation": "Urutan operasi perkalian dan pembagian dari kiri:\n$$6 \\times 8 \\div 3 = 48 \\div 3 = 16$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0403_matematika-leve_0_A",
+        "label": "A",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0403_matematika-leve_1_B",
+        "label": "B",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0403_matematika-leve_2_C",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0403_matematika-leve_3_D",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0404_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "37 + ... = 100",
+    "imageUrl": null,
+    "explanation": "$$37 + \\dots = 100 \\implies \\dots = 100 - 37 = 63$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0404_matematika-leve_0_A",
+        "label": "A",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0404_matematika-leve_1_B",
+        "label": "B",
+        "content": "73",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0404_matematika-leve_2_C",
+        "label": "C",
+        "content": "137",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0404_matematika-leve_3_D",
+        "label": "D",
+        "content": "53",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0405_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai dari simbol agar memenuhi persamaan 20 = ♣ + ♣ + ♣ + ♣ + ♣ adalah ...",
+    "imageUrl": null,
+    "explanation": "Persamaan 5 simbol identik:\n$$5 \\times ♣ = 20 \\implies ♣ = 20 \\div 5 = 4$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0405_matematika-leve_0_A",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0405_matematika-leve_1_B",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0405_matematika-leve_2_C",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0405_matematika-leve_3_D",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0406_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di sebuah antrian, Budi berada pada urutan ke-5 dari depan dan urutan ke-8 dari belakang. Berapa banyak orang yang berada dalam antrian tersebut?",
+    "imageUrl": null,
+    "explanation": "Rumus total orang dalam antrean:\n$$\\text{Total} = \\text{Urutan depan} + \\text{Urutan belakang} - 1 = 5 + 8 - 1 = 12 \\text{ orang}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0406_matematika-leve_0_A",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0406_matematika-leve_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0406_matematika-leve_2_C",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0406_matematika-leve_3_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0407_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-1-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sekarang adalah pukul 11.00, maka 20 menit yang lalu adalah pukul ...",
+    "imageUrl": null,
+    "explanation": "Pengurangan waktu:\n11.00 dikurangi 20 menit adalah pukul **10.40**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0407_matematika-leve_0_A",
+        "label": "A",
+        "content": "11.20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0407_matematika-leve_1_B",
+        "label": "B",
+        "content": "10.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0407_matematika-leve_2_C",
+        "label": "C",
+        "content": "10.40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0407_matematika-leve_3_D",
+        "label": "D",
+        "content": "10.20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

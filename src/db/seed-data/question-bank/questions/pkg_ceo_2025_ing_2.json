@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "pkg_ceo_2025_ing_2_q01",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Read the conversation carefully!\nOzi : Hi Rama, how old are you?\nRama : I’m 8 years old, how about you Ozi?\nOzi : I’m 7 years old. When is your birthday?\nRama : My birthday is on August 8th, when is yours Ozi?\nOzi : My birthday is on November 11th. So, you’re older than me by a few months.\n\nWhat is the age difference between Ozi and Rama?",
+    "imageUrl": null,
+    "explanation": "Pada percakapan di baris terakhir, Ozi menyimpulkan secara eksplisit: *\"So, you’re older than me by a few months.\"* (Kamu lebih tua beberapa bulan dariku).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q01_opt_a",
+        "label": "A",
+        "content": "1 year",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q01_opt_b",
+        "label": "B",
+        "content": "8 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q01_opt_c",
+        "label": "C",
+        "content": "A few months",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q01_opt_d",
+        "label": "D",
+        "content": "11 months",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q02",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Read the conversation carefully!\nAri : Hi, I’m Ari. How old are you?\nAji : Hi, I’m Aji. I’m 10 years old. How about you?\nAri : I’m 9 years old. My birthday is on January 15th.\nAji : Mine is on October 1st.\n\nWhat is Aji’s age?",
+    "imageUrl": null,
+    "explanation": "Aji menjawab dengan jelas: *\"Hi, I'm Aji. I'm 10 years old.\"* Jadi usia Aji adalah 10 tahun (*10 years old*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q02_opt_a",
+        "label": "A",
+        "content": "1 year old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q02_opt_b",
+        "label": "B",
+        "content": "10 years old",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q02_opt_c",
+        "label": "C",
+        "content": "9 years old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q02_opt_d",
+        "label": "D",
+        "content": "11 years old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q03",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What is on the teacher’s desk?",
+    "imageUrl": "/uploads/ceo25_ing2_q3.png",
+    "explanation": "Di atas meja guru pada gambar terdapat tumpukan 6 buku dan sebuah bola dunia (*globe*). Tidak terlihat pensil, komputer, atau penggaris di meja tersebut.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q03_opt_a",
+        "label": "A",
+        "content": "6 books and a globe.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q03_opt_b",
+        "label": "B",
+        "content": "A book, a pencil, and a globe.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q03_opt_c",
+        "label": "C",
+        "content": "7 computers, a pencil, and a ruler.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q03_opt_d",
+        "label": "D",
+        "content": "A clock, a pencil, and a giant ruler.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q04",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Glass is made from ….",
+    "imageUrl": null,
+    "explanation": "Bahan baku utama pembuatan kaca (*glass*) adalah pasir silika (*sand*) yang dilelehkan pada suhu tinggi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q04_opt_a",
+        "label": "A",
+        "content": "sand",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q04_opt_b",
+        "label": "B",
+        "content": "water",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q04_opt_c",
+        "label": "C",
+        "content": "metal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q04_opt_d",
+        "label": "D",
+        "content": "silver",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q05",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "‘Are your parents very old?’",
+    "imageUrl": null,
+    "explanation": "Bentuk adjektiva yang gramatikal adalah *middle-aged* (berusia paruh baya). Jawaban sopan dan tepat untuk menyangkal usia yang sangat tua adalah *\"Not really, they're middle-aged.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q05_opt_a",
+        "label": "A",
+        "content": "Not really, they’re middle-age.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q05_opt_b",
+        "label": "B",
+        "content": "Yes, they’re middle-aged.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q05_opt_c",
+        "label": "C",
+        "content": "Not really, they’re middle-aged.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q05_opt_d",
+        "label": "D",
+        "content": "Yes, they’re not very old.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q06",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What profession works in a laboratory?",
+    "imageUrl": null,
+    "explanation": "Profesi yang bekerja melakukan penelitian dan eksperimen di laboratorium adalah ilmuwan (*scientist*). *Artist* = seniman, *carpenter* = tukang kayu, *florist* = penjual bunga.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q06_opt_a",
+        "label": "A",
+        "content": "Artist",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q06_opt_b",
+        "label": "B",
+        "content": "Scientist",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q06_opt_c",
+        "label": "C",
+        "content": "Carpenter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q06_opt_d",
+        "label": "D",
+        "content": "Florist",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q07",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hana isn’t tall or short, she is…….",
+    "imageUrl": null,
+    "explanation": "Untuk menyatakan tinggi badan yang sedang/rata-rata, istilah baku dalam bahasa Inggris adalah *of medium height* atau *medium height*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q07_opt_a",
+        "label": "A",
+        "content": "medium long",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q07_opt_b",
+        "label": "B",
+        "content": "medium tall",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q07_opt_c",
+        "label": "C",
+        "content": "medium high",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q07_opt_d",
+        "label": "D",
+        "content": "medium height",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q08",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Reyes : When did you make this beautiful picture?\nRami : I … it last night.",
+    "imageUrl": null,
+    "explanation": "Keterangan waktu *last night* mengindikasikan *Simple Past Tense*. Bentuk lampau (V2) dari *make* adalah *made*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q08_opt_a",
+        "label": "A",
+        "content": "made",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q08_opt_b",
+        "label": "B",
+        "content": "took",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q08_opt_c",
+        "label": "C",
+        "content": "write",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q08_opt_d",
+        "label": "D",
+        "content": "make",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q09",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Please arrange the sentence below!\nI – help – must – to prepare – my parents – dinner.",
+    "imageUrl": null,
+    "explanation": "Susunan kalimat yang tepat adalah *\"I must help my parents to prepare dinner\"* (Saya harus membantu orang tua saya menyiapkan makan malam).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q09_opt_a",
+        "label": "A",
+        "content": "To prepare my parents I must help dinner.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q09_opt_b",
+        "label": "B",
+        "content": "I must help my parents to prepare dinner.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q09_opt_c",
+        "label": "C",
+        "content": "I help to prepare must dinner my parents.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q09_opt_d",
+        "label": "D",
+        "content": "I must dinner my parents to prepare help.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q10",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "An example of obligation at home is ….",
+    "imageUrl": null,
+    "explanation": "Kewajiban di lingkungan rumah (*obligation at home*) adalah merapikan kembali mainan setelah selesai bermain (*clean up my toys after I play*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q10_opt_a",
+        "label": "A",
+        "content": "respect for the teacher",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q10_opt_b",
+        "label": "B",
+        "content": "clean the classroom",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q10_opt_c",
+        "label": "C",
+        "content": "reading in library",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q10_opt_d",
+        "label": "D",
+        "content": "clean up my toys after I play",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q11",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Purple Car (Soal No. 11 – 15)]\n*The text is for number 11 - 15:*\n\n**Purple Car**\nMs. Gita had a purple car. She loved her purple car. It was light purple. It had four doors. It was not a new car. It was an old car. But it had new tires. All four black tires were new. She felt safe with her new tires. They would not blow out. She could drive everywhere with her new tires.\nHer car was dirty. She needed to wash it. The windows were dirty. The doors were dirty. The hood was dirty. The trunk was dirty. The bumpers were dirty. The tires weren't dirty. They were new tires. They were black and shiny. They looked good. She did not have to wash her tires. But she did have to wash her car.\nShe put water into a bucket. She put a sponge into the bucket. She washed her car with the sponge. She dried her car with a towel. Her car was shiny purple now. It looked like new. Now her old car was as shiny as her new tires.\n:::\n\nWhat color is Ms. Gita’s car?",
+    "imageUrl": null,
+    "explanation": "Paragraf pertama menyatakan: *\"It was light purple.\"* (Warnanya ungu muda).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q11_opt_a",
+        "label": "A",
+        "content": "light purple",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q11_opt_b",
+        "label": "B",
+        "content": "dark purple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q11_opt_c",
+        "label": "C",
+        "content": "yellow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q11_opt_d",
+        "label": "D",
+        "content": "blue",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q12",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Purple Car (Soal No. 11 – 15)]\n*The text is for number 11 - 15:*\n\n**Purple Car**\nMs. Gita had a purple car. She loved her purple car. It was light purple. It had four doors. It was not a new car. It was an old car. But it had new tires. All four black tires were new. She felt safe with her new tires. They would not blow out. She could drive everywhere with her new tires.\nHer car was dirty. She needed to wash it. The windows were dirty. The doors were dirty. The hood was dirty. The trunk was dirty. The bumpers were dirty. The tires weren't dirty. They were new tires. They were black and shiny. They looked good. She did not have to wash her tires. But she did have to wash her car.\nShe put water into a bucket. She put a sponge into the bucket. She washed her car with the sponge. She dried her car with a towel. Her car was shiny purple now. It looked like new. Now her old car was as shiny as her new tires.\n:::\n\nWhy did Ms. Gita feel safe with her car?",
+    "imageUrl": null,
+    "explanation": "Teks menyatakan: *\"She felt safe with her new tires. They would not blow out.\"* Karena mobilnya memiliki ban-ban baru yang aman dari pecah ban.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q12_opt_a",
+        "label": "A",
+        "content": "She loved her purple car.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q12_opt_b",
+        "label": "B",
+        "content": "It had four doors.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q12_opt_c",
+        "label": "C",
+        "content": "It had new tires.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q12_opt_d",
+        "label": "D",
+        "content": "It was a new car.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q13",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Purple Car (Soal No. 11 – 15)]\n*The text is for number 11 - 15:*\n\n**Purple Car**\nMs. Gita had a purple car. She loved her purple car. It was light purple. It had four doors. It was not a new car. It was an old car. But it had new tires. All four black tires were new. She felt safe with her new tires. They would not blow out. She could drive everywhere with her new tires.\nHer car was dirty. She needed to wash it. The windows were dirty. The doors were dirty. The hood was dirty. The trunk was dirty. The bumpers were dirty. The tires weren't dirty. They were new tires. They were black and shiny. They looked good. She did not have to wash her tires. But she did have to wash her car.\nShe put water into a bucket. She put a sponge into the bucket. She washed her car with the sponge. She dried her car with a towel. Her car was shiny purple now. It looked like new. Now her old car was as shiny as her new tires.\n:::\n\nWhy did Ms. Gita need to wash her car?",
+    "imageUrl": null,
+    "explanation": "Pada paragraf kedua disebutkan bagian-bagian mobil yang kotor: *\"The windows were dirty. The doors were dirty...\"* Ban mobilnya tidak kotor (*The tires weren't dirty*). Jadi alasan mencuci adalah pintu dan jendela yang kotor.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q13_opt_a",
+        "label": "A",
+        "content": "The tires were dirty.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q13_opt_b",
+        "label": "B",
+        "content": "The doors were dirty.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q13_opt_c",
+        "label": "C",
+        "content": "The tires were black and shiny.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q13_opt_d",
+        "label": "D",
+        "content": "It was an old car.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q14",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Cerita: Purple Car (Soal No. 11 – 15)]\n*The text is for number 11 - 15:*\n\n**Purple Car**\nMs. Gita had a purple car. She loved her purple car. It was light purple. It had four doors. It was not a new car. It was an old car. But it had new tires. All four black tires were new. She felt safe with her new tires. They would not blow out. She could drive everywhere with her new tires.\nHer car was dirty. She needed to wash it. The windows were dirty. The doors were dirty. The hood was dirty. The trunk was dirty. The bumpers were dirty. The tires weren't dirty. They were new tires. They were black and shiny. They looked good. She did not have to wash her tires. But she did have to wash her car.\nShe put water into a bucket. She put a sponge into the bucket. She washed her car with the sponge. She dried her car with a towel. Her car was shiny purple now. It looked like new. Now her old car was as shiny as her new tires.\n:::\n\nAccording to the text, which part is there only one?",
+    "imageUrl": null,
+    "explanation": "Pada mobil standar, kap mesin (*hood*) dan bagasi (*trunk*) masing-masing hanya berjumlah satu buah, sedangkan jendela, ban, pintu, dan bumper berjumlah lebih dari satu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q14_opt_a",
+        "label": "A",
+        "content": "Window and bumper",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q14_opt_b",
+        "label": "B",
+        "content": "Tire and hood",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q14_opt_c",
+        "label": "C",
+        "content": "Door and tire",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q14_opt_d",
+        "label": "D",
+        "content": "Trunk and hood",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q15",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Purple Car (Soal No. 11 – 15)]\n*The text is for number 11 - 15:*\n\n**Purple Car**\nMs. Gita had a purple car. She loved her purple car. It was light purple. It had four doors. It was not a new car. It was an old car. But it had new tires. All four black tires were new. She felt safe with her new tires. They would not blow out. She could drive everywhere with her new tires.\nHer car was dirty. She needed to wash it. The windows were dirty. The doors were dirty. The hood was dirty. The trunk was dirty. The bumpers were dirty. The tires weren't dirty. They were new tires. They were black and shiny. They looked good. She did not have to wash her tires. But she did have to wash her car.\nShe put water into a bucket. She put a sponge into the bucket. She washed her car with the sponge. She dried her car with a towel. Her car was shiny purple now. It looked like new. Now her old car was as shiny as her new tires.\n:::\n\nWhich item do you NOT need to wash the car in the story?",
+    "imageUrl": null,
+    "explanation": "Ibu Gita menggunakan ember (*bucket*), spons (*sponge*), dan handuk (*towel*). Sapu (*broom*) tidak digunakan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q15_opt_a",
+        "label": "A",
+        "content": "bucket",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q15_opt_b",
+        "label": "B",
+        "content": "sponge",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q15_opt_c",
+        "label": "C",
+        "content": "towel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q15_opt_d",
+        "label": "D",
+        "content": "broom",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q16",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Choose the correct air transportation below!",
+    "imageUrl": null,
+    "explanation": "Balon udara (*air balloon*), pesawat (*plane*), dan helikopter (*helicopter*) seluruhnya merupakan wahana transportasi udara.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q16_opt_a",
+        "label": "A",
+        "content": "Air balloon ; taxi ; plane",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q16_opt_b",
+        "label": "B",
+        "content": "Air balloon ; plane ; helicopter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q16_opt_c",
+        "label": "C",
+        "content": "Ship ; submarine ; ferry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q16_opt_d",
+        "label": "D",
+        "content": "Bus ; truck ; train",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q17",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Deskriptif: Ginny's Submarine (Soal No. 17 – 18)]\n*Read the text and answer question number 17 – 18!*\n\n“Hello, my name is Ginny. I want to tell you about one of my favorite transportation. It’s name is submarine. Well, it is water transportation. It is modern and sophisticated. It can dive in the water and float on the water too. It’s a naval warfare weapon.”\n:::\n\nThe transportation in the text above is…",
+    "imageUrl": null,
+    "explanation": "Teks secara gamblang memperkenalkan kapal selam (*submarine*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q17_opt_a",
+        "label": "A",
+        "content": "Motorcycle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q17_opt_b",
+        "label": "B",
+        "content": "Submarine",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q17_opt_c",
+        "label": "C",
+        "content": "Ship",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q17_opt_d",
+        "label": "D",
+        "content": "Plane",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q18",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Deskriptif: Ginny's Submarine (Soal No. 17 – 18)]\n*Read the text and answer question number 17 – 18!*\n\n“Hello, my name is Ginny. I want to tell you about one of my favorite transportation. It’s name is submarine. Well, it is water transportation. It is modern and sophisticated. It can dive in the water and float on the water too. It’s a naval warfare weapon.”\n:::\n\nIt is ….. and …. transportation.",
+    "imageUrl": null,
+    "explanation": "Kutipan dari teks: *\"It is modern and sophisticated.\"* (Modern dan canggih).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q18_opt_a",
+        "label": "A",
+        "content": "Water ; Land",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q18_opt_b",
+        "label": "B",
+        "content": "Modern ; Sophisticated",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q18_opt_c",
+        "label": "C",
+        "content": "Water ; Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q18_opt_d",
+        "label": "D",
+        "content": "Air ; Land",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q19",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Beach Holiday (Soal No. 19 – 21)]\n*The text is for questions number 19 to 21:*\n\n“John and Dhoni go to the beach on holiday. At the beach, they play volleyball, swim in the sea, and build a sandcastle. There are many seashells and crabs at the beach. John sees a sea star when he swims in the sea. The sea star is blue. It looks beautiful.”\n:::\n\nWhat do John and Dhoni do at the beach?",
+    "imageUrl": null,
+    "explanation": "Aktivitas yang mereka lakukan bersama adalah bermain voli pantai, berenang di laut, dan membangun istana pasir (*They play volleyball, swim, and build a sandcastle*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q19_opt_a",
+        "label": "A",
+        "content": "They play volleyball, swim, and build sandcastle.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q19_opt_b",
+        "label": "B",
+        "content": "They play volleyball and build sandcastle.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q19_opt_c",
+        "label": "C",
+        "content": "They play volleyball and see the sea star.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q19_opt_d",
+        "label": "D",
+        "content": "They play volleyball, swim, and see seashells.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q20",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Beach Holiday (Soal No. 19 – 21)]\n*The text is for questions number 19 to 21:*\n\n“John and Dhoni go to the beach on holiday. At the beach, they play volleyball, swim in the sea, and build a sandcastle. There are many seashells and crabs at the beach. John sees a sea star when he swims in the sea. The sea star is blue. It looks beautiful.”\n:::\n\nThere are many … at the beach.",
+    "imageUrl": null,
+    "explanation": "Teks menyatakan: *\"There are many seashells and crabs at the beach.\"* (Banyak cangkang kerang dan kepiting).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q20_opt_a",
+        "label": "A",
+        "content": "Crabs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q20_opt_b",
+        "label": "B",
+        "content": "Seashells",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q20_opt_c",
+        "label": "C",
+        "content": "Sea stars and crabs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q20_opt_d",
+        "label": "D",
+        "content": "Seashells and crabs",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q21",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Beach Holiday (Soal No. 19 – 21)]\n*The text is for questions number 19 to 21:*\n\n“John and Dhoni go to the beach on holiday. At the beach, they play volleyball, swim in the sea, and build a sandcastle. There are many seashells and crabs at the beach. John sees a sea star when he swims in the sea. The sea star is blue. It looks beautiful.”\n:::\n\nWhat does John see when he swims in the sea?",
+    "imageUrl": null,
+    "explanation": "Teks menyatakan: *\"John sees a sea star when he swims in the sea.\"* John adalah laki-laki (*He*), sehingga kalimatnya *He sees a sea star*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q21_opt_a",
+        "label": "A",
+        "content": "She sees a seashell",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q21_opt_b",
+        "label": "B",
+        "content": "She sees a sea star",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q21_opt_c",
+        "label": "C",
+        "content": "He sees a seashell",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q21_opt_d",
+        "label": "D",
+        "content": "He sees a sea star",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q22",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What is a public space?",
+    "imageUrl": null,
+    "explanation": "Ruang publik (*public space*) didefinisikan sebagai area atau ruang terbuka yang dapat diakses dan digunakan oleh seluruh lapisan masyarakat (*open for anyone to use*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q22_opt_a",
+        "label": "A",
+        "content": "A space that is only for the use of one person.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q22_opt_b",
+        "label": "B",
+        "content": "A space that is only for the use of a family.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q22_opt_c",
+        "label": "C",
+        "content": "A space that is open for anyone to use.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q22_opt_d",
+        "label": "D",
+        "content": "A space that is closed to the public.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q23",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mr. Dodi pays Rp. 50.000,00 and he gets Rp. 35.000,00 as the change. It means Mr. Dodi has to pay ....",
+    "imageUrl": null,
+    "explanation": "Biaya yang harus dibayar = Pembayaran - Kembalian = Rp50.000 - Rp35.000 = Rp15.000 (*fifteen thousand rupiahs*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q23_opt_a",
+        "label": "A",
+        "content": "Thirty five thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q23_opt_b",
+        "label": "B",
+        "content": "Fifty thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q23_opt_c",
+        "label": "C",
+        "content": "Fifteen thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q23_opt_d",
+        "label": "D",
+        "content": "Eighty five thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q24",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "1995 in English words is ....",
+    "imageUrl": null,
+    "explanation": "Angka 1995 dieja sebagai *one thousand nine hundred and ninety five*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q24_opt_a",
+        "label": "A",
+        "content": "One thousand nine nine and fifty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q24_opt_b",
+        "label": "B",
+        "content": "One thousand nineteen hundred and five",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q24_opt_c",
+        "label": "C",
+        "content": "One thousand ninety nine hundred and five",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q24_opt_d",
+        "label": "D",
+        "content": "One thousand nine hundred and ninety five",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q25",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sean : I feel so tired. ……………………\nNeil : Did you finish all your homework last night?\nSean : Yes. I know the deadline is still next month, but I finished them quickly. I also watched a soccer match. It was fun.\nNeil : You are a football fan, aren’t you?\nSean : Not really.",
+    "imageUrl": null,
+    "explanation": "Pernyataan yang konsisten dengan rasa lelah akibat begadang semalam adalah *\"I almost fell asleep during the day\"* (Saya hampir tertidur di siang hari).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q25_opt_a",
+        "label": "A",
+        "content": "I almost fell asleep during the day.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q25_opt_b",
+        "label": "B",
+        "content": "How can you look so fresh the whole day?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q25_opt_c",
+        "label": "C",
+        "content": "My eyes are wide open.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q25_opt_d",
+        "label": "D",
+        "content": "How can I feel like this?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q26",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Spring is the season when flowers …. and the weather starts to get warmer.",
+    "imageUrl": null,
+    "explanation": "Musim semi (*spring*) ditandai dengan bermekarannya bunga-bunga (*flowers bloom*). *Wither* / *wilt* = layu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q26_opt_a",
+        "label": "A",
+        "content": "wither",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q26_opt_b",
+        "label": "B",
+        "content": "wilt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q26_opt_c",
+        "label": "C",
+        "content": "dry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q26_opt_d",
+        "label": "D",
+        "content": "bloom",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q27",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“Ouch! I hurt my ankle.”\nThe word ankle means …",
+    "imageUrl": null,
+    "explanation": "Pergelangan kaki (*ankle*) adalah sendi penghubung antara telapak kaki dan tungkai kaki bawah (*joint between foot and lower leg*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q27_opt_a",
+        "label": "A",
+        "content": "Joint between shoulder and arm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q27_opt_b",
+        "label": "B",
+        "content": "Joint between lower leg and thigh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q27_opt_c",
+        "label": "C",
+        "content": "Joint between foot and lower leg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q27_opt_d",
+        "label": "D",
+        "content": "Joint between arm and hand",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q28",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The opposite of North is …",
+    "imageUrl": null,
+    "explanation": "Lawan arah mata angin utara (*North*) adalah selatan (*South*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q28_opt_a",
+        "label": "A",
+        "content": "East",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q28_opt_b",
+        "label": "B",
+        "content": "South",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q28_opt_c",
+        "label": "C",
+        "content": "North East",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q28_opt_d",
+        "label": "D",
+        "content": "West",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q29",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mr. Eman is a teacher.\nThe negative form is ...",
+    "imageUrl": null,
+    "explanation": "Bentuk kalimat negatif dari kalimat nominal yang menggunakan to be *is* adalah dengan menambahkan *not* tepat setelah *is*: *Mr. Eman is not a teacher*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q29_opt_a",
+        "label": "A",
+        "content": "Mr. Eman is not a teacher",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q29_opt_b",
+        "label": "B",
+        "content": "Mr. Eman not is a teacher",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q29_opt_c",
+        "label": "C",
+        "content": "Is Mr. Eman a teacher?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q29_opt_d",
+        "label": "D",
+        "content": "Mr. Eman is not a student",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_2_q30",
+    "topicId": "top_ceo_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "We use a frying pan for ...",
+    "imageUrl": null,
+    "explanation": "Wajan penggorengan (*frying pan*) digunakan untuk menggoreng makanan (*frying food*). Merebus air menggunakan ketel (*kettle*) atau panci (*pot*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_2_q30_opt_a",
+        "label": "A",
+        "content": "Boiling water",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q30_opt_b",
+        "label": "B",
+        "content": "Cutting something",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q30_opt_c",
+        "label": "C",
+        "content": "Washing dishes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_2_q30_opt_d",
+        "label": "D",
+        "content": "Frying food",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

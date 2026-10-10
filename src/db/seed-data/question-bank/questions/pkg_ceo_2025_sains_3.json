@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "pkg_ceo_2025_sains_3_q01",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jenis logam di bawah ini yang memiliki nilai konduktivitas termal paling tinggi sehingga dapat menghantarkan panas paling baik adalah ....",
+    "imageUrl": null,
+    "explanation": "Tembaga (Cu) memiliki konduktivitas termal yang sangat tinggi (sekitar $401\\text{ W/m}\\cdot\\text{K}$), jauh lebih tinggi dibandingkan aluminium (sekitar $237\\text{ W/m}\\cdot\\text{K}$), timah ($67\\text{ W/m}\\cdot\\text{K}$), maupun perunggu ($110\\text{ W/m}\\cdot\\text{K}$).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q01_opt_a",
+        "label": "A",
+        "content": "Aluminium",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q01_opt_b",
+        "label": "B",
+        "content": "Tembaga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q01_opt_c",
+        "label": "C",
+        "content": "Timah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q01_opt_d",
+        "label": "D",
+        "content": "Perunggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q02",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Katak dewasa bernapas dengan menggunakan organ utama berupa ....",
+    "imageUrl": null,
+    "explanation": "Pada fase dewasa, katak bernapas menggunakan paru-paru sederhana yang dibantu oleh difusi gas melalui permukaan kulitnya yang basah dan berlendir. Insang hanya digunakan pada fase kecebong (berudu).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q02_opt_a",
+        "label": "A",
+        "content": "Paru-paru dan permukaan kulit yang lembap",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q02_opt_b",
+        "label": "B",
+        "content": "Trakea dan insang luar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q02_opt_c",
+        "label": "C",
+        "content": "Insang dalam dan paru-paru",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q02_opt_d",
+        "label": "D",
+        "content": "Kantung udara (pundi-pundi hawa)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q03",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada mekanisme pernapasan dada saat fase inspirasi (menghirup udara), peristiwa fisiologis yang terjadi adalah ....",
+    "imageUrl": null,
+    "explanation": "Saat inspirasi pernapasan dada, otot antartulang rusuk luar berkontraksi, tulang rusuk terangkat, volume rongga dada membesar, tekanan udara paru-paru turun sehingga udara luar mengalir masuk.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q03_opt_a",
+        "label": "A",
+        "content": "Otot antartulang rusuk berkontraksi sehingga tulang rusuk terangkat dan rongga dada membesar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q03_opt_b",
+        "label": "B",
+        "content": "Otot antartulang rusuk relaksasi sehingga tulang rusuk turun dan rongga dada membesar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q03_opt_c",
+        "label": "C",
+        "content": "Tulang rusuk terangkat dan volume rongga dada mengecil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q03_opt_d",
+        "label": "D",
+        "content": "Tulang rusuk turun dan tekanan udara di dalam paru-paru membesar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q04",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Enzim amilase yang disekresikan pankreas dan bekerja di dalam usus halus berfungsi untuk ....",
+    "imageUrl": null,
+    "explanation": "Enzim amilase memecah ikatan glikosidik pada karbohidrat kompleks (zat tepung / amilum) menjadi disakarida (maltosa) dan monosakarida (glukosa) agar dapat diserap dinding usus.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q04_opt_a",
+        "label": "A",
+        "content": "Mengubah lemak menjadi asam lemak dan gliserol",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q04_opt_b",
+        "label": "B",
+        "content": "Mengubah protein menjadi asam amino",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q04_opt_c",
+        "label": "C",
+        "content": "Menghidrolisis amilum (zat tepung) menjadi maltosa dan glukosa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q04_opt_d",
+        "label": "D",
+        "content": "Menggumpalkan kasein susu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q05",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Gerakan kontraksi dan relaksasi bergelombang seperti meremas dan mendorong bolus makanan menuruni kerongkongan menuju lambung dinamakan gerakan ....",
+    "imageUrl": null,
+    "explanation": "Gerak peristaltik adalah kontraksi otot sirkular dan longitudinal dinding saluran pencernaan (terutama esofagus) yang mendorong makanan turun menuju lambung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q05_opt_a",
+        "label": "A",
+        "content": "Pencernaan mekanik murni",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q05_opt_b",
+        "label": "B",
+        "content": "Peristaltik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q05_opt_c",
+        "label": "C",
+        "content": "Hidrolisis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q05_opt_d",
+        "label": "D",
+        "content": "Brown",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q06",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Urutan rute peredaran darah besar (sistemik) yang tepat pada tubuh manusia adalah ....",
+    "imageUrl": null,
+    "explanation": "Peredaran darah besar memompa darah kaya oksigen dari bilik kiri jantung melalui aorta ke seluruh jaringan tubuh, lalu darah miskin oksigen kembali melalui vena kava masuk ke serambi kanan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q06_opt_a",
+        "label": "A",
+        "content": "Bilik kanan -> paru-paru -> serambi kiri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q06_opt_b",
+        "label": "B",
+        "content": "Bilik kiri -> arteri pulmonalis -> serambi kanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q06_opt_c",
+        "label": "C",
+        "content": "Serambi kiri -> seluruh tubuh -> serambi kanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q06_opt_d",
+        "label": "D",
+        "content": "Bilik kiri -> aorta -> seluruh tubuh -> vena kava -> serambi kanan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q07",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan kelompok tumbuhan berikut:\ni) Pohon Mangga ii) Tanaman Kentang iii) Pohon Bambu iv) Pohon Apel v) Pohon Durian\n\nTumbuhan di atas yang menyimpan cadangan makanan utamanya pada organ buah adalah ....",
+    "imageUrl": null,
+    "explanation": "Mangga (i), apel (iv), dan durian (v) menyimpan cadangan makanan pada buah. Sedangkan kentang menyimpan cadangan makanan pada umbi batang (ii) dan bambu pada rimpang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q07_opt_a",
+        "label": "A",
+        "content": "i, ii, iii",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q07_opt_b",
+        "label": "B",
+        "content": "i, iii, v",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q07_opt_c",
+        "label": "C",
+        "content": "i, iv, v",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q07_opt_d",
+        "label": "D",
+        "content": "ii, iv, v",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q08",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sistem penggolongan darah manusia menurut sistem ABO membagi golongan darah menjadi empat kelompok, yaitu ....",
+    "imageUrl": null,
+    "explanation": "Karl Landsteiner menemukan sistem ABO yang mengklasifikasikan darah manusia berdasarkan ada tidaknya antigen A dan B pada membran eritrosit, yaitu: golongan A, B, AB, dan O.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q08_opt_a",
+        "label": "A",
+        "content": "A, B, C, dan D",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q08_opt_b",
+        "label": "B",
+        "content": "A, B, AB, dan K",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q08_opt_c",
+        "label": "C",
+        "content": "A, B, AB, dan O",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q08_opt_d",
+        "label": "D",
+        "content": "A, AB, O, dan OB",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q09",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pernyataan yang paling tepat untuk mendefinisikan fenomena gejala kelistrikan adalah ....",
+    "imageUrl": null,
+    "explanation": "Gejala kelistrikan mencakup seluruh fenomena fisika yang berhubungan dengan muatan listrik diam (listrik statis) maupun muatan yang mengalir (listrik dinamis / arus listrik).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q09_opt_a",
+        "label": "A",
+        "content": "Peristiwa tarik-menarik akibat gravitasi benda bermassa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q09_opt_b",
+        "label": "B",
+        "content": "Peristiwa yang timbul akibat keberadaan dan perpindahan muatan listrik (elektron)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q09_opt_c",
+        "label": "C",
+        "content": "Peristiwa pembentukan gelombang suara di ruang hampa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q09_opt_d",
+        "label": "D",
+        "content": "Peristiwa meleburnya logam pada suhu ruang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q10",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kilat yang terlihat di langit sebelum hujan lebat terjadi akibat adanya ....",
+    "imageUrl": null,
+    "explanation": "Kilat merupakan loncatan lucutan muatan listrik statis dalam jumlah sangat besar (hingga jutaan volt) antara awan badai (kumulonimbus) ke bumi atau antarawan yang memiliki perbedaan potensial muatan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q10_opt_a",
+        "label": "A",
+        "content": "Perbedaan suhu yang sangat drastis antara langit dan bumi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q10_opt_b",
+        "label": "B",
+        "content": "Pelepasan loncatan arus listrik statis bertegangan tinggi di udara akibat beda potensial muatan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q10_opt_c",
+        "label": "C",
+        "content": "Gesekan antara angin dan partikel oksigen atmosfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q10_opt_d",
+        "label": "D",
+        "content": "Gaya magnet bumi yang memancar ke atmosfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q11",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sumber energi panas bumi yang dihasilkan dari aktivitas magma di dalam kerak bumi dinamakan energi ....",
+    "imageUrl": null,
+    "explanation": "Energi geotermal (panas bumi) berasal dari panas internal bumi yang tersimpan di bebatuan dan fluida di bawah permukaan bumi akibat peluruhan radioaktif dan sisa panas pembentukan bumi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q11_opt_a",
+        "label": "A",
+        "content": "Matahari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q11_opt_b",
+        "label": "B",
+        "content": "Geotermal (panas bumi)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q11_opt_c",
+        "label": "C",
+        "content": "Biomassa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q11_opt_d",
+        "label": "D",
+        "content": "Hidroelektrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q12",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Peristiwa berikut yang dapat menyebabkan suatu benda bermuatan listrik statis adalah ....",
+    "imageUrl": null,
+    "explanation": "Dua benda berbeda (seperti penggaris plastik yang digosokkan ke rambut kering atau kain wol) dapat bermuatan listrik statis karena terjadi perpindahan partikel elektron dari satu benda ke benda lainnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q12_opt_a",
+        "label": "A",
+        "content": "Terjadinya gesekan antara dua benda berbahan berbeda jenis sehingga terjadi perpindahan elektron",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q12_opt_b",
+        "label": "B",
+        "content": "Mengalirkan arus listrik bolak-balik melalui benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q12_opt_c",
+        "label": "C",
+        "content": "Memanaskan benda sampai membara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q12_opt_d",
+        "label": "D",
+        "content": "Menyimpan benda di dalam ruang tertutup kedap udara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q13",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Alat instrumentasi ukur yang dirancang secara khusus untuk mengukur laju perubahan kecepatan (percepatan) suatu objek adalah ....",
+    "imageUrl": null,
+    "explanation": "Akselerometer digunakan untuk mendeteksi dan mengukur percepatan (akselerasi) benda. Dinamometer mengukur gaya, voltmeter mengukur tegangan listrik, dan barometer mengukur tekanan udara.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q13_opt_a",
+        "label": "A",
+        "content": "Dinamometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q13_opt_b",
+        "label": "B",
+        "content": "Voltmeter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q13_opt_c",
+        "label": "C",
+        "content": "Barometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q13_opt_d",
+        "label": "D",
+        "content": "Akselerometer (Accelerometer)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q14",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Prinsip dasar keuntungan mekanis pada pesawat sederhana jenis tuas (pengungkit) adalah ....",
+    "imageUrl": null,
+    "explanation": "Tuas memudahkan pekerjaan manusia dengan memperpanjang lengan kuasa sehingga gaya kuasa ($F_k$) yang dibutuhkan jauh lebih kecil dibandingkan berat beban ($w$), serta dapat mengubah arah gaya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q14_opt_a",
+        "label": "A",
+        "content": "Menghilangkan gaya gravitasi secara menyeluruh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q14_opt_b",
+        "label": "B",
+        "content": "Mengubah arah gaya dan memperkecil gaya kuasa yang dibutuhkan untuk mengangkat beban",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q14_opt_c",
+        "label": "C",
+        "content": "Memperbesar usaha total yang dikeluarkan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q14_opt_d",
+        "label": "D",
+        "content": "Menghentikan gerak benda secara spontan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q15",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Gaya yang muncul dan bekerja berlawanan arah gerak saat dua permukaan benda saling bersentuhan dinamakan ....",
+    "imageUrl": null,
+    "explanation": "Gaya gesek timbul akibat kekasaran mikro pada dua permukaan yang saling bersentuhan. Arah gaya gesek selalu berlawanan arah dengan kecenderungan arah gerak benda.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q15_opt_a",
+        "label": "A",
+        "content": "Gaya gravitasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q15_opt_b",
+        "label": "B",
+        "content": "Gaya pegas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q15_opt_c",
+        "label": "C",
+        "content": "Gaya gesek",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q15_opt_d",
+        "label": "D",
+        "content": "Gaya magnet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q16",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Gaya tarik-menarik yang terjadi antara dua benda bermassa di alam semesta akibat medan gravitasinya dinamakan ....",
+    "imageUrl": null,
+    "explanation": "Hukum gravitasi universal Newton menyatakan bahwa setiap partikel bermassa di alam semesta saling tarik-menarik dengan gaya yang sebanding dengan hasil kali kedua massa dan berbanding terbalik dengan kuadrat jaraknya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q16_opt_a",
+        "label": "A",
+        "content": "Gaya pegas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q16_opt_b",
+        "label": "B",
+        "content": "Gaya gesek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q16_opt_c",
+        "label": "C",
+        "content": "Gaya gravitasi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q16_opt_d",
+        "label": "D",
+        "content": "Gaya Lorentz",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q17",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat pengukur yang digunakan untuk menghitung lamanya interval waktu tempuh gerak benda secara presisi adalah ....",
+    "imageUrl": null,
+    "explanation": "Stopwatch dirancang khusus untuk mengukur durasi atau interval waktu yang dibutuhkan suatu benda dalam menempuh lintasan tertentu dengan ketelitian milidetik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q17_opt_a",
+        "label": "A",
+        "content": "Stopwatch",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q17_opt_b",
+        "label": "B",
+        "content": "Mikrometer sekrup",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q17_opt_c",
+        "label": "C",
+        "content": "Dinamometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q17_opt_d",
+        "label": "D",
+        "content": "Termometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q18",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat laboratorium yang digunakan untuk mengukur besarnya gaya (termasuk gaya gesek dan gaya tarik) adalah ....",
+    "imageUrl": null,
+    "explanation": "Dinamometer atau neraca pegas bekerja berdasarkan Hukum Hooke (pertambahan panjang pegas sebanding dengan gaya yang bekerja) untuk mengukur besar gaya dalam satuan Newton (N).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q18_opt_a",
+        "label": "A",
+        "content": "Dinamometer (neraca pegas)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q18_opt_b",
+        "label": "B",
+        "content": "Barometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q18_opt_c",
+        "label": "C",
+        "content": "Manometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q18_opt_d",
+        "label": "D",
+        "content": "Mikrometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q19",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika suatu tumbuhan hijau diletakkan di tempat gelap dan sama sekali tidak mendapatkan energi cahaya dan panas matahari, maka yang akan terjadi adalah ....",
+    "imageUrl": null,
+    "explanation": "Cahaya matahari merupakan sumber energi mutlak bagi reaksi terang fotosintesis. Tanpa cahaya, fotosintesis terhenti, daun menguning (etiolasi), dan tumbuhan akhirnya layu lalu mati.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q19_opt_a",
+        "label": "A",
+        "content": "Tumbuhan akan tumbuh lebih cepat dan kokoh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q19_opt_b",
+        "label": "B",
+        "content": "Proses fotosintesis terhenti sehingga tumbuhan tidak dapat membuat makanan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q19_opt_c",
+        "label": "C",
+        "content": "Tumbuhan akan memproduksi lebih banyak gas oksigen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q19_opt_d",
+        "label": "D",
+        "content": "Daun tumbuhan akan berubah warna menjadi semakin hijau gelap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q20",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kurangnya intensitas cahaya dan suhu hangat pada tanaman di daerah tropis dapat berakibat pada ....",
+    "imageUrl": null,
+    "explanation": "Suhu optimal mengaktifkan kerja enzim fotosintesis dan respirasi seluler. Jika suhu dan radiasi termal terlalu rendah, aktivitas enzim menurun drastis sehingga laju pertumbuhan tanaman melambat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q20_opt_a",
+        "label": "A",
+        "content": "Tumbuhan langsung bermutasi menjadi tanaman kutub",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q20_opt_b",
+        "label": "B",
+        "content": "Tumbuhan memproduksi bunga lebih cepat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q20_opt_c",
+        "label": "C",
+        "content": "Laju metabolisme dan pertumbuhan vegetatif tanaman akan melambat drastis",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q20_opt_d",
+        "label": "D",
+        "content": "Produksi klorofil meningkat berlipat ganda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q21",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Suhu dan energi termal yang cukup sangat penting pada proses perkecambahan biji tumbuhan karena ....",
+    "imageUrl": null,
+    "explanation": "Suhu hangat yang sesuai mengaktifkan hormon giberelin dan enzim hidrolitik (seperti amilase dan protease) untuk memecah cadangan makanan di endosperma menjadi nutrisi yang dibutuhkan embrio untuk tumbuh.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q21_opt_a",
+        "label": "A",
+        "content": "Mengaktifkan enzim-enzim metabolisme yang memecah cadangan makanan pada endosperma",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q21_opt_b",
+        "label": "B",
+        "content": "Mempercepat pengeringan biji agar tidak berjamur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q21_opt_c",
+        "label": "C",
+        "content": "Mengubah struktur genetik embrio",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q21_opt_d",
+        "label": "D",
+        "content": "Mengurangi kadar air di dalam embrio",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q22",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Suhu adalah derajat panas dinginnya suatu benda, sedangkan kalor adalah energi panas yang berpindah. Mengapa tangan kita merasakan hangat saat didekatkan di samping kompor yang menyala?",
+    "imageUrl": null,
+    "explanation": "Kalor secara alami berpindah dari benda bersuhu lebih tinggi (kompor) ke benda bersuhu lebih rendah (tangan) melalui pancaran radiasi gelombang elektromagnetik dan aliran udara panas (konveksi).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q22_opt_a",
+        "label": "A",
+        "content": "Karena suhu kompor lebih rendah dari suhu tubuh kita",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q22_opt_b",
+        "label": "B",
+        "content": "Karena terjadi perpindahan energi kalor dari kompor yang bersuhu tinggi ke tangan melalui radiasi dan konveksi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q22_opt_c",
+        "label": "C",
+        "content": "Karena udara di sekitar tangan membeku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q22_opt_d",
+        "label": "D",
+        "content": "Karena tangan menyerap energi listrik dari kompor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q23",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika sendok logam dicelupkan ke dalam cangkir teh panas, bagian ujung sendok yang tidak terendam lama-kelamaan ikut terasa panas. Peristiwa ini terjadi karena perpindahan kalor secara ....",
+    "imageUrl": null,
+    "explanation": "Konduksi adalah perpindahan kalor melalui zat padat tanpa disertai perpindahan massa partikel mediumnya. Logam adalah konduktor baik di mana elektron bebas mempercepat transfer energi kinetik termal.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q23_opt_a",
+        "label": "A",
+        "content": "Radiasi tanpa perantara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q23_opt_b",
+        "label": "B",
+        "content": "Konduksi, di mana kalor merambat melalui partikel logam tanpa disertai perpindahan partikelnya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q23_opt_c",
+        "label": "C",
+        "content": "Konveksi yang disertai perpindahan molekul logam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q23_opt_d",
+        "label": "D",
+        "content": "Sublimasi partikel air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q24",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pelapukan batuan dapat terjadi secara biologi karena aktivitas organisme perintis. Tumbuhan perintis yang dapat melapukkan batuan keras menjadi tanah adalah ....",
+    "imageUrl": null,
+    "explanation": "Lumut bertindak sebagai vegetasi perintis yang menempel pada batuan dan mengeluarkan zat-zat asam organik yang mengikis dan melapukkan mineral batuan keras menjadi partikel tanah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q24_opt_a",
+        "label": "A",
+        "content": "Jamur kapang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q24_opt_b",
+        "label": "B",
+        "content": "Ganggang hijau bersel satu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q24_opt_c",
+        "label": "C",
+        "content": "Tumbuhan Lumut (Bryophyta)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q24_opt_d",
+        "label": "D",
+        "content": "Tanaman Benalu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q25",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Senyawa kimia buatan manusia yang terbukti merusak lapisan ozon ($O_3$) di stratosfer bumi adalah ....",
+    "imageUrl": null,
+    "explanation": "Klorofluorokarbon (CFC) yang biasa digunakan pada cairan pendingin AC/kulkas dan aerosol dapat terurai oleh radiasi UV di stratosfer melepaskan radikal klorin yang memecah ribuan molekul ozon pelindung bumi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q25_opt_a",
+        "label": "A",
+        "content": "Gas Oksigen ($O_2$)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q25_opt_b",
+        "label": "B",
+        "content": "Gas Nitrogen ($N_2$)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q25_opt_c",
+        "label": "C",
+        "content": "Klorofluorokarbon (CFC)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q25_opt_d",
+        "label": "D",
+        "content": "Gas Hidrogen ($H_2$)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q26",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Lapisan bumi terluar yang padat, keras, dan menjadi tempat berpijaknya makhluk hidup serta lapisan litosfer disebut ....",
+    "imageUrl": null,
+    "explanation": "Kerak bumi (crust) adalah lapisan batuan padat terluar bumi dengan ketebalan 5–70 km yang menyusun daratan benua dan dasar samudra tempat tinggal makhluk hidup.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q26_opt_a",
+        "label": "A",
+        "content": "Magma",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q26_opt_b",
+        "label": "B",
+        "content": "Inti bumi dalam (inner core)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q26_opt_c",
+        "label": "C",
+        "content": "Kerak bumi (crust)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q26_opt_d",
+        "label": "D",
+        "content": "Mantel bumi (asthenosphere)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q27",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kelompok sumber energi berikut yang tergolong sebagai energi terbarukan dan ramah lingkungan adalah ....",
+    "imageUrl": null,
+    "explanation": "Tenaga surya dan angin merupakan energi terbarukan karena tidak akan habis dipakai dan tidak menghasilkan emisi gas rumah kaca berbahaya selama pengoperasiannya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q27_opt_a",
+        "label": "A",
+        "content": "Batu bara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q27_opt_b",
+        "label": "B",
+        "content": "Minyak bumi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q27_opt_c",
+        "label": "C",
+        "content": "Tenaga surya dan energi angin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q27_opt_d",
+        "label": "D",
+        "content": "Gas alam cair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q28",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar skema rangkaian listrik paralel berikut ini!\n\nKarakteristik utama dari rangkaian listrik yang tersusun secara paralel adalah ....",
+    "imageUrl": "/uploads/ceo2025_sains3_q28_rangkaian.png",
+    "explanation": "Pada rangkaian paralel, semua komponen dihubungkan langsung ke kutub sumber tegangan yang sama sehingga nilai beda potensial (tegangan $V$) pada setiap percabangan adalah sama ($V = V_1 = V_2$).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q28_opt_a",
+        "label": "A",
+        "content": "Kuat arus yang mengalir pada setiap cabang komponen selalu sama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q28_opt_b",
+        "label": "B",
+        "content": "Tegangan (beda potensial listrik) pada setiap cabang komponen adalah sama besar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q28_opt_c",
+        "label": "C",
+        "content": "Jika salah satu lampu padam, maka seluruh lampu lainnya pasti ikut padam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q28_opt_d",
+        "label": "D",
+        "content": "Hambatan pengganti totalnya selalu lebih besar daripada hambatan terkecilnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q29",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gelombang bunyi memerlukan medium untuk merambat. Bunyi akan merambat dengan kecepatan paling tinggi melalui medium berupa ....",
+    "imageUrl": null,
+    "explanation": "Kerapatan partikel pada zat padat (logam) sangat rapat dan memiliki modulus elastisitas tinggi sehingga gelombang bunyi merambat paling cepat (sekitar $5.000\\text{ m/s}$ pada baja, dibanding air $1.500\\text{ m/s}$ dan udara $340\\text{ m/s}$). Bunyi tidak dapat merambat di ruang hampa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q29_opt_a",
+        "label": "A",
+        "content": "Udara pada suhu kamar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q29_opt_b",
+        "label": "B",
+        "content": "Ruang hampa udara (vakum)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q29_opt_c",
+        "label": "C",
+        "content": "Air laut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q29_opt_d",
+        "label": "D",
+        "content": "Logam padat (seperti baja atau besi)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_3_q30",
+    "topicId": "top_ceo_2025_s3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan diagram mata manusia berikut ini!\n\nBagian mata yang ditunjukkan oleh huruf 'X' dan fungsinya adalah ....",
+    "imageUrl": "/uploads/ceo2025_sains3_q30_mata.png",
+    "explanation": "Huruf 'X' menunjukkan Iris (selaput pelangi). Iris mengandung otot polos sirkular dan radial yang mengatur diameter pupil (melebar saat redup dan menyempit saat terang) guna mengontrol intensitas cahaya yang masuk ke retina.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_3_q30_opt_a",
+        "label": "A",
+        "content": "Pupil, sebagai lubang masuknya berkas cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q30_opt_b",
+        "label": "B",
+        "content": "Sklera, sebagai lapisan pelindung terluar mata yang berwarna putih",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q30_opt_c",
+        "label": "C",
+        "content": "Iris (selaput pelangi), mengatur ukuran pupil untuk mengendalikan jumlah cahaya yang masuk",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_3_q30_opt_d",
+        "label": "D",
+        "content": "Kornea, membiaskan cahaya pertama kali masuk ke lensa mata",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "pkg_prisma_2025_ing_2_q01",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Cerita: Scouts Camping in Cikoneng (Soal No. 1 – 4)]\n*Read this text then answer the questions number 1 to 4!*\n\n“Last weekend the girl scouts and the boy scouts of my school had their first fun camping Outside the school. They left for Cikoneng at 05. 00 am. After a long and thrilling drive they arrived at the village and found a good camping site. “Let’s set up our tents there,” said the Leader while pointing at the garden. Then, they started to work. In a short time, the tents were ready and they put a small flag on the top of each tent. After that, some girl scouts made a fire while some others cooked their lunch. The boys were busy working. The lunch was ready at 03.00 and they immediately started to eat. After that, they took a little rest. At 04.30 pm the leader blew his whistle and all the girl scouts and the boy scouts gathered around to start their fun camping programs.”\n:::\n\nWhen did the scouts begin their fun camping programs?",
+    "imageUrl": null,
+    "explanation": "Teks menyatakan: *\"At 04.30 pm the leader blew his whistle and all the girl scouts and the boy scouts gathered around to start their fun camping programs.\"* Pukul 04.30 pm adalah waktu sore hari (*in the afternoon*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q01_opt_a",
+        "label": "A",
+        "content": "At night",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q01_opt_b",
+        "label": "B",
+        "content": "In the evening",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q01_opt_c",
+        "label": "C",
+        "content": "In the morning",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q01_opt_d",
+        "label": "D",
+        "content": "In the afternoon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q02",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Scouts Camping in Cikoneng (Soal No. 1 – 4)]\n*Read this text then answer the questions number 1 to 4!*\n\n“Last weekend the girl scouts and the boy scouts of my school had their first fun camping Outside the school. They left for Cikoneng at 05. 00 am. After a long and thrilling drive they arrived at the village and found a good camping site. “Let’s set up our tents there,” said the Leader while pointing at the garden. Then, they started to work. In a short time, the tents were ready and they put a small flag on the top of each tent. After that, some girl scouts made a fire while some others cooked their lunch. The boys were busy working. The lunch was ready at 03.00 and they immediately started to eat. After that, they took a little rest. At 04.30 pm the leader blew his whistle and all the girl scouts and the boy scouts gathered around to start their fun camping programs.”\n:::\n\nThe scouts set their tents up.…",
+    "imageUrl": null,
+    "explanation": "Pemimpin menunjuk ke arah kebun (*garden*): *“Let’s set up our tents there,” said the Leader while pointing at the garden.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q02_opt_a",
+        "label": "A",
+        "content": "on the mountain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q02_opt_b",
+        "label": "B",
+        "content": "beside the road",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q02_opt_c",
+        "label": "C",
+        "content": "at the garden",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q02_opt_d",
+        "label": "D",
+        "content": "in the valley",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q03",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Cerita: Scouts Camping in Cikoneng (Soal No. 1 – 4)]\n*Read this text then answer the questions number 1 to 4!*\n\n“Last weekend the girl scouts and the boy scouts of my school had their first fun camping Outside the school. They left for Cikoneng at 05. 00 am. After a long and thrilling drive they arrived at the village and found a good camping site. “Let’s set up our tents there,” said the Leader while pointing at the garden. Then, they started to work. In a short time, the tents were ready and they put a small flag on the top of each tent. After that, some girl scouts made a fire while some others cooked their lunch. The boys were busy working. The lunch was ready at 03.00 and they immediately started to eat. After that, they took a little rest. At 04.30 pm the leader blew his whistle and all the girl scouts and the boy scouts gathered around to start their fun camping programs.”\n:::\n\n“… while **some others** cooked their lunch.” What does the phrase **some others** refer to?",
+    "imageUrl": null,
+    "explanation": "Konteks kalimat sebelumnya: *\"some girl scouts made a fire while some others cooked their lunch\"*. Kata *some others* merujuk pada kelompok pramuka putri yang lain (*the girl scouts*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q03_opt_a",
+        "label": "A",
+        "content": "The teachers",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q03_opt_b",
+        "label": "B",
+        "content": "The boy scouts",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q03_opt_c",
+        "label": "C",
+        "content": "The girl scouts",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q03_opt_d",
+        "label": "D",
+        "content": "The leader of scouts",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q04",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Cerita: Scouts Camping in Cikoneng (Soal No. 1 – 4)]\n*Read this text then answer the questions number 1 to 4!*\n\n“Last weekend the girl scouts and the boy scouts of my school had their first fun camping Outside the school. They left for Cikoneng at 05. 00 am. After a long and thrilling drive they arrived at the village and found a good camping site. “Let’s set up our tents there,” said the Leader while pointing at the garden. Then, they started to work. In a short time, the tents were ready and they put a small flag on the top of each tent. After that, some girl scouts made a fire while some others cooked their lunch. The boys were busy working. The lunch was ready at 03.00 and they immediately started to eat. After that, they took a little rest. At 04.30 pm the leader blew his whistle and all the girl scouts and the boy scouts gathered around to start their fun camping programs.”\n:::\n\nWhat task did the boy scouts do after they arrived at the camping site?",
+    "imageUrl": null,
+    "explanation": "Setelah tiba di lokasi perkemahan, anak laki-laki sibuk bekerja mendirikan dan menyiapkan tenda (*worked on setting up the tents*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q04_opt_a",
+        "label": "A",
+        "content": "They made a fire.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q04_opt_b",
+        "label": "B",
+        "content": "They cooked their lunch",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q04_opt_c",
+        "label": "C",
+        "content": "They put a small flag on top of the tents",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q04_opt_d",
+        "label": "D",
+        "content": "They worked on setting up the tents",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q05",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rico never says “thank you,” interrupts his friends when they are speaking, and often shouts in class. What is the best word to describe Rico?",
+    "imageUrl": null,
+    "explanation": "Perilaku tidak pernah berterima kasih, memotong pembicaraan orang lain, dan berteriak di kelas menggambarkan sifat tidak sopan (*impolite*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q05_opt_a",
+        "label": "A",
+        "content": "Cheerful",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q05_opt_b",
+        "label": "B",
+        "content": "Impolite",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q05_opt_c",
+        "label": "C",
+        "content": "Honest",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q05_opt_d",
+        "label": "D",
+        "content": "Responsible",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q06",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Doni always gets what he wants from his parents. He cries if he doesn’t get a new toy, and he never wants to share. He is ….",
+    "imageUrl": null,
+    "explanation": "Anak yang selalu dituruti semua keinginannya dan menangis jika permintaannya tidak dipenuhi adalah anak yang manja (*spoiled*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q06_opt_a",
+        "label": "A",
+        "content": "Spoiled",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q06_opt_b",
+        "label": "B",
+        "content": "selfish",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q06_opt_c",
+        "label": "C",
+        "content": "rude",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q06_opt_d",
+        "label": "D",
+        "content": "greedy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q07",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My grandfather doesn’t have hair on his head. He is ….",
+    "imageUrl": "/uploads/prisma25_ing2_image1.png",
+    "explanation": "Seseorang yang tidak memiliki rambut di kepalanya disebut berkepala botak (*bald*). *Blond* = berambut pirang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q07_opt_a",
+        "label": "A",
+        "content": "bald",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q07_opt_b",
+        "label": "B",
+        "content": "blond",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q07_opt_c",
+        "label": "C",
+        "content": "cruel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q07_opt_d",
+        "label": "D",
+        "content": "impatient",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q08",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What is the capital city of Japan?",
+    "imageUrl": null,
+    "explanation": "Ibu kota negara Jepang adalah Tokyo. Beijing adalah ibu kota Tiongkok, Seoul ibu kota Korea Selatan, dan Bangkok ibu kota Thailand.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q08_opt_a",
+        "label": "A",
+        "content": "Beijing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q08_opt_b",
+        "label": "B",
+        "content": "Seoul",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q08_opt_c",
+        "label": "C",
+        "content": "Tokyo",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q08_opt_d",
+        "label": "D",
+        "content": "Bangkok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q09",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which country is famous for the Eiffel Tower?",
+    "imageUrl": "/uploads/prisma25_ing2_image2.png",
+    "explanation": "Menara Eiffel (*Eiffel Tower*) terletak di kota Paris, Prancis (*France*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q09_opt_a",
+        "label": "A",
+        "content": "Italy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q09_opt_b",
+        "label": "B",
+        "content": "Germany",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q09_opt_c",
+        "label": "C",
+        "content": "France",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q09_opt_d",
+        "label": "D",
+        "content": "Spain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q10",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jakarta is a province and it is led by a ….",
+    "imageUrl": null,
+    "explanation": "Provinsi dipimpin oleh seorang gubernur (*governor*). Bupati (*regent*) memimpin kabupaten, sedangkan presiden memimpin negara.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q10_opt_a",
+        "label": "A",
+        "content": "regent",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q10_opt_b",
+        "label": "B",
+        "content": "minister",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q10_opt_c",
+        "label": "C",
+        "content": "president",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q10_opt_d",
+        "label": "D",
+        "content": "governor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q11",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "She usually …. coffee in the morning.",
+    "imageUrl": null,
+    "explanation": "Kalimat menggunakan *Simple Present Tense* untuk kebiasaan (*usually*). Subjek orang ketiga tunggal (*She*) menggunakan kata kerja berakhiran -s, yaitu *drinks*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q11_opt_a",
+        "label": "A",
+        "content": "drinking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q11_opt_b",
+        "label": "B",
+        "content": "drink",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q11_opt_c",
+        "label": "C",
+        "content": "drank",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q11_opt_d",
+        "label": "D",
+        "content": "drinks",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q12",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Chiko : Why …. you go home late yesterday?\nAisy : Because I studied at the library with my friends.",
+    "imageUrl": null,
+    "explanation": "Keterangan waktu lampau *yesterday* dan kata kerja dasar *go* membutuhkan kata kerja bantu lampau *did* (*Why did you go...*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q12_opt_a",
+        "label": "A",
+        "content": "did",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q12_opt_b",
+        "label": "B",
+        "content": "are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q12_opt_c",
+        "label": "C",
+        "content": "do",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q12_opt_d",
+        "label": "D",
+        "content": "were",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q13",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dinar : What are you laughing at?\nSelsi : I am …. a funny video.",
+    "imageUrl": null,
+    "explanation": "Pola *Present Continuous Tense* adalah *am/is/are + Verb-ing*. Setelah *I am*, kata kerja yang benar adalah *watching*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q13_opt_a",
+        "label": "A",
+        "content": "watch",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q13_opt_b",
+        "label": "B",
+        "content": "watching",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q13_opt_c",
+        "label": "C",
+        "content": "watched",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q13_opt_d",
+        "label": "D",
+        "content": "watches",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q14",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I need a .... of paper to draw a cow.",
+    "imageUrl": null,
+    "explanation": "Satuan kuantitas selembar kertas adalah *a sheet of paper*. *Slice* = seiris roti/keju, *loaf* = sebongkah roti, *tube* = pasta gigi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q14_opt_a",
+        "label": "A",
+        "content": "slice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q14_opt_b",
+        "label": "B",
+        "content": "loaf",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q14_opt_c",
+        "label": "C",
+        "content": "sheet",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q14_opt_d",
+        "label": "D",
+        "content": "tube",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q15",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dad refuses to have dinner in the dining room because it’s got three …. in it.",
+    "imageUrl": null,
+    "explanation": "Bentuk jamak tidak beraturan (*irregular plural*) dari kata benda *mouse* (tikus) adalah *mice*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q15_opt_a",
+        "label": "A",
+        "content": "mouses",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q15_opt_b",
+        "label": "B",
+        "content": "mice",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q15_opt_c",
+        "label": "C",
+        "content": "mices",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q15_opt_d",
+        "label": "D",
+        "content": "mouse",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q16",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "This leaf is green but those …. are yellow.",
+    "imageUrl": null,
+    "explanation": "Kata benda yang berakhiran -f seperti *leaf* berubah bentuk jamaknya menjadi berakhiran -ves, yaitu *leaves*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q16_opt_a",
+        "label": "A",
+        "content": "leaves",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q16_opt_b",
+        "label": "B",
+        "content": "leafes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q16_opt_c",
+        "label": "C",
+        "content": "leafves",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q16_opt_d",
+        "label": "D",
+        "content": "leafs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q17",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Rumpang: Exercising for Our Health (Soal No. 17 – 20)]\n*Choose the correct words to complete the text below! (No. 17 - 20)*\n\n“Exercising is very important for our health. When we do exercise, our body becomes strong and fresh. Many people like to run, swim, or play football. Exercise also makes our mind happy. That is why we should do exercise …. (17). Some students go jogging in the morning before school. Others like to play basketball in the afternoon. Exercising is not only for young people but also for …. (18). Doing sports regularly can prevent us from getting sick. It also helps us to have more …. (19). If we want to stay healthy, we need to spend some …. (20) for exercise every day.”\n:::\n\nQuestion 17: That is why we should do exercise …. (17).",
+    "imageUrl": null,
+    "explanation": "Karena berolahraga sangat bermanfaat, kita disarankan untuk sering (*often*) atau secara teratur melakukannya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q17_opt_a",
+        "label": "A",
+        "content": "never",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q17_opt_b",
+        "label": "B",
+        "content": "often",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q17_opt_c",
+        "label": "C",
+        "content": "slowly",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q17_opt_d",
+        "label": "D",
+        "content": "rarely",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q18",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Rumpang: Exercising for Our Health (Soal No. 17 – 20)]\n*Choose the correct words to complete the text below! (No. 17 - 20)*\n\n“Exercising is very important for our health. When we do exercise, our body becomes strong and fresh. Many people like to run, swim, or play football. Exercise also makes our mind happy. That is why we should do exercise …. (17). Some students go jogging in the morning before school. Others like to play basketball in the afternoon. Exercising is not only for young people but also for …. (18). Doing sports regularly can prevent us from getting sick. It also helps us to have more …. (19). If we want to stay healthy, we need to spend some …. (20) for exercise every day.”\n:::\n\nExercising is not only for young people but also for …. (18).",
+    "imageUrl": null,
+    "explanation": "Teks membandingkan kelompok umur: bukan hanya untuk orang muda (*young people*), tetapi juga bermanfaat bagi orang tua/lanjut usia (*old people*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q18_opt_a",
+        "label": "A",
+        "content": "children",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q18_opt_b",
+        "label": "B",
+        "content": "animals",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q18_opt_c",
+        "label": "C",
+        "content": "old people",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q18_opt_d",
+        "label": "D",
+        "content": "teachers",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q19",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Rumpang: Exercising for Our Health (Soal No. 17 – 20)]\n*Choose the correct words to complete the text below! (No. 17 - 20)*\n\n“Exercising is very important for our health. When we do exercise, our body becomes strong and fresh. Many people like to run, swim, or play football. Exercise also makes our mind happy. That is why we should do exercise …. (17). Some students go jogging in the morning before school. Others like to play basketball in the afternoon. Exercising is not only for young people but also for …. (18). Doing sports regularly can prevent us from getting sick. It also helps us to have more …. (19). If we want to stay healthy, we need to spend some …. (20) for exercise every day.”\n:::\n\nIt also helps us to have more …. (19).",
+    "imageUrl": null,
+    "explanation": "Manfaat fisik berolahraga adalah meningkatkan stamina sehingga kita memiliki lebih banyak energi (*more energy*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q19_opt_a",
+        "label": "A",
+        "content": "sadness",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q19_opt_b",
+        "label": "B",
+        "content": "problem",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q19_opt_c",
+        "label": "C",
+        "content": "homework",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q19_opt_d",
+        "label": "D",
+        "content": "energy",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q20",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Rumpang: Exercising for Our Health (Soal No. 17 – 20)]\n*Choose the correct words to complete the text below! (No. 17 - 20)*\n\n“Exercising is very important for our health. When we do exercise, our body becomes strong and fresh. Many people like to run, swim, or play football. Exercise also makes our mind happy. That is why we should do exercise …. (17). Some students go jogging in the morning before school. Others like to play basketball in the afternoon. Exercising is not only for young people but also for …. (18). Doing sports regularly can prevent us from getting sick. It also helps us to have more …. (19). If we want to stay healthy, we need to spend some …. (20) for exercise every day.”\n:::\n\nIf we want to stay healthy, we need to spend some …. (20) for exercise every day.",
+    "imageUrl": null,
+    "explanation": "Frasa *spend some time* bermakna meluangkan waktu setiap hari untuk berolahraga.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q20_opt_a",
+        "label": "A",
+        "content": "water",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q20_opt_b",
+        "label": "B",
+        "content": "money",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q20_opt_c",
+        "label": "C",
+        "content": "food",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q20_opt_d",
+        "label": "D",
+        "content": "time",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q21",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "All of my time … spent in the library.",
+    "imageUrl": null,
+    "explanation": "*Time* adalah kata benda yang tidak dapat dihitung (*uncountable noun*), sehingga menggunakan to be tunggal *is* (*All of my time is spent...*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q21_opt_a",
+        "label": "A",
+        "content": "are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q21_opt_b",
+        "label": "B",
+        "content": "is",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q21_opt_c",
+        "label": "C",
+        "content": "were",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q21_opt_d",
+        "label": "D",
+        "content": "does",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q22",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Everyone …. a chance to be a winner in the Prisma Olympiad.",
+    "imageUrl": null,
+    "explanation": "*Everyone* adalah *indefinite pronoun* yang selalu berkedudukan tunggal (*singular*), sehingga kata kerja yang sesuai adalah *has*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q22_opt_a",
+        "label": "A",
+        "content": "having",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q22_opt_b",
+        "label": "B",
+        "content": "have",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q22_opt_c",
+        "label": "C",
+        "content": "has",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q22_opt_d",
+        "label": "D",
+        "content": "is has",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q23",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gymnastics …. my favorite sport.",
+    "imageUrl": "/uploads/prisma25_ing2_image3.png",
+    "explanation": "Walaupun berakhiran huruf 's', nama cabang olahraga *gymnastics* (senam) adalah kata benda tunggal, sehingga to be yang tepat adalah *is*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q23_opt_a",
+        "label": "A",
+        "content": "are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q23_opt_b",
+        "label": "B",
+        "content": "is",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q23_opt_c",
+        "label": "C",
+        "content": "were",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q23_opt_d",
+        "label": "D",
+        "content": "be",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q24",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "It is a tool usually made of metal and wood. People use it to hit nails into wood. What is it?",
+    "imageUrl": null,
+    "explanation": "Alat dari logam dan kayu yang berfungsi untuk memukul paku ke dalam kayu adalah palu (*hammer*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q24_opt_a",
+        "label": "A",
+        "content": "Screwdriver",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q24_opt_b",
+        "label": "B",
+        "content": "Wrench",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q24_opt_c",
+        "label": "C",
+        "content": "Saw",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q24_opt_d",
+        "label": "D",
+        "content": "Hammer",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q25",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mother is washing vegetables and plates in a place with water and a faucet. What is it?",
+    "imageUrl": "/uploads/prisma25_ing2_image4.png",
+    "explanation": "Tempat mencuci piring dan sayuran yang dilengkapi keran air di dapur disebut bak cuci piring (*sink* / wastafel).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q25_opt_a",
+        "label": "A",
+        "content": "Dish",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q25_opt_b",
+        "label": "B",
+        "content": "Stove",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q25_opt_c",
+        "label": "C",
+        "content": "Sink",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q25_opt_d",
+        "label": "D",
+        "content": "Ceiling",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q26",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "If the sun shines brightly tomorrow, we … a picnic in the park.",
+    "imageUrl": null,
+    "explanation": "Ini merupakan kalimat pengandaian tipe 1 (*First Conditional*): *If + Simple Present (shines), S + will + V1 (will have)*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q26_opt_a",
+        "label": "A",
+        "content": "will have",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q26_opt_b",
+        "label": "B",
+        "content": "would have",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q26_opt_c",
+        "label": "C",
+        "content": "has",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q26_opt_d",
+        "label": "D",
+        "content": "having",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q27",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "If Miss Evelin became my teacher, I …. very happy.",
+    "imageUrl": null,
+    "explanation": "Ini adalah kalimat pengandaian tipe 2 (*Second Conditional*): *If + Simple Past (became), S + would + V1 (would be)*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q27_opt_a",
+        "label": "A",
+        "content": "will be",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q27_opt_b",
+        "label": "B",
+        "content": "would be",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q27_opt_c",
+        "label": "C",
+        "content": "is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q27_opt_d",
+        "label": "D",
+        "content": "was",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q28",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Dialog (Soal No. 28 – 29)]\n*Find the same meaning as the bold words in the dialogue!*\n\nMeitza : Hi, Dika. You look **exhausted** (28) after the basketball game.\nDika : Yes, I am really tired, but I feel satisfied because our team won.\nMeitza : That’s great! The match was exciting to watch.\nDika : Thank you. I’m **grateful** (29) for the support from my friends.\n:::\n\nQuestion 28: The word **exhausted** has the same meaning as ….",
+    "imageUrl": null,
+    "explanation": "Kata *exhausted* bermakna amat lelah atau letih, bersinonim langsung dengan *tired*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q28_opt_a",
+        "label": "A",
+        "content": "energetic",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q28_opt_b",
+        "label": "B",
+        "content": "tired",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q28_opt_c",
+        "label": "C",
+        "content": "strong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q28_opt_d",
+        "label": "D",
+        "content": "active",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q29",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Dialog (Soal No. 28 – 29)]\n*Find the same meaning as the bold words in the dialogue!*\n\nMeitza : Hi, Dika. You look **exhausted** (28) after the basketball game.\nDika : Yes, I am really tired, but I feel satisfied because our team won.\nMeitza : That’s great! The match was exciting to watch.\nDika : Thank you. I’m **grateful** (29) for the support from my friends.\n:::\n\nQuestion 29: The word **grateful** has the same meaning as ….",
+    "imageUrl": null,
+    "explanation": "Kata *grateful* bermakna merasa bersyukur atau berterima kasih, sepadan dengan *thankful*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q29_opt_a",
+        "label": "A",
+        "content": "careful",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q29_opt_b",
+        "label": "B",
+        "content": "hopeful",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q29_opt_c",
+        "label": "C",
+        "content": "helpful",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q29_opt_d",
+        "label": "D",
+        "content": "thankful",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_2_q30",
+    "topicId": "top_prisma_2025_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Arrange these words into a good sentence!\npark – children – the – are – playing – in",
+    "imageUrl": null,
+    "explanation": "Struktur kalimat bahasa Inggris yang gramatikal mengikuti pola Subjek (*The children*) + Kata Kerja Bentuk Sedang (*are playing*) + Keterangan Tempat (*in the park*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_2_q30_opt_a",
+        "label": "A",
+        "content": "The children are playing in the park",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q30_opt_b",
+        "label": "B",
+        "content": "In the park the children playing are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q30_opt_c",
+        "label": "C",
+        "content": "The children are in the park playing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_2_q30_opt_d",
+        "label": "D",
+        "content": "Playing are the children in the park",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "q_prisma24_ipa2_01",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berikut yang merupakan contoh ekosistem alami adalah …",
+    "imageUrl": null,
+    "explanation": "Ekosistem alami terbentuk secara spontan oleh alam tanpa campur tangan buatan manusia, contohnya sungai, danau alami, laut, dan hutan rimba. Akuarium, sawah, dan waduk adalah ekosistem buatan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_01_a",
+        "label": "A",
+        "content": "Sungai dan hutan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_01_b",
+        "label": "B",
+        "content": "Akuarium hias",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_01_c",
+        "label": "C",
+        "content": "Sawah tadah hujan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_01_d",
+        "label": "D",
+        "content": "Bendungan waduk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_02",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Salah satu sumber pencemaran tanah yang paling sulit terurai oleh bakteri tanah adalah ….",
+    "imageUrl": null,
+    "explanation": "Plastik terbuat dari polimer sintetis non-biodegradable yang memerlukan ratusan tahun untuk terurai di dalam tanah, sehingga menurunkan kesuburan tanah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_02_a",
+        "label": "A",
+        "content": "Sampah daun dan sisa sayur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_02_b",
+        "label": "B",
+        "content": "Abu kebakaran kayu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_02_c",
+        "label": "C",
+        "content": "Kotoran hewan ternak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_02_d",
+        "label": "D",
+        "content": "Sampah kantong plastik sintetis",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_03",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Gerakan bola yang menggelinding di atas tanah atau lantai datar, semakin lama semakin lambat dan akhirnya berhenti dikarenakan adanya gaya …",
+    "imageUrl": null,
+    "explanation": "Gaya gesek (*frictional force*) muncul akibat gesekan antara permukaan bola dan tanah yang berarah melawan arah gerak bola, sehingga memperlambat kecepatan bola hingga berhenti.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_03_a",
+        "label": "A",
+        "content": "Gaya gravitasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_03_b",
+        "label": "B",
+        "content": "Gaya pegas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_03_c",
+        "label": "C",
+        "content": "Gaya magnet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_03_d",
+        "label": "D",
+        "content": "Gaya gesek",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_04",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bentuk simbiosis mutualisme (kedua pihak saling menguntungkan) dapat terjadi antara pasangan organisme …",
+    "imageUrl": null,
+    "explanation": "Burung jalak mendapat makanan berupa kutu di kulit kerbau, sedangkan kerbau merasa nyaman karena bebas dari rasa gatal akibat kutu parasit.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_04_a",
+        "label": "A",
+        "content": "Anjing dan kucing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_04_b",
+        "label": "B",
+        "content": "Kerbau dan burung jalak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_04_c",
+        "label": "C",
+        "content": "Burung jalak dan harimau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_04_d",
+        "label": "D",
+        "content": "Tali putri dan tanaman beluntas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_05",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perpindahan kalor tanpa memerlukan zat perantara (medium), seperti pancaran panas matahari hingga ke bumi, disebut …",
+    "imageUrl": null,
+    "explanation": "Radiasi adalah perpindahan panas melalui gelombang elektromagnetik yang dapat merambat menembus ruang hampa udara (vakum).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_05_a",
+        "label": "A",
+        "content": "Konduksi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_05_b",
+        "label": "B",
+        "content": "Konveksi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_05_c",
+        "label": "C",
+        "content": "Radiasi (pancaran)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_05_d",
+        "label": "D",
+        "content": "Kondensasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_06",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Keuntungan utama dari perbanyakan tanaman secara vegetatif buatan dengan cara mencangkok adalah …",
+    "imageUrl": null,
+    "explanation": "Mencangkok mempertahankan sifat unggul tanaman induk (kualitas rasa buah, warna bunga) dan pohon hasil cangkok berbuah jauh lebih cepat dibanding menanam dari biji.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_06_a",
+        "label": "A",
+        "content": "Tanaman memiliki perakaran tunggang yang lebih kuat dari pohon asal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_06_b",
+        "label": "B",
+        "content": "Tanaman tidak memerlukan unsur hara dan tanah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_06_c",
+        "label": "C",
+        "content": "Tanaman tahan terhadap segala jenis hama penyakit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_06_d",
+        "label": "D",
+        "content": "Sifat tanaman anakan sama persis dengan induknya dan lebih cepat menghasilkan buah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_07",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Contoh tanaman yang bunga jantan dan bunga betinanya berada pada pohon terpisah (berumah dua / *dioecious*) adalah …",
+    "imageUrl": null,
+    "explanation": "Pohon salak memiliki individu pohon jantan (penghasil serbuk sari) dan pohon betina (penghasil putik) terpisah, sehingga petani salak sering melakukan penyerbukan buatan dengan mengibaskan bunga jantan ke bunga betina.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_07_a",
+        "label": "A",
+        "content": "Jambu biji",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_07_b",
+        "label": "B",
+        "content": "Nanas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_07_c",
+        "label": "C",
+        "content": "Salak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_07_d",
+        "label": "D",
+        "content": "Tomat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_08",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam tingkatan organisasi makhluk hidup dalam ekosistem, pengertian dari komunitas adalah …",
+    "imageUrl": null,
+    "explanation": "Urutan tingkatan ekologi: Individu $\\rightarrow$ Populasi (spesies sama) $\\rightarrow$ Komunitas (antarpopulasi berbeda) $\\rightarrow$ Ekosistem $\\rightarrow$ Bioma $\\rightarrow$ Biosfer.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_08_a",
+        "label": "A",
+        "content": "Satu individu makhluk hidup tunggal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_08_b",
+        "label": "B",
+        "content": "Kumpulan individu sejenis yang menempati daerah tertentu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_08_c",
+        "label": "C",
+        "content": "Kumpulan berbagai populasi berbeda spesies yang saling berinteraksi di suatu wilayah pada waktu yang sama",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_08_d",
+        "label": "D",
+        "content": "Seluruh ekosistem di planet bumi beserta lingkungannya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_09",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Komponen listrik pada rangkaian yang berfungsi untuk memutuskan dan menyambungkan aliran arus listrik secara manual adalah…",
+    "imageUrl": null,
+    "explanation": "Sakelar memutus kontak rangkaian (posisi *off* / rangkaian terbuka) dan menyambungkan kontak (posisi *on* / rangkaian tertutup).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_09_a",
+        "label": "A",
+        "content": "Sakelar (switch)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_09_b",
+        "label": "B",
+        "content": "Sekring (fuse)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_09_c",
+        "label": "C",
+        "content": "Baterai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_09_d",
+        "label": "D",
+        "content": "Kabel tembaga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_10",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Organ dalam tubuh manusia yang memiliki peran vital sebagai penawar racun (detoksifikasi) dan penghasil cairan empedu adalah …",
+    "imageUrl": null,
+    "explanation": "Hati (hepar) menetralkan racun (detoksifikasi), misalnya merombak zat beracun, obat-obatan, dan amonia menjadi urea yang kemudian dibuang lewat ginjal. Hati juga menghasilkan cairan empedu yang membantu mencerna lemak di usus halus.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_10_a",
+        "label": "A",
+        "content": "Jantung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_10_b",
+        "label": "B",
+        "content": "Hati (hepar)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_10_c",
+        "label": "C",
+        "content": "Paru-paru",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_10_d",
+        "label": "D",
+        "content": "Lambung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_11",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gelombang bunyi infrasonik adalah bunyi yang memiliki karakteristik frekuensi getaran …",
+    "imageUrl": null,
+    "explanation": "Infrasonik: $< 20\\text{ Hz}$ (didengar gajah, jangkrik, anjing). Audiosonik: $20 - 20.000\\text{ Hz}$ (rentang pendengaran manusia). Ultrasonik: $> 20.000\\text{ Hz}$ (kelelawar, lumba-lumba).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_11_a",
+        "label": "A",
+        "content": "Tepat 20 getaran per detik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_11_b",
+        "label": "B",
+        "content": "Kurang dari 20 Hz",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_11_c",
+        "label": "C",
+        "content": "Antara 20 Hz sampai 20.000 Hz",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_11_d",
+        "label": "D",
+        "content": "Lebih dari 20.000 Hz",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_12",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seekor anjing atau kucing sering kali tidur dengan menggulungkan badannya menyerupai lingkaran ketika udara dingin. Tujuannya adalah untuk …",
+    "imageUrl": null,
+    "explanation": "Menggulung tubuh memperkecil luas permukaan tubuh yang bersentuhan dengan udara dingin lingkungan, sehingga laju pelepasan kalor tubuh ke lingkungan berkurang drastis.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_12_a",
+        "label": "A",
+        "content": "Menjaga suhu tubuh tetap hangat dengan memperkecil pelepasan kalor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_12_b",
+        "label": "B",
+        "content": "Memudahkan mendengarkan musuh dari kejauhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_12_c",
+        "label": "C",
+        "content": "Mencegah lapar saat terbangun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_12_d",
+        "label": "D",
+        "content": "Menyerap oksigen lebih banyak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_13",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada mekanisme pendengaran manusia, sebelum getaran bunyi diteruskan ke rumah siput (koklea), getaran terlebih dahulu menggetarkan …",
+    "imageUrl": null,
+    "explanation": "Gelombang bunyi ditangkap daun telinga $\\rightarrow$ liang telinga $\\rightarrow$ menggetarkan membran timpani $\\rightarrow$ tulang pendengaran (martil, landasan, sanggurdi) $\\rightarrow$ tingkap oval $\\rightarrow$ rumah siput (koklea).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_13_a",
+        "label": "A",
+        "content": "Saluran Eustachius",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_13_b",
+        "label": "B",
+        "content": "Saraf auditori",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_13_c",
+        "label": "C",
+        "content": "Daun telinga luar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_13_d",
+        "label": "D",
+        "content": "Membran timpani (gendang telinga) dan tulang martil, landasan, sanggurdi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_14",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Urutan daur hidup (metamorfosis sempurna) pada nyamuk yang benar adalah …",
+    "imageUrl": null,
+    "explanation": "Nyamuk mengalami metamorfosis holometabola: Telur menetas menjadi jentik (larva air), berkembang menjadi pupa berkepompong, lalu keluar menjadi nyamuk dewasa bersayap.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_14_a",
+        "label": "A",
+        "content": "Nyamuk dewasa $\\rightarrow$ telur $\\rightarrow$ jentik $\\rightarrow$ pupa $\\rightarrow$ nyamuk muda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_14_b",
+        "label": "B",
+        "content": "Nyamuk muda $\\rightarrow$ nyamuk dewasa $\\rightarrow$ telur $\\rightarrow$ jentik $\\rightarrow$ pupa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_14_c",
+        "label": "C",
+        "content": "Telur $\\rightarrow$ pupa $\\rightarrow$ jentik $\\rightarrow$ nyamuk dewasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_14_d",
+        "label": "D",
+        "content": "Telur $\\rightarrow$ jentik (larva) $\\rightarrow$ pupa (kepompong) $\\rightarrow$ nyamuk dewasa (imago)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_15",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bentuk hubungan simbiosis yang terjadi antara bunga Rafflesia arnoldii dengan tumbuhan inang merambatnya (*Tetrastigma*) adalah …",
+    "imageUrl": null,
+    "explanation": "Bunga Rafflesia adalah tumbuhan parasit obligat tanpa daun dan akar sejati yang menyerap seluruh sari makanan dan air dari jaringan pembuluh tumbuhan inang sehingga merugikan inang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_15_a",
+        "label": "A",
+        "content": "Komensalisme",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_15_b",
+        "label": "B",
+        "content": "Netralisme",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_15_c",
+        "label": "C",
+        "content": "Parasitisme",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_15_d",
+        "label": "D",
+        "content": "Mutualisme",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_16",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Beban bandul diikat tali pada atap dan ditarik menyamping ke titik A lalu dilepaskan. Satu getaran penuh pada ayunan tersebut didefinisikan sebagai gerak bolak-balik beban pada lintasan ….",
+    "imageUrl": null,
+    "explanation": "Satu getaran harmonis lengkap adalah gerak dari titik awal kembali lagi ke titik awal tersebut: dari A menuju titik setimbang O, titik terjauh B, kembali ke O, dan berakhir di A.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_16_a",
+        "label": "A",
+        "content": "A - O - B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_16_b",
+        "label": "B",
+        "content": "A - O - B - O",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_16_c",
+        "label": "C",
+        "content": "O - B - O - A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_16_d",
+        "label": "D",
+        "content": "A - O - B - O - A",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_17",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut ini yang merupakan peristiwa perubahan wujud zat yang memerlukan (menyerap) kalor adalah …",
+    "imageUrl": null,
+    "explanation": "Perubahan wujud yang menyerap kalor adalah mencair, menguap, dan menyublim (padat ke gas). Mengembun dan membeku adalah proses melepaskan kalor.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_17_a",
+        "label": "A",
+        "content": "Uap air di pagi hari mengembun menjadi tetesan air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_17_b",
+        "label": "B",
+        "content": "Mentega cair membeku di dalam kulkas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_17_c",
+        "label": "C",
+        "content": "Air di freezer membeku menjadi es batu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_17_d",
+        "label": "D",
+        "content": "Air yang dipanaskan di panci mendidih menjadi uap air",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_18",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sabuk asteroid utama (*asteroid belt*) dalam tata surya terletak beredar mengitari matahari di antara lintasan orbit planet …",
+    "imageUrl": null,
+    "explanation": "Sabuk asteroid memisahkan kelompok planet dalam (Merkurius, Venus, Bumi, Mars) dengan kelompok planet luar (Yupiter, Saturnus, Uranus, Neptunus).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_18_a",
+        "label": "A",
+        "content": "Mars dan Venus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_18_b",
+        "label": "B",
+        "content": "Venus dan Bumi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_18_c",
+        "label": "C",
+        "content": "Merkurius dan Venus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_18_d",
+        "label": "D",
+        "content": "Mars dan Yupiter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_19",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tumbuhan yang pada satu bunganya hanya memiliki benang sari saja atau hanya memiliki putik saja dinamakan ….",
+    "imageUrl": null,
+    "explanation": "Bunga sempurna memiliki kedua alat kelamin (benang sari dan putik). Bunga tidak sempurna hanya memiliki salah satu alat kelamin saja (bunga jantan atau bunga betina).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_19_a",
+        "label": "A",
+        "content": "Bunga lengkap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_19_b",
+        "label": "B",
+        "content": "Bunga hermafrodit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_19_c",
+        "label": "C",
+        "content": "Bunga tidak sempurna",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_19_d",
+        "label": "D",
+        "content": "Bunga sempurna",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_20",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kelompok tulang di tubuh manusia berikut yang seluruhnya tergolong sebagai tulang pipa (tulang panjang berongga) adalah ….",
+    "imageUrl": null,
+    "explanation": "Tulang pipa berbentuk silinder panjang dengan bagian tengah berongga berisi sumsum tulang, contohnya tulang paha (*femur*), betis (*fibula*), kering (*tibia*), hasta (*ulna*), dan pengumpil (*radius*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_20_a",
+        "label": "A",
+        "content": "Tulang belikat dan tulang rusuk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_20_b",
+        "label": "B",
+        "content": "Tulang dada dan tulang tengkorak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_20_c",
+        "label": "C",
+        "content": "Tulang panggul dan tempurung lutut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_20_d",
+        "label": "D",
+        "content": "Tulang betis, tulang hasta, dan tulang paha",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_21",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Peralatan perkakas seperti mata kapak, pahat, pisau, dan sekrup ulir bekerja dengan menggunakan prinsip pesawat sederhana jenis ...",
+    "imageUrl": null,
+    "explanation": "Kapak dan baji adalah dua bidang miring yang digabungkan, sedangkan ulir sekrup adalah bidang miring yang dililitkan mengitari sebuah silinder poros.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_21_a",
+        "label": "A",
+        "content": "Roda berporos",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_21_b",
+        "label": "B",
+        "content": "Katrol bebas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_21_c",
+        "label": "C",
+        "content": "Tuas jenis ketiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_21_d",
+        "label": "D",
+        "content": "Bidang miring",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_22",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Besarnya gaya dorong atau tarikan yang diberikan oleh tangan manusia pada sebuah tuas pengungkit disebut dengan ...",
+    "imageUrl": null,
+    "explanation": "Pada tuas, gaya yang kita kerjakan disebut Kuasa ($F$), benda yang digerakkan disebut Beban ($W$), dan titik penyangga disebut Titik Tumpu ($T$).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_22_a",
+        "label": "A",
+        "content": "Gaya Beban",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_22_b",
+        "label": "B",
+        "content": "Gaya Kuasa ($F$)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_22_c",
+        "label": "C",
+        "content": "Titik Tumpu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_22_d",
+        "label": "D",
+        "content": "Lengan Beban",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_23",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Alat pembuka tutup botol kaca minuman merupakan contoh aplikasi pengungkit (tuas) golongan ...",
+    "imageUrl": null,
+    "explanation": "Pada pembuka tutup botol: ujung penahan di bibir tutup botol adalah Titik Tumpu, cengkeraman tutup botol yang dibuka adalah Beban di tengah, dan gagang yang diangkat tangan adalah Kuasa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_23_a",
+        "label": "A",
+        "content": "Tuas jenis kedua (Beban berada di antara Titik Tumpu dan Kuasa)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_23_b",
+        "label": "B",
+        "content": "Tuas jenis pertama (Titik Tumpu di tengah)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_23_c",
+        "label": "C",
+        "content": "Tuas jenis ketiga (Kuasa di tengah)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_23_d",
+        "label": "D",
+        "content": "Katrol majemuk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_24",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dalam konsep fisika ($W = F \\cdot s \\cdot \\cos\\theta$), usaha bernilai negatif ketika arah gaya yang bekerja berlawanan dengan arah gerak perpindahan benda, contohnya saat benda..",
+    "imageUrl": null,
+    "explanation": "Saat benda bergerak naik ke atas, arah perpindahannya ke atas ($+s$), namun gaya gravitasi bumi menariknya ke bawah ($-F$). Karena berlawanan arah ($180^\\circ$), usaha gravitasi bernilai negatif ($W < 0$).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_24_a",
+        "label": "A",
+        "content": "Meluncur turun ke bawah bidang miring",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_24_b",
+        "label": "B",
+        "content": "Didorong searah laju ke depan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_24_c",
+        "label": "C",
+        "content": "Dilempar lurus ke atas (usaha oleh gaya gravitasi bumi)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_24_d",
+        "label": "D",
+        "content": "Ditarik kuda searah jalan lurus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_25",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah paku besi dililiti kawat tembaga berisolasi kemudian kedua ujung kawat dihubungkan ke kutub baterai, sehingga paku dapat menarik serbuk besi. Metode pembuatan magnet ini disebut...",
+    "imageUrl": null,
+    "explanation": "Arus listrik searah (DC) yang mengalir melalui kumparan solenoide menimbulkan medan magnet di inti besi, yang dinamakan elektromagnet.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_25_a",
+        "label": "A",
+        "content": "Induksi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_25_b",
+        "label": "B",
+        "content": "Elektromagnetik (arus listrik)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_25_c",
+        "label": "C",
+        "content": "Gosokan satu arah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_25_d",
+        "label": "D",
+        "content": "Deklinasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_26",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebatang besi netral didekatkan (tanpa menyentuh) ke kutub magnet kuat, sehingga ujung besi tersebut terimbas menjadi magnet sementara. Metode ini disebut pembuatan magnet secara...",
+    "imageUrl": null,
+    "explanation": "Induksi magnetik adalah proses penataan magnet-magnet elementer pada bahan feromagnetik karena pengaruh medan magnet dari magnet tetap yang berada di dekatnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_26_a",
+        "label": "A",
+        "content": "Induksi magnetik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_26_b",
+        "label": "B",
+        "content": "Konveksi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_26_c",
+        "label": "C",
+        "content": "Elektromagnet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_26_d",
+        "label": "D",
+        "content": "Demagnetisasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_27",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pada rangkaian listrik campuran di rumah, jika sakelar pada jalur cabang lampu ruang makan dimatikan, lampu di ruang tamu tetap menyala. Hal ini membuktikan bahwa lampu dipasang dalam rangkaian ...",
+    "imageUrl": null,
+    "explanation": "Rangkaian paralel memiliki percabangan arus independen pada setiap beban, sehingga jika salah satu cabang diputus, arus pada cabang lain tetap mengalir normal.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_27_a",
+        "label": "A",
+        "content": "Rangkaian seri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_27_b",
+        "label": "B",
+        "content": "Rangkaian terbuka satu arah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_27_c",
+        "label": "C",
+        "content": "Rangkaian paralel",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_27_d",
+        "label": "D",
+        "content": "Rangkaian arus bolak balik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_28",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut ini yang BUKAN merupakan metode yang tepat untuk membuat magnet adalah...",
+    "imageUrl": null,
+    "explanation": "Mengalirkan arus bolak-balik (AC) atau memanaskan/memukul magnet justru merupakan cara menghilangkan (merusak) sifat kemagnetan, bukan membuatnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_28_a",
+        "label": "A",
+        "content": "Menggosokkan besi dengan magnet tetap secara searah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_28_b",
+        "label": "B",
+        "content": "Mengalirkan arus listrik bolak-balik (AC) bertegangan tinggi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_28_c",
+        "label": "C",
+        "content": "Mendekatkan bahan feromagnetik ke magnet permanen (induksi)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_28_d",
+        "label": "D",
+        "content": "Melilitkan kawat berarus listrik searah (DC)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_29",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ciri khas yang membedakan rangkaian listrik paralel dari rangkaian listrik seri adalah ....",
+    "imageUrl": null,
+    "explanation": "Karakteristik rangkaian paralel: memiliki titik percabangan, tegangan ($V$) pada tiap cabang bernilai sama, dan arus listrik terbagi ($I_{total} = I_1 + I_2 + \\dots$).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_29_a",
+        "label": "A",
+        "content": "Arus listrik mengalir tanpa percabangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_29_b",
+        "label": "B",
+        "content": "Jika satu lampu padam, maka seluruh lampu lainnya pasti ikut padam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_29_c",
+        "label": "C",
+        "content": "Terdapat percabangan kabel sehingga beda potensial (tegangan) pada setiap cabang sama besar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_29_d",
+        "label": "D",
+        "content": "Hanya memerlukan satu kabel tunggal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa2_30",
+    "topicId": "top_prisma_2024_ipa_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Komponen lampu dan baterai pada rangkaian seri dipasang secara ....",
+    "imageUrl": null,
+    "explanation": "Rangkaian seri adalah rangkaian komponen listrik yang disusun secara berurutan atau berderet ujung ke ujung dalam satu jalur penghantar tunggal.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa2_30_a",
+        "label": "A",
+        "content": "Berderet lurus bersambungan dalam satu lintasan tanpa cabang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_30_b",
+        "label": "B",
+        "content": "Menyilang bertingkat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_30_c",
+        "label": "C",
+        "content": "Sejajar bercabang ganda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa2_30_d",
+        "label": "D",
+        "content": "Melingkar diagonal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

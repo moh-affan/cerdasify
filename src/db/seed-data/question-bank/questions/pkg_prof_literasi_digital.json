@@ -1,0 +1,857 @@
+[
+  {
+    "id": "q_prof_dig_01",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Anda menerima sebuah email yang mengatasnamakan Badan Kepegawaian Negara (BKN) dengan subjek \"Verifikasi Data Kenaikan Pangkat ASN Segera\". Email tersebut meminta Anda mengklik sebuah tautan (*link*) dan memasukkan NIP serta kata sandi (*password*) akun ASN Digital Anda pada halaman web yang terbuka. Tindakan yang paling tepat adalah...",
+    "imageUrl": null,
+    "explanation": "**Literasi Keamanan Siber (Phishing Awareness):**\nCiri khas serangan phishing adalah menciptakan kepanikan atau urgensi palsu untuk mencuri kredensial akun. Domain pengirim resmi pemerintah wajib berakhiran `.go.id`. ASN wajib memverifikasi alamat email pengirim dan tidak memasukkan password di tautan asing.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_01_a",
+        "label": "A",
+        "content": "Segera mengklik tautan dan memasukkan kata sandi agar berkas kenaikan pangkat tidak tertolak.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_01_b",
+        "label": "B",
+        "content": "Memeriksa domain pengirim email dengan teliti, tidak mengklik tautan mencurigakan, dan melaporkannya kepada tim CSIRT/Pranata Komputer instansi sebagai indikasi serangan phishing.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_01_c",
+        "label": "C",
+        "content": "Meneruskan email tersebut ke seluruh staf di kantor agar mereka juga mengisi data.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_01_d",
+        "label": "D",
+        "content": "Membalas email tersebut dengan menanyakan nomor rekening bank panitia.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_01_e",
+        "label": "E",
+        "content": "Mengklik tautan namun memasukkan nomor NIP palsu.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_02",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Menurut UU Pelindungan Data Pribadi (UU PDP No. 27/2022) dan tata kelola SPBE, data NIK KTP, riwayat kesehatan, dan data biometrik masyarakat yang disimpan di sistem layanan dinas diklasifikasikan sebagai...",
+    "imageUrl": null,
+    "explanation": "**Regulasi Perlindungan Data Pribadi:**\nUU No. 27 Tahun 2022 membagi data pribadi menjadi data pribadi umum dan spesifik. Data kesehatan, biometrik, genetika, dan catatan kejahatan merupakan **Data Pribadi yang Bersifat Spesifik** yang memiliki standar keamanan dan sanksi kebocoran yang sangat ketat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_02_a",
+        "label": "A",
+        "content": "Data Terbuka Publik yang bebas diunduh siapa saja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_02_b",
+        "label": "B",
+        "content": "Data Pribadi Spesifik / Sensitif yang wajib dilindungi dengan enkripsi ketat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_02_c",
+        "label": "C",
+        "content": "Data Komersial untuk keperluan penjualan periklanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_02_d",
+        "label": "D",
+        "content": "Data Arsip Statis yang tidak memiliki batasan akses",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_02_e",
+        "label": "E",
+        "content": "Data Bebas Akses bagi pihak ketiga tanpa persetujuan subjek data",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_03",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Salah satu tujuan utama arsitektur Sistem Pemerintahan Berbasis Elektronik (SPBE) sesuai Perpres No. 95 Tahun 2018 adalah interoperabilitas data dan integrasi layanan, yang bertujuan untuk menghilangkan fenomena...",
+    "imageUrl": null,
+    "explanation": "**Tujuan Reformasi SPBE:**\nSalah satu masalah terbesar birokrasi digital sebelumnya adalah ego sektoral pembuatan ribuan aplikasi yang terfragmentasi (silo sistem / pulau-pulau aplikasi), yang menyebabkan pemborosan APBD/APBN dan menyulitkan masyarakat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_03_a",
+        "label": "A",
+        "content": "Silo sistem dan fragmentasi aplikasi yang saling terisolasi (*pulau aplikasi*)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_03_b",
+        "label": "B",
+        "content": "Penggunaan jaringan internet di kantor pemerintahan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_03_c",
+        "label": "C",
+        "content": "Tanda tangan elektronik bersertifikasi BSrE",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_03_d",
+        "label": "D",
+        "content": "Transparansi anggaran pengadaan barang dan jasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_03_e",
+        "label": "E",
+        "content": "Penggunaan komputer modern di instansi daerah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_04",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tanda Tangan Elektronik (TTE) Tersertifikasi yang sah digunakan dalam persuratan dinas di lingkungan instansi pemerintah Indonesia diterbitkan oleh Badan Sertifikasi yang terafiliasi resmi dengan...",
+    "imageUrl": null,
+    "explanation": "**Regulasi Keamanan Informasi Pemerintah:**\nOtoritas Penyelenggara Sertifikasi Elektronik (PSrE) instansi pemerintah di Indonesia dikelola oleh **Balai Sertifikasi Elektronik (BSrE)** di bawah naungan **Badan Siber dan Sandi Negara (BSSN)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_04_a",
+        "label": "A",
+        "content": "Kementerian Keuangan RI",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_04_b",
+        "label": "B",
+        "content": "Balai Sertifikasi Elektronik (BSrE) - Badan Siber dan Sandi Negara (BSSN)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_04_c",
+        "label": "C",
+        "content": "Badan Pengawas Keuangan dan Pembangunan (BPKP)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_04_d",
+        "label": "D",
+        "content": "Lembaga Kebijakan Pengadaan Barang/Jasa Pemerintah (LKPP)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_04_e",
+        "label": "E",
+        "content": "Kementerian Hukum dan HAM RI",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_05",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Saat bekerja di kafe atau tempat umum saat perjalanan dinas luar kota, seorang ASN harus mengakses basis data kepegawaian internal kantor melalui laptop dinas. Praktik keamanan siber yang paling aman untuk dilakukan adalah...",
+    "imageUrl": null,
+    "explanation": "**Etika & Keamanan Koneksi Data Dinas:**\nJaringan Wi-Fi publik di kafe/bandara sangat rentan terhadap serangan sniffing (*Man-in-the-Middle attack*). ASN wajib menggunakan Virtual Private Network (VPN) terenkripsi kantor atau hotspot seluler pribadi ber-password.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_05_a",
+        "label": "A",
+        "content": "Menggunakan Wi-Fi publik gratis tanpa kata sandi karena kuota internet lebih hemat.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_05_b",
+        "label": "B",
+        "content": "Menggunakan jaringan Virtual Private Network (VPN) resmi kantor atau tethering data seluler pribadi yang aman terenkripsi.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_05_c",
+        "label": "C",
+        "content": "Mematikan fitur antivirus agar kecepatan unduh dokumen di laptop menjadi maksimal.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_05_d",
+        "label": "D",
+        "content": "Membagikan kata sandi akun dinas kepada staf kafe jika mengalami kendala login.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_05_e",
+        "label": "E",
+        "content": "Meninggalkan laptop dalam keadaan terbuka dan tidak terkunci saat pergi ke toilet.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_06",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang ASN menemukan berita yang viral di media sosial dengan judul heboh yang mengklaim pemerintah akan memotong saldo rekening tabungan PNS sebesar 15% untuk bayar utang negara. Langkah literasi informasi yang benar sebelum menyebarkan berita tersebut adalah...",
+    "imageUrl": null,
+    "explanation": "**Literasi Digital & Verifikasi Informasi (Fact Checking):**\nASN wajib menerapkan cek fakta (*fact checking*): memeriksa kredibilitas sumber berita, memverifikasi ke siaran pers resmi kementerian terkait, dan tidak ikut menyebarkan disinformasi (*hoaks*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_06_a",
+        "label": "A",
+        "content": "Langsung meneruskannya ke grup alumni dan grup keluarga agar semua orang waspada.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_06_b",
+        "label": "B",
+        "content": "Melakukan verifikasi fakta (*cross-check*) ke kanal resmi pemerintah (misal: situs Kemenkeu/Kominfo) dan tidak menyebarkan informasi sebelum terbukti valid.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_06_c",
+        "label": "C",
+        "content": "Menambahkan opini pribadi yang memperkeruh kepanikan warganet di kolom komentar.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_06_d",
+        "label": "D",
+        "content": "Segera menarik seluruh uang tabungan di bank tanpa mencari kejelasan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_06_e",
+        "label": "E",
+        "content": "Membuat video TikTok yang membenarkan isi berita tersebut.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_07",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Prinsip \"Satu Data Indonesia\" (SDI) yang diatur dalam Perpres No. 39 Tahun 2019 mensyaratkan bahwa setiap data yang diproduksi oleh instansi pemerintah harus memenuhi kriteria berikut, KECUALI...",
+    "imageUrl": null,
+    "explanation": "**Prinsip Satu Data Indonesia (SDI):**\nSesuai Pasal 5 Perpres No. 39/2019, prinsip SDI mencakup:\n1. Memenuhi Standar Data,\n2. Memiliki Metadata,\n3. Memenuhi Kaidah Interoperabilitas Data, dan\n4. Menggunakan Kode Referensi dan/atau Data Induk.\nPenyimpanan dalam format eksklusif berbayar yang tidak bisa dibaca sistem lain justru melanggar prinsip keterbukaan dan interoperabilitas.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_07_a",
+        "label": "A",
+        "content": "Memenuhi standar data",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_07_b",
+        "label": "B",
+        "content": "Memiliki metadata",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_07_c",
+        "label": "C",
+        "content": "Memenuhi kaidah interoperabilitas data",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_07_d",
+        "label": "D",
+        "content": "Wajib disimpan dalam format file tertutup berbayar yang tidak bisa diakses aplikasi lain",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_07_e",
+        "label": "E",
+        "content": "Menggunakan kode referensi dan/atau data induk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_08",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah dokumen draf Peraturan Daerah (Perda) yang masih dalam tahap pembahasan tertutup diunggah oleh staf ke platform penyimpanan awan (*cloud storage*) publik dengan setelan tautan \"Siapa saja yang memiliki link dapat melihat dan mengunduh\". Risiko terbesar dari tindakan tersebut adalah...",
+    "imageUrl": null,
+    "explanation": "**Keamanan Informasi & Hak Akses Dokumen:**\nKonfigurasi tautan terbuka (*public link*) membuka peluang kebocoran informasi prematur kepada publik yang dapat memicu polemik liar sebelum regulasi difinalisasi secara resmi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_08_a",
+        "label": "A",
+        "content": "Ukuran file dokumen di laptop staf akan bertambah dua kali lipat.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_08_b",
+        "label": "B",
+        "content": "Potensi kebocoran informasi dan akses tidak sah oleh pihak luar terhadap dokumen kebijakan yang belum resmi ditetapkan.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_08_c",
+        "label": "C",
+        "content": "Kecepatan internet kantor akan otomatis terputus.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_08_d",
+        "label": "D",
+        "content": "Dokumen tersebut akan otomatis hilang dari server dinas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_08_e",
+        "label": "E",
+        "content": "Komputer dinas akan mengalami mati total secara permanen.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_09",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam pembuatan kata sandi (*password*) akun aplikasi kepegawaian (SIMPEG/SIASN), kombinasi kata sandi manakah yang paling kuat (*strong password*) dan aman dari serangan peretasan brute force?",
+    "imageUrl": null,
+    "explanation": "**Standar Password Kuat (NIST Cybersecurity Guidelines):**\nPassword kuat harus memiliki panjang minimal 12 karakter dan kombinasi huruf kapital, huruf kecil, angka, serta simbol khusus, tanpa menggunakan informasi pribadi yang mudah ditebak (seperti tanggal lahir atau nama kota).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_09_a",
+        "label": "A",
+        "content": "1234567890",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_09_b",
+        "label": "B",
+        "content": "Jakarta2024",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_09_c",
+        "label": "C",
+        "content": "P@55w0rd!B1r0kr4s1#2026",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_09_d",
+        "label": "D",
+        "content": "adminadmin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_09_e",
+        "label": "E",
+        "content": "tanggal lahir diikuti nama anak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_10",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Penggunaan autentikasi dua faktor (*Two-Factor Authentication / 2FA*) pada aplikasi kedinasan ASN berfungsi untuk...",
+    "imageUrl": null,
+    "explanation": "**Fungsi Autentikasi Multi-Faktor (2FA/MFA):**\n2FA menambahkan lapisan keamanan kedua (seperti kode OTP melalui aplikasi authenticator atau SMS) sehingga peretas tidak dapat masuk meskipun berhasil mencuri kata sandi pengguna.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_10_a",
+        "label": "A",
+        "content": "Mempercepat kecepatan mengetik dokumen di komputer dinas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_10_b",
+        "label": "B",
+        "content": "Menambahkan lapisan perlindungan ekstra sehingga akun tidak dapat diakses hanya dengan kata sandi saja.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_10_c",
+        "label": "C",
+        "content": "Menghapus seluruh file sementara (cache) secara otomatis.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_10_d",
+        "label": "D",
+        "content": "Membuat tampilan antarmuka aplikasi menjadi lebih berwarna-warni.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_10_e",
+        "label": "E",
+        "content": "Menggantikan fungsi tanda tangan elektronik bersertifikat.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_11",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Saat menggunakan teknologi kecerdasan buatan generatif (seperti ChatGPT atau LLM lainnya) untuk membantu menyusun draf dokumen kedinasan, hal yang HARAM dilakukan oleh seorang ASN adalah...",
+    "imageUrl": null,
+    "explanation": "**Etika Penggunaan AI di Lingkungan Birokrasi:**\nMemasukkan data rahasia negara, dokumen sensitif yang belum diumumkan, data pribadi masyarakat (NIK, rekam medis), atau informasi rahasia dinas ke dalam prompt model AI publik melanggar UU PDP dan UU KIP karena data tersebut berpotensi disimpan dan dilatih oleh penyedia server luar negeri.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_11_a",
+        "label": "A",
+        "content": "Menggunakan AI untuk membetulkan kesalahan ejaan dan tata bahasa draf pidato.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_11_b",
+        "label": "B",
+        "content": "Meminta AI merangkum artikel jurnal ilmiah tentang tata kelola kota.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_11_c",
+        "label": "C",
+        "content": "Memasukkan dokumen rahasia negara, data pribadi NIK warga, atau draf investigasi audit ke dalam prompt AI publik.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_11_d",
+        "label": "D",
+        "content": "Menggunakan AI untuk mencari ide konsep tema spanduk hari ulang tahun instansi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_11_e",
+        "label": "E",
+        "content": "Memeriksa kembali (*fact-check*) kebenaran substansi jawaban yang dihasilkan AI.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_12",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Apa yang dimaksud dengan konsep *Zero Trust Architecture* dalam keamanan sistem informasi SPBE instansi pemerintah?",
+    "imageUrl": null,
+    "explanation": "**Konsep Keamanan Siber Modern (Zero Trust):**\nPrinsip *Zero Trust* berbunyi: *\"Never trust, always verify\"*. Sistem tidak mempercayai siapa pun secara otomatis, baik pengguna dari dalam kantor maupun luar jaringan kantor; setiap permintaan akses wajib diverifikasi secara ketat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_12_a",
+        "label": "A",
+        "content": "Pemerintah tidak mempercayai vendor mana pun dalam pengadaan komputer.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_12_b",
+        "label": "B",
+        "content": "Prinsip keamanan yang berasumsi tidak ada entitas yang dipercaya secara otomatis (*never trust, always verify*), sehingga setiap akses selalu diverifikasi berulang.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_12_c",
+        "label": "C",
+        "content": "Sistem yang tidak menggunakan kata sandi sama sekali.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_12_d",
+        "label": "D",
+        "content": "Penghapusan seluruh data digital setiap hari pukul 00.00 WIB.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_12_e",
+        "label": "E",
+        "content": "Larangan penggunaan gawai seluler bagi seluruh pegawai negeri.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_13",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah flashdisk dinas yang berisi salinan data arsip persuratan kantor terkena virus *ransomware*, sehingga seluruh file di dalamnya terkunci dengan ekstensi aneh dan muncul pesan pemerasan meminta tebusan uang kripto. Tindakan penanganan awal yang paling tepat adalah...",
+    "imageUrl": null,
+    "explanation": "**Insiden Siber Ransomware (Mitigasi Isolasi Cepat):**\nLangkah pertama saat komputer terinfeksi ransomware adalah mencabut jaringan (kabel LAN / Wi-Fi) dan melepas penyimpanan eksternal agar virus tidak menyebar ke komputer lain di jaringan dinas, lalu segera lapor ke tim IT/CSIRT.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_13_a",
+        "label": "A",
+        "content": "Segera mentransfer uang tebusan sesuai instruksi peretas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_13_b",
+        "label": "B",
+        "content": "Segera memutuskan koneksi perangkat dari jaringan kantor (cabut kabel LAN/matikan Wi-Fi), tidak mencolokkan flashdisk ke komputer lain, dan melaporkan ke tim penanganan insiden siber (CSIRT).",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_13_c",
+        "label": "C",
+        "content": "Mencolokkan flashdisk tersebut ke laptop pimpinan untuk meminta pertolongan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_13_d",
+        "label": "D",
+        "content": "Mengganti nama file yang terkunci satu per satu secara manual.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_13_e",
+        "label": "E",
+        "content": "Mendiamkan saja dan menyembunyikan flashdisk tersebut di laci.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_14",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pusat Data Nasional (PDN) yang dibangun oleh pemerintah dalam ekosistem SPBE berfungsi untuk...",
+    "imageUrl": null,
+    "explanation": "**Fungsi Pusat Data Nasional (PDN):**\nPDN mengintegrasikan infrastruktur data terpusat bagi kementerian/lembaga/daerah, meningkatkan efisiensi belanja infrastruktur server, dan menjamin standar keamanan siber yang seragam secara nasional.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_14_a",
+        "label": "A",
+        "content": "Menjual data kependudukan Indonesia kepada perusahaan e-commerce internasional.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_14_b",
+        "label": "B",
+        "content": "Mengonsolidasikan pusat data instansi pemerintah yang tersebar menjadi satu infrastruktur terpadu, efisien, aman, dan berstandar global.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_14_c",
+        "label": "C",
+        "content": "Menggantikan seluruh pegawai negeri dengan robot kecerdasan buatan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_14_d",
+        "label": "D",
+        "content": "Menyediakan film dan hiburan gratis bagi seluruh masyarakat.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_14_e",
+        "label": "E",
+        "content": "Menutup seluruh akses internet internasional di wilayah Indonesia.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_dig_15",
+    "topicId": "top_prof_literasi_digital",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Etika bermedia sosial bagi aparatur negara sesuai Surat Edaran MenPAN-RB mengatur bahwa dalam aktivitas digital di ruang publik maya, seorang ASN wajib...",
+    "imageUrl": null,
+    "explanation": "**Etika Digital Aparatur Sipil Negara:**\nASN harus menjunjung netralitas politik, menjaga rahasia jabatan, tidak menyebarkan kebencian/hoaks, serta mengedepankan kesantunan dan citra positif abdi negara di media sosial.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_dig_15_a",
+        "label": "A",
+        "content": "Menunjukkan gaya hidup mewah (*flexing*) untuk menaikkan prestise kantor dinas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_dig_15_b",
+        "label": "B",
+        "content": "Ikut mengampanyekan pasangan calon kepala daerah atau calon presiden di media sosial.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_dig_15_c",
+        "label": "C",
+        "content": "Menjaga netralitas, tidak menyebarkan ujaran kebencian/hoaks, melindungi rahasia jabatan, dan memperkuat citra profesional institusi pemerintah.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_dig_15_d",
+        "label": "D",
+        "content": "Membocorkan draf SK mutasi pegawai ke akun gosip media sosial.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_dig_15_e",
+        "label": "E",
+        "content": "Menyerang kebijakan instansi lain di kolom komentar akun kementerian.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

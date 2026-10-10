@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "q_0261_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Huruf-huruf pada kata BELAJAR ditulis berulang membentuk barisan BELAJARBELA... Huruf ke-520 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 7 huruf. 520 ÷ 7 = 74 sisa 2, jadi huruf ke-520 sama dengan huruf ke-2, yaitu E.\nJawaban: D. E",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0261_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0261_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0261_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "L",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0261_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "E",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0262_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pola titik membentuk segitiga: 1, 3, 6, 10, ... Susunan dengan 45 titik adalah gambar ke- ...",
+    "imageUrl": null,
+    "explanation": "Cari n dengan n × (n + 1) ÷ 2 = 45. Untuk n = 9: 9 × 10 ÷ 2 = 45. Jadi gambar ke-9.\nJawaban: A. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0262_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0262_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0262_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0262_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0263_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Suatu barisan aritmetika memiliki suku pertama 7 dan beda 7. Suku ke berapakah yang bernilai 91?",
+    "imageUrl": null,
+    "explanation": "91 = 7 + 7 × (n − 1) → 7 × (n − 1) = 84 → n − 1 = 12 → n = 13.\nJawaban: D. 13",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0263_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0263_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0263_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0263_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0264_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan: 2, 4, 8, 16, ... Suku ke-8 adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap suku dikalikan 2. Suku ke-8 = 2 × 2^7 = 2 × 128 = 256.\nJawaban: C. 256",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0264_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "128",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0264_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0264_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "256",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0264_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "512",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0265_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola bilangan segitiga: 1, 3, 6, 10, 15, ... Suku ke-18 adalah ...",
+    "imageUrl": null,
+    "explanation": "Suku ke-n = n × (n + 1) ÷ 2 = 18 × 19 ÷ 2 = 171.\nJawaban: D. 171",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0265_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "342",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0265_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "324",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0265_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "189",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0265_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "171",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0266_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan: 6, 12, 24, 48, ... Suku ke-6 adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap suku dikalikan 2. Suku ke-6 = 6 × 2^5 = 6 × 32 = 192.\nJawaban: D. 192",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0266_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0266_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "96",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0266_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "384",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0266_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "192",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0267_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Susunan batang korek api membentuk pola: gambar ke-1 memakai 6 batang, gambar ke-2 memakai 8 batang, gambar ke-3 memakai 10 batang. Gambar ke-13 memakai ... batang.",
+    "imageUrl": null,
+    "explanation": "Setiap gambar bertambah 2 batang, jadi gambar ke-n memakai 6 + 2 × (n − 1) batang.\nGambar ke-13 = 6 + 2 × 12 = 6 + 24 = 30 batang.\nJawaban: C",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0267_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0267_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0267_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0267_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "78",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0268_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Huruf-huruf pada kata JUARA ditulis berulang membentuk barisan JUARAJUAR... Huruf ke-1086 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 5 huruf. 1086 ÷ 5 = 217 sisa 1, jadi huruf ke-1086 sama dengan huruf ke-1, yaitu J.\nJawaban: B. J",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0268_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "U",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0268_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "J",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0268_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "R",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0268_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0269_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pola titik membentuk segitiga: 1, 3, 6, 10, ... Susunan dengan 36 titik adalah gambar ke- ...",
+    "imageUrl": null,
+    "explanation": "Cari n dengan n × (n + 1) ÷ 2 = 36. Untuk n = 8: 8 × 9 ÷ 2 = 36. Jadi gambar ke-8.\nJawaban: D. 8",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0269_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0269_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0269_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0269_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0270_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Susunan batang korek api membentuk pola: gambar ke-1 memakai 3 batang, gambar ke-2 memakai 5 batang, gambar ke-3 memakai 7 batang. Gambar ke-13 memakai ... batang.",
+    "imageUrl": null,
+    "explanation": "Setiap gambar bertambah 2 batang, jadi gambar ke-n memakai 3 + 2 × (n − 1) batang.\nGambar ke-13 = 3 + 2 × 12 = 3 + 24 = 27 batang.\nJawaban: D",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0270_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0270_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0270_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0270_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0271_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Susunan batang korek api membentuk pola: gambar ke-1 memakai 4 batang, gambar ke-2 memakai 6 batang, gambar ke-3 memakai 8 batang. Gambar ke-15 memakai ... batang.",
+    "imageUrl": null,
+    "explanation": "Setiap gambar bertambah 2 batang, jadi gambar ke-n memakai 4 + 2 × (n − 1) batang.\nGambar ke-15 = 4 + 2 × 14 = 4 + 28 = 32 batang.\nJawaban: A",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0271_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0271_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0271_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0271_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0272_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan berulang: 2, 5, 7, 1, 2, 5, 7, 1, ... Suku ke-1370 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 4 suku. 1370 ÷ 4 bersisa 2, jadi suku ke-1370 sama dengan suku ke-2, yaitu 5.\nJawaban: B. 5",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0272_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0272_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0272_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0272_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0273_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Susunan batang korek api membentuk pola: gambar ke-1 memakai 5 batang, gambar ke-2 memakai 7 batang, gambar ke-3 memakai 9 batang. Gambar ke-16 memakai ... batang.",
+    "imageUrl": null,
+    "explanation": "Setiap gambar bertambah 2 batang, jadi gambar ke-n memakai 5 + 2 × (n − 1) batang.\nGambar ke-16 = 5 + 2 × 15 = 5 + 30 = 35 batang.\nJawaban: D",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0273_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0273_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0273_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0273_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0274_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola bilangan segitiga: 1, 3, 6, 10, 15, ... Suku ke-19 adalah ...",
+    "imageUrl": null,
+    "explanation": "Suku ke-n = n × (n + 1) ÷ 2 = 19 × 20 ÷ 2 = 190.\nJawaban: B. 190",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0274_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "380",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0274_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "190",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0274_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "361",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0274_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "209",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0275_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola bilangan segitiga: 1, 3, 6, 10, 15, ... Suku ke-15 adalah ...",
+    "imageUrl": null,
+    "explanation": "Suku ke-n = n × (n + 1) ÷ 2 = 15 × 16 ÷ 2 = 120.\nJawaban: C. 120",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0275_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "240",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0275_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "225",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0275_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "120",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0275_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "135",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0276_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Susunan batang korek api membentuk pola: gambar ke-1 memakai 5 batang, gambar ke-2 memakai 8 batang, gambar ke-3 memakai 11 batang. Gambar ke-17 memakai ... batang.",
+    "imageUrl": null,
+    "explanation": "Setiap gambar bertambah 3 batang, jadi gambar ke-n memakai 5 + 3 × (n − 1) batang.\nGambar ke-17 = 5 + 3 × 16 = 5 + 48 = 53 batang.\nJawaban: D",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0276_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "85",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0276_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0276_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0276_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "53",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0277_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola bilangan segitiga: 1, 3, 6, 10, 15, ... Suku ke-11 adalah ...",
+    "imageUrl": null,
+    "explanation": "Suku ke-n = n × (n + 1) ÷ 2 = 11 × 12 ÷ 2 = 66.\nJawaban: D. 66",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0277_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "121",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0277_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "132",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0277_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0277_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0278_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Huruf-huruf pada kata JUARA ditulis berulang membentuk barisan JUARAJUAR... Huruf ke-1297 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 5 huruf. 1297 ÷ 5 = 259 sisa 2, jadi huruf ke-1297 sama dengan huruf ke-2, yaitu U.\nJawaban: B. U",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0278_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "J",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0278_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "U",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0278_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0278_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "R",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0279_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Huruf-huruf pada kata BERHITUNG ditulis berulang membentuk barisan BERHITUNGBERH... Huruf ke1914 adalah ...",
+    "imageUrl": null,
+    "explanation": "Huruf-huruf pada kata BERHITUNG ditulis berulang membentuk barisan BERHITUNGBERH... Huruf ke-1914 adalah ...\nPola berulang setiap 9 huruf. 1914 ÷ 9 = 212 sisa 6, jadi huruf ke-1914 sama dengan huruf ke-6, yaitu T.\nJawaban: A. T",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0279_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "T",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0279_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "E",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0279_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "R",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0279_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0280_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Susunan batang korek api membentuk pola: gambar ke-1 memakai 3 batang, gambar ke-2 memakai 5 batang, gambar ke-3 memakai 7 batang. Gambar ke-17 memakai ... batang.",
+    "imageUrl": null,
+    "explanation": "Setiap gambar bertambah 2 batang, jadi gambar ke-n memakai 3 + 2 × (n − 1) batang.\nGambar ke-17 = 3 + 2 × 16 = 3 + 32 = 35 batang.\nJawaban: A",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0280_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0280_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "51",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0280_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0280_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0281_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola bilangan segitiga: 1, 3, 6, 10, 15, ... Suku ke-8 adalah ...",
+    "imageUrl": null,
+    "explanation": "Suku ke-n = n × (n + 1) ÷ 2 = 8 × 9 ÷ 2 = 36.\nJawaban: B. 36",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0281_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0281_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0281_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0281_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0282_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pola titik membentuk segitiga: 1, 3, 6, 10, ... Susunan dengan 91 titik adalah gambar ke- ...",
+    "imageUrl": null,
+    "explanation": "Cari n dengan n × (n + 1) ÷ 2 = 91. Untuk n = 13: 13 × 14 ÷ 2 = 91. Jadi gambar ke-13.\nJawaban: D. 13",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0282_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0282_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0282_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0282_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0283_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pola titik membentuk segitiga: 1, 3, 6, 10, ... Susunan dengan 55 titik adalah gambar ke- ...",
+    "imageUrl": null,
+    "explanation": "Cari n dengan n × (n + 1) ÷ 2 = 55. Untuk n = 10: 10 × 11 ÷ 2 = 55. Jadi gambar ke-10.\nJawaban: A. 10",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0283_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0283_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0283_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0283_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0284_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola: 3, 6, 10, 15, 21, ... Suku ke-7 adalah ...",
+    "imageUrl": null,
+    "explanation": "Selisihnya bertambah satu setiap langkah. Melanjutkan pola sampai suku ke-7 diperoleh 3, 6, 10, 15, 21, 28, 36.\nJadi suku ke-7 = 36.\nJawaban: A. 36",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0284_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0284_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0284_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0284_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "43",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0285_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola bilangan segitiga: 1, 3, 6, 10, 15, ... Suku ke-20 adalah ...",
+    "imageUrl": null,
+    "explanation": "Suku ke-n = n × (n + 1) ÷ 2 = 20 × 21 ÷ 2 = 210.\nJawaban: D. 210",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0285_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "400",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0285_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "420",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0285_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "230",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0285_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "210",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0286_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan: 2, 4, 8, 16, ... Suku ke-7 adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap suku dikalikan 2. Suku ke-7 = 2 × 2^6 = 2 × 64 = 128.\nJawaban: A. 128",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0286_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "128",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0286_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0286_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0286_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "256",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0287_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan berulang: 1, 5, 7, 8, 3, 1, 5, 7, 8, 3, ... Suku ke-326 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 5 suku. 326 ÷ 5 bersisa 1, jadi suku ke-326 sama dengan suku ke-1, yaitu 1.\nJawaban: C. 1",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0287_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0287_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0287_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0287_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0288_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Huruf-huruf pada kata SEMANGAT ditulis berulang membentuk barisan SEMANGATSEMA... Huruf ke-1210 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 8 huruf. 1210 ÷ 8 = 151 sisa 2, jadi huruf ke-1210 sama dengan huruf ke-2, yaitu E.\nJawaban: D. E",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0288_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0288_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "M",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0288_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "S",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0288_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "E",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0289_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Huruf-huruf pada kata SEMANGAT ditulis berulang membentuk barisan SEMANGATSEMA... Huruf ke-551 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 8 huruf. 551 ÷ 8 = 68 sisa 7, jadi huruf ke-551 sama dengan huruf ke-7, yaitu A.\nJawaban: D. A",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0289_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "M",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0289_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "E",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0289_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "S",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0289_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0290_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan: 3, 6, 12, 24, ... Suku ke-8 adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap suku dikalikan 2. Suku ke-8 = 3 × 2^7 = 3 × 128 = 384.\nJawaban: B. 384",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0290_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "768",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0290_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "384",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0290_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "192",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0290_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0291_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan berulang: 8, 3, 6, 7, 8, 3, 6, 7, ... Suku ke-1536 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 4 suku. 1536 ÷ 4 bersisa 4, jadi suku ke-1536 sama dengan suku ke-4, yaitu 7.\nJawaban: C. 7",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0291_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0291_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0291_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0291_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0292_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola: 1, 4, 9, 16, 25, ... Suku ke-9 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola bilangan kuadrat: suku ke-n = n × n = 9 × 9 = 81.\nJawaban: D. 81",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0292_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0292_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0292_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0292_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "81",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0293_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Suatu barisan aritmetika memiliki suku pertama 6 dan beda 4. Suku ke berapakah yang bernilai 54?",
+    "imageUrl": null,
+    "explanation": "54 = 6 + 4 × (n − 1) → 4 × (n − 1) = 48 → n − 1 = 12 → n = 13.\nJawaban: C. 13",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0293_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0293_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0293_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0293_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0294_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pola titik membentuk segitiga: 1, 3, 6, 10, ... Susunan dengan 78 titik adalah gambar ke- ...",
+    "imageUrl": null,
+    "explanation": "Cari n dengan n × (n + 1) ÷ 2 = 78. Untuk n = 12: 12 × 13 ÷ 2 = 78. Jadi gambar ke-12.\nJawaban: C. 12",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0294_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0294_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0294_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0294_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0295_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan: 4, 8, 16, 32, ... Suku ke-6 adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap suku dikalikan 2. Suku ke-6 = 4 × 2^5 = 4 × 32 = 128.\nJawaban: A. 128",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0295_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "128",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0295_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "256",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0295_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0295_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0296_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan: 5, 10, 20, 40, ... Suku ke-6 adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap suku dikalikan 2. Suku ke-6 = 5 × 2^5 = 5 × 32 = 160.\nJawaban: B. 160",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0296_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0296_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "160",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0296_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "320",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0296_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0297_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan: 4, 8, 16, 32, ... Suku ke-5 adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap suku dikalikan 2. Suku ke-5 = 4 × 2^4 = 4 × 16 = 64.\nJawaban: A. 64",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0297_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0297_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0297_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "128",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0297_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0298_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Susunan batang korek api membentuk pola: gambar ke-1 memakai 4 batang, gambar ke-2 memakai 6 batang, gambar ke-3 memakai 8 batang. Gambar ke-18 memakai ... batang.",
+    "imageUrl": null,
+    "explanation": "Barisan susunan korek api membentuk pola aritmetika:\n- Suku pertama ($a$) $= 4$\n- Beda antar pola ($b$) $= 6 - 4 = 2$\nRumus suku ke-$n$ ($U_n$):\n$$U_n = a + (n - 1)b = 4 + (n - 1) \\times 2 = 2n + 2$$\nUntuk gambar ke-18 ($n = 18$):\n$$U_{18} = 2(18) + 2 = 36 + 2 = 38 \\text{ batang}$$.\n\nKunci Jawaban: **A (38)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0298_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0298_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0298_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0298_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0299_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola: 1, 4, 9, 16, 25, ... Suku ke-15 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola bilangan kuadrat: suku ke-n = n × n = 15 × 15 = 225.\nJawaban: C. 225",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0299_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0299_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "196",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0299_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "225",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0299_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "256",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0300_barisan-pola-ba",
+    "topicId": "top_olimpiade-matematika-sd_barisan-pola",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Suatu barisan aritmetika memiliki suku pertama 9 dan beda 7. Suku ke berapakah yang bernilai 114?",
+    "imageUrl": null,
+    "explanation": "114 = 9 + 7 × (n − 1) → 7 × (n − 1) = 105 → n − 1 = 15 → n = 16.\nJawaban: B. 16",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0300_barisan-pola-ba_0_A",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0300_barisan-pola-ba_1_B",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0300_barisan-pola-ba_2_C",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0300_barisan-pola-ba_3_D",
+        "label": "D",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

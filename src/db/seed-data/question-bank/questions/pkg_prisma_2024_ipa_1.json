@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "q_prisma24_ipa1_01",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kelelawar disebut hewan nokturnal, artinya ....",
+    "imageUrl": null,
+    "explanation": "Hewan nokturnal adalah hewan yang beristirahat atau tidur pada siang hari dan aktif beraktivitas (mencari makan) pada malam hari. Contohnya kelelawar, burung hantu, dan kukang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_01_a",
+        "label": "A",
+        "content": "hewan mamalia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_01_b",
+        "label": "B",
+        "content": "hewan yang memiliki kemampuan terbang di malam hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_01_c",
+        "label": "C",
+        "content": "hewan yang memiliki penglihatan yang tajam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_01_d",
+        "label": "D",
+        "content": "hewan yang tidur di siang hari dan aktif di malam hari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_02",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kemampuan yang dimiliki hewan untuk menyamarkan keberadaannya dengan mengubah warna kulitnya sesuai lingkungan sekitar disebut ....",
+    "imageUrl": null,
+    "explanation": "Mimikri adalah kemampuan adaptasi tingkah laku hewan yang mengubah warna kulitnya menyerupai lingkungan sekitar guna mengelabui musuh atau mangsa (contoh: bunglon).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_02_a",
+        "label": "A",
+        "content": "Mimikri",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_02_b",
+        "label": "B",
+        "content": "Hibernasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_02_c",
+        "label": "C",
+        "content": "Autotomi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_02_d",
+        "label": "D",
+        "content": "Ekolokasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_03",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Cicak memiliki kemampuan khusus yaitu dapat memutuskan ekornya secara tiba-tiba. Kemampuan ini membantu cicak untuk ....",
+    "imageUrl": null,
+    "explanation": "Autotomi adalah pelepasan ekor secara spontan oleh cicak saat terancam agar pemangsa terkecoh oleh kibasan ekor yang terputus, sehingga cicak dapat melarikan diri.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_03_a",
+        "label": "A",
+        "content": "menarik lawan jenis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_03_b",
+        "label": "B",
+        "content": "memancing mangsanya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_03_c",
+        "label": "C",
+        "content": "mencari mangsa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_03_d",
+        "label": "D",
+        "content": "menghindari ancaman musuh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_04",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berikut ini contoh kelompok hewan yang berkembang biak dengan cara bertelur (ovipar) adalah ....",
+    "imageUrl": null,
+    "explanation": "Hewan ovipar berkembang biak dengan bertelur. Contoh hewan ovipar adalah bangsa unggas (ayam, itik, burung), reptil (penyu, buaya), dan ikan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_04_a",
+        "label": "A",
+        "content": "Ayam, itik, dan penyu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_04_b",
+        "label": "B",
+        "content": "Kucing, kambing, dan sapi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_04_c",
+        "label": "C",
+        "content": "Kera, lumba-lumba, dan paus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_04_d",
+        "label": "D",
+        "content": "Kelinci, tikus, dan marmut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_05",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Teratai dan Eceng Gondok dapat bernafas dan bertahan hidup meskipun batang dan akarnya berada di dalam air. Hal ini disebabkan karena ..........",
+    "imageUrl": null,
+    "explanation": "Batang dan tangkai daun eceng gondok serta teratai memiliki struktur aerenkim (rongga-rongga udara) yang berfungsi menyalurkan oksigen dari udara bebas ke organ tanaman yang terendam air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_05_a",
+        "label": "A",
+        "content": "memiliki rongga-rongga udara pada batang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_05_b",
+        "label": "B",
+        "content": "memiliki daun lebar yang mengapung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_05_c",
+        "label": "C",
+        "content": "memiliki bunga yang tumbuh di atas permukaan air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_05_d",
+        "label": "D",
+        "content": "memiliki batang berair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_06",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tumbuhan ini mengatupkan daunnya jika disentuh. Tumbuhan yang memiliki ciri tersebut adalah ....",
+    "imageUrl": null,
+    "explanation": "Putri malu (*Mimosa pudica*) menunjukkan gerak seismonasti/tigmonasti, yaitu mengatupkan anak-anak daunnya saat menerima rangsangan sentuhan mekanis.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_06_a",
+        "label": "A",
+        "content": "Anggrek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_06_b",
+        "label": "B",
+        "content": "Tali putri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_06_c",
+        "label": "C",
+        "content": "Putri malu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_06_d",
+        "label": "D",
+        "content": "Mawar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_07",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kaktus tetap dapat melakukan fotosintesis meskipun daunnya berbentuk duri karena kaktus mempunyai ....",
+    "imageUrl": null,
+    "explanation": "Daun kaktus termodifikasi menjadi duri untuk meminimalkan transpirasi (penguapan). Fungsi fotosintesis digantikan oleh batangnya yang tebal sukulen dan mengandung banyak klorofil.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_07_a",
+        "label": "A",
+        "content": "Nektar pada bunga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_07_b",
+        "label": "B",
+        "content": "Lapisan lilin pada akar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_07_c",
+        "label": "C",
+        "content": "Nutrisi dari serangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_07_d",
+        "label": "D",
+        "content": "Klorofil pada batangnya yang hijau dan tebal",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_08",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tumbuhan sangat bermanfaat bagi kehidupan manusia, contohnya adalah tumbuhan Jahe dan Kunyit yang banyak dimanfaatkan manusia untuk bahan ….",
+    "imageUrl": null,
+    "explanation": "Jahe dan kunyit merupakan tanaman obat keluarga (TOGA) / biofarmaka yang mengandung minyak atsiri dan kurkuminoid sebagai bahan obat tradisional dan jamu herbal.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_08_a",
+        "label": "A",
+        "content": "Pakaian",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_08_b",
+        "label": "B",
+        "content": "Obat-obatan dan jamu tradisional",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_08_c",
+        "label": "C",
+        "content": "Bahan bangunan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_08_d",
+        "label": "D",
+        "content": "Pewarna kimia sintetis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_09",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tumbuhan di bawah ini yang dimanfaatkan manusia karena menghasilkan bahan makanan pokok adalah ….",
+    "imageUrl": null,
+    "explanation": "Padi (*Oryza sativa*) menghasilkan butir gabah yang digiling menjadi beras, sumber karbohidrat dan makanan pokok masyarakat Indonesia.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_09_a",
+        "label": "A",
+        "content": "Rotan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_09_b",
+        "label": "B",
+        "content": "Jati",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_09_c",
+        "label": "C",
+        "content": "Cemara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_09_d",
+        "label": "D",
+        "content": "Padi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_10",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tumbuhan bermanfaat untuk sistem pernafasan manusia, karena saat fotosintesis tumbuhan mampu menghasilkan ….",
+    "imageUrl": null,
+    "explanation": "Reaksi fotosintesis: $6CO_2 + 6H_2O \\xrightarrow{cahaya, klorofil} C_6H_{12}O_6 + 6O_2$. Oksigen ($O_2$) dilepaskan ke udara bebas dan dihirup oleh manusia dan hewan untuk respirasi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_10_a",
+        "label": "A",
+        "content": "Buah-buahan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_10_b",
+        "label": "B",
+        "content": "Gas Nitrogen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_10_c",
+        "label": "C",
+        "content": "Gas Oksigen ($O_2$)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_10_d",
+        "label": "D",
+        "content": "Gas Karbondioksida",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_11",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pak Darori menebang pohon jati untuk dijadikan tiang di rumahnya. Hal ini menunjukkan bahwa tumbuhan dapat dimanfaatkan sebagai ….",
+    "imageUrl": null,
+    "explanation": "Kayu jati terkenal sangat kuat, kokoh, dan tahan terhadap serangan rayap maupun pelapukan, sehingga sangat baik dimanfaatkan sebagai bahan bangunan dan perabot.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_11_a",
+        "label": "A",
+        "content": "Bahan hiasan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_11_b",
+        "label": "B",
+        "content": "Bahan bakar roket",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_11_c",
+        "label": "C",
+        "content": "Bahan bangunan dan konstruksi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_11_d",
+        "label": "D",
+        "content": "Tempat berteduh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_12",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perkembangbiakan hewan dimana terjadi peleburan sel kelamin jantan (sperma) dan sel kelamin betina (ovum) disebut perkembangbiakan …",
+    "imageUrl": null,
+    "explanation": "Perkembangbiakan secara kawin/seksual yang melibatkan peleburan gamet jantan dan gamet betina dinamakan perkembangbiakan generatif.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_12_a",
+        "label": "A",
+        "content": "Generatif (seksual)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_12_b",
+        "label": "B",
+        "content": "Vegetatif (aseksual)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_12_c",
+        "label": "C",
+        "content": "Membelah diri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_12_d",
+        "label": "D",
+        "content": "Fragmentasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_13",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Fungsi utama organ bunga pada tumbuhan berbiji adalah ...",
+    "imageUrl": null,
+    "explanation": "Bunga adalah alat perkembangbiakan generatif tumbuhan yang memiliki benang sari (organ jantan) dan putik (organ betina) tempat berlangsungnya polinasi dan fertilisasi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_13_a",
+        "label": "A",
+        "content": "Menyerap gas karbon dioksida",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_13_b",
+        "label": "B",
+        "content": "Tempat terjadinya peristiwa penyerbukan dan pembuahan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_13_c",
+        "label": "C",
+        "content": "Menyerap air dan garam mineral tanah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_13_d",
+        "label": "D",
+        "content": "Menyimpan cadangan udara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_14",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di bawah ini yang merupakan fungsi utama akar pada tumbuhan adalah ...",
+    "imageUrl": null,
+    "explanation": "Akar berfungsi menyerap air dan larutan garam hara dari tanah, menopang kekokohan batang, serta pada beberapa tanaman berfungsi sebagai tempat menyimpan cadangan makanan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_14_a",
+        "label": "A",
+        "content": "Mengolah makanan hasil fotosintesis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_14_b",
+        "label": "B",
+        "content": "Menghirup gas karbon dioksida",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_14_c",
+        "label": "C",
+        "content": "Menyerap air dan zat hara dari tanah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_14_d",
+        "label": "D",
+        "content": "Menghasilkan biji bakal tanaman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_15",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bagian jaringan tumbuhan yang bertugas mengangkut zat makanan hasil fotosintesis dari daun ke seluruh tubuh tumbuhan adalah ...",
+    "imageUrl": null,
+    "explanation": "Floem mengangkut hasil fotosintesis (sukrosa dan asam amino) dari daun ke seluruh bagian tanaman. Xilem mengangkut air dan mineral dari akar ke daun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_15_a",
+        "label": "A",
+        "content": "Epidermis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_15_b",
+        "label": "B",
+        "content": "Xilem (pembuluh kayu)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_15_c",
+        "label": "C",
+        "content": "Floem (pembuluh tapis)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_15_d",
+        "label": "D",
+        "content": "Kambium",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_16",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hewan serangga seperti belalang dan jangkrik bernafas dengan menggunakan organ ….",
+    "imageUrl": null,
+    "explanation": "Sistem pernapasan serangga (insekta) menggunakan pembuluh trakea yang bercabang-cabang ke seluruh jaringan tubuh dengan lubang pernapasan bernama spirakel (stigma).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_16_a",
+        "label": "A",
+        "content": "Insang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_16_b",
+        "label": "B",
+        "content": "Paru-paru buku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_16_c",
+        "label": "C",
+        "content": "Trakea",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_16_d",
+        "label": "D",
+        "content": "Permukaan kulit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_17",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Organ pencernaan manusia yang berfungsi utama menyerap sari-sari makanan ke dalam aliran darah adalah …",
+    "imageUrl": null,
+    "explanation": "Penyerapan nutrisi (asam amino, glukosa, asam lemak, vitamin) terjadi pada dinding usus halus (terutama ileum dan jejunum) yang dipenuhi vili (jonjot usus).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_17_a",
+        "label": "A",
+        "content": "Usus halus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_17_b",
+        "label": "B",
+        "content": "Usus besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_17_c",
+        "label": "C",
+        "content": "Lambung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_17_d",
+        "label": "D",
+        "content": "Kerongkongan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_18",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hewan yang menghasilkan telur, namun embrio berkembang di dalam telur yang tetap berada di tubuh induknya sampai menetas dan keluar seperti melahirkan disebut hewan ….",
+    "imageUrl": null,
+    "explanation": "Hewan ovovivipar bertelur dan melahirkan. Embrio memperoleh nutrisi dari kuning telur di dalam tubuh induknya hingga menetas dan dilahirkan (contoh: hiu, beberapa jenis ular dan kadal).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_18_a",
+        "label": "A",
+        "content": "Vivipar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_18_b",
+        "label": "B",
+        "content": "Ovipar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_18_c",
+        "label": "C",
+        "content": "Herbivora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_18_d",
+        "label": "D",
+        "content": "Ovovivipar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_19",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pada saat seorang pemain sepak bola menendang bola ke gawang, terjadi perubahan energi ...",
+    "imageUrl": null,
+    "explanation": "Energi kimia dari asupan makanan dalam otot tubuh dikonversikan menjadi energi kinetik (gerak) pada kaki dan bola yang melesat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_19_a",
+        "label": "A",
+        "content": "Energi kimia menjadi energi gravitasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_19_b",
+        "label": "B",
+        "content": "Energi kimia menjadi energi gerak (kinetik)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_19_c",
+        "label": "C",
+        "content": "Energi panas menjadi energi bunyi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_19_d",
+        "label": "D",
+        "content": "Energi angin menjadi energi pegas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_20",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bentuk sumber energi berikut yang termasuk energi alternatif ramah lingkungan dan terbarukan adalah...",
+    "imageUrl": null,
+    "explanation": "Energi air (hidroelektrik) dan energi matahari (solar) adalah sumber energi baru terbarukan (EBT) yang tidak akan habis dan tidak menghasilkan polusi gas rumah kaca berlebih.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_20_a",
+        "label": "A",
+        "content": "Energi air dan energi batu bara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_20_b",
+        "label": "B",
+        "content": "Energi minyak bumi dan energi matahari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_20_c",
+        "label": "C",
+        "content": "Energi air dan energi matahari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_20_d",
+        "label": "D",
+        "content": "Energi gas alam dan energi batu bara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_21",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketapel dapat melontarkan batu kecil dengan kecepatan tinggi karena memanfaatkan sifat elastisitas...",
+    "imageUrl": null,
+    "explanation": "Karet ketapel yang ditarik mengalami pertambahan panjang dan menyimpan energi potensial pegas. Saat dilepaskan, gaya pegas melontarkan batu ke depan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_21_a",
+        "label": "A",
+        "content": "Gaya pegas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_21_b",
+        "label": "B",
+        "content": "Gaya gesek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_21_c",
+        "label": "C",
+        "content": "Gaya listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_21_d",
+        "label": "D",
+        "content": "Gaya magnet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_22",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pada siang hari, bumi mendapatkan pancaran energi cahaya dan panas terbesar yang berasal dari...",
+    "imageUrl": null,
+    "explanation": "Matahari adalah bintang induk tata surya kita yang memancarkan energi foton cahaya dan radiasi termal secara terus-menerus.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_22_a",
+        "label": "A",
+        "content": "Bumi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_22_b",
+        "label": "B",
+        "content": "Bulan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_22_c",
+        "label": "C",
+        "content": "Matahari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_22_d",
+        "label": "D",
+        "content": "Komet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_23",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Matahari memancarkan dua bentuk energi utama yang dapat dirasakan langsung di permukaan bumi, yaitu energi ...",
+    "imageUrl": null,
+    "explanation": "Energi radiasi surya yang sampai ke bumi berwujud spektrum cahaya tampak dan radiasi gelombang termal (panas).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_23_a",
+        "label": "A",
+        "content": "Cahaya dan listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_23_b",
+        "label": "B",
+        "content": "Panas dan listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_23_c",
+        "label": "C",
+        "content": "Cahaya dan panas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_23_d",
+        "label": "D",
+        "content": "Panas dan bunyi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_24",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pada kipas angin listrik yang sedang menyala, terjadi perubahan bentuk energi dari energi listrik menjadi energi ...",
+    "imageUrl": null,
+    "explanation": "Motor listrik pada kumparan kipas angin mengubah energi listrik menjadi gaya magnet yang memutar rotor (energi gerak baling-baling).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_24_a",
+        "label": "A",
+        "content": "Gerak (kinetik)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_24_b",
+        "label": "B",
+        "content": "Kimia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_24_c",
+        "label": "C",
+        "content": "Cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_24_d",
+        "label": "D",
+        "content": "Potensial gravitasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_25",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Proses perubahan wujud zat dari padat langsung menjadi gas tanpa melalui fase cair disebut...",
+    "imageUrl": null,
+    "explanation": "Menyublim (sublimasi) adalah perubahan fase padat ke gas, seperti pada kapur barus (*kamper*) dan es kering (*dry ice*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_25_a",
+        "label": "A",
+        "content": "Kondensasi (mengembun)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_25_b",
+        "label": "B",
+        "content": "Evaporasi (menguap)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_25_c",
+        "label": "C",
+        "content": "Sublimasi (menyublim)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_25_d",
+        "label": "D",
+        "content": "Mencair (melebur)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_26",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Banu membeli es krim di terik siang hari. Jika dibiarkan di tempat terbuka, es krim tersebut akan berubah wujud melalui proses....",
+    "imageUrl": null,
+    "explanation": "Es krim padat menyerap kalor dari udara luar bersuhu lebih tinggi sehingga mencair menjadi cairan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_26_a",
+        "label": "A",
+        "content": "Membeku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_26_b",
+        "label": "B",
+        "content": "Mencair (melebur)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_26_c",
+        "label": "C",
+        "content": "Menguap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_26_d",
+        "label": "D",
+        "content": "Menyublim",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_27",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Adonan agar-agar yang baru dimasak berwujud cair panas. Setelah didiamkan beberapa saat hingga dingin, agar-agar berubah menjadi padat kenyal karena peristiwa....",
+    "imageUrl": null,
+    "explanation": "Agar-agar melepaskan kalor ke udara sekitar saat suhunya mendingin, menyebabkan molekul gel merapat dan mengalami proses pembekuan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_27_a",
+        "label": "A",
+        "content": "Membeku (pemadatan)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_27_b",
+        "label": "B",
+        "content": "Mencair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_27_c",
+        "label": "C",
+        "content": "Menguap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_27_d",
+        "label": "D",
+        "content": "Menyublim",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_28",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu memasak nasi goreng menggunakan mentega. Mentega yang diletakkan di wajan panas akan berubah wujud dari....",
+    "imageUrl": null,
+    "explanation": "Mentega padat yang terkena panas wajan menerima kalor dan meleleh menjadi minyak cair.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_28_a",
+        "label": "A",
+        "content": "Padat menjadi cair",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_28_b",
+        "label": "B",
+        "content": "Cair menjadi padat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_28_c",
+        "label": "C",
+        "content": "Cair menjadi gas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_28_d",
+        "label": "D",
+        "content": "Gas menjadi padat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_29",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Saat kamu melakukan pengamatan di kolam dekat sekolah, kelompok berikut yang seluruhnya merupakan komponen biotik (makhluk hidup) adalah……",
+    "imageUrl": null,
+    "explanation": "Komponen biotik terdiri dari makhluk bernyawa (organisme hidup): tanaman teratai, ikan nila, lumut, dan katak. Air, batu, dan udara adalah komponen abiotik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_29_a",
+        "label": "A",
+        "content": "Ikan, air, tanaman, dan katak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_29_b",
+        "label": "B",
+        "content": "Air, batu, tanah, dan lumut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_29_c",
+        "label": "C",
+        "content": "Udara, air, tanah, dan cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_29_d",
+        "label": "D",
+        "content": "Tanaman teratai, ikan, lumut, dan katak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa1_30",
+    "topicId": "top_prisma_2024_ipa_l1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Contoh komponen abiotik (benda tak hidup) yang mempengaruhi ekosistem lingkungan berikut ini adalah…",
+    "imageUrl": null,
+    "explanation": "Komponen abiotik adalah faktor fisik dan kimiawi tak hidup dalam ekosistem: udara, suhu, intensitas sinar matahari, tanah, derajat keasaman (pH), dan air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa1_30_a",
+        "label": "A",
+        "content": "Karbondioksida, air, klorofil, dan ulat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_30_b",
+        "label": "B",
+        "content": "Tanah, air, rumput, dan cacing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_30_c",
+        "label": "C",
+        "content": "Bakteri pengurai, air, udara, dan cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa1_30_d",
+        "label": "D",
+        "content": "Udara, suhu udara, tanah, dan kelembapan air",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  }
+]

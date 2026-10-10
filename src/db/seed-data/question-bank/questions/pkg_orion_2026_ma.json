@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "q_orion_ma_01",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu memiliki uang berupa:\n- 1 lembar Rp10.000\n- 1 lembar Rp5.000\n- 4 keping Rp1.000\n\nIbu membayar belanja sebesar Rp15.000 dengan menggunakan tepat 2 uang. Sisa uang Ibu adalah …",
+    "imageUrl": null,
+    "explanation": "Ibu membayar belanja Rp15.000 dengan tepat 2 jenis uang, yaitu 1 lembar Rp10.000 dan 1 lembar Rp5.000 ($10.000 + 5.000 = \\text{Rp } 15.000$).\nSisa uang yang belum digunakan adalah 4 keping uang Rp1.000, sehingga total sisa uang Ibu adalah:\n$$4 \\times \\text{Rp } 1.000 = \\text{Rp } 4.000$$.\n\nKunci Jawaban: **B (Rp4.000)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_01_a",
+        "label": "A",
+        "content": "Rp3.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_01_b",
+        "label": "B",
+        "content": "Rp4.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_01_c",
+        "label": "C",
+        "content": "Rp5.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_01_d",
+        "label": "D",
+        "content": "Rp6.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_02",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di sebuah kebun terdapat 85 pohon mangga dan 47 pohon jeruk. Sebanyak 12 pohon mangga ditebang. Berapakah selisih jumlah pohon mangga dan jeruk sekarang?",
+    "imageUrl": null,
+    "explanation": "Banyak pohon mangga awal $= 85$ pohon.\nSebanyak 12 pohon mangga ditebang $\\implies$ sisa pohon mangga $= 85 - 12 = 73$ pohon.\nPohon jeruk ada 47 pohon.\n$$\\text{Selisih} = 73 - 47 = 26 \\text{ pohon}$$.\n\nKunci Jawaban: **D (26)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_02_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_02_b",
+        "label": "B",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_02_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_02_d",
+        "label": "D",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_03",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Siti memiliki uang Rp9.000 yang hanya terdiri dari pecahan Rp2.000 dan Rp1.000. Ia ingin menggunakan sebanyak mungkin lembar Rp2.000 . Kombinasi uang yang dimiliki Siti adalah …",
+    "imageUrl": null,
+    "explanation": "Siti ingin menggunakan uang pecahan Rp2.000 sebanyak mungkin untuk mencapai total Rp9.000:\n- Maksimal lembar Rp2.000 adalah 4 lembar: $4 \\times \\text{Rp } 2.000 = \\text{Rp } 8.000$.\n- Kekurangan uang: $\\text{Rp } 9.000 - \\text{Rp } 8.000 = \\text{Rp } 1.000$ (yaitu tepat 1 keping Rp1.000).\nJadi kombinasi uang Siti adalah **4 lembar Rp2.000 dan 1 keping Rp1.000**.\n\nKunci Jawaban: **C**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_03_a",
+        "label": "A",
+        "content": "2 lembar Rp2.000 dan 5 keping Rp1.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_03_b",
+        "label": "B",
+        "content": "3 lembar Rp2.000 dan 3 keping Rp1.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_03_c",
+        "label": "C",
+        "content": "4 lembar Rp2.000 dan 1 keping Rp1.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_03_d",
+        "label": "D",
+        "content": "1 lembar Rp2.000 dan 7 keping Rp1.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_04",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hari ini adalah hari Rabu. Rani melihat kalender dan menghitung hari untuk mengetahui jadwal kegiatan yang akan dilaksanakan 2 hari setelah hari Rabu. Menurut perhitungan Rani, kegiatan tersebut dilaksanakan pada hari …",
+    "imageUrl": null,
+    "explanation": "Hari ini adalah hari Rabu. Dua hari setelah hari Rabu adalah:\n- 1 hari setelah Rabu: Kamis\n- 2 hari setelah Rabu: **Jumat**.\n\nKunci Jawaban: **B (Jumat)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_04_a",
+        "label": "A",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_04_b",
+        "label": "B",
+        "content": "Jumat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_04_c",
+        "label": "C",
+        "content": "Sabtu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_04_d",
+        "label": "D",
+        "content": "Minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_05",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Raka memperhatikan beberapa benda di sekitarnya. Ia mencari benda yang memiliki 4 sisi sama panjang dan 4 sudut siku-siku.Benda manakah yang sesuai dengan ciri tersebut?",
+    "imageUrl": null,
+    "explanation": "Ciri-ciri bangun datar memiliki 4 sisi sama panjang dan 4 sudut siku-siku ($90^\\circ$) adalah bangun datar **persegi**.\nDi antara pilihan yang ada:\n- Buku tulis berbentuk persegi panjang\n- Jam dinding berbentuk lingkaran\n- Rambu berbentuk segitiga\n- **Ubin lantai berbentuk persegi**.\n\nKunci Jawaban: **D (Ubin lantai persegi)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_05_a",
+        "label": "A",
+        "content": "Buku tulis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_05_b",
+        "label": "B",
+        "content": "Jam dinding bulat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_05_c",
+        "label": "C",
+        "content": "Rambu lalu lintas segitiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_05_d",
+        "label": "D",
+        "content": "Ubin lantai persegi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_06",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dua bilangan memiliki selisih 18. Jika bilangan yang lebih kecil adalah 27, maka bilangan yang lebih besar adalah …",
+    "imageUrl": null,
+    "explanation": "Misalkan dua bilangan tersebut adalah $A$ dan $B$ dengan $A > B$.\nDiketahui selisih $= 18$ dan bilangan lebih kecil $B = 27$.\n$$A - B = 18 \\implies A - 27 = 18 \\implies A = 27 + 18 = 45$$.\nJadi bilangan yang lebih besar adalah **45**.\n\nKunci Jawaban: **C (45)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_06_a",
+        "label": "A",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_06_b",
+        "label": "B",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_06_c",
+        "label": "C",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_06_d",
+        "label": "D",
+        "content": "55",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_07",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah bilangan terdiri dari 3 angka dengan ciri-ciri berikut:\n- Jumlah semua angkanya adalah 15\n- Angka ratusan adalah 7\n- Angka satuan lebih besar dari angka puluhan\n\nJika angka ratusan dan satuan ditukar, bilangan baru yang terbentuk adalah …",
+    "imageUrl": null,
+    "explanation": "Ratusan = 7, jadi puluhan + satuan = 15 − 7 = 8, dengan satuan > puluhan.\nKemungkinan (puluhan, satuan): (0, 8), (1, 7), (2, 6), (3, 5) → bilangan 708, 717, 726, 735.\nSetelah angka ratusan dan satuan ditukar: 807, 717, 627, 537.\nDi antara pilihan, yang memenuhi hanya **807**.\n\nKunci Jawaban: **C (807)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_07_a",
+        "label": "A",
+        "content": "708",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_07_b",
+        "label": "B",
+        "content": "780",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_07_c",
+        "label": "C",
+        "content": "807",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_07_d",
+        "label": "D",
+        "content": "870",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_08",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sejumlah uang terdiri dari:\n- 1 lembar Rp10.000\n- beberapa lembar Rp2.000\n- beberapa keping Rp1.000\n\nJumlah seluruh uang adalah Rp18.000. Jika jumlah uang Rp1.000 ada 4 keping, maka banyak lembar Rp2.000 adalah …",
+    "imageUrl": null,
+    "explanation": "Total uang $= \\text{Rp } 18.000$.\nUang yang sudah diketahui:\n- 1 lembar Rp10.000 $= \\text{Rp } 10.000$\n- 4 keping Rp1.000 $= \\text{Rp } 4.000$\nJumlah uang yang diketahui $= 10.000 + 4.000 = \\text{Rp } 14.000$.\nSisa uang dalam bentuk lembaran Rp2.000 $= 18.000 - 14.000 = \\text{Rp } 4.000$.\n$$\\text{Banyak lembar Rp2.000} = \\frac{4.000}{2.000} = 2 \\text{ lembar}$$.\n\nKunci Jawaban: **B (2)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_08_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_08_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_08_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_08_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_09",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah bilangan tiga angka memiliki sifat-sifat berikut:\n- Jumlah ketiga angkanya adalah 12\n- Angka ratusan adalah bilangan genap\n- Angka puluhan lebih besar 2 dari angka ratusan\n- Angka satuan adalah jumlah angka ratusan dan angka puluhan\n\nBilangan tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Uji pilihan bilangan 246:\n1. Ratusan $= 2$ (bilangan genap).\n2. Puluhan $= 4$, bernilai 2 lebih besar dari ratusan ($2 + 2 = 4$).\n3. Satuan $= 6$, merupakan jumlah ratusan dan puluhan ($2 + 4 = 6$).\n4. Jumlah ketiga angka $= 2 + 4 + 6 = 12$ (sesuai syarat).\nJadi bilangan yang dimaksud adalah **246**.\n\nKunci Jawaban: **A (246)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_09_a",
+        "label": "A",
+        "content": "246",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_09_b",
+        "label": "B",
+        "content": "268",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_09_c",
+        "label": "C",
+        "content": "357",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_09_d",
+        "label": "D",
+        "content": "468",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_10",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah pita panjangnya 7 cm. Pita tersebut dipotong menjadi beberapa bagian sama panjang sehingga tidak ada sisa. Panjang setiap potongan adalah bilangan bulat dalam mm, lebih dari 5 mm dan kurang dari 15 mm. Manakah yang merupakan salah satu kemungkinan banyak potongan?",
+    "imageUrl": null,
+    "explanation": "Panjang pita = 7 cm = 70 mm. Panjang potongan harus faktor 70 yang lebih dari 5 dan kurang dari 15, yaitu 7 mm, 10 mm, atau 14 mm.\nBanyak potongan yang mungkin: 70 : 7 = 10, 70 : 10 = 7, atau 70 : 14 = 5.\nDi antara pilihan (4, 6, 7, 8), hanya **7** yang mungkin.\n\nKunci Jawaban: **C (7)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_10_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_10_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_10_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_10_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_11",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan bilangan berikut: 806, 680, 860, 608. Urutan bilangan dari yang terbesar ke yang terkecil adalah …",
+    "imageUrl": null,
+    "explanation": "Mengurutkan bilangan dari nilai terbesar ke terkecil:\nBandingkan nilai tempat ratusan dan puluhan:\n$$860 > 806 > 680 > 608$$.\n\nKunci Jawaban: **A (860, 806, 680, 608)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_11_a",
+        "label": "A",
+        "content": "860, 806, 680, 608",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_11_b",
+        "label": "B",
+        "content": "860, 680, 806, 608",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_11_c",
+        "label": "C",
+        "content": "806, 860, 680, 608",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_11_d",
+        "label": "D",
+        "content": "680, 860, 806, 608",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_12",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di kelas, terdapat beberapa benda:  Bola basket  Kubus mainan  Balok kayu  Botol tabung Benda manakah yang tidak memiliki sisi datar?",
+    "imageUrl": null,
+    "explanation": "Benda yang tidak memiliki sisi datar sama sekali adalah **bola basket**. Bola hanya dibatasi oleh satu bidang lengkung tertutup tanpa memiliki sisi maupun bidang datar.\nSedangkan kubus, balok, dan botol tabung memiliki permukaan/bidang sisi datar.\n\nKunci Jawaban: **C (Bola)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_12_a",
+        "label": "A",
+        "content": "Kubus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_12_b",
+        "label": "B",
+        "content": "Balok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_12_c",
+        "label": "C",
+        "content": "Bola",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_12_d",
+        "label": "D",
+        "content": "Tabung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_13",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola bilangan berikut: 2, 5, 11, 23, 47, … Bilangan berikutnya adalah ..",
+    "imageUrl": null,
+    "explanation": "Pola barisan bilangan: dikalikan 2 lalu ditambah 1 ($2n + 1$):\n- $2 \\times 2 + 1 = 5$\n- $5 \\times 2 + 1 = 11$\n- $11 \\times 2 + 1 = 23$\n- $23 \\times 2 + 1 = 47$\n- $47 \\times 2 + 1 = 95$.\nJadi bilangan berikutnya adalah **95**.\n\nKunci Jawaban: **C (95)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_13_a",
+        "label": "A",
+        "content": "89",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_13_b",
+        "label": "B",
+        "content": "91",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_13_c",
+        "label": "C",
+        "content": "95",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_13_d",
+        "label": "D",
+        "content": "97",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_14",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Umur Ani 2 tahun lebih tua dari Budi. Umur Budi 3 tahun lebih muda dari Cici. Jika jumlah umur mereka bertiga adalah 29 tahun, maka umur Budi adalah …",
+    "imageUrl": null,
+    "explanation": "Misalkan umur Budi $= B$.\n- Umur Ani $= B + 2$\n- Umur Cici $= B + 3$ (karena Budi 3 tahun lebih muda dari Cici)\nJumlah umur bertiga $= 29$ tahun:\n$$(B + 2) + B + (B + 3) = 29$$\n$$3B + 5 = 29 \\implies 3B = 24 \\implies B = 8 \\text{ tahun}$$.\nJadi umur Budi adalah **8 tahun**.\n\nKunci Jawaban: **B (8)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_14_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_14_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_14_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_14_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_15",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang anak membagikan 56 kelereng sama banyak kepada beberapa temannya. Jika setiap teman mendapat lebih dari 5 dan kurang dari 10 kelereng, manakah yang merupakan salah satu kemungkinan banyak teman yang menerima kelereng?",
+    "imageUrl": null,
+    "explanation": "Banyak kelereng tiap teman harus faktor 56 yang lebih dari 5 dan kurang dari 10, yaitu 7 atau 8.\n- Jika tiap teman mendapat 8 kelereng → 56 : 8 = 7 teman.\n- Jika tiap teman mendapat 7 kelereng → 56 : 7 = 8 teman.\nDi antara pilihan (7, 6, 9, 5), hanya **7** yang mungkin.\n\nKunci Jawaban: **A (7)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_15_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_15_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_15_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_15_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_16",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang tukang kayu membuat kotak pensil untuk anak-anak. Ia membuat beberapa kotak berbentuk kubus dan beberapa berbentuk balok. Anak diminta memperhatikan perbedaan kedua bentuk tersebut. Balok berbeda dari kubus karena …",
+    "imageUrl": null,
+    "explanation": "Perbedaan utama balok dan kubus:\n- Kubus memiliki 6 sisi berbentuk persegi kongruen dengan seluruh rusuk sama panjang.\n- Balok memiliki pasangan sisi persegi panjang dengan ukuran **panjang, lebar, dan tinggi yang berbeda**.\n\nKunci Jawaban: **C (Ada panjang dan lebar yang berbeda)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_16_a",
+        "label": "A",
+        "content": "Semua sisinya sama panjang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_16_b",
+        "label": "B",
+        "content": "Tidak memiliki sisi datar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_16_c",
+        "label": "C",
+        "content": "Ada panjang dan lebar yang berbeda",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_16_d",
+        "label": "D",
+        "content": "Bentuknya bulat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_17",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang anak menimbang seekor ayam dengan berat 2.000 gram. Ayam tersebut kemudian dimasukkan ke dalam beberapa kantong dengan berat masing-masing 500 gram. Berapakah jumlah kantong yang dibutuhkan?",
+    "imageUrl": null,
+    "explanation": "Total berat ayam $= 2.000 \\text{ gram}$.\nSetiap kantong diisi 500 gram.\n$$\\text{Banyak kantong} = \\frac{2.000}{500} = 4 \\text{ kantong}$$.\n\nKunci Jawaban: **C (4)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_17_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_17_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_17_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_17_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_18",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Suatu bilangan jika dikali 4 kemudian dikurangi 6 hasilnya adalah 26. Bilangan tersebut kemudian ditambah 6, lalu hasilnya dibagi 2. Nilai akhir yang diperoleh adalah …",
+    "imageUrl": null,
+    "explanation": "Misalkan bilangan semula $= x$.\n$$4x - 6 = 26 \\implies 4x = 32 \\implies x = 8$$.\nOperasi selanjutnya: bilangan tersebut ditambah 6 lalu hasilnya dibagi 2:\n$$\\frac{8 + 6}{2} = \\frac{14}{2} = 7$$.\n\nKunci Jawaban: **C (7)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_18_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_18_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_18_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_18_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_19",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah bilangan tiga angka memiliki angka ratusan 5 dan angka satuan 8. Jika angka puluhannya adalah bilangan cacah genap terkecil, maka bilangan tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Bilangan 3 angka dengan ratusan $= 5$ dan satuan $= 8$.\nAngka puluhan adalah bilangan cacah genap terkecil. Himpunan bilangan cacah adalah $\\{0, 1, 2, 3, \\dots\\}$, dan bilangan genap terkecil di dalamnya adalah **0**.\nMaka bilangan tersebut adalah **508**.\n\nKunci Jawaban: **A (508)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_19_a",
+        "label": "A",
+        "content": "508",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_19_b",
+        "label": "B",
+        "content": "518",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_19_c",
+        "label": "C",
+        "content": "528",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_19_d",
+        "label": "D",
+        "content": "548",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_20",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu menaruh beberapa benda di meja: kubus, bola, tabung, dan buku persegi panjang. Anak diminta mengelompokkan benda berdasarkan bentuknya. Kelompok benda yang memiliki sisi datar adalah …",
+    "imageUrl": null,
+    "explanation": "Benda yang memiliki sisi datar:\n- Kubus dibatasi 6 bidang datar persegi.\n- Buku persegi panjang dibatasi oleh bidang datar persegi panjang.\n(Bola hanya memiliki sisi lengkung tanpa sisi datar).\n\nKunci Jawaban: **D (Kubus dan buku persegi panjang)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_20_a",
+        "label": "A",
+        "content": "Bola dan tabung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_20_b",
+        "label": "B",
+        "content": "Bola dan kubus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_20_c",
+        "label": "C",
+        "content": "Tabung dan bola",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_20_d",
+        "label": "D",
+        "content": "Kubus dan buku persegi panjang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_21",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Terdapat tiga kotak berisi bola:\n- Kotak A berisi 3 bola merah\n- Kotak B berisi 2 bola biru\n- Kotak C berisi 1 bola merah dan 2 bola biru\n\nSeseorang mengambil satu bola dari salah satu kotak tanpa melihat. Agar peluang mendapatkan bola merah paling besar, sebaiknya memilih kotak …",
+    "imageUrl": null,
+    "explanation": "Peluang terambil bola merah pada masing-masing kotak:\n- Kotak A: berisi 3 bola merah dari total 3 bola $\\implies$ peluang $= \\frac{3}{3} = 100\\%$ (pasti merah).\n- Kotak B: berisi 2 bola biru $\\implies$ peluang merah $= 0$.\n- Kotak C: berisi 1 merah dan 2 biru $\\implies$ peluang merah $= \\frac{1}{3} \\approx 33,3\\%$.\nMaka peluang terbesar mendapatkan bola merah diperoleh jika memilih **Kotak A**.\n\nKunci Jawaban: **A (A)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_21_a",
+        "label": "A",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_21_b",
+        "label": "B",
+        "content": "B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_21_c",
+        "label": "C",
+        "content": "C",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_21_d",
+        "label": "D",
+        "content": "Semua sama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_22",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang siswa mengukur panjang sebuah tali yang terdiri dari 3 meter dan 45 cm. Ia ingin mengetahui panjang tali tersebut dalam satuan sentimeter agar lebih mudah dihitung. Panjang tali tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Konversi satuan panjang:\n$1 \\text{ meter} = 100 \\text{ cm} \\implies 3 \\text{ meter} = 300 \\text{ cm}$.\n$$\\text{Total panjang} = 300 \\text{ cm} + 45 \\text{ cm} = 345 \\text{ cm}$$.\n\nKunci Jawaban: **D (345 cm)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_22_a",
+        "label": "A",
+        "content": "304 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_22_b",
+        "label": "B",
+        "content": "340 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_22_c",
+        "label": "C",
+        "content": "355 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_22_d",
+        "label": "D",
+        "content": "345 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_23",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah jam menunjukkan pukul 08.00. Seorang siswa diminta menentukan waktu setelah 2 jam 30 menit berlalu dari waktu tersebut. Pukul berapakah waktu yang dimaksud?",
+    "imageUrl": null,
+    "explanation": "Waktu awal pukul 08.00 ditambah durasi 2 jam 30 menit:\n$$08.00 + 02.30 = 10.30$$.\n\nKunci Jawaban: **C (10.30)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_23_a",
+        "label": "A",
+        "content": "09.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_23_b",
+        "label": "B",
+        "content": "11.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_23_c",
+        "label": "C",
+        "content": "10.30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_23_d",
+        "label": "D",
+        "content": "10.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_24",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang anak menggambar sebuah lingkaran besar di halaman. Ia ingin menaruh beberapa lingkaran kecil di dalamnya. Bentuk lingkaran berbeda dari persegi panjang karena …",
+    "imageUrl": null,
+    "explanation": "Lingkaran berbeda dari bangun segi empat (persegi panjang) karena lingkaran dibatasi oleh satu garis lengkung tertutup yang kontinu, sehingga **tidak memiliki sisi lurus dan tidak memiliki titik sudut**.\n\nKunci Jawaban: **B (Tidak memiliki sisi dan sudut)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_24_a",
+        "label": "A",
+        "content": "Memiliki empat sisi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_24_b",
+        "label": "B",
+        "content": "Tidak memiliki sisi dan sudut",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_24_c",
+        "label": "C",
+        "content": "Memiliki tiga sisi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_24_d",
+        "label": "D",
+        "content": "Semua sisinya sama panjang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_25",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam sebuah latihan berhitung, terdapat operasi perkalian 4 × 96. Untuk mendapatkan hasil yang tepat, perlu dilakukan perhitungan dengan cermat. Hasil perkalian tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Perkalian cepat menggunakan sifat distributif:\n$$4 \\times 96 = 4 \\times (100 - 4) = 400 - 16 = 384$$.\n\nKunci Jawaban: **C (384)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_25_a",
+        "label": "A",
+        "content": "652",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_25_b",
+        "label": "B",
+        "content": "662",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_25_c",
+        "label": "C",
+        "content": "384",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_25_d",
+        "label": "D",
+        "content": "672",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_26",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dalam sebuah lomba, setiap kelompok terdiri dari 6 siswa. Jika terdapat 8 kelompok, dan setiap siswa membawa 2 buku, maka jumlah seluruh buku yang dibawa adalah ….",
+    "imageUrl": null,
+    "explanation": "Terdapat 8 kelompok dengan masing-masing 6 siswa:\n$$\\text{Total siswa} = 8 \\times 6 = 48 \\text{ siswa}$$.\nSetiap siswa membawa 2 buku:\n$$\\text{Total buku} = 48 \\times 2 = 96 \\text{ buku}$$.\n\nKunci Jawaban: **C (96)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_26_a",
+        "label": "A",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_26_b",
+        "label": "B",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_26_c",
+        "label": "C",
+        "content": "96",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_26_d",
+        "label": "D",
+        "content": "108",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_27",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Seorang pedagang memiliki beberapa kotak.Setiap kotak berisi 4 pensil. Setelah terjual 6 pensil, jumlah pensil yang tersisa adalah 18. Banyak kotak semula adalah …",
+    "imageUrl": null,
+    "explanation": "Misalkan banyak kotak pensil semula adalah $k$. Karena setiap kotak berisi 4 pensil, total pensil adalah $4k$.\nTerjual 6 pensil dan tersisa 18:\n$$4k - 6 = 18 \\implies 4k = 24 \\implies k = 6 \\text{ kotak}$$.\n\nKunci Jawaban: **B (6)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_27_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_27_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_27_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_27_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_28",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Seorang siswa sedang belajar membaca waktu pada jam dinding di rumahnya. Ia melihat jarum jam menunjukkan pukul 03.30. Setelah itu, ia diminta membayangkan kondisi waktu satu jam kemudian tanpa melihat jam lagi. Untuk menjawabnya, siswa harus memahami perubahan waktu dengan tepat, terutama pada bagian menit yang tidak boleh melebihi 60. Berdasarkan situasi tersebut, pukul berapakah waktu satu jam kemudian?",
+    "imageUrl": null,
+    "explanation": "Waktu awal pukul 03.30. Satu jam kemudian ditambahkan 1 jam pada jarum pendek (jam):\n$$03.30 + 01.00 = 04.30$$.\n\nKunci Jawaban: **D (04.30)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_28_a",
+        "label": "A",
+        "content": "03.60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_28_b",
+        "label": "B",
+        "content": "04.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_28_c",
+        "label": "C",
+        "content": "04.60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_28_d",
+        "label": "D",
+        "content": "04.30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_29",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Seorang siswa diminta mencari bilangan ganjil yang berada di antara 490 dan 500. Ia harus memilih bilangan yang paling besar dari bilangan yang memenuhi syarat tersebut. Bilangan yang dimaksud adalah …",
+    "imageUrl": null,
+    "explanation": "Bilangan ganjil antara 490 dan 500 adalah: 491, 493, 495, 497, dan 499.\nBilangan ganjil yang paling besar di antara rentang tersebut adalah **499**.\n\nKunci Jawaban: **D (499)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_29_a",
+        "label": "A",
+        "content": "491",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_29_b",
+        "label": "B",
+        "content": "493",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_29_c",
+        "label": "C",
+        "content": "497",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_29_d",
+        "label": "D",
+        "content": "499",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_30",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah toko memiliki 478 buku. Kemudian datang 256 buku baru untuk menambah persediaan. Dari seluruh buku tersebut, 134 buku rusak dan tidak dapat dijual. Selanjutnya, seperdua dari sisa buku dipinjam oleh perpustakaan. Jumlah buku yang masih tersedia di toko sekarang adalah …",
+    "imageUrl": null,
+    "explanation": "Langkah perhitungan stok buku toko:\n1. Persediaan awal $= 478$ buku.\n2. Tambahan stok baru $= 256$ buku $\\implies 478 + 256 = 734$ buku.\n3. Buku rusak $= 134$ buku $\\implies 734 - 134 = 600$ buku baik.\n4. Seperdua dipinjam perpustakaan $= \\frac{1}{2} \\times 600 = 300$ buku.\n$$\\text{Sisa buku yang tersedia} = 600 - 300 = 300 \\text{ buku}$$.\n\nKunci Jawaban: **A (300)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_30_a",
+        "label": "A",
+        "content": "300",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_30_b",
+        "label": "B",
+        "content": "304",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_30_c",
+        "label": "C",
+        "content": "306",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_30_d",
+        "label": "D",
+        "content": "308",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_31",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan pola bilangan berikut: 215, 225, 235, … , … Dua bilangan yang tepat untuk melanjutkan pola tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Pola barisan bertambah 10:\n- $215 + 10 = 225$\n- $225 + 10 = 235$\n- $235 + 10 = 245$\n- $245 + 10 = 255$.\nDua bilangan berikutnya adalah **245 dan 255**.\n\nKunci Jawaban: **B (245 dan 255)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_31_a",
+        "label": "A",
+        "content": "240 dan 245",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_31_b",
+        "label": "B",
+        "content": "245 dan 255",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_31_c",
+        "label": "C",
+        "content": "245 dan 265",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_31_d",
+        "label": "D",
+        "content": "250 dan 260",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_32",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Ibu mulai memasak pada pukul 06.00. Setelah memasak selama 45 menit, ibu berhenti sejenak selama 15 menit. Kemudian ibu melanjutkan memasak hingga pukul 07.30. Lama waktu sebenarnya ibu memasak (tidak termasuk waktu istirahat) adalah …",
+    "imageUrl": null,
+    "explanation": "Tahapan waktu memasak Ibu:\n- Sesi 1: 06.00 hingga 06.45 $= 45$ menit memasak.\n- Istirahat: 15 menit (06.45 s.d. 07.00).\n- Sesi 2: 07.00 hingga 07.30 $= 30$ menit memasak.\n$$\\text{Lama waktu memasak sebenarnya} = 45 \\text{ menit} + 30 \\text{ menit} = 75 \\text{ menit} = 1 \\text{ jam } 15 \\text{ menit}$$.\n\nKunci Jawaban: **B (1 jam 15 menit)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_32_a",
+        "label": "A",
+        "content": "1 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_32_b",
+        "label": "B",
+        "content": "1 jam 15 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_32_c",
+        "label": "C",
+        "content": "1 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_32_d",
+        "label": "D",
+        "content": "1 jam 45 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_33",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Di sebuah tempat penampungan hewan, tercatat jumlah hewan sebagai berikut:\n- Kucing = 85 ekor\n- Ikan = 120 ekor\n- Burung = 65 ekor\n\nSebanyak 20 ekor ikan dipindahkan, dan 5 ekor kucing diadopsi. Jumlah burung tidak berubah. Jumlah seluruh hewan sekarang adalah …",
+    "imageUrl": null,
+    "explanation": "Data hewan penampungan:\n- Kucing: $85 - 5 \\text{ diadopsi} = 80$ ekor\n- Ikan: $120 - 20 \\text{ dipindahkan} = 100$ ekor\n- Burung: tetap 65 ekor\n$$\\text{Total hewan sekarang} = 80 + 100 + 65 = 245 \\text{ ekor}$$.\n\nKunci Jawaban: **A (245)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_33_a",
+        "label": "A",
+        "content": "245",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_33_b",
+        "label": "B",
+        "content": "250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_33_c",
+        "label": "C",
+        "content": "255",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_33_d",
+        "label": "D",
+        "content": "260",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_34",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah kain memiliki pola warna berulang sebagai berikut: Merah, Kuning, Hijau, Biru, Kuning, Hijau, Merah, Kuning, Hijau, Biru, Kuning, Hijau, dan seterusnya. Jika pola tersebut terus berulang dengan aturan yang sama, maka warna pada urutan ke-14 adalah …",
+    "imageUrl": null,
+    "explanation": "Pola perulangan terdiri dari siklus 6 warna:\n1. Merah, 2. Kuning, 3. Hijau, 4. Biru, 5. Kuning, 6. Hijau.\nUntuk mencari warna pada urutan ke-14:\n$$14 \\div 6 = 2 \\text{ sisa } 2$$.\nSisa 2 menunjukkan warna ke-2 pada siklus berulang, yaitu warna **Kuning**.\n\nKunci Jawaban: **B (Kuning)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_34_a",
+        "label": "A",
+        "content": "Merah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_34_b",
+        "label": "B",
+        "content": "Kuning",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_34_c",
+        "label": "C",
+        "content": "Hijau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_34_d",
+        "label": "D",
+        "content": "Biru",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_orion_ma_35",
+    "topicId": "top_orion_mtk_lvl_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Di kantin, Beni ingin membeli permen seharga Rp2.500 dan cokelat seharga Rp3.500. Ia membayar dengan uang Rp10.000. Berapa uang kembalian yang diterima Beni?",
+    "imageUrl": null,
+    "explanation": "Total harga belanjaan:\n$$\\text{Total} = \\text{Rp } 2.500 \\text{ (permen)} + \\text{Rp } 3.500 \\text{ (cokelat)} = \\text{Rp } 6.000$$.\nUang yang dibayarkan $= \\text{Rp } 10.000$.\n$$\\text{Uang kembalian} = \\text{Rp } 10.000 - \\text{Rp } 6.000 = \\text{Rp } 4.000$$.\n\nKunci Jawaban: **B (Rp4.000)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_orion_ma_35_a",
+        "label": "A",
+        "content": "Rp3.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_orion_ma_35_b",
+        "label": "B",
+        "content": "Rp4.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_orion_ma_35_c",
+        "label": "C",
+        "content": "Rp2.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_orion_ma_35_d",
+        "label": "D",
+        "content": "Rp5.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "q_0221_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui a ⊗ b = (5 × a) + b. Nilai 9 ⊗ 4 adalah ...",
+    "imageUrl": null,
+    "explanation": "Terapkan aturannya: (5 × 9) + 4 = 45 + 4 = 49.\nJawaban: A. 49",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0221_aljabar-persama_0_A",
+        "label": "A",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0221_aljabar-persama_1_B",
+        "label": "B",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0221_aljabar-persama_2_C",
+        "label": "C",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0221_aljabar-persama_3_D",
+        "label": "D",
+        "content": "41",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0222_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ⊗ + ⊖ = 12, ⊖ + ⊠ = 11, dan ⊗ + ⊠ = 17, maka nilai ⊖ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan ketiganya: 2 × (⊗+⊖+⊠) = 40, jadi totalnya 20. Karena ⊗ + ⊠ = 17, maka ⊖ = 20 − 17 = 3.\nJawaban: D. 3",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0222_aljabar-persama_0_A",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0222_aljabar-persama_1_B",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0222_aljabar-persama_2_C",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0222_aljabar-persama_3_D",
+        "label": "D",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0223_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 6 × ☐ + 6 × ☐ = 168, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "6☐ + 6☐ = 12☐, jadi 12 × ☐ = 168 → ☐ = 168 ÷ 12 = 14.\nJawaban: B. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0223_aljabar-persama_0_A",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0223_aljabar-persama_1_B",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0223_aljabar-persama_2_C",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0223_aljabar-persama_3_D",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0224_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 2 × ☐ + 3 × ☐ = 50, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "2☐ + 3☐ = 5☐, jadi 5 × ☐ = 50 → ☐ = 50 ÷ 5 = 10.\nJawaban: B. 10",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0224_aljabar-persama_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0224_aljabar-persama_1_B",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0224_aljabar-persama_2_C",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0224_aljabar-persama_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0225_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui a ⊗ b = (4 × a) + b. Nilai 11 ⊗ 7 adalah ...",
+    "imageUrl": null,
+    "explanation": "Terapkan aturannya: (4 × 11) + 7 = 44 + 7 = 51.\nJawaban: A. 51",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0225_aljabar-persama_0_A",
+        "label": "A",
+        "content": "51",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0225_aljabar-persama_1_B",
+        "label": "B",
+        "content": "81",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0225_aljabar-persama_2_C",
+        "label": "C",
+        "content": "55",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0225_aljabar-persama_3_D",
+        "label": "D",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0226_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ⊗ + ⊖ = 13, ⊖ + ⊠ = 13, dan ⊗ + ⊠ = 10, maka nilai ⊖ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan ketiganya: 2 × (⊗+⊖+⊠) = 36, jadi totalnya 18. Karena ⊗ + ⊠ = 10, maka ⊖ = 18 − 10 = 8.\nJawaban: D. 8",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0226_aljabar-persama_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0226_aljabar-persama_1_B",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0226_aljabar-persama_2_C",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0226_aljabar-persama_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0227_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui a ★ b = a + b + (a × b). Nilai 9 ★ 7 adalah ...",
+    "imageUrl": null,
+    "explanation": "9 + 7 + (9 × 7) = 16 + 63 = 79.\nJawaban: A. 79",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0227_aljabar-persama_0_A",
+        "label": "A",
+        "content": "79",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0227_aljabar-persama_1_B",
+        "label": "B",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0227_aljabar-persama_2_C",
+        "label": "C",
+        "content": "88",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0227_aljabar-persama_3_D",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0228_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui a ★ b = a + b + (a × b). Nilai 4 ★ 2 adalah ...",
+    "imageUrl": null,
+    "explanation": "4 + 2 + (4 × 2) = 6 + 8 = 14.\nJawaban: D. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0228_aljabar-persama_0_A",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0228_aljabar-persama_1_B",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0228_aljabar-persama_2_C",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0228_aljabar-persama_3_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0229_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika (☐ ÷ 6) + 4 = 15, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "☐ ÷ 6 = 15 − 4 = 11. Maka ☐ = 11 × 6 = 66.\nJawaban: C. 66",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0229_aljabar-persama_0_A",
+        "label": "A",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0229_aljabar-persama_1_B",
+        "label": "B",
+        "content": "78",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0229_aljabar-persama_3_C",
+        "label": "C",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0229_aljabar-persama_2_D",
+        "label": "D",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0230_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ⊗ + ⊖ = 16, ⊖ + ⊠ = 19, dan ⊗ + ⊠ = 11, maka nilai ⊖ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan ketiganya: 2 × (⊗+⊖+⊠) = 46, jadi totalnya 23. Karena ⊗ + ⊠ = 11, maka ⊖ = 23 − 11 = 12.\nJawaban: B. 12",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0230_aljabar-persama_0_A",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0230_aljabar-persama_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0230_aljabar-persama_2_C",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0230_aljabar-persama_3_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0231_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 8 × (☐ + 16) = 208, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Bagi kedua ruas dengan 8: ☐ + 16 = 26. Maka ☐ = 26 − 16 = 10.\nJawaban: D. 10",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0231_aljabar-persama_0_A",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0231_aljabar-persama_1_B",
+        "label": "B",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0231_aljabar-persama_2_C",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0231_aljabar-persama_3_D",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0232_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ● + ■ = 21 dan ● = 2 × ■, maka nilai ● adalah ...",
+    "imageUrl": null,
+    "explanation": "Ganti ●: 2■ + ■ = 21 → 3■ = 21 → ■ = 7. Maka ● = 2 × 7 = 14.\nJawaban: A. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0232_aljabar-persama_0_A",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0232_aljabar-persama_1_B",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0232_aljabar-persama_2_C",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0232_aljabar-persama_3_D",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0233_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ☐ × ▲ = 96 dan ☐ ÷ ▲ = 6, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari ☐ = 6 × ▲, maka 6 × ▲ × ▲ = 96 → ▲ × ▲ = 16 → ▲ = 4. Jadi ☐ = 6 × 4 = 24.\nJawaban: A. 24",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0233_aljabar-persama_0_A",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0233_aljabar-persama_1_B",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0233_aljabar-persama_2_C",
+        "label": "C",
+        "content": "96",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0233_aljabar-persama_3_D",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0234_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ☐ × ▲ = 48 dan ☐ ÷ ▲ = 3, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari ☐ = 3 × ▲, maka 3 × ▲ × ▲ = 48 → ▲ × ▲ = 16 → ▲ = 4. Jadi ☐ = 3 × 4 = 12.\nJawaban: B. 12",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0234_aljabar-persama_0_A",
+        "label": "A",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0234_aljabar-persama_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0234_aljabar-persama_2_C",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0234_aljabar-persama_3_D",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0235_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 8 × (▲ + 5) = 160, maka nilai ▲ adalah ...",
+    "imageUrl": null,
+    "explanation": "Bagi kedua ruas dengan 8: ▲ + 5 = 20. Maka ▲ = 20 − 5 = 15.\nJawaban: B. 15",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0235_aljabar-persama_0_A",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0235_aljabar-persama_1_B",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0235_aljabar-persama_3_C",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0235_aljabar-persama_2_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0236_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ⊗ + ⊖ = 22, ⊖ + ⊠ = 18, dan ⊗ + ⊠ = 20, maka nilai ⊖ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan ketiganya: 2 × (⊗+⊖+⊠) = 60, jadi totalnya 30. Karena ⊗ + ⊠ = 20, maka ⊖ = 30 − 20 = 10.\nJawaban: D. 10",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0236_aljabar-persama_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0236_aljabar-persama_1_B",
+        "label": "B",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0236_aljabar-persama_2_C",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0236_aljabar-persama_3_D",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0237_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ☐ + 27 = 61, maka nilai ☐ + 4 adalah ...",
+    "imageUrl": null,
+    "explanation": "☐ = 61 − 27 = 34. Maka ☐ + 4 = 34 + 4 = 38.\nJawaban: C. 38",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0237_aljabar-persama_0_A",
+        "label": "A",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0237_aljabar-persama_1_B",
+        "label": "B",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0237_aljabar-persama_2_C",
+        "label": "C",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0237_aljabar-persama_3_D",
+        "label": "D",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0238_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 2 × ■ + 6 = 34, maka nilai ■ adalah ...",
+    "imageUrl": null,
+    "explanation": "2 × ■ = 34 − 6 = 28. Maka ■ = 28 ÷ 2 = 14.\nJawaban: A. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0238_aljabar-persama_0_A",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0238_aljabar-persama_1_B",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0238_aljabar-persama_2_C",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0238_aljabar-persama_3_D",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0239_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ⊗ + ⊖ = 23, ⊖ + ⊠ = 19, dan ⊗ + ⊠ = 20, maka nilai ⊖ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan ketiganya: 2 × (⊗+⊖+⊠) = 62, jadi totalnya 31. Karena ⊗ + ⊠ = 20, maka ⊖ = 31 − 20 = 11.\nJawaban: D. 11",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0239_aljabar-persama_0_A",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0239_aljabar-persama_1_B",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0239_aljabar-persama_2_C",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0239_aljabar-persama_3_D",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0240_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui a ⊗ b = (3 × a) + b. Nilai 9 ⊗ 5 adalah ...",
+    "imageUrl": null,
+    "explanation": "Terapkan aturannya: (3 × 9) + 5 = 27 + 5 = 32.\nJawaban: A. 32",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0240_aljabar-persama_0_A",
+        "label": "A",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0240_aljabar-persama_1_B",
+        "label": "B",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0240_aljabar-persama_2_C",
+        "label": "C",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0240_aljabar-persama_3_D",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0241_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui a ⊗ b = (4 × a) + b. Nilai 3 ⊗ 9 adalah ...",
+    "imageUrl": null,
+    "explanation": "Terapkan aturannya: (4 × 3) + 9 = 12 + 9 = 21.\nJawaban: A. 21",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0241_aljabar-persama_0_A",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0241_aljabar-persama_1_B",
+        "label": "B",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0241_aljabar-persama_2_C",
+        "label": "C",
+        "content": "31",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0241_aljabar-persama_3_D",
+        "label": "D",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0242_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 2 × ☐ + 2 × ☐ = 52, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "2☐ + 2☐ = 4☐, jadi 4 × ☐ = 52 → ☐ = 52 ÷ 4 = 13.\nJawaban: C. 13",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0242_aljabar-persama_0_A",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0242_aljabar-persama_1_B",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0242_aljabar-persama_2_C",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0242_aljabar-persama_3_D",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0243_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 6 × ▲ + 3 = 57, maka nilai ▲ adalah ...",
+    "imageUrl": null,
+    "explanation": "6 × ▲ = 57 − 3 = 54. Maka ▲ = 54 ÷ 6 = 9.\nJawaban: D. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0243_aljabar-persama_0_A",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0243_aljabar-persama_1_B",
+        "label": "B",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0243_aljabar-persama_2_C",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0243_aljabar-persama_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0244_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 4 × ☐ + 6 × ☐ = 80, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "4☐ + 6☐ = 10☐, jadi 10 × ☐ = 80 → ☐ = 80 ÷ 10 = 8.\nJawaban: A. 8",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0244_aljabar-persama_0_A",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0244_aljabar-persama_1_B",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0244_aljabar-persama_2_C",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0244_aljabar-persama_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0245_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ☐ × ▲ = 36 dan ☐ ÷ ▲ = 4, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari ☐ = 4 × ▲, maka 4 × ▲ × ▲ = 36 → ▲ × ▲ = 9 → ▲ = 3. Jadi ☐ = 4 × 3 = 12.\nJawaban: C. 12",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0245_aljabar-persama_0_A",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0245_aljabar-persama_1_B",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0245_aljabar-persama_2_C",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0245_aljabar-persama_3_D",
+        "label": "D",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0246_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 6 × ☐ + 5 × ☐ = 154, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "6☐ + 5☐ = 11☐, jadi 11 × ☐ = 154 → ☐ = 154 ÷ 11 = 14.\nJawaban: C. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0246_aljabar-persama_0_A",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0246_aljabar-persama_1_B",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0246_aljabar-persama_2_C",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0246_aljabar-persama_3_D",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0247_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika (☐ ÷ 5) + 15 = 27, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "☐ ÷ 5 = 27 − 15 = 12. Maka ☐ = 12 × 5 = 60.\nJawaban: B. 60",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0247_aljabar-persama_0_A",
+        "label": "A",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0247_aljabar-persama_1_B",
+        "label": "B",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0247_aljabar-persama_3_C",
+        "label": "C",
+        "content": "55",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0247_aljabar-persama_2_D",
+        "label": "D",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0248_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ☐ + ▲ = 21 dan ☐ − ▲ = 13, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan kedua persamaan: 2 × ☐ = 21 + 13 = 34, jadi ☐ = 17. (Cek: ▲ = 4)\nJawaban: C. 17",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0248_aljabar-persama_0_A",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0248_aljabar-persama_1_B",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0248_aljabar-persama_2_C",
+        "label": "C",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0248_aljabar-persama_3_D",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0249_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 4 × ☐ + 5 × ☐ = 63, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "4☐ + 5☐ = 9☐, jadi 9 × ☐ = 63 → ☐ = 63 ÷ 9 = 7.\nJawaban: B. 7",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0249_aljabar-persama_0_A",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0249_aljabar-persama_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0249_aljabar-persama_2_C",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0249_aljabar-persama_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0250_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ☐ × ▲ = 320 dan ☐ ÷ ▲ = 5, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari ☐ = 5 × ▲, maka 5 × ▲ × ▲ = 320 → ▲ × ▲ = 64 → ▲ = 8. Jadi ☐ = 5 × 8 = 40.\nJawaban: D. 40",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0250_aljabar-persama_0_A",
+        "label": "A",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0250_aljabar-persama_1_B",
+        "label": "B",
+        "content": "320",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0250_aljabar-persama_2_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0250_aljabar-persama_3_D",
+        "label": "D",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0251_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 2 × ■ + 6 = 24, maka nilai ■ adalah ...",
+    "imageUrl": null,
+    "explanation": "2 × ■ = 24 − 6 = 18. Maka ■ = 18 ÷ 2 = 9.\nJawaban: C. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0251_aljabar-persama_0_A",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0251_aljabar-persama_1_B",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0251_aljabar-persama_3_C",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0251_aljabar-persama_2_D",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0252_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui a ★ b = a + b + (a × b). Nilai 9 ★ 2 adalah ...",
+    "imageUrl": null,
+    "explanation": "9 + 2 + (9 × 2) = 11 + 18 = 29.\nJawaban: D. 29",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0252_aljabar-persama_0_A",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0252_aljabar-persama_1_B",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0252_aljabar-persama_2_C",
+        "label": "C",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0252_aljabar-persama_3_D",
+        "label": "D",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0253_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui a ★ b = a + b + (a × b). Nilai 5 ★ 6 adalah ...",
+    "imageUrl": null,
+    "explanation": "5 + 6 + (5 × 6) = 11 + 30 = 41.\nJawaban: B. 41",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0253_aljabar-persama_0_A",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0253_aljabar-persama_1_B",
+        "label": "B",
+        "content": "41",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0253_aljabar-persama_2_C",
+        "label": "C",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0253_aljabar-persama_3_D",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0254_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 4 × (☐ + 9) = 88, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Bagi kedua ruas dengan 4: ☐ + 9 = 22. Maka ☐ = 22 − 9 = 13.\nJawaban: D. 13",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0254_aljabar-persama_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0254_aljabar-persama_1_B",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0254_aljabar-persama_2_C",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0254_aljabar-persama_3_D",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0255_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 3 × ☐ + 3 × ☐ = 18, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "3☐ + 3☐ = 6☐, jadi 6 × ☐ = 18 → ☐ = 18 ÷ 6 = 3.\nJawaban: C. 3",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0255_aljabar-persama_0_A",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0255_aljabar-persama_1_B",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0255_aljabar-persama_2_C",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0255_aljabar-persama_3_D",
+        "label": "D",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0256_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ⊗ + ⊖ = 16, ⊖ + ⊠ = 16, dan ⊗ + ⊠ = 22, maka nilai ⊖ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan ketiganya: 2 × (⊗+⊖+⊠) = 54, jadi totalnya 27. Karena ⊗ + ⊠ = 22, maka ⊖ = 27 − 22 = 5.\nJawaban: C. 5",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0256_aljabar-persama_0_A",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0256_aljabar-persama_1_B",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0256_aljabar-persama_2_C",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0256_aljabar-persama_3_D",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0257_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ☐ + ▲ = 14 dan ☐ − ▲ = 4, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan kedua persamaan: 2 × ☐ = 14 + 4 = 18, jadi ☐ = 9. (Cek: ▲ = 5)\n\nJawaban: B. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0257_aljabar-persama_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0257_aljabar-persama_1_B",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0257_aljabar-persama_2_C",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0257_aljabar-persama_3_D",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0258_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 6 × ■ + 24 = 114, maka nilai ■ adalah ...",
+    "imageUrl": null,
+    "explanation": "6 × ■ = 114 − 24 = 90. Maka ■ = 90 ÷ 6 = 15.\nJawaban: C. 15",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0258_aljabar-persama_0_A",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0258_aljabar-persama_1_B",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0258_aljabar-persama_2_C",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0258_aljabar-persama_3_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0259_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 6 × ☐ + 3 × ☐ = 117, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "6☐ + 3☐ = 9☐, jadi 9 × ☐ = 117 → ☐ = 117 ÷ 9 = 13.\nJawaban: B. 13",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0259_aljabar-persama_0_A",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0259_aljabar-persama_1_B",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0259_aljabar-persama_2_C",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0259_aljabar-persama_3_D",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0260_aljabar-persama",
+    "topicId": "top_olimpiade-matematika-sd_aljabar-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika ● + ■ = 60 dan ● = 5 × ■, maka nilai ● adalah ...",
+    "imageUrl": null,
+    "explanation": "Ganti ●: 5■ + ■ = 60 → 6■ = 60 → ■ = 10. Maka ● = 5 × 10 = 50.\nJawaban: A. 50",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0260_aljabar-persama_0_A",
+        "label": "A",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0260_aljabar-persama_1_B",
+        "label": "B",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0260_aljabar-persama_2_C",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0260_aljabar-persama_3_D",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "cat_profiling_asn",
+    "name": "CAT Profiling & Asesmen ASN",
+    "slug": "cat-profiling-asn",
+    "description": "Simulasi & Latihan Pemetaan Potensi dan Uji Kompetensi ASN (Manajerial, Sosio-Kultural, BerAKHLAK, Potensi Kognitif, dan Literasi Digital).",
+    "orderIndex": -1
+  },
+  {
+    "id": "cat_cpns_skd",
+    "name": "CPNS SKD",
+    "slug": "cpns-skd",
+    "description": "Simulasi Seleksi Kompetensi Dasar CPNS (TWK, TIU, TKP skala 1-5).",
+    "orderIndex": 0
+  },
+  {
+    "id": "cat_olimpiade_jso",
+    "name": "Jatim Science Olympiad (JSO)",
+    "slug": "jatim-science-olympiad",
+    "description": null,
+    "orderIndex": 0
+  },
+  {
+    "id": "cat_olimpiade_kmsi",
+    "name": "Kompetisi Matematika, Sains, dan Inggris (KMSI)",
+    "slug": "kompetisi-matematika-sains-inggris",
+    "description": null,
+    "orderIndex": 0
+  },
+  {
+    "id": "cat_olimpiade_prisma",
+    "name": "Olimpiade PRISMA",
+    "slug": "olimpiade-prisma",
+    "description": "Soal penyisihan resmi Olimpiade PRISMA Matematika & Sains dengan soal bergambar.",
+    "orderIndex": 0
+  },
+  {
+    "id": "cat_olimpiade_sd",
+    "name": "Olimpiade Matematika SD",
+    "slug": "olimpiade-matematika-sd",
+    "description": "Bank soal resmi latihan dan simulasi olimpiade sains tingkat SD.",
+    "orderIndex": 0
+  },
+  {
+    "id": "cat_olimpiade_bahasa_inggris",
+    "name": "Olimpiade Bahasa Inggris",
+    "slug": "olimpiade-bahasa-inggris",
+    "description": "Koleksi bank soal resmi olimpiade Bahasa Inggris tingkat SD & MI nasional",
+    "orderIndex": 4
+  },
+  {
+    "id": "cat_olimpiade_ceo",
+    "name": "Chaanakya Ekadanta Olympiad (CEO)",
+    "slug": "chaanakya-ekadanta-olympiad",
+    "description": "Kompetisi olimpiade sains dan matematika bergengsi tingkat nasional",
+    "orderIndex": 5
+  },
+  {
+    "id": "cat_olimpiade_orion",
+    "name": "Olimpiade Nasional ORION",
+    "slug": "olimpiade-nasional-orion",
+    "description": "Simulasi dan naskah resmi babak Final Nasional kompetisi ORION",
+    "orderIndex": 6
+  },
+  {
+    "id": "cat_osn_matematika_sd",
+    "name": "Olimpiade Sains Nasional (OSN) SD",
+    "slug": "osn-matematika-sd",
+    "description": "Koleksi pembahasan soal-soal OSN Matematika SD resmi terbitan dosen & pembina",
+    "orderIndex": 7
+  },
+  {
+    "id": "cat_olimpiade_imocsea",
+    "name": "IMOCSEA Internasional",
+    "slug": "imocsea-internasional",
+    "description": "International Mathematics & Science Olympiad Southeast Asia",
+    "orderIndex": 8
+  }
+]

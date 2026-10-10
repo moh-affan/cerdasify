@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "q_prof_cog_01",
+    "topicId": "top_prof_potensi_analitis",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Wacana Kebijakan Publik: Digitalisasi Pajak Daerah]\nPemerintah Kota X mencatat bahwa penerimaan Pajak Bumi dan Bangunan (PBB) meningkat sebesar 25% setelah diluncurkannya sistem pembayaran kanal digital QRIS dan Virtual Account. Namun, di Kecamatan Z yang merupakan wilayah pesisir dengan keterbatasan jaringan internet, realisasi pembayaran PBB justru stagnan di angka 45% dari target. Analis pendapatan daerah menyatakan bahwa warga pesisir masih mengandalkan loket keliling mingguan yang saat ini frekuensinya dikurangi karena pengalihan armada ke wilayah perkotaan.\n:::\n\nBerdasarkan wacana di atas, kesimpulan yang paling tepat dan berbasis bukti adalah...",
+    "imageUrl": null,
+    "explanation": "**Analisis Logis & Penarikan Kesimpulan:**\nWacana secara eksplisit menghubungkan stagnasi penerimaan di Kecamatan Z dengan dua faktor: keterbatasan jaringan internet dan pengurangan frekuensi loket keliling. Oleh karena itu, digitalisasi tidak serta merta berhasil jika infrastruktur penunjangnya belum merata, sehingga metode layanan luring (loket keliling) masih mutlak diperlukan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_01_a",
+        "label": "A",
+        "content": "Warga Kecamatan Z enggan membayar PBB karena tingginya tarif pajak daerah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_01_b",
+        "label": "B",
+        "content": "Kanal pembayaran digital sepenuhnya menggantikan seluruh kebutuhan pelayanan tatap muka di semua wilayah Kota X.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_01_c",
+        "label": "C",
+        "content": "Efektivitas digitalisasi perpajakan daerah dipengaruhi oleh kesiapan infrastruktur internet, sehingga kehadiran layanan loket keliling masih esensial bagi wilayah dengan disparitas konektivitas.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_01_d",
+        "label": "D",
+        "content": "Penurunan penerimaan di Kecamatan Z disebabkan oleh kelalaian petugas kelurahan setempat.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_01_e",
+        "label": "E",
+        "content": "Pemerintah Kota X sebaiknya menghapuskan kewajiban PBB bagi seluruh warga di wilayah pesisir.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_02",
+    "topicId": "top_prof_potensi_analitis",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Semua pegawai berprestasi berhak menerima tunjangan kinerja penuh.\nSebagian pegawai di Bagian Umum tidak menerima tunjangan kinerja penuh.\n\nKesimpulan logis (*silogisme*) yang benar adalah...",
+    "imageUrl": null,
+    "explanation": "**Silogisme Kategorik:**\nPremis 1: Pegawai berprestasi -> Tukin penuh (A -> B).\nPremis 2: Sebagian pegawai Bagian Umum tidak menerima tukin penuh (Sebagian C bukan B).\nKesimpulan: Sebagian pegawai di Bagian Umum bukan pegawai berprestasi (Sebagian C bukan A).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_02_a",
+        "label": "A",
+        "content": "Semua pegawai di Bagian Umum bukan pegawai berprestasi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_02_b",
+        "label": "B",
+        "content": "Sebagian pegawai di Bagian Umum bukan pegawai berprestasi.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_02_c",
+        "label": "C",
+        "content": "Semua pegawai di Bagian Umum menerima tunjangan kinerja penuh.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_02_d",
+        "label": "D",
+        "content": "Pegawai yang menerima tukin penuh pasti bukan dari Bagian Umum.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_02_e",
+        "label": "E",
+        "content": "Tidak ada korelasi antara prestasi kerja dan tunjangan kinerja di Bagian Umum.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_03",
+    "topicId": "top_prof_potensi_kuantitatif",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tentukan angka berikutnya dalam deret data capaian berikut:\n\n**4, 7, 12, 19, 28, 39, ...**",
+    "imageUrl": null,
+    "explanation": "**Pola Selisih Deret (Tingkat Dua):**\n* 7 - 4 = 3\n* 12 - 7 = 5\n* 19 - 12 = 7\n* 28 - 19 = 9\n* 39 - 28 = 11\n\nPola selisih bertambah 2 (bilangan ganjil berurutan: +3, +5, +7, +9, +11). Maka selisih berikutnya adalah +13.\n39 + 13 = **52**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_03_a",
+        "label": "A",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_03_b",
+        "label": "B",
+        "content": "51",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_03_c",
+        "label": "C",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_03_d",
+        "label": "D",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_03_e",
+        "label": "E",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_04",
+    "topicId": "top_prof_potensi_kuantitatif",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tentukan dua angka kelanjutan dari pola seri angka anggaran berikut:\n\n**3, 6, 8, 16, 18, 36, 38, ... , ...**",
+    "imageUrl": null,
+    "explanation": "**Pola Operasi Bergantian (kali 2 dan tambah 2):**\n* 3 × 2 = 6\n* 6 + 2 = 8\n* 8 × 2 = 16\n* 16 + 2 = 18\n* 18 × 2 = 36\n* 36 + 2 = 38\n\nLangkah berikutnya: 38 × 2 = **76**, lalu 76 + 2 = **78**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_04_a",
+        "label": "A",
+        "content": "76, 78",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_04_b",
+        "label": "B",
+        "content": "74, 76",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_04_c",
+        "label": "C",
+        "content": "40, 80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_04_d",
+        "label": "D",
+        "content": "72, 74",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_04_e",
+        "label": "E",
+        "content": "76, 80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_05",
+    "topicId": "top_prof_potensi_analitis",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Enam pejabat fungsional (A, B, C, D, E, dan F) duduk melingkar menghadap ke pusat meja dalam rapat koordinasi penanganan inflasi daerah:\n1. A duduk tepat berhadapan dengan D.\n2. B duduk tepat di sebelah kanan A.\n3. C tidak duduk bersebelahan dengan D maupun B.\n4. E duduk tepat di sebelah kiri D.\n\nSiapakah yang duduk tepat berhadapan dengan B?",
+    "imageUrl": null,
+    "explanation": "**Penalaran Posisi Meja Bundar (6 kursi, semua menghadap pusat):**\nBeri nomor kursi 1–6 searah jarum jam. Untuk orang yang menghadap pusat, \"sebelah kanan\" dan \"sebelah kiri\" selalu ke arah yang konsisten; misalkan kanan = kursi bernomor lebih besar dan kiri = kursi bernomor lebih kecil.\n- A di kursi 1, maka D (berhadapan) di kursi 4.\n- B di kanan A → kursi 2.\n- E di kiri D → kursi 3.\n- Kursi tersisa 5 dan 6. Kursi 5 bersebelahan dengan D, jadi C harus di kursi 6 (kursi 6 bersebelahan dengan A dan 5, bukan dengan B atau D). F di kursi 5.\n\nKursi yang berhadapan dengan B (kursi 2) adalah kursi 5, yaitu **F**. Jika arah kanan-kiri dibalik, susunannya hanya bercermin dan hasilnya tetap F.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_05_a",
+        "label": "A",
+        "content": "C",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_05_b",
+        "label": "B",
+        "content": "E",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_05_c",
+        "label": "C",
+        "content": "F",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_05_d",
+        "label": "D",
+        "content": "D",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_05_e",
+        "label": "E",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_06",
+    "topicId": "top_prof_potensi_kuantitatif",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Suatu dinas memiliki 40 orang staf. Rata-rata nilai evaluasi kinerja 25 orang staf perempuan adalah 82, sedangkan rata-rata nilai kinerja 15 orang staf laki-laki adalah 78. Berapakah rata-rata nilai evaluasi kinerja seluruh staf dinas tersebut?",
+    "imageUrl": null,
+    "explanation": "**Rata-rata Gabungan (Weighted Mean):**\n$$\\bar{x} = \\frac{(25 \\times 82) + (15 \\times 78)}{25 + 15}$$\n$$\\bar{x} = \\frac{2050 + 1170}{40} = \\frac{3220}{40} = 80{,}5$$\nJadi nilai rata-rata gabungan adalah **80,5**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_06_a",
+        "label": "A",
+        "content": "79,8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_06_b",
+        "label": "B",
+        "content": "80,0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_06_c",
+        "label": "C",
+        "content": "80,5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_06_d",
+        "label": "D",
+        "content": "81,0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_06_e",
+        "label": "E",
+        "content": "81,2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_07",
+    "topicId": "top_prof_potensi_analitis",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika kondisi cuaca ekstrem, maka penerbangan inspeksi helikopter BPBD dibatalkan.\nJika penerbangan inspeksi helikopter BPBD dibatalkan, maka logistik disalurkan lewat jalur darat.\nFakta lapangan: Logistik tidak disalurkan lewat jalur darat.\n\nKesimpulan yang pasti benar adalah...",
+    "imageUrl": null,
+    "explanation": "**Modus Tollens Berantai:**\nPremis 1: P -> Q (Cuaca ekstrem -> Helikopter batal)\nPremis 2: Q -> R (Helikopter batal -> Logistik jalur darat)\nKesimpulan silogisme: P -> R (Cuaca ekstrem -> Logistik jalur darat)\nFakta: ~R (Logistik TIDAK disalurkan lewat jalur darat)\nDengan Modus Tollens (~R -> ~P): Kondisi cuaca **tidak ekstrem**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_07_a",
+        "label": "A",
+        "content": "Kondisi cuaca tidak ekstrem.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_07_b",
+        "label": "B",
+        "content": "Helikopter BPBD mengalami kerusakan mesin.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_07_c",
+        "label": "C",
+        "content": "Kondisi cuaca sangat ekstrem.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_07_d",
+        "label": "D",
+        "content": "Penerbangan inspeksi helikopter tetap dibatalkan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_07_e",
+        "label": "E",
+        "content": "Penyaluran logistik ditunda hingga minggu depan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_08",
+    "topicId": "top_prof_potensi_kuantitatif",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah proyek pemutakhiran data kependudukan dapat diselesaikan oleh 12 orang operator dalam waktu 20 hari kerja. Jika target penyelesaian dipercepat menjadi hanya 15 hari kerja, berapakah jumlah operator tambahan yang harus ditugaskan?",
+    "imageUrl": null,
+    "explanation": "**Perbandingan Berbalik Nilai:**\n$$12 \\times 20 = x \\times 15$$\n$$240 = 15x \\implies x = 16\\text{ orang}$$\nOperator yang dibutuhkan adalah 16 orang.\nTambahan operator = $16 - 12 = \\mathbf{4\\text{ orang}}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_08_a",
+        "label": "A",
+        "content": "3 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_08_b",
+        "label": "B",
+        "content": "4 orang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_08_c",
+        "label": "C",
+        "content": "5 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_08_d",
+        "label": "D",
+        "content": "6 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_08_e",
+        "label": "E",
+        "content": "8 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_09",
+    "topicId": "top_prof_potensi_analitis",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Empat tim verifikator (Tim Merah, Tim Hijau, Tim Biru, dan Tim Kuning) memproses permohonan sertifikat:\n* Tim Merah memproses lebih banyak berkas daripada Tim Hijau.\n* Tim Biru memproses lebih sedikit berkas daripada Tim Hijau.\n* Tim Kuning memproses lebih banyak berkas daripada Tim Merah.\n\nUrutan tim dari yang memproses berkas paling banyak hingga paling sedikit adalah...",
+    "imageUrl": null,
+    "explanation": "**Penalaran Urutan Relasional:**\n* Tim Kuning > Tim Merah\n* Tim Merah > Tim Hijau\n* Tim Hijau > Tim Biru\n\nMaka gabungan urutan dari terbanyak ke tersedikit: **Kuning > Merah > Hijau > Biru**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_09_a",
+        "label": "A",
+        "content": "Kuning, Merah, Biru, Hijau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_09_b",
+        "label": "B",
+        "content": "Merah, Kuning, Hijau, Biru",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_09_c",
+        "label": "C",
+        "content": "Kuning, Merah, Hijau, Biru",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_09_d",
+        "label": "D",
+        "content": "Hijau, Biru, Merah, Kuning",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_09_e",
+        "label": "E",
+        "content": "Kuning, Hijau, Merah, Biru",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_10",
+    "topicId": "top_prof_potensi_kuantitatif",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pagu anggaran sebuah sub-kegiatan adalah Rp120.000.000. Sebanyak 45% dialokasikan untuk belanja modal, 35% untuk belanja operasional dan honorarium, dan sisanya untuk biaya pemeliharaan. Berapakah alokasi dana untuk biaya pemeliharaan?",
+    "imageUrl": null,
+    "explanation": "**Perhitungan Persentase Anggaran:**\nPersentase pemeliharaan = $100\\% - (45\\% + 35\\%) = 100\\% - 80\\% = 20\\%$.\nNilai pemeliharaan = $20\\% \\times \\text{Rp120.000.000} = \\mathbf{\\text{Rp24.000.000}}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_10_a",
+        "label": "A",
+        "content": "Rp20.000.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_10_b",
+        "label": "B",
+        "content": "Rp22.500.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_10_c",
+        "label": "C",
+        "content": "Rp24.000.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_10_d",
+        "label": "D",
+        "content": "Rp26.000.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_10_e",
+        "label": "E",
+        "content": "Rp28.000.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_11",
+    "topicId": "top_prof_potensi_analitis",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Semua dokumen rahasia negara harus disimpan dalam lemari berkas terkunci ganda.\nFlashdisk X berisi dokumen rahasia negara.\n\nKesimpulan yang benar adalah...",
+    "imageUrl": null,
+    "explanation": "**Silogisme Kategorik:**\nKarena Flashdisk X memuat dokumen rahasia negara, maka flashdisk tersebut termasuk kategori yang harus disimpan dalam lemari berkas terkunci ganda.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_11_a",
+        "label": "A",
+        "content": "Flashdisk X boleh dibawa pulang asalkan ada kata sandi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_11_b",
+        "label": "B",
+        "content": "Flashdisk X harus disimpan dalam lemari berkas terkunci ganda.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_11_c",
+        "label": "C",
+        "content": "Hanya dokumen kertas yang wajib disimpan di lemari terkunci ganda.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_11_d",
+        "label": "D",
+        "content": "Flashdisk X tidak memerlukan pengamanan khusus.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_11_e",
+        "label": "E",
+        "content": "Semua benda di lemari berkas terkunci ganda adalah flashdisk.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_12",
+    "topicId": "top_prof_potensi_kuantitatif",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tentukan nilai $x$ pada barisan angka berikut:\n\n**2, 3, 5, 9, 17, 33, x**",
+    "imageUrl": null,
+    "explanation": "**Pola Selisih Barisan Eksponensial ($2^n$):**\n* $3 - 2 = 1$ ($2^0$)\n* $5 - 3 = 2$ ($2^1$)\n* $9 - 5 = 4$ ($2^2$)\n* $17 - 9 = 8$ ($2^3$)\n* $33 - 17 = 16$ ($2^4$)\n\nMaka selisih berikutnya adalah $2^5 = 32$.\n$x = 33 + 32 = \\mathbf{65}$.\n(Atau pola: $2n - 1$: $2(33) - 1 = 65$).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_12_a",
+        "label": "A",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_12_b",
+        "label": "B",
+        "content": "55",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_12_c",
+        "label": "C",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_12_d",
+        "label": "D",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_12_e",
+        "label": "E",
+        "content": "67",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_13",
+    "topicId": "top_prof_potensi_analitis",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Data Tren Stunting dan Sanitasi Daerah]\nBerdasarkan laporan dinas kesehatan, Desa Sukamaju mencatat penurunan angka stunting tertinggi (turun 12%), diikuti Desa Mekarjaya (turun 8%), Desa Margahayu (turun 5%), dan Desa Karanganyar (stagnan). Data Dinas Lingkungan Hidup menunjukkan persentase rumah tangga dengan akses jamban sehat adalah: Desa Sukamaju 94%, Desa Mekarjaya 82%, Desa Margahayu 71%, dan Desa Karanganyar 52%.\n:::\n\nPernyataan manakah yang paling akurat mencerminkan hubungan antar data di atas?",
+    "imageUrl": null,
+    "explanation": "**Analisis Korelasi Data:**\nData memperlihatkan urutan penurunan stunting berbanding lurus dengan urutan persentase kepemilikan jamban sehat (Sukamaju > Mekarjaya > Margahayu > Karanganyar). Hal ini menunjukkan adanya korelasi positif antara ketersediaan sanitasi layak dengan efektivitas penurunan angka stunting balita.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_13_a",
+        "label": "A",
+        "content": "Tingkat penurunan stunting berbanding lurus secara positif dengan tingginya akses rumah tangga terhadap sanitasi jamban sehat.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_13_b",
+        "label": "B",
+        "content": "Akses sanitasi jamban sehat tidak memiliki kaitan dengan penurunan stunting di pedesaan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_13_c",
+        "label": "C",
+        "content": "Desa Karanganyar memiliki angka stunting terendah di antara seluruh desa.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_13_d",
+        "label": "D",
+        "content": "Penurunan stunting di Desa Mekarjaya lebih cepat daripada Desa Sukamaju.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_13_e",
+        "label": "E",
+        "content": "Pemerintah sebaiknya menghentikan program jamban sehat dan fokus pada pemberian susu saja.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_14",
+    "topicId": "top_prof_potensi_kuantitatif",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kecepatan rata-rata kendaraan dinas tim patroli dari Kantor Dinas ke Wilayah Bencana adalah 60 km/jam dengan waktu tempuh 2 jam 30 menit. Saat perjalanan kembali ke kantor dinas melewati jalur yang sama, kondisi jalan macet sehingga kecepatan rata-rata turun menjadi 50 km/jam. Berapakah waktu tempuh perjalanan kembali tersebut?",
+    "imageUrl": null,
+    "explanation": "**Jarak dan Kecepatan:**\nWaktu berangkat = 2,5 jam.\nJarak = $60 \\times 2{,}5 = 150\\text{ km}$.\nWaktu pulang = $\\frac{\\text{Jarak}}{\\text{Kecepatan Pulang}} = \\frac{150}{50} = 3\\text{ jam}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_14_a",
+        "label": "A",
+        "content": "2 jam 45 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_14_b",
+        "label": "B",
+        "content": "3 jam 00 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_14_c",
+        "label": "C",
+        "content": "3 jam 15 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_14_d",
+        "label": "D",
+        "content": "3 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_14_e",
+        "label": "E",
+        "content": "4 jam 00 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_15",
+    "topicId": "top_prof_potensi_analitis",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pilihlah pasangan analogi kata yang memiliki hubungan logika paling setara:\n\n**AUDITOR : AKUNTABILITAS = ... : ...**",
+    "imageUrl": null,
+    "explanation": "**Analogi Profesi dan Nilai Utama yang Ditegakkan:**\nAuditor bertugas menegakkan dan memastikan Akuntabilitas.\nSebagaimana Hakim bertugas menegakkan dan memastikan Keadilan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_15_a",
+        "label": "A",
+        "content": "Guru : Sekolah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_15_b",
+        "label": "B",
+        "content": "Hakim : Keadilan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_15_c",
+        "label": "C",
+        "content": "Dokter : Obat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_15_d",
+        "label": "D",
+        "content": "Polisi : Borgol",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_15_e",
+        "label": "E",
+        "content": "Arsitek : Gedung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_16",
+    "topicId": "top_prof_potensi_analitis",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pilihlah pasangan analogi kata yang memiliki hubungan logika paling setara:\n\n**REGULASI : PELANGGARAN = VAKSIN : ...**",
+    "imageUrl": null,
+    "explanation": "**Analogi Hubungan Preventif (Instrumen dan Hal yang Dicegah):**\nRegulasi dibuat untuk mencegah/mengendalikan terjadinya Pelanggaran.\nVaksin dibuat untuk mencegah/mengendalikan terjadinya Infeksi / Penyakit.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_16_a",
+        "label": "A",
+        "content": "Suntik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_16_b",
+        "label": "B",
+        "content": "Infeksi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_16_c",
+        "label": "C",
+        "content": "Dokter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_16_d",
+        "label": "D",
+        "content": "Rumah Sakit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_16_e",
+        "label": "E",
+        "content": "Kekebalan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_17",
+    "topicId": "top_prof_potensi_kuantitatif",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai dari:\n\n$$\\sqrt{144} + \\sqrt[3]{216} - 3^2 = \\dots$$",
+    "imageUrl": null,
+    "explanation": "**Operasi Bilangan Berpangkat dan Akar:**\n* $\\sqrt{144} = 12$\n* $\\sqrt[3]{216} = 6$ (karena $6^3 = 216$)\n* $3^2 = 9$\n\nHasil = $12 + 6 - 9 = 18 - 9 = \\mathbf{9}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_17_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_17_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_17_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_17_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_17_e",
+        "label": "E",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_18",
+    "topicId": "top_prof_potensi_kuantitatif",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tentukan angka berikutnya dalam deret Fibonacci modifikasi berikut:\n\n**1, 3, 4, 7, 11, 18, 29, ...**",
+    "imageUrl": null,
+    "explanation": "**Deret Fibonacci (Jumlah Dua Bilangan Sebelumnya):**\n* $1 + 3 = 4$\n* $3 + 4 = 7$\n* $4 + 7 = 11$\n* $7 + 11 = 18$\n* $11 + 18 = 29$\n\nAngka berikutnya: $18 + 29 = \\mathbf{47}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_18_a",
+        "label": "A",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_18_b",
+        "label": "B",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_18_c",
+        "label": "C",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_18_d",
+        "label": "D",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_18_e",
+        "label": "E",
+        "content": "58",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_19",
+    "topicId": "top_prof_potensi_analitis",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tidak ada pegawai honorer yang menjadi Pejabat Pembuat Komitmen (PPK).\nPak Hendra adalah Pejabat Pembuat Komitmen (PPK).\n\nMaka kesimpulan yang benar adalah...",
+    "imageUrl": null,
+    "explanation": "**Silogisme Negatif:**\nPremis 1: Honorer $\\cap$ PPK = $\\emptyset$ (Tidak ada honorer yang PPK).\nPremis 2: Pak Hendra $\\in$ PPK.\nKesimpulan: Pak Hendra **bukan pegawai honorer**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_19_a",
+        "label": "A",
+        "content": "Pak Hendra adalah pegawai honorer teladan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_19_b",
+        "label": "B",
+        "content": "Pak Hendra bukan pegawai honorer.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_19_c",
+        "label": "C",
+        "content": "Pak Hendra sebentar lagi diangkat menjadi ASN.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_19_d",
+        "label": "D",
+        "content": "Semua PPK adalah staf honorer berprestasi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_19_e",
+        "label": "E",
+        "content": "Pak Hendra merangkap jabatan staf honorer.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_cog_20",
+    "topicId": "top_prof_potensi_kuantitatif",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika $x = 0{,}375$ dan $y = \\frac{3}{8}$, maka hubungan yang benar antara $x$ dan $y$ adalah...",
+    "imageUrl": null,
+    "explanation": "**Konversi Pecahan dan Desimal:**\n$\\frac{3}{8} = 3 \\div 8 = 0{,}375$.\nKarena $x = 0{,}375$ dan $y = 0{,}375$, maka $x = y$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_cog_20_a",
+        "label": "A",
+        "content": "$x > y$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_cog_20_b",
+        "label": "B",
+        "content": "$x < y$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_cog_20_c",
+        "label": "C",
+        "content": "$x = y$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_cog_20_d",
+        "label": "D",
+        "content": "$2x = 3y$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_cog_20_e",
+        "label": "E",
+        "content": "Hubungan $x$ dan $y$ tidak dapat ditentukan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

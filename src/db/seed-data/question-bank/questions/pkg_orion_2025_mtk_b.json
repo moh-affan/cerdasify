@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "pkg_orion_2025_mtk_b_q01",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sudut yang dibentuk antara kedua jarum pendek dan jarum panjang pada pukul 16.00 membentuk sudut jenis ....",
+    "imageUrl": null,
+    "explanation": "Pada pukul 16.00, jarum panjang menunjuk ke angka 12 dan jarum pendek ke angka 4. Sudut yang terbentuk = $4 \\times 30^\\circ = 120^\\circ$. Karena besarnya antara $90^\\circ$ dan $180^\\circ$, sudut tersebut adalah sudut tumpul.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q01_opt_a",
+        "label": "A",
+        "content": "Tumpul",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q01_opt_b",
+        "label": "B",
+        "content": "Siku-siku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q01_opt_c",
+        "label": "C",
+        "content": "Lancip",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q01_opt_d",
+        "label": "D",
+        "content": "Lurus (180°)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q02",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Andini sedang membaca buku untuk membuat tugas sekolah. Ternyata dua halaman yang terbuka dan saling berhadapan jika dijumlahkan bernilai 125. Berapakah nomor halaman berikutnya setelah halaman yang terbuka tersebut?",
+    "imageUrl": null,
+    "explanation": "Dua halaman berhadapan bernomor $x$ dan $x+1$. Maka $x + (x+1) = 125 \\Rightarrow 2x = 124 \\Rightarrow x = 62$. Jadi halaman yang terbuka adalah 62 dan 63. Nomor halaman berikutnya setelah 63 adalah 64.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q02_opt_a",
+        "label": "A",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q02_opt_b",
+        "label": "B",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q02_opt_c",
+        "label": "C",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q02_opt_d",
+        "label": "D",
+        "content": "67",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q03",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sepanjang jalan 'Madura' setiap rumah diberi nomor urut dari 1 sampai 150. Berapa banyak nomor rumah yang memuat angka 8?",
+    "imageUrl": null,
+    "explanation": "Nomor yang memuat angka 8:\n- Satuan 8: 8, 18, 28, 38, 48, 58, 68, 78, 88, 98, 108, 118, 128, 138, 148 (15 nomor)\n- Puluhan 8: 80, 81, 82, 83, 84, 85, 86, 87, 89 (9 nomor baru, 88 sudah dihitung)\nTotal = $15 + 9 = 24$ nomor.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q03_opt_a",
+        "label": "A",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q03_opt_b",
+        "label": "B",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q03_opt_c",
+        "label": "C",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q03_opt_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q04",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah dua bilangan sama dengan 21. Salah satu bilangan tersebut 3 kurangnya dari bilangan yang lebih besar. Hasil kali kedua bilangan tersebut adalah ....",
+    "imageUrl": null,
+    "explanation": "Misalkan kedua bilangan adalah $a$ dan $b$ ($a > b$).\n$a + b = 21$ dan $a - b = 3$.\nJumlahkan: $2a = 24 \\Rightarrow a = 12, b = 9$.\nHasil kali = $12 \\times 9 = 108$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q04_opt_a",
+        "label": "A",
+        "content": "162",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q04_opt_b",
+        "label": "B",
+        "content": "86",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q04_opt_c",
+        "label": "C",
+        "content": "108",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q04_opt_d",
+        "label": "D",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q05",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dita mempunyai pensil sebanyak 12 kotak. Setiap kotak berisi 36 pensil. Jumlah seluruh pensil milik Dita adalah ....",
+    "imageUrl": null,
+    "explanation": "Total pensil = $12 \\times 36 = 432\\text{ pensil}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q05_opt_a",
+        "label": "A",
+        "content": "24 pensil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q05_opt_b",
+        "label": "B",
+        "content": "144 pensil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q05_opt_c",
+        "label": "C",
+        "content": "72 pensil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q05_opt_d",
+        "label": "D",
+        "content": "432 pensil",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q06",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jumlah kelereng Bima ($B$) adalah 5 butir lebih sedikit dari dua kali jumlah kelereng milik Anton ($A$). Bentuk persamaan matematika yang benar dari pernyataan tersebut adalah ....",
+    "imageUrl": null,
+    "explanation": "Dua kali kelereng Anton = $2A$. Lima lebih sedikit dari dua kali Anton = $2A - 5$. Maka $B = 2A - 5$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q06_opt_a",
+        "label": "A",
+        "content": "$B = 2A - 10$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q06_opt_b",
+        "label": "B",
+        "content": "$B = 2A - 5$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q06_opt_c",
+        "label": "C",
+        "content": "$2A = 5 - B$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q06_opt_d",
+        "label": "D",
+        "content": "$B = 5 - 2A$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q07",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Waktu yang diperlukan Reza untuk berlari mengelilingi lapangan adalah 7 menit 13 detik, sedangkan Jonathan membutuhkan waktu 6 menit 35 detik. Berapa detik lebih cepat waktu tempuh Jonathan dibandingkan Reza?",
+    "imageUrl": null,
+    "explanation": "Ubah ke detik:\n- Reza = $(7 \\times 60) + 13 = 433\\text{ detik}$\n- Jonathan = $(6 \\times 60) + 35 = 395\\text{ detik}$\nSelisih = $433 - 395 = 38\\text{ detik}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q07_opt_a",
+        "label": "A",
+        "content": "38 detik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q07_opt_b",
+        "label": "B",
+        "content": "42 detik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q07_opt_c",
+        "label": "C",
+        "content": "48 detik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q07_opt_d",
+        "label": "D",
+        "content": "22 detik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q08",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah trapesium mempunyai luas $28\\text{ cm}^2$. Jika jumlah panjang kedua sisi yang sejajar adalah $4\\text{ cm}$, maka tinggi trapesium tersebut adalah ....",
+    "imageUrl": null,
+    "explanation": "Rumus luas trapesium: $L = \\frac{(a+b) \\times t}{2}$.\n$28 = \\frac{4 \\times t}{2} \\Rightarrow 28 = 2t \\Rightarrow t = 14\\text{ cm}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q08_opt_a",
+        "label": "A",
+        "content": "12 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q08_opt_b",
+        "label": "B",
+        "content": "13 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q08_opt_c",
+        "label": "C",
+        "content": "14 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q08_opt_d",
+        "label": "D",
+        "content": "15 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q09",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bentuk persentase dari pecahan $\\frac{2}{5}$ adalah ....",
+    "imageUrl": null,
+    "explanation": "$\\frac{2}{5} \\times 100\\% = \\frac{200}{5}\\% = 40\\%$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q09_opt_a",
+        "label": "A",
+        "content": "20%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q09_opt_b",
+        "label": "B",
+        "content": "30%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q09_opt_c",
+        "label": "C",
+        "content": "40%",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q09_opt_d",
+        "label": "D",
+        "content": "50%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q10",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dhani memiliki seutas senar pancing. Sepanjang $\\frac{1}{8}$ bagian berwarna biru, $\\frac{2}{3}$ bagian berwarna merah, dan sisanya sepanjang 5 cm tidak berwarna. Berapakah panjang total senar tersebut?",
+    "imageUrl": null,
+    "explanation": "Bagian berwarna = $\\frac{1}{8} + \\frac{2}{3} = \\frac{3}{24} + \\frac{16}{24} = \\frac{19}{24}$.\nSisa bagian = $1 - \\frac{19}{24} = \\frac{5}{24}$.\n$\\frac{5}{24} \\times L = 5\\text{ cm} \\Rightarrow L = 5 \\times \\frac{24}{5} = 24\\text{ cm}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q10_opt_a",
+        "label": "A",
+        "content": "16 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q10_opt_b",
+        "label": "B",
+        "content": "14 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q10_opt_c",
+        "label": "C",
+        "content": "21 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q10_opt_d",
+        "label": "D",
+        "content": "24 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q11",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu berbelanja kebutuhan dapur: 2 liter minyak goreng @ Rp 12.500,00; 3 kg telur @ Rp 11.750,00; 5 kg beras @ Rp 9.500,00; dan 2 kg gula pasir @ Rp 14.700,00. Jika Ibu membayar dengan 4 lembar uang lima puluh ribuan, berapa rupiah uang kembalian yang diterima Ibu?",
+    "imageUrl": null,
+    "explanation": "Total belanja:\n- Minyak: $2 \\times 12.500 = 25.000$\n- Telur: $3 \\times 11.750 = 35.250$\n- Beras: $5 \\times 9.500 = 47.500$\n- Gula: $2 \\times 14.700 = 29.400$\nTotal belanja = Rp 137.150,00.\nUang Ibu = $4 \\times 50.000 = \\text{Rp } 200.000,00$.\nKembalian = $200.000 - 137.150 = \\text{Rp } 62.850,00$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q11_opt_a",
+        "label": "A",
+        "content": "Rp 200.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q11_opt_b",
+        "label": "B",
+        "content": "Rp 137.150,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q11_opt_c",
+        "label": "C",
+        "content": "Rp 62.850,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q11_opt_d",
+        "label": "D",
+        "content": "Rp 25.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q12",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Faktor Persekutuan Terbesar (FPB) dari bilangan 125, 240, dan 375 adalah ....",
+    "imageUrl": null,
+    "explanation": "Faktorisasi prima:\n- $125 = 5^3$\n- $240 = 2^4 \\times 3 \\times 5$\n- $375 = 3 \\times 5^3$\nFaktor prima yang sama berpangkat terkecil adalah 5. Jadi $\\text{FPB} = 5$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q12_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q12_opt_b",
+        "label": "B",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q12_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q12_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q13",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Besar sudut satu per lima ($\\frac{1}{5}$) putaran penuh adalah ....",
+    "imageUrl": null,
+    "explanation": "Satu putaran penuh = $360^\\circ$.\n$\\frac{1}{5} \\times 360^\\circ = 72^\\circ$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q13_opt_a",
+        "label": "A",
+        "content": "60°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q13_opt_b",
+        "label": "B",
+        "content": "72°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q13_opt_c",
+        "label": "C",
+        "content": "45°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q13_opt_d",
+        "label": "D",
+        "content": "90°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q14",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Aku adalah sebuah bilangan. Jika aku dikalikan 12 kemudian hasilnya dikurangi 8 menghasilkan bilangan 64. Bilangan berapakah aku?",
+    "imageUrl": null,
+    "explanation": "$12x - 8 = 64 \\Rightarrow 12x = 72 \\Rightarrow x = \\frac{72}{12} = 6$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q14_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q14_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q14_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q14_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q15",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jumlah ayam Paman adalah $\\frac{3}{5}$ dari jumlah ayam Ayah. Jika Ayah memiliki 60 ekor ayam, berapakah jumlah ayam milik Paman?",
+    "imageUrl": null,
+    "explanation": "Ayam Paman = $\\frac{3}{5} \\times 60 = 3 \\times 12 = 36\\text{ ekor}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q15_opt_a",
+        "label": "A",
+        "content": "30 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q15_opt_b",
+        "label": "B",
+        "content": "60 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q15_opt_c",
+        "label": "C",
+        "content": "36 ekor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q15_opt_d",
+        "label": "D",
+        "content": "12 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q16",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Usia seekor bayi kelinci sekarang adalah 154 hari. Berapa minggu yang lalu bayi kelinci tersebut dilahirkan?",
+    "imageUrl": null,
+    "explanation": "1 minggu = 7 hari.\n$154 : 7 = 22\\text{ minggu}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q16_opt_a",
+        "label": "A",
+        "content": "22 minggu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q16_opt_b",
+        "label": "B",
+        "content": "23 minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q16_opt_c",
+        "label": "C",
+        "content": "21 minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q16_opt_d",
+        "label": "D",
+        "content": "20 minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q17",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu mengatakan akan kembali ke rumah setelah 4 jam 15 menit. Jika Ibu berangkat pada pukul 07.30, maka Ibu diperkirakan pulang pada pukul ....",
+    "imageUrl": null,
+    "explanation": "Ibu berangkat pukul 07.30 dan mengatakan akan kembali setelah 4 jam 15 menit.\n$$\\text{Waktu tiba di rumah} = 07.30 + 04.15 = 11.45$$.\n\nKunci Jawaban: **B (11.45)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q17_opt_a",
+        "label": "A",
+        "content": "10.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q17_opt_b",
+        "label": "B",
+        "content": "11.45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q17_opt_c",
+        "label": "C",
+        "content": "12.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q17_opt_d",
+        "label": "D",
+        "content": "12.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q18",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu membeli gula sebanyak 5 kg, lalu Bibi memberi Ibu tambahan gula sebanyak 15 kg. Berapa ons total seluruh gula yang dimiliki Ibu sekarang?",
+    "imageUrl": null,
+    "explanation": "Total gula = $5\\text{ kg} + 15\\text{ kg} = 20\\text{ kg}$.\nKarena $1\\text{ kg} = 10\\text{ ons}$, maka $20\\text{ kg} = 20 \\times 10 = 200\\text{ ons}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q18_opt_a",
+        "label": "A",
+        "content": "0,2 ons",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q18_opt_b",
+        "label": "B",
+        "content": "2 ons",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q18_opt_c",
+        "label": "C",
+        "content": "20 ons",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q18_opt_d",
+        "label": "D",
+        "content": "200 ons",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q19",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu membeli 3 kg telur dan 2 kg tepung. Harga 1 kg telur adalah Rp 21.000,00 dan harga 1 kg tepung adalah Rp 9.000,00. Total uang yang harus dibayarkan Ibu adalah ....",
+    "imageUrl": null,
+    "explanation": "Total belanja = $(3 \\times 21.000) + (2 \\times 9.000) = 63.000 + 18.000 = \\text{Rp } 81.000,00$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q19_opt_a",
+        "label": "A",
+        "content": "Rp 51.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q19_opt_b",
+        "label": "B",
+        "content": "Rp 61.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q19_opt_c",
+        "label": "C",
+        "content": "Rp 71.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q19_opt_d",
+        "label": "D",
+        "content": "Rp 81.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q20",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pernyataan perbandingan antarpecahan berikut bernilai benar, KECUALI ....",
+    "imageUrl": null,
+    "explanation": "Untuk pembilang yang sama, pecahan dengan penyebut lebih kecil bernilai lebih besar. Jadi $\\frac{4}{7} > \\frac{4}{9}$. Pernyataan A yang menyatakan $\\frac{4}{9} > \\frac{4}{7}$ adalah salah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q20_opt_a",
+        "label": "A",
+        "content": "$\\frac{4}{9}$ lebih besar dari $\\frac{4}{7}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q20_opt_b",
+        "label": "B",
+        "content": "$\\frac{5}{10}$ lebih kecil dari $\\frac{5}{8}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q20_opt_c",
+        "label": "C",
+        "content": "$\\frac{6}{12}$ lebih besar dari $\\frac{6}{16}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q20_opt_d",
+        "label": "D",
+        "content": "$\\frac{9}{25}$ lebih kecil dari $\\frac{9}{2}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q21",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui sebuah bangun balok memiliki panjang total seluruh rusuknya 152 cm. Jika perbandingan ukuran panjang : lebar : tingginya adalah $8 : 6 : 5$, berapakah luas permukaan balok tersebut?",
+    "imageUrl": null,
+    "explanation": "Panjang seluruh rusuk balok: $4(p + l + t) = 152 \\Rightarrow p + l + t = 38\\text{ cm}$.\nTotal bagian rasio: $8 + 6 + 5 = 19$.\nNilai 1 bagian = $38 : 19 = 2\\text{ cm}$.\n- $p = 8 \\times 2 = 16\\text{ cm}$\n- $l = 6 \\times 2 = 12\\text{ cm}$\n- $t = 5 \\times 2 = 10\\text{ cm}$\nLuas permukaan = $2(pl + pt + lt) = 2(16\\times 12 + 16\\times 10 + 12\\times 10) = 2(192 + 160 + 120) = 2(472) = 944\\text{ cm}^2$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q21_opt_a",
+        "label": "A",
+        "content": "$488\\text{ cm}^2$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q21_opt_b",
+        "label": "B",
+        "content": "$522\\text{ cm}^2$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q21_opt_c",
+        "label": "C",
+        "content": "$672\\text{ cm}^2$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q21_opt_d",
+        "label": "D",
+        "content": "$944\\text{ cm}^2$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q22",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kakek memiliki kolam lele berbentuk balok yang diisi air dengan debit $160\\text{ m}^3/\\text{jam}$. Setelah 30 menit, kolam tersebut terisi penuh. Jika lebar kolam 4 meter dan tinggi kolam 2 meter (atau terisi air), maka panjang kolam kakek adalah .... meter.",
+    "imageUrl": null,
+    "explanation": "Waktu = 30 menit = 0,5 jam.\nVolume total = $160\\text{ m}^3/\\text{jam} \\times 0,5\\text{ jam} = 80\\text{ m}^3$.\n$V = p \\times l \\times t \\Rightarrow 80 = p \\times 4 \\times 2 \\Rightarrow 80 = 8p \\Rightarrow p = 10\\text{ meter}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q22_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q22_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q22_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q22_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q23",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Monika memiliki 48 pisang, 32 apel, dan 56 jeruk. Buah tersebut akan dibagikan ke tetangganya sama rata ke dalam sejumlah parsel buah identik. Banyak buah pisang, apel, dan jeruk dalam setiap parsel adalah ....",
+    "imageUrl": null,
+    "explanation": "Cari FPB(48, 32, 56) = 8 parsel.\nIsi tiap parsel:\n- Pisang: $48 : 8 = 6\\text{ buah}$\n- Apel: $32 : 8 = 4\\text{ buah}$\n- Jeruk: $56 : 8 = 7\\text{ buah}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q23_opt_a",
+        "label": "A",
+        "content": "Pisang 6 buah; apel 4 buah; jeruk 7 buah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q23_opt_b",
+        "label": "B",
+        "content": "Pisang 4 buah; apel 6 buah; jeruk 7 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q23_opt_c",
+        "label": "C",
+        "content": "Pisang 6 buah; apel 4 buah; jeruk 9 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q23_opt_d",
+        "label": "D",
+        "content": "Pisang 8 buah; apel 6 buah; jeruk 4 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q24",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar wadah kerucut di dalam tabung berikut ini!\n\nSebuah wadah kerucut berdiameter 42 cm dimasukkan ke dalam tabung berdiameter sama (tinggi 50 cm). Lalu ruang kosong di luar kerucut diisi pasir hingga penuh. Jika tiap $1\\text{ cm}^3$ pasir berbobot 2 gram, maka total berat pasir dalam tabung adalah ....",
+    "imageUrl": "/uploads/orion2025_mtkb_q24_tabung_kerucut.png",
+    "explanation": "Jari-jari $r = 21\\text{ cm}$, tinggi $t = 50\\text{ cm}$.\nVolume ruang kosong = Volume tabung - Volume kerucut = $\\frac{2}{3} \\pi r^2 t$.\n$V = \\frac{2}{3} \\times \\frac{22}{7} \\times 21 \\times 21 \\times 50 = \\frac{2}{3} \\times 66 \\times 21 \\times 50 = 44 \\times 1.050 = 46.200\\text{ cm}^3$.\nBerat pasir = $46.200 \\times 2\\text{ gram} = 92.400\\text{ gram} = 92,4\\text{ kg}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q24_opt_a",
+        "label": "A",
+        "content": "78,6 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q24_opt_b",
+        "label": "B",
+        "content": "86,7 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q24_opt_c",
+        "label": "C",
+        "content": "92,4 kg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q24_opt_d",
+        "label": "D",
+        "content": "102,6 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q25",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kiki membeli perlengkapan sekolah: sepatu seharga Rp 98.500,00; tas sekolah Rp 73.000,00; dan kaos kaki Rp 15.500,00. Taksiran uang ke puluhan ribu terdekat yang harus dibawa Ibu untuk membeli perlengkapan tersebut adalah ....",
+    "imageUrl": null,
+    "explanation": "Total harga belanjaan = $98.500 + 73.000 + 15.500 = \\text{Rp } 187.000,00$. Taksiran pembulatan ke puluhan ribu terdekat di atasnya agar cukup membeli adalah Rp 190.000,00.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q25_opt_a",
+        "label": "A",
+        "content": "Rp 170.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q25_opt_b",
+        "label": "B",
+        "content": "Rp 180.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q25_opt_c",
+        "label": "C",
+        "content": "Rp 190.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q25_opt_d",
+        "label": "D",
+        "content": "Rp 200.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q26",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sekelompok pendaki gunung terdiri dari 40 pria dan 28 wanita. Mereka akan dibagi menjadi beberapa kelompok dengan komposisi pria dan wanita yang sama banyak. Jumlah pendaki putri pada setiap kelompok adalah ....",
+    "imageUrl": null,
+    "explanation": "FPB(40, 28) = 4 kelompok.\nBanyak pendaki putri tiap kelompok = $28 : 4 = 7\\text{ orang}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q26_opt_a",
+        "label": "A",
+        "content": "4 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q26_opt_b",
+        "label": "B",
+        "content": "7 orang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q26_opt_c",
+        "label": "C",
+        "content": "10 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q26_opt_d",
+        "label": "D",
+        "content": "14 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q27",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bilangan yang memiliki bentuk faktorisasi prima $2^4 \\times 3^2 \\times 5 \\times 7$ adalah ....",
+    "imageUrl": null,
+    "explanation": "$2^4 \\times 3^2 \\times 5 \\times 7 = 16 \\times 9 \\times 35 = 144 \\times 35 = 5.040$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q27_opt_a",
+        "label": "A",
+        "content": "420",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q27_opt_b",
+        "label": "B",
+        "content": "1.680",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q27_opt_c",
+        "label": "C",
+        "content": "3.780",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q27_opt_d",
+        "label": "D",
+        "content": "5.040",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q28",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai dari $\\sqrt{2.916}$ adalah ....",
+    "imageUrl": null,
+    "explanation": "Karena $50^2 = 2.500$ dan $60^2 = 3.600$, serta angka satuan 6 berasal dari $4^2$ atau $6^2$, kita uji $54 \\times 54 = 2.916$. Jadi $\\sqrt{2.916} = 54$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q28_opt_a",
+        "label": "A",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q28_opt_b",
+        "label": "B",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q28_opt_c",
+        "label": "C",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q28_opt_d",
+        "label": "D",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q29",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil perhitungan dari $(15 + 14)^3 - 19^2 - \\sqrt[3]{15.625}$ adalah ....",
+    "imageUrl": null,
+    "explanation": "- $(15+14)^3 = 29^3 = 24.389$\n- $19^2 = 361$\n- $\\sqrt[3]{15.625} = 25$\nHasil = $24.389 - 361 - 25 = 24.003$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q29_opt_a",
+        "label": "A",
+        "content": "24.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q29_opt_b",
+        "label": "B",
+        "content": "24.003",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q29_opt_c",
+        "label": "C",
+        "content": "30.006",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q29_opt_d",
+        "label": "D",
+        "content": "30.007",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q30",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil operasi hitung pecahan $4\\frac{3}{4} - 3\\frac{3}{5} + \\frac{5}{6}$ adalah ....",
+    "imageUrl": null,
+    "explanation": "Samakan penyebut ke KPK(4, 5, 6) = 60:\n$4\\frac{45}{60} - 3\\frac{36}{60} + \\frac{50}{60} = (4-3) + \\frac{45 - 36 + 50}{60} = 1 + \\frac{59}{60} = 1\\frac{59}{60}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q30_opt_a",
+        "label": "A",
+        "content": "$2\\frac{7}{30}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q30_opt_b",
+        "label": "B",
+        "content": "$3\\frac{7}{30}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q30_opt_c",
+        "label": "C",
+        "content": "$4\\frac{7}{15}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q30_opt_d",
+        "label": "D",
+        "content": "$1\\frac{59}{60}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q31",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika $\\frac{3}{8} + \\frac{1}{5} = n - \\frac{1}{5}$, maka nilai $n$ yang memenuhi adalah ....",
+    "imageUrl": null,
+    "explanation": "$n = \\frac{3}{8} + \\frac{1}{5} + \\frac{1}{5} = \\frac{3}{8} + \\frac{2}{5} = \\frac{15 + 16}{40} = \\frac{31}{40}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q31_opt_a",
+        "label": "A",
+        "content": "$\\frac{27}{40}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q31_opt_b",
+        "label": "B",
+        "content": "$\\frac{29}{40}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q31_opt_c",
+        "label": "C",
+        "content": "$\\frac{31}{40}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q31_opt_d",
+        "label": "D",
+        "content": "$1\\frac{3}{40}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q32",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pak Kurdi mempunyai sepetak tanah. Sebanyak $\\frac{3}{8}$ bagian ditanami bayam, $\\frac{1}{4}$ bagian ditanami cabai, dan sisanya ditanami ketela pohon. Bagian tanah yang ditanami ketela pohon adalah ....",
+    "imageUrl": null,
+    "explanation": "Tanah terpakai = $\\frac{3}{8} + \\frac{1}{4} = \\frac{3}{8} + \\frac{2}{8} = \\frac{5}{8}$ bagian.\nSisa untuk ketela pohon = $1 - \\frac{5}{8} = \\frac{3}{8}$ bagian.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q32_opt_a",
+        "label": "A",
+        "content": "$\\frac{1}{8}$ bagian",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q32_opt_b",
+        "label": "B",
+        "content": "$\\frac{1}{4}$ bagian",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q32_opt_c",
+        "label": "C",
+        "content": "$\\frac{3}{8}$ bagian",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q32_opt_d",
+        "label": "D",
+        "content": "$\\frac{1}{2}$ bagian",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q33",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Eki membeli pita merah sepanjang 1,75 meter, pita kuning $1\\frac{1}{2}$ meter, dan pita hijau sepanjang 0,5 meter. Setelah selesai membuat prakarya, ternyata masih tersisa pita merah sepanjang 0,3 meter. Total panjang pita yang terpakai untuk prakarya adalah ....",
+    "imageUrl": null,
+    "explanation": "- Pita merah terpakai = $1,75 - 0,3 = 1,45\\text{ m}$\n- Pita kuning terpakai = $1,5\\text{ m}$\n- Pita hijau terpakai = $0,5\\text{ m}$\nTotal = $1,45 + 1,5 + 0,5 = 3,45\\text{ meter}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q33_opt_a",
+        "label": "A",
+        "content": "3,72 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q33_opt_b",
+        "label": "B",
+        "content": "3,45 meter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q33_opt_c",
+        "label": "C",
+        "content": "2,72 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q33_opt_d",
+        "label": "D",
+        "content": "2,45 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q34",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Urutan pecahan berikut dari yang terbesar adalah:\n$$\\frac{11}{25};\\; 0,72;\\; 83\\%;\\; 0,627$$",
+    "imageUrl": null,
+    "explanation": "Ubah semua pecahan ke desimal:\n- $83\\% = 0,830$\n- $0,72 = 0,720$\n- $0,627$\n- $\\frac{11}{25} = 0,440$\nUrutan dari yang terbesar: $83\\% > 0,72 > 0,627 > \\frac{11}{25}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q34_opt_a",
+        "label": "A",
+        "content": "$83\\%;\\; 0,72;\\; 0,627;\\; \\frac{11}{25}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q34_opt_b",
+        "label": "B",
+        "content": "$\\frac{11}{25};\\; 0,72;\\; 83\\%;\\; 0,627$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q34_opt_c",
+        "label": "C",
+        "content": "$\\frac{11}{25};\\; 0,627;\\; 0,72;\\; 83\\%$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q34_opt_d",
+        "label": "D",
+        "content": "$0,627;\\; \\frac{11}{25};\\; 0,72;\\; 83\\%$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q35",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Gadhisa membeli tas baru seharga Rp 150.000,00. Di rak toko tertera potongan diskon sebesar 20%. Uang yang harus dibayarkan Gadhisa ke kasir adalah ....",
+    "imageUrl": null,
+    "explanation": "Besar diskon = $20\\% \\times 150.000 = \\text{Rp } 30.000,00$.\nUang yang dibayar = $150.000 - 30.000 = \\text{Rp } 120.000,00$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q35_opt_a",
+        "label": "A",
+        "content": "Rp 140.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q35_opt_b",
+        "label": "B",
+        "content": "Rp 135.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q35_opt_c",
+        "label": "C",
+        "content": "Rp 130.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q35_opt_d",
+        "label": "D",
+        "content": "Rp 120.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q36",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Prita membeli sekotak pensil seharga Rp 25.000,00. Pensil tersebut dijual kembali dan ia memperoleh keuntungan 20%. Besar keuntungan uang yang didapatkan Prita adalah ....",
+    "imageUrl": null,
+    "explanation": "Keuntungan = $20\\% \\times 25.000 = \\frac{20}{100} \\times 25.000 = \\text{Rp } 5.000,00$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q36_opt_a",
+        "label": "A",
+        "content": "Rp 500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q36_opt_b",
+        "label": "B",
+        "content": "Rp 1.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q36_opt_c",
+        "label": "C",
+        "content": "Rp 3.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q36_opt_d",
+        "label": "D",
+        "content": "Rp 5.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q37",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perbandingan panjang pita merah dengan biru adalah $3 : 4$, sedangkan perbandingan panjang pita biru dan kuning adalah $5 : 7$. Jika panjang pita kuning adalah 224 meter, maka panjang pita merah adalah .... meter.",
+    "imageUrl": null,
+    "explanation": "Samakan perbandingan pita biru (KPK 4 dan 5 = 20):\n- Merah : Biru = $15 : 20$\n- Biru : Kuning = $20 : 28$\nMerah : Biru : Kuning = $15 : 20 : 28$.\nPanjang kuning = 224 m $\\Rightarrow 1\\text{ bagian} = 224 : 28 = 8\\text{ meter}$.\nPanjang merah = $15 \\times 8 = 120\\text{ meter}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q37_opt_a",
+        "label": "A",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q37_opt_b",
+        "label": "B",
+        "content": "110",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q37_opt_c",
+        "label": "C",
+        "content": "120",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q37_opt_d",
+        "label": "D",
+        "content": "150",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q38",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perbandingan persediaan gula pasir, beras, dan tepung di Toko Sempurna adalah $4 : 8 : 7$. Jika jumlah beras dan tepung adalah 75 kg, maka banyak stok gula pasir adalah .... kg.",
+    "imageUrl": null,
+    "explanation": "Perbandingan Beras + Tepung = $8 + 7 = 15\\text{ bagian}$.\nNilai 1 bagian = $75 : 15 = 5\\text{ kg}$.\nBanyak gula pasir = $4 \\times 5 = 20\\text{ kg}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q38_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q38_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q38_opt_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q38_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q39",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jarum jam yang membentuk sudut lancip (kurang dari 90°) terbentuk pada waktu ....",
+    "imageUrl": null,
+    "explanation": "Pada pukul 10.05, jarum panjang berada di angka 1 ($30^\\circ$). Jarum pendek di angka $10 + \\frac{5}{60} = 10\\frac{1}{12}$, membentuk sudut $302,5^\\circ$. Selisih sudut kecil = $360^\\circ - 302,5^\\circ + 30^\\circ = 87,5^\\circ$. Karena $87,5^\\circ < 90^\\circ$, sudut yang terbentuk adalah sudut lancip.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q39_opt_a",
+        "label": "A",
+        "content": "Pukul 10.05",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q39_opt_b",
+        "label": "B",
+        "content": "Pukul 09.05",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q39_opt_c",
+        "label": "C",
+        "content": "Pukul 08.05",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q39_opt_d",
+        "label": "D",
+        "content": "Pukul 07.05",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_b_q40",
+    "topicId": "top_orion_mtk_lb",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Besar sudut perputaran jarum menit jam dinding dari pukul 11.05 sampai dengan 11.24 adalah ....",
+    "imageUrl": null,
+    "explanation": "Lama perputaran menit = $24 - 5 = 19\\text{ menit}$.\nSetiap 1 menit perputaran sudut jarum menit adalah $\\frac{360^\\circ}{60} = 6^\\circ$.\nBesar sudut = $19 \\times 6^\\circ = 114^\\circ$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_b_q40_opt_a",
+        "label": "A",
+        "content": "120°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q40_opt_b",
+        "label": "B",
+        "content": "119°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q40_opt_c",
+        "label": "C",
+        "content": "115°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_b_q40_opt_d",
+        "label": "D",
+        "content": "114°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

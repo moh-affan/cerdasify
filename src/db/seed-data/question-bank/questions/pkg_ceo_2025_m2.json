@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "q_ceo25_m2_01",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rara memiliki 45 kelereng putih dan 50 kelereng hijau. Kelereng tersebut akan dimasukkan ke dalam beberapa kaleng sehingga setiap kaleng berisi kelereng putih dan kelereng hijau dengan jumlah yang sama. Berapa banyak kaleng paling banyak yang dibutuhkan?",
+    "imageUrl": null,
+    "explanation": "Jumlah kaleng yang dibutuhkan adalah FPB dari 45 dan 50:\n$45 = 3^2 \\times 5$, $50 = 2 \\times 5^2 \\implies \\text{FPB} = 5$ kaleng.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_01_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_01_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_01_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_01_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_02",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pecahan yang senilai dengan $\\frac{3}{5}$ adalah…",
+    "imageUrl": null,
+    "explanation": "$\\frac{90}{150} = \\frac{90 : 30}{150 : 30} = \\frac{3}{5}$.\n(15/20 = 3/4, 95/120 = 19/24, 85/150 = 17/30)\n\nKunci Jawaban: **C (90/150)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_02_a",
+        "label": "A",
+        "content": "15/20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_02_b",
+        "label": "B",
+        "content": "95/120",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_02_c",
+        "label": "C",
+        "content": "90/150",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_02_d",
+        "label": "D",
+        "content": "85/150",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_03",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "146 dam = … km",
+    "imageUrl": null,
+    "explanation": "Konversi tangga satuan panjang:\n$1 \\text{ dam} = 0,01 \\text{ km} \\implies 146 \\text{ dam} = 1,46 \\text{ km}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_03_a",
+        "label": "A",
+        "content": "0,146",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_03_b",
+        "label": "B",
+        "content": "1,46",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_03_c",
+        "label": "C",
+        "content": "14,6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_03_d",
+        "label": "D",
+        "content": "14.60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_04",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di antara bilangan berikut, manakah yang hasilnya merupakan bilangan ganjil?",
+    "imageUrl": null,
+    "explanation": "A. 322 → genap\nB. 269 − 31 = 238 → genap\nC. 83 → ganjil\nD. 666 : 3 = 222 → genap\nJadi yang hasilnya bilangan ganjil adalah **83**.\n\nKunci Jawaban: **C (83)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_04_a",
+        "label": "A",
+        "content": "322",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_04_b",
+        "label": "B",
+        "content": "269 – 31",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_04_c",
+        "label": "C",
+        "content": "83",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_04_d",
+        "label": "D",
+        "content": "666 : 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_05",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bilangan 49.768 jika dibulatkan ke ratusan terdekat menjadi…",
+    "imageUrl": null,
+    "explanation": "Pada bilangan 49.768, angka puluhan adalah 6 ($\\ge 5$), sehingga dibulatkan ke atas menjadi **49.800**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_05_a",
+        "label": "A",
+        "content": "50.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_05_b",
+        "label": "B",
+        "content": "49.800",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_05_c",
+        "label": "C",
+        "content": "49.700",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_05_d",
+        "label": "D",
+        "content": "49.750",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_06",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ulfa membeli kertas sebanyak 35 rim. Jika kertas digunakan 6.799 lembar, maka sisa kertas milik Ulfa adalah … lembar.",
+    "imageUrl": null,
+    "explanation": "$1 \\text{ rim} = 500 \\text{ lembar} \\implies 35 \\text{ rim} = 17.500 \\text{ lembar}$.\n$$\\text{Sisa kertas} = 17.500 - 6.799 = 10.701 \\text{ lembar}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_06_a",
+        "label": "A",
+        "content": "11.803",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_06_b",
+        "label": "B",
+        "content": "10.701",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_06_c",
+        "label": "C",
+        "content": "13.071",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_06_d",
+        "label": "D",
+        "content": "12.870",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_07",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pak Puput membeli 15 keranjang jambu masing-masing beratnya 3,5 kg.\nJambu tersebut akan dimasukkan ke dalam kantong plastik dengan berat masing-masing 0,8 kg. Sisa jambu yang tidak dimasukkan kedalam kantong plastik adalah … ons.",
+    "imageUrl": null,
+    "explanation": "Total berat jambu = 15 × 3,5 kg = 52,5 kg.\nSetiap kantong berisi 0,8 kg: 52,5 : 0,8 = 65 kantong penuh (65 × 0,8 = 52 kg), sisa 52,5 − 52 = 0,5 kg.\n0,5 kg = 5 ons.\n\nKunci Jawaban: **B (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_07_a",
+        "label": "A",
+        "content": "0,5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_07_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_07_c",
+        "label": "C",
+        "content": "6,25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_07_d",
+        "label": "D",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_08",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari $\\sqrt[3]{343} \\times \\sqrt{529}$ adalah …",
+    "imageUrl": null,
+    "explanation": "Akar pangkat tiga dan akar kuadrat:\n$$\\sqrt[3]{343} \\times \\sqrt{529} = 7 \\times 23 = 161$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_08_a",
+        "label": "A",
+        "content": "161",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_08_b",
+        "label": "B",
+        "content": "391",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_08_c",
+        "label": "C",
+        "content": "1.029",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_08_d",
+        "label": "D",
+        "content": "3.933",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_09",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah acara konser dimulai pukul 19.15 dan berlangsung selama 3 jam 50 menit. Pukul berapakah konser tersebut selesai..",
+    "imageUrl": null,
+    "explanation": "19.15 + 3 jam = 22.15, lalu 22.15 + 50 menit = 23.05.\n\nKunci Jawaban: **C (23.05)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_09_a",
+        "label": "A",
+        "content": "22.55",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_09_b",
+        "label": "B",
+        "content": "23.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_09_c",
+        "label": "C",
+        "content": "23.05",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_09_d",
+        "label": "D",
+        "content": "23.10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_10",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Manakah hasil yang sama dengan 12 × 7…",
+    "imageUrl": null,
+    "explanation": "Hasil $12 \\times 7 = 84$.\nPilihan A: $4 + (10 \\times 8) = 4 + 80 = 84$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_10_a",
+        "label": "A",
+        "content": "4 + 10 × 8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_10_b",
+        "label": "B",
+        "content": "10 + 70 − 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_10_c",
+        "label": "C",
+        "content": "19 − 6 + 50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_10_d",
+        "label": "D",
+        "content": "98 − 17 + 14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_11",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah bilangan bulat habis dibagi oleh 4, 6, dan 9. Bilangan tersebut terletak di antara 100 dan 150. Bilangan manakah yang dimaksud…",
+    "imageUrl": null,
+    "explanation": "KPK(4, 6, 9) $= 36$.\nKelipatan 36 antara 100 dan 150 adalah $36 \\times 4 = 144$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_11_a",
+        "label": "A",
+        "content": "126",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_11_b",
+        "label": "B",
+        "content": "132",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_11_c",
+        "label": "C",
+        "content": "144",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_11_d",
+        "label": "D",
+        "content": "146",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_12",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diberikan deret bilangan bulat positif dari 21 sampai 41. Jika Anda menjumlahkan semua bilangan ganjil dalam deret tersebut, dan kemudian menguranginya dengan jumlah semua bilangan genap dalam deret tersebut, berapakah hasil akhirnya?",
+    "imageUrl": null,
+    "explanation": "Deret 21 sampai 41:\nBilangan ganjil: $21, 23, \\dots, 41$ (11 bilangan)\nBilangan genap: $22, 24, \\dots, 40$ (10 bilangan)\nSetiap pasang $(21-22) + (23-24) + \\dots + (39-40) = 10 \\times (-1) = -10$.\nDitambah bilangan terakhir $41$: $$-10 + 41 = 31$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_12_a",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_12_b",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_12_c",
+        "label": "C",
+        "content": "31",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_12_d",
+        "label": "D",
+        "content": "41",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_13",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola bilangan berikut:\n2, 5, 11, 23, 47, …\nBerapakah dua bilangan selanjutnya dalam pola tersebut…",
+    "imageUrl": null,
+    "explanation": "Pola barisan: dikalikan 2 lalu ditambah 1 ($2n + 1$):\n$2 \\times 2 + 1 = 5$\n$5 \\times 2 + 1 = 11$\n$11 \\times 2 + 1 = 23$\n$23 \\times 2 + 1 = 47$\n$47 \\times 2 + 1 = 95$\n$95 \\times 2 + 1 = 191$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_13_a",
+        "label": "A",
+        "content": "95 dan 191",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_13_b",
+        "label": "B",
+        "content": "96 dan 191",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_13_c",
+        "label": "C",
+        "content": "95 dan 192",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_13_d",
+        "label": "D",
+        "content": "97 dan 195",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_14",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Umur seorang kakek adalah 7 kali umur cucunya. Lima tahun yang lalu, selisih umur mereka adalah 54 tahun. Berapakah total umur kakek dan cucu saat ini?",
+    "imageUrl": null,
+    "explanation": "Selisih umur selalu tetap: $K - C = 54$.\nKarena $K = 7C$, maka $7C - C = 6C = 54 \\implies C = 9$ tahun.\nUmur kakek $K = 63$ tahun.\n$$\\text{Total umur} = 63 + 9 = 72 \\text{ tahun}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_14_a",
+        "label": "A",
+        "content": "70 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_14_b",
+        "label": "B",
+        "content": "72 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_14_c",
+        "label": "C",
+        "content": "76 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_14_d",
+        "label": "D",
+        "content": "78 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_15",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah lapangan voli berbentuk persegi panjang memiliki panjang 12 meter.\nJika keliling lapangan tersebut adalah 42 meter, berapakah luas lapangan voli tersebut dalam satuan cm2…",
+    "imageUrl": null,
+    "explanation": "Keliling $= 2(p + l) = 42 \\implies 12 + l = 21 \\implies l = 9 \\text{ m}$.\n$$\\text{Luas} = 12 \\times 9 = 108 \\text{ m}^2 = 1.080.000 \\text{ cm}^2$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_15_a",
+        "label": "A",
+        "content": "10.800.000 cm2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_15_b",
+        "label": "B",
+        "content": "100.800 cm2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_15_c",
+        "label": "C",
+        "content": "1.080.000 cm2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_15_d",
+        "label": "D",
+        "content": "10.800 cm2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_16",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berapakah jumlah total dari sisi (bidang), titik sudut, dan rusuk yang dimiliki oleh bangun ruang limas segi-enam?",
+    "imageUrl": null,
+    "explanation": "Limas segi-enam memiliki:\n- Sisi (bidang) $= 1 \\text{ alas} + 6 \\text{ tegak} = 7$\n- Titik sudut $= 1 \\text{ puncak} + 6 \\text{ alas} = 7$\n- Rusuk $= 6 \\text{ alas} + 6 \\text{ tegak} = 12$\n$$\\text{Total} = 7 + 7 + 12 = 26$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_16_a",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_16_b",
+        "label": "B",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_16_c",
+        "label": "C",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_16_d",
+        "label": "D",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_17",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di loket pembelian tiket bioskop, total ada 40 orang yang mengantri. Posisi\nRina berada pada urutan ke-15 dari depan. Berada pada urutan ke berapakah\nRina jika dihitung dari belakang?",
+    "imageUrl": null,
+    "explanation": "Urutan dari belakang $= 40 - 15 + 1 = 26$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_17_a",
+        "label": "A",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_17_b",
+        "label": "B",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_17_c",
+        "label": "C",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_17_d",
+        "label": "D",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_18",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang guru kesenian ingin membagi tiga jenis alat lukis kepada muridmuridnya secara adil dan merata. Alat yang tersedia adalah 60 buah pensil warna, 48 buah krayon, dan 36 buah spidol. Berapakah jumlah murid terbanyak yang bisa mendapatkan ketiga jenis alat lukis tersebut dengan jumlah yang sama banyak untuk setiap jenis?",
+    "imageUrl": null,
+    "explanation": "Jumlah murid terbanyak adalah FPB dari 60, 48, dan 36:\n$$\\text{FPB}(60, 48, 36) = 12 \\text{ murid}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_18_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_18_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_18_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_18_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_19",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Banyaknya persegi pada gambar bangun di bawah ini adalah ....",
+    "imageUrl": "/uploads/ceo2025_m2_q19_grid.png",
+    "explanation": "Berdasarkan pola palang persegi berarsir: total ada **29** persegi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_19_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_19_b",
+        "label": "B",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_19_c",
+        "label": "C",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_19_d",
+        "label": "D",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_20",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tiga alarm disetel untuk berbunyi secara berkala:\nAlarm Merah berbunyi setiap 12 menit.\nAlarm Kuning berbunyi setiap 20 menit.\nAlarm Biru berbunyi setiap 30 menit.\nJika ketiga alarm tersebut berbunyi bersama-sama pada pukul 08.45, pukul berapakah ketiga alarm tersebut akan berbunyi bersama lagi untuk kedua kalinya?",
+    "imageUrl": null,
+    "explanation": "KPK dari 12, 20, dan 30 menit adalah 60 menit (1 jam).\nBerbunyi bersama lagi: $$08.45 + 01.00 = 09.45$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_20_a",
+        "label": "A",
+        "content": "09.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_20_b",
+        "label": "B",
+        "content": "09.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_20_c",
+        "label": "C",
+        "content": "09.45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_20_d",
+        "label": "D",
+        "content": "10.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_21",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah dua bilangan prima adalah 44, dan selisih kedua bilangan prima itu sebesar mungkin. Jika bilangan prima yang lebih besar adalah $P_1$ dan yang lebih kecil adalah $P_2$, tentukan nilai dari $P_1 - P_2$.",
+    "imageUrl": null,
+    "explanation": "Pasangan bilangan prima yang berjumlah 44: 3 + 41, 7 + 37, dan 13 + 31.\nSelisih terbesar diperoleh dari 41 dan 3: $P_1 - P_2 = 41 - 3 = 38$.\n\nKunci Jawaban: **A (38)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_21_a",
+        "label": "A",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_21_b",
+        "label": "B",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_21_c",
+        "label": "C",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_21_d",
+        "label": "D",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_22",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di dalam sebuah peternakan terdapat total 35 ekor hewan yang terdiri dari bebek dan kambing. Jika dihitung jumlah seluruh kaki hewan adalah 100. Berapakah jumlah bebek yang ada di peternakan tersebut?",
+    "imageUrl": null,
+    "explanation": "Misalkan bebek $= B$ (2 kaki) dan kambing $= K$ (4 kaki).\n$B + K = 35 \\implies 2B + 2K = 70$\n$2B + 4K = 100$\nKurangkan kedua persamaan: $2K = 30 \\implies K = 15$ kambing.\nJumlah bebek $B = 35 - 15 = 20$ ekor.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_22_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_22_b",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_22_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_22_d",
+        "label": "D",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_23",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah pohon besar diperkirakan berusia 3 abad, 4 windu, dan 2 lustrum.\nBerapa tahun total usia pohon tersebut?",
+    "imageUrl": null,
+    "explanation": "Konversi satuan waktu:\n- 3 abad $= 300$ tahun\n- 4 windu $= 32$ tahun\n- 2 lustrum $= 10$ tahun\n$$\\text{Total} = 300 + 32 + 10 = 342 \\text{ tahun}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_23_a",
+        "label": "A",
+        "content": "340 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_23_b",
+        "label": "B",
+        "content": "342 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_23_c",
+        "label": "C",
+        "content": "350 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_23_d",
+        "label": "D",
+        "content": "352 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_24",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan diagram lingkaran berikut!\n\nKelas 3B terdiri dari 30 siswa. Jika 15 siswa (50%) menyukai warna merah, maka banyak siswa yang menyukai warna hijau (20%) adalah ....",
+    "imageUrl": "/uploads/ceo2025_m2_q24_pie.png",
+    "explanation": "Berdasarkan diagram lingkaran:\nPersentase hijau $= 20\\%$.\nBanyak siswa $= 20\\% \\times 30 = 6$ siswa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_24_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_24_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_24_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_24_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_25",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Selisih nilai angka 7 dan angka 8 dari bilangan 786 adalah ....",
+    "imageUrl": null,
+    "explanation": "Pada bilangan 786:\n- Nilai angka 7 adalah 700\n- Nilai angka 8 adalah 80\n$$\\text{Selisih} = 700 - 80 = 620$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_25_a",
+        "label": "A",
+        "content": "520",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_25_b",
+        "label": "B",
+        "content": "560",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_25_c",
+        "label": "C",
+        "content": "620",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_25_d",
+        "label": "D",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_26",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar petak di bawah ini!\n\nDaerah petak yang diarsir pada gambar menunjukkan nilai pecahan ....",
+    "imageUrl": "/uploads/ceo2025_m2_q26_arsir.png",
+    "explanation": "Petak terdiri dari 4 baris × 5 kolom = 20 kotak.\nKotak yang diarsir per baris: 3 + 2 + 2 + 1 = 8 kotak.\nPecahannya = 8/20.\n\nKunci Jawaban: **A (8/20)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_26_a",
+        "label": "A",
+        "content": "8/20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_26_b",
+        "label": "B",
+        "content": "7/20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_26_c",
+        "label": "C",
+        "content": "8/12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_26_d",
+        "label": "D",
+        "content": "3/5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_27",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ibu Sifa mencatat penggunaan air di rumah selama 4 hari berturut-turut yaitu\n10 liter, 13 liter, 15 liter dan 14 liter. Berapa rata-rata penggunaan air per hari?",
+    "imageUrl": null,
+    "explanation": "Rata-rata penggunaan air:\n$$\\text{Rata-rata} = \\frac{10 + 13 + 15 + 14}{4} = \\frac{52}{4} = 13 \\text{ liter}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_27_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_27_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_27_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_27_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_28",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pak Jaya memiliki 6 lukisan yang berbeda, termasuk lukisan pemandangan\n(P) dan lukisan abstrak (A). Ia ingin menata keenam lukisan tersebut secara berurutan di dinding. Jika lukisan pemandangan (P) dan lukisan abstrak (A)\nharus selalu diletakkan berdampingan, berapa banyak cara berbeda Pak Jaya dapat menata keenam lukisan tersebut?",
+    "imageUrl": null,
+    "explanation": "Lukisan P dan A harus berdampingan, anggap sebagai 1 kelompok. Maka ada 5 unsur: $5! = 120$ susunan.\nDi dalam kelompok, P dan A dapat bertukar posisi ($2! = 2$ cara).\n$$\\text{Banyak cara} = 120 \\times 2 = 240 \\text{ cara}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_28_a",
+        "label": "A",
+        "content": "245",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_28_b",
+        "label": "B",
+        "content": "246",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_28_c",
+        "label": "C",
+        "content": "252",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_28_d",
+        "label": "D",
+        "content": "240",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_29",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pada gambar di atas menunjukkan berat total dari benda-benda tersebut.\nBerat dari lingkaran adalah ... kg.",
+    "imageUrl": "/uploads/ceo2025_m2_q29_timbangan.png",
+    "explanation": "Dari ketiga timbangan:\n1) Lingkaran + Segitiga = 11 kg\n2) 2 Segitiga + Persegi = 19 kg\n3) Persegi + 2 Lingkaran = 17 kg\nDari (1): Segitiga = 11 − Lingkaran. Substitusi ke (2): Persegi = 19 − 2(11 − Lingkaran) = 2 × Lingkaran − 3.\nSubstitusi ke (3): (2 × Lingkaran − 3) + 2 × Lingkaran = 17 → 4 × Lingkaran = 20 → Lingkaran = 5 kg.\n(Segitiga = 6 kg, Persegi = 7 kg)\n\nKunci Jawaban: **A (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_29_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_29_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_29_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_29_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m2_30",
+    "topicId": "top_ceo_2025_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan ciri-ciri berikut:\n* Memiliki 4 sisi\n* Memiliki 4 sudut siku-siku\n* Memiliki 2 pasang sisi sama panjang\nDari beberapa ciri di atas menunjukkan bangun datar ...",
+    "imageUrl": null,
+    "explanation": "Bangun datar yang memiliki 4 sisi, 4 sudut siku-siku, dan 2 pasang sisi sama panjang (sisi yang berhadapan) adalah **persegi panjang**.\n\nKunci Jawaban: **D (persegi panjang)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m2_30_a",
+        "label": "A",
+        "content": "segitiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m2_30_b",
+        "label": "B",
+        "content": "lingkaran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m2_30_c",
+        "label": "C",
+        "content": "trapesium",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m2_30_d",
+        "label": "D",
+        "content": "persegi panjang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  }
+]

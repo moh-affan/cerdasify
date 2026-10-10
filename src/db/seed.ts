@@ -1,374 +1,196 @@
-import { db, client } from './index';
-import { runMigrations } from './migrate';
-import {
-  users,
-  categories,
-  examPackages,
-} from './schema';
-import bcrypt from 'bcryptjs';
+/**
+ * Seeder utama Cerdasify (PostgreSQL/Supabase).
+ *
+ *   npm run seed
+ *
+ * 1. Menjalankan migrasi idempoten.
+ * 2. Membuat akun Super Admin dari env (DEFAULT_ADMIN_USERNAME / DEFAULT_ADMIN_PASSWORD) bila belum ada.
+ *    Akun demo hanya dibuat bila SEED_DEMO_USERS=true dan password-nya diberikan lewat env
+ *    (DEMO_ADMIN_PASSWORD, DEMO_USER_PASSWORD) — tidak ada password bawaan yang tertulis di kode.
+ * 3. Menyemai bank soal dari src/db/seed-data/question-bank/ (hasil `npm run bank:export`):
+ *    kategori, topik, paket, soal, opsi, dan urutan soal per paket. Isi berkas adalah sumber kebenaran:
+ *    data yang sama di database ditimpa, sedangkan soal/paket yang tidak ada di berkas (dibuat lewat panel
+ *    admin dan belum diekspor) dibiarkan. Semua langkah bank soal berjalan dalam satu transaksi.
+ *
+ * Konten Pustaka Belajar disemai terpisah lewat `npm run seed:learning`.
+ */
 import fs from 'fs';
 import path from 'path';
-import { eq } from 'drizzle-orm';
+import bcrypt from 'bcryptjs';
+import { client } from './index';
+import { runMigrations } from './migrate';
+import { BANK_DIR, type BankCategory, type BankPackage, type BankQuestion, type BankTopic } from './export_question_bank';
 
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/[\s_-]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+const read = <T>(file: string): T => JSON.parse(fs.readFileSync(path.join(BANK_DIR, file), 'utf8')) as T;
+
+function chunk<T>(items: T[], size = 400): T[][] {
+  const out: T[][] = [];
+  for (let i = 0; i < items.length; i += size) out.push(items.slice(i, i + size));
+  return out;
+}
+
+async function seedUsers() {
+  const adminUsername = process.env.DEFAULT_ADMIN_USERNAME;
+  const adminPassword = process.env.DEFAULT_ADMIN_PASSWORD;
+  if (adminUsername && adminPassword) {
+    const hash = await bcrypt.hash(adminPassword, 10);
+    await client`
+      INSERT INTO users (id, username, name, password_hash, role, is_active)
+      VALUES ('usr_superadmin', ${adminUsername}, 'Super Administrator', ${hash}, 'SUPER_ADMIN', true)
+      ON CONFLICT (id) DO NOTHING`;
+    // Akun yang sudah ada tidak ditimpa; login dengan kredensial env tetap menyinkronkannya (lihat /api/auth/login).
+    console.log('Akun Super Admin dipastikan ada.');
+  } else {
+    console.log('DEFAULT_ADMIN_USERNAME/DEFAULT_ADMIN_PASSWORD tidak diisi: akun Super Admin tidak diubah.');
+  }
+
+  if (process.env.SEED_DEMO_USERS === 'true') {
+    const demo = [
+      { id: 'usr_admin', username: 'guru_olimpiade', name: 'Pembina Tim Olimpiade', role: 'ADMIN', password: process.env.DEMO_ADMIN_PASSWORD },
+      { id: 'usr_student', username: 'peserta_budi', name: 'Budi Siswa Berprestasi', role: 'USER', password: process.env.DEMO_USER_PASSWORD },
+    ];
+    for (const u of demo) {
+      if (!u.password || u.password.length < 8) {
+        console.warn(`Akun demo ${u.username} dilewati: password env belum diisi (min. 8 karakter).`);
+        continue;
+      }
+      const hash = await bcrypt.hash(u.password, 10);
+      await client`
+        INSERT INTO users (id, username, name, password_hash, role, is_active)
+        VALUES (${u.id}, ${u.username}, ${u.name}, ${hash}, ${u.role}, true)
+        ON CONFLICT (id) DO UPDATE SET password_hash = EXCLUDED.password_hash, is_active = true`;
+      console.log(`Akun demo ${u.username} siap.`);
+    }
+  }
+}
+
+async function seedQuestionBank() {
+  const categories = read<BankCategory[]>('categories.json');
+  const topics = read<BankTopic[]>('topics.json');
+  const packages = read<BankPackage[]>('packages.json');
+  const questions: BankQuestion[] = fs
+    .readdirSync(path.join(BANK_DIR, 'questions'))
+    .filter((f) => f.endsWith('.json'))
+    .flatMap((f) => read<BankQuestion[]>(`questions/${f}`));
+
+  // Validasi sebelum menulis apa pun
+  const qIds = new Set(questions.map((q) => q.id));
+  const errors: string[] = [];
+  if (qIds.size !== questions.length) errors.push('ada id soal ganda di berkas bank soal');
+  for (const q of questions) {
+    const labels = q.options.map((o) => o.label).join('');
+    if (labels !== 'ABCDE'.slice(0, q.options.length)) errors.push(`${q.id}: label opsi tidak berurutan (${labels})`);
+    if (q.type === 'SINGLE_CHOICE' && q.options.filter((o) => o.isCorrect).length !== 1) errors.push(`${q.id}: harus tepat satu kunci`);
+    if (q.type === 'GRADED_SCALE' && q.options.some((o) => o.scoreValue < 1 || o.scoreValue > 5)) errors.push(`${q.id}: bobot opsi harus 1–5`);
+  }
+  for (const p of packages) for (const id of p.questions) if (!qIds.has(id)) errors.push(`${p.id}: soal ${id} tidak ada di bank soal`);
+  if (errors.length) throw new Error('Bank soal tidak valid:\n' + errors.slice(0, 30).join('\n'));
+
+  await client.begin(async (tx) => {
+    for (const part of chunk(categories)) {
+      await tx`
+        INSERT INTO categories ${tx(part.map((c) => ({ id: c.id, name: c.name, slug: c.slug, description: c.description, order_index: c.orderIndex })))}
+        ON CONFLICT (id) DO UPDATE SET name = EXCLUDED.name, slug = EXCLUDED.slug, description = EXCLUDED.description, order_index = EXCLUDED.order_index`;
+    }
+    for (const part of chunk(topics)) {
+      await tx`
+        INSERT INTO topics ${tx(part.map((t) => ({ id: t.id, category_id: t.categoryId, name: t.name, slug: t.slug })))}
+        ON CONFLICT (id) DO UPDATE SET category_id = EXCLUDED.category_id, name = EXCLUDED.name, slug = EXCLUDED.slug`;
+    }
+    for (const part of chunk(packages)) {
+      await tx`
+        INSERT INTO exam_packages ${tx(
+          part.map((p) => ({
+            id: p.id,
+            title: p.title,
+            slug: p.slug,
+            category_id: p.categoryId,
+            type: p.type,
+            duration_minutes: p.durationMinutes,
+            shuffle_questions: p.shuffleQuestions,
+            shuffle_options: p.shuffleOptions,
+            passing_grade_rules: p.passingGradeRules ? JSON.stringify(p.passingGradeRules) : null,
+            is_published: p.isPublished,
+          }))
+        )}
+        ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, slug = EXCLUDED.slug, category_id = EXCLUDED.category_id,
+          type = EXCLUDED.type, duration_minutes = EXCLUDED.duration_minutes, shuffle_questions = EXCLUDED.shuffle_questions,
+          shuffle_options = EXCLUDED.shuffle_options, passing_grade_rules = EXCLUDED.passing_grade_rules, is_published = EXCLUDED.is_published`;
+    }
+    for (const part of chunk(questions)) {
+      await tx`
+        INSERT INTO questions ${tx(
+          part.map((q) => ({
+            id: q.id,
+            topic_id: q.topicId,
+            type: q.type,
+            difficulty: q.difficulty,
+            content_markdown: q.content,
+            image_url: q.imageUrl,
+            explanation_markdown: q.explanation,
+            explanation_image_url: q.explanationImageUrl,
+          }))
+        )}
+        ON CONFLICT (id) DO UPDATE SET topic_id = EXCLUDED.topic_id, type = EXCLUDED.type, difficulty = EXCLUDED.difficulty,
+          content_markdown = EXCLUDED.content_markdown, image_url = EXCLUDED.image_url,
+          explanation_markdown = EXCLUDED.explanation_markdown, explanation_image_url = EXCLUDED.explanation_image_url`;
+    }
+
+    const options = questions.flatMap((q) =>
+      q.options.map((o) => ({
+        id: o.id,
+        question_id: q.id,
+        label: o.label,
+        content_markdown: o.content,
+        image_url: o.imageUrl,
+        is_correct: o.isCorrect,
+        score_value: o.scoreValue,
+        order_index: o.order,
+      }))
+    );
+    // Opsi lama milik soal bank yang sudah tidak ada di berkas dihapus (kecuali masih dirujuk jawaban peserta).
+    const optionIds = options.map((o) => o.id);
+    const stale = await tx`
+      SELECT o.id FROM question_options o
+      WHERE o.question_id IN ${tx([...qIds])} AND o.id NOT IN ${tx(optionIds)}
+        AND NOT EXISTS (SELECT 1 FROM attempt_answers a WHERE a.selected_option_ids LIKE '%' || o.id || '%')`;
+    if (stale.length) await tx`DELETE FROM question_options WHERE id IN ${tx(stale.map((r) => r.id as string))}`;
+    for (const part of chunk(options, 800)) {
+      await tx`
+        INSERT INTO question_options ${tx(part)}
+        ON CONFLICT (id) DO UPDATE SET question_id = EXCLUDED.question_id, label = EXCLUDED.label,
+          content_markdown = EXCLUDED.content_markdown, image_url = EXCLUDED.image_url, is_correct = EXCLUDED.is_correct,
+          score_value = EXCLUDED.score_value, order_index = EXCLUDED.order_index`;
+    }
+
+    // Keanggotaan & urutan soal per paket mengikuti berkas
+    const bankPackageIds = packages.map((p) => p.id);
+    await tx`DELETE FROM package_questions WHERE package_id IN ${tx(bankPackageIds)}`;
+    const links = packages.flatMap((p) => p.questions.map((q, i) => ({ package_id: p.id, question_id: q, order_index: i })));
+    for (const part of chunk(links, 800)) {
+      await tx`INSERT INTO package_questions ${tx(part)}`;
+    }
+  });
+
+  console.log(
+    `Bank soal disemai: ${categories.length} kategori, ${topics.length} topik, ${packages.length} paket, ${questions.length} soal.`
+  );
 }
 
 export async function seedDatabase() {
-  console.log('--- Starting Cerdasify Database Seeding (PostgreSQL Supabase) ---');
+  console.log('--- Seeding Cerdasify ---');
   await runMigrations();
-
-  // 1. Seed Users
-  const passwordAdminHash = await bcrypt.hash(process.env.DEFAULT_ADMIN_PASSWORD || 'SuperPassword123!', 10);
-  const passwordTeacherHash = await bcrypt.hash('GuruPassword123!', 10);
-  const passwordUserHash = await bcrypt.hash('Peserta123!', 10);
-
-  const initialUsers = [
-    {
-      id: 'usr_superadmin',
-      username: process.env.DEFAULT_ADMIN_USERNAME || 'superadmin',
-      name: 'Super Administrator',
-      passwordHash: passwordAdminHash,
-      role: 'SUPER_ADMIN' as const,
-      isActive: true,
-    },
-    {
-      id: 'usr_admin',
-      username: 'guru_olimpiade',
-      name: 'Pembina Tim Olimpiade',
-      passwordHash: passwordTeacherHash,
-      role: 'ADMIN' as const,
-      isActive: true,
-    },
-    {
-      id: 'usr_student',
-      username: 'peserta_budi',
-      name: 'Budi Siswa Berprestasi',
-      passwordHash: passwordUserHash,
-      role: 'USER' as const,
-      isActive: true,
-    },
-  ];
-
-  const existingUsers = await db.select().from(users);
-  for (const u of initialUsers) {
-    const existing = existingUsers.find((x) => x.id === u.id || x.username === u.username);
-    if (!existing) {
-      await db.insert(users).values(u);
-      console.log(`Seeded user: ${u.username} (${u.role})`);
-    } else if (u.role === 'SUPER_ADMIN') {
-      await db.update(users).set({
-        username: u.username,
-        passwordHash: u.passwordHash,
-      }).where(eq(users.id, existing.id));
-      console.log(`Updated superadmin credentials: ${u.username}`);
-    }
-  }
-
-  // 2. Load Seed Data JSON (Questions extracted from PDFs)
-  const seedJsonPath = path.resolve(process.cwd(), 'data/seed_data.json');
-  if (!fs.existsSync(seedJsonPath)) {
-    console.error(`Seed data not found at ${seedJsonPath}`);
-    return;
-  }
-
-  const rawQuestions = JSON.parse(fs.readFileSync(seedJsonPath, 'utf-8'));
-  console.log(`Found ${rawQuestions.length} questions to seed.`);
-
-  // Setup Categories & Topics in memory
-  const categoryMap = new Map<string, string>(); // name -> id
-  const topicMap = new Map<string, string>(); // categoryName + topicName -> id
-
-  // Ensure default categories
-  const initialCategories = [
-    { id: 'cat_olimpiade_sd', name: 'Olimpiade Matematika SD', desc: 'Bank soal resmi latihan dan simulasi olimpiade sains tingkat SD.' },
-    { id: 'cat_olimpiade_prisma', name: 'Olimpiade PRISMA', desc: 'Soal penyisihan resmi Olimpiade PRISMA Matematika & Sains dengan soal bergambar.' },
-    { id: 'cat_cpns_skd', name: 'CPNS SKD', desc: 'Simulasi Seleksi Kompetensi Dasar CPNS (TWK, TIU, TKP skala 1-5).' },
-  ];
-
-  const existingCategories = await db.select().from(categories);
-  for (const c of initialCategories) {
-    const existingCat = existingCategories.find((x) => x.name === c.name);
-    if (!existingCat) {
-      await db.insert(categories).values({
-        id: c.id,
-        name: c.name,
-        slug: slugify(c.name),
-        description: c.desc,
-      });
-      categoryMap.set(c.name, c.id);
-    } else {
-      categoryMap.set(c.name, existingCat.id);
-    }
-  }
-
-  // 3. Define Exam Packages
-  const packagesToSeed = [
-    {
-      id: 'pkg_prisma_2025_m1',
-      title: 'Olimpiade PRISMA 2025 — Penyisihan Matematika Level 1',
-      slug: 'prisma-2025-matematika-level-1',
-      categoryId: categoryMap.get('Olimpiade PRISMA') || 'cat_olimpiade_prisma',
-      type: 'SIMULATION' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: -1, emptyScore: 0, passingScore: 60 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_prisma_2025_m2',
-      title: 'Olimpiade PRISMA 2025 — Penyisihan Matematika Level 2 (Soal Bergambar)',
-      slug: 'prisma-2025-matematika-level-2-bergambar',
-      categoryId: categoryMap.get('Olimpiade PRISMA') || 'cat_olimpiade_prisma',
-      type: 'SIMULATION' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: -1, emptyScore: 0, passingScore: 70 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_prisma_2025_m3',
-      title: 'Olimpiade PRISMA 2025 — Penyisihan Matematika Level 3 (Soal Bergambar)',
-      slug: 'prisma-2025-matematika-level-3-bergambar',
-      categoryId: categoryMap.get('Olimpiade PRISMA') || 'cat_olimpiade_prisma',
-      type: 'SIMULATION' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: -1, emptyScore: 0, passingScore: 70 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_prisma_2024_m1',
-      title: 'Mode Latihan PRISMA 2024 — Matematika Level 1 (Soal Bergambar)',
-      slug: 'latihan-prisma-2024-matematika-level-1',
-      categoryId: categoryMap.get('Olimpiade PRISMA') || 'cat_olimpiade_prisma',
-      type: 'PRACTICE' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: 0, emptyScore: 0, passingScore: 50 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_sesi_1',
-      title: 'Simulasi Olimpiade SD — Sesi 1: Aritmetika Bagian 1 (40 Soal)',
-      slug: 'simulasi-olimpiade-sd-sesi-1-aritmetika-1',
-      categoryId: categoryMap.get('Olimpiade Matematika SD') || 'cat_olimpiade_sd',
-      type: 'SIMULATION' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: -1, emptyScore: -1, maxScore: 160, passingScore: 100 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_sesi_2',
-      title: 'Mode Latihan Olimpiade SD — Sesi 2: Aritmetika Bagian 2 (40 Soal)',
-      slug: 'latihan-olimpiade-sd-sesi-2-aritmetika-2',
-      categoryId: categoryMap.get('Olimpiade Matematika SD') || 'cat_olimpiade_sd',
-      type: 'PRACTICE' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: 0, emptyScore: 0, maxScore: 160, passingScore: 90 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_sesi_3',
-      title: 'Simulasi Olimpiade SD — Sesi 3: Aljabar & Persamaan Bagian 1 (40 Soal)',
-      slug: 'simulasi-olimpiade-sd-sesi-3-aljabar-1',
-      categoryId: categoryMap.get('Olimpiade Matematika SD') || 'cat_olimpiade_sd',
-      type: 'SIMULATION' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: -1, emptyScore: -1, maxScore: 160, passingScore: 100 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_sesi_4',
-      title: 'Mode Latihan Olimpiade SD — Sesi 4: Aljabar & Persamaan Bagian 2 (40 Soal)',
-      slug: 'latihan-olimpiade-sd-sesi-4-aljabar-2',
-      categoryId: categoryMap.get('Olimpiade Matematika SD') || 'cat_olimpiade_sd',
-      type: 'PRACTICE' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: 0, emptyScore: 0, maxScore: 160, passingScore: 90 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_sesi_5',
-      title: 'Simulasi Olimpiade SD — Sesi 5: Barisan & Pola (40 Soal)',
-      slug: 'simulasi-olimpiade-sd-sesi-5-barisan-pola',
-      categoryId: categoryMap.get('Olimpiade Matematika SD') || 'cat_olimpiade_sd',
-      type: 'SIMULATION' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: -1, emptyScore: -1, maxScore: 160, passingScore: 100 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_sesi_13',
-      title: 'Mode Latihan Olimpiade SD — Sesi 13: Geometri & Bangun Datar (40 Soal)',
-      slug: 'latihan-olimpiade-sd-sesi-13-geometri',
-      categoryId: categoryMap.get('Olimpiade Matematika SD') || 'cat_olimpiade_sd',
-      type: 'PRACTICE' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: 0, emptyScore: 0, maxScore: 160, passingScore: 90 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_sesi_21',
-      title: 'Simulasi Akbar Olimpiade SD — Sesi 21: Paket Campuran (40 Soal)',
-      slug: 'simulasi-olimpiade-sd-sesi-21-campuran',
-      categoryId: categoryMap.get('Olimpiade Matematika SD') || 'cat_olimpiade_sd',
-      type: 'SIMULATION' as const,
-      durationMinutes: 60,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: -1, emptyScore: -1, maxScore: 160, passingScore: 110 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_aljabar_100',
-      title: 'Simulasi Olimpiade SD — Paket 100 Soal Aljabar Marathon',
-      slug: 'simulasi-olimpiade-sd-aljabar-100',
-      categoryId: categoryMap.get('Olimpiade Matematika SD') || 'cat_olimpiade_sd',
-      type: 'SIMULATION' as const,
-      durationMinutes: 100,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ correctScore: 4, wrongScore: -1, emptyScore: -1, maxScore: 400, passingScore: 240 }),
-      isPublished: true,
-    },
-    {
-      id: 'pkg_cpns_skd_mini',
-      title: 'Simulasi Mini CPNS SKD (TWK, TIU, TKP Skala 1-5)',
-      slug: 'simulasi-mini-cpns-skd',
-      categoryId: categoryMap.get('CPNS SKD') || 'cat_cpns_skd',
-      type: 'SIMULATION' as const,
-      durationMinutes: 15,
-      shuffleQuestions: false,
-      shuffleOptions: false,
-      passingGradeRules: JSON.stringify({ twkPassingGrade: 65, tiuPassingGrade: 80, tkpPassingGrade: 166 }),
-      isPublished: true,
-    },
-  ];
-
-  // Clear previous exam content to reload fresh data
-  await client.unsafe(`
-    DELETE FROM attempt_answers;
-    DELETE FROM attempts;
-    DELETE FROM package_questions;
-    DELETE FROM exam_packages;
-    DELETE FROM question_options;
-    DELETE FROM questions;
-  `);
-
-  for (const pkg of packagesToSeed) {
-    await db.insert(examPackages).values(pkg);
-    console.log(`Seeded package: ${pkg.title} [${pkg.type}]`);
-  }
-
-  console.log('Inserting questions, options, and packages in PostgreSQL...');
-
-  let qCount = 0;
-  for (let i = 0; i < rawQuestions.length; i++) {
-    const q = rawQuestions[i];
-    const catName = q.category || 'Olimpiade Matematika SD';
-    const topicName = q.topic || 'Umum';
-
-    // 1. Get or create category
-    let catId = categoryMap.get(catName);
-    if (!catId) {
-      catId = `cat_${slugify(catName)}`;
-      await client`
-        INSERT INTO categories (id, name, slug, description)
-        VALUES (${catId}, ${catName}, ${slugify(catName)}, ${`Kategori ${catName}`})
-        ON CONFLICT (id) DO NOTHING
-      `;
-      categoryMap.set(catName, catId);
-    }
-
-    // 2. Get or create topic
-    const topicKey = `${catName}:::${topicName}`;
-    let topicId = topicMap.get(topicKey);
-    if (!topicId) {
-      topicId = `top_${slugify(catName)}_${slugify(topicName)}`.slice(0, 40);
-      await client`
-        INSERT INTO topics (id, category_id, name, slug)
-        VALUES (${topicId}, ${catId}, ${topicName}, ${slugify(topicName)})
-        ON CONFLICT (id) DO NOTHING
-      `;
-      topicMap.set(topicKey, topicId);
-    }
-
-    // 3. Insert question with imageUrl
-    const questionId = `q_${String(i + 1).padStart(4, '0')}_${slugify(topicName).slice(0, 15)}`;
-    const qType = q.type || 'SINGLE_CHOICE';
-    const difficulty = q.difficulty || 'MEDIUM';
-    const imageUrl = q.image_url || null;
-
-    await client`
-      INSERT INTO questions (id, topic_id, type, content_markdown, image_url, explanation_markdown, difficulty)
-      VALUES (${questionId}, ${topicId}, ${qType}, ${q.question}, ${imageUrl}, ${q.explanation || ''}, ${difficulty})
-    `;
-
-    // 4. Insert options
-    let scaleMap: Record<string, number> = {};
-    if (qType === 'GRADED_SCALE' && q.correct_answer.includes(':')) {
-      for (const pair of q.correct_answer.split(',')) {
-        const [lbl, val] = pair.split(':');
-        if (lbl && val) scaleMap[lbl.trim().toUpperCase()] = parseInt(val.trim(), 10) || 0;
-      }
-    }
-
-    for (let optIdx = 0; optIdx < q.options.length; optIdx++) {
-      const opt = q.options[optIdx];
-      const optId = `opt_${questionId}_${optIdx}_${opt.label}`;
-      const isCorrect = qType === 'GRADED_SCALE' ? true : opt.label.toUpperCase() === q.correct_answer.toUpperCase();
-      const scoreValue = qType === 'GRADED_SCALE' ? scaleMap[opt.label.toUpperCase()] || 1 : isCorrect ? 4 : 0;
-
-      await client`
-        INSERT INTO question_options (id, question_id, label, content_markdown, is_correct, score_value, order_index)
-        VALUES (${optId}, ${questionId}, ${opt.label}, ${opt.content}, ${isCorrect}, ${scoreValue}, ${optIdx})
-      `;
-    }
-
-    // 5. Link to exam package
-    const targetPkgId = q.package_key || 'pkg_aljabar_100';
-    await client`
-      INSERT INTO package_questions (package_id, question_id, order_index)
-      VALUES (${targetPkgId}, ${questionId}, ${i})
-      ON CONFLICT (package_id, question_id) DO NOTHING
-    `;
-
-    qCount++;
-    if (qCount % 100 === 0) {
-      console.log(`Seeded ${qCount}/${rawQuestions.length} questions...`);
-    }
-  }
-
-  console.log(`Successfully seeded ${qCount} questions and options!`);
-  console.log('--- Cerdasify Database Seeding Completed Successfully ---');
+  await seedUsers();
+  await seedQuestionBank();
+  console.log('--- Seeding selesai ---');
 }
 
 if (require.main === module) {
   seedDatabase()
-    .then(() => process.exit(0))
-    .catch((err) => {
-      console.error('Seeding error:', err);
+    .then(() => client.end())
+    .catch(async (err) => {
+      console.error('Seeding gagal:', err instanceof Error ? err.message : err);
+      await client.end();
       process.exit(1);
     });
 }

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "q_osn_buku_010",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Gambar berikut adalah „ular‟ berkepala segitiga dan badannya terdiridari 4 persegi dengan urutan warna yang tetap (merah-kuning-hijau-biru). Kepala „ular‟ selalu menghadap kekiri, sedangkan badannya dapat membentuk berbagai susunan seperti contoh. Buat semua kemungkinan bentuk badan „ular‟ selain contoh. 3",
+    "imageUrl": null,
+    "explanation": "**Pembahasan Resmi OSN Matematika SD (Soffi Widyanesti Priwantoro & Syariful Fahmi):**\n\n31",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_010_a",
+        "label": "A",
+        "content": "Opsi A (Lihat Langkah Solusi)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_010_b",
+        "label": "B",
+        "content": "Opsi B (Solusi Tepat Sesuai Teorema)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_010_c",
+        "label": "C",
+        "content": "Opsi C (Alternatif Jawaban)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_010_d",
+        "label": "D",
+        "content": "Opsi D (Nilai Pendekatan)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_021",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Luas daerah yang diarsir pada gambar di bawah ini adalah 28 . Berapa luas persegi yang lebih besar?",
+    "imageUrl": null,
+    "explanation": "**Pembahasan Resmi OSN Matematika SD (Soffi Widyanesti Priwantoro & Syariful Fahmi):**\n\nBuat daftar bilangan kuadrat:\nLalu, lihatlah selisih antara dua bilangan kuadrat yang nilainya 28.\nPerhatikan bilangan 64 dan 36.\nSelisih\nSehingga luas persegi yang lebih besar adalah\n.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_021_a",
+        "label": "A",
+        "content": "Opsi A (Lihat Langkah Solusi)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_021_b",
+        "label": "B",
+        "content": "Opsi B (Solusi Tepat Sesuai Teorema)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_021_c",
+        "label": "C",
+        "content": "Opsi C (Alternatif Jawaban)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_021_d",
+        "label": "D",
+        "content": "Opsi D (Nilai Pendekatan)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_026",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pak Muchtar mempunyai tanah dan rumah seperti pada gambar. Sisa tanah akan dibagikan kepada 5 anaknya. Bagilah sisa tanah untuk 5 anak agar memiliki luas dan bentuk yang sama. (Beri garis dengan Spidol) 7",
+    "imageUrl": null,
+    "explanation": "**Pembahasan Resmi OSN Matematika SD (Soffi Widyanesti Priwantoro & Syariful Fahmi):**\n\nSolusi yang mungkin adalah dengan membaginya seperti pada gambar berikut ini.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_026_a",
+        "label": "A",
+        "content": "Opsi A (Lihat Langkah Solusi)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_026_b",
+        "label": "B",
+        "content": "Opsi B (Solusi Tepat Sesuai Teorema)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_026_c",
+        "label": "C",
+        "content": "Opsi C (Alternatif Jawaban)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_026_d",
+        "label": "D",
+        "content": "Opsi D (Nilai Pendekatan)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "q_prof_soc_01",
+    "topicId": "top_prof_perekat_bangsa",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Anda dimutasi ke daerah terpencil yang mayoritas warganya memegang teguh adat istiadat dan tradisi lokal yang belum pernah Anda jumpai sebelumnya. Beberapa kebiasaan masyarakat tampak asing bagi Anda. Sikap Anda sebagai ASN yang baru bertugas adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Perekat Bangsa (Adaptasi Budaya & Penghormatan Nilai Lokal).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: D (5) > E (4) > A (3) > C (2) > B (1).\n\n- **D — 5 poin:** Menghormati dan mempelajari adat, bersilaturahmi dengan tokoh masyarakat, tanpa mengorbankan integritas tugas.\n- **E — 4 poin:** Menghormati, tetapi belum aktif membangun kedekatan dengan masyarakat.\n- **A — 3 poin:** Tidak menyinggung, tetapi menjauh dari warga yang seharusnya dilayani.\n- **C — 2 poin:** Meminta pindah karena tidak betah menunjukkan rendahnya kemampuan adaptasi.\n- **B — 1 poin:** Merendahkan budaya setempat bertentangan dengan semangat Bhinneka Tunggal Ika.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_01_a",
+        "label": "A",
+        "content": "Menghindari kontak dengan warga setempat dan hanya bergaul dengan sesama rekan dinas pendatang.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_01_b",
+        "label": "B",
+        "content": "Menilai dan mengkritik kebiasaan masyarakat tersebut karena dianggap tidak modern.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_01_c",
+        "label": "C",
+        "content": "Segera mengajukan surat permohonan pindah kembali ke kota asal karena tidak betah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_01_d",
+        "label": "D",
+        "content": "Menghormati dan mempelajari adat istiadat setempat, menjalin silaturahmi dengan para tokoh masyarakat, serta menyesuaikan diri secara santun tanpa kehilangan prinsip integritas tugas.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_01_e",
+        "label": "E",
+        "content": "Bersikap sopan dan menghormati warga, tetapi belum mau terlibat dalam kegiatan adat sampai benar-benar memahami maknanya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_02",
+    "topicId": "top_prof_perekat_bangsa",
+    "type": "GRADED_SCALE",
+    "difficulty": "HARD",
+    "content": "Di sebuah daerah pascakonflik horizontal, kantor pelayanan Anda melayani dua kelompok masyarakat yang masih menyimpan kecurigaan satu sama lain. Seorang warga dari salah satu kelompok menolak dilayani oleh rekan kerja Anda yang berasal dari kelompok yang berbeda identitas etnisnya. Tindakan Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Perekat Bangsa (Netralitas Pelayanan & Mencegah Polarisasi).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > E (4) > B (3) > D (2) > A (1).\n\n- **C — 5 poin:** Menjelaskan dengan ramah dan tegas bahwa semua petugas melayani secara setara tanpa membedakan suku.\n- **E — 4 poin:** Layanan berjalan dan diberi pemahaman, tetapi sempat mengikuti permintaan yang diskriminatif.\n- **B — 3 poin:** Menghindari keributan, tetapi membenarkan perlakuan diskriminatif terhadap rekan.\n- **D — 2 poin:** Sengaja memperlambat layanan sebagai hukuman tidak profesional.\n- **A — 1 poin:** Mengusir warga memperuncing konflik dan melanggar etika pelayanan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_02_a",
+        "label": "A",
+        "content": "Memarahi warga tersebut dan mengusirnya keluar dari gedung kantor pelayanan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_02_b",
+        "label": "B",
+        "content": "Menuruti kemauan warga tersebut dan meminta rekan Anda menyingkir agar tidak memicu keributan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_02_c",
+        "label": "C",
+        "content": "Menjelaskan dengan ramah dan tegas bahwa seluruh petugas di kantor adalah abdi negara yang melayani secara adil, profesional, dan setara tanpa memandang latar belakang suku atau golongan.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_02_d",
+        "label": "D",
+        "content": "Membiarkan warga tersebut mengantre sampai sore hingga terpaksa mau dilayani.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_02_e",
+        "label": "E",
+        "content": "Melayani warga tersebut sendiri agar antrean tetap lancar, lalu setelahnya mengajaknya berbicara bahwa semua petugas melayani secara setara.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_03",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Berorientasi Pelayanan.**\nSeorang warga mengeluhkan alur pelayanan surat izin yang dinilai sangat berbelit-belit dan lambat di bagian Anda. Warga tersebut meluapkan kekesalannya di loket pelayanan. Respon terbaik Anda adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: B (5) > E (4) > D (3) > A (2) > C (1).\n\n- **B — 5 poin:** Mendengar dengan empati, meminta maaf, menuntaskan urusan, dan mencatat masukan untuk perbaikan layanan.\n- **E — 4 poin:** Warga terlayani, tetapi keluhan tidak dimanfaatkan untuk perbaikan.\n- **D — 3 poin:** Urusan diproses, tetapi tanpa empati terhadap keluhan.\n- **A — 2 poin:** Membela prosedur yang berbelit, bukan memperbaikinya.\n- **C — 1 poin:** Menyalahkan warga dan menolak membantu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_03_a",
+        "label": "A",
+        "content": "Menjelaskan bahwa birokrasi memang harus rumit demi menjaga kehati-hatian dokumen hukum.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_03_b",
+        "label": "B",
+        "content": "Mendengarkan keluhan dengan penuh perhatian dan empati, memohon maaf atas ketidaknyamanan, segera membantu menyelesaikan urusannya, dan mencatat masukan tersebut untuk perbaikan alur layanan.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_03_c",
+        "label": "C",
+        "content": "Menyuruh warga tersebut membaca peraturan bupati/walikota yang tertempel di dinding jika tidak paham.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_03_d",
+        "label": "D",
+        "content": "Mengabaikan kekesalannya dan memproses dokumen dengan kecepatan seperti biasa.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_03_e",
+        "label": "E",
+        "content": "Meminta maaf dan segera menyelesaikan urusan warga tersebut, tanpa menindaklanjuti keluhannya untuk perbaikan alur layanan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_04",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Akuntabel.**\nAnda diberikan fasilitas laptop dinas dan akses kuota internet untuk menunjang tugas operasional harian. Di luar jam kerja, anggota keluarga Anda ingin meminjam laptop tersebut untuk menonton serial film dan bermain game online. Sikap Anda adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: D (5) > B (4) > E (3) > A (2) > C (1).\n\n- **D — 5 poin:** Menolak dengan santun sekaligus menjelaskan bahwa laptop dinas adalah Barang Milik Negara yang menyimpan data pemerintah.\n- **B — 4 poin:** Keputusannya benar, tetapi tidak ada edukasi tentang penggunaan aset negara.\n- **E — 3 poin:** Data kantor lebih terlindungi, tetapi aset negara tetap dipakai untuk kepentingan pribadi.\n- **A — 2 poin:** Aset negara dipakai untuk hiburan pribadi keluarga.\n- **C — 1 poin:** Menjual Barang Milik Negara adalah penggelapan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_04_a",
+        "label": "A",
+        "content": "Meminjamkannya dengan bebas selama pekerjaan dinas Anda pada hari itu sudah selesai.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_04_b",
+        "label": "B",
+        "content": "Menolak meminjamkan laptop dinas, tetapi tanpa menjelaskan alasannya kepada keluarga.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_04_c",
+        "label": "C",
+        "content": "Menjual laptop tersebut dan menggantinya dengan laptop pribadi bekas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_04_d",
+        "label": "D",
+        "content": "Menolak secara santun dan menjelaskan bahwa laptop dinas adalah Barang Milik Negara yang hanya diperuntukkan bagi tugas dinas serta menjaga keamanan data pemerintahan.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_04_e",
+        "label": "E",
+        "content": "Membuatkan akun tamu (*guest*) agar keluarga tetap bisa menonton tanpa melihat data kantor.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_05",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Kompeten.**\nInstansi Anda mengumumkan adanya sertifikasi keahlian Pengadaan Barang/Jasa (PBJ) atau Analis Kebijakan yang terbuka bagi seluruh pegawai. Sebagian rekan kerja Anda enggan mendaftar karena khawatir beban kerja bertambah jika lulus. Sikap Anda adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: A (5) > E (4) > B (3) > C (2) > D (1).\n\n- **A — 5 poin:** Mendaftar dan bersiap sungguh-sungguh untuk meningkatkan keahlian profesional.\n- **E — 4 poin:** Motivasinya tepat, tetapi kesungguhan persiapan kurang.\n- **B — 3 poin:** Tidak melanggar aturan, tetapi melewatkan kesempatan mengembangkan kompetensi.\n- **C — 2 poin:** Pengembangan diri hanya demi imbalan uang.\n- **D — 1 poin:** Meminta bocoran soal adalah kecurangan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_05_a",
+        "label": "A",
+        "content": "Mendaftar dan mempersiapkan diri dengan sungguh-sungguh untuk meraih sertifikasi tersebut demi meningkatkan keahlian profesional dan nilai tambah kontribusi Anda.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_05_b",
+        "label": "B",
+        "content": "Ikut bersikap pasif seperti rekan kerja lain agar tidak terbebani tanggung jawab baru.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_05_c",
+        "label": "C",
+        "content": "Mendaftar hanya jika instansi menjanjikan insentif uang saku harian yang besar selama ujian.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_05_d",
+        "label": "D",
+        "content": "Mendaftar dan meminta bocoran kunci jawaban ujian kepada panitia sebelumnya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_05_e",
+        "label": "E",
+        "content": "Mendaftar karena ingin meningkatkan kompetensi, tetapi persiapannya seadanya karena sibuk dengan pekerjaan rutin.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_06",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Harmonis.**\nDi kantor tempat Anda bekerja, terdapat perbedaan keyakinan agama dan perayaan hari besar keagamaan di antara para pegawai. Menjelang hari raya salah satu agama minoritas di kantor, banyak pegawai yang beragama tersebut memerlukan izin cuti untuk beribadah bersama keluarga. Sikap Anda sebagai rekan kerja adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > E (4) > D (3) > A (2) > B (1).\n\n- **C — 5 poin:** Menghormati perayaan rekan dan bertukar piket agar layanan tetap berjalan.\n- **E — 4 poin:** Mendukung, tetapi menunggu diminta dan belum menunjukkan kepedulian langsung.\n- **D — 3 poin:** Tidak merugikan, tetapi kurang membangun keharmonisan.\n- **A — 2 poin:** Menolak membantu menghambat rekan beribadah dan mengganggu layanan.\n- **B — 1 poin:** Menuntut pembatasan hak cuti keagamaan bersikap diskriminatif.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_06_a",
+        "label": "A",
+        "content": "Menolak jika diminta menggantikan giliran piket tugas pelayanan selama rekan Anda cuti hari raya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_06_b",
+        "label": "B",
+        "content": "Menuntut agar cuti hari raya bagi agama minoritas dipersingkat menjadi satu hari saja.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_06_c",
+        "label": "C",
+        "content": "Mengucapkan selamat dengan tulus dan bersedia saling bertukar jadwal piket tugas untuk memastikan pelayanan publik tetap berjalan lancar saat rekan merayakan hari rayanya.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_06_d",
+        "label": "D",
+        "content": "Mengabaikan perayaan tersebut dan bersikap acuh tak acuh di kantor.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_06_e",
+        "label": "E",
+        "content": "Bersedia menggantikan sebagian piket rekan tersebut apabila diminta oleh atasan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_07",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Loyal.**\nPemerintah mengeluarkan kebijakan baru yang cukup kontroversial di mata publik, namun sah secara hukum dan regulasi nasional. Di sebuah grup media sosial publik, seorang teman mengajak Anda ikut menandatangani petisi menolak kebijakan tersebut dan menulis komentar yang menjelek-jelekkan instansi pemerintah. Sebagai ASN, respon Anda adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: E (5) > D (4) > A (3) > C (2) > B (1).\n\n- **E — 5 poin:** Menolak dengan bijak dan menjaga kode etik ASN terhadap pemerintah yang sah serta nama baik instansi.\n- **D — 4 poin:** Tidak ikut melanggar, tetapi pasif dan tidak menjelaskan sikap sebagai ASN.\n- **A — 3 poin:** Memakai akun anonim tetap ikut menolak kebijakan pemerintah yang sah secara tidak terbuka.\n- **C — 2 poin:** Mengabaikan kode etik ASN dalam berpendapat di ruang publik.\n- **B — 1 poin:** Menghina atasan dan presiden di media sosial melanggar kode etik dan dapat berujung sanksi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_07_a",
+        "label": "A",
+        "content": "Ikut menandatangani petisi menggunakan nama samaran dan akun anonim.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_07_b",
+        "label": "B",
+        "content": "Menulis komentar pedas yang mengkritik atasan dan presiden di akun media sosial pribadi Anda.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_07_c",
+        "label": "C",
+        "content": "Menyetujui ajakan tersebut karena setiap warga negara bebas berpendapat tanpa batasan kode etik.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_07_d",
+        "label": "D",
+        "content": "Tidak menanggapi ajakan tersebut dan memilih tidak ikut berkomentar.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_07_e",
+        "label": "E",
+        "content": "Menolak ajakan tersebut dengan bijak, mematuhi kode etik netralitas dan loyalitas ASN terhadap pemerintah yang sah, serta tidak ikut membuat pernyataan yang mendiskreditkan nama baik instansi.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_08",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Adaptif.**\nDinas Anda mengalami pemotongan anggaran operasional perjalanan dinas tatap muka sebesar 60% dalam rangka efisiensi fiskal nasional. Banyak agenda koordinasi luar daerah yang terancam batal. Tindakan adaptif yang Anda rekomendasikan adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: B (5) > E (4) > A (3) > D (2) > C (1).\n\n- **B — 5 poin:** Memindahkan koordinasi ke rapat daring sehingga tujuan tetap tercapai dengan biaya minim.\n- **E — 4 poin:** Menyesuaikan dengan anggaran, tetapi sebagian koordinasi tertunda.\n- **A — 3 poin:** Patuh pada efisiensi, tetapi menghentikan komunikasi merugikan koordinasi program.\n- **D — 2 poin:** Membebankan biaya dinas kepada pegawai secara pribadi tidak benar.\n- **C — 1 poin:** Meminjam dana swasta untuk perjalanan dinas melanggar tata kelola keuangan negara.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_08_a",
+        "label": "A",
+        "content": "Membatalkan seluruh agenda koordinasi dan tidak melakukan komunikasi apa pun dengan instansi mitra.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_08_b",
+        "label": "B",
+        "content": "Mengalihkan seluruh koordinasi tatap muka ke platform konferensi video digital dan dokumen kolaboratif daring, sehingga esensi target koordinasi tetap tercapai dengan biaya minim.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_08_c",
+        "label": "C",
+        "content": "Memaksa pimpinan untuk mengajukan pinjaman dana ke pihak swasta demi tetap bisa bepergian.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_08_d",
+        "label": "D",
+        "content": "Menuntut rekan kerja patungan menggunakan uang pribadi untuk membiayai tiket perjalanan dinas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_08_e",
+        "label": "E",
+        "content": "Memprioritaskan agenda koordinasi yang paling penting untuk tetap dilakukan tatap muka dan menunda agenda lainnya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_09",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Kolaboratif.**\nDalam rangka percepatan penurunan angka stunting di wilayah kerja Anda, diperlukan sinergi antara Dinas Kesehatan, Dinas Pemberdayaan Masyarakat Desa (DPMD), dan Kantor Kementerian Agama (KUA). Masing-masing instansi memiliki ego sektoral dan program sendiri-sendiri. Usulan langkah kolaboratif yang Anda gagas adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: D (5) > E (4) > A (3) > C (2) > B (1).\n\n- **D — 5 poin:** Forum koordinasi dengan data sasaran bersama membuat tiap instansi berperan sesuai mandat.\n- **E — 4 poin:** Langkah awal kolaborasi yang baik, tetapi belum menyatukan semua pihak.\n- **A — 3 poin:** Menghindari benturan, tetapi ego sektoral tetap terjadi.\n- **C — 2 poin:** Mengkritik di forum resmi memperburuk hubungan antarinstansi.\n- **B — 1 poin:** Menuntut anggaran instansi lain tidak sesuai kewenangan dan mematikan kolaborasi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_09_a",
+        "label": "A",
+        "content": "Membiarkan masing-masing dinas jalan sendiri-sendiri agar tidak terjadi benturan kewenangan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_09_b",
+        "label": "B",
+        "content": "Menuntut dinas lain menyerahkan seluruh anggarannya kepada dinas Anda sebagai penanggung jawab tunggal.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_09_c",
+        "label": "C",
+        "content": "Mengkritik ketidakmampuan dinas lain di hadapan kepala daerah saat rapat paripurna.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_09_d",
+        "label": "D",
+        "content": "Mendorong pembentukan forum koordinasi terpadu berbasis data sasaran terintegrasi (*single data*), di mana setiap instansi menyumbang peran sesuai mandatnya secara konvergen.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_09_e",
+        "label": "E",
+        "content": "Mengajak satu instansi yang paling terkait untuk memulai kerja sama lebih dulu, sambil berharap instansi lain menyusul.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_10",
+    "topicId": "top_prof_perekat_bangsa",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Di sebuah grup pesan instan (WhatsApp) lingkungan kantor, seorang pegawai membagikan pesan berantai bernada provokatif yang menyinggung stereotip negatif terhadap suku tertentu yang sedang menjadi sorotan berita kriminal nasional. Sikap Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Perekat Bangsa (Menjaga Persatuan & Menghentikan Polarisasi SARA).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: A (5) > E (4) > D (3) > B (2) > C (1).\n\n- **A — 5 poin:** Mengingatkan dengan santun di grup dan mengajak tidak menyebarkan isu SARA.\n- **E — 4 poin:** Efektif dan santun, tetapi anggota grup lain tidak mendapat pengingat.\n- **D — 3 poin:** Tidak ikut menyebarkan, tetapi membiarkan pesan provokatif.\n- **B — 2 poin:** Ikut bercanda soal suku memperkuat stereotip.\n- **C — 1 poin:** Meneruskan pesan bernuansa SARA ke masyarakat luas memperluas dampaknya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_10_a",
+        "label": "A",
+        "content": "Mengingatkan pengirim pesan dengan santun bahwa grup kantor adalah wadah kedinasan yang mengedepankan persatuan, dan mengajak rekan-rekan untuk tidak menyebarkan isu bernuansa SARA.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_10_b",
+        "label": "B",
+        "content": "Ikut menimpali dengan lelucon suku tersebut agar suasana di grup menjadi ramai.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_10_c",
+        "label": "C",
+        "content": "Meneruskan (*forward*) pesan tersebut ke grup warga di kompleks perumahan Anda.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_10_d",
+        "label": "D",
+        "content": "Hanya membaca dalam diam tanpa merespon apa pun.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_10_e",
+        "label": "E",
+        "content": "Menghubungi pengirim secara pribadi (japri) untuk memintanya menghapus pesan tersebut.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_11",
+    "topicId": "top_prof_perekat_bangsa",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam proses musyawarah perencanaan pembangunan desa (Musrenbang), sekelompok warga minoritas dan penyandang disabilitas tampak duduk terpisah di pojok belakang dan tidak diberikan kesempatan berbicara oleh panitia lokal. Anda hadir sebagai fasilitator kecamatan. Langkah Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Perekat Bangsa & Inklusivitas Sosial.**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > E (4) > B (3) > D (2) > A (1).\n\n- **C — 5 poin:** Memastikan kelompok rentan dan penyandang disabilitas duduk setara dan didengar dalam forum.\n- **E — 4 poin:** Suara mereka didengar, tetapi belum diperlakukan setara sejak awal.\n- **B — 3 poin:** Diberi kesempatan, tetapi setelah forum resmi selesai sehingga aspirasinya kurang berpengaruh.\n- **D — 2 poin:** Membatalkan semua usulan merugikan seluruh warga desa.\n- **A — 1 poin:** Membiarkan diskriminasi dalam forum resmi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_11_a",
+        "label": "A",
+        "content": "Membiarkan kondisi tersebut karena fasilitator harus menghormati kebiasaan panitia desa setempat.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_11_b",
+        "label": "B",
+        "content": "Menyuruh mereka berbicara langsung setelah acara resmi ditutup dan sebagian besar peserta pulang.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_11_c",
+        "label": "C",
+        "content": "Mengajak mereka duduk setara di area forum utama dan secara khusus memberikan ruang aman bagi perwakilan kelompok rentan/disabilitas untuk menyampaikan aspirasi kebutuhan mereka.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_11_d",
+        "label": "D",
+        "content": "Menghentikan acara Musrenbang dan membatalkan seluruh usulan proyek desa tersebut.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_11_e",
+        "label": "E",
+        "content": "Meminta panitia memberi kesempatan bicara kepada kelompok tersebut pada sesi tanya jawab di akhir acara.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_12",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Berorientasi Pelayanan.**\nSeorang pemohon izin penyandang disabilitas rungu (tuli) datang ke loket Anda dan tampak kesulitan mengutarakan tujuannya karena petugas loket sebelumnya tidak memahami bahasa isyarat. Anda melihat warga tersebut mulai panik. Apa yang Anda lakukan?",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: D (5) > E (4) > C (3) > A (2) > B (1).\n\n- **D — 5 poin:** Menyediakan media komunikasi tertulis dan melayani dengan sabar sampai tuntas.\n- **E — 4 poin:** Solusi tepat, tetapi Anda sendiri belum berinisiatif berkomunikasi.\n- **C — 3 poin:** Membantu, tetapi melibatkan warga lain mengganggu privasi pemohon.\n- **A — 2 poin:** Membebankan penerjemah kepada pemohon dan menunda layanan.\n- **B — 1 poin:** Berteriak tidak membantu penyandang tuli dan merendahkan martabatnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_12_a",
+        "label": "A",
+        "content": "Memintanya membawa penerjemah pribadi dan kembali lagi besok hari.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_12_b",
+        "label": "B",
+        "content": "Berbicara dengan suara sangat keras dan berteriak di depan pemohon tersebut.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_12_c",
+        "label": "C",
+        "content": "Meminta warga lain di antrean untuk membantu menerjemahkan secara sukarela.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_12_d",
+        "label": "D",
+        "content": "Menghampiri pemohon dengan senyum ramah, menyediakannya kertas dan pulpen atau media ketik gawai untuk berkomunikasi secara tertulis, dan melayaninya dengan sabar hingga tuntas.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_12_e",
+        "label": "E",
+        "content": "Memanggil rekan kerja dari bagian lain yang memahami bahasa isyarat dasar untuk membantu melayani.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_13",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Akuntabel.**\nSaat menyusun dokumen laporan pertanggungjawaban fisik, Anda menemukan kesalahan perhitungan volume beton yang menyebabkan kelebihan klaim pembayaran oleh dinas sebesar Rp15 juta. Jika dilaporkan, proses pencairan dana kegiatan satu tim akan tertunda 3 hari untuk perbaikan berkas. Tindakan Anda adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: B (5) > E (4) > D (3) > A (2) > C (1).\n\n- **B — 5 poin:** Mengoreksi sesuai kondisi riil dan melaporkannya walau pencairan tertunda.\n- **E — 4 poin:** Jujur melapor, tetapi tidak menuntaskan tanggung jawab perbaikan.\n- **D — 3 poin:** Uang mungkin kembali, tetapi diselesaikan diam-diam di luar prosedur.\n- **A — 2 poin:** Membiarkan kelebihan bayar berarti membiarkan kerugian negara.\n- **C — 1 poin:** Memakai kelebihan bayar untuk makan bersama adalah penyalahgunaan uang negara.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_13_a",
+        "label": "A",
+        "content": "Mendiamkan kesalahan tersebut karena selisihnya relatif kecil dibandingkan total nilai proyek miliaran rupiah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_13_b",
+        "label": "B",
+        "content": "Segera mengoreksi kesalahan perhitungan volume tersebut sesuai kondisi riil dan melaporkannya kepada pimpinan/PPK, meskipun jadwal pencairan tertunda demi menjaga integritas keuangan negara.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_13_c",
+        "label": "C",
+        "content": "Menggunakan uang kelebihan Rp15 juta tersebut untuk biaya makan bersama tim kegiatan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_13_d",
+        "label": "D",
+        "content": "Membebankan kesalahan tersebut kepada konsultan pengawas dan menuntut mereka ganti rugi diam-diam.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_13_e",
+        "label": "E",
+        "content": "Melaporkan kesalahan tersebut kepada PPK, tetapi menyerahkan koreksinya kepada konsultan pengawas tanpa ikut memastikan perbaikannya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_14",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Kompeten.**\nAnda memiliki keahlian dalam analisis data spasial (GIS) yang jarang dikuasai oleh pegawai lain di dinas Anda. Seorang rekan kerja junior meminta Anda mengajarinya dasar-dasar pemetaan agar bisa membantu pekerjaan dinas. Sikap Anda adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: A (5) > E (4) > D (3) > C (2) > B (1).\n\n- **A — 5 poin:** Berbagi pengetahuan secara terstruktur sehingga kapasitas tim meningkat.\n- **E — 4 poin:** Berbagi ilmu, tetapi bimbingannya belum tuntas.\n- **D — 3 poin:** Memberi bahan, tetapi tanpa penjelasan sehingga sulit dipahami.\n- **C — 2 poin:** Meminta bayaran dari rekan untuk kepentingan dinas tidak pantas.\n- **B — 1 poin:** Menahan ilmu demi posisi pribadi merugikan instansi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_14_a",
+        "label": "A",
+        "content": "Menyambut baik keinginannya, meluangkan waktu untuk mentransfer pengetahuan dan membimbingnya secara terstruktur agar kapasitas tim semakin kuat.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_14_b",
+        "label": "B",
+        "content": "Menolak mengajarinya karena khawatir posisi Anda sebagai satu-satunya ahli GIS di dinas akan tergeser.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_14_c",
+        "label": "C",
+        "content": "Meminta rekan tersebut membayar biaya kursus privat kepada Anda di luar jam kerja.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_14_d",
+        "label": "D",
+        "content": "Memberikan modul panduan berbahasa asing yang rumit tanpa mau memberikan penjelasan lisan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_14_e",
+        "label": "E",
+        "content": "Bersedia mengajari dasar-dasarnya, lalu menyarankan dia melanjutkan sendiri melalui kursus daring.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_15",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Harmonis.**\nDi lingkungan kerja Anda, beredar rumor dan gosip negatif mengenai kehidupan pribadi salah seorang pegawai yang baru saja mengalami musibah perceraian. Beberapa rekan mulai memperlakukan pegawai tersebut dengan tatapan sinis. Tindakan Anda adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: D (5) > E (4) > C (3) > A (2) > B (1).\n\n- **D — 5 poin:** Tidak menyebarkan rumor, mengingatkan rekan lain, dan memberi dukungan kepada rekan yang sedang kesulitan.\n- **E — 4 poin:** Menjaga diri dengan baik, tetapi tidak berupaya menghentikan gosip.\n- **C — 3 poin:** Tidak ikut bergosip, tetapi menjauhi rekan yang sedang sulit.\n- **A — 2 poin:** Ikut mendengarkan gosip memperpanjang penyebarannya.\n- **B — 1 poin:** Menyampaikan gosip kepada pimpinan agar rekan dipindahkan adalah tindakan merugikan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_15_a",
+        "label": "A",
+        "content": "Ikut mendengarkan rumor tersebut untuk mencari tahu kebenaran ceritanya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_15_b",
+        "label": "B",
+        "content": "Menceritakan gosip tersebut kepada pimpinan agar pegawai tersebut dipindahkan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_15_c",
+        "label": "C",
+        "content": "Menjauhi pegawai tersebut agar reputasi Anda tidak ikut tercoreng di mata rekan lain.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_15_d",
+        "label": "D",
+        "content": "Tidak ikut menyebarkan rumor, mengingatkan rekan lain untuk menghormati privasi sesama, serta memberikan dukungan moral kepada rekan yang sedang menghadapi masa sulit tersebut.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_15_e",
+        "label": "E",
+        "content": "Tidak ikut menyebarkan rumor dan tetap bersikap biasa kepada rekan tersebut, tanpa menegur rekan lain yang bergosip.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_16",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Loyal.**\nPada hari libur akhir pekan, terjadi bencana alam banjir bandang di wilayah kerja instansi Anda. Pimpinan mengirimkan pesan panggilan darurat (*call to duty*) bagi seluruh staf untuk membantu penanganan posko logistik pengungsi. Saat itu Anda sudah memiliki rencana rekreasi bersama teman. Sikap Anda adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: A (5) > E (4) > D (3) > B (2) > C (1).\n\n- **A — 5 poin:** Mengutamakan panggilan tugas kemanusiaan di atas rencana pribadi.\n- **E — 4 poin:** Tetap hadir dan berkomunikasi, tetapi tidak segera.\n- **D — 3 poin:** Membantu, tetapi menolak hadir padahal yang dibutuhkan tenaga di posko.\n- **B — 2 poin:** Mengabaikan panggilan tugas darurat dari pimpinan.\n- **C — 1 poin:** Berbohong sakit untuk menghindari tugas adalah ketidakjujuran.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_16_a",
+        "label": "A",
+        "content": "Membatalkan rencana rekreasi pribadi dan segera merapat ke posko darurat bencana untuk membantu penanganan warga terdampak sesuai arahan kedinasan.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_16_b",
+        "label": "B",
+        "content": "Mematikan ponsel pintar Anda dan berpura-pura tidak membaca pesan pimpinan hingga hari Senin.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_16_c",
+        "label": "C",
+        "content": "Membuat alasan sakit agar Anda tetap dapat pergi berekreasi bersama teman.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_16_d",
+        "label": "D",
+        "content": "Hanya menyumbangkan sejumlah uang secara transfer dan menolak datang langsung ke posko.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_16_e",
+        "label": "E",
+        "content": "Datang ke posko setelah menyelesaikan sebagian rencana pribadi Anda, sambil memberi kabar kepada pimpinan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_17",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Adaptif.**\nRegulasi pengelolaan keuangan dan pelaporan perpajakan instansi pemerintah mengalami perubahan mendasar dengan berlakunya peraturan menteri yang baru. Dokumen panduan yang ada sangat tebal dan rumit. Sikap Anda dalam menghadapi pembaruan aturan ini adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > E (4) > D (3) > B (2) > A (1).\n\n- **C — 5 poin:** Mempelajari aturan baru secara proaktif, mengikuti bimtek, dan menyesuaikan format laporan.\n- **E — 4 poin:** Mau beradaptasi, tetapi kurang proaktif.\n- **D — 3 poin:** Meniru instansi lain menunda kepatuhan dan berisiko ikut keliru.\n- **B — 2 poin:** Mengeluh tidak menyelesaikan kewajiban mematuhi aturan baru.\n- **A — 1 poin:** Sengaja memakai format lama berarti tidak patuh aturan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_17_a",
+        "label": "A",
+        "content": "Tetap menggunakan format lama sampai ada teguran resmi dari auditor BPK.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_17_b",
+        "label": "B",
+        "content": "Mengeluh dan menyalahkan kementerian karena terlalu sering mengganti peraturan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_17_c",
+        "label": "C",
+        "content": "Mempelajari secara proaktif pasal-pasal kunci dalam regulasi baru, mengikuti bimbingan teknis, dan mengadaptasikan format laporan kantor agar patuh pada aturan terkini.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_17_d",
+        "label": "D",
+        "content": "Menunggu instansi dinas tetangga menerapkan aturan baru tersebut lebih dulu baru Anda menirunya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_17_e",
+        "label": "E",
+        "content": "Mengikuti bimbingan teknis yang diadakan, tetapi baru mempelajari detail regulasi ketika menemukan kasus di lapangan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_18",
+    "topicId": "top_prof_berakhlak",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "**Core Value: Kolaboratif.**\nDinas Anda berencana menyelenggarakan pameran UMKM daerah, namun anggaran dinas sangat minim. Sebuah komunitas wirausaha muda dan perhimpunan perbankan menawarkan kolaborasi untuk mendanai sebagian tempat dan mendatangkan pembeli potensial, asalkan mereka dilibatkan dalam kepanitiaan. Respon Anda adalah...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: B (5) > E (4) > D (3) > C (2) > A (1).\n\n- **B — 5 poin:** Kolaborasi dengan perjanjian kerja sama tertulis yang jelas dan transparan.\n- **E — 4 poin:** Kolaboratif, tetapi tanpa dasar tertulis akuntabilitasnya lemah.\n- **D — 3 poin:** Acara terlaksana, tetapi dinas melepas tanggung jawab penyelenggaraan.\n- **C — 2 poin:** Menerima dana tanpa melibatkan mitra tidak adil dan tidak transparan.\n- **A — 1 poin:** Menolak kolaborasi dengan alasan keliru; kerja sama yang sah justru dianjurkan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_18_a",
+        "label": "A",
+        "content": "Menolak tawaran tersebut karena acara pemerintah tidak boleh melibatkan pihak swasta atau komunitas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_18_b",
+        "label": "B",
+        "content": "Menyambut baik inisiatif kolaborasi tersebut dengan menyusun perjanjian kerjasama resmi (PKS) yang jelas, transparan, dan saling melengkapi demi kesuksesan pemberdayaan UMKM.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_18_c",
+        "label": "C",
+        "content": "Menerima uang bantuan mereka namun tidak mengizinkan mereka ikut dalam rapat kepanitiaan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_18_d",
+        "label": "D",
+        "content": "Menyerahkan seluruh acara kepada pihak swasta dan dinas hanya hadir saat seremoni pembukaan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_18_e",
+        "label": "E",
+        "content": "Menerima tawaran kolaborasi tersebut dengan kesepakatan lisan tanpa perjanjian kerja sama tertulis.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_19",
+    "topicId": "top_prof_perekat_bangsa",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Saat penugasan sensus atau pendataan sosial, Anda mendapati sebuah perkampungan adat yang menolak pengisian data kependudukan digital karena kepercayaan mereka menolak alat elektronik modern. Tindakan bijak yang Anda lakukan adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Perekat Bangsa (Pendekatan Sosio-Kultural & Musyawarah Adat).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: A (5) > E (4) > D (3) > C (2) > B (1).\n\n- **A — 5 poin:** Menghormati keyakinan warga, berdialog dengan tetua adat, dan mencari cara pendataan yang disepakati.\n- **E — 4 poin:** Solusi praktis yang menghormati warga, tetapi belum melibatkan tetua adat.\n- **D — 3 poin:** Jujur melapor, tetapi belum berupaya mencari solusi.\n- **C — 2 poin:** Mengisi data fiktif adalah pemalsuan data negara.\n- **B — 1 poin:** Memaksa dengan aparat bersenjata melanggar hak warga dan memicu konflik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_19_a",
+        "label": "A",
+        "content": "Menghormati keyakinan mereka, meminta petunjuk tetua adat melalui dialog santun, dan mencari solusi pendataan alternatif yang disepakati bersama tanpa melanggar norma kepercayaan mereka.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_19_b",
+        "label": "B",
+        "content": "Membawa aparat keamanan bersenjata untuk memaksa warga adat mengisi data aplikasi gawai.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_19_c",
+        "label": "C",
+        "content": "Mengisi data mereka secara fiktif dari rumah tanpa berkunjung ke desa tersebut.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_19_d",
+        "label": "D",
+        "content": "Melaporkan kepada atasan bahwa desa tersebut belum dapat didata dan menunggu arahan berikutnya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_19_e",
+        "label": "E",
+        "content": "Mencatat data warga secara manual di formulir kertas, lalu Anda sendiri yang memasukkannya ke aplikasi setibanya di kantor.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_soc_20",
+    "topicId": "top_prof_perekat_bangsa",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam rangka memperingati Hari Kemerdekaan RI di lingkungan kantor, panitia menyelenggarakan karnaval baju adat nusantara. Beberapa staf enggan berpartisipasi karena merasa mengenakan pakaian adat dari suku lain tidak sesuai dengan identitas asal mereka. Sikap Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Perekat Bangsa (Semangat Bhinneka Tunggal Ika).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > E (4) > D (3) > B (2) > A (1).\n\n- **C — 5 poin:** Berpartisipasi aktif dan memberi contoh menghargai budaya suku lain sebagai wujud Bhinneka Tunggal Ika.\n- **E — 4 poin:** Tetap berpartisipasi, tetapi belum menunjukkan apresiasi lintas budaya.\n- **D — 3 poin:** Hadir, tetapi menjaga jarak dari rekan berbeda budaya.\n- **B — 2 poin:** Membatasi orang hanya memakai baju adat sukunya sendiri bertentangan dengan semangat acara.\n- **A — 1 poin:** Memboikot acara kebangsaan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_soc_20_a",
+        "label": "A",
+        "content": "Ikut memboikot acara tersebut dan memilih mengenakan pakaian dinas harian biasa.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_soc_20_b",
+        "label": "B",
+        "content": "Menuntut agar setiap orang hanya boleh mengenakan baju adat sukunya sendiri.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_soc_20_c",
+        "label": "C",
+        "content": "Berpartisipasi aktif dengan antusias, memberi contoh bahwa mengapresiasi budaya suku lain adalah wujud nyata Bhinneka Tunggal Ika dan perekat integrasi bangsa.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_soc_20_d",
+        "label": "D",
+        "content": "Menghadiri acara namun tidak mau berfoto bersama rekan kerja yang memakai baju adat daerah lain.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_soc_20_e",
+        "label": "E",
+        "content": "Mengenakan baju adat daerah asal Anda sendiri dan tetap mengikuti seluruh rangkaian acara bersama rekan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

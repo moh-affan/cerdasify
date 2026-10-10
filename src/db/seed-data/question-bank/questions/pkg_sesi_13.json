@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "q_0301_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah kubus memiliki panjang rusuk 13 cm. Volumenya adalah ...",
+    "imageUrl": null,
+    "explanation": "Volume kubus = rusuk × rusuk × rusuk = 13 × 13 × 13 = 2197 cm³.\nJawaban: C. 2197 cm³",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0301_geometri-bangun_0_A",
+        "label": "A",
+        "content": "169 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0301_geometri-bangun_1_B",
+        "label": "B",
+        "content": "156 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0301_geometri-bangun_2_C",
+        "label": "C",
+        "content": "2197 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0301_geometri-bangun_3_D",
+        "label": "D",
+        "content": "1014 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0302_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Keliling sebuah persegi panjang 72 cm dan panjangnya 21 cm. Lebarnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Keliling = 2 × (p + l), jadi p + l = 72 ÷ 2 = 36. Lebar = 36 − 21 = 15 cm.\nJawaban: C. 15 cm",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0302_geometri-bangun_0_A",
+        "label": "A",
+        "content": "18 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0302_geometri-bangun_1_B",
+        "label": "B",
+        "content": "17 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0302_geometri-bangun_2_C",
+        "label": "C",
+        "content": "15 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0302_geometri-bangun_3_D",
+        "label": "D",
+        "content": "51 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0303_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dua sudut saling berpelurus. Jika salah satu sudut 68°, maka sudut yang lain adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua sudut berpelurus berjumlah 180°. Sudut lainnya = 180° − 68° = 112°.\nJawaban: C. 112°",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0303_geometri-bangun_0_A",
+        "label": "A",
+        "content": "292°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0303_geometri-bangun_1_B",
+        "label": "B",
+        "content": "22°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0303_geometri-bangun_2_C",
+        "label": "C",
+        "content": "112°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0303_geometri-bangun_3_D",
+        "label": "D",
+        "content": "122°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0304_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dua sudut saling berpelurus. Jika salah satu sudut 67°, maka sudut yang lain adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua sudut berpelurus berjumlah 180°. Sudut lainnya = 180° − 67° = 113°.\nJawaban: D. 113°",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0304_geometri-bangun_0_A",
+        "label": "A",
+        "content": "23°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0304_geometri-bangun_1_B",
+        "label": "B",
+        "content": "123°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0304_geometri-bangun_2_C",
+        "label": "C",
+        "content": "293°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0304_geometri-bangun_3_D",
+        "label": "D",
+        "content": "113°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0305_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah segitiga memiliki alas 12 cm dan tinggi 19 cm. Luasnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas segitiga = (alas × tinggi) ÷ 2 = (12 × 19) ÷ 2 = 114 cm².\nJawaban: D. 114 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0305_geometri-bangun_0_A",
+        "label": "A",
+        "content": "228 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0305_geometri-bangun_1_B",
+        "label": "B",
+        "content": "126 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0305_geometri-bangun_2_C",
+        "label": "C",
+        "content": "31 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0305_geometri-bangun_3_D",
+        "label": "D",
+        "content": "114 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0306_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah kubus memiliki rusuk 10 cm. Luas seluruh permukaannya adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas permukaan kubus = 6 × sisi × sisi = 6 × 10 × 10 = 600 cm².\nJawaban: B. 600 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0306_geometri-bangun_0_A",
+        "label": "A",
+        "content": "1000 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0306_geometri-bangun_1_B",
+        "label": "B",
+        "content": "600 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0306_geometri-bangun_2_C",
+        "label": "C",
+        "content": "120 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0306_geometri-bangun_3_D",
+        "label": "D",
+        "content": "400 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0307_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah kubus memiliki panjang rusuk 14 cm. Volumenya adalah ...",
+    "imageUrl": null,
+    "explanation": "Volume kubus = rusuk × rusuk × rusuk = 14 × 14 × 14 = 2744 cm³.\nJawaban: B. 2744 cm³",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0307_geometri-bangun_0_A",
+        "label": "A",
+        "content": "168 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0307_geometri-bangun_1_B",
+        "label": "B",
+        "content": "2744 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0307_geometri-bangun_2_C",
+        "label": "C",
+        "content": "196 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0307_geometri-bangun_3_D",
+        "label": "D",
+        "content": "1176 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0308_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah segitiga memiliki alas 14 cm dan tinggi 7 cm. Luasnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas segitiga = (alas × tinggi) ÷ 2 = (14 × 7) ÷ 2 = 49 cm².\nJawaban: A. 49 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0308_geometri-bangun_0_A",
+        "label": "A",
+        "content": "49 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0308_geometri-bangun_1_B",
+        "label": "B",
+        "content": "63 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0308_geometri-bangun_2_C",
+        "label": "C",
+        "content": "21 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0308_geometri-bangun_3_D",
+        "label": "D",
+        "content": "98 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0309_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bangun datar yang memiliki tepat sepasang sisi sejajar adalah ...",
+    "imageUrl": null,
+    "explanation": "Ciri \"tepat sepasang sisi sejajar\" adalah sifat khas trapesium.\nJawaban: D. trapesium",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0309_geometri-bangun_0_A",
+        "label": "A",
+        "content": "segitiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0309_geometri-bangun_1_B",
+        "label": "B",
+        "content": "lingkaran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0309_geometri-bangun_2_C",
+        "label": "C",
+        "content": "persegi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0309_geometri-bangun_3_D",
+        "label": "D",
+        "content": "trapesium",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0310_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah kubus memiliki panjang rusuk 3 cm. Volumenya adalah ...",
+    "imageUrl": null,
+    "explanation": "Volume kubus = rusuk × rusuk × rusuk = 3 × 3 × 3 = 27 cm³.\nJawaban: D. 27 cm³",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0310_geometri-bangun_0_A",
+        "label": "A",
+        "content": "36 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0310_geometri-bangun_1_B",
+        "label": "B",
+        "content": "9 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0310_geometri-bangun_2_C",
+        "label": "C",
+        "content": "54 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0310_geometri-bangun_3_D",
+        "label": "D",
+        "content": "27 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0311_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bangun datar yang memiliki 2 pasang sisi sejajar sama panjang dan 4 sudut siku-siku adalah ...",
+    "imageUrl": null,
+    "explanation": "Ciri \"2 pasang sisi sejajar sama panjang dan 4 sudut siku-siku\" adalah sifat khas persegi panjang.\nJawaban: A. persegi panjang",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0311_geometri-bangun_0_A",
+        "label": "A",
+        "content": "persegi panjang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0311_geometri-bangun_1_B",
+        "label": "B",
+        "content": "jajargenjang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0311_geometri-bangun_2_C",
+        "label": "C",
+        "content": "layang-layang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0311_geometri-bangun_3_D",
+        "label": "D",
+        "content": "trapesium",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0312_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah persegi memiliki keliling 24 cm. Luas persegi tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "Sisi = 24 ÷ 4 = 6 cm. Luas = 6 × 6 = 36 cm².\nJawaban: B. 36 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0312_geometri-bangun_0_A",
+        "label": "A",
+        "content": "72 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0312_geometri-bangun_1_B",
+        "label": "B",
+        "content": "36 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0312_geometri-bangun_2_C",
+        "label": "C",
+        "content": "24 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0312_geometri-bangun_3_D",
+        "label": "D",
+        "content": "49 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0313_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah persegi memiliki keliling 92 cm. Luas persegi tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "Sisi = 92 ÷ 4 = 23 cm. Luas = 23 × 23 = 529 cm².\nJawaban: B. 529 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0313_geometri-bangun_0_A",
+        "label": "A",
+        "content": "92 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0313_geometri-bangun_1_B",
+        "label": "B",
+        "content": "529 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0313_geometri-bangun_2_C",
+        "label": "C",
+        "content": "1058 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0313_geometri-bangun_3_D",
+        "label": "D",
+        "content": "576 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0314_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah kubus memiliki panjang rusuk 11 cm. Volumenya adalah ...",
+    "imageUrl": null,
+    "explanation": "Volume kubus = rusuk × rusuk × rusuk = 11 × 11 × 11 = 1331 cm³.\nJawaban: B. 1331 cm³",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0314_geometri-bangun_0_A",
+        "label": "A",
+        "content": "121 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0314_geometri-bangun_1_B",
+        "label": "B",
+        "content": "1331 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0314_geometri-bangun_2_C",
+        "label": "C",
+        "content": "132 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0314_geometri-bangun_3_D",
+        "label": "D",
+        "content": "726 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0315_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah persegi memiliki keliling 28 cm. Luas persegi tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "Sisi = 28 ÷ 4 = 7 cm. Luas = 7 × 7 = 49 cm².\nJawaban: A. 49 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0315_geometri-bangun_0_A",
+        "label": "A",
+        "content": "49 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0315_geometri-bangun_1_B",
+        "label": "B",
+        "content": "98 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0315_geometri-bangun_2_C",
+        "label": "C",
+        "content": "64 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0315_geometri-bangun_3_D",
+        "label": "D",
+        "content": "28 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0316_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah bangun tersusun dari dua persegi bersisi 13 cm dan 9 cm yang tidak saling menutupi. Luas seluruh bangun adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas = (13 × 13) + (9 × 9) = 169 + 81 = 250 cm².\nJawaban: A. 250 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0316_geometri-bangun_0_A",
+        "label": "A",
+        "content": "250 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0316_geometri-bangun_1_B",
+        "label": "B",
+        "content": "484 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0316_geometri-bangun_2_C",
+        "label": "C",
+        "content": "263 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0316_geometri-bangun_3_D",
+        "label": "D",
+        "content": "117 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0317_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah bangun tersusun dari dua persegi bersisi 7 cm dan 4 cm yang tidak saling menutupi. Luas seluruh bangun adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas = (7 × 7) + (4 × 4) = 49 + 16 = 65 cm².\nJawaban: B. 65 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0317_geometri-bangun_0_A",
+        "label": "A",
+        "content": "28 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0317_geometri-bangun_1_B",
+        "label": "B",
+        "content": "65 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0317_geometri-bangun_2_C",
+        "label": "C",
+        "content": "121 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0317_geometri-bangun_3_D",
+        "label": "D",
+        "content": "72 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0318_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Keliling sebuah persegi panjang 60 cm dan panjangnya 18 cm. Lebarnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Keliling = 2 × (p + l), jadi p + l = 60 ÷ 2 = 30. Lebar = 30 − 18 = 12 cm.\nJawaban: A. 12 cm",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0318_geometri-bangun_0_A",
+        "label": "A",
+        "content": "12 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0318_geometri-bangun_1_B",
+        "label": "B",
+        "content": "14 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0318_geometri-bangun_2_C",
+        "label": "C",
+        "content": "15 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0318_geometri-bangun_3_D",
+        "label": "D",
+        "content": "42 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0319_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dua sudut saling berpelurus. Jika salah satu sudut 41°, maka sudut yang lain adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua sudut berpelurus berjumlah 180°. Sudut lainnya = 180° − 41° = 139°.\nJawaban: B. 139°",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0319_geometri-bangun_0_A",
+        "label": "A",
+        "content": "49°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0319_geometri-bangun_1_B",
+        "label": "B",
+        "content": "139°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0319_geometri-bangun_2_C",
+        "label": "C",
+        "content": "149°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0319_geometri-bangun_3_D",
+        "label": "D",
+        "content": "319°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0320_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah bangun tersusun dari dua persegi bersisi 8 cm dan 3 cm yang tidak saling menutupi. Luas seluruh bangun adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas = (8 × 8) + (3 × 3) = 64 + 9 = 73 cm².\nJawaban: D. 73 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0320_geometri-bangun_0_A",
+        "label": "A",
+        "content": "121 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0320_geometri-bangun_1_B",
+        "label": "B",
+        "content": "24 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0320_geometri-bangun_2_C",
+        "label": "C",
+        "content": "81 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0320_geometri-bangun_3_D",
+        "label": "D",
+        "content": "73 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0321_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah balok berukuran 15 cm × 7 cm × 8 cm. Volumenya adalah ...",
+    "imageUrl": null,
+    "explanation": "Volume balok = p × l × t = 15 × 7 × 8 = 840 cm³.\nJawaban: A. 840 cm³",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0321_geometri-bangun_0_A",
+        "label": "A",
+        "content": "840 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0321_geometri-bangun_1_B",
+        "label": "B",
+        "content": "30 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0321_geometri-bangun_2_C",
+        "label": "C",
+        "content": "105 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0321_geometri-bangun_3_D",
+        "label": "D",
+        "content": "562 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0322_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah bangun tersusun dari dua persegi bersisi 9 cm dan 3 cm yang tidak saling menutupi. Luas seluruh bangun adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas = (9 × 9) + (3 × 3) = 81 + 9 = 90 cm².\nJawaban: A. 90 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0322_geometri-bangun_0_A",
+        "label": "A",
+        "content": "90 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0322_geometri-bangun_1_B",
+        "label": "B",
+        "content": "27 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0322_geometri-bangun_2_C",
+        "label": "C",
+        "content": "144 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0322_geometri-bangun_3_D",
+        "label": "D",
+        "content": "99 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0323_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Keliling sebuah persegi panjang 70 cm dan panjangnya 15 cm. Lebarnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Keliling = 2 × (p + l), jadi p + l = 70 ÷ 2 = 35. Lebar = 35 − 15 = 20 cm.\nJawaban: D. 20 cm",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0323_geometri-bangun_0_A",
+        "label": "A",
+        "content": "22 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0323_geometri-bangun_1_B",
+        "label": "B",
+        "content": "55 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0323_geometri-bangun_2_C",
+        "label": "C",
+        "content": "17 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0323_geometri-bangun_3_D",
+        "label": "D",
+        "content": "20 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0324_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah persegi panjang berukuran panjang 8 cm dan lebar 4 cm. Kelilingnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Keliling = 2 × (8 + 4) = 2 × 12 = 24 cm.\nJawaban: D. 24 cm",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0324_geometri-bangun_0_A",
+        "label": "A",
+        "content": "32 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0324_geometri-bangun_1_B",
+        "label": "B",
+        "content": "12 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0324_geometri-bangun_2_C",
+        "label": "C",
+        "content": "20 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0324_geometri-bangun_3_D",
+        "label": "D",
+        "content": "24 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0325_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Luas sebuah persegi adalah 196 cm². Kelilingnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Sisi persegi = 14 cm karena 14 × 14 = 196. Keliling = 4 × 14 = 56 cm.\nJawaban: A. 56 cm",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0325_geometri-bangun_0_A",
+        "label": "A",
+        "content": "56 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0325_geometri-bangun_1_B",
+        "label": "B",
+        "content": "28 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0325_geometri-bangun_2_C",
+        "label": "C",
+        "content": "60 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0325_geometri-bangun_3_D",
+        "label": "D",
+        "content": "196 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0326_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah segitiga memiliki alas 18 cm dan tinggi 5 cm. Luasnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas segitiga = (alas × tinggi) ÷ 2 = (18 × 5) ÷ 2 = 45 cm².\nJawaban: A. 45 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0326_geometri-bangun_0_A",
+        "label": "A",
+        "content": "45 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0326_geometri-bangun_1_B",
+        "label": "B",
+        "content": "63 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0326_geometri-bangun_2_C",
+        "label": "C",
+        "content": "23 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0326_geometri-bangun_3_D",
+        "label": "D",
+        "content": "90 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0327_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah segitiga memiliki alas 30 cm dan tinggi 16 cm. Luasnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas segitiga = (alas × tinggi) ÷ 2 = (30 × 16) ÷ 2 = 240 cm².\nJawaban: C. 240 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0327_geometri-bangun_0_A",
+        "label": "A",
+        "content": "480 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0327_geometri-bangun_1_B",
+        "label": "B",
+        "content": "270 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0327_geometri-bangun_2_C",
+        "label": "C",
+        "content": "240 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0327_geometri-bangun_3_D",
+        "label": "D",
+        "content": "46 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0328_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Keliling sebuah persegi panjang 78 cm dan panjangnya 24 cm. Lebarnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Keliling = 2 × (p + l), jadi p + l = 78 ÷ 2 = 39. Lebar = 39 − 24 = 15 cm.\nJawaban: A. 15 cm",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0328_geometri-bangun_0_A",
+        "label": "A",
+        "content": "15 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0328_geometri-bangun_1_B",
+        "label": "B",
+        "content": "19 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0328_geometri-bangun_2_C",
+        "label": "C",
+        "content": "17 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0328_geometri-bangun_3_D",
+        "label": "D",
+        "content": "54 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0329_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah persegi panjang berukuran panjang 27 cm dan lebar 23 cm. Kelilingnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Keliling = 2 × (27 + 23) = 2 × 50 = 100 cm.\nJawaban: C. 100 cm",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0329_geometri-bangun_0_A",
+        "label": "A",
+        "content": "77 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0329_geometri-bangun_1_B",
+        "label": "B",
+        "content": "50 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0329_geometri-bangun_2_C",
+        "label": "C",
+        "content": "100 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0329_geometri-bangun_3_D",
+        "label": "D",
+        "content": "621 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0330_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah balok berukuran 6 cm × 3 cm × 10 cm. Volumenya adalah ...",
+    "imageUrl": null,
+    "explanation": "Volume balok = p × l × t = 6 × 3 × 10 = 180 cm³.\nJawaban: C. 180 cm³",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0330_geometri-bangun_0_A",
+        "label": "A",
+        "content": "19 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0330_geometri-bangun_1_B",
+        "label": "B",
+        "content": "216 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0330_geometri-bangun_2_C",
+        "label": "C",
+        "content": "180 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0330_geometri-bangun_3_D",
+        "label": "D",
+        "content": "18 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0331_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah balok berukuran 10 cm × 5 cm × 2 cm. Volumenya adalah ...",
+    "imageUrl": null,
+    "explanation": "Volume balok = p × l × t = 10 × 5 × 2 = 100 cm³.\nJawaban: A. 100 cm³",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0331_geometri-bangun_0_A",
+        "label": "A",
+        "content": "100 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0331_geometri-bangun_1_B",
+        "label": "B",
+        "content": "50 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0331_geometri-bangun_2_C",
+        "label": "C",
+        "content": "17 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0331_geometri-bangun_3_D",
+        "label": "D",
+        "content": "160 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0332_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah kubus memiliki panjang rusuk 4 cm. Volumenya adalah ...",
+    "imageUrl": null,
+    "explanation": "Volume kubus = rusuk × rusuk × rusuk = 4 × 4 × 4 = 64 cm³.\nJawaban: A. 64 cm³",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0332_geometri-bangun_0_A",
+        "label": "A",
+        "content": "64 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0332_geometri-bangun_1_B",
+        "label": "B",
+        "content": "16 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0332_geometri-bangun_2_C",
+        "label": "C",
+        "content": "96 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0332_geometri-bangun_3_D",
+        "label": "D",
+        "content": "48 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0333_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Luas sebuah persegi adalah 121 cm². Kelilingnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Sisi persegi = 11 cm karena 11 × 11 = 121. Keliling = 4 × 11 = 44 cm.\nJawaban: D. 44 cm",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0333_geometri-bangun_0_A",
+        "label": "A",
+        "content": "22 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0333_geometri-bangun_1_B",
+        "label": "B",
+        "content": "121 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0333_geometri-bangun_2_C",
+        "label": "C",
+        "content": "48 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0333_geometri-bangun_3_D",
+        "label": "D",
+        "content": "44 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0334_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah bangun tersusun dari dua persegi bersisi 9 cm dan 9 cm yang tidak saling menutupi. Luas seluruh bangun adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas = (9 × 9) + (9 × 9) = 81 + 81 = 162 cm².\nJawaban: C. 162 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0334_geometri-bangun_0_A",
+        "label": "A",
+        "content": "324 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0334_geometri-bangun_1_B",
+        "label": "B",
+        "content": "171 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0334_geometri-bangun_2_C",
+        "label": "C",
+        "content": "162 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0334_geometri-bangun_3_D",
+        "label": "D",
+        "content": "81 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0335_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Banyaknya sumbu simetri lipat pada huruf kapital M adalah ...",
+    "imageUrl": null,
+    "explanation": "Huruf M dapat dilipat menjadi dua bagian yang setangkup sebanyak 1 cara.\nJawaban: D. 1",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0335_geometri-bangun_0_A",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0335_geometri-bangun_1_B",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0335_geometri-bangun_2_C",
+        "label": "C",
+        "content": "0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0335_geometri-bangun_3_D",
+        "label": "D",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0336_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dua sudut saling berpelurus. Jika salah satu sudut 50°, maka sudut yang lain adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua sudut berpelurus berjumlah 180°. Sudut lainnya = 180° − 50° = 130°.\nJawaban: B. 130°",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0336_geometri-bangun_0_A",
+        "label": "A",
+        "content": "310°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0336_geometri-bangun_1_B",
+        "label": "B",
+        "content": "130°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0336_geometri-bangun_2_C",
+        "label": "C",
+        "content": "40°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0336_geometri-bangun_3_D",
+        "label": "D",
+        "content": "140°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0337_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Banyaknya sumbu simetri lipat pada huruf kapital A adalah ...",
+    "imageUrl": null,
+    "explanation": "Huruf A dapat dilipat menjadi dua bagian yang setangkup sebanyak 1 cara.\nJawaban: B. 1",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0337_geometri-bangun_0_A",
+        "label": "A",
+        "content": "0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0337_geometri-bangun_1_B",
+        "label": "B",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0337_geometri-bangun_2_C",
+        "label": "C",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0337_geometri-bangun_3_D",
+        "label": "D",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0338_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Keliling sebuah persegi panjang 58 cm dan panjangnya 24 cm. Lebarnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Keliling = 2 × (p + l), jadi p + l = 58 ÷ 2 = 29. Lebar = 29 − 24 = 5 cm.\nJawaban: D. 5 cm",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0338_geometri-bangun_0_A",
+        "label": "A",
+        "content": "7 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0338_geometri-bangun_1_B",
+        "label": "B",
+        "content": "14 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0338_geometri-bangun_2_C",
+        "label": "C",
+        "content": "34 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0338_geometri-bangun_3_D",
+        "label": "D",
+        "content": "5 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0339_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bangun datar yang memiliki 2 pasang sisi sejajar dan sudut berhadapan sama besar adalah ...",
+    "imageUrl": null,
+    "explanation": "Ciri \"2 pasang sisi sejajar dan sudut berhadapan sama besar\" adalah sifat khas jajargenjang.\nJawaban: A. jajargenjang",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0339_geometri-bangun_0_A",
+        "label": "A",
+        "content": "jajargenjang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0339_geometri-bangun_1_B",
+        "label": "B",
+        "content": "segitiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0339_geometri-bangun_2_C",
+        "label": "C",
+        "content": "trapesium",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0339_geometri-bangun_3_D",
+        "label": "D",
+        "content": "layang-layang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0340_geometri-bangun",
+    "topicId": "top_olimpiade-matematika-sd_geometri-ban",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah bangun tersusun dari dua persegi bersisi 7 cm dan 5 cm yang tidak saling menutupi. Luas seluruh bangun adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas = (7 × 7) + (5 × 5) = 49 + 25 = 74 cm².\nJawaban: A. 74 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0340_geometri-bangun_0_A",
+        "label": "A",
+        "content": "74 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0340_geometri-bangun_1_B",
+        "label": "B",
+        "content": "144 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0340_geometri-bangun_2_C",
+        "label": "C",
+        "content": "81 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0340_geometri-bangun_3_D",
+        "label": "D",
+        "content": "35 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

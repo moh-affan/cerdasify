@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "pkg_ceo_2025_ing_1_q01",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What do you see in the picture?",
+    "imageUrl": "/uploads/ceo25_ing1_q1.png",
+    "explanation": "Gambar menunjukkan seorang anak laki-laki yang duduk sambil membaca buku berwarna hijau. Jadi kalimat yang tepat adalah *He reads a book.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q01_opt_a",
+        "label": "A",
+        "content": "He stops studying and has a rest.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q01_opt_b",
+        "label": "B",
+        "content": "He does homework at home.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q01_opt_c",
+        "label": "C",
+        "content": "He reads a book.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q01_opt_d",
+        "label": "D",
+        "content": "He shows or explains something.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q02",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "How to describe this image?",
+    "imageUrl": "/uploads/ceo25_ing1_q2.png",
+    "explanation": "Gambar menunjukkan seorang perempuan yang bernyanyi memakai mikrofon, yaitu penyanyi (*singer*). Kalimat yang tepat: *This person is famous and sings songs.* Petani bekerja di ladang, badut membuat tertawa di sirkus, dan dokter merawat kesehatan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q02_opt_a",
+        "label": "A",
+        "content": "This person works on a farm.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q02_opt_b",
+        "label": "B",
+        "content": "This person is famous and sings songs.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q02_opt_c",
+        "label": "C",
+        "content": "This person makes you laugh at the circus.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q02_opt_d",
+        "label": "D",
+        "content": "This person takes care of your health.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q03",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Tom's Mountain Trip (Soal No. 3 – 4)]\n*The text is for questions number 3 and 4:*\n\n“Tom is going on a trip to the mountains. Tom needs to take his bag. The bag is small and brown. Tom opens the bag. Tom wants to put things in the bag. But the bag cannot close! Tom takes the boots out of the bag.”\n:::\n\nWhere is Tom going?",
+    "imageUrl": null,
+    "explanation": "Kalimat pertama teks menyatakan dengan jelas: *\"Tom is going on a trip to the mountains.\"* (Tom akan bepergian ke pegunungan).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q03_opt_a",
+        "label": "A",
+        "content": "to the city",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q03_opt_b",
+        "label": "B",
+        "content": "to the beach",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q03_opt_c",
+        "label": "C",
+        "content": "to the school",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q03_opt_d",
+        "label": "D",
+        "content": "to the mountain",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q04",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Tom's Mountain Trip (Soal No. 3 – 4)]\n*The text is for questions number 3 and 4:*\n\n“Tom is going on a trip to the mountains. Tom needs to take his bag. The bag is small and brown. Tom opens the bag. Tom wants to put things in the bag. But the bag cannot close! Tom takes the boots out of the bag.”\n:::\n\nTom does not put . . . . in the bag",
+    "imageUrl": null,
+    "explanation": "Karena tasnya tidak bisa ditutup, Tom mengeluarkan sepatu botnya (*Tom takes the boots out of the bag*), sehingga sepatu bot tidak jadi dimasukkan ke dalam tas.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q04_opt_a",
+        "label": "A",
+        "content": "things",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q04_opt_b",
+        "label": "B",
+        "content": "boots",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q04_opt_c",
+        "label": "C",
+        "content": "trips",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q04_opt_d",
+        "label": "D",
+        "content": "bags",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q05",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I want to ….. to music.",
+    "imageUrl": null,
+    "explanation": "Kata kerja yang berkaitan dengan musik dan indra pendengaran adalah mendengarkan (*listen to music*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q05_opt_a",
+        "label": "A",
+        "content": "listen",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q05_opt_b",
+        "label": "B",
+        "content": "stand",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q05_opt_c",
+        "label": "C",
+        "content": "drink",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q05_opt_d",
+        "label": "D",
+        "content": "bring",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q06",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“Luke, wash ….. hands!”",
+    "imageUrl": null,
+    "explanation": "Kata ganti kepemilikan (*possessive adjective*) sebelum kata benda *hands* adalah *your* (*wash your hands!*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q06_opt_a",
+        "label": "A",
+        "content": "you",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q06_opt_b",
+        "label": "B",
+        "content": "your",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q06_opt_c",
+        "label": "C",
+        "content": "yours",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q06_opt_d",
+        "label": "D",
+        "content": "you’re",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q07",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "You take shower in the …..",
+    "imageUrl": null,
+    "explanation": "Aktivitas mandi (*take shower*) dilakukan di kamar mandi (*bathroom*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q07_opt_a",
+        "label": "A",
+        "content": "living-room",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q07_opt_b",
+        "label": "B",
+        "content": "bathroom",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q07_opt_c",
+        "label": "C",
+        "content": "bedroom",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q07_opt_d",
+        "label": "D",
+        "content": "kitchen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q08",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Arrange the words into a good sentence!\nSoccer – hobby – playing – my – is – with – friends",
+    "imageUrl": null,
+    "explanation": "Susunan kalimat yang tepat dan bermakna padu adalah *\"My hobby is playing soccer with friends\"* (Hobi saya bermain sepak bola bersama teman-teman).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q08_opt_a",
+        "label": "A",
+        "content": "My friend hobby is playing with soccer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q08_opt_b",
+        "label": "B",
+        "content": "My hobby is playing soccer with friends",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q08_opt_c",
+        "label": "C",
+        "content": "My friends hobby is with soccer playing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q08_opt_d",
+        "label": "D",
+        "content": "My hobby is soccer playing with friends",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q09",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dina wants to go to Surabaya by Argobromo train at 09:00 in the morning, so she goes to the…",
+    "imageUrl": null,
+    "explanation": "Kereta api Argobromo (*train*) diberangkatkan dari stasiun kereta api (*rail station* / *train station*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q09_opt_a",
+        "label": "A",
+        "content": "Rail station",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q09_opt_b",
+        "label": "B",
+        "content": "Harbor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q09_opt_c",
+        "label": "C",
+        "content": "Bus station",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q09_opt_d",
+        "label": "D",
+        "content": "Airport",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q10",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The students didn’t go to … on Sunday.",
+    "imageUrl": null,
+    "explanation": "Hari Minggu (*Sunday*) adalah hari libur nasional sehingga para siswa tidak bersekolah (*didn't go to school*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q10_opt_a",
+        "label": "A",
+        "content": "Library",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q10_opt_b",
+        "label": "B",
+        "content": "Holiday",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q10_opt_c",
+        "label": "C",
+        "content": "School",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q10_opt_d",
+        "label": "D",
+        "content": "Shop",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q11",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“Gajah itu besar.” In English is….",
+    "imageUrl": null,
+    "explanation": "Gajah diterjemahkan sebagai *elephant* dan besar adalah *big*, sehingga kalimatnya berbunyi *The elephant is big*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q11_opt_a",
+        "label": "A",
+        "content": "The cow is big",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q11_opt_b",
+        "label": "B",
+        "content": "The elephant is big",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q11_opt_c",
+        "label": "C",
+        "content": "The sheep is big",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q11_opt_d",
+        "label": "D",
+        "content": "The elephant is small",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q12",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tina is a child who likes cleanliness. So She often … the room.",
+    "imageUrl": null,
+    "explanation": "Anak yang mencintai kebersihan (*cleanliness*) rajin menyapu (*sweeps*) ruangan kamarnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q12_opt_a",
+        "label": "A",
+        "content": "Sweeps",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q12_opt_b",
+        "label": "B",
+        "content": "Throw trash in the room",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q12_opt_c",
+        "label": "C",
+        "content": "Dirty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q12_opt_d",
+        "label": "D",
+        "content": "Sleep",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q13",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Rainy Day Trip to School (Soal No. 13 – 15)]\n*Read the text below to answer questions 13 to 15!*\n\n“It’s raining heavily today. Tora goes to school by car with her father. Usually Tora goes to school with Ryan by bicycle. Tora saw Ryan waiting for a taxi in front of the bus stop with his mother. Tora asked her father to stop the car at the bus stop. Tora opened the window...”\n:::\n\nWhat ride does Tora usually take to school?",
+    "imageUrl": null,
+    "explanation": "Teks menyatakan: *\"Usually Tora goes to school with Ryan by bicycle.\"* Jadi biasanya Tora mengendarai sepeda (*bicycle*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q13_opt_a",
+        "label": "A",
+        "content": "Taxi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q13_opt_b",
+        "label": "B",
+        "content": "Bicycle",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q13_opt_c",
+        "label": "C",
+        "content": "Car",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q13_opt_d",
+        "label": "D",
+        "content": "Bus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q14",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Rainy Day Trip to School (Soal No. 13 – 15)]\n*Read the text below to answer questions 13 to 15!*\n\n“It’s raining heavily today. Tora goes to school by car with her father. Usually Tora goes to school with Ryan by bicycle. Tora saw Ryan waiting for a taxi in front of the bus stop with his mother. Tora asked her father to stop the car at the bus stop. Tora opened the window...”\n:::\n\nWho took Tora in the car?",
+    "imageUrl": null,
+    "explanation": "Berdasarkan kalimat kedua teks: *\"Tora goes to school by car with her father.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q14_opt_a",
+        "label": "A",
+        "content": "Tora’s Mother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q14_opt_b",
+        "label": "B",
+        "content": "Tora’s Brother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q14_opt_c",
+        "label": "C",
+        "content": "Tora’s Father",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q14_opt_d",
+        "label": "D",
+        "content": "Tora’s friend",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q15",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Rainy Day Trip to School (Soal No. 13 – 15)]\n*Read the text below to answer questions 13 to 15!*\n\n“It’s raining heavily today. Tora goes to school by car with her father. Usually Tora goes to school with Ryan by bicycle. Tora saw Ryan waiting for a taxi in front of the bus stop with his mother. Tora asked her father to stop the car at the bus stop. Tora opened the window...”\n:::\n\nWhy is Ryan at the bus stop?",
+    "imageUrl": null,
+    "explanation": "Teks menyebutkan: *\"Tora saw Ryan waiting for a taxi in front of the bus stop with his mother.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q15_opt_a",
+        "label": "A",
+        "content": "Because he is waiting for a taxi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q15_opt_b",
+        "label": "B",
+        "content": "Because he is waiting for the bus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q15_opt_c",
+        "label": "C",
+        "content": "Because he is waiting for Tora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q15_opt_d",
+        "label": "D",
+        "content": "Because he is waiting for her father",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q16",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My brother has a son. He is my …",
+    "imageUrl": null,
+    "explanation": "Anak laki-laki dari saudara kandung laki-laki/perempuan adalah keponakan laki-laki (*nephew*). *Niece* = keponakan perempuan, *cousin* = sepupu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q16_opt_a",
+        "label": "A",
+        "content": "Cousin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q16_opt_b",
+        "label": "B",
+        "content": "Niece",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q16_opt_c",
+        "label": "C",
+        "content": "Nephew",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q16_opt_d",
+        "label": "D",
+        "content": "Sister",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q17",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The items in the living room are …",
+    "imageUrl": null,
+    "explanation": "Perabotan yang umum di ruang tamu/keluarga (*living room*) adalah televisi, sofa, dan pengharum ruangan (*air freshener*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q17_opt_a",
+        "label": "A",
+        "content": "Frying pan, spatula and salt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q17_opt_b",
+        "label": "B",
+        "content": "Television, sofa and air freshener",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q17_opt_c",
+        "label": "C",
+        "content": "Spoons, forks and plates",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q17_opt_d",
+        "label": "D",
+        "content": "Bed, storage bench and sleeping pillows",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q18",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Arrange into correct word: G - A - B - A - B - E - C",
+    "imageUrl": null,
+    "explanation": "Huruf-huruf G-A-B-A-B-E-C disusun membentuk kata sayur kubis, yaitu *C-A-B-B-A-G-E* (Cabbage).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q18_opt_a",
+        "label": "A",
+        "content": "Eggplant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q18_opt_b",
+        "label": "B",
+        "content": "Broccoli",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q18_opt_c",
+        "label": "C",
+        "content": "Cabbage",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q18_opt_d",
+        "label": "D",
+        "content": "Carrot",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q19",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I don't have legs. I have a long body. Who am I?",
+    "imageUrl": null,
+    "explanation": "Hewan melata bertubuh panjang dan tidak berkaki adalah ular (*snake*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q19_opt_a",
+        "label": "A",
+        "content": "Snake",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q19_opt_b",
+        "label": "B",
+        "content": "Giraffe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q19_opt_c",
+        "label": "C",
+        "content": "Hippo",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q19_opt_d",
+        "label": "D",
+        "content": "Lizard",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q20",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Twelve plus eight is …",
+    "imageUrl": null,
+    "explanation": "Operasi penjumlahan: $12 + 8 = 20$ (*twenty*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q20_opt_a",
+        "label": "A",
+        "content": "Sixteen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q20_opt_b",
+        "label": "B",
+        "content": "Fourteen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q20_opt_c",
+        "label": "C",
+        "content": "Twenty",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q20_opt_d",
+        "label": "D",
+        "content": "Seventeen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q21",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "How many months are there in a year?",
+    "imageUrl": null,
+    "explanation": "Dalam satu tahun terdapat 12 bulan (*twelve months*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q21_opt_a",
+        "label": "A",
+        "content": "Eleven",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q21_opt_b",
+        "label": "B",
+        "content": "Twelve",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q21_opt_c",
+        "label": "C",
+        "content": "Thirteen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q21_opt_d",
+        "label": "D",
+        "content": "Fourteen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q22",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sixty six plus seventy five equals ......",
+    "imageUrl": null,
+    "explanation": "Penjumlahan bilangan: $66 + 75 = 141$ (*one hundred and forty one*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q22_opt_a",
+        "label": "A",
+        "content": "One hundred and forty one",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q22_opt_b",
+        "label": "B",
+        "content": "One hundred and fifty two",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q22_opt_c",
+        "label": "C",
+        "content": "Two hundred and sixty one",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q22_opt_d",
+        "label": "D",
+        "content": "One hundred and seventy two",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q23",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the clock. What time is it?",
+    "imageUrl": "/uploads/ceo25_ing1_q23.png",
+    "explanation": "Jarum pendek menunjuk angka 9 dan jarum panjang menunjuk angka 12, jadi pukul sembilan tepat (*nine o’clock*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q23_opt_a",
+        "label": "A",
+        "content": "Five o’clock",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q23_opt_b",
+        "label": "B",
+        "content": "It is sleeping time",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q23_opt_c",
+        "label": "C",
+        "content": "It is playing time",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q23_opt_d",
+        "label": "D",
+        "content": "Nine o’clock",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q24",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My father and mother have parents. They are my ….",
+    "imageUrl": null,
+    "explanation": "Orang tua dari ayah dan ibu kita adalah kakek dan nenek kita (*grandparents*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q24_opt_a",
+        "label": "A",
+        "content": "parents",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q24_opt_b",
+        "label": "B",
+        "content": "grandparents",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q24_opt_c",
+        "label": "C",
+        "content": "children",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q24_opt_d",
+        "label": "D",
+        "content": "friends",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q25",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "How does it taste ?",
+    "imageUrl": "/uploads/ceo25_ing1_q25.png",
+    "explanation": "Gambar menunjukkan buah stroberi yang matang. Rasa (*taste*) stroberi adalah manis (*sweet*). *Big* menyatakan ukuran, *red* warna, dan *three* jumlah, bukan rasa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q25_opt_a",
+        "label": "A",
+        "content": "Big",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q25_opt_b",
+        "label": "B",
+        "content": "Red",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q25_opt_c",
+        "label": "C",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q25_opt_d",
+        "label": "D",
+        "content": "Sweet",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q26",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mari : “Good afternoon, Susi!”\nSusi : “……………………....”",
+    "imageUrl": null,
+    "explanation": "Salam sapaan *Good afternoon* (selamat siang/sore) dibalas dengan sapaan yang sama yaitu *Good afternoon*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q26_opt_a",
+        "label": "A",
+        "content": "See you later",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q26_opt_b",
+        "label": "B",
+        "content": "See you again",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q26_opt_c",
+        "label": "C",
+        "content": "Good morning",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q26_opt_d",
+        "label": "D",
+        "content": "Good afternoon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q27",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which animal says “meow”?",
+    "imageUrl": null,
+    "explanation": "Suara \"meong\" (*meow*) adalah suara khas dari kucing (*cat*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q27_opt_a",
+        "label": "A",
+        "content": "Calf",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q27_opt_b",
+        "label": "B",
+        "content": "Cow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q27_opt_c",
+        "label": "C",
+        "content": "Cat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q27_opt_d",
+        "label": "D",
+        "content": "Crow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q28",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The sky is ….",
+    "imageUrl": null,
+    "explanation": "Warna langit pada siang hari yang cerah adalah biru (*blue*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q28_opt_a",
+        "label": "A",
+        "content": "red",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q28_opt_b",
+        "label": "B",
+        "content": "blank",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q28_opt_c",
+        "label": "C",
+        "content": "blue",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q28_opt_d",
+        "label": "D",
+        "content": "pink",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q29",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What is the opposite of Summer?",
+    "imageUrl": null,
+    "explanation": "Lawan musim dari musim panas (*Summer*) yang bersuhu hangat adalah musim dingin (*Winter*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q29_opt_a",
+        "label": "A",
+        "content": "Monsoon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q29_opt_b",
+        "label": "B",
+        "content": "Dark age",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q29_opt_c",
+        "label": "C",
+        "content": "Winter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q29_opt_d",
+        "label": "D",
+        "content": "Eternal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_ing_1_q30",
+    "topicId": "top_ceo_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "What is the plural form of fish?",
+    "imageUrl": null,
+    "explanation": "Dalam bahasa Inggris baku, bentuk jamak (*plural form*) dari kata benda *fish* umumnya tetap *fish* (kecuali merujuk pada keanekaragaman spesies yang berbeda).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_ing_1_q30_opt_a",
+        "label": "A",
+        "content": "Pisces",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q30_opt_b",
+        "label": "B",
+        "content": "Fish",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q30_opt_c",
+        "label": "C",
+        "content": "Fishing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_ing_1_q30_opt_d",
+        "label": "D",
+        "content": "Fishes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

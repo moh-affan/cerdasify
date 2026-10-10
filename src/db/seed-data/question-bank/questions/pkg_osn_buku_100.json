@@ -1,0 +1,4658 @@
+[
+  {
+    "id": "q_osn_buku_001",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar di bawah ini! Garis QA tegak lurus garis QB.\nBerapakah besar sudut AQC?",
+    "imageUrl": "/uploads/osn_buku_q001.png",
+    "explanation": "Sudut AQB siku-siku, jadi ∠AQC + ∠CQB = 90°.\n(6x + 4) + (5x + 9) = 90 → 11x + 13 = 90 → x = 7.\n∠AQC = 6 × 7 + 4 = 46°.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_001_a",
+        "label": "A",
+        "content": "44°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_001_b",
+        "label": "B",
+        "content": "46°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_001_c",
+        "label": "C",
+        "content": "54°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_001_d",
+        "label": "D",
+        "content": "90°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_002",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah lapangan berbentuk lingkaran dengan diameter 56 m. Di sekeliling lapangan akan dipasang lampu dengan jarak 4 m. Berapa banyak lampu yang diperlukan?",
+    "imageUrl": null,
+    "explanation": "Keliling lapangan = π × d = 22/7 × 56 = 176 m.\nLampu dipasang mengelilingi lapangan (lintasan tertutup), sehingga banyak lampu = keliling : jarak = 176 : 4 = 44 buah.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_002_a",
+        "label": "A",
+        "content": "22 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_002_b",
+        "label": "B",
+        "content": "44 buah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_002_c",
+        "label": "C",
+        "content": "56 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_002_d",
+        "label": "D",
+        "content": "88 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_003",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar di bawah ini. Garis HB sejajar garis CD dan keduanya dipotong garis GF.\nNilai y adalah ….",
+    "imageUrl": "/uploads/osn_buku_q003.png",
+    "explanation": "∠CEF dan ∠EAH adalah sudut sehadap, jadi ∠EAH = 102°.\n∠EAH dan ∠BAE saling berpelurus: 102° + 3y = 180° → 3y = 78° → y = 26.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_003_a",
+        "label": "A",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_003_b",
+        "label": "B",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_003_c",
+        "label": "C",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_003_d",
+        "label": "D",
+        "content": "78",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_004",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika $\\dfrac{1}{3^{-a}} = 27$, maka nilai a adalah ….",
+    "imageUrl": null,
+    "explanation": "$\\dfrac{1}{3^{-a}} = 3^{a}$, sehingga $3^{a} = 27 = 3^{3}$. Jadi a = 3.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_004_a",
+        "label": "A",
+        "content": "−3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_004_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_004_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_004_d",
+        "label": "D",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_005",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui segitiga PQR sama kaki dengan PQ = PR, seperti pada gambar.\nMaka nilai x adalah ….",
+    "imageUrl": "/uploads/osn_buku_q005.png",
+    "explanation": "Sudut pelurus dari 120° adalah a = 60°, dan sudut pelurus dari 95° adalah b = 85°.\nPada segitiga kecil di sebelah kanan: ∠R = 180° − 85° − 60° = 35°.\nKarena PQ = PR, ∠Q = ∠R = 35°, sehingga x = 180° − 2 × 35° = 110°.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_005_a",
+        "label": "A",
+        "content": "35°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_005_b",
+        "label": "B",
+        "content": "60°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_005_c",
+        "label": "C",
+        "content": "85°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_005_d",
+        "label": "D",
+        "content": "110°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_006",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan timbangan-timbangan seimbang pada gambar berikut!\nPada timbangan keempat, berapa banyak D yang harus diletakkan di sebelah kanan agar seimbang dengan dua buah A?",
+    "imageUrl": "/uploads/osn_buku_q006.png",
+    "explanation": "Dari gambar: (1) A = 3B, (2) 2B = 3C, (3) 6C = 10D.\nDari (2): B = $\\tfrac{3}{2}$C. Dari (3): C = $\\tfrac{5}{3}$D.\nA = 3B = $\\tfrac{9}{2}$C = $\\tfrac{9}{2} \\times \\tfrac{5}{3}$D = $\\tfrac{15}{2}$D.\nJadi 2A = 15D.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_006_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_006_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_006_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_006_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_007",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Segitiga ABC siku-siku di A dengan ∠ACB = 34°. Titik D berada pada BC sedemikian sehingga CD = CA. Besar ∠DAB adalah ….",
+    "imageUrl": "/uploads/osn_buku_q007.png",
+    "explanation": "Karena CD = CA, segitiga CAD sama kaki sehingga ∠CAD = ∠CDA = (180° − 34°) : 2 = 73°.\n∠DAB = ∠CAB − ∠CAD = 90° − 73° = 17°.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_007_a",
+        "label": "A",
+        "content": "17°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_007_b",
+        "label": "B",
+        "content": "28°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_007_c",
+        "label": "C",
+        "content": "34°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_007_d",
+        "label": "D",
+        "content": "56°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_008",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Rata-rata pendapatan 4 karyawan bagian produksi Rp25.000,00 per hari, sedangkan rata-rata pendapatan karyawan bagian administrasi Rp35.000,00 per hari. Jika rata-rata pendapatan semua karyawan bagian produksi dan administrasi Rp31.000,00 per hari, maka banyak karyawan bagian administrasi adalah ….",
+    "imageUrl": null,
+    "explanation": "Misal banyak karyawan administrasi n.\n4 × 25.000 + 35.000n = 31.000(4 + n)\n100.000 + 35.000n = 124.000 + 31.000n → 4.000n = 24.000 → n = 6.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_008_a",
+        "label": "A",
+        "content": "4 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_008_b",
+        "label": "B",
+        "content": "5 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_008_c",
+        "label": "C",
+        "content": "6 orang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_008_d",
+        "label": "D",
+        "content": "8 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_009",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Terdapat lima kartu berbentuk persegi panjang berukuran 8 cm × 4 cm. Kartu-kartu tersebut disusun bertumpuk seperti pada gambar (setiap kartu bergeser 2 cm ke kanan dan 1 cm ke bawah dari kartu sebelumnya). Berapa luas daerah tumpukan kartu yang tampak?",
+    "imageUrl": "/uploads/osn_buku_q009.png",
+    "explanation": "Kartu paling atas tampak utuh: 8 × 4 = 32 cm².\nDari setiap kartu di bawahnya, bagian yang tampak berbentuk L: (2 × 4) + (6 × 1) = 14 cm².\nLuas yang tampak = 32 + 4 × 14 = 88 cm².\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_009_a",
+        "label": "A",
+        "content": "72 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_009_b",
+        "label": "B",
+        "content": "80 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_009_c",
+        "label": "C",
+        "content": "88 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_009_d",
+        "label": "D",
+        "content": "160 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_011",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Nilai 50 siswa disajikan pada diagram batang berikut. Seorang siswa disebut pintar apabila nilai yang diperoleh lebih dari nilai rata-rata ditambah $1\\tfrac{1}{2}$. Berapa banyak siswa yang tergolong pintar?",
+    "imageUrl": "/uploads/osn_buku_q011.png",
+    "explanation": "Rata-rata = (4×4 + 5×14 + 6×5 + 7×9 + 8×4 + 9×11 + 10×3) : 50 = 340 : 50 = 6,8.\nBatas pintar = 6,8 + 1,5 = 8,3. Siswa dengan nilai lebih dari 8,3 adalah yang bernilai 9 dan 10: 11 + 3 = 14 siswa.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_011_a",
+        "label": "A",
+        "content": "3 siswa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_011_b",
+        "label": "B",
+        "content": "11 siswa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_011_c",
+        "label": "C",
+        "content": "14 siswa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_011_d",
+        "label": "D",
+        "content": "18 siswa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_012",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bilangan 1 sampai 8 harus ditempatkan pada kotak berukuran 2 baris × 4 kolom sehingga setiap bilangan tidak mempunyai tetangga di kanan dan di bawahnya yang nilainya lebih kecil dari bilangan itu sendiri. Sebagai contoh, penempatan berikut memenuhi aturan:\n$$\\begin{array}{|c|c|c|c|}\\hline 1 & 2 & 3 & 4 \\\\ \\hline 5 & 6 & 7 & 8 \\\\ \\hline \\end{array}$$\nTermasuk contoh di atas, ada berapa banyak penempatan yang memenuhi aturan?",
+    "imageUrl": null,
+    "explanation": "Syaratnya: setiap baris naik dari kiri ke kanan dan setiap kolom naik dari atas ke bawah. Bilangan 1 selalu di pojok kiri atas dan 8 di pojok kanan bawah.\nDengan mendaftar semua kemungkinan baris atas (bilangan di baris atas harus selalu \"tidak tertinggal\" dari baris bawah):\n1234, 1235, 1236, 1237, 1245, 1246, 1247, 1256, 1257, 1345, 1346, 1347, 1356, 1357.\nAda 14 penempatan (bilangan Catalan ke-4). Catatan: daftar di buku sumber hanya memuat 13 penempatan karena 1357/2468 terlewat.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_012_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_012_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_012_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_012_d",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_013",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar berikut. Besar ∠A + ∠B + ∠C + ∠D + ∠E + ∠F + ∠G + ∠H = …",
+    "imageUrl": "/uploads/osn_buku_q013.png",
+    "explanation": "Keempat segitiga pada gambar mengapit sebuah segiempat di tengah (titik potong P, Q, R, S).\nPada setiap segitiga, jumlah dua sudut yang diberi huruf = 180° − sudut segitiga di titik potong, sehingga\n(∠A + ∠B) + (∠C + ∠D) + (∠E + ∠F) + (∠G + ∠H) = 4 × 180° − (∠P + ∠Q + ∠R + ∠S) = 720° − 360° = 360°.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_013_a",
+        "label": "A",
+        "content": "180°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_013_b",
+        "label": "B",
+        "content": "270°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_013_c",
+        "label": "C",
+        "content": "360°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_013_d",
+        "label": "D",
+        "content": "540°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_014",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah sepeda motor berangkat dari Kota Yogyakarta ke Kota Semarang dengan kecepatan 80 km/jam. Pada saat yang sama, sebuah mobil bergerak dari Kota Semarang ke Kota Yogyakarta dengan kecepatan 100 km/jam. Sepeda motor itu memerlukan waktu 1,2 jam lebih lama daripada mobil untuk menyelesaikan perjalanannya. Berapa lama waktu yang diperlukan kedua kendaraan itu untuk bertemu?",
+    "imageUrl": null,
+    "explanation": "Misal jarak kedua kota = s km.\nWaktu motor − waktu mobil = 1,2 jam → s/80 − s/100 = 1,2 → s/400 = 1,2 → s = 480 km.\nKedua kendaraan bergerak saling mendekat, kecepatan gabungan = 80 + 100 = 180 km/jam.\nWaktu bertemu = 480 : 180 = 2⅔ jam = 2 jam 40 menit.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_014_a",
+        "label": "A",
+        "content": "2 jam 20 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_014_b",
+        "label": "B",
+        "content": "2 jam 40 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_014_c",
+        "label": "C",
+        "content": "3 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_014_d",
+        "label": "D",
+        "content": "4 jam 48 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_015",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bilangan 4, 5, 6, 7, 8, dan 9 akan ditempatkan pada enam kotak yang terletak di sisi-sisi sebuah segitiga (tiga kotak di titik sudut dan tiga kotak di tengah sisi), sehingga jumlah bilangan pada setiap sisi sama dengan 18. Bilangan-bilangan yang harus ditempatkan di ketiga titik sudut segitiga adalah ….",
+    "imageUrl": null,
+    "explanation": "Jumlah ketiga sisi = 3 × 18 = 54. Bilangan di titik sudut terhitung dua kali, jadi\n54 = (4 + 5 + … + 9) + (jumlah titik sudut) = 39 + (jumlah titik sudut) → jumlah titik sudut = 15.\nYang berjumlah 15 dan memungkinkan adalah 4, 5, 6. Bilangan tengahnya: sisi 4–5 diisi 9, sisi 5–6 diisi 7, sisi 4–6 diisi 8.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_015_a",
+        "label": "A",
+        "content": "4, 5, 6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_015_b",
+        "label": "B",
+        "content": "4, 6, 8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_015_c",
+        "label": "C",
+        "content": "5, 7, 9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_015_d",
+        "label": "D",
+        "content": "7, 8, 9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_016",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Terdapat 39 siswa di kelas Jonathan. Setiap siswa mengikuti Klub Robotik atau Klub Tenis Meja, tetapi 5 siswa mengikuti kedua klub tersebut. Berapa banyak siswa yang hanya mengikuti Klub Tenis Meja, jika 18 siswa sudah menjadi anggota Klub Robotik?",
+    "imageUrl": null,
+    "explanation": "Anggota Klub Robotik (termasuk yang ikut keduanya) = 18. Semua siswa ikut minimal satu klub, jadi yang hanya ikut Tenis Meja = 39 − 18 = 21 siswa.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_016_a",
+        "label": "A",
+        "content": "13 siswa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_016_b",
+        "label": "B",
+        "content": "16 siswa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_016_c",
+        "label": "C",
+        "content": "21 siswa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_016_d",
+        "label": "D",
+        "content": "26 siswa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_017",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan tiga posisi kubus yang sama pada gambar di bawah ini. Pasangan huruf yang saling berseberangan (berhadapan) adalah ….",
+    "imageUrl": "/uploads/osn_buku_q017.png",
+    "explanation": "Dari kubus ke-2 dan ke-3, huruf Y bersebelahan dengan K, N, Z, dan F, sehingga Y berseberangan dengan D.\nDari kubus ke-1 dan ke-2, huruf K bersebelahan dengan D, Z, Y, dan N, sehingga K berseberangan dengan F.\nSisanya, N berseberangan dengan Z.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_017_a",
+        "label": "A",
+        "content": "Y–D, K–F, N–Z",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_017_b",
+        "label": "B",
+        "content": "Y–K, D–F, N–Z",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_017_c",
+        "label": "C",
+        "content": "Y–N, K–Z, D–F",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_017_d",
+        "label": "D",
+        "content": "Y–F, K–D, N–Z",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_018",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pada gambar di bawah ini, titik di dalam persegi panjang ABCD terletak pada diagonal BD. Luas daerah b adalah 20% dari luas ABCD dan luas daerah a adalah 45 cm². Luas persegi panjang ABCD adalah ….",
+    "imageUrl": "/uploads/osn_buku_q018.png",
+    "explanation": "Karena titik terletak pada diagonal BD, luas a = luas d dan luas b = luas c (alas sama, tinggi sama).\nb + c = 20% + 20% = 40%, sehingga a + d = 60% dan a = 30% luas ABCD.\nLuas ABCD = 45 : 30% = 150 cm².\nCatatan: buku sumber menulis 60 cm² di akhir pembahasan, padahal itu luas b + c; luas ABCD yang benar 150 cm².\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_018_a",
+        "label": "A",
+        "content": "60 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_018_b",
+        "label": "B",
+        "content": "90 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_018_c",
+        "label": "C",
+        "content": "150 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_018_d",
+        "label": "D",
+        "content": "225 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_019",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tinggi sebuah tabung pada gambar adalah 140 cm dan jari-jarinya 70 cm. Seekor semut berjalan di permukaan selimut tabung dari titik A (di tepi atas) ke titik B (di tepi bawah, pada sisi yang berseberangan). Panjang rute terpendek yang dapat dilalui semut adalah sekitar … ($\\pi = \\tfrac{22}{7}$)",
+    "imageUrl": "/uploads/osn_buku_q019.png",
+    "explanation": "Buka selimut tabung menjadi persegi panjang: lebarnya keliling alas 2 × $\\tfrac{22}{7}$ × 70 = 440 cm dan tingginya 140 cm.\nB berada di seberang A, yaitu setengah keliling = 220 cm ke samping. Rute terpendek adalah garis lurus:\n$\\sqrt{220^2 + 140^2} = \\sqrt{68.000} \\approx 260{,}8$ cm ≈ 261 cm.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_019_a",
+        "label": "A",
+        "content": "220 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_019_b",
+        "label": "B",
+        "content": "261 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_019_c",
+        "label": "C",
+        "content": "360 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_019_d",
+        "label": "D",
+        "content": "440 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_020",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pada gambar di bawah ini, C adalah titik pusat lingkaran. Luas persegi ABCD adalah 4 satuan luas. Luas lingkaran tersebut adalah … ($\\pi = 3{,}14$)",
+    "imageUrl": "/uploads/osn_buku_q020.png",
+    "explanation": "Sisi persegi = $\\sqrt{4}$ = 2. Jari-jari lingkaran = CB = 2.\nLuas lingkaran = 3,14 × 2² = 12,56 satuan luas.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_020_a",
+        "label": "A",
+        "content": "6,28 satuan luas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_020_b",
+        "label": "B",
+        "content": "12,56 satuan luas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_020_c",
+        "label": "C",
+        "content": "25,12 satuan luas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_020_d",
+        "label": "D",
+        "content": "50,24 satuan luas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_022",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika $2^{-a} = \\dfrac{1}{32}$, maka nilai dari 2a adalah ….",
+    "imageUrl": null,
+    "explanation": "$2^{-a} = \\dfrac{1}{32} = 2^{-5}$, jadi a = 5 dan 2a = 10.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_022_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_022_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_022_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_022_d",
+        "label": "D",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_023",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bilangan bulat yang paling dekat dengan nilai $\\dfrac{5}{2} : 1\\tfrac{2}{3} + 0{,}49$ adalah ….",
+    "imageUrl": null,
+    "explanation": "$\\dfrac{5}{2} : \\dfrac{5}{3} = \\dfrac{5}{2} \\times \\dfrac{3}{5} = 1{,}5$. Lalu 1,5 + 0,49 = 1,99, yang paling dekat dengan 2.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_023_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_023_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_023_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_023_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_024",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Umur Amir lebih tua tiga tahun dari umur Budi, sedangkan Budi empat tahun lebih muda dari Cipto. Ketika usia Cipto 22 tahun, maka usia Amir adalah ….",
+    "imageUrl": null,
+    "explanation": "Budi = 22 − 4 = 18 tahun. Amir = 18 + 3 = 21 tahun.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_024_a",
+        "label": "A",
+        "content": "15 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_024_b",
+        "label": "B",
+        "content": "18 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_024_c",
+        "label": "C",
+        "content": "21 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_024_d",
+        "label": "D",
+        "content": "25 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_025",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Carilah nilai X dari soal berikut: X dikali 4, lalu ditambah 8, kemudian dibagi 8, hasilnya 6.",
+    "imageUrl": null,
+    "explanation": "(4X + 8) : 8 = 6 → 4X + 8 = 48 → 4X = 40 → X = 10.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_025_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_025_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_025_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_025_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_027",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pak Tani mempunyai sebidang kebun yang akan ditanami lima macam sayuran, yaitu bawang putih, cabe, kubis, tomat, dan wortel, masing-masing pada satu baris (baris 1 sampai 5). Diketahui:\n- Sayuran yang diambil umbinya tidak ditanam di baris pertama atau baris kelima.\n- Tanaman tomat berdekatan dengan tanaman wortel.\n- Kubis ditanam di antara tanaman wortel dan bawang putih.\n- Tanaman tomat berada di baris kelima.\nSayuran yang ditanam di baris pertama adalah ….",
+    "imageUrl": null,
+    "explanation": "Tomat di baris 5, dan wortel berdekatan dengan tomat → wortel di baris 4.\nKubis di antara wortel dan bawang putih → kubis di baris 3, bawang putih di baris 2 (bawang putih dan wortel adalah umbi, jadi tidak di baris 1 atau 5).\nBaris 1 = cabe.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_027_a",
+        "label": "A",
+        "content": "Bawang putih",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_027_b",
+        "label": "B",
+        "content": "Cabe",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_027_c",
+        "label": "C",
+        "content": "Kubis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_027_d",
+        "label": "D",
+        "content": "Wortel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_028",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jonathan bersama ayah dan ibunya akan berfoto keluarga dengan duduk berjajar dalam satu baris. Ada berapa banyak susunan duduk yang mungkin?",
+    "imageUrl": null,
+    "explanation": "Tiga orang disusun berjajar: 3 × 2 × 1 = 6 susunan, yaitu (Ibu, Jonathan, Ayah), (Ibu, Ayah, Jonathan), (Jonathan, Ayah, Ibu), (Jonathan, Ibu, Ayah), (Ayah, Jonathan, Ibu), dan (Ayah, Ibu, Jonathan).\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_028_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_028_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_028_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_028_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_029",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Butet memiliki selembar kertas berbentuk persegi. Dia melipat dan menggunting kertas tersebut seperti pada gambar: dilipat sepanjang garis diagonal, dilipat lagi sepanjang garis tengahnya, lalu bagian puncaknya digunting dan dibuang. Bangun yang terbentuk setelah kertas dibuka adalah ….",
+    "imageUrl": "/uploads/osn_buku_q029.png",
+    "explanation": "Setelah dua kali dilipat, puncak lipatan adalah titik pusat persegi. Guntingan lurus di dekat puncak itu, setelah dibuka, membentuk lubang persegi di tengah kertas yang sisi-sisinya sejajar sisi kertas.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_029_a",
+        "label": "A",
+        "content": "Persegi dengan lubang berbentuk persegi di tengahnya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_029_b",
+        "label": "B",
+        "content": "Persegi dengan lubang berbentuk lingkaran di tengahnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_029_c",
+        "label": "C",
+        "content": "Segitiga dengan lubang di tengahnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_029_d",
+        "label": "D",
+        "content": "Persegi dengan keempat pojoknya terpotong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_030",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola gambar berikut. Banyak segi-6 pada Pola 5 adalah ….",
+    "imageUrl": "/uploads/osn_buku_q030.png",
+    "explanation": "Pola 1 = 1, Pola 2 = 1 + 6, Pola 3 = 1 + 6 + 12. Setiap pola menambah satu lingkaran segi-6 yang berisi 6 lebih banyak.\nPola 5 = 1 + 6(1 + 2 + 3 + 4) = 1 + 60 = 61.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_030_a",
+        "label": "A",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_030_b",
+        "label": "B",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_030_c",
+        "label": "C",
+        "content": "61",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_030_d",
+        "label": "D",
+        "content": "91",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_031",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar berikut. Titik A, B, dan C digeser ke kanan 2 satuan dilanjutkan digeser ke bawah 1 satuan sehingga menjadi titik A', B', dan C'. Luas daerah segiempat OA'B'C' adalah ….",
+    "imageUrl": "/uploads/osn_buku_q031.png",
+    "explanation": "A' = (2, 2), B' = (6, 2), C' = (6, −1), dan O = (0, 0).\nBagi segiempat menjadi segitiga OA'B' dan segitiga OB'C':\n- Luas OA'B' = ½ × alas A'B' (4) × tinggi (2) = 4.\n- Luas OB'C' = ½ × alas B'C' (3) × tinggi (6) = 9.\nLuas OA'B'C' = 4 + 9 = 13 satuan luas.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_031_a",
+        "label": "A",
+        "content": "12 satuan luas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_031_b",
+        "label": "B",
+        "content": "13 satuan luas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_031_c",
+        "label": "C",
+        "content": "14 satuan luas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_031_d",
+        "label": "D",
+        "content": "15 satuan luas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_032",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diberikan empat bilangan a,b,c dan d. Jika rata-rata a dan b adalah 50, rata-rata b dan c adalah 75, serta rata-rata c dan d adalah 70. Maka rata-rata a dan d adalah . . . .",
+    "imageUrl": null,
+    "explanation": "a + b = 100, b + c = 150, c + d = 140.\na + d = (a + b) − (b + c) + (c + d) = 100 − 150 + 140 = 90.\nRata-rata a dan d = 90 : 2 = 45.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_032_a",
+        "label": "A",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_032_b",
+        "label": "B",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_032_c",
+        "label": "C",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_032_d",
+        "label": "D",
+        "content": "105",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_033",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dua pecahan dibuang dari enam pecahan $\\tfrac{1}{3}, \\tfrac{1}{6}, \\tfrac{1}{9}, \\tfrac{1}{12}, \\tfrac{1}{15}, \\tfrac{1}{18}$ sedemikian sehingga jumlah dari empat pecahan sisanya sama dengan $\\tfrac{2}{3}$. Hasil kali dari dua pecahan yang dibuang tersebut adalah ….",
+    "imageUrl": null,
+    "explanation": "Jumlah keenam pecahan = $\\tfrac{1}{3}(1 + \\tfrac12 + \\tfrac13 + \\tfrac14 + \\tfrac15 + \\tfrac16) = \\tfrac{1}{3} \\times \\tfrac{49}{20} = \\tfrac{49}{60}$.\nJumlah dua pecahan yang dibuang = $\\tfrac{49}{60} - \\tfrac{40}{60} = \\tfrac{9}{60}$, yaitu $\\tfrac{1}{12} + \\tfrac{1}{15} = \\tfrac{5}{60} + \\tfrac{4}{60}$.\nHasil kalinya = $\\tfrac{1}{12} \\times \\tfrac{1}{15} = \\tfrac{1}{180}$.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_033_a",
+        "label": "A",
+        "content": "$\\tfrac{1}{108}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_033_b",
+        "label": "B",
+        "content": "$\\tfrac{1}{162}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_033_c",
+        "label": "C",
+        "content": "$\\tfrac{1}{180}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_033_d",
+        "label": "D",
+        "content": "$\\tfrac{1}{216}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_034",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sekelompok tentara mampu melakukan baris-berbaris sejauh 25 km pada saat tidak hujan dan 20 km pada saat hujan. Jika mereka melakukan baris-berbaris sepanjang 480 km selama 20 hari, ada berapa hari hujan yang mereka lalui?",
+    "imageUrl": null,
+    "explanation": "Jika 20 hari semuanya tidak hujan: 20 × 25 = 500 km. Kenyataannya 480 km, kurang 20 km.\nSetiap hari hujan mengurangi 25 − 20 = 5 km, jadi banyak hari hujan = 20 : 5 = 4 hari.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_034_a",
+        "label": "A",
+        "content": "4 hari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_034_b",
+        "label": "B",
+        "content": "5 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_034_c",
+        "label": "C",
+        "content": "6 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_034_d",
+        "label": "D",
+        "content": "16 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_035",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah garis lurus ditarik untuk membagi jam pada gambar menjadi dua bagian sehingga jumlah semua bilangan pada kedua bagian sama. Garis tersebut harus melewati ….",
+    "imageUrl": "/uploads/osn_buku_q035.png",
+    "explanation": "Jumlah 1 + 2 + … + 12 = 78, jadi setiap bagian harus berjumlah 39.\n4 + 5 + 6 + 7 + 8 + 9 = 39 dan 10 + 11 + 12 + 1 + 2 + 3 = 39.\nJadi garis memotong di antara 3 dan 4 serta di antara 9 dan 10.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_035_a",
+        "label": "A",
+        "content": "antara 12 dan 1, serta antara 6 dan 7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_035_b",
+        "label": "B",
+        "content": "antara 2 dan 3, serta antara 8 dan 9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_035_c",
+        "label": "C",
+        "content": "antara 3 dan 4, serta antara 9 dan 10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_035_d",
+        "label": "D",
+        "content": "antara 4 dan 5, serta antara 10 dan 11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_036",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar di bawah ini. E adalah titik tengah CD. Segitiga BGF dan CEF adalah segitiga sama kaki. Jika luas daerah yang diarsir adalah 45 cm², luas persegi panjang ABCD adalah ….",
+    "imageUrl": "/uploads/osn_buku_q036.png",
+    "explanation": "Pada petak-petak gambar, persegi panjang ABCD terdiri dari 6 × 4 = 24 petak satuan, sedangkan daerah yang diarsir sama dengan 5 petak satuan.\n5 petak = 45 cm² → 1 petak = 9 cm².\nLuas ABCD = 24 × 9 = 216 cm².\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_036_a",
+        "label": "A",
+        "content": "180 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_036_b",
+        "label": "B",
+        "content": "200 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_036_c",
+        "label": "C",
+        "content": "216 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_036_d",
+        "label": "D",
+        "content": "240 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_037",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pada gambar di bawah ini, luas daerah yang diarsir di dalam segi enam beraturan adalah 2 cm². Luas daerah segi enam tersebut adalah ….",
+    "imageUrl": "/uploads/osn_buku_q037.png",
+    "explanation": "Segi enam beraturan dapat dibagi menjadi 6 segitiga yang sama luasnya dengan titik pusat, dan segitiga yang diarsir menutupi 3 dari 6 bagian tersebut (setengahnya).\nLuas segi enam = 2 × 2 = 4 cm².\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_037_a",
+        "label": "A",
+        "content": "3 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_037_b",
+        "label": "B",
+        "content": "4 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_037_c",
+        "label": "C",
+        "content": "6 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_037_d",
+        "label": "D",
+        "content": "12 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_038",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ayah ingin membelikan bunga untuk ibu. Jika ayah membeli 26 tangkai mawar uangnya kurang Rp 3.000,00. Namun jika hanya membeli 16 tangkai mawar, uang ayah akan bersisa Rp 2.000,00. Berapakah uang ayah?",
+    "imageUrl": null,
+    "explanation": "Selisih 26 tangkai dan 16 tangkai = 10 tangkai, senilai Rp 3.000 + Rp 2.000 = Rp 5.000. Harga 1 tangkai = Rp 500.\nUang ayah = 16 × Rp 500 + Rp 2.000 = Rp 10.000. (Cek: 26 × Rp 500 = Rp 13.000, kurang Rp 3.000 ✓)\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_038_a",
+        "label": "A",
+        "content": "Rp 8.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_038_b",
+        "label": "B",
+        "content": "Rp 10.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_038_c",
+        "label": "C",
+        "content": "Rp 12.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_038_d",
+        "label": "D",
+        "content": "Rp 13.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_039",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Selama mengikuti olimpiade matematika, Alya, Bilqis, Nurul, dan Tiwi tinggal di kamar yang berbeda di sebuah hotel. Alya harus turun empat lantai untuk mengunjungi Bilqis. Kamar Nurul satu lantai di bawah kamar Tiwi. Bilqis harus turun 10 lantai untuk ke tempat makan yang berada di lantai 1. Tiwi harus naik enam lantai untuk mengunjungi Alya. Di lantai berapakah kamar Nurul?",
+    "imageUrl": null,
+    "explanation": "Bilqis turun 10 lantai ke lantai 1 → Bilqis di lantai 11.\nAlya turun 4 lantai ke Bilqis → Alya di lantai 15.\nTiwi naik 6 lantai ke Alya → Tiwi di lantai 9.\nNurul satu lantai di bawah Tiwi → lantai 8.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_039_a",
+        "label": "A",
+        "content": "Lantai 7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_039_b",
+        "label": "B",
+        "content": "Lantai 8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_039_c",
+        "label": "C",
+        "content": "Lantai 9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_039_d",
+        "label": "D",
+        "content": "Lantai 11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_040",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Suatu pertunjukan dihadiri 500 orang. Setiap penonton dewasa membayar tiket masuk Rp10.000,00, sedangkan setiap penonton anak-anak membayar Rp4.000,00. Jika jumlah uang dari penjualan tiket adalah Rp4.160.000,00, berapakah banyaknya penonton anak-anak?",
+    "imageUrl": null,
+    "explanation": "Jika semua 500 penonton dewasa: 500 × 10.000 = Rp5.000.000. Selisih dengan kenyataan = 5.000.000 − 4.160.000 = Rp840.000.\nSetiap anak mengurangi 10.000 − 4.000 = Rp6.000, jadi banyak anak = 840.000 : 6.000 = 140 orang.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_040_a",
+        "label": "A",
+        "content": "140 orang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_040_b",
+        "label": "B",
+        "content": "160 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_040_c",
+        "label": "C",
+        "content": "340 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_040_d",
+        "label": "D",
+        "content": "360 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_041",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Winan bekerja pada suatu perusahaan. Ia memutuskan untuk berhenti bekerja pada perusahaan itu apabila jumlah usia dan masa kerjanya sama dengan 75. Saat ini ia berusia 40 tahun, dan telah bekerja selama 13 tahun. Usia Winan ketika berhenti bekerja pada perusahaan itu adalah . . . . tahun.",
+    "imageUrl": null,
+    "explanation": "Saat ini usia + masa kerja = 40 + 13 = 53. Setiap tahun, jumlah itu bertambah 2.\nKurang 75 − 53 = 22, jadi perlu 22 : 2 = 11 tahun lagi.\nUsia Winan saat berhenti = 40 + 11 = 51 tahun.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_041_a",
+        "label": "A",
+        "content": "48 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_041_b",
+        "label": "B",
+        "content": "51 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_041_c",
+        "label": "C",
+        "content": "53 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_041_d",
+        "label": "D",
+        "content": "62 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_042",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika A + B + C = 210, A = 4B, dan A = $\\tfrac{1}{4}$C, maka nilai A adalah ….",
+    "imageUrl": null,
+    "explanation": "B = $\\tfrac{A}{4}$ dan C = 4A, sehingga A + $\\tfrac{A}{4}$ + 4A = $\\tfrac{21}{4}$A = 210 → A = 40.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_042_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_042_b",
+        "label": "B",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_042_c",
+        "label": "C",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_042_d",
+        "label": "D",
+        "content": "160",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_043",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "In the parallelogram ABCD, points E and F lie on side AB such that AE = EF = FB. What is the ratio of the area of triangle ADE to the area of parallelogram ABCD?",
+    "imageUrl": "/uploads/osn_buku_q043.png",
+    "explanation": "Misal AB = 3 satuan sehingga AE = 1, dan tinggi jajargenjang t.\nLuas jajargenjang = 3t. Luas segitiga ADE = ½ × AE × t = ½t.\nPerbandingan = ½t : 3t = 1 : 6.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_043_a",
+        "label": "A",
+        "content": "1 : 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_043_b",
+        "label": "B",
+        "content": "1 : 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_043_c",
+        "label": "C",
+        "content": "1 : 6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_043_d",
+        "label": "D",
+        "content": "1 : 9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_044",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pada gambar di samping, B adalah titik pusat lingkaran, titik C dan E terletak pada lingkaran, dan BC = AC. Jika besar ∠BAC adalah 35°, berapakah besar ∠DBE?",
+    "imageUrl": "/uploads/osn_buku_q044.png",
+    "explanation": "BC = AC, jadi ∠ABC = ∠BAC = 35° dan ∠ACB = 180° − 70° = 110°, sehingga ∠ECB = 70°.\nBC = BE (jari-jari), jadi ∠CEB = 70° dan ∠EBC = 180° − 140° = 40°.\n∠DBE = 180° − ∠EBC − ∠ABC = 180° − 40° − 35° = 105°.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_044_a",
+        "label": "A",
+        "content": "70°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_044_b",
+        "label": "B",
+        "content": "95°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_044_c",
+        "label": "C",
+        "content": "105°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_044_d",
+        "label": "D",
+        "content": "110°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_045",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Empat lingkaran dengan perbandingan jari-jari 8 : 4 : 2 : 1 bersinggungan pada satu titik, seperti pada gambar. Perbandingan luas daerah yang diarsir dengan luas daerah yang tidak diarsir adalah ….",
+    "imageUrl": "/uploads/osn_buku_q045.png",
+    "explanation": "Misal jari-jari 8, 4, 2, 1, sehingga luas lingkarannya 64π, 16π, 4π, dan π.\nDiarsir = (16π − 4π) + π = 13π.\nTidak diarsir = (64π − 16π) + (4π − π) = 51π.\nPerbandingan = 13 : 51.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_045_a",
+        "label": "A",
+        "content": "1 : 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_045_b",
+        "label": "B",
+        "content": "13 : 51",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_045_c",
+        "label": "C",
+        "content": "15 : 49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_045_d",
+        "label": "D",
+        "content": "17 : 47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_046",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Four people throw darts at a target. Each region on the target has its own score. The first three players hit these regions:\n- Player 1: regions A and C, score 15\n- Player 2: regions A and B, score 18\n- Player 3: regions B and C, score 13\nIf the fourth player hit region B twice, what is his/her score?",
+    "imageUrl": "/uploads/osn_buku_q046.png",
+    "explanation": "A + C = 15, A + B = 18, B + C = 13.\nJumlahkan: 2(A + B + C) = 46 → A + B + C = 23.\nB = 23 − (A + C) = 23 − 15 = 8. Skor pemain keempat = 2 × 8 = 16.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_046_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_046_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_046_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_046_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_047",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Luas daerah yang diarsir pada gambar di bawah ini adalah … (jarak antartitik 1 cm).",
+    "imageUrl": "/uploads/osn_buku_q047.png",
+    "explanation": "Bagi daerah menjadi bangun-bangun sederhana mengikuti titik-titik petak:\n- persegi panjang badan 6 × 2 = 12 cm²,\n- dua kaki 5 × 1 = 5 cm² dan 2 × 1 = 2 cm² (dihitung bersama bagian lain sebagai 7 cm²),\n- segitiga-segitiga di punggung, leher, dan kaki: 2 cm², 3,5 cm², dan 5 cm².\nTotal luas = 29,5 cm² (sesuai pembahasan buku sumber).\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_047_a",
+        "label": "A",
+        "content": "25,5 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_047_b",
+        "label": "B",
+        "content": "27 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_047_c",
+        "label": "C",
+        "content": "29,5 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_047_d",
+        "label": "D",
+        "content": "32 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_048",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Banyak segitiga pada gambar berikut adalah ….",
+    "imageUrl": "/uploads/osn_buku_q048.png",
+    "explanation": "Gambar terdiri dari 5 × 3 persegi kecil yang masing-masing dibagi diagonal dengan arah sama. Setiap persegi berukuran k × k yang diagonalnya tersusun dari diagonal-diagonal kecil membentuk 2 segitiga.\n- Persegi 1 × 1: 15 buah → 30 segitiga\n- Persegi 2 × 2: 4 × 2 = 8 buah → 16 segitiga\n- Persegi 3 × 3: 3 × 1 = 3 buah → 6 segitiga\nTotal = 30 + 16 + 6 = 52 segitiga.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_048_a",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_048_b",
+        "label": "B",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_048_c",
+        "label": "C",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_048_d",
+        "label": "D",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_049",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tabel berikut memperlihatkan jarak (km) antar tujuh kota A, B, C, D, E, F, dan G yang dapat dihubungkan jalan langsung (kotak kosong berarti tidak ada jalan langsung):\n$$\\begin{array}{c|ccccccc} & A & B & C & D & E & F & G \\\\ \\hline A & & 30 & & 60 & 15 & & \\\\ B & & & 45 & 60 & & 90 & \\\\ C & & & & & & 30 & 30 \\\\ D & & & & & 60 & 60 & \\\\ E & & & & & & 75 & 15 \\\\ F & & & & & & & 45 \\end{array}$$\nAkan dibuat jaringan jalan yang menghubungkan semua kota dengan panjang total sekecil mungkin. Panjang jaringan jalan minimal tersebut adalah ….",
+    "imageUrl": null,
+    "explanation": "Pilih jalan terpendek satu per satu tanpa membentuk putaran (lingkaran):\nA–E 15, E–G 15, A–B 30, C–F 30, C–G 30 (sekarang A, B, C, E, F, G sudah terhubung; B–C 45 dan F–G 45 akan membentuk putaran sehingga dilewati), lalu D dihubungkan dengan jalan 60 km.\nTotal = 15 + 15 + 30 + 30 + 30 + 60 = 180 km.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_049_a",
+        "label": "A",
+        "content": "165 km",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_049_b",
+        "label": "B",
+        "content": "180 km",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_049_c",
+        "label": "C",
+        "content": "210 km",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_049_d",
+        "label": "D",
+        "content": "285 km",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_050",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "If A+B=12, B+C=10, and C+D=16, then A+D =....",
+    "imageUrl": null,
+    "explanation": "A + D = (A + B) − (B + C) + (C + D) = 12 − 10 + 16 = 18.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_050_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_050_b",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_050_c",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_050_d",
+        "label": "D",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_051",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pada gambar, ABCD adalah persegi panjang (AB = 10, BC = 6) dan PQRS adalah persegi dengan sisi 6. Bila luas daerah yang diarsir adalah setengah dari luas persegi panjang ABCD, maka panjang PX adalah ….",
+    "imageUrl": "/uploads/osn_buku_q051.png",
+    "explanation": "Luas ABCD = 10 × 6 = 60, jadi luas daerah yang diarsir (XYRS) = 30.\nXYRS adalah persegi panjang dengan lebar SR = 6, sehingga XS = 30 : 6 = 5.\nPX = PS − XS = 6 − 5 = 1.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_051_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_051_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_051_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_051_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_052",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Alin, Endah, dan Linda masing-masing diberi uang jajan oleh ibu mereka. Uang Alin Rp25.000 lebih banyak daripada selisih antara 5 kali uang Endah dengan uang Linda. Uang Alin ditambah uang Endah dikurangi uang Linda adalah Rp95.000. Uang Endah Rp7.000 lebih banyak daripada uang Linda. Berapakah uang Linda?",
+    "imageUrl": null,
+    "explanation": "Misal uang Alin = A, Endah = E, Linda = L, dengan E − L = 7.000.\nA + (E − L) = 95.000 → A = 88.000.\nA = 25.000 + (5E − L) → 5E − L = 63.000.\nSubstitusi E = L + 7.000: 5L + 35.000 − L = 63.000 → 4L = 28.000 → L = 7.000.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_052_a",
+        "label": "A",
+        "content": "Rp7.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_052_b",
+        "label": "B",
+        "content": "Rp14.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_052_c",
+        "label": "C",
+        "content": "Rp21.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_052_d",
+        "label": "D",
+        "content": "Rp28.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_053",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui $(x + y)(x + z) = 15$, $(y + z)(y + x) = 18$, dan $(z + x)(z + y) = 30$, dengan x, y, z bilangan positif. Nilai x, y, dan z berturut-turut adalah ….",
+    "imageUrl": null,
+    "explanation": "Misal a = y + z, b = x + z, c = x + y. Maka bc = 15, ac = 18, ab = 30.\n(abc)² = 15 × 18 × 30 = 8.100 → abc = 90, sehingga a = 6, b = 5, c = 3.\nx + y + z = (a + b + c) : 2 = 7, jadi x = 7 − 6 = 1, y = 7 − 5 = 2, z = 7 − 3 = 4.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_053_a",
+        "label": "A",
+        "content": "1, 2, 4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_053_b",
+        "label": "B",
+        "content": "2, 1, 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_053_c",
+        "label": "C",
+        "content": "1, 3, 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_053_d",
+        "label": "D",
+        "content": "3, 2, 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_054",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Isilah semua bilangan 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 pada kotak-kotak di gambar (masing-masing tepat satu kali) sehingga jumlah bilangan pada setiap garis berpanah adalah 20. Dua bilangan sudah diisikan. Bilangan pada kotak bertanda \"?\" adalah ….",
+    "imageUrl": "/uploads/osn_buku_q054.png",
+    "explanation": "Jumlah ketiga garis = 3 × 20 = 60, sedangkan jumlah semua bilangan 0 + 1 + … + 9 = 45.\nKotak \"?\" dan kotak berisi 8 masing-masing terhitung pada dua garis, jadi 60 = 45 + ? + 8 → ? = 7.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_054_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_054_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_054_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_054_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_055",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Winan mendapatkan bahwa nilai rata-rata dari tiga ulangan matematika yang diikutinya adalah 81. Nilai ulangan pertama adalah 85. Nilai ulangan ketiga lebih rendah 4 dari nilai ulangan kedua. Berapakah nilai ulangan kedua Winan?",
+    "imageUrl": null,
+    "explanation": "Jumlah nilai tiga ulangan = 3 × 81 = 243. Ulangan 2 + ulangan 3 = 243 − 85 = 158.\nUlangan 3 = ulangan 2 − 4 → 2 × ulangan 2 − 4 = 158 → ulangan 2 = 81.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_055_a",
+        "label": "A",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_055_b",
+        "label": "B",
+        "content": "79",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_055_c",
+        "label": "C",
+        "content": "81",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_055_d",
+        "label": "D",
+        "content": "85",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_056",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pendapatan rata-rata 3 orang pekerja adalah Rp432.000,00 per bulan. Setelah 1 orang pekerja baru masuk, rata-ratanya menjadi Rp373.500,00 per bulan. Pendapatan pekerja baru adalah ....",
+    "imageUrl": null,
+    "explanation": "Jumlah pendapatan 3 pekerja = 3 × 432.000 = 1.296.000.\nJumlah pendapatan 4 pekerja = 4 × 373.500 = 1.494.000.\nPendapatan pekerja baru = 1.494.000 − 1.296.000 = Rp198.000.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_056_a",
+        "label": "A",
+        "content": "Rp198.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_056_b",
+        "label": "B",
+        "content": "Rp216.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_056_c",
+        "label": "C",
+        "content": "Rp373.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_056_d",
+        "label": "D",
+        "content": "Rp58.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_057",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Umur rata-rata dari suatu kelompok yang terdiri dari dokter dan jaksa adalah 40 tahun. Jika umur rata-rata dokter adalah 35 tahun dan umur rata-rata jaksa adalah 50 tahun, maka perbandingan banyaknya dokter dan jaksa adalah?",
+    "imageUrl": null,
+    "explanation": "Misal banyak dokter d dan jaksa j.\n35d + 50j = 40(d + j) → 10j = 5d → d = 2j.\nPerbandingan dokter : jaksa = 2 : 1.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_057_a",
+        "label": "A",
+        "content": "1 : 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_057_b",
+        "label": "B",
+        "content": "2 : 1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_057_c",
+        "label": "C",
+        "content": "3 : 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_057_d",
+        "label": "D",
+        "content": "7 : 10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_058",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Nilai rata-rata ujian Matematika dari sekelompok siswa adalah 92. Nilai rata-rata hasil ujian siswa laki-laki adalah 90 dan siswa perempuan adalah 93,5. Berapa banyak siswa laki-laki jika terdapat 20 siswa perempuan?",
+    "imageUrl": null,
+    "explanation": "Misal banyak siswa laki-laki L.\n90L + 93,5 × 20 = 92(L + 20) → 90L + 1.870 = 92L + 1.840 → 2L = 30 → L = 15.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_058_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_058_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_058_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_058_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_059",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tabel berikut menunjukkan nilai ujian dari 300 orang siswa:\n$$\\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|}\\hline \\text{Nilai} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\\\ \\hline \\text{Siswa} & 0 & 0 & 5 & 23 & 48 & 56 & 96 & 32 & 23 & 15 & 2 \\\\ \\hline \\end{array}$$\nNilai ujian terendah yang harus dicapai seorang siswa agar lebih tinggi dari nilai 75% siswa lainnya adalah ….",
+    "imageUrl": null,
+    "explanation": "75% dari 300 = 225 siswa. Banyak siswa bernilai 6 atau kurang = 5 + 23 + 48 + 56 + 96 = 228 (lebih dari 225), sedangkan yang bernilai 5 atau kurang hanya 132.\nAgar lebih tinggi dari nilai 225 siswa, nilainya minimal 7.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_059_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_059_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_059_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_059_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_060",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar, yaitu 4 buah layang-layang kongruen yang termuat dalam persegi dan masih tersisa daerah persegi yang diarsir. Jika $p = 3\\sqrt{2}$ cm dan $q = 5\\sqrt{2}$ cm, maka luas daerah yang diarsir adalah ….",
+    "imageUrl": "/uploads/osn_buku_q060.png",
+    "explanation": "Pada setiap layang-layang, panjang sisi-sisinya p dan q, sehingga sisi persegi yang diarsir sama dengan selisih q − p.\nLuas daerah yang diarsir = $(q - p)^2 = (5\\sqrt2 - 3\\sqrt2)^2 = (2\\sqrt2)^2 = 8$ cm².\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_060_a",
+        "label": "A",
+        "content": "2 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_060_b",
+        "label": "B",
+        "content": "8 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_060_c",
+        "label": "C",
+        "content": "18 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_060_d",
+        "label": "D",
+        "content": "32 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_061",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sembilan persegi disusun membentuk persegi panjang seperti pada gambar. Jika persegi A mempunyai luas 4 cm² dan persegi B mempunyai luas 324 cm², berapakah luas persegi I?",
+    "imageUrl": "/uploads/osn_buku_q061.png",
+    "explanation": "Sisi A = 2 cm dan sisi B = 18 cm. Telusuri sisi-sisi yang saling menempel (lihat gambar):\n- G (di bawah A, kanan B): 18 − 2 = 16.\n- C (di atas B dan A): 18 + 2 = 20.\n- F (di atas G, kanan A): 16 − 2 = 14.\n- H (kanan G dan F): tingginya 16 + 14 = 30.\n- E (di atas F, kanan C): tinggi B + C dikurangi tinggi G + F = 38 − 30 = 8.\n- D (di atas C dan E): 20 + 8 = 28.\n- I (di atas H, kanan E): bagian F yang tidak tertutup E ditambah H = (14 − 8) + 30 = 36.\nCek: tinggi kiri D + C + B = 28 + 20 + 18 = 66 sama dengan tinggi kanan I + H = 36 + 30 = 66 ✓.\nLuas I = 36² = 1.296 cm².\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_061_a",
+        "label": "A",
+        "content": "784 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_061_b",
+        "label": "B",
+        "content": "1.024 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_061_c",
+        "label": "C",
+        "content": "1.296 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_061_d",
+        "label": "D",
+        "content": "1.444 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_062",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika x + y = 4 dan xy = −12, maka nilai dari $x^2 + 5xy + y^2$ adalah ….",
+    "imageUrl": null,
+    "explanation": "$x^2 + y^2 = (x + y)^2 - 2xy = 16 + 24 = 40$.\n$x^2 + 5xy + y^2 = 40 + 5(-12) = 40 - 60 = -20$.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_062_a",
+        "label": "A",
+        "content": "−20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_062_b",
+        "label": "B",
+        "content": "−8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_062_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_062_d",
+        "label": "D",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_063",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Winan menempuh perjalanan dari rumah ke bandara dalam waktu 4 jam 40 menit dengan kecepatan rata-rata 60 km/jam. Karena Winan harus check in terlebih dahulu, ia harus tiba 1 jam 20 menit lebih awal dengan berangkat pada jam yang sama. Kecepatan rata-rata yang diperlukan adalah … km/jam.",
+    "imageUrl": null,
+    "explanation": "Jarak = 60 × 4⅔ jam = 280 km.\nWaktu baru = 4 jam 40 menit − 1 jam 20 menit = 3 jam 20 menit = 3⅓ jam.\nKecepatan = 280 : 3⅓ = 84 km/jam.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_063_a",
+        "label": "A",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_063_b",
+        "label": "B",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_063_c",
+        "label": "C",
+        "content": "84",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_063_d",
+        "label": "D",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_064",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pada babak penyisihan Olimpiade Matematika, Alya menjawab 30 soal dari 40 soal. Setiap jawaban benar mendapat poin +5, jawaban salah mendapat poin −2, dan soal yang tidak dijawab mendapat poin 0. Jika Alya mendapatkan total nilai 87, maka banyak jawaban benar Alya adalah ....",
+    "imageUrl": null,
+    "explanation": "Misal jawaban benar = b, salah = 30 − b.\n5b − 2(30 − b) = 87 → 7b − 60 = 87 → 7b = 147 → b = 21.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_064_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_064_b",
+        "label": "B",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_064_c",
+        "label": "C",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_064_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_065",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan penjumlahan bersusun berikut (A, B, C mewakili angka):\n$$\\begin{array}{r} 1\\,A\\,7\\,C \\\\ +\\;\\; 5\\,B\\,4 \\\\ \\hline 2\\,0\\,1\\,3 \\end{array}$$\nNilai A + B + C adalah ….",
+    "imageUrl": null,
+    "explanation": "Satuan: C + 4 = 13 → C = 9 (simpan 1).\nPuluhan: 7 + B + 1 = 11 → B = 3 (simpan 1).\nRatusan: A + 5 + 1 = 10 → A = 4 (simpan 1). Ribuan: 1 + 1 = 2 ✓.\nCek: 1.479 + 534 = 2.013 ✓. Jadi A + B + C = 4 + 3 + 9 = 16.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_065_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_065_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_065_c",
+        "label": "C",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_065_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_066",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar. Persegi ABCD dengan panjang sisi 14 cm terletak di dalam lingkaran (keempat titik sudutnya pada lingkaran). Pada masing-masing sisi persegi dibuat setengah lingkaran dengan diameter sisi persegi tersebut. Luas seluruh daerah yang diarsir adalah … cm² ($\\pi = 3{,}14$).",
+    "imageUrl": "/uploads/osn_buku_q066.png",
+    "explanation": "Diameter lingkaran besar = diagonal persegi = $14\\sqrt2$, jadi luasnya = 3,14 × 98 = 307,72 cm².\nSetiap tembereng lingkaran besar di luar persegi = (307,72 − 196) : 4 = 27,93 cm².\nSetiap setengah lingkaran kecil = ½ × 3,14 × 7² = 76,93 cm², sehingga satu daerah arsir = 76,93 − 27,93 = 49 cm².\nTotal = 4 × 49 = 196 cm² (sama dengan luas persegi).\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_066_a",
+        "label": "A",
+        "content": "98",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_066_b",
+        "label": "B",
+        "content": "153,86",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_066_c",
+        "label": "C",
+        "content": "196",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_066_d",
+        "label": "D",
+        "content": "307,72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_067",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Juliana mempunyai uang sebanyak Rp73.000,00 yang terdiri dari lembaran Rp2.000 dan Rp1.000. Jika uang Juliana seluruhnya berjumlah 41 lembar, maka jumlah uang Juliana yang berupa lembaran Rp2.000 saja adalah ....",
+    "imageUrl": null,
+    "explanation": "Jika semua 41 lembar adalah Rp1.000: Rp41.000. Kelebihan Rp73.000 − Rp41.000 = Rp32.000.\nSetiap lembar Rp2.000 menambah Rp1.000, jadi ada 32 lembar Rp2.000.\nJumlah uang Rp2.000-an = 32 × Rp2.000 = Rp64.000.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_067_a",
+        "label": "A",
+        "content": "Rp32.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_067_b",
+        "label": "B",
+        "content": "Rp41.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_067_c",
+        "label": "C",
+        "content": "Rp64.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_067_d",
+        "label": "D",
+        "content": "Rp66.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_068",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diagram di bawah ini menunjukkan sebuah persegi ajaib, yaitu jumlah bilangan dalam setiap baris, kolom, maupun diagonalnya sama.\n$$\\begin{array}{|c|c|c|}\\hline 8 & \\phantom{0} & \\phantom{0} \\\\ \\hline 9 & & 5 \\\\ \\hline 4 & x & \\\\ \\hline \\end{array}$$\nNilai x adalah ….",
+    "imageUrl": null,
+    "explanation": "Kolom pertama: 8 + 9 + 4 = 21, jadi jumlah ajaibnya 21.\nBaris kedua: 9 + tengah + 5 = 21 → tengah = 7.\nDiagonal 4–7–(kanan atas) = 21 → kanan atas = 10. Baris atas: 8 + (tengah atas) + 10 = 21 → tengah atas = 3.\nKolom tengah: 3 + 7 + x = 21 → x = 11.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_068_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_068_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_068_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_068_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_069",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika xy = 2 dan $x^2 + y^2 = 5$, maka $\\dfrac{x}{y} + \\dfrac{y}{x} = \\dots$",
+    "imageUrl": null,
+    "explanation": "$\\dfrac{x}{y} + \\dfrac{y}{x} = \\dfrac{x^2 + y^2}{xy} = \\dfrac{5}{2}$.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_069_a",
+        "label": "A",
+        "content": "$\\tfrac{2}{5}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_069_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_069_c",
+        "label": "C",
+        "content": "$\\tfrac{5}{2}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_069_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_070",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan segitiga siku-siku pada gambar (sisi tegak 6x dan alas 3x). Jika luas segitiga tersebut adalah 36 cm², maka panjang sisi miringnya adalah ….",
+    "imageUrl": "/uploads/osn_buku_q070.png",
+    "explanation": "Luas = ½ × 3x × 6x = 9x² = 36 → x = 2, sehingga sisi-sisinya 12 cm dan 6 cm.\nSisi miring = $\\sqrt{12^2 + 6^2} = \\sqrt{180} = 6\\sqrt5$ cm.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_070_a",
+        "label": "A",
+        "content": "$6\\sqrt3$ cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_070_b",
+        "label": "B",
+        "content": "$6\\sqrt5$ cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_070_c",
+        "label": "C",
+        "content": "12 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_070_d",
+        "label": "D",
+        "content": "18 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_071",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pada gambar berikut, persegi kecil di pojok kanan atas berukuran 4 cm × 4 cm dan luas seluruh daerah yang diarsir adalah 80 cm². Berapakah luas persegi yang tidak diarsir?",
+    "imageUrl": "/uploads/osn_buku_q071.png",
+    "explanation": "Persegi kecil B = 4 × 4 = 16 cm². Dua persegi panjang A dan C sama besar: (80 − 16) : 2 = 32 cm² masing-masing, dengan lebar 4 cm sehingga panjangnya 32 : 4 = 8 cm.\nPanjang 8 cm itu juga sisi persegi yang tidak diarsir, jadi luasnya 8 × 8 = 64 cm².\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_071_a",
+        "label": "A",
+        "content": "32 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_071_b",
+        "label": "B",
+        "content": "48 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_071_c",
+        "label": "C",
+        "content": "64 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_071_d",
+        "label": "D",
+        "content": "80 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_072",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Besar sudut terkecil yang dibentuk oleh kedua jarum jam yang menunjukkan pukul 04.15 adalah ….",
+    "imageUrl": null,
+    "explanation": "Jarum pendek: 4 × 30° + 15 × 0,5° = 127,5° dari angka 12. Jarum panjang di angka 3 = 90°.\nSudut terkecil = 127,5° − 90° = 37,5°.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_072_a",
+        "label": "A",
+        "content": "30°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_072_b",
+        "label": "B",
+        "content": "37,5°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_072_c",
+        "label": "C",
+        "content": "45°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_072_d",
+        "label": "D",
+        "content": "52,5°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_073",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hasil kali dua bilangan cacah yang berurutan adalah 8.556. Kedua bilangan tersebut adalah ….",
+    "imageUrl": null,
+    "explanation": "$92^2 = 8.464$ dan 92 × 93 = 8.464 + 92 = 8.556. Jadi bilangannya 92 dan 93.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_073_a",
+        "label": "A",
+        "content": "91 dan 92",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_073_b",
+        "label": "B",
+        "content": "92 dan 93",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_073_c",
+        "label": "C",
+        "content": "93 dan 94",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_073_d",
+        "label": "D",
+        "content": "94 dan 95",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_074",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Terdapat 9 kartu bernomor 1 hingga 9. Tiga anak masing-masing mengambil tiga kartu.\n- Winan: hasil kali semua angka pada kartu saya adalah 63.\n- Bilqis: hasil kali semua angka pada kartu saya adalah 48.\n- Alya: jumlah semua angka pada kartu saya adalah 15.\nKartu yang diambil Alya adalah ....",
+    "imageUrl": null,
+    "explanation": "63 = 1 × 7 × 9 (satu-satunya kemungkinan tiga angka berbeda), jadi Winan mengambil 1, 7, 9.\nSisa kartu: 2, 3, 4, 5, 6, 8. Hasil kali 48: {2, 3, 8} atau {2, 4, 6}.\n- Jika Bilqis {2, 4, 6}, sisa {3, 5, 8} berjumlah 16 ✗.\n- Jika Bilqis {2, 3, 8}, sisa {4, 5, 6} berjumlah 15 ✓.\nJadi Alya mengambil kartu 4, 5, 6.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_074_a",
+        "label": "A",
+        "content": "2, 5, 8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_074_b",
+        "label": "B",
+        "content": "3, 4, 8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_074_c",
+        "label": "C",
+        "content": "4, 5, 6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_074_d",
+        "label": "D",
+        "content": "1, 5, 9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_075",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Berapa banyak bilangan cacah dari 7 hingga 4201 yang jumlah angka-angkanya sama dengan 7?",
+    "imageUrl": null,
+    "explanation": "- 1 angka: 7 → 1 bilangan.\n- 2 angka (a ≥ 1): a + b = 7 → 7 bilangan.\n- 3 angka: a + b + c = 7 dengan a ≥ 1 → 28 bilangan.\n- 4 angka ≤ 4201: ribuan 1 → 28, ribuan 2 → 21, ribuan 3 → 15, ribuan 4 → 8 (4003, 4012, 4021, 4030, 4102, 4111, 4120, 4201) → 72 bilangan.\nTotal = 1 + 7 + 28 + 72 = 108 bilangan. Catatan: daftar di buku sumber hanya memuat 44 bilangan sehingga tidak lengkap.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_075_a",
+        "label": "A",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_075_b",
+        "label": "B",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_075_c",
+        "label": "C",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_075_d",
+        "label": "D",
+        "content": "108",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_076",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Berapa banyak bilangan asli empat digit yang memenuhi semua sifat berikut?\na. Keempat digitnya berbeda.\nb. Tidak memuat digit 0.\nc. Jumlah keempat digitnya habis dibagi 4.\nd. Hasil kali dua digit pertama sama dengan hasil kali dua digit terakhir.",
+    "imageUrl": null,
+    "explanation": "Pasangan dua digit dengan hasil kali sama (semua digit berbeda) yang jumlah keempat digitnya habis dibagi 4 adalah {1,6} & {2,3} (jumlah 12) dan {2,9} & {3,6} (jumlah 20).\nSetiap pasangan menghasilkan 2 × 2 × 2 = 8 susunan, sehingga totalnya 16 bilangan:\n1623, 1632, 6123, 6132, 2316, 2361, 3216, 3261, 2936, 2963, 9236, 9263, 3629, 3692, 6329, 6392.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_076_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_076_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_076_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_076_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_077",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sembilan bilangan asli berbeda yang masing-masing kurang dari 21 diletakkan pada tabel 3 × 3. Pada setiap baris, kolom, atau diagonal berlaku \"bilangan yang berada di tengah sama dengan rata-rata dari dua yang lain\". Jika bilangan 10 berada di kotak tengah dan 15 di pojok kanan bawah, maka bilangan di pojok kiri atas adalah ….",
+    "imageUrl": null,
+    "explanation": "Pada diagonal pojok kiri atas – tengah – pojok kanan bawah, bilangan tengah (10) adalah rata-rata kedua pojok:\n(pojok kiri atas + 15) : 2 = 10 → pojok kiri atas = 5.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_077_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_077_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_077_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_077_d",
+        "label": "D",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_078",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pada gambar berikut, ABC segitiga sama kaki dengan AB = AC. Keempat titik sudut persegi EFGH terletak pada sisi-sisi segitiga ABC. Jika BC = 30 cm dan EF = 12 cm, maka luas segitiga AEF adalah ….",
+    "imageUrl": "/uploads/osn_buku_q078.png",
+    "explanation": "Tarik garis tinggi dari A ke BC, memotong EF di M dan BC di N. Segitiga AME sebangun dengan segitiga EHB:\n$\\dfrac{EH}{HB} = \\dfrac{AM}{ME}$ → $\\dfrac{12}{9} = \\dfrac{AM}{6}$ → AM = 8 cm (HB = (30 − 12) : 2 = 9).\nLuas AEF = ½ × 12 × 8 = 48 cm².\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_078_a",
+        "label": "A",
+        "content": "36 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_078_b",
+        "label": "B",
+        "content": "48 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_078_c",
+        "label": "C",
+        "content": "60 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_078_d",
+        "label": "D",
+        "content": "72 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_079",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan denah berikut. Suatu ketika Musa ditanya oleh temannya, di manakah rumahnya. Musa menjawab bahwa dari sekolah ia berjalan ke selatan melalui jalan di sebelah barat sekolah, lalu belok kiri. Pada persimpangan kedua, belok ke kanan, dan rumah Musa terletak di sebelah timur jalan, rumah ketiga dari persimpangan. Rumah Musa terletak di rumah dengan label huruf ….",
+    "imageUrl": "/uploads/osn_buku_q079.png",
+    "explanation": "Dari jalan di sebelah barat sekolah, berjalan ke selatan sampai jalan mendatar paling bawah, lalu belok kiri (ke timur). Persimpangan pertama adalah jalan di timur sekolah, persimpangan kedua adalah jalan berikutnya; di sana belok kanan (ke selatan).\nRumah di sebelah timur jalan berturut-turut: rumah kosong, M, lalu N. Rumah ketiga adalah N.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_079_a",
+        "label": "A",
+        "content": "J",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_079_b",
+        "label": "B",
+        "content": "M",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_079_c",
+        "label": "C",
+        "content": "N",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_079_d",
+        "label": "D",
+        "content": "R",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_080",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Setiap bilangan asli yang lebih besar dari 1 dapat dituliskan sebagai jumlah beberapa bilangan asli yang lebih kecil daripada dirinya. Adi ingin mencacah banyak cara penulisan jika suku-suku penjumlahan berselisih paling banyak 1 (urutan suku tidak diperhatikan). Contoh: 4 = 1 + 1 + 1 + 1 = 2 + 1 + 1 = 2 + 2, sehingga ada 3 cara untuk bilangan 4. Berapa banyak cara penulisan untuk bilangan 24?",
+    "imageUrl": null,
+    "explanation": "Untuk setiap banyak suku k = 2, 3, …, n, hanya ada tepat satu cara membagi n menjadi k suku yang berselisih paling banyak 1 (suku-sukunya ⌊n/k⌋ atau ⌈n/k⌉).\nJadi banyak cara untuk n adalah n − 1. Untuk 24: 24 − 1 = 23 cara.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_080_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_080_b",
+        "label": "B",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_080_c",
+        "label": "C",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_080_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_081",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jarak dua titik berdekatan pada susunan 12 titik berikut, secara vertikal maupun horizontal, adalah 1 satuan. Dengan menghubungkan empat titik dari 12 titik tersebut, berapa banyak persegi yang tidak kongruen (berbeda ukuran) yang dapat dibuat?",
+    "imageUrl": "/uploads/osn_buku_q081.png",
+    "explanation": "Persegi yang dapat dibuat berukuran:\n- sisi 1 (luas 1),\n- sisi $\\sqrt2$ (miring, luas 2),\n- sisi $\\sqrt5$ (miring, luas 5).\nPersegi bersisi 2 atau lebih tidak muat karena keempat pojok susunan titik kosong. Jadi ada 3 persegi yang tidak kongruen.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_081_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_081_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_081_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_081_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_082",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Huruf A, B, C, E, F, G, H, dan I diletakkan pada kotak-kotak tabel 3 × 3 dengan aturan:\n1) G berada di atas I dan di sebelah kanan B.\n2) C berada di sebelah kanan H dan di atas I.\n3) I berada di sebelah kiri D.\n4) B berada di sebelah kiri E.\n5) H berada di atas F dan B.\n6) A berada di atas E.\nHuruf yang menempati kotak paling tengah adalah ….",
+    "imageUrl": null,
+    "explanation": "Susunan yang memenuhi semua aturan:\n$$\\begin{array}{|c|c|c|}\\hline H & C & A \\\\ \\hline B & G & E \\\\ \\hline F & I & D \\\\ \\hline \\end{array}$$\nH berada di atas B dan F (kolom kiri), C di kanan H dan di atas I, G di kanan B dan di atas I, A di atas E, dan I di kiri D. Kotak tengah ditempati G.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_082_a",
+        "label": "A",
+        "content": "B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_082_b",
+        "label": "B",
+        "content": "C",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_082_c",
+        "label": "C",
+        "content": "E",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_082_d",
+        "label": "D",
+        "content": "G",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_083",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Banyak pasangan bilangan bulat positif (P, Q) yang memenuhi $\\dfrac{P}{8} = \\dfrac{6}{Q}$ adalah ….",
+    "imageUrl": null,
+    "explanation": "$\\dfrac{P}{8} = \\dfrac{6}{Q}$ ⟺ PQ = 48. Faktor dari 48 adalah 1, 2, 3, 4, 6, 8, 12, 16, 24, 48, sehingga ada 10 pasangan (P, Q).\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_083_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_083_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_083_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_083_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_084",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan tabel bilangan berikut. Empat bilangan dari tabel dapat dihubungkan menjadi titik-titik sudut sebuah segiempat. Manakah empat bilangan yang jumlahnya 34?",
+    "imageUrl": "/uploads/osn_buku_q084.png",
+    "explanation": "3 + 8 + 9 + 14 = 34.\nPilihan lain: 5 + 10 + 11 + 7 = 33, 2 + 12 + 15 + 4 = 33, dan 16 + 6 + 11 + 2 = 35.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_084_a",
+        "label": "A",
+        "content": "3, 8, 9, 14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_084_b",
+        "label": "B",
+        "content": "5, 10, 11, 7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_084_c",
+        "label": "C",
+        "content": "2, 12, 15, 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_084_d",
+        "label": "D",
+        "content": "16, 6, 11, 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_085",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Data kegemaran siswa disajikan dalam diagram lingkaran berikut. Jika jumlah siswa seluruhnya ada 120 orang, maka jumlah siswa yang gemar sepak bola dan bulu tangkis adalah … orang.",
+    "imageUrl": "/uploads/osn_buku_q085.png",
+    "explanation": "Sepak bola 45% + bulu tangkis 25% = 70%. Jumlah siswa = 70% × 120 = 84 orang.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_085_a",
+        "label": "A",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_085_b",
+        "label": "B",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_085_c",
+        "label": "C",
+        "content": "84",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_085_d",
+        "label": "D",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_086",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dalam sebuah pesta, banyaknya pengunjung wanita dibanding pengunjung pria adalah 8:5. Dua belas pengunjung wanita dan lima pengunjung pria pergi meninggalkan pesta tersebut sehingga perbandingan wanita terhadap pria sekarang menjadi 3:2. Berapa orangkah jumlah pengunjung pesta pada awalnya?",
+    "imageUrl": null,
+    "explanation": "Misal wanita = 8k dan pria = 5k.\n(8k − 12) : (5k − 5) = 3 : 2 → 2(8k − 12) = 3(5k − 5) → 16k − 24 = 15k − 15 → k = 9.\nJumlah pengunjung awal = 13k = 117 orang.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_086_a",
+        "label": "A",
+        "content": "104 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_086_b",
+        "label": "B",
+        "content": "117 orang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_086_c",
+        "label": "C",
+        "content": "130 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_086_d",
+        "label": "D",
+        "content": "143 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_087",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar berikut. Sebuah kubus dengan panjang rusuk 7 cm diletakkan di atas balok berukuran 21 cm × 18 cm × 13 cm. Selisih volume kedua bangun tersebut adalah … cm³.",
+    "imageUrl": "/uploads/osn_buku_q087.png",
+    "explanation": "Volume balok = 21 × 18 × 13 = 4.914 cm³. Volume kubus = 7³ = 343 cm³.\nSelisih = 4.914 − 343 = 4.571 cm³.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_087_a",
+        "label": "A",
+        "content": "4.571",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_087_b",
+        "label": "B",
+        "content": "4.914",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_087_c",
+        "label": "C",
+        "content": "5.257",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_087_d",
+        "label": "D",
+        "content": "4.564",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_088",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pak Hamid membeli 6 ekor ayam dan 2 ekor bebek. Harga 2 ekor ayam sama dengan harga 3 ekor bebek. Jika harga ayam Rp. 48.000,-/ekor, maka banyak uang yang harus dibayar Pak Hamid adalah ….",
+    "imageUrl": null,
+    "explanation": "2 ayam = 3 bebek → 2 × 48.000 = 96.000 = 3 bebek → 1 bebek = Rp 32.000.\nBiaya = 6 × 48.000 + 2 × 32.000 = 288.000 + 64.000 = Rp 352.000.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_088_a",
+        "label": "A",
+        "content": "Rp 320.000,-",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_088_b",
+        "label": "B",
+        "content": "Rp 352.000,-",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_088_c",
+        "label": "C",
+        "content": "Rp 384.000,-",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_088_d",
+        "label": "D",
+        "content": "Rp 416.000,-",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_089",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar di bawah ini. ABCD adalah sebuah persegi dengan panjang sisi 12 cm, titik F pada perpanjangan BC, dan garis AF memotong CD di E. Luas ΔCEF adalah 24 cm² lebih luas daripada luas ΔADE. Panjang CF adalah ….",
+    "imageUrl": "/uploads/osn_buku_q089.png",
+    "explanation": "Luas ΔABF = luas ABCE + luas ΔCEF, dan luas persegi ABCD = luas ABCE + luas ΔADE.\nJadi luas ΔABF − luas ABCD = luas ΔCEF − luas ΔADE = 24.\n½ × 12 × (12 + CF) − 144 = 24 → 6(12 + CF) = 168 → 12 + CF = 28 → CF = 16 cm.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_089_a",
+        "label": "A",
+        "content": "8 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_089_b",
+        "label": "B",
+        "content": "12 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_089_c",
+        "label": "C",
+        "content": "16 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_089_d",
+        "label": "D",
+        "content": "24 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_090",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perbandingan antara A dan B adalah 2 : 3. Perbandingan antara B dan C adalah 6 : 5. Rata-rata ketiga bilangan adalah 60. Nilai A adalah ….",
+    "imageUrl": null,
+    "explanation": "A : B = 2 : 3 = 4 : 6 dan B : C = 6 : 5, sehingga A : B : C = 4 : 6 : 5.\nA + B + C = 3 × 60 = 180, jadi A = $\\tfrac{4}{15}$ × 180 = 48.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_090_a",
+        "label": "A",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_090_b",
+        "label": "B",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_090_c",
+        "label": "C",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_090_d",
+        "label": "D",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_091",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jumlah dari lima bilangan ganjil berurutan adalah 205. Kelima bilangan ganjil tersebut adalah ….",
+    "imageUrl": null,
+    "explanation": "Bilangan tengah = 205 : 5 = 41. Jadi kelima bilangan itu 37, 39, 41, 43, 45.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_091_a",
+        "label": "A",
+        "content": "35, 37, 39, 41, 43",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_091_b",
+        "label": "B",
+        "content": "37, 39, 41, 43, 45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_091_c",
+        "label": "C",
+        "content": "39, 41, 43, 45, 47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_091_d",
+        "label": "D",
+        "content": "41, 43, 45, 47, 49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_092",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pada gambar di bawah ini, sebuah persegi kecil berada di dalam persegi yang lebih besar, dan panjang sisi kedua persegi adalah bilangan bulat (dalam cm). Luas daerah yang diarsir adalah 28 cm². Berapa luas persegi yang lebih besar?",
+    "imageUrl": "/uploads/osn_buku_q092.png",
+    "explanation": "Luas arsiran = (sisi besar)² − (sisi kecil)² = 28. Selisih dua bilangan kuadrat yang bernilai 28 adalah 64 − 36 (8² − 6²).\nJadi luas persegi yang lebih besar adalah 64 cm².\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_092_a",
+        "label": "A",
+        "content": "36 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_092_b",
+        "label": "B",
+        "content": "49 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_092_c",
+        "label": "C",
+        "content": "64 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_092_d",
+        "label": "D",
+        "content": "81 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_093",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pada gambar di bawah ini, daerah yang diarsir berbentuk persegi. Keliling persegi panjang ABCD adalah ….",
+    "imageUrl": "/uploads/osn_buku_q093.png",
+    "explanation": "Misal sisi persegi arsiran s. Ukuran 8 cm = s + lebar bagian putih kanan, dan 10 cm = lebar bagian putih kiri + s.\nPanjang AB = putih kiri + s + putih kanan, dan BC = s.\nKeliling = 2(AB + BC) = 2[(putih kiri + s) + (s + putih kanan)] = 2(10 + 8) = 36 cm.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_093_a",
+        "label": "A",
+        "content": "18 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_093_b",
+        "label": "B",
+        "content": "28 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_093_c",
+        "label": "C",
+        "content": "36 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_093_d",
+        "label": "D",
+        "content": "40 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_094",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Satu kardus buah apel dan 2 kardus buah jeruk mempunyai berat 125 kg. Berat 2 kardus buah nanas dan 2 kardus buah jeruk adalah 220 kg. Berat 3 kardus buah apel dan 2 kardus buah nanas adalah 235 kg. Berapa berat 1 kardus buah nanas?",
+    "imageUrl": null,
+    "explanation": "Misal apel = A, jeruk = J, nanas = N.\nA + 2J = 125 → 2J = 125 − A.\n2N + 2J = 220 → 2N = 220 − (125 − A) = 95 + A.\n3A + 2N = 235 → 3A + 95 + A = 235 → A = 35.\n2N = 95 + 35 = 130 → N = 65 kg.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_094_a",
+        "label": "A",
+        "content": "35 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_094_b",
+        "label": "B",
+        "content": "45 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_094_c",
+        "label": "C",
+        "content": "65 kg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_094_d",
+        "label": "D",
+        "content": "75 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_095",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Nilai ujian matematika empat orang siswa adalah 79, 83, 92, dan 80. Nilai Aurelia 6 poin lebih besar dari nilai rata-rata kelima siswa tersebut (keempat siswa ditambah Aurelia sendiri). Berapa nilai Aurelia?",
+    "imageUrl": null,
+    "explanation": "Misal nilai Aurelia x. x = 6 + (79 + 83 + 92 + 80 + x) : 5 → 5x = 30 + 334 + x → 4x = 364 → x = 91.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_095_a",
+        "label": "A",
+        "content": "84",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_095_b",
+        "label": "B",
+        "content": "88",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_095_c",
+        "label": "C",
+        "content": "91",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_095_d",
+        "label": "D",
+        "content": "94",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_096",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Gantilah A, B, C, D pada tabel dengan bilangan yang sesuai sehingga semua pernyataan menjadi benar: A − B = 8, C + D = 12, A − C = 7, dan B − D = 5. Nilai A, B, C, D berturut-turut adalah ….",
+    "imageUrl": "/uploads/osn_buku_q096.png",
+    "explanation": "A = B + 8, C = A − 7 = B + 1, dan D = B − 5.\nC + D = (B + 1) + (B − 5) = 2B − 4 = 12 → B = 8.\nA = 16, C = 9, D = 3.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_096_a",
+        "label": "A",
+        "content": "15, 7, 8, 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_096_b",
+        "label": "B",
+        "content": "16, 8, 9, 3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_096_c",
+        "label": "C",
+        "content": "17, 9, 10, 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_096_d",
+        "label": "D",
+        "content": "14, 6, 7, 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_097",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar berikut. Semua lingkaran memiliki jari-jari yang sama dan persegi panjang berukuran 4 cm × 2 cm. Luas daerah yang diarsir (hanya bagian di tepi, antara lingkaran dan sisi persegi panjang) adalah … ($\\pi = \\tfrac{22}{7}$)",
+    "imageUrl": "/uploads/osn_buku_q097.png",
+    "explanation": "Setiap lingkaran (jari-jari ½ cm) berada dalam persegi 1 cm × 1 cm dan menyisakan 4 pojok kecil dengan luas sama, A:\n1 = $\\tfrac{22}{7} \\times \\tfrac14$ + 4A → 4A = $\\tfrac{3}{14}$ → A = $\\tfrac{3}{56}$ cm².\nAda 8 × 4 = 32 pojok, tetapi 12 pojok di bagian dalam (di antara empat lingkaran) tidak diarsir, sehingga yang diarsir 20 pojok.\nLuas arsiran = 20 × $\\tfrac{3}{56}$ = $\\tfrac{15}{14}$ cm².\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_097_a",
+        "label": "A",
+        "content": "$\\tfrac{3}{56}$ cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_097_b",
+        "label": "B",
+        "content": "$\\tfrac{15}{14}$ cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_097_c",
+        "label": "C",
+        "content": "$\\tfrac{12}{7}$ cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_097_d",
+        "label": "D",
+        "content": "$\\tfrac{9}{7}$ cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_098",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Terdapat 95 orang anggota pramuka yang akan tinggal di lima tenda besar (A, B, C, D, E). Jumlah peserta pada dua tenda yang bersebelahan ditunjukkan pada gambar: A + B = 41, B + C = 40, C + D = 36, D + E = 39. Berapa orang yang menempati tenda E?",
+    "imageUrl": "/uploads/osn_buku_q098.png",
+    "explanation": "(A + B) + (C + D) = 41 + 36 = 77, sehingga E = 95 − 77 = 18 orang.\n(Selengkapnya: D = 39 − 18 = 21, C = 15, B = 25, A = 16.)\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_098_a",
+        "label": "A",
+        "content": "16 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_098_b",
+        "label": "B",
+        "content": "18 orang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_098_c",
+        "label": "C",
+        "content": "21 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_098_d",
+        "label": "D",
+        "content": "25 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_099",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Nilai dari $\\dfrac{100001^2 - 99999^2}{1001^2 - 999^2}$ adalah ….",
+    "imageUrl": null,
+    "explanation": "Gunakan $a^2 - b^2 = (a + b)(a - b)$:\npembilang = 200.000 × 2 = 400.000, penyebut = 2.000 × 2 = 4.000.\nHasil = 400.000 : 4.000 = 100.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_099_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_099_b",
+        "label": "B",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_099_c",
+        "label": "C",
+        "content": "1.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_099_d",
+        "label": "D",
+        "content": "10.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_osn_buku_100",
+    "topicId": "top_osn_buku_sd",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Nilai dari $\\dfrac12 + \\dfrac16 + \\dfrac{1}{12} + \\dfrac{1}{20} + \\dfrac{1}{30}$ adalah ….",
+    "imageUrl": null,
+    "explanation": "Setiap suku berbentuk $\\dfrac{1}{n(n+1)} = \\dfrac1n - \\dfrac{1}{n+1}$:\n$(1 - \\tfrac12) + (\\tfrac12 - \\tfrac13) + (\\tfrac13 - \\tfrac14) + (\\tfrac14 - \\tfrac15) + (\\tfrac15 - \\tfrac16) = 1 - \\tfrac16 = \\tfrac56$.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_osn_buku_100_a",
+        "label": "A",
+        "content": "$\\tfrac{4}{5}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_osn_buku_100_b",
+        "label": "B",
+        "content": "$\\tfrac{5}{6}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_osn_buku_100_c",
+        "label": "C",
+        "content": "$\\tfrac{6}{7}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_osn_buku_100_d",
+        "label": "D",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

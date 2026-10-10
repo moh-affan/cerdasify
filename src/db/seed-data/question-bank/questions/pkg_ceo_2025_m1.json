@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "q_ceo25_m1_01",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dua jeruk beratnya 60 gram. Jika berat sebuah mangga sama dengan lima buah jeruk. Maka berapa berat buah manga tersebut?",
+    "imageUrl": null,
+    "explanation": "2 jeruk = 60 gram, maka 1 jeruk = 30 gram. 1 mangga = 5 jeruk, jadi 5 × 30 gram = 150 gram.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_01_a",
+        "label": "A",
+        "content": "250 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_01_b",
+        "label": "B",
+        "content": "212 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_01_c",
+        "label": "C",
+        "content": "185 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_01_d",
+        "label": "D",
+        "content": "150 gram",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_02",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Harun menukarkan uang sepuluh ribuan dengan uang lima ratusan. Berapa banyak uang lima ratusan yang bisa ia dapat?",
+    "imageUrl": null,
+    "explanation": "Harun menukarkan uang satu lembar sepuluh ribuan (Rp10.000) dengan uang logam/pecahan lima ratusan (Rp500).\n$$\\text{Banyak uang pecahan} = \\frac{10.000}{500} = 20 \\text{ keping/lembar}$$.\n\nKunci Jawaban: **D (20)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_02_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_02_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_02_c",
+        "label": "C",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_02_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_03",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan pengurangan bersusun berikut! (m4 dan 3n adalah bilangan dua angka)\n$$\\begin{array}{r} m\\,4 \\\\ -\\; 3\\,n \\\\ \\hline 5\\,1 \\end{array}$$\nNilai m dan n berturut-turut adalah ….",
+    "imageUrl": null,
+    "explanation": "Satuan: 4 − n = 1, maka n = 3.\nPuluhan: m − 3 = 5, maka m = 8.\nCek: 84 − 33 = 51 ✓.\n\nKunci Jawaban: **D (8 dan 3)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_03_a",
+        "label": "A",
+        "content": "3 dan 8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_03_b",
+        "label": "B",
+        "content": "3 dan 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_03_c",
+        "label": "C",
+        "content": "7 dan 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_03_d",
+        "label": "D",
+        "content": "8 dan 3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_04",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tahun lalu jumlah penduduk di Desa Mangunsari adalah 532 penduduk. Pada tahun ini tercatat 17 penduduk meninggal dunia. Selain itu, ada tambahan 67 penduduk pindahan dari luar desa. Berapakah jumlah penduduk Desa Mangunsari pada tahun ini?",
+    "imageUrl": null,
+    "explanation": "Penduduk awal = 532 orang.\nMeninggal dunia 17 orang: 532 − 17 = 515 orang.\nPindahan masuk 67 orang: 515 + 67 = 582 orang.\n\nKunci Jawaban: **A (582)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_04_a",
+        "label": "A",
+        "content": "582",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_04_b",
+        "label": "B",
+        "content": "613",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_04_c",
+        "label": "C",
+        "content": "675",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_04_d",
+        "label": "D",
+        "content": "731",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_05",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "5 ratusan + 2 satuan + 9 puluhan + 3 ribuan = ….",
+    "imageUrl": null,
+    "explanation": "3 ribuan + 5 ratusan + 9 puluhan + 2 satuan = 3.592.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_05_a",
+        "label": "A",
+        "content": "5.293",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_05_b",
+        "label": "B",
+        "content": "9.352",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_05_c",
+        "label": "C",
+        "content": "3.592",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_05_d",
+        "label": "D",
+        "content": "2.935",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_06",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Angka ratusan dari 523 ditambah dengan angka puluhan dari 379 adalah ….",
+    "imageUrl": null,
+    "explanation": "Angka ratusan dari 523 adalah 5. Angka puluhan dari 379 adalah 7. 5 + 7 = 12.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_06_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_06_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_06_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_06_d",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_07",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sekarang adalah bulan Maret, 9 bulan lagi adalah bulan?",
+    "imageUrl": null,
+    "explanation": "Maret (bulan 3) + 9 bulan = bulan 12 (Desember).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_07_a",
+        "label": "A",
+        "content": "Januari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_07_b",
+        "label": "B",
+        "content": "Mei",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_07_c",
+        "label": "C",
+        "content": "September",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_07_d",
+        "label": "D",
+        "content": "Desember",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_08",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Selisih waktu antara jam 14.05 dengan jam 15.15 adalah …",
+    "imageUrl": null,
+    "explanation": "Dari 14.05 ke 15.15 adalah 1 jam 10 menit = 70 menit.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_08_a",
+        "label": "A",
+        "content": "10 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_08_b",
+        "label": "B",
+        "content": "30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_08_c",
+        "label": "C",
+        "content": "60 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_08_d",
+        "label": "D",
+        "content": "70 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_09",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan barisan angka berikut: 1 22 333 4 55 …\nAngka yang tepat untuk melengkapi barisan di atas adalah…",
+    "imageUrl": null,
+    "explanation": "Banyaknya pengulangan setiap angka mengikuti pola 1, 2, 3, lalu berulang: 1 (sekali), 22 (dua kali), 333 (tiga kali), 4 (sekali), 55 (dua kali), maka berikutnya 6 ditulis tiga kali: **666**.\n\nKunci Jawaban: **B (666)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_09_a",
+        "label": "A",
+        "content": "6666",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_09_b",
+        "label": "B",
+        "content": "666",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_09_c",
+        "label": "C",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_09_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_10",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alif menanam bunga mawar dalam 7 pot. Ternyata setiap pot bertunas 5 bunga. Jumlah semua bunga mawar yang dapat dipetik Alif adalah ….",
+    "imageUrl": null,
+    "explanation": "Alif menanam bunga mawar pada 7 pot, dan setiap pot berbunga sebanyak 5 batang.\n$$\\text{Total bunga mawar} = 7 \\text{ pot} \\times 5 \\text{ batang} = 35 \\text{ batang}$$.\n\nKunci Jawaban: **D (35 batang)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_10_a",
+        "label": "A",
+        "content": "12 batang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_10_b",
+        "label": "B",
+        "content": "21 batang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_10_c",
+        "label": "C",
+        "content": "28 batang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_10_d",
+        "label": "D",
+        "content": "35 batang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_11",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ivan mempunyai 27 bungkus permen. Diberikan kepada adiknya 10 bungkus. Kemudian, ibu membelikannya lagi 35 bungkus permen. Jumlah permen Ivan sekarang adalah…",
+    "imageUrl": null,
+    "explanation": "Ivan awalnya memiliki 27 bungkus permen.\nDiberikan kepada adik 10 bungkus: 27 − 10 = 17 bungkus.\nIbu membelikan lagi 35 bungkus: 17 + 35 = 52 bungkus.\n\nKunci Jawaban: **B (52)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_11_a",
+        "label": "A",
+        "content": "50 bungkus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_11_b",
+        "label": "B",
+        "content": "52 bungkus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_11_c",
+        "label": "C",
+        "content": "55 bungkus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_11_d",
+        "label": "D",
+        "content": "42 bungkus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_12",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam keranjang terdapat 46 buah semangka. Jika buah semangka tersebut dijual dan laku 17 buah, maka sisa semangka yang ada di keranjang sebanyak … buah.",
+    "imageUrl": null,
+    "explanation": "Dalam keranjang terdapat 46 buah semangka. Terjual 17 buah semangka kepada pembeli.\n$$\\text{Sisa semangka dalam keranjang} = 46 - 17 = 29 \\text{ buah}$$.\n\nKunci Jawaban: **A (29)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_12_a",
+        "label": "A",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_12_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_12_c",
+        "label": "C",
+        "content": "31",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_12_d",
+        "label": "D",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_13",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Marsellino berangkat ke Bandung 5 jam yang lalu. Jika Marsellino tiba di Bandung pukul 05.30 WIB, maka dia berangkat pukul …",
+    "imageUrl": null,
+    "explanation": "Marsellino sampai di Bandung pukul 05.30 dan berangkat 5 jam yang lalu.\n$$05.30 - 05.00 = 00.30 \\text{ WIB}$$.\nJadi Marsellino berangkat pada pukul **00.30 WIB**.\n\nKunci Jawaban: **A (00.30 WIB)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_13_a",
+        "label": "A",
+        "content": "00.30 WIB",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_13_b",
+        "label": "B",
+        "content": "01.00 WIB",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_13_c",
+        "label": "C",
+        "content": "01.30 WIB",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_13_d",
+        "label": "D",
+        "content": "02.00 WIB",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_14",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "239 jika dipecah menjadi…",
+    "imageUrl": null,
+    "explanation": "239 terdiri dari 2 ratusan (200), 3 puluhan (30), dan 9 satuan (9).\nJadi 239 = 2 ratusan + 3 puluhan + 9 satuan.\n\nKunci Jawaban: **C**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_14_a",
+        "label": "A",
+        "content": "200 ratusan + 30 puluhan + 9 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_14_b",
+        "label": "B",
+        "content": "200 ratusan + 3 puluhan + 9 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_14_c",
+        "label": "C",
+        "content": "2 ratusan + 3 puluhan + 9 satuan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_14_d",
+        "label": "D",
+        "content": "2 ratusan + 30 puluhan + 9 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_15",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "3 kg sama dengan … ons.",
+    "imageUrl": null,
+    "explanation": "Hubungan satuan berat kilogram ke ons (hektogram):\n$$1 \\text{ kg} = 10 \\text{ ons}$$\nMaka untuk 3 kg diperoleh:\n$$3 \\text{ kg} = 3 \\times 10 = 30 \\text{ ons}$$.\n\nKunci Jawaban: **C (30)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_15_a",
+        "label": "A",
+        "content": "0,3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_15_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_15_c",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_15_d",
+        "label": "D",
+        "content": "300",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_16",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kelas 1 SDN Kebayoran memiliki 32 siswa. Apabila akan dibentuk 8 kelompok, maka tiap kelompok berjumlah … siswa.",
+    "imageUrl": null,
+    "explanation": "32 siswa dibagi menjadi 8 kelompok sama banyak.\nBanyak siswa tiap kelompok = 32 : 8 = 4 siswa.\n\nKunci Jawaban: **C (4)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_16_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_16_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_16_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_16_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_17",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Alex ingin mengetahui berapa lama dia berlari dalam satu putaran di lapangan. Alat yang dibutuhkan Alex adalah…",
+    "imageUrl": null,
+    "explanation": "Alat pengukur waktu lari adalah stopwatch.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_17_a",
+        "label": "A",
+        "content": "Neraca",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_17_b",
+        "label": "B",
+        "content": "Stopwatch",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_17_c",
+        "label": "C",
+        "content": "Meteran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_17_d",
+        "label": "D",
+        "content": "Speedometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_18",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika hari ini adalah hari Minggu, maka tiga hari yang lalu adalah hari…",
+    "imageUrl": null,
+    "explanation": "Tiga hari sebelum Minggu: Sabtu, Jumat, Kamis.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_18_a",
+        "label": "A",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_18_b",
+        "label": "B",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_18_c",
+        "label": "C",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_18_d",
+        "label": "D",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_19",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Banyak hari selama 5 minggu adalah …",
+    "imageUrl": null,
+    "explanation": "Satu minggu memiliki tepat 7 hari (Senin s.d. Minggu). Maka dalam 5 minggu terdapat:\n$$5 \\text{ minggu} \\times 7 \\text{ hari} = 35 \\text{ hari}$$.\n\nKunci Jawaban: **C (35 hari)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_19_a",
+        "label": "A",
+        "content": "28 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_19_b",
+        "label": "B",
+        "content": "30 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_19_c",
+        "label": "C",
+        "content": "35 hari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_19_d",
+        "label": "D",
+        "content": "40 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_20",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika sekarang menunjukan pukul 09.50, maka 30 menit kemudian menunjukan pukul…",
+    "imageUrl": null,
+    "explanation": "09.50 + 30 menit = 10.20.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_20_a",
+        "label": "A",
+        "content": "11.20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_20_b",
+        "label": "B",
+        "content": "11.10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_20_c",
+        "label": "C",
+        "content": "10.20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_20_d",
+        "label": "D",
+        "content": "10.10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_21",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rara memiliki 357 kelereng, sedangkan Nafa memiliki 375 kelereng. Maka kelereng Nafa …. dari kelereng Rara.",
+    "imageUrl": null,
+    "explanation": "375 (Nafa) > 357 (Rara).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_21_a",
+        "label": "A",
+        "content": "Lebih sedikit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_21_b",
+        "label": "B",
+        "content": "Lebih banyak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_21_c",
+        "label": "C",
+        "content": "Sama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_21_d",
+        "label": "D",
+        "content": "Paling sedikit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_22",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "M – 74 = 51, maka nilai M adalah…",
+    "imageUrl": null,
+    "explanation": "M − 74 = 51, maka M = 51 + 74 = 125.\n\nKunci Jawaban: **B (125)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_22_a",
+        "label": "A",
+        "content": "115",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_22_b",
+        "label": "B",
+        "content": "125",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_22_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_22_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_23",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika 7@2=14, maka 5@3=…",
+    "imageUrl": null,
+    "explanation": "Dari 7 @ 2 = 14, operasi @ adalah perkalian (7 × 2 = 14).\nMaka 5 @ 3 = 5 × 3 = 15.\n\nKunci Jawaban: **D (15)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_23_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_23_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_23_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_23_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_24",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Siswa kelas 1A berjumlah 36 orang. Jika ada siswa yang tidak hadir karena sakit 4 orang dan tidak hadir karena izin 3 orang, maka banyak siswa yang hadir adalah … .",
+    "imageUrl": null,
+    "explanation": "36 − (4 + 3) = 29.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_24_a",
+        "label": "A",
+        "content": "43",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_24_b",
+        "label": "B",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_24_c",
+        "label": "C",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_24_d",
+        "label": "D",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_25",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Rio memiliki 9 kantong bola, setiap kantong berisi 4 bola, jika Rio memberikan 5 bola ke Bani dan memberikan 6 bola ke Dani, maka bola yang dimiliki Rio adalah … .",
+    "imageUrl": null,
+    "explanation": "Total awal (9 × 4) = 36. Sisa: 36 − 5 − 6 = 25.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_25_a",
+        "label": "A",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_25_b",
+        "label": "B",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_25_c",
+        "label": "C",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_25_d",
+        "label": "D",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_26",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sani mempunyai 23 majalah bobo, jika sani meminjamkannya ke 8 temannya masing – masing 2, maka buku Sani yang tidak dipinjamkan adalah … .",
+    "imageUrl": null,
+    "explanation": "Dipinjamkan 8 × 2 = 16. Sisa: 23 − 16 = 7.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_26_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_26_b",
+        "label": "B",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_26_c",
+        "label": "C",
+        "content": "31",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_26_d",
+        "label": "D",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_27",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Banyaknya bilangan antara 25 sampai 50 yang merupakan kelipatan 4 adalah … .",
+    "imageUrl": null,
+    "explanation": "Kelipatan 4 antara 25-50: 28, 32, 36, 40, 44, 48 (Total ada 6).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_27_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_27_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_27_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_27_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_28",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika ada 15 bajaj parkir di depan stasiun. Jika setiap bajaj memiliki 3 roda , maka jumlah roda dari 15 bajaj tersebut adalah … .",
+    "imageUrl": null,
+    "explanation": "15 bajaj × 3 roda = 45 roda.\n\nKunci Jawaban: **D (45)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_28_a",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_28_b",
+        "label": "B",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_28_c",
+        "label": "C",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_28_d",
+        "label": "D",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_29",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pak Maman membeli bibit ikan lele sebanyak 113 ekor, jika Pak Maman membeli 55 ekor bibit lele lagi dan ada 12 ekor bibit lele yang mati. Maka banyaknya bibit lele yang dimiliki PaK Maman adalah … .",
+    "imageUrl": null,
+    "explanation": "113 + 55 − 12 = 156.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_29_a",
+        "label": "A",
+        "content": "143",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_29_b",
+        "label": "B",
+        "content": "151",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_29_c",
+        "label": "C",
+        "content": "156",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_29_d",
+        "label": "D",
+        "content": "163",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_m1_30",
+    "topicId": "top_ceo_mtk_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika sekarang adalah bulan Agustus, enam bulan lagi Kakak ulang tahun ke-20, maka kakak ulang tahun pada bulan … .",
+    "imageUrl": null,
+    "explanation": "Agustus (bulan 8) + 6 bulan = bulan 14. Bulan 14 adalah bulan ke-2 di tahun berikutnya (Februari).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_m1_30_a",
+        "label": "A",
+        "content": "September",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_m1_30_b",
+        "label": "B",
+        "content": "November",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_m1_30_c",
+        "label": "C",
+        "content": "Februari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_m1_30_d",
+        "label": "D",
+        "content": "Maret",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

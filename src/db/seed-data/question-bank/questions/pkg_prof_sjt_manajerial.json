@@ -1,0 +1,1427 @@
+[
+  {
+    "id": "q_prof_man_01",
+    "topicId": "top_prof_integritas",
+    "type": "GRADED_SCALE",
+    "difficulty": "HOTS",
+    "content": "Anda adalah Pejabat Pembuat Komitmen (PPK) di sebuah dinas. Menjelang akhir tahun anggaran, penyedia jasa yang merupakan rekanan lama dinas Anda meminta penandatanganan Berita Acara Serah Terima (BAST) pekerjaan 100%, padahal pekerjaan fisik di lapangan baru selesai sekitar 88%. Penyedia berjanji akan menyelesaikan sisa pekerjaan dalam waktu 4 hari ke depan dan memberikan jaminan tertulis di atas meterai agar anggaran tidak hangus. Sikap Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Integritas (Level 3 - Memastikan kepatuhan terhadap standar dan aturan).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: D (5) > C (4) > B (3) > E (2) > A (1).\n\n- **D — 5 poin:** Tegas menolak BAST fiktif sekaligus memakai jalan keluar yang sah (bayar sesuai progres riil, denda keterlambatan, atau jaminan bank).\n- **C — 4 poin:** Sikapnya benar (tidak menandatangani BAST fiktif), tetapi tidak mencari solusi legal sehingga kepentingan program ikut dikorbankan.\n- **B — 3 poin:** Tidak melanggar, namun melempar tanggung jawab yang sebenarnya melekat pada jabatan PPK.\n- **E — 2 poin:** Mencari \"celah justifikasi\" untuk menganggap pekerjaan 88% sebagai selesai adalah upaya membenarkan laporan yang tidak sesuai fakta.\n- **A — 1 poin:** Menandatangani BAST 100% untuk pekerjaan yang belum selesai adalah pemalsuan laporan yang merugikan keuangan negara; jaminan bermeterai tidak mengubahnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_01_a",
+        "label": "A",
+        "content": "Menyetujui permintaan tersebut karena rekanan memiliki rekam jejak yang baik dan ada jaminan tertulis di atas meterai.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_01_b",
+        "label": "B",
+        "content": "Menyerahkan keputusan sepenuhnya kepada Kepala Dinas agar Anda terbebas dari tanggung jawab hukum di kemudian hari.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_01_c",
+        "label": "C",
+        "content": "Menolak menandatangani BAST 100% dan membiarkan anggaran hangus tanpa memberikan alternatif solusi legal.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_01_d",
+        "label": "D",
+        "content": "Tegas menolak menandatangani BAST sebelum fisik riil 100%, serta menjalankan mekanisme regulasi yang sah (pembayaran sesuai progress riil atau mekanisme kelanjutan dengan denda/bank garansi).",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_01_e",
+        "label": "E",
+        "content": "Meminta tim teknis pengawas lapangan untuk memeriksa kembali apakah ada celah justifikasi teknis untuk menganggap pekerjaan selesai.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_02",
+    "topicId": "top_prof_integritas",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang pemohon izin mendatangi meja kerja Anda setelah berkas perizinannya dinyatakan lengkap dan selesai diproses. Sebagai ungkapan terima kasih, pemohon menyelipkan amplop berisi uang ke dalam map berkas Anda. Saat Anda tolak secara lisan, pemohon bersikukuh bahwa itu murni \"tanda terima kasih tanpa maksud menyuap\". Tindakan Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Integritas (Anti-Gratifikasi).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > E (4) > D (3) > B (2) > A (1).\n\n- **C — 5 poin:** Menolak dengan santun sekaligus mengedukasi bahwa layanan tidak dipungut biaya dan ASN dilarang menerima gratifikasi.\n- **E — 4 poin:** Langkah yang benar bila gratifikasi terlanjur ditinggalkan, tetapi idealnya amplop dikembalikan saat itu juga.\n- **D — 3 poin:** Tetap menolak, namun mempermalukan warga di depan umum tidak sesuai etika pelayanan.\n- **B — 2 poin:** Menerima lalu menyumbangkan diam-diam tetap merupakan penerimaan gratifikasi; niat baik tidak menghapus pelanggarannya.\n- **A — 1 poin:** Menerima pemberian karena jabatan adalah gratifikasi, baik diberikan sebelum maupun sesudah pelayanan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_02_a",
+        "label": "A",
+        "content": "Menerimanya karena pemohon memberikannya secara ikhlas setelah pelayanan selesai, sehingga bukan suap di awal.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_02_b",
+        "label": "B",
+        "content": "Menerimanya lalu secara diam-diam memasukkannya ke kotak amal masjid kantor agar uang tersebut menjadi berkah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_02_c",
+        "label": "C",
+        "content": "Tegas menolak dan mengembalikan amplop tersebut dengan santun, menjelaskan bahwa pelayanan telah dibiayai negara dan ASN dilarang keras menerima gratifikasi dalam bentuk apa pun.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_02_d",
+        "label": "D",
+        "content": "Memarahi pemohon tersebut di hadapan publik agar masyarakat lain tahu bahwa kantor Anda bersih dari korupsi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_02_e",
+        "label": "E",
+        "content": "Tetap menolak; karena pemohon memaksa meninggalkan amplop, Anda mengamankannya dan melaporkannya ke Unit Pengendalian Gratifikasi (UPG) instansi paling lambat 30 hari kerja.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_03",
+    "topicId": "top_prof_kerjasama_komunikasi",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Anda ditunjuk memimpin tim kerja lintas bidang untuk penyusunan Laporan Kinerja Instansi Pemerintah (LKjIP). Salah satu anggota tim yang mewakili bidang perencanaan sering tidak hadir dalam rapat koordinasi dan tidak menyerahkan data capaian indikator bidangnya hingga batas waktu terlewati. Tindakan terbaik yang Anda ambil adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Kerjasama & Komunikasi (Mengelola Konflik & Komitmen Tim).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: B (5) > E (4) > C (3) > A (2) > D (1).\n\n- **B — 5 poin:** Pendekatan personal untuk menggali kendala, menegaskan pentingnya data, dan menyepakati tenggat baru.\n- **E — 4 poin:** Jalur formal berjenjang yang sah, tetapi sebaiknya ditempuh setelah komunikasi langsung tidak berhasil.\n- **C — 3 poin:** Langsung meminta sanksi ke BKD melompati atasan langsung dan belum mencari tahu penyebab masalahnya.\n- **A — 2 poin:** Laporan selesai, tetapi masalah kinerja anggota dibiarkan dan beban tim tidak adil.\n- **D — 1 poin:** Menyindir di grup kantor mempermalukan rekan dan merusak kerja sama tim.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_03_a",
+        "label": "A",
+        "content": "Mengerjakan sendiri bagian tugas anggota tersebut agar laporan tetap selesai tepat waktu tanpa membuang energi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_03_b",
+        "label": "B",
+        "content": "Mengajak anggota tersebut berbicara empat mata untuk mengidentifikasi kendala yang dialaminya, menegaskan pentingnya data tersebut bagi tim, dan menyepakati jadwal penyerahan komitmen.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_03_c",
+        "label": "C",
+        "content": "Langsung membuat nota dinas teguran ke Kepala Badan Kepegawaian agar anggota tersebut dikenai sanksi disiplin.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_03_d",
+        "label": "D",
+        "content": "Menyindir kelalaian anggota tersebut di grup WhatsApp kantor agar merasa malu dan segera mengirim data.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_03_e",
+        "label": "E",
+        "content": "Melaporkan secara formal kepada pimpinan langsung anggota tersebut dan pimpinan Anda untuk meminta arahan penggantian personel jika diperlukan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_04",
+    "topicId": "top_prof_kerjasama_komunikasi",
+    "type": "GRADED_SCALE",
+    "difficulty": "HARD",
+    "content": "Dalam rapat evaluasi program kerja antar bidang, terjadi perdebatan panas antara Kepala Seksi A dan Kepala Seksi B mengenai alokasi anggaran sosialisasi program yang tumpang tindih. Suasana rapat menjadi tegang dan rapat terancam menemui jalan buntu. Sebagai moderator atau anggota rapat yang ditunjuk, apa yang akan Anda lakukan?",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Komunikasi & Kerjasama (Fasilitasi Kolaborasi Lintas Sektor).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: E (5) > D (4) > A (3) > C (2) > B (1).\n\n- **E — 5 poin:** Meredakan ketegangan, mengembalikan fokus pada sasaran instansi, dan mencari titik temu yang kolaboratif.\n- **D — 4 poin:** Menunda rapat sementara dapat meredakan emosi, tetapi masalahnya belum diselesaikan.\n- **A — 3 poin:** Menghasilkan keputusan, tetapi pembagian 50:50 bersifat mekanis tanpa melihat kebutuhan program.\n- **C — 2 poin:** Memihak satu seksi membuat moderator tidak netral dan memperuncing konflik.\n- **B — 1 poin:** Membiarkan perdebatan tanpa kendali berarti gagal menjalankan peran fasilitator.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_04_a",
+        "label": "A",
+        "content": "Meminta pimpinan tertinggi langsung memotong anggaran kedua bidang tersebut secara adil 50:50.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_04_b",
+        "label": "B",
+        "content": "Memilih diam dan membiarkan keduanya berdebat sampai salah satu pihak kelelahan dan mengalah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_04_c",
+        "label": "C",
+        "content": "Memihak pada seksi yang memiliki program dengan target kuantitatif paling besar.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_04_d",
+        "label": "D",
+        "content": "Membubarkan rapat dan menunda pembahasan hingga suasana hati para peserta rapat membaik.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_04_e",
+        "label": "E",
+        "content": "Menenangkan suasana, mengembalikan fokus pembahasan pada sasaran strategis instansi, lalu memetakan titik temu sinergi agar kegiatan sosialisasi dapat digabung secara kolaboratif.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_05",
+    "topicId": "top_prof_orientasi_hasil_pelayanan",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Instansi Anda meluncurkan aplikasi pelayanan publik baru. Pada hari-hari pertama, server mengalami kelambatan ekstrem (*down*) akibat lonjakan trafik pemohon. Warga yang telah mengantre di kantor pelayanan mulai meluapkan emosi dan komplain keras di loket. Sikap dan tindakan Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Orientasi Pelayanan & Orientasi Hasil (Kesiapan Tanggap Darurat Layanan).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: B (5) > E (4) > D (3) > C (2) > A (1).\n\n- **B — 5 poin:** Menenangkan warga, meminta maaf, mengaktifkan layanan cadangan manual, dan mengawal perbaikan sistem.\n- **E — 4 poin:** Warga tetap terlayani, tetapi tanpa kepastian waktu dan tanpa koordinasi perbaikan.\n- **D — 3 poin:** Menjaga ketertiban, namun tidak menyelesaikan kebutuhan layanan warga.\n- **C — 2 poin:** Menyalahkan vendor di depan publik tidak menyelesaikan masalah dan merusak citra instansi.\n- **A — 1 poin:** Menutup layanan dan menyuruh warga pulang berarti menghentikan pelayanan publik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_05_a",
+        "label": "A",
+        "content": "Menutup loket sementara dan meminta warga pulang untuk kembali lagi keesokan harinya saat server normal.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_05_b",
+        "label": "B",
+        "content": "Menemui warga dengan ramah, memohon maaf atas kendala sistem, segera mengaktifkan SOP mitigasi pelayanan manual/pencatatan berkas offline sementara, sambil mengawal koordinasi tim teknis IT.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_05_c",
+        "label": "C",
+        "content": "Menyalahkan vendor pengembang aplikasi di hadapan warga agar masyarakat tahu pihak dinas tidak bersalah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_05_d",
+        "label": "D",
+        "content": "Meminta petugas keamanan menertibkan warga yang berisik di loket agar tidak mengganggu ketenangan kantor.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_05_e",
+        "label": "E",
+        "content": "Melayani warga secara manual sebisa mungkin dan mencatat keluhan mereka, namun tetap meminta mereka menunggu tanpa kepastian waktu.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_06",
+    "topicId": "top_prof_orientasi_hasil_pelayanan",
+    "type": "GRADED_SCALE",
+    "difficulty": "HARD",
+    "content": "Dinas Anda ditargetkan menyelesaikan verifikasi 1.500 berkas bantuan sosial dalam waktu 5 hari kerja dengan jumlah personel terbatas. Berdasarkan ritme kerja normal, tim Anda maksimal hanya sanggup menyelesaikan 180 berkas per hari (total 900 berkas dalam 5 hari). Sebagai koordinator tim, langkah operasional Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Orientasi pada Hasil (Efisiensi, Inovasi Proses & Manajemen Sumber Daya).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > E (4) > B (3) > A (2) > D (1).\n\n- **C — 5 poin:** Memperbaiki proses kerja (bottleneck, pembagian tugas, pemantauan) tanpa mengurangi keabsahan verifikasi.\n- **E — 4 poin:** Menambah tenaga membantu, tetapi tanpa sistem dan supervisi mutu verifikasi bisa menurun.\n- **B — 3 poin:** Lembur bisa menambah hasil, tetapi tanpa perbaikan cara kerja mudah menimbulkan kelelahan dan kesalahan.\n- **A — 2 poin:** Melapor jujur, tetapi langsung menyerah tanpa mencoba solusi.\n- **D — 1 poin:** Meloloskan berkas tanpa pemeriksaan membuka peluang bansos salah sasaran.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_06_a",
+        "label": "A",
+        "content": "Melaporkan kepada pimpinan bahwa target tersebut tidak realistis dan meminta penurunan target menjadi 900 berkas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_06_b",
+        "label": "B",
+        "content": "Meminta seluruh anggota tim bekerja lembur hingga tengah malam setiap hari tanpa mengubah cara kerja verifikasi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_06_c",
+        "label": "C",
+        "content": "Menganalisis kemacetan proses (bottleneck), merampingkan checklist verifikasi tanpa mengurangi keabsahan data, membagi tugas ke dalam spesialisasi stasiun kerja, dan memantau progres harian berkala.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_06_d",
+        "label": "D",
+        "content": "Mempercepat verifikasi dengan meloloskan berkas tanpa pemeriksaan dokumen pendukung secara ketat.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_06_e",
+        "label": "E",
+        "content": "Meminta bantuan staf dari bidang lain dan membagi berkas sama rata tanpa supervisi sistemik.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_07",
+    "topicId": "top_prof_pengembangan_perubahan",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Pemerintah menerapkan kebijakan Sistem Informasi Pemerintahan Daerah (SIPD) atau aplikasi baru yang menggantikan seluruh format manual yang selama puluhan tahun digunakan oleh rekan-rekan senior di kantor Anda. Beberapa pegawai senior merasa enggan belajar dan terus meminta staf honorer muda mengerjakannya. Sebagai ASN yang memahami aplikasi tersebut, apa respon Anda?",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Mengelola Perubahan & Mengembangkan Orang Lain.**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: D (5) > E (4) > C (3) > B (2) > A (1).\n\n- **D — 5 poin:** Memberdayakan pegawai senior lewat panduan dan pendampingan sebaya sehingga perubahan diterima.\n- **E — 4 poin:** Solusi yang tepat arah, tetapi menunggu kegiatan formal dan belum turun tangan langsung.\n- **C — 3 poin:** Membantu, tetapi membuat pegawai senior bergantung dan tidak pernah belajar.\n- **B — 2 poin:** Memindahkan pegawai yang kesulitan bukan cara mengelola perubahan.\n- **A — 1 poin:** Membiarkan honorer menanggung pekerjaan pegawai lain adalah ketidakadilan dan menghambat perubahan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_07_a",
+        "label": "A",
+        "content": "Membiarkan hal tersebut karena pegawai senior sebentar lagi pensiun dan lebih wajar dikerjakan staf muda.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_07_b",
+        "label": "B",
+        "content": "Mengusulkan kepada pimpinan agar pegawai yang menolak aplikasi baru langsung dipindahkan ke unit kerja non-teknis.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_07_c",
+        "label": "C",
+        "content": "Mengerjakan akun milik para pegawai senior tersebut setiap kali mereka meminta tolong tanpa mengajari mereka.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_07_d",
+        "label": "D",
+        "content": "Membuat modul panduan visual ringkas, lalu mengadakan sesi pendampingan sebaya (*peer-coaching*) secara sabar agar para pegawai senior merasa percaya diri mengoperasikan sistem.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_07_e",
+        "label": "E",
+        "content": "Mengusulkan kepada pimpinan agar diadakan pelatihan internal aplikasi bagi seluruh pegawai.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_08",
+    "topicId": "top_prof_pengembangan_perubahan",
+    "type": "GRADED_SCALE",
+    "difficulty": "HARD",
+    "content": "Anda baru saja diangkat menjadi pejabat pengawas pada unit kerja yang memiliki reputasi kerja lambat dan budaya \"datang absen pulang\". Anggota tim merasa nyaman dengan status quo dan bersikap pasif terhadap inovasi. Strategi awal yang paling tepat untuk menggerakkan perubahan di unit Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Mengelola Perubahan (Membangun Visi Bersama & Quick Wins).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: B (5) > E (4) > A (3) > D (2) > C (1).\n\n- **B — 5 poin:** Memimpin dengan teladan, memahami tim, lalu membangun perubahan bertahap lewat keberhasilan kecil.\n- **E — 4 poin:** Upaya motivasi bermanfaat, tetapi tanpa teladan dan target nyata dampaknya sementara.\n- **A — 3 poin:** Menegakkan disiplin itu sah, tetapi sanksi di minggu pertama tanpa dialog memicu resistensi.\n- **D — 2 poin:** Meminta mutasi berarti menghindari tanggung jawab sebagai pemimpin unit.\n- **C — 1 poin:** Ikut larut dalam budaya kerja buruk berarti gagal menjalankan peran pengawas.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_08_a",
+        "label": "A",
+        "content": "Langsung menerapkan sanksi pemotongan TPP dan hukuman disiplin yang ketat pada minggu pertama Anda bertugas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_08_b",
+        "label": "B",
+        "content": "Memberikan teladan disiplin diri, berdialog mendalam dengan anggota tim untuk memahami tantangan mereka, lalu menetapkan target perbaikan bertahap berbasis keberhasilan kecil (*quick wins*).",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_08_c",
+        "label": "C",
+        "content": "Menyesuaikan diri dengan ritme kerja yang ada agar Anda tidak dianggap sok pintar atau dijauhi oleh tim.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_08_d",
+        "label": "D",
+        "content": "Meminta mutasi kepada Badan Kepegawaian ke unit kerja lain yang sudah memiliki budaya kerja lebih produktif.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_08_e",
+        "label": "E",
+        "content": "Mengundang motivator eksternal untuk memberi ceramah motivasi kerja kepada seluruh staf Anda.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_09",
+    "topicId": "top_prof_pengambilan_keputusan",
+    "type": "GRADED_SCALE",
+    "difficulty": "HOTS",
+    "content": "Dalam pelaksanaan proyek strategis dinas senilai miliaran rupiah, terjadi bencana tanah longsor yang merusak sebagian struktur fondasi yang sedang dibangun. Atasan Anda sedang dinas luar negeri di wilayah tanpa sinyal selama 24 jam ke depan. Mandor lapangan meminta keputusan apakah pekerjaan di area terdampak harus dilanjutkan agar terhindar dari denda keterlambatan kontrak. Tindakan Anda sebagai pejabat teknis adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Pengambilan Keputusan (Mitigasi Risiko & Keselamatan Kerja).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: A (5) > E (4) > D (3) > B (2) > C (1).\n\n- **A — 5 poin:** Mengutamakan keselamatan, menerbitkan keputusan tertulis (keadaan kahar), dan segera meminta kajian ahli.\n- **E — 4 poin:** Pekerjaan aman dilanjutkan, tetapi tanpa keputusan tertulis status zona terdampak tidak jelas secara hukum.\n- **D — 3 poin:** Mandor paham lapangan, tetapi keputusan berisiko tinggi adalah tanggung jawab pejabat teknis.\n- **B — 2 poin:** Menunda keputusan 24 jam dalam keadaan darurat membahayakan pekerja dan lokasi.\n- **C — 1 poin:** Memaksa pengecoran di zona longsor membahayakan nyawa demi mengejar progres.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_09_a",
+        "label": "A",
+        "content": "Memerintahkan penghentian sementara pekerjaan di zona terdampak demi keselamatan, menerbitkan instruksi pengamanan lokasi dan justifikasi kondisi kahar (*force majeure*), serta segera meminta kajian ahli struktur.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_09_b",
+        "label": "B",
+        "content": "Menunggu sampai atasan Anda dapat dihubungi keesokan harinya sebelum mengambil langkah apa pun.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_09_c",
+        "label": "C",
+        "content": "Memerintahkan kontraktor terus mengecor fondasi secepatnya agar progres fisik tidak jatuh dan terhindar dari audit BPK.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_09_d",
+        "label": "D",
+        "content": "Menyerahkan sepenuhnya keputusan teknis kepada mandor lapangan karena mereka yang paling paham kondisi tanah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_09_e",
+        "label": "E",
+        "content": "Memerintahkan pekerjaan dialihkan ke zona lain yang aman, sembari mendokumentasikan kerusakan tanpa menerbitkan keputusan penghentian tertulis.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_10",
+    "topicId": "top_prof_pengambilan_keputusan",
+    "type": "GRADED_SCALE",
+    "difficulty": "HARD",
+    "content": "Anda dihadapkan pada dua pilihan program yang harus masuk ke dalam Rencana Kerja (Renja) tahun depan karena keterbatasan pagu anggaran:\n1. **Program A:** Program populis yang sangat didukung oleh politisi lokal dan menguntungkan citra pimpinan, namun dampaknya bagi masyarakat hanya jangka pendek.\n2. **Program B:** Program penataan sanitasi dan air bersih yang sangat dibutuhkan warga rentan stunting berdasarkan data BPS, namun dampaknya baru terlihat 2–3 tahun ke depan dan kurang menarik perhatian media.\nSaran dan telaah staf yang akan Anda sampaikan kepada pimpinan adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Pengambilan Keputusan Berbasis Data & Kebijakan Berkelanjutan.**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: E (5) > B (4) > D (3) > C (2) > A (1).\n\n- **E — 5 poin:** Rekomendasi berbasis data untuk program berdampak, sekaligus memperhatikan kebutuhan komunikasi pimpinan.\n- **B — 4 poin:** Substansinya benar (Program B), tetapi disampaikan kaku tanpa telaah strategis yang meyakinkan.\n- **D — 3 poin:** Kompromi yang membuat kedua program tidak mencapai target optimal.\n- **C — 2 poin:** Tidak memberi rekomendasi berarti tidak menjalankan fungsi telaah staf.\n- **A — 1 poin:** Memilih program demi kepentingan karier dan politik mengorbankan kepentingan warga.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_10_a",
+        "label": "A",
+        "content": "Menyarankan Program A karena kepuasan pimpinan dan hubungan baik dengan politisi adalah kunci kelancaran karir.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_10_b",
+        "label": "B",
+        "content": "Menyarankan Program B secara mutlak dan menolak keras Program A tanpa memberikan alternatif penjelasan strategis.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_10_c",
+        "label": "C",
+        "content": "Membiarkan pimpinan memilih sendiri tanpa memberikan rekomendasi berbasis data agar Anda berada di posisi aman.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_10_d",
+        "label": "D",
+        "content": "Membagi anggaran sama rata menjadi dua sehingga kedua program berjalan setengah-setengah meskipun tidak mencapai target optimal.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_10_e",
+        "label": "E",
+        "content": "Menyajikan telaah berbasis data objektif yang mengunggulkan Program B demi penanganan stunting jangka panjang, disertai alternatif pengemasan publikasi yang menarik bagi pimpinan.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_11",
+    "topicId": "top_prof_integritas",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Anda mengetahui bahwa rekan kerja satu tim Anda kerap memalsukan tanda tangan daftar hadir (presensi) rekan lainnya yang datang terlambat dengan imbalan traktiran makan siang. Perilaku ini sudah berlangsung beberapa bulan dan dianggap \"lumrah\" di lingkungan tersebut. Tindakan Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Integritas (Menciptakan Lingkungan Kerja Berintegritas).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > E (4) > B (3) > D (2) > A (1).\n\n- **C — 5 poin:** Menegur secara pribadi dulu, lalu melapor melalui jalur resmi bila pelanggaran berlanjut.\n- **E — 4 poin:** Menjaga integritas diri, tetapi membiarkan pelanggaran disiplin terus terjadi.\n- **B — 3 poin:** Tidak ikut melanggar, namun bersikap acuh terhadap pelanggaran di lingkungan kerja.\n- **D — 2 poin:** Menyebarkan dokumen internal di media sosial melanggar etika ASN dan bukan jalur penyelesaian yang tepat.\n- **A — 1 poin:** Ikut menitipkan tanda tangan berarti ikut memalsukan presensi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_11_a",
+        "label": "A",
+        "content": "Ikut menitipkan tanda tangan sesekali jika Anda terpaksa bangun kesiangan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_11_b",
+        "label": "B",
+        "content": "Mengabaikannya karena itu urusan pribadi masing-masing dan bukan tugas Anda sebagai staf penegak disiplin.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_11_c",
+        "label": "C",
+        "content": "Menegur rekan tersebut secara pribadi bahwa perbuatannya melanggar PP Disiplin PNS, dan jika tetap berlanjut, melaporkan kepada atasan langsung atau unit kepegawaian.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_11_d",
+        "label": "D",
+        "content": "Memotret daftar hadir tersebut dan mengunggahnya ke media sosial dengan akun anonim agar viral.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_11_e",
+        "label": "E",
+        "content": "Menolak jika diajak ikut serta, tetapi tetap merahasiakan hal tersebut dari pimpinan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_12",
+    "topicId": "top_prof_kerjasama_komunikasi",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam sebuah proyek kerja kelompok, Anda menyadari bahwa salah satu anggota memiliki ide yang sangat inovatif namun ia merupakan pribadi yang pemalu dan jarang berbicara dalam forum rapat besar. Apa yang akan Anda lakukan untuk mendukung kinerja tim?",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Kerjasama (Memberdayakan Potensi Anggota Tim).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: D (5) > E (4) > C (3) > B (2) > A (1).\n\n- **D — 5 poin:** Membantu rekan menyiapkan idenya dan membuka ruang agar ia dapat berkontribusi.\n- **E — 4 poin:** Memberi kesempatan, tetapi cara memaksa lewat pimpinan bisa membuatnya tertekan.\n- **C — 3 poin:** Maksudnya melatih, tetapi dipaksa mendadak justru dapat mempermalukannya.\n- **B — 2 poin:** Ide yang bermanfaat bagi tim terbuang karena dibiarkan.\n- **A — 1 poin:** Mengakui ide orang lain sebagai milik sendiri adalah tindakan tidak jujur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_12_a",
+        "label": "A",
+        "content": "Mengambil ide tersebut dan menyampaikannya atas nama Anda sendiri agar rapat berjalan cepat.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_12_b",
+        "label": "B",
+        "content": "Membiarkannya karena dalam dunia kerja setiap individu harus berani bersaing dan berbicara sendiri.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_12_c",
+        "label": "C",
+        "content": "Memaksanya berbicara di depan forum secara mendadak agar mentalnya terlatih.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_12_d",
+        "label": "D",
+        "content": "Mengajaknya berdiskusi secara santai sebelum rapat, membantunya memetakan konsep idenya, lalu memfasilitasi kesempatan baginya untuk berbicara di forum rapat dengan dukungan Anda.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_12_e",
+        "label": "E",
+        "content": "Meminta pimpinan untuk menunjuknya secara khusus agar dia tidak punya pilihan selain berbicara.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_13",
+    "topicId": "top_prof_orientasi_hasil_pelayanan",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Waktu operasional loket pelayanan kantor Anda berakhir pukul 15.00 WIB. Tepat pukul 14.58 WIB, seorang warga lanjut usia datang dengan napas terengah-engah dari desa terpencil untuk mengurus surat rujukan kesehatan yang sangat mendesak. Sikap Anda sebagai petugas pelayanan adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Pelayanan Publik (Responsif & Berorientasi Kemanusiaan).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: A (5) > E (4) > D (3) > C (2) > B (1).\n\n- **A — 5 poin:** Warga datang sebelum loket tutup dengan kebutuhan mendesak; dilayani ramah sampai tuntas.\n- **E — 4 poin:** Memberi alternatif layanan, tetapi tidak memastikan warga lansia mampu memakainya.\n- **D — 3 poin:** Berkas diterima, tetapi sengaja ditunda padahal kebutuhannya mendesak.\n- **C — 2 poin:** Dilayani, tetapi dengan sikap tidak ramah yang melanggar etika pelayanan.\n- **B — 1 poin:** Warga datang sebelum jam tutup namun ditolak, padahal kebutuhannya mendesak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_13_a",
+        "label": "A",
+        "content": "Menyambut warga lansia tersebut dengan ramah, mempersilakannya duduk, dan tetap memproses dokumennya sampai tuntas meskipun melampaui jam operasional kantor.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_13_b",
+        "label": "B",
+        "content": "Menutup tirai loket tepat pukul 15.00 WIB dan memintanya datang kembali besok pagi sesuai jadwal operasional.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_13_c",
+        "label": "C",
+        "content": "Memarahinya karena datang terlambat menjelang jam kantor tutup, lalu melayaninya dengan wajah masam.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_13_d",
+        "label": "D",
+        "content": "Menerima berkasnya namun membiarkannya menumpuk dan baru akan diproses lusa.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_13_e",
+        "label": "E",
+        "content": "Menyarankannya menggunakan aplikasi online tanpa mengecek apakah beliau memiliki smartphone atau tidak.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_14",
+    "topicId": "top_prof_pengembangan_perubahan",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Instansi tempat Anda bekerja memberikan tawaran beasiswa pendidikan S2/pelatihan peningkatan kompetensi bergengsi, namun dengan syarat peserta harus bersedia membagi waktu antara dinas dan perkuliahan malam. Sikap Anda terhadap peluang ini adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Pengembangan Diri (Komitmen Belajar Berkelanjutan).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > E (4) > B (3) > D (2) > A (1).\n\n- **C — 5 poin:** Mengambil kesempatan belajar dengan perencanaan waktu yang matang demi kontribusi bagi instansi.\n- **E — 4 poin:** Mendukung pengembangan rekan, tetapi melewatkan kesempatan mengembangkan diri sendiri.\n- **B — 3 poin:** Motivasi belajar bergantung pada imbalan jabatan.\n- **D — 2 poin:** Studi dilakukan dengan membebani rekan kerja.\n- **A — 1 poin:** Menolak pengembangan kompetensi demi kenyamanan pribadi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_14_a",
+        "label": "A",
+        "content": "Menolaknya karena khawatir waktu istirahat dan libur akhir pekan Anda akan berkurang banyak.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_14_b",
+        "label": "B",
+        "content": "Mendaftar hanya jika ada jaminan promosi jabatan otomatis setelah lulus kuliah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_14_c",
+        "label": "C",
+        "content": "Menyambut peluang tersebut dengan menyusun perencanaan manajemen waktu yang disiplin antara tugas kedinasan dan studi guna meningkatkan kapasitas kontribusi Anda bagi instansi.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_14_d",
+        "label": "D",
+        "content": "Mendaftar namun berniat melimpahkan sebagian tugas kantor rutin kepada rekan kerja lain selama masa studi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_14_e",
+        "label": "E",
+        "content": "Mendorong rekan lain yang lebih muda saja yang mengambil beasiswa tersebut.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_15",
+    "topicId": "top_prof_pengambilan_keputusan",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Saat menyusun dokumen spesifikasi teknis pengadaan barang, salah satu anggota tim pengadaan mengusulkan untuk memasukkan spesifikasi merek tertentu yang sangat spesifik dan hanya dimiliki oleh satu distributor lokal. Alasan yang dikemukakan adalah kualitas barang tersebut sudah terbukti bagus. Bagaimana tanggapan Anda?",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Pengambilan Keputusan & Kepatuhan PBJ (Prinsip Persaingan Sehat).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: B (5) > E (4) > D (3) > C (2) > A (1).\n\n- **B — 5 poin:** Spesifikasi berbasis fungsi dan standar mutu membuka persaingan sehat sesuai aturan pengadaan.\n- **E — 4 poin:** Langkah hati-hati yang benar, tetapi belum tegas menolak penguncian merek.\n- **D — 3 poin:** Tidak ikut melanggar, tetapi lepas tangan dari tanggung jawab sebagai anggota tim.\n- **C — 2 poin:** Mengunci merek demi mutu tetap menutup persaingan dan melanggar prinsip pengadaan.\n- **A — 1 poin:** Mengunci merek dengan imbalan diskon membuka peluang kolusi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_15_a",
+        "label": "A",
+        "content": "Menyetujui usulan tersebut asalkan distributor tersebut mau memberikan diskon potongan harga kepada dinas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_15_b",
+        "label": "B",
+        "content": "Menolak penguncian merek spesifik, serta menyusun spesifikasi teknis berbasis fungsi, kinerja, dan standar mutu nasional (SNI) agar membuka persaingan terbuka yang sehat sesuai regulasi.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_15_c",
+        "label": "C",
+        "content": "Menyetujui usulan tersebut karena yang terpenting adalah mutu barang tidak mengecewakan di kemudian hari.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_15_d",
+        "label": "D",
+        "content": "Membiarkan anggota tim tersebut memutuskan sendiri dan tidak ikut bertanggung jawab jika ada masalah hukum.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_15_e",
+        "label": "E",
+        "content": "Meminta anggota tim tersebut menuliskan justifikasi teknis dan memeriksa apakah ada produk lain yang memenuhi fungsi yang sama sebelum spesifikasi ditetapkan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_16",
+    "topicId": "top_prof_integritas",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Anda secara tidak sengaja menemukan bukti bahwa atasan langsung Anda menandatangani Surat Perintah Tugas (SPT) fiktif untuk mencairkan uang harian perjalanan dinas luar kota yang sebenarnya tidak pernah dilaksanakan. Sikap Anda yang paling berintegritas adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Integritas (Mekanisme Whistleblowing System).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > D (4) > E (3) > B (2) > A (1).\n\n- **C — 5 poin:** Melapor dengan bukti melalui saluran resmi (WBS/APIP) yang melindungi pelapor.\n- **D — 4 poin:** Langkah yang aman dan sah, tetapi belum menuntaskan pelaporan.\n- **E — 3 poin:** Membicarakan dugaan pelanggaran ke banyak orang menimbulkan gosip tanpa penyelesaian.\n- **B — 2 poin:** Menyebarkan dokumen ke publik bukan jalur resmi dan dapat merusak proses pemeriksaan.\n- **A — 1 poin:** Memeras atasan adalah tindak pidana dan penyalahgunaan informasi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_16_a",
+        "label": "A",
+        "content": "Memeras atasan Anda agar bersedia menaikkan nilai Sasaran Kinerja Pegawai (SKP) Anda.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_16_b",
+        "label": "B",
+        "content": "Menyebarkan dokumen tersebut ke media sosial atau grup chat warga agar mendapat sanksi sosial.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_16_c",
+        "label": "C",
+        "content": "Melaporkan temuan tersebut dengan bukti pendukung yang valid melalui saluran resmi Whistleblowing System (WBS) atau Aparat Pengawasan Intern Pemerintah (APIP/Inspektorat).",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_16_d",
+        "label": "D",
+        "content": "Berkonsultasi secara rahasia dengan atasan berjenjang (atasan dari atasan Anda) atau Inspektorat untuk meminta arahan sebelum membuat laporan resmi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_16_e",
+        "label": "E",
+        "content": "Membicarakan hal tersebut kepada seluruh staf kantor saat jam makan siang.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_17",
+    "topicId": "top_prof_kerjasama_komunikasi",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Anda memiliki rekan kerja satu tim yang hasil pekerjaannya sering tidak memenuhi standar kualitas dan banyak kesalahan pengetikan angka, sehingga merepotkan anggota tim lain yang harus mengoreksi ulang. Tindakan Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Kerjasama & Pengembangan Rekan (Feedback Konstruktif).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: D (5) > C (4) > E (3) > B (2) > A (1).\n\n- **D — 5 poin:** Umpan balik konstruktif empat mata disertai cara kerja (checklist) agar rekan berkembang.\n- **C — 4 poin:** Hasil kerja tim terselamatkan, tetapi rekan tidak tahu kesalahannya sehingga terulang.\n- **E — 3 poin:** Pesannya benar, tetapi disampaikan dengan sindiran di forum umum.\n- **B — 2 poin:** Sengaja membiarkan pekerjaan gagal merugikan tim dan instansi.\n- **A — 1 poin:** Mengucilkan rekan merusak kerja sama dan tidak menyelesaikan masalah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_17_a",
+        "label": "A",
+        "content": "Mengucilkan rekan tersebut dan menolak satu kelompok dengannya pada penugasan berikutnya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_17_b",
+        "label": "B",
+        "content": "Membiarkan saja kesalahannya hingga dokumen tersebut ditolak oleh pimpinan agar rekan Anda kapok.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_17_c",
+        "label": "C",
+        "content": "Mengerjakan ulang seluruh tugasnya tanpa memberi tahu di mana letak kesalahannya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_17_d",
+        "label": "D",
+        "content": "Memberikan masukan konstruktif secara empat mata, menunjukkan contoh standar yang diharapkan, dan membantunya dengan metode checklist verifikasi ganda.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_17_e",
+        "label": "E",
+        "content": "Membuat sindiran di grup kantor tentang pentingnya ketelitian dalam bekerja.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_18",
+    "topicId": "top_prof_orientasi_hasil_pelayanan",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Di kantor tempat Anda bertugas, sering terjadi keluhan masyarakat mengenai ketidakpastian biaya dan lama waktu penyelesaian surat keterangan. Belum ada papan informasi atau banner SOP resmi yang terpasang. Sebagai staf di unit tersebut, inisiatif Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Pelayanan Publik & Orientasi Hasil (Transparansi Layanan).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: B (5) > C (4) > E (3) > D (2) > A (1).\n\n- **B — 5 poin:** Berinisiatif menyusun standar pelayanan dan mengajukannya kepada pimpinan agar dipublikasikan secara resmi.\n- **C — 4 poin:** Warga tetap mendapat informasi yang benar, tetapi hanya yang bertanya; masalahnya tidak diselesaikan.\n- **E — 3 poin:** Niatnya baik, tetapi informasi tanpa persetujuan pimpinan bisa keliru dan tidak resmi.\n- **D — 2 poin:** Mendorong pengaduan eksternal tanpa memperbaiki dari dalam padahal Anda bisa mengusulkan perbaikan.\n- **A — 1 poin:** Tidak berinisiatif sama sekali terhadap masalah layanan yang jelas.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_18_a",
+        "label": "A",
+        "content": "Menunggu hingga ada perintah tertulis dari Kepala Dinas untuk membuat papan pengumuman.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_18_b",
+        "label": "B",
+        "content": "Menyusun usulan draf standar pelayanan (SOP, estimasi waktu, persyaratan, dan penegasan biaya gratis) serta mengajukan kepada pimpinan untuk dipajang di ruang tunggu dan media sosial dinas.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_18_c",
+        "label": "C",
+        "content": "Hanya menjawab jika ada masyarakat yang bertanya secara langsung ke meja kerja Anda.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_18_d",
+        "label": "D",
+        "content": "Menyarankan masyarakat mengajukan keluhan ke Ombudsman agar kantor Anda ditegur secara resmi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_18_e",
+        "label": "E",
+        "content": "Menempelkan kertas tulisan tangan seadanya di dinding kantor tanpa persetujuan pimpinan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_19",
+    "topicId": "top_prof_pengembangan_perubahan",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Pimpinan memberikan tugas baru yang sama sekali di luar latar belakang pendidikan dan bidang keahlian Anda, dengan tenggat waktu penyelesaian dua minggu. Bagaimana sikap Anda menghadapi penugasan ini?",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Mengelola Perubahan & Adaptabilitas.**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: A (5) > E (4) > B (3) > D (2) > C (1).\n\n- **A — 5 poin:** Menerima tugas sebagai kesempatan belajar dan proaktif mencari referensi serta bimbingan.\n- **E — 4 poin:** Sikap positif dan bertanggung jawab, tetapi masih bergantung pada arahan.\n- **B — 3 poin:** Menolak tugas resmi dengan alasan ijazah menunjukkan sikap kurang adaptif.\n- **D — 2 poin:** Menyerahkan tugas dinas ke pihak luar berisiko membocorkan data dan bukan hasil kerja sendiri.\n- **C — 1 poin:** Sengaja bekerja asal-asalan adalah sikap tidak profesional.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_19_a",
+        "label": "A",
+        "content": "Menerima tugas dengan positif sebagai wadah memperluas kompetensi, segera mempelajari regulasi dan referensi terkait, serta proaktif berkonsultasi dengan rekan yang berpengalaman.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_19_b",
+        "label": "B",
+        "content": "Menolak penugasan tersebut dengan alasan tidak sesuai dengan kualifikasi ijazah dan tupoksi Anda.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_19_c",
+        "label": "C",
+        "content": "Menerima tugas namun mengerjakannya dengan kualitas alakadarnya agar pimpinan tahu kemampuan Anda terbatas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_19_d",
+        "label": "D",
+        "content": "Menerima tugas namun menyewa jasa konsultan luar untuk menyelesaikannya menggunakan uang pribadi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_19_e",
+        "label": "E",
+        "content": "Menerima tugas, lalu meminta arahan awal dari pimpinan tentang hasil yang diharapkan dan siapa yang dapat menjadi pendamping karena bidang ini baru bagi Anda.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_20",
+    "topicId": "top_prof_pengambilan_keputusan",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Anda menerima laporan bahwa sebuah jembatan penghubung desa mengalami retak rambut pada balok penyangga akibat curah hujan tinggi. Walaupun jembatan masih bisa dilewati kendaraan kecil, terdapat risiko runtuh jika dilewati truk bermuatan berat. Menjelang musim panen, petani desa mendesak agar truk pengangkut gabah tetap diizinkan lewat. Keputusan Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Pengambilan Keputusan (Manajemen Risiko & Perlindungan Publik).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: D (5) > B (4) > E (3) > A (2) > C (1).\n\n- **D — 5 poin:** Membatasi beban kendaraan demi keselamatan, menyiapkan rute alternatif logistik, dan mempercepat asesmen teknis.\n- **B — 4 poin:** Keselamatan terjamin, tetapi menutup total tanpa rute alternatif mengganggu aktivitas warga.\n- **E — 3 poin:** Musyawarah baik untuk banyak hal, tetapi keputusan keselamatan struktur harus berdasarkan kajian teknis.\n- **A — 2 poin:** Surat pernyataan tidak menghilangkan risiko jembatan runtuh dan korban jiwa.\n- **C — 1 poin:** Menunggu jembatan ambruk mengabaikan keselamatan publik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_20_a",
+        "label": "A",
+        "content": "Membiarkan truk lewat asalkan sopir menandatangani surat pernyataan siap menanggung risiko sendiri.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_20_b",
+        "label": "B",
+        "content": "Menutup total jembatan untuk semua jenis kendaraan tanpa menyediakan solusi rute alternatif bagi warga.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_20_c",
+        "label": "C",
+        "content": "Menunggu sampai jembatan benar-benar patah atau ambruk baru mengambil tindakan pengamanan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_20_d",
+        "label": "D",
+        "content": "Memasang portal pembatas tonase kendaraan berat demi keselamatan jiwa, segera mengalihkan rute logistik ke jalur alternatif, dan mempercepat asesmen teknis struktur oleh dinas pekerjaan umum.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_20_e",
+        "label": "E",
+        "content": "Meminta warga desa melakukan musyawarah dan pemungutan suara apakah truk boleh lewat atau tidak.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_21",
+    "topicId": "top_prof_integritas",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang kerabat dekat Anda meminta bantuan agar anaknya diloloskan dalam seleksi administrasi penerimaan Pegawai Non-PNS di instansi tempat Anda menjadi salah satu panitia seleksi, padahal berkasnya kurang lengkap. Sikap Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Integritas & Bebas dari Konflik Kepentingan.**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: E (5) > B (4) > D (3) > C (2) > A (1).\n\n- **E — 5 poin:** Menolak sekaligus mengelola konflik kepentingan secara terbuka sesuai prinsip meritokrasi.\n- **B — 4 poin:** Penolakan yang benar dan santun, tetapi konflik kepentingan Anda belum dinyatakan.\n- **D — 3 poin:** Tidak ikut memalsukan, tetapi menyembunyikan kekurangan berkas agar lolos tetap tidak jujur.\n- **C — 2 poin:** Meminta uang pelicin adalah pungutan liar.\n- **A — 1 poin:** Melengkapi berkas dengan data rekaan adalah pemalsuan dokumen.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_21_a",
+        "label": "A",
+        "content": "Membantunya dengan melengkapi berkas yang kurang menggunakan data rekaan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_21_b",
+        "label": "B",
+        "content": "Menolak permintaan tersebut dengan sopan dan memberi pengertian bahwa seleksi berjalan secara objektif dan meritokratis sesuai kelengkapan berkas resmi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_21_c",
+        "label": "C",
+        "content": "Meminta uang pelicin kepada kerabat Anda tersebut sebagai kompensasi risiko.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_21_d",
+        "label": "D",
+        "content": "Menyerahkan berkas tersebut kepada panitia lain tanpa memberitahu kekurangannya.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_21_e",
+        "label": "E",
+        "content": "Menolak memberi perlakuan khusus, lalu menyatakan adanya konflik kepentingan kepada ketua panitia agar Anda tidak ikut menilai berkas tersebut.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_22",
+    "topicId": "top_prof_kerjasama_komunikasi",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam penyusunan rencana aksi tahunan, dua bidang di instansi Anda saling klaim bahwa sebuah proyek prioritas merupakan kewenangan eksklusif bidang mereka, sehingga koordinasi antar bidang mandek. Sebagai analis yang diminta membantu pimpinan, apa masukan Anda?",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Kerjasama Antar Unit (Sinergi Matriks Organisasi).**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: C (5) > E (4) > A (3) > D (2) > B (1).\n\n- **C — 5 poin:** Matriks peran (RACI) menegaskan tanggung jawab tiap bidang sehingga kolaborasi berjalan.\n- **E — 4 poin:** Jalan keluar yang sah dan berbasis aturan, tetapi pembagian perannya belum dirinci.\n- **A — 3 poin:** Cepat diputuskan, tetapi berdasarkan senioritas, bukan kewenangan.\n- **D — 2 poin:** Undian tidak mempertimbangkan kewenangan maupun kapasitas.\n- **B — 1 poin:** Membatalkan proyek prioritas merugikan masyarakat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_22_a",
+        "label": "A",
+        "content": "Menyerahkan proyek ke bidang yang dipimpin oleh pejabat yang lebih senior.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_22_b",
+        "label": "B",
+        "content": "Membatalkan proyek tersebut agar tidak menimbulkan kecemburuan sosial di kantor.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_22_c",
+        "label": "C",
+        "content": "Membuat matriks pembagian peran (*RACI matrix*) yang menegaskan batasan tanggung jawab dan kontribusi output masing-masing bidang secara kolaboratif.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_22_d",
+        "label": "D",
+        "content": "Melakukan undian koin untuk menentukan pemegang proyek utama.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_22_e",
+        "label": "E",
+        "content": "Mengusulkan rapat bersama kedua bidang untuk menentukan penanggung jawab utama dan pendukung berdasarkan tugas dan fungsi dalam peraturan organisasi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_23",
+    "topicId": "top_prof_orientasi_hasil_pelayanan",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Anda menemukan bahwa laporan pertanggungjawaban kegiatan triwulan Anda masih memiliki kelebihan sisa anggaran operasional karena efisiensi harga tiket dan akomodasi. Bendahara menyarankan agar kuitansi dibulatkan sesuai pagu awal agar anggaran terserap 100%. Tindakan Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Integritas & Akuntabilitas Anggaran.**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: A (5) > E (4) > D (3) > C (2) > B (1).\n\n- **A — 5 poin:** Melaporkan sesuai kuitansi sah dan mengembalikan sisa anggaran ke kas negara/daerah.\n- **E — 4 poin:** Laporan sudah jujur, tetapi Anda belum memastikan sisa dana benar-benar disetor kembali.\n- **D — 3 poin:** Tidak untuk pribadi, tetapi menyimpan dana di luar kas resmi melanggar tata kelola keuangan.\n- **C — 2 poin:** Memakai uang negara untuk oleh-oleh adalah penyalahgunaan anggaran.\n- **B — 1 poin:** Membulatkan kuitansi adalah pemalsuan pertanggungjawaban (mark-up).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_23_a",
+        "label": "A",
+        "content": "Melaporkan pengeluaran riil apa adanya sesuai kuitansi yang sah dan menyetorkan kembali sisa lebih anggaran ke kas negara/daerah.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_23_b",
+        "label": "B",
+        "content": "Mengikuti saran bendahara untuk membulatkan kuitansi agar capaian serapan anggaran dinilai tinggi oleh pimpinan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_23_c",
+        "label": "C",
+        "content": "Menggunakan sisa uang tersebut untuk membeli oleh-oleh bagi staf di kantor.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_23_d",
+        "label": "D",
+        "content": "Menyimpan sisa uang tersebut di brankas pribadi untuk digunakan pada kegiatan dinas lain yang kurang anggaran.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_23_e",
+        "label": "E",
+        "content": "Menolak membulatkan kuitansi dan melaporkan pengeluaran riil, tetapi menyerahkan sepenuhnya penanganan sisa dana kepada bendahara.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_24",
+    "topicId": "top_prof_pengembangan_perubahan",
+    "type": "GRADED_SCALE",
+    "difficulty": "MEDIUM",
+    "content": "Di era kecerdasan buatan (*Artificial Intelligence*), instansi Anda mulai menjajaki penggunaan AI untuk meringkas risalah rapat dan menyusun draf persuratan dinas. Sebagian rekan kerja Anda khawatir teknologi ini akan menghilangkan pekerjaan staf administrasi. Sikap Anda adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Mengelola Perubahan & Literasi Masa Depan.**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: B (5) > E (4) > A (3) > C (2) > D (1).\n\n- **B — 5 poin:** Menyambut teknologi untuk efisiensi sambil meningkatkan kompetensi staf pada pekerjaan yang tidak tergantikan mesin.\n- **E — 4 poin:** Adaptif dan berhati-hati, tetapi belum memikirkan pengembangan kompetensi staf.\n- **A — 3 poin:** Menyampaikan pendapat secara resmi itu sah, tetapi menolak perubahan menghambat efisiensi.\n- **C — 2 poin:** Tanpa validasi manusia, kesalahan isi dan kebocoran data mudah terjadi.\n- **D — 1 poin:** Memprovokasi boikot menghambat kebijakan instansi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_24_a",
+        "label": "A",
+        "content": "Menolak pengadopsian teknologi AI dan menyarankan pimpinan tetap mempertahankan cara manual 100%.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_24_b",
+        "label": "B",
+        "content": "Menyambut positif adopsi AI sebagai sarana efisiensi tugas rutin, sembari mendorong staf meningkatkan keahlian analitis dan pengawasan substansi yang tidak dapat digantikan mesin.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_24_c",
+        "label": "C",
+        "content": "Menyerahkan seluruh pekerjaan persuratan kepada AI tanpa melakukan validasi manusia lagi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_24_d",
+        "label": "D",
+        "content": "Menyebarkan kekhawatiran tersebut agar seluruh staf sepakat memboikot sistem baru.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_24_e",
+        "label": "E",
+        "content": "Mendukung uji coba AI secara bertahap pada pekerjaan yang tidak memuat data rahasia sambil menunggu pedoman resmi instansi.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "q_prof_man_25",
+    "topicId": "top_prof_pengambilan_keputusan",
+    "type": "GRADED_SCALE",
+    "difficulty": "HARD",
+    "content": "Dua staf berprestasi di tim Anda terlibat konflik perselisihan pribadi di luar kantor yang berimbas pada saling menjatuhkan saat presentasi kerja di hadapan klien eksternal. Sebagai pimpinan tim, langkah yang akan Anda lakukan adalah...",
+    "imageUrl": null,
+    "explanation": "**Dimensi Kompetensi: Pengambilan Keputusan Manajerial & Resolusi Konflik Kerja.**\n\nSoal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: E (5) > D (4) > C (3) > A (2) > B (1).\n\n- **E — 5 poin:** Menangani konflik secara bertahap, menegaskan batas profesional, dan membina kedua staf.\n- **D — 4 poin:** Mencegah konflik berulang di depan klien, tetapi akar masalahnya belum diselesaikan.\n- **C — 3 poin:** Memihak berdasarkan senioritas tidak adil.\n- **A — 2 poin:** Pemecatan sepihak tidak sesuai prosedur kepegawaian dan berlebihan.\n- **B — 1 poin:** Membiarkan konflik yang sudah merugikan kinerja di depan klien.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prof_man_25_a",
+        "label": "A",
+        "content": "Memecat kedua staf tersebut secara sepihak untuk memberi efek jera pada staf lain.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prof_man_25_b",
+        "label": "B",
+        "content": "Membiarkan konflik tersebut reda dengan sendirinya karena urusan pribadi tidak boleh dicampuri kantor.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prof_man_25_c",
+        "label": "C",
+        "content": "Memihak kepada salah satu staf yang memiliki masa kerja lebih lama di kantor Anda.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prof_man_25_d",
+        "label": "D",
+        "content": "Memisahkan keduanya ke proyek berbeda tanpa menyelesaikan akar masalah di antara mereka.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "opt_q_prof_man_25_e",
+        "label": "E",
+        "content": "Memanggil kedua staf secara terpisah lalu mempertemukan mereka, menegaskan batas tegas profesionalitas kerja, melarang konflik pribadi mengganggu kinerja instansi, serta memberikan pembinaan berjenjang.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 4
+      }
+    ]
+  }
+]

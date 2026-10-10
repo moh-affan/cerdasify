@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "q_0438_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika $a = \\sqrt{16} + 3\\sqrt{25}$ dan $b = \\sqrt[3]{27} - 2\\sqrt[3]{8}$, maka nilai dari $\\frac{a^2 - b^2}{a - b}$ adalah …",
+    "imageUrl": null,
+    "explanation": "Sederhanakan nilai $a$ dan $b$:\n$$a = 4 + 3(5) = 4 + 15 = 19$$\n$$b = 3 - 2(2) = 3 - 4 = -1$$\nBerdasarkan aljabar faktorisasi selisih kuadrat:\n$$\\frac{a^2 - b^2}{a - b} = \\frac{(a - b)(a + b)}{a - b} = a + b$$\n$$a + b = 19 + (-1) = 18$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0438_matematika-leve_0_A",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0438_matematika-leve_1_B",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0438_matematika-leve_2_C",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0438_matematika-leve_3_D",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0439_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Suatu bilangan asli habis dibagi 4 dan 9. Jika bilangan tersebut dibagi dengan 5 akan bersisa 2. Tentukan bilangan yang bersifat seperti tersebut di atas!",
+    "imageUrl": null,
+    "explanation": "Bilangan asli habis dibagi 4 dan 9 merupakan kelipatan dari $\\text{KPK}(4, 9) = 36$.\nKelipatan 36: 36, 72, 108, 144, ...\nUji sisa pembagian dengan 5:\n- $36 \\div 5 = 7$ sisa 1\n- $72 \\div 5 = 14$ sisa 2 (Memenuhi syarat!)\nJadi bilangan tersebut adalah **72**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0439_matematika-leve_0_A",
+        "label": "A",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0439_matematika-leve_1_B",
+        "label": "B",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0439_matematika-leve_2_C",
+        "label": "C",
+        "content": "108",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0439_matematika-leve_3_D",
+        "label": "D",
+        "content": "144",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0440_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "15 windu + 3 dasawarsa + 2 lustrum = … tahun.",
+    "imageUrl": null,
+    "explanation": "Konversi satuan waktu ke tahun:\n- 1 windu $= 8$ tahun $\\implies 15 \\times 8 = 120$ tahun\n- 1 dasawarsa $= 10$ tahun $\\implies 3 \\times 10 = 30$ tahun\n- 1 lustrum $= 5$ tahun $\\implies 2 \\times 5 = 10$ tahun\n$$\\text{Total} = 120 + 30 + 10 = 160 \\text{ tahun}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0440_matematika-leve_0_A",
+        "label": "A",
+        "content": "150",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0440_matematika-leve_1_B",
+        "label": "B",
+        "content": "155",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0440_matematika-leve_2_C",
+        "label": "C",
+        "content": "160",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0440_matematika-leve_3_D",
+        "label": "D",
+        "content": "165",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0441_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang petani memiliki 5 petak sawah. Setiap petak menghasilkan 2,5 ton padi setiap panen. Jika petani tersebut memanen 3 kali dalam setahun dan $\\frac{1}{5}$ dari total panennya disisihkan untuk zakat, berapa kuintal padi yang dapat dijual oleh petani tersebut dalam setahun?",
+    "imageUrl": null,
+    "explanation": "Total panen per musim $= 5 \\times 2,5 \\text{ ton} = 12,5 \\text{ ton}$.\nTotal panen setahun $= 12,5 \\times 3 = 37,5 \\text{ ton} = 375 \\text{ kuintal}$.\nZakat $\\frac{1}{5} \\times 375 = 75 \\text{ kuintal}$.\nPadi yang dijual $= 375 - 75 = 300 \\text{ kuintal}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0441_matematika-leve_0_A",
+        "label": "A",
+        "content": "250 kuintal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0441_matematika-leve_1_B",
+        "label": "B",
+        "content": "300 kuintal",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0441_matematika-leve_2_C",
+        "label": "C",
+        "content": "350 kuintal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0441_matematika-leve_3_D",
+        "label": "D",
+        "content": "400 kuintal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0442_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah keran air mengalirkan air dengan debit 0,8 liter/detik. Debit air tersebut sama dengan …",
+    "imageUrl": null,
+    "explanation": "Debit air $= 0,8 \\text{ liter/detik}$.\nDalam 1 jam (3600 detik):\n$$\\text{Volume} = 0,8 \\times 3600 = 2.880 \\text{ liter/jam} = 2,88 \\text{ m}^3/\\text{jam}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0442_matematika-leve_0_A",
+        "label": "A",
+        "content": "2,88 m3/jam",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0442_matematika-leve_1_B",
+        "label": "B",
+        "content": "28,8 m3/jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0442_matematika-leve_2_C",
+        "label": "C",
+        "content": "288liter/jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0442_matematika-leve_3_D",
+        "label": "D",
+        "content": "2880 liter/jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0443_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan desimal berulang $0,636363\\dots$ mempunyai bentuk pecahan sederhana $\\frac{m}{n}$. Hasil kali $m$ dan $n$ adalah …",
+    "imageUrl": null,
+    "explanation": "Misalkan $x = 0,636363\\dots$\n$$100x = 63,6363\\dots$$\n$$99x = 63 \\implies x = \\frac{63}{99} = \\frac{7}{11}$$.\nMaka $m = 7$ dan $n = 11$.\n$$m \\times n = 7 \\times 11 = 77$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0443_matematika-leve_0_A",
+        "label": "A",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0443_matematika-leve_1_B",
+        "label": "B",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0443_matematika-leve_2_C",
+        "label": "C",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0443_matematika-leve_3_D",
+        "label": "D",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0444_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah dari $-2 + 4 - 6 + 8 - \\dots + 100$ adalah …",
+    "imageUrl": null,
+    "explanation": "Kelompokkan setiap 2 suku berurutan:\n$$(-2 + 4) + (-6 + 8) + \\dots + (-98 + 100)$$\nSetiap pasangan bernilai $+2$.\nJumlah bilangan genap dari 2 sampai 100 ada 50 bilangan, membentuk 25 pasangan.\n$$\\text{Total} = 25 \\times 2 = 50$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0444_matematika-leve_0_A",
+        "label": "A",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0444_matematika-leve_1_B",
+        "label": "B",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0444_matematika-leve_2_C",
+        "label": "C",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0444_matematika-leve_3_D",
+        "label": "D",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0445_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bu Ani memiliki sejumlah uang. Dia menyumbangkan $\\frac{1}{4}$ dari uangnya kepada panti asuhan, dan membelanjakan $\\frac{2}{5}$ dari sisa uangnya untuk membeli kebutuhan pokok. Jika sisa uangnya setelah itu ditabung, persentase uang yang ditabung Bu Ani dari total uang awalnya adalah …",
+    "imageUrl": null,
+    "explanation": "Sisa setelah sumbangan $= 1 - \\frac{1}{4} = \\frac{3}{4}$.\nSisa setelah kebutuhan pokok $= (1 - \\frac{2}{5}) \\times \\frac{3}{4} = \\frac{3}{5} \\times \\frac{3}{4} = \\frac{9}{20}$.\n$$\\text{Persentase} = \\frac{9}{20} \\times 100\\% = 45\\%$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0445_matematika-leve_0_A",
+        "label": "A",
+        "content": "35%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0445_matematika-leve_1_B",
+        "label": "B",
+        "content": "40%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0445_matematika-leve_2_C",
+        "label": "C",
+        "content": "45%",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0445_matematika-leve_3_D",
+        "label": "D",
+        "content": "50%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0446_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Faktorisasi prima dari 540 adalah …",
+    "imageUrl": null,
+    "explanation": "Pohon faktor dari 540:\n$$540 = 54 \\times 10 = (2 \\times 3^3) \\times (2 \\times 5) = 2^2 \\times 3^3 \\times 5$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0446_matematika-leve_0_A",
+        "label": "A",
+        "content": "$2 \\times 3^2 \\times 5$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0446_matematika-leve_1_B",
+        "label": "B",
+        "content": "$2^2 \\times 3^3 \\times 5$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0446_matematika-leve_2_C",
+        "label": "C",
+        "content": "$2^2 \\times 3^2 \\times 5$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0446_matematika-leve_3_D",
+        "label": "D",
+        "content": "$2^2 \\times 3^3$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0447_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pak Budi membuat denah kebun berbentuk persegi panjang berukuran 5 cm × 8 cm. Jika skala denah tersebut adalah 1 : 2.000, luas kebun Pak Budi sebenarnya adalah …",
+    "imageUrl": null,
+    "explanation": "Skala $1 : 2.000$:\n- Panjang sebenarnya $= 8 \\times 2.000 \\text{ cm} = 16.000 \\text{ cm} = 160 \\text{ m}$\n- Lebar sebenarnya $= 5 \\times 2.000 \\text{ cm} = 10.000 \\text{ cm} = 100 \\text{ m}$\n$$\\text{Luas sebenarnya} = 160 \\times 100 = 16.000 \\text{ m}^2$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0447_matematika-leve_0_A",
+        "label": "A",
+        "content": "800 m2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0447_matematika-leve_1_B",
+        "label": "B",
+        "content": "8000 m2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0447_matematika-leve_2_C",
+        "label": "C",
+        "content": "1.600 m2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0447_matematika-leve_3_D",
+        "label": "D",
+        "content": "16.000 m2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0448_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah uang A dan B adalah Rp 500.000,00. Jumlah uang B dan C adalah Rp 750.000,00. Jumlah uang A dan C adalah Rp 650.000,00. Berapa jumlah uang B?",
+    "imageUrl": null,
+    "explanation": "Sistem persamaan:\n(1) $A + B = 500.000$\n(2) $B + C = 750.000$\n(3) $A + C = 650.000$\nJumlahkan ketiga persamaan:\n$$2(A + B + C) = 1.900.000 \\implies A + B + C = 950.000$$.\n$$B = (A + B + C) - (A + C) = 950.000 - 650.000 = \\text{Rp } 300.000,00$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0448_matematika-leve_0_A",
+        "label": "A",
+        "content": "Rp 200.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0448_matematika-leve_1_B",
+        "label": "B",
+        "content": "Rp 300.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0448_matematika-leve_2_C",
+        "label": "C",
+        "content": "Rp 350.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0448_matematika-leve_3_D",
+        "label": "D",
+        "content": "Rp 400.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0449_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika $\\sqrt{24} = 4,899$ dan $\\sqrt{2,4} = 1,549$, maka nilai dari $\\sqrt{2400} + \\sqrt{0,024}$ adalah …",
+    "imageUrl": null,
+    "explanation": "Bentuk akar:\n$$\\sqrt{2400} = \\sqrt{24 \\times 100} = 10 \\times \\sqrt{24} = 10 \\times 4,899 = 48,99$$\n$$\\sqrt{0,024} = \\sqrt{\\frac{2,4}{100}} = \\frac{\\sqrt{2,4}}{10} = \\frac{1,549}{10} = 0,1549$$\n$$48,99 + 0,1549 = 49,1449 \\approx 49,145$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0449_matematika-leve_0_A",
+        "label": "A",
+        "content": "49,145",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0449_matematika-leve_1_B",
+        "label": "B",
+        "content": "49,155",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0449_matematika-leve_2_C",
+        "label": "C",
+        "content": "16,145",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0449_matematika-leve_3_D",
+        "label": "D",
+        "content": "16,155",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0450_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui koordinat titik P(3, –2), Q(–1, 4) dan R(5, 2). Jika titik S ditambahkan sehingga PQRS membentuk jajar genjang, maka koordinat titik S adalah …",
+    "imageUrl": null,
+    "explanation": "Pada jajar genjang $PQRS$, vektor $\\vec{PQ} = \\vec{SR}$.\n$$\\vec{PQ} = Q - P = (-1 - 3, 4 - (-2)) = (-4, 6)$$\n$$R - S = (-4, 6) \\implies S = R - (-4, 6) = (5 - (-4), 2 - 6) = (9, -4)$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0450_matematika-leve_0_A",
+        "label": "A",
+        "content": "(9, –4)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0450_matematika-leve_1_B",
+        "label": "B",
+        "content": "(1, 8)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0450_matematika-leve_2_C",
+        "label": "C",
+        "content": "(7, 0)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0450_matematika-leve_3_D",
+        "label": "D",
+        "content": "(1, 0)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0451_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Untuk menempuh perjalanan dari kota P ke kota Q dengan kecepatan rata-rata 75 km/jam, seorang pengendara motor biasanya memerlukan waktu selama 4 jam 40 menit. Agar ia tiba di kota Q dalam waktu 1 jam 10 menit lebih awal dari biasanya, kecepatan rata-rata motor tersebut harus … km/jam.",
+    "imageUrl": null,
+    "explanation": "Waktu normal $= 4 \\text{ jam } 40 \\text{ menit} = \\frac{14}{3} \\text{ jam}$.\n$$\\text{Jarak} = 75 \\times \\frac{14}{3} = 350 \\text{ km}$$.\nWaktu baru $= 4 \\text{ jam } 40 \\text{ menit} - 1 \\text{ jam } 10 \\text{ menit} = 3 \\text{ jam } 30 \\text{ menit} = 3,5 \\text{ jam}$.\n$$\\text{Kecepatan baru} = \\frac{350}{3,5} = 100 \\text{ km/jam}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0451_matematika-leve_0_A",
+        "label": "A",
+        "content": "85",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0451_matematika-leve_1_B",
+        "label": "B",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0451_matematika-leve_2_C",
+        "label": "C",
+        "content": "95",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0451_matematika-leve_3_D",
+        "label": "D",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0452_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "KPK dari $16ab^2$ dan $24a^2b$ adalah …",
+    "imageUrl": null,
+    "explanation": "KPK koefisien: $\\text{KPK}(16, 24) = 48$.\nKPK variabel: ambil pangkat tertinggi, yaitu $a^2$ dan $b^2$.\n$$\\text{KPK} = 48a^2b^2$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0452_matematika-leve_0_A",
+        "label": "A",
+        "content": "$4ab$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0452_matematika-leve_1_B",
+        "label": "B",
+        "content": "$8a^2b^2$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0452_matematika-leve_2_C",
+        "label": "C",
+        "content": "$48a^2b^2$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0452_matematika-leve_3_D",
+        "label": "D",
+        "content": "$384a^3b^3$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0453_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di sebuah kelas, terdapat 25 siswa. Nilai rata-rata ulangan matematika siswa laki-laki adalah 78, sedangkan nilai rata-rata ulangan matematika siswa perempuan adalah 85. Jika jumlah siswa laki-laki adalah 10 orang, berapakah nilai rata-rata ulangan matematika seluruh siswa di kelas tersebut?",
+    "imageUrl": null,
+    "explanation": "Jumlah siswa laki-laki $= 10$, nilai rata-rata $= 78 \\implies \\text{Total} = 780$.\nJumlah siswa perempuan $= 25 - 10 = 15$, nilai rata-rata $= 85 \\implies \\text{Total} = 1.275$.\n$$\\text{Rata-rata gabungan} = \\frac{780 + 1275}{25} = \\frac{2055}{25} = 82,2$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0453_matematika-leve_0_A",
+        "label": "A",
+        "content": "80,2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0453_matematika-leve_1_B",
+        "label": "B",
+        "content": "81,2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0453_matematika-leve_2_C",
+        "label": "C",
+        "content": "82,2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0453_matematika-leve_3_D",
+        "label": "D",
+        "content": "83,2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0454_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "A satellite orbits the Earth at an altitude of 500 kilometers. If the satellite makes 12 revolutions around the Earth, how many kilometers does the satellite travel? The Earth’s diameter is 12,742 kilometers, and use $\\pi = 3,14$.",
+    "imageUrl": null,
+    "explanation": "Diameter lintasan satelit $= 12.742 + 2(500) = 13.742 \\text{ km}$.\nKeliling 1 orbit $= \\pi \\times D = 3,14 \\times 13.742 = 43.149,88 \\text{ km}$.\nJarak 12 kali orbit $= 12 \\times 43.149,88 = 517.798,56 \\text{ km}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0454_matematika-leve_0_A",
+        "label": "A",
+        "content": "517.798,56 km",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0454_matematika-leve_1_B",
+        "label": "B",
+        "content": "507.798,24 km",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0454_matematika-leve_2_C",
+        "label": "C",
+        "content": "517.656,24 km",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0454_matematika-leve_3_D",
+        "label": "D",
+        "content": "507.656,24 km",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0455_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah pecahan $\\frac{x}{y}$ mempunyai sifat-sifat berikut:\n(a) $x$ dan $y$ adalah bilangan bulat positif,\n(b) $x + y = 15$, dan\n(c) Nilai pecahan $\\frac{x}{y} > 1$.\n\nPecahan yang memenuhi syarat tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Uji syarat:\nPada pilihan $\\frac{8}{7}$, pembilang $x = 8$ dan penyebut $y = 7$.\n- $8 + 7 = 15$ (Memenuhi syarat b)\n- $\\frac{8}{7} > 1$ (Memenuhi syarat c).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0455_matematika-leve_0_A",
+        "label": "A",
+        "content": "$\\frac{7}{9}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0455_matematika-leve_1_B",
+        "label": "B",
+        "content": "$\\frac{7}{8}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0455_matematika-leve_2_C",
+        "label": "C",
+        "content": "$\\frac{8}{7}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0455_matematika-leve_3_D",
+        "label": "D",
+        "content": "$\\frac{9}{7}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0456_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tentukan nilai $x$ pada persamaan teleskopik berikut:\n$$\\left(1 + \\frac{1}{2}\\right)\\left(1 + \\frac{1}{3}\\right)\\left(1 + \\frac{1}{4}\\right) \\dots \\left(1 + \\frac{1}{x}\\right) = 10$$",
+    "imageUrl": null,
+    "explanation": "Sederhanakan setiap suku:\n$$\\frac{3}{2} \\times \\frac{4}{3} \\times \\frac{5}{4} \\times \\dots \\times \\frac{x+1}{x} = 10$$\nSuku-suku saling mencoret menyisakan:\n$$\\frac{x+1}{2} = 10 \\implies x + 1 = 20 \\implies x = 19$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0456_matematika-leve_A",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0456_matematika-leve_0_B",
+        "label": "B",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0456_matematika-leve_1_C",
+        "label": "C",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0456_matematika-leve_2_D",
+        "label": "D",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0457_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "35,125 – 3,45 + 10,7 = …",
+    "imageUrl": null,
+    "explanation": "Operasi desimal:\n$$35,125 - 3,45 = 31,675$$\n$$31,675 + 10,7 = 42,375$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0457_matematika-leve_0_A",
+        "label": "A",
+        "content": "42,375",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0457_matematika-leve_1_B",
+        "label": "B",
+        "content": "42,275",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0457_matematika-leve_2_C",
+        "label": "C",
+        "content": "42,175",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0457_matematika-leve_3_D",
+        "label": "D",
+        "content": "43,375",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0458_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut adalah data berat badan siswa kelas 5 (dalam kg):\n$$\\begin{array}{|c|c|c|c|c|c|}\\hline \\text{Berat (kg)} & 30 & 32 & 33 & 35 & 36 \\\\ \\hline \\text{Frekuensi} & 4 & 6 & 5 & 3 & 2 \\\\ \\hline \\end{array}$$\nSiswa yang memiliki berat badan di atas rata-rata adalah …%",
+    "imageUrl": null,
+    "explanation": "Total frekuensi $= 4 + 6 + 5 + 3 + 2 = 20$ siswa.\nTotal berat $= (30 \\times 4) + (32 \\times 6) + (33 \\times 5) + (35 \\times 3) + (36 \\times 2) = 120 + 192 + 165 + 105 + 72 = 654$.\n$$\\text{Rata-rata} = \\frac{654}{20} = 32,7 \\text{ kg}$$.\nSiswa di atas 32,7 kg (berat 33, 35, 36) ada $5 + 3 + 2 = 10$ siswa.\n$$\\text{Persentase} = \\frac{10}{20} \\times 100\\% = 50\\%$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0458_matematika-leve_0_A",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0458_matematika-leve_1_B",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0458_matematika-leve_2_C",
+        "label": "C",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0458_matematika-leve_3_D",
+        "label": "D",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0459_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut adalah data berat badan siswa kelas 5 (dalam kg):\n$$\\begin{array}{|c|c|c|c|c|c|}\\hline \\text{Berat (kg)} & 30 & 32 & 33 & 35 & 36 \\\\ \\hline \\text{Frekuensi} & 4 & 6 & 5 & 3 & 2 \\\\ \\hline \\end{array}$$\nModus dari data tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Modus adalah nilai yang memiliki frekuensi terbesar, yaitu nilai **32** dengan frekuensi 6 siswa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0459_matematika-leve_0_A",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0459_matematika-leve_1_B",
+        "label": "B",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0459_matematika-leve_2_C",
+        "label": "C",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0459_matematika-leve_3_D",
+        "label": "D",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0460_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut adalah data berat badan siswa kelas 5 (dalam kg):\n$$\\begin{array}{|c|c|c|c|c|c|}\\hline \\text{Berat (kg)} & 30 & 32 & 33 & 35 & 36 \\\\ \\hline \\text{Frekuensi} & 4 & 6 & 5 & 3 & 2 \\\\ \\hline \\end{array}$$\nMedian dari data tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Total data $= 20$. Median adalah rata-rata data ke-10 dan ke-11.\n- Data ke-1 sampai 4: 30\n- Data ke-5 sampai 10: 32\n- Data ke-11 sampai 15: 33\n$$\\text{Median} = \\frac{32 + 33}{2} = 32,5$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0460_matematika-leve_0_A",
+        "label": "A",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0460_matematika-leve_1_B",
+        "label": "B",
+        "content": "33,5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0460_matematika-leve_2_C",
+        "label": "C",
+        "content": "32,5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0460_matematika-leve_3_D",
+        "label": "D",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0461_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah segitiga ABC memiliki sudut $A = 60^\\circ$ dan sudut $B = 80^\\circ$. Di dalam segitiga tersebut, terdapat titik D sedemikian sehingga garis AD membagi sudut A menjadi dua sama besar, dan garis BD membagi sudut B menjadi dua sama besar. Besar sudut ADB adalah …",
+    "imageUrl": null,
+    "explanation": "Garis AD dan BD adalah garis bagi sudut:\n- $\\angle DAB = \\frac{60^\\circ}{2} = 30^\\circ$\n- $\\angle DBA = \\frac{80^\\circ}{2} = 40^\\circ$\nPada segitiga $ABD$:\n$$\\angle ADB = 180^\\circ - (30^\\circ + 40^\\circ) = 180^\\circ - 70^\\circ = 110^\\circ$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0461_matematika-leve_0_A",
+        "label": "A",
+        "content": "$100^\\circ$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0461_matematika-leve_1_B",
+        "label": "B",
+        "content": "$110^\\circ$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0461_matematika-leve_2_C",
+        "label": "C",
+        "content": "$120^\\circ$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0461_matematika-leve_3_D",
+        "label": "D",
+        "content": "$130^\\circ$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0462_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah taman berbentuk persegi panjang memiliki panjang 48 meter dan lebar 36 meter. Taman tersebut akan dipasangi paving block berbentuk persegi dengan ukuran yang sama. Jika tidak boleh ada paving block yang dipotong, maka panjang sisi paving block terbesar yang mungkin adalah …",
+    "imageUrl": null,
+    "explanation": "Ukuran sisi paving block terbesar yang dapat menutup taman tanpa dipotong adalah FPB dari panjang dan lebarnya:\n$$\\text{FPB}(48, 36) = 12 \\text{ meter}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0462_matematika-leve_0_A",
+        "label": "A",
+        "content": "4 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0462_matematika-leve_1_B",
+        "label": "B",
+        "content": "6 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0462_matematika-leve_2_C",
+        "label": "C",
+        "content": "12 meter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0462_matematika-leve_3_D",
+        "label": "D",
+        "content": "18 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0463_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di sebuah sekolah, terdapat 50 siswa. Setiap siswa mengikuti kegiatan ekstrakurikuler musik atau olahraga, tetapi ada 8 siswa yang mengikuti kedua kegiatan tersebut. Jika 25 siswa mengikuti kegiatan musik, maka berapa banyak siswa yang hanya mengikuti kegiatan olahraga?",
+    "imageUrl": null,
+    "explanation": "Total siswa $= 50$.\nSiswa yang mengikuti kegiatan musik $= 25$.\nKarena setiap siswa wajib mengikuti musik atau olahraga, maka siswa yang hanya mengikuti olahraga adalah:\n$$\\text{Hanya Olahraga} = 50 - 25 = 25 \\text{ orang}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0463_matematika-leve_0_A",
+        "label": "A",
+        "content": "17 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0463_matematika-leve_1_B",
+        "label": "B",
+        "content": "25 orang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0463_matematika-leve_2_C",
+        "label": "C",
+        "content": "33 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0463_matematika-leve_3_D",
+        "label": "D",
+        "content": "42 orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0464_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah roda dengan jari-jari 14 cm menggelinding di jalan dari titik A ke titik B. Jika roda tersebut berputar sebanyak 25 kali, maka jarak antara titik A dan titik B adalah …",
+    "imageUrl": null,
+    "explanation": "Keliling roda: $$K = 2 \\times \\pi \\times r = 2 \\times \\frac{22}{7} \\times 14 = 88 \\text{ cm}$$.\nJarak $= 25 \\times 88 \\text{ cm} = 2.200 \\text{ cm} = 22 \\text{ meter}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0464_matematika-leve_0_A",
+        "label": "A",
+        "content": "11 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0464_matematika-leve_1_B",
+        "label": "B",
+        "content": "22 meter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0464_matematika-leve_2_C",
+        "label": "C",
+        "content": "33 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0464_matematika-leve_3_D",
+        "label": "D",
+        "content": "44 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0465_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Terdapat tiga buah kubus dengan perbandingan volume 1 : 8 : 27. Jika jumlah panjang semua rusuk ketiga kubus adalah 144 cm, maka selisih panjang rusuk kubus terbesar dan terkecil adalah …",
+    "imageUrl": null,
+    "explanation": "Perbandingan volume $= 1 : 8 : 27 \\implies$ Perbandingan panjang rusuk $= \\sqrt[3]{1} : \\sqrt[3]{8} : \\sqrt[3]{27} = 1 : 2 : 3$.\nMisalkan panjang rusuk masing-masing adalah $x, 2x, 3x$.\nSetiap kubus memiliki 12 rusuk:\n$$12(x + 2x + 3x) = 144 \\implies 12(6x) = 72x = 144 \\implies x = 2 \\text{ cm}$$.\nRusuk terbesar $= 3x = 6$ cm, terkecil $= x = 2$ cm.\n$$\\text{Selisih} = 6 - 2 = 4 \\text{ cm}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0465_matematika-leve_0_A",
+        "label": "A",
+        "content": "4 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0465_matematika-leve_1_B",
+        "label": "B",
+        "content": "6 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0465_matematika-leve_2_C",
+        "label": "C",
+        "content": "8 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0465_matematika-leve_3_D",
+        "label": "D",
+        "content": "12 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0466_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-3-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dua buah mobil, A dan B, berangkat dari kota yang sama dan melalui rute yang sama. Mobil A berangkat pukul 07.00 dengan kecepatan 60 km/jam. Mobil B berangkat pukul 07.30 dengan kecepatan 80 km/jam. Pada pukul berapa mobil B menyusul mobil A?",
+    "imageUrl": null,
+    "explanation": "Mobil A berangkat 07.00 ($v_A = 60 \\text{ km/jam}$). Pada 07.30 (30 menit $= 0,5$ jam), Mobil A sudah menempuh $60 \\times 0,5 = 30$ km.\nSelisih kecepatan $= 80 - 60 = 20 \\text{ km/jam}$.\n$$\\text{Waktu menyusul} = \\frac{30}{20} = 1,5 \\text{ jam} = 1 \\text{ jam } 30 \\text{ menit}$$.\nMobil B menyusul pada pukul: $$07.30 + 01.30 = 09.00$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0466_matematika-leve_0_A",
+        "label": "A",
+        "content": "08.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0466_matematika-leve_1_B",
+        "label": "B",
+        "content": "09.00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0466_matematika-leve_2_C",
+        "label": "C",
+        "content": "09.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0466_matematika-leve_3_D",
+        "label": "D",
+        "content": "10.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

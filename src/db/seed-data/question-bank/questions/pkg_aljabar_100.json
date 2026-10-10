@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "q_0001_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika ☐ + 17 = 42, maka nilai ☐ + 8 adalah ...",
+    "imageUrl": null,
+    "explanation": "☐ = 42 − 17 = 25. Maka ☐ + 8 = 25 + 8 = 33. Perhatikan: yang ditanya bukan ☐, tetapi ☐ + 8.\nJawaban: B. 33",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0001_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0001_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0001_bilangan-hilang_2_C",
+        "label": "C",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0001_bilangan-hilang_3_D",
+        "label": "D",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0002_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika ▲ − 26 = 39, maka nilai 2 × ▲ adalah ...",
+    "imageUrl": null,
+    "explanation": "▲ = 39 + 26 = 65. Maka 2 × ▲ = 2 × 65 = 130.\nJawaban: C. 130",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0002_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0002_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "120",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0002_bilangan-hilang_2_C",
+        "label": "C",
+        "content": "130",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0002_bilangan-hilang_3_D",
+        "label": "D",
+        "content": "132",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0003_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika 5 × ● = 85, maka nilai ● + 10 adalah ...",
+    "imageUrl": null,
+    "explanation": "● = 85 ÷ 5 = 17. Maka ● + 10 = 17 + 10 = 27.\nJawaban: A. 27",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0003_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0003_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0003_bilangan-hilang_2_C",
+        "label": "C",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0003_bilangan-hilang_3_D",
+        "label": "D",
+        "content": "95",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0004_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika ■ ÷ 6 = 14, maka nilai ■ − 20 adalah ...",
+    "imageUrl": null,
+    "explanation": "■ = 14 × 6 = 84. Maka ■ − 20 = 84 − 20 = 64.\nJawaban: B. 64",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0004_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0004_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0004_bilangan-hilang_2_C",
+        "label": "C",
+        "content": "74",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0004_bilangan-hilang_3_D",
+        "label": "D",
+        "content": "84",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0005_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika ☐ + ☐ + ☐ + 12 = 39, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "3 × ☐ = 39 − 12 = 27. Maka ☐ = 27 ÷ 3 = 9.\nJawaban: D. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0005_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0005_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0005_bilangan-hilang_2_C",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0005_bilangan-hilang_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0006_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika 4 × ☐ − 7 = 45, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "4 × ☐ = 45 + 7 = 52. Maka ☐ = 52 ÷ 4 = 13.\nJawaban: C. 13",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0006_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0006_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0006_bilangan-hilang_3_C",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0006_bilangan-hilang_2_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0007_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika ☐ + 15 = ▲ dan ▲ = 3 × 12, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Langkah pengerjaan:\n1. Nilai $\\Delta = 3 \\times 12 = 36$.\n2. Persamaan pertama: $\\Box + 15 = \\Delta \\implies \\Box + 15 = 36$.\n3. Mencari nilai $\\Box$:\n$$\\Box = 36 - 15 = 21$$.\n\nKunci Jawaban: **B (21)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0007_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0007_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0007_bilangan-hilang_2_C",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0007_bilangan-hilang_3_D",
+        "label": "D",
+        "content": "51",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0008_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika 2 × (☐ + 9) = 46, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Bagi kedua ruas dengan 2: ☐ + 9 = 23. Maka ☐ = 23 − 9 = 14.\nJawaban: D. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0008_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0008_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0008_bilangan-hilang_2_C",
+        "label": "C",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0008_bilangan-hilang_3_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0009_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika ☐ − 8 = ● dan ● + 5 = 21, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari persamaan kedua: ● = 21 − 5 = 16. Maka ☐ = 16 + 8 = 24.\nJawaban: C. 24",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0009_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0009_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0009_bilangan-hilang_2_C",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0009_bilangan-hilang_3_D",
+        "label": "D",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0010_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika 7 × ☐ = 3 × 21, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Ruas kanan: 3 × 21 = 63. Maka ☐ = 63 ÷ 7 = 9.\nJawaban: A. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0010_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0010_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0010_bilangan-hilang_3_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0010_bilangan-hilang_2_D",
+        "label": "D",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0011_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika ☐ + ▲ = 30 dan ▲ = ☐ + 6, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Ganti ▲ dengan ☐ + 6: ☐ + ☐ + 6 = 30 → 2 × ☐ = 24 → ☐ = 12.\nJawaban: A. 12",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0011_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0011_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0011_bilangan-hilang_2_C",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0011_bilangan-hilang_3_D",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0012_bilangan-hilang",
+    "topicId": "top_olimpiade-matematika-sd_bilangan-hil",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika 3 × ☐ + 2 × ☐ = 60, maka nilai ☐ + 4 adalah ...",
+    "imageUrl": null,
+    "explanation": "3☐ + 2☐ = 5☐, jadi 5 × ☐ = 60 → ☐ = 12. Maka ☐ + 4 = 16.\nJawaban: C. 16",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0012_bilangan-hilang_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0012_bilangan-hilang_1_B",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0012_bilangan-hilang_2_C",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0012_bilangan-hilang_3_D",
+        "label": "D",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0013_operasi-khusus-",
+    "topicId": "top_olimpiade-matematika-sd_operasi-khus",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ⊗ b = a + b + 2. Nilai 5 ⊗ 7 adalah ...",
+    "imageUrl": null,
+    "explanation": "Terapkan aturannya: 5 ⊗ 7 = 5 + 7 + 2 = 14.\nJawaban: D. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0013_operasi-khusus-_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0013_operasi-khusus-_1_B",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0013_operasi-khusus-_2_C",
+        "label": "C",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0013_operasi-khusus-_3_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0014_operasi-khusus-",
+    "topicId": "top_olimpiade-matematika-sd_operasi-khus",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ⊕ b = (a × b) − a. Nilai 6 ⊕ 4 adalah ...",
+    "imageUrl": null,
+    "explanation": "6 ⊕ 4 = (6 × 4) − 6 = 24 − 6 = 18.\nJawaban: A. 18",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0014_operasi-khusus-_0_A",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0014_operasi-khusus-_1_B",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0014_operasi-khusus-_2_C",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0014_operasi-khusus-_3_D",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0015_operasi-khusus-",
+    "topicId": "top_olimpiade-matematika-sd_operasi-khus",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ✦ b = 2a + b. Nilai 3 ✦ 8 adalah ...",
+    "imageUrl": null,
+    "explanation": "3 ✦ 8 = (2 × 3) + 8 = 6 + 8 = 14.\nJawaban: B. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0015_operasi-khusus-_0_A",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0015_operasi-khusus-_1_B",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0015_operasi-khusus-_2_C",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0015_operasi-khusus-_3_D",
+        "label": "D",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0016_operasi-khusus-",
+    "topicId": "top_olimpiade-matematika-sd_operasi-khus",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ★ b = a + b + (a × b). Nilai 2 ★ 5 adalah ...",
+    "imageUrl": null,
+    "explanation": "2 ★ 5 = 2 + 5 + (2 × 5) = 7 + 10 = 17.\nJawaban: D. 17",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0016_operasi-khusus-_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0016_operasi-khusus-_1_B",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0016_operasi-khusus-_2_C",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0016_operasi-khusus-_3_D",
+        "label": "D",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0017_operasi-khusus-",
+    "topicId": "top_olimpiade-matematika-sd_operasi-khus",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ⊗ b = a + b + 2. Jika 9 ⊗ x = 20, maka nilai x adalah ...",
+    "imageUrl": null,
+    "explanation": "9 + x + 2 = 20 → x + 11 = 20 → x = 9.\nJawaban: B. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0017_operasi-khusus-_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0017_operasi-khusus-_1_B",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0017_operasi-khusus-_2_C",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0017_operasi-khusus-_3_D",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0018_operasi-khusus-",
+    "topicId": "top_olimpiade-matematika-sd_operasi-khus",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ✦ b = 2a + b. Jika x ✦ 5 = 21, maka nilai x adalah ...",
+    "imageUrl": null,
+    "explanation": "2x + 5 = 21 → 2x = 16 → x = 8.\nJawaban: C. 8",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0018_operasi-khusus-_0_A",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0018_operasi-khusus-_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0018_operasi-khusus-_2_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0018_operasi-khusus-_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0019_operasi-khusus-",
+    "topicId": "top_olimpiade-matematika-sd_operasi-khus",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ⊙ b = a − 2b. Nilai (10 ⊙ 3) ⊙ 1 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan kurung dulu: 10 ⊙ 3 = 10 − (2 × 3) = 4. Lalu 4 ⊙ 1 = 4 − (2 × 1) = 2.\nJawaban: A. 2",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0019_operasi-khusus-_0_A",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0019_operasi-khusus-_1_B",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0019_operasi-khusus-_2_C",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0019_operasi-khusus-_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0020_operasi-khusus-",
+    "topicId": "top_olimpiade-matematika-sd_operasi-khus",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ⊗ b = (a × b) − (a + b). Nilai 7 ⊗ 3 adalah ...",
+    "imageUrl": null,
+    "explanation": "7 ⊗ 3 = (7 × 3) − (7 + 3) = 21 − 10 = 11.\nJawaban: D. 11",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0020_operasi-khusus-_0_A",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0020_operasi-khusus-_1_B",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0020_operasi-khusus-_2_C",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0020_operasi-khusus-_3_D",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0021_operasi-khusus-",
+    "topicId": "top_olimpiade-matematika-sd_operasi-khus",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ⊕ b = (a + b) ÷ 2. Nilai 12 ⊕ (8 ⊕ 4) adalah ...",
+    "imageUrl": null,
+    "explanation": "Kurung dulu: 8 ⊕ 4 = (8 + 4) ÷ 2 = 6. Lalu 12 ⊕ 6 = (12 + 6) ÷ 2 = 9.\nJawaban: C. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0021_operasi-khusus-_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0021_operasi-khusus-_1_B",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0021_operasi-khusus-_2_C",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0021_operasi-khusus-_3_D",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0022_operasi-khusus-",
+    "topicId": "top_olimpiade-matematika-sd_operasi-khus",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ★ b = a + b + (a × b). Jika 3 ★ x = 23, maka nilai x adalah ...",
+    "imageUrl": null,
+    "explanation": "3 + x + 3x = 23 → 3 + 4x = 23 → 4x = 20 → x = 5.\nJawaban: B. 5",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0022_operasi-khusus-_0_A",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0022_operasi-khusus-_1_B",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0022_operasi-khusus-_2_C",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0022_operasi-khusus-_3_D",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0023_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ☐ + ▲ = 14 dan ☐ − ▲ = 4, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan kedua persamaan: 2 × ☐ = 18 → ☐ = 9. (Cek: ▲ = 5, dan 9 + 5 = 14 ✓)\nJawaban: D. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0023_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0023_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0023_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0023_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0024_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ● + ■ = 20 dan ● = 3 × ■, maka nilai ● adalah ...",
+    "imageUrl": null,
+    "explanation": "Ganti ●: 3■ + ■ = 20 → 4■ = 20 → ■ = 5. Maka ● = 3 × 5 = 15.\nJawaban: A. 15",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0024_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0024_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0024_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0024_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0025_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ☐ + ☐ + ▲ = 17 dan ☐ + ▲ = 11, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Kurangkan persamaan kedua dari pertama: (2☐ + ▲) − (☐ + ▲) = 17 − 11 → ☐ = 6.\nJawaban: B. 6",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0025_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0025_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0025_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0025_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0026_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ▲ × ● = 24 dan ▲ + ● = 11 dengan ▲ > ●, maka nilai ▲ − ● adalah ...",
+    "imageUrl": null,
+    "explanation": "Cari dua bilangan yang hasil kalinya 24 dan jumlahnya 11: yaitu 8 dan 3. Karena ▲ > ●, maka ▲ = 8 dan ●\n= 3, sehingga ▲ − ● = 5.\nJawaban: B. 5",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0026_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0026_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0026_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0026_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0027_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ☐ + ▲ + ● = 18, ☐ = ▲ + 2, dan ● = ▲ − 2, maka nilai ▲ adalah ...",
+    "imageUrl": null,
+    "explanation": "Ganti semuanya ke ▲: (▲ + 2) + ▲ + (▲ − 2) = 18 → 3▲ = 18 → ▲ = 6.\nJawaban: B. 6",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0027_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0027_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0027_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0027_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0028_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ⊗ + ⊖ = 13, ⊖ + ⊠ = 15, dan ⊗ + ⊠ = 16, maka nilai ⊗ + ⊖ + ⊠ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan ketiganya: setiap simbol terhitung 2 kali, jadi 2 × (⊗ + ⊖ + ⊠) = 13 + 15 + 16 = 44. Maka ⊗ + ⊖\n+ ⊠ = 22.\nJawaban: A. 22",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0028_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0028_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0028_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0028_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0029_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ⊗ + ⊖ = 13, ⊖ + ⊠ = 15, dan ⊗ + ⊠ = 16, maka nilai ⊖ adalah ...",
+    "imageUrl": null,
+    "explanation": "Total ketiga simbol = 22 (lihat cara soal sebelumnya). Karena ⊗ + ⊠ = 16, maka ⊖ = 22 − 16 = 6.\nJawaban: A. 6",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0029_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0029_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0029_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0029_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0030_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ☐ × ▲ = 36 dan ☐ ÷ ▲ = 4, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari persamaan kedua, ☐ = 4 × ▲. Substitusi: 4▲ × ▲ = 36 → ▲ × ▲ = 9 → ▲ = 3. Maka ☐ = 4 × 3 = 12.\nJawaban: B. 12",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0030_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0030_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0030_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0030_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0031_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika 2 × ☐ + 3 × ▲ = 31 dan ▲ = 5, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "3 × 5 = 15, jadi 2☐ + 15 = 31 → 2☐ = 16 → ☐ = 8.\nJawaban: C. 8",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0031_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0031_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0031_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0031_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0032_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ● + ● + ■ = 20 dan ● + ■ + ■ = 22, maka nilai ● + ■ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan keduanya: 3● + 3■ = 42 → 3 × (● + ■) = 42 → ● + ■ = 14.\nJawaban: B. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0032_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0032_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0032_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0032_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0033_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ▲ + ▲ + ▲ = 21 dan ▲ + ● = 13, maka nilai ● × 2 adalah ...",
+    "imageUrl": null,
+    "explanation": "▲ = 21 ÷ 3 = 7. Maka ● = 13 − 7 = 6, sehingga ● × 2 = 12.\nJawaban: D. 12",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0033_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0033_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0033_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0033_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0034_sistem-persamaa",
+    "topicId": "top_olimpiade-matematika-sd_sistem-persa",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ☐ + ▲ = 9, ▲ + ● = 12, dan ☐ + ● = 11, maka nilai ● adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan ketiga persamaan: (☐ + ▲) + (▲ + ●) + (☐ + ●) = 9 + 12 + 11 = 32.\nSetiap simbol terhitung dua kali, jadi 2 × (☐ + ▲ + ●) = 32 → ☐ + ▲ + ● = 16.\nKarena ☐ + ▲ = 9, maka ● = 16 − 9 = 7. (Cek: ☐ = 4, ▲ = 5, ● = 7)\nJawaban: C",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0034_sistem-persamaa_0_A",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0034_sistem-persamaa_1_B",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0034_sistem-persamaa_2_C",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0034_sistem-persamaa_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0035_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Umur ayah 5 kali umur Andi. Jika selisih umur mereka 32 tahun, umur Andi adalah ...",
+    "imageUrl": null,
+    "explanation": "Misal umur Andi = x, umur ayah = 5x. Selisih: 5x − x = 4x = 32 → x = 8 tahun.\nJawaban: A. 8 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0035_soal-usia_0_A",
+        "label": "A",
+        "content": "8 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0035_soal-usia_1_B",
+        "label": "B",
+        "content": "9 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0035_soal-usia_2_C",
+        "label": "C",
+        "content": "10 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0035_soal-usia_3_D",
+        "label": "D",
+        "content": "12 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0036_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Umur ibu 3 kali umur Rina. Jumlah umur mereka 48 tahun. Umur ibu adalah ...",
+    "imageUrl": null,
+    "explanation": "Misal umur Rina = x. x + 3x = 48 → 4x = 48 → x = 12. Umur ibu = 3 × 12 = 36 tahun.\nJawaban: D. 36 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0036_soal-usia_0_A",
+        "label": "A",
+        "content": "12 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0036_soal-usia_1_B",
+        "label": "B",
+        "content": "24 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0036_soal-usia_2_C",
+        "label": "C",
+        "content": "32 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0036_soal-usia_3_D",
+        "label": "D",
+        "content": "36 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0037_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Umur Budi 4 tahun lebih tua dari Cici. Jumlah umur mereka 26 tahun. Umur Cici adalah ...",
+    "imageUrl": null,
+    "explanation": "Misal umur Cici = x, umur Budi = x + 4. x + (x + 4) = 26 → 2x = 22 → x = 11 tahun.\nJawaban: B. 11 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0037_soal-usia_0_A",
+        "label": "A",
+        "content": "10 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0037_soal-usia_1_B",
+        "label": "B",
+        "content": "11 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0037_soal-usia_2_C",
+        "label": "C",
+        "content": "13 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0037_soal-usia_3_D",
+        "label": "D",
+        "content": "15 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0038_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Lima tahun yang lalu umur Dina 9 tahun. Umur Dina 6 tahun yang akan datang adalah ...",
+    "imageUrl": null,
+    "explanation": "Umur sekarang = 9 + 5 = 14 tahun. Enam tahun lagi = 14 + 6 = 20 tahun.\nJawaban: B. 20 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0038_soal-usia_0_A",
+        "label": "A",
+        "content": "15 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0038_soal-usia_1_B",
+        "label": "B",
+        "content": "20 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0038_soal-usia_2_C",
+        "label": "C",
+        "content": "18 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0038_soal-usia_3_D",
+        "label": "D",
+        "content": "21 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0039_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Umur kakek 4 kali umur cucunya. Enam tahun lagi umur kakek 3 kali umur cucunya. Umur cucu sekarang adalah ...",
+    "imageUrl": null,
+    "explanation": "Misal umur cucu = x, kakek = 4x. Enam tahun lagi: 4x + 6 = 3(x + 6) → 4x + 6 = 3x + 18 → x = 12 tahun.\n(Cek: kakek 48; enam tahun lagi 54 = 3 × 18 ✓)\nJawaban: B. 12 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0039_soal-usia_0_A",
+        "label": "A",
+        "content": "10 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0039_soal-usia_1_B",
+        "label": "B",
+        "content": "12 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0039_soal-usia_2_C",
+        "label": "C",
+        "content": "14 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0039_soal-usia_3_D",
+        "label": "D",
+        "content": "15 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0040_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Umur ayah 3 kali umur anaknya. Sepuluh tahun lagi umur ayah 2 kali umur anaknya. Umur ayah sekarang adalah ...",
+    "imageUrl": null,
+    "explanation": "Misal umur anak = x, ayah = 3x. 3x + 10 = 2(x + 10) → 3x + 10 = 2x + 20 → x = 10. Umur ayah = 3 × 10 = 30 tahun.\nJawaban: C. 30 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0040_soal-usia_0_A",
+        "label": "A",
+        "content": "20 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0040_soal-usia_1_B",
+        "label": "B",
+        "content": "24 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0040_soal-usia_2_C",
+        "label": "C",
+        "content": "30 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0040_soal-usia_3_D",
+        "label": "D",
+        "content": "40 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0041_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah umur Ani dan Budi sekarang 34 tahun. Empat tahun yang akan datang jumlah umur mereka adalah ...",
+    "imageUrl": null,
+    "explanation": "Kedua orang sama-sama bertambah 4 tahun, jadi jumlahnya bertambah 2 × 4 = 8. Maka 34 + 8 = 42 tahun.\nJawaban: A. 42 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0041_soal-usia_0_A",
+        "label": "A",
+        "content": "42 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0041_soal-usia_1_B",
+        "label": "B",
+        "content": "38 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0041_soal-usia_2_C",
+        "label": "C",
+        "content": "40 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0041_soal-usia_3_D",
+        "label": "D",
+        "content": "44 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0042_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tiga tahun yang lalu jumlah umur Rio dan Sita 20 tahun. Jumlah umur mereka sekarang adalah ...",
+    "imageUrl": null,
+    "explanation": "Masing-masing bertambah 3 tahun, jadi jumlahnya bertambah 2 × 3 = 6. Maka 20 + 6 = 26 tahun.\nJawaban: B. 26 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0042_soal-usia_0_A",
+        "label": "A",
+        "content": "23 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0042_soal-usia_1_B",
+        "label": "B",
+        "content": "26 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0042_soal-usia_2_C",
+        "label": "C",
+        "content": "24 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0042_soal-usia_3_D",
+        "label": "D",
+        "content": "28 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0043_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Umur Tono 2 tahun lebih tua dari Udin, dan Udin 3 tahun lebih tua dari Vina. Jika umur Vina 8 tahun, umur Tono adalah ...",
+    "imageUrl": null,
+    "explanation": "Umur Udin = 8 + 3 = 11 tahun. Umur Tono = 11 + 2 = 13 tahun.\nJawaban: C. 13 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0043_soal-usia_0_A",
+        "label": "A",
+        "content": "11 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0043_soal-usia_1_B",
+        "label": "B",
+        "content": "12 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0043_soal-usia_2_C",
+        "label": "C",
+        "content": "13 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0043_soal-usia_3_D",
+        "label": "D",
+        "content": "14 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0044_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Umur ibu sekarang 32 tahun dan umur anaknya 8 tahun. Berapa tahun lagi umur ibu menjadi 2 kali umur anaknya?",
+    "imageUrl": null,
+    "explanation": "Misal t tahun lagi: 32 + t = 2 × (8 + t) → 32 + t = 16 + 2t → t = 16 tahun. (Cek: 48 = 2 × 24 ✓)\nJawaban: D. 16 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0044_soal-usia_0_A",
+        "label": "A",
+        "content": "8 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0044_soal-usia_1_B",
+        "label": "B",
+        "content": "12 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0044_soal-usia_2_C",
+        "label": "C",
+        "content": "24 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0044_soal-usia_3_D",
+        "label": "D",
+        "content": "16 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0045_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perbandingan umur Ali dan Bima adalah 2 : 5. Selisih umur mereka 15 tahun. Umur Bima adalah ...",
+    "imageUrl": null,
+    "explanation": "Selisih perbandingan = 5 − 2 = 3 bagian, senilai 15 tahun, jadi 1 bagian = 5 tahun. Umur Bima = 5 × 5 = 25 tahun.\nJawaban: A. 25 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0045_soal-usia_0_A",
+        "label": "A",
+        "content": "25 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0045_soal-usia_1_B",
+        "label": "B",
+        "content": "10 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0045_soal-usia_2_C",
+        "label": "C",
+        "content": "20 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0045_soal-usia_3_D",
+        "label": "D",
+        "content": "30 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0046_soal-usia",
+    "topicId": "top_olimpiade-matematika-sd_soal-usia",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Umur Dodi sekarang 14 tahun. Delapan tahun yang lalu umur ayahnya 4 kali umur Dodi saat itu. Umur ayah sekarang adalah ...",
+    "imageUrl": null,
+    "explanation": "Delapan tahun lalu umur Dodi = 6 tahun, umur ayah = 4 × 6 = 24 tahun. Umur ayah sekarang = 24 + 8 = 32 tahun.\nJawaban: C. 32 tahun",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0046_soal-usia_0_A",
+        "label": "A",
+        "content": "24 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0046_soal-usia_1_B",
+        "label": "B",
+        "content": "30 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0046_soal-usia_2_C",
+        "label": "C",
+        "content": "32 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0046_soal-usia_3_D",
+        "label": "D",
+        "content": "38 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0047_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola: 2, 5, 10, 17, 26, ... Suku berikutnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Selisihnya bertambah ganjil: +3, +5, +7, +9, lalu +11. Maka 26 + 11 = 37.\nJawaban: B. 37",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0047_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0047_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0047_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0047_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0048_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola: 1, 4, 9, 16, 25, ... Suku ke-9 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola ini adalah bilangan kuadrat: suku ke-n = n × n. Suku ke-9 = 9 × 9 = 81.\nJawaban: A. 81",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0048_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "81",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0048_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0048_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0048_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0049_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola: 3, 7, 11, 15, ... Suku ke-20 adalah ...",
+    "imageUrl": null,
+    "explanation": "Beda = 4. Suku ke-20 = 3 + (4 × 19) = 3 + 76 = 79.\nJawaban: C. 79",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0049_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "75",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0049_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0049_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "79",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0049_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "83",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0050_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola: 1, 3, 6, 10, 15, ... Suku ke-12 adalah ...",
+    "imageUrl": null,
+    "explanation": "Ini bilangan segitiga: suku ke-n = n × (n + 1) ÷ 2. Suku ke-12 = 12 × 13 ÷ 2 = 78.\nJawaban: D. 78",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0050_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0050_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0050_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "91",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0050_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "78",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0051_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Huruf M, A, T, I, K, A ditulis berulang membentuk barisan MATIKAMATIKA... Huruf ke-100 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 6 huruf. 100 ÷ 6 = 16 sisa 4, jadi huruf ke-100 sama dengan huruf ke-4, yaitu I.\nJawaban: C. I",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0051_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "M",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0051_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "T",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0051_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "I",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0051_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0052_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan: 1, 2, 3, 4, 1, 2, 3, 4, ... Suku ke-2025 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 4 suku. 2025 ÷ 4 = 506 sisa 1, jadi suku ke-2025 sama dengan suku ke-1, yaitu 1.\nJawaban: A. 1",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0052_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0052_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0052_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0052_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0053_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Nilai dari 1 + 2 + 3 + ... + 19 + 20 adalah ...",
+    "imageUrl": null,
+    "explanation": "Gunakan rumus n × (n + 1) ÷ 2 = 20 × 21 ÷ 2 = 210. Atau pasangkan: (1+20), (2+19), ... ada 10 pasang bernilai 21 → 210.\nJawaban: A. 210",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0053_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "210",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0053_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "190",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0053_pola-bilangan-b_3_C",
+        "label": "C",
+        "content": "200",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0053_pola-bilangan-b_2_D",
+        "label": "D",
+        "content": "220",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0054_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Nilai dari 1 + 2 + 3 + ... + 8 + 9 + 8 + ... + 3 + 2 + 1 adalah ...",
+    "imageUrl": null,
+    "explanation": "Barisan naik lalu turun dengan puncak 9 hasilnya selalu 9 × 9 = 81.\nJawaban: B. 81",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0054_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0054_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "81",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0054_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0054_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0055_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil dari 100 − 99 + 98 − 97 + ... + 2 − 1 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kelompokkan berpasangan: (100 − 99) + (98 − 97) + ... + (2 − 1). Tiap pasang bernilai 1 dan ada 50 pasang, jadi hasilnya 50.\nJawaban: C. 50",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0055_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0055_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "51",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0055_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0055_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0056_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola: 2, 6, 12, 20, 30, ... Suku ke-8 adalah ...",
+    "imageUrl": null,
+    "explanation": "Suku ke-n = n × (n + 1). Suku ke-8 = 8 × 9 = 72.\nJawaban: D. 72",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0056_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0056_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0056_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0056_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0057_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Susunan korek api membentuk pola: gambar ke-1 memakai 3 batang, ke-2 memakai 5 batang, ke-3 memakai 7 batang. Gambar ke-15 memakai ... batang.",
+    "imageUrl": null,
+    "explanation": "Bertambah 2 tiap gambar, jadi gambar ke-n memakai (2n + 1) batang. Gambar ke-15 = (2 × 15) + 1 = 31 batang.\nJawaban: C. 31",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0057_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0057_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0057_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "31",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0057_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0058_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan: 5, 10, 20, 40, ... Suku ke-7 adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap suku dikali 2. Suku ke-7 = 5 × 2 × 2 × 2 × 2 × 2 × 2 = 5 × 64 = 320.\nJawaban: B. 320",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0058_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "160",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0058_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "320",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0058_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "240",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0058_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "640",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0059_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pola titik membentuk segitiga: 1, 3, 6, 10, ... Terdapat 45 titik pada gambar ke- ...",
+    "imageUrl": null,
+    "explanation": "Suku ke-n = n × (n + 1) ÷ 2. Coba n = 9: 9 × 10 ÷ 2 = 45. Jadi gambar ke-9.\nJawaban: B. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0059_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0059_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0059_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0059_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0060_pola-bilangan-b",
+    "topicId": "top_olimpiade-matematika-sd_pola-bilanga",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan barisan: 100, 94, 88, 82, ... Suku ke-11 adalah ...",
+    "imageUrl": null,
+    "explanation": "Berkurang 6 tiap suku. Suku ke-11 = 100 − (6 × 10) = 100 − 60 = 40.\nJawaban: C. 40",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0060_pola-bilangan-b_0_A",
+        "label": "A",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0060_pola-bilangan-b_1_B",
+        "label": "B",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0060_pola-bilangan-b_2_C",
+        "label": "C",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0060_pola-bilangan-b_3_D",
+        "label": "D",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0061_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Di sebuah kandang terdapat ayam dan kambing sebanyak 20 ekor dengan jumlah kaki 56 buah.\nBanyak kambing adalah ...",
+    "imageUrl": null,
+    "explanation": "Jika semuanya ayam, kakinya 20 × 2 = 40. Kelebihan 56 − 40 = 16 kaki. Setiap kambing menambah 2 kaki, jadi kambing = 16 ÷ 2 = 8 ekor.\nJawaban: A. 8 ekor",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0061_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "8 ekor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0061_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "6 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0061_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "10 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0061_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "12 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0062_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Di halaman parkir terdapat sepeda (2 roda) dan becak (3 roda) sebanyak 15 buah dengan 38 roda.\nBanyak becak adalah ...",
+    "imageUrl": null,
+    "explanation": "Jika semuanya sepeda: 15 × 2 = 30 roda. Selisih 38 − 30 = 8 roda. Setiap becak menambah 1 roda, jadi becak = 8 buah.\nJawaban: B. 8 buah",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0062_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "7 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0062_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "8 buah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0062_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "9 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0062_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "10 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0063_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah kotak berisi koin Rp500,00 dan Rp1.000,00 sebanyak 30 keping senilai Rp23.000,00. Banyak koin Rp1.000,00 adalah ...",
+    "imageUrl": null,
+    "explanation": "Jika semuanya Rp1.000: 30 × 1.000 = Rp30.000. Kelebihan Rp7.000. Setiap koin Rp500 mengurangi\nRp500, jadi koin Rp500 = 7.000 ÷ 500 = 14 keping. Koin Rp1.000 = 30 − 14 = 16 keping.\nJawaban: A. 16 keping",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0063_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "16 keping",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0063_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "14 keping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0063_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "15 keping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0063_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "18 keping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0064_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tiket dewasa Rp20.000,00 dan tiket anak Rp10.000,00. Terjual 40 tiket dengan hasil Rp620.000,00.\nBanyak tiket dewasa adalah ...",
+    "imageUrl": null,
+    "explanation": "Jika semuanya tiket anak: 40 × 10.000 = Rp400.000. Selisih Rp220.000. Setiap tiket dewasa menambah\nRp10.000, jadi tiket dewasa = 220.000 ÷ 10.000 = 22 tiket.\nJawaban: D. 22 tiket",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0064_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "18 tiket",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0064_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "20 tiket",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0064_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "24 tiket",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0064_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "22 tiket",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0065_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Harga 3 buku dan 2 pensil adalah Rp23.000,00. Jika harga 1 buku Rp5.000,00, maka harga 1 pensil adalah ...",
+    "imageUrl": null,
+    "explanation": "Harga 3 buku = 3 × 5.000 = Rp15.000. Sisa untuk 2 pensil = 23.000 − 15.000 = Rp8.000. Harga 1 pensil = 8.000 ÷ 2 = Rp4.000.\nJawaban: A. Rp4.000,00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0065_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "Rp4.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0065_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "Rp3.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0065_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "Rp3.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0065_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "Rp4.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0066_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Harga 2 pensil dan 3 penghapus Rp16.000,00. Harga 2 pensil dan 1 penghapus Rp10.000,00. Harga\n1 penghapus adalah ...",
+    "imageUrl": null,
+    "explanation": "Selisih kedua keadaan hanya pada 2 penghapus: 16.000 − 10.000 = Rp6.000. Jadi harga 1 penghapus = 6.000 ÷ 2 = Rp3.000.\nJawaban: C. Rp3.000,00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0066_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "Rp2.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0066_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "Rp2.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0066_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "Rp3.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0066_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "Rp4.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0067_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Harga 4 roti dan 2 susu Rp34.000,00. Harga 4 roti dan 5 susu Rp52.000,00. Harga 1 susu adalah ...",
+    "imageUrl": null,
+    "explanation": "Selisihnya adalah 3 susu: 52.000 − 34.000 = Rp18.000. Harga 1 susu = 18.000 ÷ 3 = Rp6.000.\nJawaban: C. Rp6.000,00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0067_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "Rp5.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0067_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "Rp7.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0067_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "Rp6.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0067_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "Rp8.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0068_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tempat parkir menampung 24 kendaraan berupa mobil dan sepeda motor dengan 76 roda. Selisih banyak sepeda motor dan mobil adalah ...",
+    "imageUrl": null,
+    "explanation": "Jika semuanya motor: 24 × 2 = 48 roda. Selisih 76 − 48 = 28 roda; tiap mobil menambah 2 roda, jadi mobil\n= 14 dan motor = 10. Selisihnya 14 − 10 = 4.\nJawaban: B. 4",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0068_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0068_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0068_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0068_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0069_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Andi membeli 5 permen dan 3 coklat seharga Rp19.000,00. Jika harga 1 coklat Rp3.000,00, harga 1 permen adalah ...",
+    "imageUrl": null,
+    "explanation": "Harga 3 coklat = Rp9.000. Sisa untuk 5 permen = 19.000 − 9.000 = Rp10.000. Harga 1 permen = 10.000 ÷ 5 = Rp2.000.\nJawaban: B. Rp2.000,00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0069_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "Rp1.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0069_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "Rp2.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0069_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "Rp2.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0069_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "Rp3.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0070_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jumlah dua bilangan adalah 48 dan selisihnya 12. Bilangan yang lebih besar adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan terbesar = (jumlah + selisih) ÷ 2 = (48 + 12) ÷ 2 = 30. (Cek: 30 dan 18 ✓)\nJawaban: D. 30",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0070_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0070_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0070_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0070_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0071_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Suatu bilangan jika dikalikan 4 lalu dikurangi 9 hasilnya 39. Bilangan tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "Misal bilangan = x. 4x − 9 = 39 → 4x = 48 → x = 12.\nJawaban: C. 12",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0071_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0071_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0071_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0071_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0072_soal-cerita-dua",
+    "topicId": "top_olimpiade-matematika-sd_soal-cerita-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Berat 1 semangka sama dengan berat 3 melon. Berat 2 melon sama dengan berat 6 apel. Berat 1 semangka sama dengan berat ... apel.",
+    "imageUrl": null,
+    "explanation": "Dari syarat kedua: 1 melon setara 3 apel. Maka 1 semangka = 3 melon = 3 × 3 = 9 apel.\nJawaban: D. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0072_soal-cerita-dua_0_A",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0072_soal-cerita-dua_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0072_soal-cerita-dua_2_C",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0072_soal-cerita-dua_3_D",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0073_pecahan-persen-",
+    "topicId": "top_olimpiade-matematika-sd_pecahan-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sepertiga dari uang Sinta adalah Rp12.000,00. Uang Sinta seluruhnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Jika sepertiganya Rp12.000, maka seluruhnya = 3 × 12.000 = Rp36.000.\nJawaban: A. Rp36.000,00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0073_pecahan-persen-_0_A",
+        "label": "A",
+        "content": "Rp36.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0073_pecahan-persen-_1_B",
+        "label": "B",
+        "content": "Rp24.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0073_pecahan-persen-_2_C",
+        "label": "C",
+        "content": "Rp30.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0073_pecahan-persen-_3_D",
+        "label": "D",
+        "content": "Rp48.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0074_pecahan-persen-",
+    "topicId": "top_olimpiade-matematika-sd_pecahan-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seperempat dari suatu bilangan adalah 15. Setengah dari bilangan itu adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangannya = 4 × 15 = 60. Setengahnya = 60 ÷ 2 = 30.\nJawaban: D. 30",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0074_pecahan-persen-_0_A",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0074_pecahan-persen-_1_B",
+        "label": "B",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0074_pecahan-persen-_2_C",
+        "label": "C",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0074_pecahan-persen-_3_D",
+        "label": "D",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0075_pecahan-persen-",
+    "topicId": "top_olimpiade-matematika-sd_pecahan-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ali menggunakan 2/5 bagian uangnya untuk membeli buku dan sisanya Rp18.000,00. Uang Ali mulamula adalah ...",
+    "imageUrl": null,
+    "explanation": "Ali menggunakan 2/5 bagian uangnya untuk membeli buku dan sisanya Rp18.000,00. Uang Ali mula-mula adalah ...\nSisanya = 1 − 2/5 = 3/5 bagian, senilai Rp18.000. Jadi 1/5 bagian = Rp6.000 dan seluruhnya = 5 × 6.000 =\nRp30.000.\nJawaban: B. Rp30.000,00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0075_pecahan-persen-_0_A",
+        "label": "A",
+        "content": "Rp24.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0075_pecahan-persen-_1_B",
+        "label": "B",
+        "content": "Rp30.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0075_pecahan-persen-_2_C",
+        "label": "C",
+        "content": "Rp36.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0075_pecahan-persen-_3_D",
+        "label": "D",
+        "content": "Rp45.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0076_pecahan-persen-",
+    "topicId": "top_olimpiade-matematika-sd_pecahan-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Empat puluh persen dari suatu bilangan adalah 24. Bilangan itu adalah ...",
+    "imageUrl": null,
+    "explanation": "40% = 24, berarti 10% = 6. Maka 100% = 10 × 6 = 60.\nJawaban: A. 60",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0076_pecahan-persen-_0_A",
+        "label": "A",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0076_pecahan-persen-_1_B",
+        "label": "B",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0076_pecahan-persen-_2_C",
+        "label": "C",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0076_pecahan-persen-_3_D",
+        "label": "D",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0077_pecahan-persen-",
+    "topicId": "top_olimpiade-matematika-sd_pecahan-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dua puluh lima persen dari bilangan A sama dengan 50% dari bilangan B. Jika A + B = 60, maka nilai\nA adalah ...",
+    "imageUrl": null,
+    "explanation": "25% A = 50% B berarti A = 2B. Substitusi: 2B + B = 60 → 3B = 60 → B = 20, sehingga A = 40.\nJawaban: B. 40",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0077_pecahan-persen-_0_A",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0077_pecahan-persen-_1_B",
+        "label": "B",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0077_pecahan-persen-_2_C",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0077_pecahan-persen-_3_D",
+        "label": "D",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0078_pecahan-persen-",
+    "topicId": "top_olimpiade-matematika-sd_pecahan-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tiga puluh persen dari bilangan P sama dengan 20% dari bilangan Q. Jika Q − P = 15, maka nilai P\nadalah ...",
+    "imageUrl": null,
+    "explanation": "30% P = 20% Q → 3P = 2Q. Berarti Q lebih besar; ambil P = 2 bagian dan Q = 3 bagian. Selisih 1 bagian = 15, jadi P = 2 × 15 = 30. (Cek: Q = 45; 30% × 30 = 9 = 20% × 45 ✓)\nJawaban: A. 30",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0078_pecahan-persen-_0_A",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0078_pecahan-persen-_1_B",
+        "label": "B",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0078_pecahan-persen-_2_C",
+        "label": "C",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0078_pecahan-persen-_3_D",
+        "label": "D",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0079_pecahan-persen-",
+    "topicId": "top_olimpiade-matematika-sd_pecahan-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Setengah dari uang Doni ditambah Rp5.000,00 sama dengan Rp20.000,00. Uang Doni adalah ...",
+    "imageUrl": null,
+    "explanation": "Setengah uang Doni = 20.000 − 5.000 = Rp15.000. Maka uang Doni = 2 × 15.000 = Rp30.000.\nJawaban: C. Rp30.000,00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0079_pecahan-persen-_0_A",
+        "label": "A",
+        "content": "Rp25.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0079_pecahan-persen-_1_B",
+        "label": "B",
+        "content": "Rp35.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0079_pecahan-persen-_2_C",
+        "label": "C",
+        "content": "Rp30.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0079_pecahan-persen-_3_D",
+        "label": "D",
+        "content": "Rp50.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0080_pecahan-persen-",
+    "topicId": "top_olimpiade-matematika-sd_pecahan-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sepertiga kelereng Rian diberikan kepada adiknya, lalu 4 kelereng hilang sehingga tersisa 20 kelereng. Kelereng Rian mula-mula adalah ...",
+    "imageUrl": null,
+    "explanation": "Sebelum hilang: 20 + 4 = 24 kelereng, yaitu 2/3 bagian. Jadi 1/3 bagian = 12 dan seluruhnya = 3 × 12 = 36 kelereng.\nJawaban: B. 36",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0080_pecahan-persen-_0_A",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0080_pecahan-persen-_1_B",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0080_pecahan-persen-_2_C",
+        "label": "C",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0080_pecahan-persen-_3_D",
+        "label": "D",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0081_pecahan-persen-",
+    "topicId": "top_olimpiade-matematika-sd_pecahan-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Suatu bilangan dikurangi 20% dari dirinya sendiri hasilnya 48. Bilangan itu adalah ...",
+    "imageUrl": null,
+    "explanation": "Sisanya 80% dari bilangan = 48. Berarti 10% = 6, sehingga 100% = 60.\nJawaban: C. 60",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0081_pecahan-persen-_0_A",
+        "label": "A",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0081_pecahan-persen-_1_B",
+        "label": "B",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0081_pecahan-persen-_2_C",
+        "label": "C",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0081_pecahan-persen-_3_D",
+        "label": "D",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0082_pecahan-persen-",
+    "topicId": "top_olimpiade-matematika-sd_pecahan-pers",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perbandingan kelereng Ali dan Budi adalah 3 : 5. Jika jumlahnya 64 kelereng, kelereng Budi adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlah perbandingan = 3 + 5 = 8 bagian senilai 64, jadi 1 bagian = 8. Kelereng Budi = 5 × 8 = 40.\nJawaban: D. 40",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0082_pecahan-persen-_0_A",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0082_pecahan-persen-_1_B",
+        "label": "B",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0082_pecahan-persen-_2_C",
+        "label": "C",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0082_pecahan-persen-_3_D",
+        "label": "D",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0083_kriptaritma-nil",
+    "topicId": "top_olimpiade-matematika-sd_kriptaritma-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Diketahui penjumlahan AB + AB = 88, dengan A dan B masing-masing sebuah angka. Nilai A + B\nadalah ...",
+    "imageUrl": null,
+    "explanation": "2 × AB = 88 → AB = 44, jadi A = 4 dan B = 4. Maka A + B = 8.\nJawaban: A. 8",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0083_kriptaritma-nil_0_A",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0083_kriptaritma-nil_1_B",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0083_kriptaritma-nil_2_C",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0083_kriptaritma-nil_3_D",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0084_kriptaritma-nil",
+    "topicId": "top_olimpiade-matematika-sd_kriptaritma-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Diketahui AB + AB + AB + AB = 156, dengan A dan B masing-masing sebuah angka. Nilai B adalah ...",
+    "imageUrl": null,
+    "explanation": "4 × AB = 156 → AB = 39, jadi A = 3 dan B = 9.\nJawaban: B. 9",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0084_kriptaritma-nil_0_A",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0084_kriptaritma-nil_1_B",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0084_kriptaritma-nil_2_C",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0084_kriptaritma-nil_3_D",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0085_kriptaritma-nil",
+    "topicId": "top_olimpiade-matematika-sd_kriptaritma-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Suatu bilangan dua angka memiliki angka puluhan 3 lebih besar dari angka satuannya, dan jumlah kedua angkanya 11. Bilangan itu adalah ...",
+    "imageUrl": null,
+    "explanation": "Misal satuan = s, puluhan = s + 3. (s + 3) + s = 11 → 2s = 8 → s = 4, puluhan = 7. Bilangannya 74.\nJawaban: D. 74",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0085_kriptaritma-nil_0_A",
+        "label": "A",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0085_kriptaritma-nil_1_B",
+        "label": "B",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0085_kriptaritma-nil_2_C",
+        "label": "C",
+        "content": "83",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0085_kriptaritma-nil_3_D",
+        "label": "D",
+        "content": "74",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0086_kriptaritma-nil",
+    "topicId": "top_olimpiade-matematika-sd_kriptaritma-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Suatu bilangan dua angka jika kedua angkanya ditukar posisinya, nilainya bertambah 27. Jika jumlah kedua angkanya 9, bilangan semula adalah ...",
+    "imageUrl": null,
+    "explanation": "Menukar posisi angka mengubah nilai sebesar 9 × (selisih angka) = 27, jadi selisih angkanya 3. Dengan jumlah 9: angkanya 3 dan 6. Karena nilainya bertambah, bilangan semula yang lebih kecil, yaitu 36.\nJawaban: B. 36",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0086_kriptaritma-nil_0_A",
+        "label": "A",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0086_kriptaritma-nil_1_B",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0086_kriptaritma-nil_2_C",
+        "label": "C",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0086_kriptaritma-nil_3_D",
+        "label": "D",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0087_kriptaritma-nil",
+    "topicId": "top_olimpiade-matematika-sd_kriptaritma-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Diketahui penjumlahan bilangan dua angka A5 + 3B = 82. Jika A = 4, maka nilai B adalah ...",
+    "imageUrl": null,
+    "explanation": "A5 berarti 45. Maka 45 + 3B = 82 → 3B = 37, sehingga angka satuannya B = 7.\nJawaban: A. 7",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0087_kriptaritma-nil_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0087_kriptaritma-nil_1_B",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0087_kriptaritma-nil_2_C",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0087_kriptaritma-nil_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0088_kriptaritma-nil",
+    "topicId": "top_olimpiade-matematika-sd_kriptaritma-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Nilai tempat angka 7 pada bilangan 8.735 adalah ...",
+    "imageUrl": null,
+    "explanation": "Urut dari kanan: 5 satuan, 3 puluhan, 7 ratusan, 8 ribuan. Jadi angka 7 menempati nilai tempat ratusan\n(nilainya 700).\nJawaban: C. ratusan",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0088_kriptaritma-nil_0_A",
+        "label": "A",
+        "content": "puluhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0088_kriptaritma-nil_1_B",
+        "label": "B",
+        "content": "ribuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0088_kriptaritma-nil_2_C",
+        "label": "C",
+        "content": "ratusan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0088_kriptaritma-nil_3_D",
+        "label": "D",
+        "content": "satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0089_kriptaritma-nil",
+    "topicId": "top_olimpiade-matematika-sd_kriptaritma-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Angka 3, 6, dan 9 disusun menjadi bilangan tiga angka dengan setiap angka dipakai tepat sekali.\nSelisih bilangan terbesar dan terkecil adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan terbesar 963, terkecil 369. Selisihnya = 963 − 369 = 594.\nJawaban: C. 594",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0089_kriptaritma-nil_0_A",
+        "label": "A",
+        "content": "495",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0089_kriptaritma-nil_1_B",
+        "label": "B",
+        "content": "603",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0089_kriptaritma-nil_2_C",
+        "label": "C",
+        "content": "594",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0089_kriptaritma-nil_3_D",
+        "label": "D",
+        "content": "693",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0090_kriptaritma-nil",
+    "topicId": "top_olimpiade-matematika-sd_kriptaritma-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Suatu bilangan tiga angka memiliki angka ratusan 2 lebih besar dari angka puluhan, dan angka satuan\n3 kali angka puluhan. Jika angka puluhannya 2, bilangan itu adalah ...",
+    "imageUrl": null,
+    "explanation": "Puluhan = 2, ratusan = 2 + 2 = 4, satuan = 3 × 2 = 6. Bilangannya 426.\nJawaban: D. 426",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0090_kriptaritma-nil_0_A",
+        "label": "A",
+        "content": "246",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0090_kriptaritma-nil_1_B",
+        "label": "B",
+        "content": "462",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0090_kriptaritma-nil_2_C",
+        "label": "C",
+        "content": "624",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0090_kriptaritma-nil_3_D",
+        "label": "D",
+        "content": "426",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0091_posisi-antrian-",
+    "topicId": "top_olimpiade-matematika-sd_posisi-antri",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam sebuah barisan, Rudi berada di urutan ke-7 dari depan dan ke-12 dari belakang. Banyak anak dalam barisan adalah ...",
+    "imageUrl": null,
+    "explanation": "Rudi terhitung dua kali, jadi jumlahnya = 7 + 12 − 1 = 18 anak.\nJawaban: A. 18",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0091_posisi-antrian-_0_A",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0091_posisi-antrian-_1_B",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0091_posisi-antrian-_2_C",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0091_posisi-antrian-_3_D",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0092_posisi-antrian-",
+    "topicId": "top_olimpiade-matematika-sd_posisi-antri",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ada 6 anak di depan Sari dan 9 anak di belakangnya. Banyak anak seluruhnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Jangan lupa menghitung Sari sendiri: 6 + 1 + 9 = 16 anak.\nJawaban: C. 16",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0092_posisi-antrian-_0_A",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0092_posisi-antrian-_1_B",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0092_posisi-antrian-_2_C",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0092_posisi-antrian-_3_D",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0093_posisi-antrian-",
+    "topicId": "top_olimpiade-matematika-sd_posisi-antri",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam antrian ada 4 anak di depan Bayu. Tepat di belakang Bayu berdiri Cinta, dan di belakang Cinta ada 8 anak. Banyak anak dalam antrian adalah ...",
+    "imageUrl": null,
+    "explanation": "Hitung semuanya: 4 (depan Bayu) + 1 (Bayu) + 1 (Cinta) + 8 (belakang Cinta) = 14 anak.\nJawaban: B. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0093_posisi-antrian-_0_A",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0093_posisi-antrian-_1_B",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0093_posisi-antrian-_2_C",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0093_posisi-antrian-_3_D",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0094_posisi-antrian-",
+    "topicId": "top_olimpiade-matematika-sd_posisi-antri",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Wima membaca buku dari halaman 15 sampai halaman 48. Banyak halaman yang telah dibaca adalah ...",
+    "imageUrl": null,
+    "explanation": "Gunakan (akhir − awal) + 1 = (48 − 15) + 1 = 34 halaman.\nJawaban: D. 34",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0094_posisi-antrian-_0_A",
+        "label": "A",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0094_posisi-antrian-_1_B",
+        "label": "B",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0094_posisi-antrian-_2_C",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0094_posisi-antrian-_3_D",
+        "label": "D",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0095_posisi-antrian-",
+    "topicId": "top_olimpiade-matematika-sd_posisi-antri",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan 1 sampai 30 ditulis berurutan. Berapa kali angka 1 ditulis?",
+    "imageUrl": null,
+    "explanation": "Sebagai satuan: 1, 11, 21 → 3 kali. Sebagai puluhan: 10 sampai 19 → 10 kali. Totalnya 3 + 10 = 13 kali.\nJawaban: C. 13",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0095_posisi-antrian-_0_A",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0095_posisi-antrian-_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0095_posisi-antrian-_2_C",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0095_posisi-antrian-_3_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0096_posisi-antrian-",
+    "topicId": "top_olimpiade-matematika-sd_posisi-antri",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Banyaknya bilangan kelipatan 7 antara 20 dan 60 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kelipatan 7 di antara keduanya: 21, 28, 35, 42, 49, 56 → ada 6 bilangan.\nJawaban: C. 6",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0096_posisi-antrian-_0_A",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0096_posisi-antrian-_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0096_posisi-antrian-_2_C",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0096_posisi-antrian-_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0097_posisi-antrian-",
+    "topicId": "top_olimpiade-matematika-sd_posisi-antri",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah tangga memiliki 25 anak tangga. Ali berdiri di anak tangga ke-8 dari bawah. Berapa anak tangga lagi yang harus ia naiki untuk sampai ke puncak?",
+    "imageUrl": null,
+    "explanation": "Sisa anak tangga = 25 − 8 = 17.\n\nJawaban: A. 17",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0097_posisi-antrian-_0_A",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0097_posisi-antrian-_1_B",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0097_posisi-antrian-_2_C",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0097_posisi-antrian-_3_D",
+        "label": "D",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0098_posisi-antrian-",
+    "topicId": "top_olimpiade-matematika-sd_posisi-antri",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sepanjang jalan 100 m ditanam pohon setiap 10 m, dimulai dari ujung awal sampai ujung akhir.\nBanyak pohon yang ditanam adalah ...",
+    "imageUrl": null,
+    "explanation": "Banyak jarak = 100 ÷ 10 = 10, tetapi kedua ujung ditanami sehingga pohonnya = 10 + 1 = 11 batang.\nJawaban: D. 11",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0098_posisi-antrian-_0_A",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0098_posisi-antrian-_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0098_posisi-antrian-_2_C",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0098_posisi-antrian-_3_D",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0099_posisi-antrian-",
+    "topicId": "top_olimpiade-matematika-sd_posisi-antri",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah bel berbunyi setiap 15 menit dan bel lain setiap 20 menit. Keduanya berbunyi bersamaan pukul 07.00. Keduanya berbunyi bersamaan lagi pukul ...",
+    "imageUrl": null,
+    "explanation": "Cari KPK dari 15 dan 20, yaitu 60 menit. Jadi 60 menit setelah pukul 07.00, yaitu pukul 08.00.\nJawaban: C. 08.00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0099_posisi-antrian-_0_A",
+        "label": "A",
+        "content": "07.35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0099_posisi-antrian-_1_B",
+        "label": "B",
+        "content": "07.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0099_posisi-antrian-_2_C",
+        "label": "C",
+        "content": "08.00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0099_posisi-antrian-_3_D",
+        "label": "D",
+        "content": "08.20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0100_posisi-antrian-",
+    "topicId": "top_olimpiade-matematika-sd_posisi-antri",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Banyaknya bilangan dua angka yang jumlah kedua angkanya sama dengan 8 adalah ...",
+    "imageUrl": null,
+    "explanation": "Daftarnya: 17, 26, 35, 44, 53, 62, 71, 80 → ada 8 bilangan. (Angka 08 bukan bilangan dua angka.)\nJawaban: C. 8",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0100_posisi-antrian-_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0100_posisi-antrian-_1_B",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0100_posisi-antrian-_2_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0100_posisi-antrian-_3_D",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

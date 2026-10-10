@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "pkg_kmsi_2024_ing_2_q01",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“She jumped over the puddle.”\nWhat is the synonym of the word 'jumped'?",
+    "imageUrl": null,
+    "explanation": "Sinonim dari kata kerja *jumped* (melompat) adalah *hopped* (meloncat).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q01_opt_a",
+        "label": "A",
+        "content": "Hopped",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q01_opt_b",
+        "label": "B",
+        "content": "Ran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q01_opt_c",
+        "label": "C",
+        "content": "Crawled",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q01_opt_d",
+        "label": "D",
+        "content": "Bent",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q02",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“Please take out the rubbish.” The synonym of 'rubbish' is …",
+    "imageUrl": null,
+    "explanation": "Kata *rubbish* (sampah) dalam bahasa Inggris bersinonim dengan *trash* atau *garbage*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q02_opt_a",
+        "label": "A",
+        "content": "Trash",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q02_opt_b",
+        "label": "B",
+        "content": "Treasure",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q02_opt_c",
+        "label": "C",
+        "content": "Jewel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q02_opt_d",
+        "label": "D",
+        "content": "Rocks",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q03",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“Do not forget to work on your homework, kids.”\nIn this sentence, 'work on' has the same meaning as …",
+    "imageUrl": null,
+    "explanation": "Mengerjakan tugas (*work on homework*) bermakna sama dengan *do homework*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q03_opt_a",
+        "label": "A",
+        "content": "Do",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q03_opt_b",
+        "label": "B",
+        "content": "Give",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q03_opt_c",
+        "label": "C",
+        "content": "Accept",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q03_opt_d",
+        "label": "D",
+        "content": "Hand",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q04",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions 4 to 9!*\n\n“Marla wants to invite her friend Kara over for a sleepover. Marla's mom writes out the following directions for Kara to give to her mother:\n**Directions from school to Marla's house:**\n1. When coming out of the school parking lot, turn left.\n2. Make an immediate right turn onto Chapel Street.\n3. At the stop sign, turn right on Oak Street.\n4. Go three blocks and turn left on Marble Road.\n5. Our house is five houses down on the right, 305 Marble Road.”\n:::\n\nWho is being invited to a sleepover?",
+    "imageUrl": null,
+    "explanation": "Teks menyatakan: *\"Marla wants to invite her friend Kara over for a sleepover.\"* Jadi yang diundang adalah Kara.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q04_opt_a",
+        "label": "A",
+        "content": "Marla",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q04_opt_b",
+        "label": "B",
+        "content": "Kara",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q04_opt_c",
+        "label": "C",
+        "content": "Marla’s mom",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q04_opt_d",
+        "label": "D",
+        "content": "Kara’s mom",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q05",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions 4 to 9!*\n\n“Marla wants to invite her friend Kara over for a sleepover. Marla's mom writes out the following directions for Kara to give to her mother:\n**Directions from school to Marla's house:**\n1. When coming out of the school parking lot, turn left.\n2. Make an immediate right turn onto Chapel Street.\n3. At the stop sign, turn right on Oak Street.\n4. Go three blocks and turn left on Marble Road.\n5. Our house is five houses down on the right, 305 Marble Road.”\n:::\n\nWhere should Kara go from the school parking lot?",
+    "imageUrl": null,
+    "explanation": "Petunjuk pertama: *“When coming out of the school parking lot, turn left.”*\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q05_opt_a",
+        "label": "A",
+        "content": "Go to Chapel Street",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q05_opt_b",
+        "label": "B",
+        "content": "Turn left",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q05_opt_c",
+        "label": "C",
+        "content": "Wait for the bus to go to Oak Street",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q05_opt_d",
+        "label": "D",
+        "content": "Turn right on Marble Road",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q06",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions 4 to 9!*\n\n“Marla wants to invite her friend Kara over for a sleepover. Marla's mom writes out the following directions for Kara to give to her mother:\n**Directions from school to Marla's house:**\n1. When coming out of the school parking lot, turn left.\n2. Make an immediate right turn onto Chapel Street.\n3. At the stop sign, turn right on Oak Street.\n4. Go three blocks and turn left on Marble Road.\n5. Our house is five houses down on the right, 305 Marble Road.”\n:::\n\nHow will Kara know she has arrived at Marla’s house?",
+    "imageUrl": null,
+    "explanation": "Petunjuk nomor 5 menyatakan: *\"Our house is five houses down on the right, 305 Marble Road.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q06_opt_a",
+        "label": "A",
+        "content": "There are oaks everywhere.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q06_opt_b",
+        "label": "B",
+        "content": "The house is located on Chapel Street.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q06_opt_c",
+        "label": "C",
+        "content": "The house’s address is 305 Marble Road, five houses down on the right.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q06_opt_d",
+        "label": "D",
+        "content": "It’s three blocks from school.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q07",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions 4 to 9!*\n\n“Marla wants to invite her friend Kara over for a sleepover. Marla's mom writes out the following directions for Kara to give to her mother:\n**Directions from school to Marla's house:**\n1. When coming out of the school parking lot, turn left.\n2. Make an immediate right turn onto Chapel Street.\n3. At the stop sign, turn right on Oak Street.\n4. Go three blocks and turn left on Marble Road.\n5. Our house is five houses down on the right, 305 Marble Road.”\n:::\n\nWhat street does Marla live on?",
+    "imageUrl": null,
+    "explanation": "Alamat rumah Marla terletak di Jalan Marble (*305 Marble Road*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q07_opt_a",
+        "label": "A",
+        "content": "Marble Road",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q07_opt_b",
+        "label": "B",
+        "content": "Chapel St.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q07_opt_c",
+        "label": "C",
+        "content": "Oak St.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q07_opt_d",
+        "label": "D",
+        "content": "Tangerine St.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q08",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions 4 to 9!*\n\n“Marla wants to invite her friend Kara over for a sleepover. Marla's mom writes out the following directions for Kara to give to her mother:\n**Directions from school to Marla's house:**\n1. When coming out of the school parking lot, turn left.\n2. Make an immediate right turn onto Chapel Street.\n3. At the stop sign, turn right on Oak Street.\n4. Go three blocks and turn left on Marble Road.\n5. Our house is five houses down on the right, 305 Marble Road.”\n:::\n\nWhy do the directions say to make an “IMMEDIATE right” onto Chapel St.?",
+    "imageUrl": null,
+    "explanation": "Kata *immediate right* menginstruksikan pengemudi untuk langsung segera berbelok ke kanan tanpa menunda atau melaju lurus terlalu jauh.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q08_opt_a",
+        "label": "A",
+        "content": "Because you need to turn right promptly as soon as you exit onto the road",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q08_opt_b",
+        "label": "B",
+        "content": "Because Chapel St. is very far away",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q08_opt_c",
+        "label": "C",
+        "content": "Because you should turn right before seeing the road",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q08_opt_d",
+        "label": "D",
+        "content": "Because the road is closed",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q09",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions 4 to 9!*\n\n“Marla wants to invite her friend Kara over for a sleepover. Marla's mom writes out the following directions for Kara to give to her mother:\n**Directions from school to Marla's house:**\n1. When coming out of the school parking lot, turn left.\n2. Make an immediate right turn onto Chapel Street.\n3. At the stop sign, turn right on Oak Street.\n4. Go three blocks and turn left on Marble Road.\n5. Our house is five houses down on the right, 305 Marble Road.”\n:::\n\nHow many blocks should Kara's mom pass on Oak Street before turning onto Marble Road?",
+    "imageUrl": null,
+    "explanation": "Petunjuk nomor 4 menyatakan: *\"Go three blocks and turn left on Marble Road.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q09_opt_a",
+        "label": "A",
+        "content": "One",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q09_opt_b",
+        "label": "B",
+        "content": "Five",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q09_opt_c",
+        "label": "C",
+        "content": "Two",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q09_opt_d",
+        "label": "D",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q10",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“Hey, does this belong to you? … book is very awesome.”",
+    "imageUrl": null,
+    "explanation": "Sebelum kata benda *book*, dibutuhkan *possessive adjective* yaitu *your* (*your book*). *You're* = you are, *yours* = kata ganti mandiri.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q10_opt_a",
+        "label": "A",
+        "content": "Your",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q10_opt_b",
+        "label": "B",
+        "content": "You’re",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q10_opt_c",
+        "label": "C",
+        "content": "Yours",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q10_opt_d",
+        "label": "D",
+        "content": "You",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q11",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A motorcycle is commonly faster than a …",
+    "imageUrl": null,
+    "explanation": "Sepeda motor melaju lebih cepat daripada sepeda kayuh (*bicycle*). Helikopter, pesawat, dan kereta cepat jauh lebih cepat dari sepeda motor.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q11_opt_a",
+        "label": "A",
+        "content": "Helicopter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q11_opt_b",
+        "label": "B",
+        "content": "Plane",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q11_opt_c",
+        "label": "C",
+        "content": "Train",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q11_opt_d",
+        "label": "D",
+        "content": "Bicycle",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q12",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A bus is slower than a …",
+    "imageUrl": null,
+    "explanation": "Bus umum melaju lebih lambat jika dibandingkan dengan pesawat terbang (*plane*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q12_opt_a",
+        "label": "A",
+        "content": "Horse cart",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q12_opt_b",
+        "label": "B",
+        "content": "Pedicab",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q12_opt_c",
+        "label": "C",
+        "content": "Plane",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q12_opt_d",
+        "label": "D",
+        "content": "Walking person",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q13",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "These are land transportations, EXCEPT ....",
+    "imageUrl": null,
+    "explanation": "Kapal selam (*submarine*) adalah transportasi bawah air/laut (*water transportation*), bukan transportasi darat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q13_opt_a",
+        "label": "A",
+        "content": "Submarine",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q13_opt_b",
+        "label": "B",
+        "content": "Bicycle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q13_opt_c",
+        "label": "C",
+        "content": "Cart",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q13_opt_d",
+        "label": "D",
+        "content": "Train",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q14",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The passengers get on their bus at the .....",
+    "imageUrl": null,
+    "explanation": "Penumpang menaiki bus di terminal bus (*bus station*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q14_opt_a",
+        "label": "A",
+        "content": "Bus station",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q14_opt_b",
+        "label": "B",
+        "content": "Railway station",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q14_opt_c",
+        "label": "C",
+        "content": "Airport",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q14_opt_d",
+        "label": "D",
+        "content": "Harbor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q15",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A submarine and a ship are both … transportations.",
+    "imageUrl": null,
+    "explanation": "Kapal selam dan kapal laut keduanya beroperasi di perairan sehingga merupakan transportasi air (*water transportation*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q15_opt_a",
+        "label": "A",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q15_opt_b",
+        "label": "B",
+        "content": "Land",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q15_opt_c",
+        "label": "C",
+        "content": "Space",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q15_opt_d",
+        "label": "D",
+        "content": "Water",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q16",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "For her birthday, she wants the … cake in the bakery.",
+    "imageUrl": null,
+    "explanation": "Bentuk tingkat paling tinggi (*superlative*) untuk kata sifat lebih dari dua suku kata (*expensive*) adalah *the most expensive*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q16_opt_a",
+        "label": "A",
+        "content": "Expensivest",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q16_opt_b",
+        "label": "B",
+        "content": "Expensiver",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q16_opt_c",
+        "label": "C",
+        "content": "Most expensive",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q16_opt_d",
+        "label": "D",
+        "content": "More cheap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q17",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture. The t-shirt is … and the iced tea is ….",
+    "imageUrl": "/uploads/kmsi24_ing2_map.png",
+    "explanation": "Harga kaos Rp50.000 (mahal/*expensive*) dan es teh Rp2.000 (murah/*cheap*). *Costly* artinya juga mahal, dan *tall/short* tidak berkaitan dengan harga.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q17_opt_a",
+        "label": "A",
+        "content": "Expensive, cheap",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q17_opt_b",
+        "label": "B",
+        "content": "Expensive, small",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q17_opt_c",
+        "label": "C",
+        "content": "Expensive, costly",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q17_opt_d",
+        "label": "D",
+        "content": "Tall, short",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q18",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the calendar. Dera was born on that date. How do we say the date in words?",
+    "imageUrl": "/uploads/kmsi24_ing2_q16.png",
+    "explanation": "Kalender menunjukkan tanggal 18 Mei. Tanggal dibaca dengan bilangan bertingkat (*ordinal number*), jadi 18 Mei dibaca *May eighteenth*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q18_opt_a",
+        "label": "A",
+        "content": "May eighteenth",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q18_opt_b",
+        "label": "B",
+        "content": "May eight",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q18_opt_c",
+        "label": "C",
+        "content": "May eighteen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q18_opt_d",
+        "label": "D",
+        "content": "May eighth",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q19",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ando bought a car with a lot of money. The car is very …",
+    "imageUrl": null,
+    "explanation": "Barang yang dibeli dengan uang dalam jumlah banyak bermakna mahal (*expensive*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q19_opt_a",
+        "label": "A",
+        "content": "Cheap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q19_opt_b",
+        "label": "B",
+        "content": "Expensive",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q19_opt_c",
+        "label": "C",
+        "content": "Old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q19_opt_d",
+        "label": "D",
+        "content": "Small",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q20",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The following statements are correct, EXCEPT ....",
+    "imageUrl": null,
+    "explanation": "Mendengarkan musik menggunakan telinga (*ears*), bukan tangan (*hands*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q20_opt_a",
+        "label": "A",
+        "content": "Tia tastes the food with her tongue",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q20_opt_b",
+        "label": "B",
+        "content": "Ria eats cake with her mouth",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q20_opt_c",
+        "label": "C",
+        "content": "Mario watches TV with his eyes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q20_opt_d",
+        "label": "D",
+        "content": "Lala listens to music using her hands",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q21",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“Derek played well in the match yesterday.”\nThe word 'yesterday' is an …",
+    "imageUrl": null,
+    "explanation": "Kata *yesterday* (kemarin) menerangkan waktu terjadinya suatu peristiwa, sehingga merupakan kata keterangan waktu (*adverb of time*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q21_opt_a",
+        "label": "A",
+        "content": "Adverb of time",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q21_opt_b",
+        "label": "B",
+        "content": "Adverb of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q21_opt_c",
+        "label": "C",
+        "content": "Adverb of manner",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q21_opt_d",
+        "label": "D",
+        "content": "Adverb of degree",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q22",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "“I have no idea why she acted like that.”\nThe word *why* in this sentence functions as a/an …",
+    "imageUrl": null,
+    "explanation": "*Why* di sini memulai pertanyaan tidak langsung (*why she acted like that*), sehingga berfungsi sebagai *interrogative adverb*. *Relative adverb* biasanya mengikuti kata benda, misalnya *the reason why*.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q22_opt_a",
+        "label": "A",
+        "content": "Adverb of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q22_opt_b",
+        "label": "B",
+        "content": "Adverb of timing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q22_opt_c",
+        "label": "C",
+        "content": "Relative adverb",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q22_opt_d",
+        "label": "D",
+        "content": "Interrogative adverb",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q23",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“Janice came home early today.”\nThe word 'early' functions as an …",
+    "imageUrl": null,
+    "explanation": "Kata *early* (lebih awal/pagi) memberikan keterangan waktu kedatangan, sehingga tergolong *adverb of time*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q23_opt_a",
+        "label": "A",
+        "content": "Adverb of time",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q23_opt_b",
+        "label": "B",
+        "content": "Adverb of manner",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q23_opt_c",
+        "label": "C",
+        "content": "Interrogative adverb",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q23_opt_d",
+        "label": "D",
+        "content": "Adverb of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q24",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“She usually fetches her groceries at the nearby farms.”\nThe word 'usually' is an …",
+    "imageUrl": null,
+    "explanation": "*Usually* (biasanya) menyatakan seberapa sering suatu perbuatan dilakukan, sehingga merupakan kata keterangan frekuensi (*adverb of frequency*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q24_opt_a",
+        "label": "A",
+        "content": "Adverb of manner",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q24_opt_b",
+        "label": "B",
+        "content": "Adverb of frequency",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q24_opt_c",
+        "label": "C",
+        "content": "Adverb of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q24_opt_d",
+        "label": "D",
+        "content": "Adverb of degree",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q25",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“She skipped her routine in the morning yesterday.”\nThe phrase 'in the morning' is an …",
+    "imageUrl": null,
+    "explanation": "Frasa *in the morning* menyatakan keterangan waktu pelaksanaan (*adverbial phrase of time*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q25_opt_a",
+        "label": "A",
+        "content": "Adverbial phrase of degree",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q25_opt_b",
+        "label": "B",
+        "content": "Adverbial phrase of manner",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q25_opt_c",
+        "label": "C",
+        "content": "Adverbial phrase of time",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q25_opt_d",
+        "label": "D",
+        "content": "Adverbial phrase of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q26",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita Keluarga (Soal No. 26 – 30)]\n*Read the text below to answer questions 26 - 30!*\n\nMr. and Mrs. Smith have one son and one daughter. The son's name is John. The daughter's name is Sarah.\nThe Smiths live in a house. They have a living room. They watch TV in the living room. The father cooks food in the kitchen. They eat in the dining room. The house has two bedrooms. They sleep in the bedrooms. They keep their clothes in the closet. There is one bathroom. They brush their teeth in the bathroom.\nThe house has a garden. John and Sarah play in the garden. They have a dog. John and Sarah like to play with the dog there.\n:::\n\nHow many people live in the house?",
+    "imageUrl": null,
+    "explanation": "Mr. Smith, Mrs. Smith, John, dan Sarah: 4 orang.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q26_opt_a",
+        "label": "A",
+        "content": "Two",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q26_opt_b",
+        "label": "B",
+        "content": "Five",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q26_opt_c",
+        "label": "C",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q26_opt_d",
+        "label": "D",
+        "content": "Four",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q27",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita Keluarga (Soal No. 26 – 30)]\n*Read the text below to answer questions 26 - 30!*\n\nMr. and Mrs. Smith have one son and one daughter. The son's name is John. The daughter's name is Sarah.\nThe Smiths live in a house. They have a living room. They watch TV in the living room. The father cooks food in the kitchen. They eat in the dining room. The house has two bedrooms. They sleep in the bedrooms. They keep their clothes in the closet. There is one bathroom. They brush their teeth in the bathroom.\nThe house has a garden. John and Sarah play in the garden. They have a dog. John and Sarah like to play with the dog there.\n:::\n\nWho usually cooks food in the Smiths' house?",
+    "imageUrl": null,
+    "explanation": "Teks: *“The father cooks food in the kitchen.”* Ayahnya adalah Mr. Smith.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q27_opt_a",
+        "label": "A",
+        "content": "Mrs. Smith",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q27_opt_b",
+        "label": "B",
+        "content": "John",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q27_opt_c",
+        "label": "C",
+        "content": "Mr. Smith",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q27_opt_d",
+        "label": "D",
+        "content": "Sarah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q28",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita Keluarga (Soal No. 26 – 30)]\n*Read the text below to answer questions 26 - 30!*\n\nMr. and Mrs. Smith have one son and one daughter. The son's name is John. The daughter's name is Sarah.\nThe Smiths live in a house. They have a living room. They watch TV in the living room. The father cooks food in the kitchen. They eat in the dining room. The house has two bedrooms. They sleep in the bedrooms. They keep their clothes in the closet. There is one bathroom. They brush their teeth in the bathroom.\nThe house has a garden. John and Sarah play in the garden. They have a dog. John and Sarah like to play with the dog there.\n:::\n\nWhat do they do in the bathroom?",
+    "imageUrl": null,
+    "explanation": "Teks: *“They brush their teeth in the bathroom.”*\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q28_opt_a",
+        "label": "A",
+        "content": "Washing clothes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q28_opt_b",
+        "label": "B",
+        "content": "Changing attire",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q28_opt_c",
+        "label": "C",
+        "content": "Brushing teeth",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q28_opt_d",
+        "label": "D",
+        "content": "Feeding the dog",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q29",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita Keluarga (Soal No. 26 – 30)]\n*Read the text below to answer questions 26 - 30!*\n\nMr. and Mrs. Smith have one son and one daughter. The son's name is John. The daughter's name is Sarah.\nThe Smiths live in a house. They have a living room. They watch TV in the living room. The father cooks food in the kitchen. They eat in the dining room. The house has two bedrooms. They sleep in the bedrooms. They keep their clothes in the closet. There is one bathroom. They brush their teeth in the bathroom.\nThe house has a garden. John and Sarah play in the garden. They have a dog. John and Sarah like to play with the dog there.\n:::\n\nHow do John and Sarah spend time with their dog?",
+    "imageUrl": null,
+    "explanation": "Teks: *“John and Sarah like to play with the dog there”*, yaitu di kebun (*garden*).\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q29_opt_a",
+        "label": "A",
+        "content": "Sleep with the dog",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q29_opt_b",
+        "label": "B",
+        "content": "Play in the garden",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q29_opt_c",
+        "label": "C",
+        "content": "Hide and seek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q29_opt_d",
+        "label": "D",
+        "content": "Watch TV",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q30",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita Keluarga (Soal No. 26 – 30)]\n*Read the text below to answer questions 26 - 30!*\n\nMr. and Mrs. Smith have one son and one daughter. The son's name is John. The daughter's name is Sarah.\nThe Smiths live in a house. They have a living room. They watch TV in the living room. The father cooks food in the kitchen. They eat in the dining room. The house has two bedrooms. They sleep in the bedrooms. They keep their clothes in the closet. There is one bathroom. They brush their teeth in the bathroom.\nThe house has a garden. John and Sarah play in the garden. They have a dog. John and Sarah like to play with the dog there.\n:::\n\nHow many bedrooms do they have?",
+    "imageUrl": null,
+    "explanation": "Teks: *“The house has two bedrooms.”*\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q30_opt_a",
+        "label": "A",
+        "content": "Two",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q30_opt_b",
+        "label": "B",
+        "content": "Six",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q30_opt_c",
+        "label": "C",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q30_opt_d",
+        "label": "D",
+        "content": "One",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q31",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! What is Andrew doing?\nHe is ____ the floor.",
+    "imageUrl": "/uploads/kmsi24_ing2_house.png",
+    "explanation": "Andrew memegang sapu dan menyapu debu di lantai, jadi ia sedang menyapu (*sweeping*).\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q31_opt_a",
+        "label": "A",
+        "content": "Mopping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q31_opt_b",
+        "label": "B",
+        "content": "Sweeping",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q31_opt_c",
+        "label": "C",
+        "content": "Dusting",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q31_opt_d",
+        "label": "D",
+        "content": "Vacuuming",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q32",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“Mr. Brown is trimming a bush.” Which picture best represents the sentence?",
+    "imageUrl": "/uploads/kmsi24_ing2_q32_options.png",
+    "explanation": "*Trimming a bush* artinya memangkas semak. Gambar A menunjukkan orang memangkas semak dengan gunting kebun; B menebang pohon, C menyiram tanaman, D memetik buah.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q32_opt_a",
+        "label": "A",
+        "content": "Picture A",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q32_opt_b",
+        "label": "B",
+        "content": "Picture B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q32_opt_c",
+        "label": "C",
+        "content": "Picture C",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q32_opt_d",
+        "label": "D",
+        "content": "Picture D",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q33",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Pengamatan (Soal No. 33 – 36)]\n*The following text is for questions number 33 to 36:*\n\n“Hi! My name is Janet Curious. I live on the top of an apartment building in a small town. I’m a very curious woman and I always want to learn what other people are doing. As you see, now I’m watching people in my neighbourhood through my binoculars.\nLet me have a look at the park on Pole Street. Oh, it’s so crowded with children as usual. Kathryn is skipping rope and Grace is playing with her doll. Walter and Harold are feeding a few street dogs as they love animals so much. Pamela is playing on the monkey bars while her brother is swinging.\nTerry, Laura and Sharon are sliding and laughing. Shirley is playing volleyball with a group of children, but she isn’t good at it. Mr. and Mrs. Brown are resting on a bench and getting some fresh air. Some teens are sitting under the big pine tree. Dennis is running and trying to fly his kite while his friend, James, is jumping up and down with joy. It’s so nice to watch people here on my balcony, but I must go now.”\n:::\n\n“… now I’m watching people in my neighbourhood through my **binoculars**.” Which picture shows the bold word?",
+    "imageUrl": "/uploads/kmsi24_ing2_q33_options.png",
+    "explanation": "*Binoculars* adalah teropong berlensa dua (gambar C). A kacamata, B teleskop, D mikroskop.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q33_opt_a",
+        "label": "A",
+        "content": "Picture A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q33_opt_b",
+        "label": "B",
+        "content": "Picture B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q33_opt_c",
+        "label": "C",
+        "content": "Picture C",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q33_opt_d",
+        "label": "D",
+        "content": "Picture D",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q34",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Pengamatan (Soal No. 33 – 36)]\n*The following text is for questions number 33 to 36:*\n\n“Hi! My name is Janet Curious. I live on the top of an apartment building in a small town. I’m a very curious woman and I always want to learn what other people are doing. As you see, now I’m watching people in my neighbourhood through my binoculars.\nLet me have a look at the park on Pole Street. Oh, it’s so crowded with children as usual. Kathryn is skipping rope and Grace is playing with her doll. Walter and Harold are feeding a few street dogs as they love animals so much. Pamela is playing on the monkey bars while her brother is swinging.\nTerry, Laura and Sharon are sliding and laughing. Shirley is playing volleyball with a group of children, but she isn’t good at it. Mr. and Mrs. Brown are resting on a bench and getting some fresh air. Some teens are sitting under the big pine tree. Dennis is running and trying to fly his kite while his friend, James, is jumping up and down with joy. It’s so nice to watch people here on my balcony, but I must go now.”\n:::\n\nWho is playing on the swing?",
+    "imageUrl": null,
+    "explanation": "Teks: *“Pamela is playing on the monkey bars while her brother is swinging.”* Yang bermain ayunan adalah adik/kakak laki-laki Pamela.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q34_opt_a",
+        "label": "A",
+        "content": "Terry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q34_opt_b",
+        "label": "B",
+        "content": "Harold",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q34_opt_c",
+        "label": "C",
+        "content": "Pamela",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q34_opt_d",
+        "label": "D",
+        "content": "Pamela’s brother",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q35",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Pengamatan (Soal No. 33 – 36)]\n*The following text is for questions number 33 to 36:*\n\n“Hi! My name is Janet Curious. I live on the top of an apartment building in a small town. I’m a very curious woman and I always want to learn what other people are doing. As you see, now I’m watching people in my neighbourhood through my binoculars.\nLet me have a look at the park on Pole Street. Oh, it’s so crowded with children as usual. Kathryn is skipping rope and Grace is playing with her doll. Walter and Harold are feeding a few street dogs as they love animals so much. Pamela is playing on the monkey bars while her brother is swinging.\nTerry, Laura and Sharon are sliding and laughing. Shirley is playing volleyball with a group of children, but she isn’t good at it. Mr. and Mrs. Brown are resting on a bench and getting some fresh air. Some teens are sitting under the big pine tree. Dennis is running and trying to fly his kite while his friend, James, is jumping up and down with joy. It’s so nice to watch people here on my balcony, but I must go now.”\n:::\n\nHow is the park?",
+    "imageUrl": null,
+    "explanation": "Teks: *“Oh, it’s so crowded with children as usual.”*\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q35_opt_a",
+        "label": "A",
+        "content": "It is quiet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q35_opt_b",
+        "label": "B",
+        "content": "It is crowded",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q35_opt_c",
+        "label": "C",
+        "content": "It is windy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q35_opt_d",
+        "label": "D",
+        "content": "It is calm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q36",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Pengamatan (Soal No. 33 – 36)]\n*The following text is for questions number 33 to 36:*\n\n“Hi! My name is Janet Curious. I live on the top of an apartment building in a small town. I’m a very curious woman and I always want to learn what other people are doing. As you see, now I’m watching people in my neighbourhood through my binoculars.\nLet me have a look at the park on Pole Street. Oh, it’s so crowded with children as usual. Kathryn is skipping rope and Grace is playing with her doll. Walter and Harold are feeding a few street dogs as they love animals so much. Pamela is playing on the monkey bars while her brother is swinging.\nTerry, Laura and Sharon are sliding and laughing. Shirley is playing volleyball with a group of children, but she isn’t good at it. Mr. and Mrs. Brown are resting on a bench and getting some fresh air. Some teens are sitting under the big pine tree. Dennis is running and trying to fly his kite while his friend, James, is jumping up and down with joy. It’s so nice to watch people here on my balcony, but I must go now.”\n:::\n\nWhere is Janet watching her neighbourhood from?",
+    "imageUrl": null,
+    "explanation": "Teks: *“It’s so nice to watch people here on my balcony.”*\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q36_opt_a",
+        "label": "A",
+        "content": "From her room",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q36_opt_b",
+        "label": "B",
+        "content": "From the park",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q36_opt_c",
+        "label": "C",
+        "content": "From her balcony",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q36_opt_d",
+        "label": "D",
+        "content": "From the apartment rooftop",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q37",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Apples from Malang (Soal No. 37 – 40)]\n*The following text is for questions number 37 to 40:*\n\n“Dad is just coming home from Malang to Surabaya. He brought us 5 kilograms of apples. When I counted them, there were 42 apples in total. Mum made three packs of apples, each consisting of 8 apples: one for the lady next door, one for Uncle Carl, and one for Grandma. I saw my brother had already eaten three apples, while I haven’t even taken one. Mum saved a dozen and kept them in the refrigerator. She said she would make an apple pie tomorrow. She asked me to serve the rest on a plate.”\n:::\n\nWhere did Dad buy the apples?",
+    "imageUrl": null,
+    "explanation": "Teks: *“Dad is just coming home from Malang to Surabaya.”* Apel dibawa dari Malang.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q37_opt_a",
+        "label": "A",
+        "content": "Malang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q37_opt_b",
+        "label": "B",
+        "content": "Surabaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q37_opt_c",
+        "label": "C",
+        "content": "Jogjakarta",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q37_opt_d",
+        "label": "D",
+        "content": "Magelang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q38",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Apples from Malang (Soal No. 37 – 40)]\n*The following text is for questions number 37 to 40:*\n\n“Dad is just coming home from Malang to Surabaya. He brought us 5 kilograms of apples. When I counted them, there were 42 apples in total. Mum made three packs of apples, each consisting of 8 apples: one for the lady next door, one for Uncle Carl, and one for Grandma. I saw my brother had already eaten three apples, while I haven’t even taken one. Mum saved a dozen and kept them in the refrigerator. She said she would make an apple pie tomorrow. She asked me to serve the rest on a plate.”\n:::\n\nHow many apples were given away?",
+    "imageUrl": null,
+    "explanation": "Ibu membuat 3 bungkus berisi 8 apel untuk tetangga, Paman Carl, dan Nenek: 3 × 8 = 24 apel.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q38_opt_a",
+        "label": "A",
+        "content": "3 apples",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q38_opt_b",
+        "label": "B",
+        "content": "8 apples",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q38_opt_c",
+        "label": "C",
+        "content": "16 apples",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q38_opt_d",
+        "label": "D",
+        "content": "24 apples",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q39",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Apples from Malang (Soal No. 37 – 40)]\n*The following text is for questions number 37 to 40:*\n\n“Dad is just coming home from Malang to Surabaya. He brought us 5 kilograms of apples. When I counted them, there were 42 apples in total. Mum made three packs of apples, each consisting of 8 apples: one for the lady next door, one for Uncle Carl, and one for Grandma. I saw my brother had already eaten three apples, while I haven’t even taken one. Mum saved a dozen and kept them in the refrigerator. She said she would make an apple pie tomorrow. She asked me to serve the rest on a plate.”\n:::\n\nHow many apples are saved for making apple pie?",
+    "imageUrl": null,
+    "explanation": "Ibu menyimpan selusin (*a dozen*) apel = 12 apel.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q39_opt_a",
+        "label": "A",
+        "content": "1 apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q39_opt_b",
+        "label": "B",
+        "content": "6 apples",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q39_opt_c",
+        "label": "C",
+        "content": "12 apples",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q39_opt_d",
+        "label": "D",
+        "content": "24 apples",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_ing_2_q40",
+    "topicId": "top_kmsi_2024_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Cerita: Apples from Malang (Soal No. 37 – 40)]\n*The following text is for questions number 37 to 40:*\n\n“Dad is just coming home from Malang to Surabaya. He brought us 5 kilograms of apples. When I counted them, there were 42 apples in total. Mum made three packs of apples, each consisting of 8 apples: one for the lady next door, one for Uncle Carl, and one for Grandma. I saw my brother had already eaten three apples, while I haven’t even taken one. Mum saved a dozen and kept them in the refrigerator. She said she would make an apple pie tomorrow. She asked me to serve the rest on a plate.”\n:::\n\nHow many apples were eaten by the writer?",
+    "imageUrl": null,
+    "explanation": "Teks: *“while I haven’t even taken one.”* Penulis belum makan apel sama sekali. Yang makan 3 apel adalah kakak/adiknya.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_ing_2_q40_opt_a",
+        "label": "A",
+        "content": "None",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q40_opt_b",
+        "label": "B",
+        "content": "1 apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q40_opt_c",
+        "label": "C",
+        "content": "3 apples",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_ing_2_q40_opt_d",
+        "label": "D",
+        "content": "12 apples",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

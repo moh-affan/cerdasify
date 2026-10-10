@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "q_bing_l2_prov_01",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "She *skipped* over the puddle.\nWhat is the synonym of the italicized word?",
+    "imageUrl": null,
+    "explanation": "*Skipped* (melompat-lompat kecil) bersinonim dengan *hopped*.\n\nKunci Jawaban: **A (Hopped)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_01_a",
+        "label": "A",
+        "content": "Hopped",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_01_b",
+        "label": "B",
+        "content": "Walked",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_01_c",
+        "label": "C",
+        "content": "Crawled",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_01_d",
+        "label": "D",
+        "content": "Sat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_02",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Please throw away the garbage. The synonym of garbage is …",
+    "imageUrl": null,
+    "explanation": "*Garbage* (sampah) bersinonim dengan *trash*.\n\nKunci Jawaban: **A (Trash)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_02_a",
+        "label": "A",
+        "content": "Trash",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_02_b",
+        "label": "B",
+        "content": "Treasure",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_02_c",
+        "label": "C",
+        "content": "Jewel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_02_d",
+        "label": "D",
+        "content": "Toy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_03",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“Do not forget to finish your *assignment*, kids.”\nThe word *assignment* has the same meaning as ….",
+    "imageUrl": null,
+    "explanation": "*Assignment* (tugas) memiliki arti yang sama dengan *task*.\n\nKunci Jawaban: **A (Task)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_03_a",
+        "label": "A",
+        "content": "Task",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_03_b",
+        "label": "B",
+        "content": "Give",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_03_c",
+        "label": "C",
+        "content": "Accept",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_03_d",
+        "label": "D",
+        "content": "Duty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_04",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions number 4-9:*\n\nRian wants to invite his friend Bayu over to study together. Rian's dad writes out the following directions for Bayu to give to his father. Read the directions and use them to answer the questions.\n\n**Directions from school to Rian's house:**\n- When coming out of the school gate, turn right.\n- Make an immediate left turn onto Melati Street.\n- At the traffic light, turn left on Mawar Street.\n- Go two blocks until you turn right on Anggrek Road.\n- Our house is the third house on the left, number 12 Anggrek Road.\n:::\n\nWho is being invited to study together?",
+    "imageUrl": "/uploads/bing_l2_prov_map.png",
+    "explanation": "Teks: *\"Rian wants to invite his friend Bayu over to study together.\"* Jadi yang diundang adalah Bayu.\n\nKunci Jawaban: **B (Bayu)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_04_a",
+        "label": "A",
+        "content": "Rian",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_04_b",
+        "label": "B",
+        "content": "Bayu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_04_c",
+        "label": "C",
+        "content": "Rian's dad",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_04_d",
+        "label": "D",
+        "content": "Bayu's dad",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_05",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions number 4-9:*\n\nRian wants to invite his friend Bayu over to study together. Rian's dad writes out the following directions for Bayu to give to his father. Read the directions and use them to answer the questions.\n\n**Directions from school to Rian's house:**\n- When coming out of the school gate, turn right.\n- Make an immediate left turn onto Melati Street.\n- At the traffic light, turn left on Mawar Street.\n- Go two blocks until you turn right on Anggrek Road.\n- Our house is the third house on the left, number 12 Anggrek Road.\n:::\n\nWhere should Bayu go from the school gate?",
+    "imageUrl": "/uploads/bing_l2_prov_map.png",
+    "explanation": "Petunjuk pertama: *\"When coming out of the school gate, turn right.\"*\n\nKunci Jawaban: **B (Turn right)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_05_a",
+        "label": "A",
+        "content": "Go to Melati Street",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_05_b",
+        "label": "B",
+        "content": "Turn right",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_05_c",
+        "label": "C",
+        "content": "Wait for the bus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_05_d",
+        "label": "D",
+        "content": "Turn left on Anggrek Road",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_06",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions number 4-9:*\n\nRian wants to invite his friend Bayu over to study together. Rian's dad writes out the following directions for Bayu to give to his father. Read the directions and use them to answer the questions.\n\n**Directions from school to Rian's house:**\n- When coming out of the school gate, turn right.\n- Make an immediate left turn onto Melati Street.\n- At the traffic light, turn left on Mawar Street.\n- Go two blocks until you turn right on Anggrek Road.\n- Our house is the third house on the left, number 12 Anggrek Road.\n:::\n\nHow will Bayu know he's arrived at Rian's house?",
+    "imageUrl": "/uploads/bing_l2_prov_map.png",
+    "explanation": "Petunjuk terakhir: *\"Our house is the third house on the left, number 12 Anggrek Road.\"*\n\nKunci Jawaban: **C (The house's address is number 12 Anggrek Road)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_06_a",
+        "label": "A",
+        "content": "There are flowers everywhere",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_06_b",
+        "label": "B",
+        "content": "The house is on Melati Street",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_06_c",
+        "label": "C",
+        "content": "The house's address is number 12 Anggrek Road",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_06_d",
+        "label": "D",
+        "content": "It's two blocks from Melati Street",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_07",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions number 4-9:*\n\nRian wants to invite his friend Bayu over to study together. Rian's dad writes out the following directions for Bayu to give to his father. Read the directions and use them to answer the questions.\n\n**Directions from school to Rian's house:**\n- When coming out of the school gate, turn right.\n- Make an immediate left turn onto Melati Street.\n- At the traffic light, turn left on Mawar Street.\n- Go two blocks until you turn right on Anggrek Road.\n- Our house is the third house on the left, number 12 Anggrek Road.\n:::\n\nWhat street does Rian live on?",
+    "imageUrl": "/uploads/bing_l2_prov_map.png",
+    "explanation": "Rumah Rian beralamat di *number 12 Anggrek Road*.\n\nKunci Jawaban: **C (Anggrek Road)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_07_a",
+        "label": "A",
+        "content": "Melati Street",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_07_b",
+        "label": "B",
+        "content": "Mawar Street",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_07_c",
+        "label": "C",
+        "content": "Anggrek Road",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_07_d",
+        "label": "D",
+        "content": "Merpati Street",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_08",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions number 4-9:*\n\nRian wants to invite his friend Bayu over to study together. Rian's dad writes out the following directions for Bayu to give to his father. Read the directions and use them to answer the questions.\n\n**Directions from school to Rian's house:**\n- When coming out of the school gate, turn right.\n- Make an immediate left turn onto Melati Street.\n- At the traffic light, turn left on Mawar Street.\n- Go two blocks until you turn right on Anggrek Road.\n- Our house is the third house on the left, number 12 Anggrek Road.\n:::\n\nThe directions say to make an immediate left onto Melati Street.\nWhy do the directions say make an IMMEDIATE left?",
+    "imageUrl": "/uploads/bing_l2_prov_map.png",
+    "explanation": "*Immediate* berarti segera/langsung, jadi harus langsung belok kiri begitu keluar gerbang tanpa berjalan jauh.\n\nKunci Jawaban: **A (You must turn left right after leaving the gate, without going further)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_08_a",
+        "label": "A",
+        "content": "You must turn left right after leaving the gate, without going further",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_08_b",
+        "label": "B",
+        "content": "After Melati Street, you need to go right",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_08_c",
+        "label": "C",
+        "content": "Turn left before you see Melati Street",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_08_d",
+        "label": "D",
+        "content": "The road is very narrow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_09",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Petunjuk Arah (Soal No. 4 – 9)]\n*Read the passage below to answer questions number 4-9:*\n\nRian wants to invite his friend Bayu over to study together. Rian's dad writes out the following directions for Bayu to give to his father. Read the directions and use them to answer the questions.\n\n**Directions from school to Rian's house:**\n- When coming out of the school gate, turn right.\n- Make an immediate left turn onto Melati Street.\n- At the traffic light, turn left on Mawar Street.\n- Go two blocks until you turn right on Anggrek Road.\n- Our house is the third house on the left, number 12 Anggrek Road.\n:::\n\nHow many blocks should Bayu pass by before turning to Anggrek Road?",
+    "imageUrl": "/uploads/bing_l2_prov_map.png",
+    "explanation": "Petunjuk: *\"Go two blocks until you turn right on Anggrek Road.\"*\n\nKunci Jawaban: **B (Two)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_09_a",
+        "label": "A",
+        "content": "One",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_09_b",
+        "label": "B",
+        "content": "Two",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_09_c",
+        "label": "C",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_09_d",
+        "label": "D",
+        "content": "Four",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_10",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hey, does this belong to you? … bag is very nice.",
+    "imageUrl": null,
+    "explanation": "Sebelum kata benda *bag* dibutuhkan kata kepemilikan *your* (*your bag*). *You're* = *you are*, *yours* berdiri sendiri tanpa kata benda.\n\nKunci Jawaban: **A (Your)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_10_a",
+        "label": "A",
+        "content": "Your",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_10_b",
+        "label": "B",
+        "content": "You're",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_10_c",
+        "label": "C",
+        "content": "Yours",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_10_d",
+        "label": "D",
+        "content": "Your's",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_11",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of these vehicles is the slowest?",
+    "imageUrl": null,
+    "explanation": "Urutan dari yang paling cepat: pesawat → helikopter → kereta → mobil → sepeda. Yang paling lambat adalah sepeda (*bicycle*).\n\nKunci Jawaban: **C (Bicycle)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_11_a",
+        "label": "A",
+        "content": "Helicopter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_11_b",
+        "label": "B",
+        "content": "Car",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_11_c",
+        "label": "C",
+        "content": "Bicycle",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_11_d",
+        "label": "D",
+        "content": "Train",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_12",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bicycle is slower than ….",
+    "imageUrl": null,
+    "explanation": "Sepeda lebih lambat daripada sepeda motor (*motorcycle*). Becak dan delman tidak lebih cepat dari sepeda.\n\nKunci Jawaban: **C (Motorcycle)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_12_a",
+        "label": "A",
+        "content": "Pedicab",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_12_b",
+        "label": "B",
+        "content": "Cart",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_12_c",
+        "label": "C",
+        "content": "Motorcycle",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_12_d",
+        "label": "D",
+        "content": "Horse cart",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_13",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "This is water transportation, except ….",
+    "imageUrl": null,
+    "explanation": "Kapal, perahu, dan kapal selam adalah transportasi air. Kereta (*train*) adalah transportasi darat.\n\nKunci Jawaban: **D (Train)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_13_a",
+        "label": "A",
+        "content": "Ship",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_13_b",
+        "label": "B",
+        "content": "Boat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_13_c",
+        "label": "C",
+        "content": "Submarine",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_13_d",
+        "label": "D",
+        "content": "Train",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_14",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The passengers get on the plane at the …..",
+    "imageUrl": null,
+    "explanation": "Penumpang naik pesawat di bandara (*airport*).\n\nKunci Jawaban: **C (Airport)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_14_a",
+        "label": "A",
+        "content": "Bus station",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_14_b",
+        "label": "B",
+        "content": "Harbor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_14_c",
+        "label": "C",
+        "content": "Airport",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_14_d",
+        "label": "D",
+        "content": "Terminal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_15",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bicycle and pedicab are … transportation.",
+    "imageUrl": null,
+    "explanation": "Sepeda dan becak berjalan di darat, jadi termasuk transportasi darat (*land transportation*).\n\nKunci Jawaban: **B (Land)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_15_a",
+        "label": "A",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_15_b",
+        "label": "B",
+        "content": "Land",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_15_c",
+        "label": "C",
+        "content": "River",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_15_d",
+        "label": "D",
+        "content": "Sea",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_16",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "For his birthday, he wants the … gift.",
+    "imageUrl": null,
+    "explanation": "Bentuk paling (*superlative*) dari kata sifat panjang seperti *expensive* adalah *the most expensive*.\n\nKunci Jawaban: **C (Most expensive)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_16_a",
+        "label": "A",
+        "content": "Expensivest",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_16_b",
+        "label": "B",
+        "content": "Expensiver",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_16_c",
+        "label": "C",
+        "content": "Most expensive",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_16_d",
+        "label": "D",
+        "content": "More expensive",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_17",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the picture! The book is … and the juice is ….",
+    "imageUrl": "/uploads/bing_l2_prov_q17.png",
+    "explanation": "Pada gambar, harga buku Rp75.000 (mahal/*expensive*) dan jus Rp5.000 (murah/*cheap*).\n\nKunci Jawaban: **A (Expensive, cheap)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_17_a",
+        "label": "A",
+        "content": "Expensive, cheap",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_17_b",
+        "label": "B",
+        "content": "Expensive, small",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_17_c",
+        "label": "C",
+        "content": "Expensive, costly",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_17_d",
+        "label": "D",
+        "content": "Tall, short",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_18",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rendra : Are you coming to Aditya's birthday on ...?\nFajar : Yes, I am. (the party is on May 21st)",
+    "imageUrl": null,
+    "explanation": "Tanggal dibaca dengan bilangan bertingkat (*ordinal*): 21 Mei = *May twenty-first*.\n\nKunci Jawaban: **A (May twenty-first)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_18_a",
+        "label": "A",
+        "content": "May twenty-first",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_18_b",
+        "label": "B",
+        "content": "May twenty one",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_18_c",
+        "label": "C",
+        "content": "May twentieth",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_18_d",
+        "label": "D",
+        "content": "May two one",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_19",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Wisnu : Is that your … bicycle? It looks so shiny!\nMade : Yes, my uncle just bought it for me yesterday.",
+    "imageUrl": null,
+    "explanation": "Sepeda yang mengilap dan baru dibelikan kemarin adalah sepeda baru (*new*).\n\nKunci Jawaban: **A (New)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_19_a",
+        "label": "A",
+        "content": "New",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_19_b",
+        "label": "B",
+        "content": "Best",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_19_c",
+        "label": "C",
+        "content": "Expensive",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_19_d",
+        "label": "D",
+        "content": "Cheap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_20",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The following statements are correct, except ….",
+    "imageUrl": null,
+    "explanation": "Kita mengecap rasa sup dengan lidah/mulut, bukan dengan tangan. Jadi pernyataan D salah.\n\nKunci Jawaban: **D (Lala tastes the soup using her hands)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_20_a",
+        "label": "A",
+        "content": "Sinta smells the flower with her nose",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_20_b",
+        "label": "B",
+        "content": "Rio hears music with his ears",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_20_c",
+        "label": "C",
+        "content": "Wira sees the movie with his eyes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_20_d",
+        "label": "D",
+        "content": "Lala tastes the soup using her hands",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_21",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bagas ran fast during the race yesterday.\n“Fast” in this sentence is a ….",
+    "imageUrl": null,
+    "explanation": "*Fast* menjelaskan bagaimana Bagas berlari (cara), jadi termasuk *adverb of manner*.\n\nKunci Jawaban: **C (Adverb of manner)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_21_a",
+        "label": "A",
+        "content": "Adverb of time",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_21_b",
+        "label": "B",
+        "content": "Adverb of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_21_c",
+        "label": "C",
+        "content": "Adverb of manner",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_21_d",
+        "label": "D",
+        "content": "Relative adverb",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_22",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“I don't understand why he behaved like that.”\nThe word *why* in this sentence is a/an ….",
+    "imageUrl": null,
+    "explanation": "*Why* di sini memulai pertanyaan tidak langsung (*why he behaved like that*), jadi berfungsi sebagai *interrogative adverb*. *Relative adverb* biasanya mengikuti kata benda, misalnya *the reason why*.\n\nKunci Jawaban: **D (Interrogative adverb)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_22_a",
+        "label": "A",
+        "content": "Adverb of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_22_b",
+        "label": "B",
+        "content": "Adverb of timing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_22_c",
+        "label": "C",
+        "content": "Relative adverb",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_22_d",
+        "label": "D",
+        "content": "Interrogative adverb",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_23",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“Ratna is going to arrive on time tomorrow.”\nThe phrase *on time* in this sentence is a/an ….",
+    "imageUrl": null,
+    "explanation": "*On time* adalah kelompok kata (frasa) yang berfungsi sebagai keterangan, jadi disebut *adverbial phrase*.\n\nKunci Jawaban: **A (Adverbial phrase)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_23_a",
+        "label": "A",
+        "content": "Adverbial phrase",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_23_b",
+        "label": "B",
+        "content": "Adverb of manner",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_23_c",
+        "label": "C",
+        "content": "Interrogative adverb",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_23_d",
+        "label": "D",
+        "content": "Adverb of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_24",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“He always cleans his room on Sundays.”\nThe word *always* in this sentence is a/an ….",
+    "imageUrl": null,
+    "explanation": "*Always* menyatakan seberapa sering sesuatu dilakukan, jadi termasuk *adverb of frequency*.\n\nKunci Jawaban: **D (Adverb of frequency)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_24_a",
+        "label": "A",
+        "content": "Adverb of manner",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_24_b",
+        "label": "B",
+        "content": "Adverbial phrase",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_24_c",
+        "label": "C",
+        "content": "Interrogative adverb",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_24_d",
+        "label": "D",
+        "content": "Adverb of frequency",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_25",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“She missed her class in the afternoon yesterday, I don't know why.”\nThe word *yesterday* in this sentence is a/an ….",
+    "imageUrl": null,
+    "explanation": "*Yesterday* menyatakan kapan peristiwa terjadi, jadi termasuk *adverb of time*.\n\nKunci Jawaban: **C (Adverb of time)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_25_a",
+        "label": "A",
+        "content": "Adverb of degree",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_25_b",
+        "label": "B",
+        "content": "Adverbial phrase",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_25_c",
+        "label": "C",
+        "content": "Adverb of time",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_25_d",
+        "label": "D",
+        "content": "Adverb of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_26",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Bacaan (Soal No. 26 – 30)]\n*Read the text below to answer questions 26-30!*\n\nMr. and Mrs. Wijaya have one son and one daughter. The son's name is Dimas. The daughter's name is Putri.\nThe Wijayas live in a house. They have a living room. They read books and watch TV there. The mother cooks food in the kitchen. They eat together in the dining room. The house has three bedrooms. They sleep in the bedrooms. They keep their clothes in the wardrobe. There are two bathrooms. They take a bath and brush their teeth there.\nThe house has a small garden. Dimas and Putri play badminton in the garden. They have a cat. Dimas and Putri like to play with the cat there.\n:::\n\nHow many people live in the house?",
+    "imageUrl": null,
+    "explanation": "Keluarga Wijaya terdiri atas Mr. Wijaya, Mrs. Wijaya, Dimas, dan Putri, jadi ada 4 orang.\n\nKunci Jawaban: **C (Four)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_26_a",
+        "label": "A",
+        "content": "Two",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_26_b",
+        "label": "B",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_26_c",
+        "label": "C",
+        "content": "Four",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_26_d",
+        "label": "D",
+        "content": "Five",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_27",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Bacaan (Soal No. 26 – 30)]\n*Read the text below to answer questions 26-30!*\n\nMr. and Mrs. Wijaya have one son and one daughter. The son's name is Dimas. The daughter's name is Putri.\nThe Wijayas live in a house. They have a living room. They read books and watch TV there. The mother cooks food in the kitchen. They eat together in the dining room. The house has three bedrooms. They sleep in the bedrooms. They keep their clothes in the wardrobe. There are two bathrooms. They take a bath and brush their teeth there.\nThe house has a small garden. Dimas and Putri play badminton in the garden. They have a cat. Dimas and Putri like to play with the cat there.\n:::\n\nWho usually cooks food in the Wijaya's house?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"The mother cooks food in the kitchen.\"* Ibu adalah Mrs. Wijaya.\n\nKunci Jawaban: **C (Mrs. Wijaya)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_27_a",
+        "label": "A",
+        "content": "Mr. Wijaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_27_b",
+        "label": "B",
+        "content": "Dimas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_27_c",
+        "label": "C",
+        "content": "Mrs. Wijaya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_27_d",
+        "label": "D",
+        "content": "Putri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_28",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Bacaan (Soal No. 26 – 30)]\n*Read the text below to answer questions 26-30!*\n\nMr. and Mrs. Wijaya have one son and one daughter. The son's name is Dimas. The daughter's name is Putri.\nThe Wijayas live in a house. They have a living room. They read books and watch TV there. The mother cooks food in the kitchen. They eat together in the dining room. The house has three bedrooms. They sleep in the bedrooms. They keep their clothes in the wardrobe. There are two bathrooms. They take a bath and brush their teeth there.\nThe house has a small garden. Dimas and Putri play badminton in the garden. They have a cat. Dimas and Putri like to play with the cat there.\n:::\n\nWhat do they do in the bathroom?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"They take a bath and brush their teeth there.\"*\n\nKunci Jawaban: **C (Take a bath and brush their teeth)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_28_a",
+        "label": "A",
+        "content": "Cooking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_28_b",
+        "label": "B",
+        "content": "Reading",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_28_c",
+        "label": "C",
+        "content": "Take a bath and brush their teeth",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_28_d",
+        "label": "D",
+        "content": "Playing badminton",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_29",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Bacaan (Soal No. 26 – 30)]\n*Read the text below to answer questions 26-30!*\n\nMr. and Mrs. Wijaya have one son and one daughter. The son's name is Dimas. The daughter's name is Putri.\nThe Wijayas live in a house. They have a living room. They read books and watch TV there. The mother cooks food in the kitchen. They eat together in the dining room. The house has three bedrooms. They sleep in the bedrooms. They keep their clothes in the wardrobe. There are two bathrooms. They take a bath and brush their teeth there.\nThe house has a small garden. Dimas and Putri play badminton in the garden. They have a cat. Dimas and Putri like to play with the cat there.\n:::\n\nHow do Dimas and Putri spend time with their cat?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Dimas and Putri like to play with the cat there\"*, yaitu di kebun (*garden*).\n\nKunci Jawaban: **C (Play in the garden with the cat)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_29_a",
+        "label": "A",
+        "content": "Sleep with the cat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_29_b",
+        "label": "B",
+        "content": "Play badminton with the cat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_29_c",
+        "label": "C",
+        "content": "Play in the garden with the cat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_29_d",
+        "label": "D",
+        "content": "Watch TV with the cat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_30",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Bacaan (Soal No. 26 – 30)]\n*Read the text below to answer questions 26-30!*\n\nMr. and Mrs. Wijaya have one son and one daughter. The son's name is Dimas. The daughter's name is Putri.\nThe Wijayas live in a house. They have a living room. They read books and watch TV there. The mother cooks food in the kitchen. They eat together in the dining room. The house has three bedrooms. They sleep in the bedrooms. They keep their clothes in the wardrobe. There are two bathrooms. They take a bath and brush their teeth there.\nThe house has a small garden. Dimas and Putri play badminton in the garden. They have a cat. Dimas and Putri like to play with the cat there.\n:::\n\nHow many bedrooms do they have?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"The house has three bedrooms.\"*\n\nKunci Jawaban: **B (Three)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_30_a",
+        "label": "A",
+        "content": "Two",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_30_b",
+        "label": "B",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_30_c",
+        "label": "C",
+        "content": "Four",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_30_d",
+        "label": "D",
+        "content": "Five",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_31",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "What is Maya doing? She is ____ the dishes.",
+    "imageUrl": "/uploads/bing_l2_prov_q31.png",
+    "explanation": "Piring kotor dicuci, jadi Maya sedang *washing the dishes*.\n\nKunci Jawaban: **C (Washing)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_31_a",
+        "label": "A",
+        "content": "Mopping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_31_b",
+        "label": "B",
+        "content": "Sweeping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_31_c",
+        "label": "C",
+        "content": "Washing",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_31_d",
+        "label": "D",
+        "content": "Vacuuming",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_32",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Choose the sentence that best matches this scene: a man is holding a hose and spraying water onto flowers in pots.",
+    "imageUrl": null,
+    "explanation": "Menyemprotkan air dari selang ke bunga artinya menyiram tanaman (*watering the plants*).\n\nKunci Jawaban: **B (Mr. Andi is watering the plants)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_32_a",
+        "label": "A",
+        "content": "Mr. Andi is trimming a bush",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_32_b",
+        "label": "B",
+        "content": "Mr. Andi is watering the plants",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_32_c",
+        "label": "C",
+        "content": "Mr. Andi is cutting the grass",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_32_d",
+        "label": "D",
+        "content": "Mr. Andi is picking fruit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_33",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Cerita (Soal No. 33 – 36)]\n*The following text is for question number 33 to 36:*\n\nHi! My name is Vino Curious. I live on the second floor of an apartment in a busy city. I'm a very curious boy and I always want to know what my neighbors are doing. Right now, I'm watching the park across the street through my binoculars.\nLet me look at the playground on Melur Street. It's full of children as always. Sarah is jumping rope and Tia is playing with her ball. Iqbal and Reza are walking their dogs, they love animals so much. Kevin is playing on the slide while his sister is on the swing.\nMade, Dodi, and Ayu are chasing each other and laughing. Nisa is playing badminton with a group of kids, but she isn't very good at it. Mr. and Mrs. Hartono are sitting on a bench, chatting and enjoying the sun. A few teenagers are sitting under a big tree, talking. Aji is running while flying his kite, and his friend Toni is clapping happily.\nIt's so nice to watch people from my window, but I must go now.\n:::\n\n“… now I'm watching the park across the street through my binoculars.”\nWhich tool is Vino using to watch the park?",
+    "imageUrl": null,
+    "explanation": "Vino berkata *\"I'm watching the park across the street through my binoculars.\"* Binoculars adalah teropong berlensa dua.\n\nKunci Jawaban: **C (Binoculars)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_33_a",
+        "label": "A",
+        "content": "Glasses",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_33_b",
+        "label": "B",
+        "content": "Telescope",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_33_c",
+        "label": "C",
+        "content": "Binoculars",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_33_d",
+        "label": "D",
+        "content": "Microscope",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_34",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Cerita (Soal No. 33 – 36)]\n*The following text is for question number 33 to 36:*\n\nHi! My name is Vino Curious. I live on the second floor of an apartment in a busy city. I'm a very curious boy and I always want to know what my neighbors are doing. Right now, I'm watching the park across the street through my binoculars.\nLet me look at the playground on Melur Street. It's full of children as always. Sarah is jumping rope and Tia is playing with her ball. Iqbal and Reza are walking their dogs, they love animals so much. Kevin is playing on the slide while his sister is on the swing.\nMade, Dodi, and Ayu are chasing each other and laughing. Nisa is playing badminton with a group of kids, but she isn't very good at it. Mr. and Mrs. Hartono are sitting on a bench, chatting and enjoying the sun. A few teenagers are sitting under a big tree, talking. Aji is running while flying his kite, and his friend Toni is clapping happily.\nIt's so nice to watch people from my window, but I must go now.\n:::\n\nWho is playing on the swing?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Kevin is playing on the slide while his sister is on the swing.\"* Yang bermain ayunan adalah adik/kakak perempuan Kevin.\n\nKunci Jawaban: **C (Kevin's sister)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_34_a",
+        "label": "A",
+        "content": "Sarah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_34_b",
+        "label": "B",
+        "content": "Kevin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_34_c",
+        "label": "C",
+        "content": "Kevin's sister",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_34_d",
+        "label": "D",
+        "content": "Tia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_35",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Cerita (Soal No. 33 – 36)]\n*The following text is for question number 33 to 36:*\n\nHi! My name is Vino Curious. I live on the second floor of an apartment in a busy city. I'm a very curious boy and I always want to know what my neighbors are doing. Right now, I'm watching the park across the street through my binoculars.\nLet me look at the playground on Melur Street. It's full of children as always. Sarah is jumping rope and Tia is playing with her ball. Iqbal and Reza are walking their dogs, they love animals so much. Kevin is playing on the slide while his sister is on the swing.\nMade, Dodi, and Ayu are chasing each other and laughing. Nisa is playing badminton with a group of kids, but she isn't very good at it. Mr. and Mrs. Hartono are sitting on a bench, chatting and enjoying the sun. A few teenagers are sitting under a big tree, talking. Aji is running while flying his kite, and his friend Toni is clapping happily.\nIt's so nice to watch people from my window, but I must go now.\n:::\n\nHow is the playground?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"It's full of children as always.\"* Taman bermain itu ramai (*crowded*).\n\nKunci Jawaban: **B (It is crowded)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_35_a",
+        "label": "A",
+        "content": "It is quiet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_35_b",
+        "label": "B",
+        "content": "It is crowded",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_35_c",
+        "label": "C",
+        "content": "It is windy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_35_d",
+        "label": "D",
+        "content": "It is calm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_36",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Cerita (Soal No. 33 – 36)]\n*The following text is for question number 33 to 36:*\n\nHi! My name is Vino Curious. I live on the second floor of an apartment in a busy city. I'm a very curious boy and I always want to know what my neighbors are doing. Right now, I'm watching the park across the street through my binoculars.\nLet me look at the playground on Melur Street. It's full of children as always. Sarah is jumping rope and Tia is playing with her ball. Iqbal and Reza are walking their dogs, they love animals so much. Kevin is playing on the slide while his sister is on the swing.\nMade, Dodi, and Ayu are chasing each other and laughing. Nisa is playing badminton with a group of kids, but she isn't very good at it. Mr. and Mrs. Hartono are sitting on a bench, chatting and enjoying the sun. A few teenagers are sitting under a big tree, talking. Aji is running while flying his kite, and his friend Toni is clapping happily.\nIt's so nice to watch people from my window, but I must go now.\n:::\n\nWhere is Vino watching the park from?",
+    "imageUrl": null,
+    "explanation": "Di akhir teks Vino berkata *\"It's so nice to watch people from my window.\"*\n\nKunci Jawaban: **B (From his window)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_36_a",
+        "label": "A",
+        "content": "From the park bench",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_36_b",
+        "label": "B",
+        "content": "From his window",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_36_c",
+        "label": "C",
+        "content": "From the street",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_36_d",
+        "label": "D",
+        "content": "From the rooftop",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_37",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Cerita (Soal No. 37 – 40)]\n*The following text is for question number 37 to 40:*\n\nMom just came home from Batu to Surabaya. She brought us 6 kilograms of oranges. When I counted them, there were 48 oranges in total. Mom made four packs of oranges, each pack has 6 oranges. One for the neighbor, one for aunt Ratih, one for grandpa, and one for our teacher. I saw my sister had already eaten two oranges, while I hadn't taken any yet. Mom saved a dozen and kept them in the fridge. She said she would make orange juice tomorrow. She asked me to put the rest on a plate.\n:::\n\nWhere did Mom buy the oranges?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Mom just came home from Batu to Surabaya.\"* Jeruk dibeli di Batu.\n\nKunci Jawaban: **A (Batu)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_37_a",
+        "label": "A",
+        "content": "Batu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_37_b",
+        "label": "B",
+        "content": "Surabaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_37_c",
+        "label": "C",
+        "content": "Malang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_37_d",
+        "label": "D",
+        "content": "Jakarta",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_38",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Cerita (Soal No. 37 – 40)]\n*The following text is for question number 37 to 40:*\n\nMom just came home from Batu to Surabaya. She brought us 6 kilograms of oranges. When I counted them, there were 48 oranges in total. Mom made four packs of oranges, each pack has 6 oranges. One for the neighbor, one for aunt Ratih, one for grandpa, and one for our teacher. I saw my sister had already eaten two oranges, while I hadn't taken any yet. Mom saved a dozen and kept them in the fridge. She said she would make orange juice tomorrow. She asked me to put the rest on a plate.\n:::\n\nHow many oranges were given away?",
+    "imageUrl": null,
+    "explanation": "Ibu membuat 4 bungkus, masing-masing 6 jeruk, untuk tetangga, Tante Ratih, kakek, dan guru: 4 × 6 = 24 jeruk.\n\nKunci Jawaban: **C (24 oranges)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_38_a",
+        "label": "A",
+        "content": "6 oranges",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_38_b",
+        "label": "B",
+        "content": "12 oranges",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_38_c",
+        "label": "C",
+        "content": "24 oranges",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_38_d",
+        "label": "D",
+        "content": "30 oranges",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_39",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Cerita (Soal No. 37 – 40)]\n*The following text is for question number 37 to 40:*\n\nMom just came home from Batu to Surabaya. She brought us 6 kilograms of oranges. When I counted them, there were 48 oranges in total. Mom made four packs of oranges, each pack has 6 oranges. One for the neighbor, one for aunt Ratih, one for grandpa, and one for our teacher. I saw my sister had already eaten two oranges, while I hadn't taken any yet. Mom saved a dozen and kept them in the fridge. She said she would make orange juice tomorrow. She asked me to put the rest on a plate.\n:::\n\nHow many oranges are saved for making orange juice?",
+    "imageUrl": null,
+    "explanation": "Ibu menyimpan selusin (*a dozen*) jeruk di kulkas untuk jus. Satu lusin = 12.\n\nKunci Jawaban: **C (12 oranges)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_39_a",
+        "label": "A",
+        "content": "2 oranges",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_39_b",
+        "label": "B",
+        "content": "6 oranges",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_39_c",
+        "label": "C",
+        "content": "12 oranges",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_39_d",
+        "label": "D",
+        "content": "24 oranges",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_prov_40",
+    "topicId": "top_bing_lvl2_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Cerita (Soal No. 37 – 40)]\n*The following text is for question number 37 to 40:*\n\nMom just came home from Batu to Surabaya. She brought us 6 kilograms of oranges. When I counted them, there were 48 oranges in total. Mom made four packs of oranges, each pack has 6 oranges. One for the neighbor, one for aunt Ratih, one for grandpa, and one for our teacher. I saw my sister had already eaten two oranges, while I hadn't taken any yet. Mom saved a dozen and kept them in the fridge. She said she would make orange juice tomorrow. She asked me to put the rest on a plate.\n:::\n\nHow many oranges were eaten by the writer?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"I hadn't taken any yet.\"* Jadi penulis belum makan jeruk sama sekali (*none*).\n\nKunci Jawaban: **A (None)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_prov_40_a",
+        "label": "A",
+        "content": "None",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_prov_40_b",
+        "label": "B",
+        "content": "2 oranges",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_prov_40_c",
+        "label": "C",
+        "content": "6 oranges",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_prov_40_d",
+        "label": "D",
+        "content": "12 oranges",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

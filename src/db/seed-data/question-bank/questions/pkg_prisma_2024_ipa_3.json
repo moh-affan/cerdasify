@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "q_prisma24_ipa3_01",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada jaringan epidermis bagian luar daun tumbuhan terdapat lapisan lilin kedap air yang berfungsi mengurangi penguapan air secara berlebih, yang disebut….",
+    "imageUrl": null,
+    "explanation": "Lapisan kutikula tersusun atas zat kutin (lilin) yang bersifat kedap air (hidrofobik), sehingga melindungi daun dari kehilangan air berlebihan akibat penguapan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_01_a",
+        "label": "A",
+        "content": "Kutikula",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_01_b",
+        "label": "B",
+        "content": "Xilem",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_01_c",
+        "label": "C",
+        "content": "Floem",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_01_d",
+        "label": "D",
+        "content": "Stomata",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_02",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jaringan parenkim pada mesofil daun yang memiliki kepadatan kloroplas tertinggi dan merupakan lokasi utama berlangsungnya fotosintesis adalah…",
+    "imageUrl": null,
+    "explanation": "Jaringan palisade berbentuk silinder tegak rapat dan mengandung banyak klorofil sehingga paling efektif menyerap energi cahaya untuk fotosintesis.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_02_a",
+        "label": "A",
+        "content": "Jaringan palisade (jaringan tiang)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_02_b",
+        "label": "B",
+        "content": "Jaringan meristem apikal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_02_c",
+        "label": "C",
+        "content": "Jaringan epidermis bawah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_02_d",
+        "label": "D",
+        "content": "Jaringan kolenkim",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_03",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Organel mikroskopis berupa pori celah pada permukaan daun yang diapit oleh sepasang sel penjaga dan berperan penting dalam proses pertukaran gas ($CO_2, O_2$) dan pengeluaran uap air (transpirasi) adalah ….",
+    "imageUrl": null,
+    "explanation": "Stomata membuka saat sel penjaga menyerap air dan menutup saat kekurangan air guna mengatur laju transpirasi dan respirasi tanaman.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_03_a",
+        "label": "A",
+        "content": "Ruang antarsel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_03_b",
+        "label": "B",
+        "content": "Stomata (mulut daun)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_03_c",
+        "label": "C",
+        "content": "Jaringan spons karang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_03_d",
+        "label": "D",
+        "content": "Mitokondria",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_04",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Proses biokimia pembentukan senyawa organik kompleks (glukosa) dari senyawa anorganik sederhana (karbon dioksida dan air) dengan bantuan energi cahaya matahari disebut..",
+    "imageUrl": null,
+    "explanation": "Fotosintesis merupakan reaksi anabolisme autotrof: $6CO_2 + 6H_2O \\xrightarrow{foton} C_6H_{12}O_6 + 6O_2$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_04_a",
+        "label": "A",
+        "content": "Glikolisis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_04_b",
+        "label": "B",
+        "content": "Respirasi seluler",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_04_c",
+        "label": "C",
+        "content": "Transpirasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_04_d",
+        "label": "D",
+        "content": "Fotosintesis",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_05",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Prinsip dasar fisika yang menyatakan bahwa energi tidak dapat diciptakan maupun dimusnahkan, melainkan hanya dapat diubah dari satu bentuk energi ke bentuk energi lainnya dinamakan...",
+    "imageUrl": null,
+    "explanation": "Hukum Kekekalan Energi (Hukum I Termodinamika) menyatakan bahwa energi total dalam sistem terisolasi selalu tetap: energi tidak dapat diciptakan atau dimusnahkan, hanya dapat berubah bentuk (misalnya energi listrik menjadi cahaya pada lampu).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_05_a",
+        "label": "A",
+        "content": "Hukum Hereditas Mendel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_05_b",
+        "label": "B",
+        "content": "Hukum Kekekalan Energi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_05_c",
+        "label": "C",
+        "content": "Hukum Aksi Reaksi Newton",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_05_d",
+        "label": "D",
+        "content": "Hukum Tekanan Pascal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_06",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam fisiologi tubuh manusia, ekskresi didefinisikan secara tepat sebagai proses pengeluaran...",
+    "imageUrl": null,
+    "explanation": "Ekskresi mengeluarkan zat sisa metabolisme kimia seluler (seperti urea, asam urat, keringat, $CO_2$) melalui ginjal, kulit, hati, dan paru-paru. Pengeluaran feses disebut defekasi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_06_a",
+        "label": "A",
+        "content": "Zat sisa hasil metabolisme sel tubuh yang sudah tidak digunakan lagi dan beracun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_06_b",
+        "label": "B",
+        "content": "Sisa makanan yang tidak tercerna melalui anus (defekasi)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_06_c",
+        "label": "C",
+        "content": "Zat getah enzim dan hormon pencernaan (sekresi)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_06_d",
+        "label": "D",
+        "content": "Gas asam lambung saat bersendawa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_07",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dalam sistem klasifikasi 5 kingdom makhluk hidup oleh Robert H. Whittaker, kingdom yang memuat seluruh jenis organisme multiseluler eukariotik berklorofil dan berdinding sel selulosa adalah..",
+    "imageUrl": null,
+    "explanation": "Kingdom Plantae mencakup Bryophyta (lumut), Pteridophyta (paku), dan Spermatophyta (tumbuhan berbiji) yang bersifat autotrof fotosintetik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_07_a",
+        "label": "A",
+        "content": "Kingdom Protista",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_07_b",
+        "label": "B",
+        "content": "Kingdom Plantae (tumbuhan)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_07_c",
+        "label": "C",
+        "content": "Kingdom Fungi (jamur)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_07_d",
+        "label": "D",
+        "content": "Kingdom Animalia (hewan)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_08",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Suatu sistem tatanan kesatuan utuh menyeluruh yang di dalamnya terjadi hubungan timbal balik saling mempengaruhi antara makhluk hidup (biotik) dengan lingkungan fisiknya (abiotik) disebut..",
+    "imageUrl": null,
+    "explanation": "Ekosistem adalah unit fungsional alam yang tersusun atas komponen biotik dan abiotik yang saling berinteraksi melalui rantai makanan dan siklus biogeokimia.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_08_a",
+        "label": "A",
+        "content": "Ekologi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_08_b",
+        "label": "B",
+        "content": "Populasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_08_c",
+        "label": "C",
+        "content": "Habitat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_08_d",
+        "label": "D",
+        "content": "Ekosistem",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_09",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Zona keseluruhan lapisan permukaan bumi, hidrosfer, dan atmosfer tempat seluruh ekosistem kehidupan organisme dapat hidup dan berkembang biak dinamakan..",
+    "imageUrl": null,
+    "explanation": "Biosfer adalah tingkatan organisasi biologis tertinggi yang mencakup seluruh lapisan bumi yang dihuni oleh makhluk hidup.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_09_a",
+        "label": "A",
+        "content": "Biosfer",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_09_b",
+        "label": "B",
+        "content": "Litosfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_09_c",
+        "label": "C",
+        "content": "Mesosfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_09_d",
+        "label": "D",
+        "content": "Stratosfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_10",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan rantai makanan berikut: Rumput $\\rightarrow$ Belalang $\\rightarrow$ Tikus $\\rightarrow$ Burung Elang. Organisme yang menduduki trofik tertinggi sebagai konsumen puncak adalah...",
+    "imageUrl": null,
+    "explanation": "Burung elang berada di puncak rantai makanan (trofik tertinggi) karena tidak dimangsa oleh hewan pemangsa alami lain di ekosistem tersebut.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_10_a",
+        "label": "A",
+        "content": "Rumput (produsen)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_10_b",
+        "label": "B",
+        "content": "Tikus (konsumen sekunder)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_10_c",
+        "label": "C",
+        "content": "Burung Elang (konsumen puncak / tersier)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_10_d",
+        "label": "D",
+        "content": "Belalang (konsumen primer)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_11",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dofir menderita miopi (rabun jauh) sehingga bayangan benda jauh jatuh di depan retina matanya. Jenis kacamata berlensa yang tepat untuk membantu penglihatan Dofir adalah ...",
+    "imageUrl": null,
+    "explanation": "Lensa cekung bersifat menyebarkan berkas cahaya (divergen) sebelum masuk ke mata, sehingga bayangan yang semula jatuh di depan retina dapat digeser tepat jatuh di bintik kuning retina.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_11_a",
+        "label": "A",
+        "content": "Lensa silindris",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_11_b",
+        "label": "B",
+        "content": "Lensa cembung (positif / konvergen)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_11_c",
+        "label": "C",
+        "content": "Lensa cekung (negatif / divergen)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_11_d",
+        "label": "D",
+        "content": "Lensa datar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_12",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Terjadinya fenomena pelangi di langit setelah hujan merupakan bukti nyata bahwa cahaya putih matahari dapat mengalami peristiwa ...",
+    "imageUrl": null,
+    "explanation": "Cahaya polikromatik matahari dibiaskan dan dipantulkan oleh butir-butir air hujan sehingga terurai menjadi warna-warna monokromatik (merah, jingga, kuning, hijau, biru, nila, ungu).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_12_a",
+        "label": "A",
+        "content": "Polarisasi cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_12_b",
+        "label": "B",
+        "content": "Perambatan lurus di ruang hampa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_12_c",
+        "label": "C",
+        "content": "Pemantulan baur sempurna",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_12_d",
+        "label": "D",
+        "content": "Pembiasan (refraksi) dan penguraian warna (dispersi) oleh butiran air hujan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_13",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Prinsip optika yang mendasari kemampuan mata manusia dalam melihat suatu benda di sekitarnya secara benar adalah ...",
+    "imageUrl": null,
+    "explanation": "Kita dapat melihat benda tak bercahaya karena benda tersebut memantulkan sebagian berkas cahaya yang mengenainya menuju ke pupil mata kita.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_13_a",
+        "label": "A",
+        "content": "Mata dapat melihat benda karena benda menyerap seluruh berkas cahaya yang datang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_13_b",
+        "label": "B",
+        "content": "Mata dapat melihat benda karena benda memantulkan berkas cahaya ke dalam kornea dan pupil mata",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_13_c",
+        "label": "C",
+        "content": "Mata mengeluarkan berkas sinar sendiri ke arah benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_13_d",
+        "label": "D",
+        "content": "Benda memancarkan gelombang suara yang ditangkap retina",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_14",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Urutan jalannya berkas cahaya masuk ke dalam mata manusia hingga terbentuk bayangan nyata dan terbalik pada retina adalah ...",
+    "imageUrl": null,
+    "explanation": "Cahaya menembus selaput bening kornea $\\rightarrow$ masuk melalui celah pupil $\\rightarrow$ difokuskan oleh lensa mata $\\rightarrow$ bayangan jatuh tepat pada retina $\\rightarrow$ impuls diteruskan ke otak lewat saraf optik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_14_a",
+        "label": "A",
+        "content": "Pupil $\\rightarrow$ Kornea $\\rightarrow$ Iris $\\rightarrow$ Lensa mata $\\rightarrow$ Retina",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_14_b",
+        "label": "B",
+        "content": "Lensa mata $\\rightarrow$ Kornea $\\rightarrow$ Pupil $\\rightarrow$ Retina",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_14_c",
+        "label": "C",
+        "content": "Kornea $\\rightarrow$ Pupil $\\rightarrow$ Lensa mata (cahaya dibiaskan) $\\rightarrow$ Retina (bayangan diterima)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_14_d",
+        "label": "D",
+        "content": "Retina $\\rightarrow$ Saraf optik $\\rightarrow$ Lensa mata $\\rightarrow$ Kornea",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_15",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam ilmu kimia dan fisika materi, apa yang dimaksud dengan partikel ion?",
+    "imageUrl": null,
+    "explanation": "Ion adalah atom atau gugus atom yang bermuatan listrik. Jika melepaskan elektron menjadi ion positif (kation), dan jika menangkap elektron menjadi ion negatif (anion).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_15_a",
+        "label": "A",
+        "content": "Atom atau gabungan atom yang memiliki muatan listrik bersih (akibat pelepasan atau penangkapan elektron)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_15_b",
+        "label": "B",
+        "content": "Partikel subatomik netral di dalam inti atom",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_15_c",
+        "label": "C",
+        "content": "Molekul gas yang tidak dapat bereaksi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_15_d",
+        "label": "D",
+        "content": "Zat padat yang tidak larut air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_16",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kelompok unsur kimia di bawah ini yang seluruhnya tergolong sebagai unsur logam adalah ....",
+    "imageUrl": null,
+    "explanation": "Emas, perak, dan nikel adalah logam murni yang mengilap, dapat ditempa, dan merupakan konduktor listrik yang baik. Karbon, belerang, fosfor, dan oksigen adalah non-logam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_16_a",
+        "label": "A",
+        "content": "Emas ($Au$), seng ($Zn$), dan Karbon ($C$)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_16_b",
+        "label": "B",
+        "content": "Besi ($Fe$), nikel ($Ni$), dan belerang ($S$)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_16_c",
+        "label": "C",
+        "content": "Fosfor ($P$), oksigen ($O$), dan tembaga ($Cu$)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_16_d",
+        "label": "D",
+        "content": "Emas ($Au$), perak ($Ag$), tembaga ($Cu$), dan nikel ($Ni$)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_17",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kita mengamati matahari seolah-olah bergerak terbit di ufuk timur dan tenggelam di ufuk barat setiap hari. Gerak semu harian matahari ini disebabkan oleh peristiwa ….",
+    "imageUrl": null,
+    "explanation": "Karena bumi berotasi dari barat ke timur dengan periode 24 jam, pengamat di bumi melihat benda-benda langit tampak bergerak dari arah berlawanan, yaitu dari timur ke barat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_17_a",
+        "label": "A",
+        "content": "Rotasi bumi berputar pada porosnya dari arah barat ke timur",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_17_b",
+        "label": "B",
+        "content": "Revolusi matahari mengelilingi pusat galaksi bimasakti",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_17_c",
+        "label": "C",
+        "content": "Matahari mengitari planet bumi dalam lintasan lingkaran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_17_d",
+        "label": "D",
+        "content": "Kecepatan bumi melambat di siang hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_18",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Setelah fase bulan purnama, piringan bulan yang memantulkan cahaya matahari akan tampak berangsur-angsur mengecil (menyusut) menuju bentuk setengah lingkaran dan sabit. Kedudukan ini dinamakan fase .…",
+    "imageUrl": null,
+    "explanation": "Fase bulan: Bulan baru $\\rightarrow$ Kuartir I (membesar) $\\rightarrow$ Purnama $\\rightarrow$ Kuartir III (menyusut / *waning*) $\\rightarrow$ Bulan baru kembali.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_18_a",
+        "label": "A",
+        "content": "Kuartir pertama (*first quarter*)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_18_b",
+        "label": "B",
+        "content": "Bulan mati / konjungsi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_18_c",
+        "label": "C",
+        "content": "Kuartir ketiga / bulan susut (*waning moon*)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_18_d",
+        "label": "D",
+        "content": "Bulan baru",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_19",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ketika belahan bumi utara mengalami musim semi dan belahan bumi selatan mengalami musim gugur, peristiwa ini berlangsung pada rentang tanggal ….",
+    "imageUrl": null,
+    "explanation": "Antara 21 Maret hingga 21 Juni, matahari berada di atas khatulistiwa bergerak ke arah belahan bumi utara, memicu musim semi di utara dan musim gugur di selatan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_19_a",
+        "label": "A",
+        "content": "21 Desember sampai 21 Maret",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_19_b",
+        "label": "B",
+        "content": "23 September sampai 21 Desember",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_19_c",
+        "label": "C",
+        "content": "21 Juni sampai 23 September",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_19_d",
+        "label": "D",
+        "content": "21 Maret sampai 21 Juni",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_20",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bulan menampakkan berbagai bentuk fase yang berubah teratur saat mengitari bumi. Istilah di bawah ini yang BUKAN merupakan bentuk fase bulan adalah ....",
+    "imageUrl": null,
+    "explanation": "Penumbra adalah bayangan kabur/samar yang terbentuk saat terjadi peristiwa gerhana matahari atau bulan, bukan nama fase penampakan bulan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_20_a",
+        "label": "A",
+        "content": "Penumbra",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_20_b",
+        "label": "B",
+        "content": "Bulan purnama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_20_c",
+        "label": "C",
+        "content": "Bulan sabit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_20_d",
+        "label": "D",
+        "content": "Bulan cembung (*gibbous*)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_21",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Fenomena Gerhana Matahari total dapat terjadi pada saat posisi benda-benda langit berada pada urutan segaris lurus, yaitu ....",
+    "imageUrl": null,
+    "explanation": "Gerhana matahari terjadi saat piringan bulan melintas di antara matahari dan bumi sehingga bayangan umbra bulan jatuh menutupi sebagian wilayah bumi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_21_a",
+        "label": "A",
+        "content": "Matahari – Bulan – Bumi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_21_b",
+        "label": "B",
+        "content": "Matahari – Bumi – Bulan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_21_c",
+        "label": "C",
+        "content": "Bumi – Matahari – Bulan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_21_d",
+        "label": "D",
+        "content": "Bulan – Matahari – Bumi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_22",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sesuai Hukum I Newton (Kelembaman): jika resultan gaya total yang bekerja pada suatu benda sama dengan nol ($\\Sigma F = 0$), maka benda tersebut akan …",
+    "imageUrl": null,
+    "explanation": "Hukum I Newton menyatakan bahwa setiap benda akan mempertahankan keadaan diamnya atau keadaan bergerak lurus dengan kelajuan tetap kecuali jika dipaksa oleh gaya luar.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_22_a",
+        "label": "A",
+        "content": "Pasti mengalami perlambatan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_22_b",
+        "label": "B",
+        "content": "Pasti mengalami percepatan konstan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_22_c",
+        "label": "C",
+        "content": "Tetap diam atau bergerak lurus beraturan (GLB) dengan kecepatan tetap",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_22_d",
+        "label": "D",
+        "content": "Pasti berhenti seketika",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_23",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berdasarkan rumus tekanan zat padat ($P = \\frac{F}{A}$), jika luas bidang tekan ($A$) diperbesar sedangkan besar gaya tetap, maka besarnya tekanan zat padat akan...",
+    "imageUrl": null,
+    "explanation": "Tekanan berbanding terbalik dengan luas permukaan bidang tekan ($P \\propto \\frac{1}{A}$). Semakin lebar alas sepatu salju, tekanan ke salju semakin kecil sehingga tidak amblas.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_23_a",
+        "label": "A",
+        "content": "Semakin besar berlipat ganda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_23_b",
+        "label": "B",
+        "content": "Semakin kecil",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_23_c",
+        "label": "C",
+        "content": "Tidak mengalami perubahan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_23_d",
+        "label": "D",
+        "content": "Menjadi tak terhingga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_24",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pada tekanan hidrostatis zat cair ($P_h = \\rho \\cdot g \\cdot h$), semakin dalam posisi penyelam dari permukaan air, maka tekanan yang dialami tubuh penyelam akan..",
+    "imageUrl": null,
+    "explanation": "Tekanan hidrostatis berbanding lurus dengan kedalaman ($h$). Semakin dalam menyelam, berat kolom air di atas tubuh penyelam semakin besar sehingga tekanan hidrostatis bertambah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_24_a",
+        "label": "A",
+        "content": "Semakin besar secara proporsional",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_24_b",
+        "label": "B",
+        "content": "Semakin kecil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_24_c",
+        "label": "C",
+        "content": "Selalu bernilai nol",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_24_d",
+        "label": "D",
+        "content": "Sama dengan tekanan udara luar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_25",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika kertas pembungkus gorengan tampak berminyak dan menjadi transparan (tembus pandang), hal ini membuktikan adanya kandungan nutrisi ... pada gorengan tersebut.",
+    "imageUrl": null,
+    "explanation": "Uji lemak secara sederhana memanfaatkan sifat lemak/minyak yang mengisi pori-pori serat kertas sehingga indeks biasnya seragam dan kertas menjadi transparan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_25_a",
+        "label": "A",
+        "content": "Karbohidrat amilum tinggi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_25_b",
+        "label": "B",
+        "content": "Lemak / lipid",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_25_c",
+        "label": "C",
+        "content": "Protein hewani",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_25_d",
+        "label": "D",
+        "content": "Vitamin C larut air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_26",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ketika jari tangan terluka dan mengeluarkan darah, beberapa menit kemudian luka menutup dan perdarahan terhenti. Komponen darah yang berperan aktif dalam mekanisme pembekuan darah adalah ...",
+    "imageUrl": null,
+    "explanation": "Trombosit pecah mengeluarkan trombokinase $\\rightarrow$ mengubah protrombin menjadi trombin dengan bantuan $Ca^{2+}$ dan vitamin K $\\rightarrow$ trombin mengubah fibrinogen menjadi jaring-jaring fibrin penutup luka.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_26_a",
+        "label": "A",
+        "content": "Serum darah dan albumin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_26_b",
+        "label": "B",
+        "content": "Hemoglobin dan eritrosit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_26_c",
+        "label": "C",
+        "content": "Trombosit (keping darah) dan protein fibrinogen",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_26_d",
+        "label": "D",
+        "content": "Limfosit dan leukosit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_27",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ciri-ciri sel darah: bentuk tidak tetap (amuboid), memiliki inti sel, tidak berwarna, dan mampu menembus dinding kapiler (diapedesis) untuk memakan kuman penyakit (fagositosis). Ciri tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "Leukosit bertindak sebagai sistem pertahanan imun tubuh melawan infeksi patogen.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_27_a",
+        "label": "A",
+        "content": "Eritrosit (sel darah merah)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_27_b",
+        "label": "B",
+        "content": "Leukosit (sel darah putih)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_27_c",
+        "label": "C",
+        "content": "Trombosit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_27_d",
+        "label": "D",
+        "content": "Plasma darah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_28",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ciri-ciri pembuluh darah: membawa aliran darah keluar dari jantung, dinding pembuluh tebal dan elastis, tekanan darah tinggi, dan jika terluka darah akan memancar deras. Ciri ini merupakan karakteristik dari pembuluh ...",
+    "imageUrl": null,
+    "explanation": "Pembuluh arteri mengalirkan darah bertekanan tinggi dari bilik jantung ke seluruh tubuh. Dindingnya tebal dan berotot agar mampu menahan denyut pompa jantung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_28_a",
+        "label": "A",
+        "content": "Pembuluh vena (balik)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_28_b",
+        "label": "B",
+        "content": "Pembuluh kapiler",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_28_c",
+        "label": "C",
+        "content": "Pembuluh limfa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_28_d",
+        "label": "D",
+        "content": "Pembuluh arteri (nadi)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_29",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Panci untuk memasak air di dapur umumnya terbuat dari logam seperti aluminium atau baja tahan karat karena...",
+    "imageUrl": null,
+    "explanation": "Konduktivitas termal logam yang tinggi memungkinkan kalor dari api kompor cepat merambat merata ke air di dalam panci sehingga air cepat mendidih.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_29_a",
+        "label": "A",
+        "content": "Logam merupakan isolator panas yang baik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_29_b",
+        "label": "B",
+        "content": "Logam memiliki massa jenis yang sangat ringan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_29_c",
+        "label": "C",
+        "content": "Logam memiliki konduktivitas termal yang tinggi (konduktor panas yang baik)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_29_d",
+        "label": "D",
+        "content": "Logam dapat menghasilkan energi panas sendiri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_prisma24_ipa3_30",
+    "topicId": "top_prisma_2024_ipa_l3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Saat es batu dimasukkan ke dalam gelas berisi teh hangat, suhu teh berangsur-angsur turun menjadi dingin. Sesuai Asas Black, hal ini membuktikan bahwa...",
+    "imageUrl": null,
+    "explanation": "Asas Black: Kalor yang dilepas oleh benda bersuhu lebih tinggi (teh) sama dengan kalor yang diserap oleh benda bersuhu lebih rendah (es) ($Q_{lepas} = Q_{terima}$) hingga tercapai kesetimbangan termal.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_prisma24_ipa3_30_a",
+        "label": "A",
+        "content": "Es batu melepaskan energi panas ke udara luar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_30_b",
+        "label": "B",
+        "content": "Teh hangat melepaskan kalor kepada es batu, sedangkan es batu menyerap kalor tersebut untuk mencair",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_30_c",
+        "label": "C",
+        "content": "Suhu awal es batu lebih tinggi daripada teh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_prisma24_ipa3_30_d",
+        "label": "D",
+        "content": "Terjadi pemusnahan energi kalor di dalam gelas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

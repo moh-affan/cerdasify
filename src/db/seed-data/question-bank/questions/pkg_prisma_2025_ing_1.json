@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "pkg_prisma_2025_ing_1_q01",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Yolan likes …. on holiday. She really likes traditional dance.",
+    "imageUrl": null,
+    "explanation": "Petunjuk dalam kalimat menyatakan *\"She really likes traditional dance\"* (Dia sangat menyukai tarian tradisional). Oleh karena itu, kegiatan/hobi yang paling tepat adalah menari (*dancing*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q01_opt_a",
+        "label": "A",
+        "content": "singing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q01_opt_b",
+        "label": "B",
+        "content": "dancing",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q01_opt_c",
+        "label": "C",
+        "content": "painting",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q01_opt_d",
+        "label": "D",
+        "content": "speaking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q02",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dina likes to make beautiful pictures using pencils and colors. Her hobby is …",
+    "imageUrl": null,
+    "explanation": "Kegiatan membuat gambar menggunakan pensil dan warna adalah menggambar (*drawing*). *Hiking* = mendaki, *reading* = membaca, *cooking* = memasak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q02_opt_a",
+        "label": "A",
+        "content": "drawing",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q02_opt_b",
+        "label": "B",
+        "content": "hiking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q02_opt_c",
+        "label": "C",
+        "content": "reading",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q02_opt_d",
+        "label": "D",
+        "content": "cooking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q03",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Galfin : What do you like to do in your free time?\nAlfan : I enjoy …..",
+    "imageUrl": "/uploads/prisma25_ing1_image1.png",
+    "explanation": "Gambar stimulus menunjukkan seseorang berdiri di atas papan selancar sambil meluncur di ombak besar. Kegiatan ini disebut berselancar (*surfing*). *Painting* = melukis, *fencing* = anggar, *carving* = mengukir.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q03_opt_a",
+        "label": "A",
+        "content": "surfing",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q03_opt_b",
+        "label": "B",
+        "content": "painting",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q03_opt_c",
+        "label": "C",
+        "content": "fencing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q03_opt_d",
+        "label": "D",
+        "content": "carving",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q04",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture. Mrs. Jihan always wears a …. to cover her head.",
+    "imageUrl": "/uploads/prisma25_ing1_image2.png",
+    "explanation": "Gambar menunjukkan wanita yang memakai kerudung/jilbab penutup kepala, dalam bahasa Inggris disebut *veil* (atau *hijab*). *Belt* = ikat pinggang, *vest* = rompi, *shirt* = kemeja.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q04_opt_a",
+        "label": "A",
+        "content": "belt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q04_opt_b",
+        "label": "B",
+        "content": "veil",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q04_opt_c",
+        "label": "C",
+        "content": "vest",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q04_opt_d",
+        "label": "D",
+        "content": "shirt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q05",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The weather is cold tonight, I need to wear ….",
+    "imageUrl": null,
+    "explanation": "Ketika cuaca sedang dingin (*cold tonight*), pakaian yang berfungsi untuk menghangatkan tubuh adalah jaket (*a jacket*). *Belt* = ikat pinggang, *sunglasses* = kacamata hitam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q05_opt_a",
+        "label": "A",
+        "content": "a belt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q05_opt_b",
+        "label": "B",
+        "content": "a blouse",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q05_opt_c",
+        "label": "C",
+        "content": "sunglasses",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q05_opt_d",
+        "label": "D",
+        "content": "a jacket",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q06",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berlan is playing football now. He is wearing a T-shirt and ….",
+    "imageUrl": null,
+    "explanation": "Saat berolahraga sepak bola (*playing football*), perlengkapan standar yang dipakai adalah kaos oblong (*T-shirt*) dan celana pendek olahraga (*shorts*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q06_opt_a",
+        "label": "A",
+        "content": "a tie",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q06_opt_b",
+        "label": "B",
+        "content": "raincoat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q06_opt_c",
+        "label": "C",
+        "content": "shorts",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q06_opt_d",
+        "label": "D",
+        "content": "purse",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q07",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "We must stop when the traffic light is ….",
+    "imageUrl": null,
+    "explanation": "Pada lampu lalu lintas (*traffic light*), warna merah (*red*) adalah isyarat wajib untuk berhenti (*stop*), kuning untuk bersiap-siap, dan hijau untuk jalan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q07_opt_a",
+        "label": "A",
+        "content": "yellow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q07_opt_b",
+        "label": "B",
+        "content": "blue",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q07_opt_c",
+        "label": "C",
+        "content": "red",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q07_opt_d",
+        "label": "D",
+        "content": "green",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q08",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Here are names of the colors, except, ….",
+    "imageUrl": null,
+    "explanation": "*Chocolate* adalah nama makanan/minuman (cokelat). Nama warna cokelat dalam bahasa Inggris adalah *brown*. Sedangkan *black* (hitam), *purple* (ungu), dan *white* (putih) adalah nama-nama warna baku.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q08_opt_a",
+        "label": "A",
+        "content": "chocolate",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q08_opt_b",
+        "label": "B",
+        "content": "black",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q08_opt_c",
+        "label": "C",
+        "content": "purple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q08_opt_d",
+        "label": "D",
+        "content": "white",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q09",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture. It is a ….",
+    "imageUrl": "/uploads/prisma25_ing1_image3.png",
+    "explanation": "Gambar stimulus menampilkan kapal laut berukuran besar (*ship*), bukan kapal selam (*submarine*) maupun perahu kecil (*boat*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q09_opt_a",
+        "label": "A",
+        "content": "ship",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q09_opt_b",
+        "label": "B",
+        "content": "truck",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q09_opt_c",
+        "label": "C",
+        "content": "submarine",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q09_opt_d",
+        "label": "D",
+        "content": "boat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q10",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "There are three kinds of transportations. They are land transportation, water transportation and Air transportation. Air transportation means ….",
+    "imageUrl": null,
+    "explanation": "Kata *air* dalam konteks ini berarti udara, sehingga *air transportation* berarti transportasi udara (seperti pesawat terbang dan helikopter).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q10_opt_a",
+        "label": "A",
+        "content": "Transportasi air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q10_opt_b",
+        "label": "B",
+        "content": "Transportasi darat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q10_opt_c",
+        "label": "C",
+        "content": "Transportasi udara",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q10_opt_d",
+        "label": "D",
+        "content": "Transportasi bawah laut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q11",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I like ….",
+    "imageUrl": "/uploads/prisma25_ing1_image4.jpeg",
+    "explanation": "Gambar stimulus memperlihatkan jamur (*mushroom*). *Garlic* = bawang putih, *lettuce* = selada, *thorn* = duri.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q11_opt_a",
+        "label": "A",
+        "content": "garlic",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q11_opt_b",
+        "label": "B",
+        "content": "lettuce",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q11_opt_c",
+        "label": "C",
+        "content": "thorn",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q11_opt_d",
+        "label": "D",
+        "content": "mushroom",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q12",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "How to say “Seikat bayam” in English?",
+    "imageUrl": null,
+    "explanation": "Bayam dalam bahasa Inggris adalah *spinach*. Satuan untuk ikatan sayuran adalah *a bunch of*. Maka \"seikat bayam\" adalah *a bunch of spinach*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q12_opt_a",
+        "label": "A",
+        "content": "a bunch of cabbage",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q12_opt_b",
+        "label": "B",
+        "content": "a tube of radish",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q12_opt_c",
+        "label": "C",
+        "content": "a slice of spinach",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q12_opt_d",
+        "label": "D",
+        "content": "a bunch of spinach",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q13",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mangosteen, cherry, pear are ….",
+    "imageUrl": null,
+    "explanation": "*Mangosteen* (manggis), *cherry* (ceri), dan *pear* (pir) seluruhnya tergolong dalam kelompok buah-buahan (*fruits*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q13_opt_a",
+        "label": "A",
+        "content": "insects",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q13_opt_b",
+        "label": "B",
+        "content": "fruits",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q13_opt_c",
+        "label": "C",
+        "content": "vegetables",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q13_opt_d",
+        "label": "D",
+        "content": "vehicles",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q14",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Belqis : Where do you have breakfast ?\nArin : In the ….",
+    "imageUrl": null,
+    "explanation": "Ruang makan (*dining room*) adalah ruangan di dalam rumah yang khusus digunakan untuk makan bersama, termasuk sarapan pagi (*breakfast*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q14_opt_a",
+        "label": "A",
+        "content": "warehouse",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q14_opt_b",
+        "label": "B",
+        "content": "basin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q14_opt_c",
+        "label": "C",
+        "content": "dining room",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q14_opt_d",
+        "label": "D",
+        "content": "living room",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q15",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "There is a …. in front of my house.",
+    "imageUrl": "/uploads/prisma25_ing1_image5.jpeg",
+    "explanation": "Gambar stimulus memperlihatkan pagar pembatas halaman rumah (*fence*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q15_opt_a",
+        "label": "A",
+        "content": "gate",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q15_opt_b",
+        "label": "B",
+        "content": "fence",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q15_opt_c",
+        "label": "C",
+        "content": "terrace",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q15_opt_d",
+        "label": "D",
+        "content": "ashtray",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q16",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Your father keeps his car in the ….",
+    "imageUrl": null,
+    "explanation": "Tempat menyimpan atau memarkir mobil di area rumah adalah garasi (*garage*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q16_opt_a",
+        "label": "A",
+        "content": "garage",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q16_opt_b",
+        "label": "B",
+        "content": "bedroom",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q16_opt_c",
+        "label": "C",
+        "content": "roof",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q16_opt_d",
+        "label": "D",
+        "content": "balcony",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q17",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Belva wants to buy medicine. She goes to ….",
+    "imageUrl": null,
+    "explanation": "Untuk membeli obat-obatan (*medicine*), tempat yang harus dikunjungi adalah toko obat atau apotek (*drugstore* / *pharmacy*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q17_opt_a",
+        "label": "A",
+        "content": "stationery",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q17_opt_b",
+        "label": "B",
+        "content": "gallery",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q17_opt_c",
+        "label": "C",
+        "content": "grocery",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q17_opt_d",
+        "label": "D",
+        "content": "drugstore",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q18",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "It is going to rain. I must bring my ….",
+    "imageUrl": "/uploads/prisma25_ing1_image6.png",
+    "explanation": "Ketika hari akan turun hujan (*going to rain*), benda yang wajib dibawa untuk melindungi diri agar tidak basah adalah payung (*umbrella*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q18_opt_a",
+        "label": "A",
+        "content": "watch",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q18_opt_b",
+        "label": "B",
+        "content": "umbrella",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q18_opt_c",
+        "label": "C",
+        "content": "pail",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q18_opt_d",
+        "label": "D",
+        "content": "tie",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q19",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Most people have white ….",
+    "imageUrl": "/uploads/prisma25_ing1_image7.png",
+    "explanation": "Gigi manusia umumnya berwarna putih. Karena mengacu pada seluruh gigi (jamak/plural), bentuk yang tepat adalah *teeth* (bentuk jamak tak beraturan dari *tooth*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q19_opt_a",
+        "label": "A",
+        "content": "tooth",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q19_opt_b",
+        "label": "B",
+        "content": "navel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q19_opt_c",
+        "label": "C",
+        "content": "toes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q19_opt_d",
+        "label": "D",
+        "content": "teeth",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q20",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Bacaan: Miracle Goes to Market (Soal No. 20 – 22)]\n*The following text is for questions number 20 to 22:*\n\n“I am Miracle. My mother always goes to market on Sunday with me. We go there at six O’clock by pedicab. One hour before I usually sweep the yard. In the market, we buy Fresh Meat and fish, two kilos of egg and some vegetables.”\n:::\n\nWho always goes to market on Sunday?",
+    "imageUrl": null,
+    "explanation": "Pada teks disebutkan *\"My mother always goes to market on Sunday with me\"*. Karena penulis adalah Miracle, maka yang pergi ke pasar berdua adalah Miracle dan ibunya (*Miracle and her mother*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q20_opt_a",
+        "label": "A",
+        "content": "Miracle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q20_opt_b",
+        "label": "B",
+        "content": "Miracle’s mother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q20_opt_c",
+        "label": "C",
+        "content": "The writer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q20_opt_d",
+        "label": "D",
+        "content": "Miracle and her mother",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q21",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Bacaan: Miracle Goes to Market (Soal No. 20 – 22)]\n*The following text is for questions number 20 to 22:*\n\n“I am Miracle. My mother always goes to market on Sunday with me. We go there at six O’clock by pedicab. One hour before I usually sweep the yard. In the market, we buy Fresh Meat and fish, two kilos of egg and some vegetables.”\n:::\n\nHow do the writer and her mother go to market?",
+    "imageUrl": null,
+    "explanation": "Berdasarkan kalimat kedua teks: *\"We go there at six O’clock by pedicab\"*. Jadi mereka pergi mengendarai becak (*by pedicab*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q21_opt_a",
+        "label": "A",
+        "content": "on foot",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q21_opt_b",
+        "label": "B",
+        "content": "by pedicab",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q21_opt_c",
+        "label": "C",
+        "content": "by car",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q21_opt_d",
+        "label": "D",
+        "content": "by cycle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q22",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Bacaan: Miracle Goes to Market (Soal No. 20 – 22)]\n*The following text is for questions number 20 to 22:*\n\n“I am Miracle. My mother always goes to market on Sunday with me. We go there at six O’clock by pedicab. One hour before I usually sweep the yard. In the market, we buy Fresh Meat and fish, two kilos of egg and some vegetables.”\n:::\n\nWhat time does Miracle sweep the yard?",
+    "imageUrl": null,
+    "explanation": "Miracle pergi ke pasar pada pukul 6 (*at six o'clock*), dan menyapu halaman satu jam sebelumnya (*one hour before*). Satu jam sebelum pukul 6 adalah pukul 5 pagi (*at five o'clock*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q22_opt_a",
+        "label": "A",
+        "content": "at five o’clock",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q22_opt_b",
+        "label": "B",
+        "content": "at four o’clock",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q22_opt_c",
+        "label": "C",
+        "content": "at six o’clock",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q22_opt_d",
+        "label": "D",
+        "content": "at seven o’clock",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q23",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Choose the word that has the same meaning as “happy”.",
+    "imageUrl": null,
+    "explanation": "Sinonim kata *happy* (senang/bahagia) adalah *glad* (gembira/sukacita). *Sad* = sedih, *angry* = marah, *tired* = lelah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q23_opt_a",
+        "label": "A",
+        "content": "Sad",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q23_opt_b",
+        "label": "B",
+        "content": "Glad",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q23_opt_c",
+        "label": "C",
+        "content": "Angry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q23_opt_d",
+        "label": "D",
+        "content": "Tired",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q24",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The water is hot, the ice is ….",
+    "imageUrl": null,
+    "explanation": "Kalimat menunjukkan hubungan antonim sifat: air panas (*hot*), sedangkan es bersuhu dingin (*cold*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q24_opt_a",
+        "label": "A",
+        "content": "warm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q24_opt_b",
+        "label": "B",
+        "content": "sunny",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q24_opt_c",
+        "label": "C",
+        "content": "dull",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q24_opt_d",
+        "label": "D",
+        "content": "cold",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q25",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The movie was very boring, but the book was ….",
+    "imageUrl": null,
+    "explanation": "Kata sambung pertentangan *but* menunjukkan sifat berlawanan. Jika filmnya membosankan (*boring*), maka bukunya sangat menarik (*interesting*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q25_opt_a",
+        "label": "A",
+        "content": "interesting",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q25_opt_b",
+        "label": "B",
+        "content": "confusing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q25_opt_c",
+        "label": "C",
+        "content": "tiring",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q25_opt_d",
+        "label": "D",
+        "content": "difficult",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q26",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "There is a cat …. the table.",
+    "imageUrl": "/uploads/prisma25_ing1_image8.png",
+    "explanation": "Gambar stimulus menunjukkan seekor kucing sedang berbaring di kolong/bawah meja (*under the table*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q26_opt_a",
+        "label": "A",
+        "content": "behind",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q26_opt_b",
+        "label": "B",
+        "content": "in front of",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q26_opt_c",
+        "label": "C",
+        "content": "under",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q26_opt_d",
+        "label": "D",
+        "content": "corner",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q27",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Falih sits behind Chaca. We can say also that Chaca sits …. Falih.",
+    "imageUrl": null,
+    "explanation": "Jika Falih duduk di belakang (*behind*) Chaca, maka sebaliknya Chaca duduk di depan (*in front of*) Falih.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q27_opt_a",
+        "label": "A",
+        "content": "under",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q27_opt_b",
+        "label": "B",
+        "content": "across",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q27_opt_c",
+        "label": "C",
+        "content": "among",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q27_opt_d",
+        "label": "D",
+        "content": "in front of",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q28",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture. A bird is …. two boxes.",
+    "imageUrl": "/uploads/prisma25_ing1_image9_nolabel.png",
+    "explanation": "Preposisi tempat untuk objek yang berada di tengah-tengah dua benda adalah *between* (*between two boxes*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q28_opt_a",
+        "label": "A",
+        "content": "on",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q28_opt_b",
+        "label": "B",
+        "content": "between",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q28_opt_c",
+        "label": "C",
+        "content": "next to",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q28_opt_d",
+        "label": "D",
+        "content": "over",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q29",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The sun rises in the ….",
+    "imageUrl": null,
+    "explanation": "Matahari terbit dari sebelah timur (*east*) dan terbenam di sebelah barat (*west*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q29_opt_a",
+        "label": "A",
+        "content": "east",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q29_opt_b",
+        "label": "B",
+        "content": "west",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q29_opt_c",
+        "label": "C",
+        "content": "north",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q29_opt_d",
+        "label": "D",
+        "content": "south",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_prisma_2025_ing_1_q30",
+    "topicId": "top_prisma_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The opposite of south is ….",
+    "imageUrl": null,
+    "explanation": "Lawan arah mata angin dari selatan (*south*) adalah utara (*north*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_prisma_2025_ing_1_q30_opt_a",
+        "label": "A",
+        "content": "north",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q30_opt_b",
+        "label": "B",
+        "content": "east",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q30_opt_c",
+        "label": "C",
+        "content": "west",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_prisma_2025_ing_1_q30_opt_d",
+        "label": "D",
+        "content": "southeast",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

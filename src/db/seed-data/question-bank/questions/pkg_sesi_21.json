@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "q_0380_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Lampu A berkedip setiap 6 detik dan lampu B berkedip setiap 8 detik. Jika keduanya berkedip bersamaan sekarang, keduanya akan berkedip bersamaan lagi setelah ... detik.",
+    "imageUrl": null,
+    "explanation": "Waktu berkedip bersamaan berikutnya adalah KPK dari 6 dan 8.\nKelipatan 6: 6, 12, 18, 24, …\nKelipatan 8: 8, 16, 24, …\nKPK(6, 8) = 24, jadi keduanya berkedip bersamaan lagi setelah 24 detik.\nJawaban: B",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0380_simulasi-campur_A",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0380_simulasi-campur_B",
+        "label": "B",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0380_simulasi-campur_C",
+        "label": "C",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0380_simulasi-campur_D",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0341_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah balok berukuran 7 cm × 8 cm × 5 cm. Volumenya adalah ...",
+    "imageUrl": null,
+    "explanation": "Volume balok = p × l × t = 7 × 8 × 5 = 280 cm³.\nJawaban: A. 280 cm³",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0341_simulasi-campur_0_A",
+        "label": "A",
+        "content": "280 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0341_simulasi-campur_1_B",
+        "label": "B",
+        "content": "56 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0341_simulasi-campur_2_C",
+        "label": "C",
+        "content": "20 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0341_simulasi-campur_3_D",
+        "label": "D",
+        "content": "262 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0342_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pola titik membentuk segitiga: 1, 3, 6, 10, ... Susunan dengan 66 titik adalah gambar ke- ...",
+    "imageUrl": null,
+    "explanation": "Cari n dengan n × (n + 1) ÷ 2 = 66. Untuk n = 11: 11 × 12 ÷ 2 = 66. Jadi gambar ke-11.\nJawaban: A. 11",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0342_simulasi-campur_0_A",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0342_simulasi-campur_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0342_simulasi-campur_2_C",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0342_simulasi-campur_3_D",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0343_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Nadia memiliki 7 kaos dan 2 celana. Banyak pasangan kaos dan celana berbeda yang dapat dipakai adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap kaos dapat dipasangkan dengan 2 celana, jadi 7 × 2 = 14 pasangan.\nJawaban: A. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0343_simulasi-campur_0_A",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0343_simulasi-campur_1_B",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0343_simulasi-campur_2_C",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0343_simulasi-campur_3_D",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0344_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Harga 5 kg jeruk dan 5 kg apel adalah Rp50.000,00. Jika harga 1 kg apel Rp6.000,00, maka harga 1 kg jeruk adalah ...",
+    "imageUrl": null,
+    "explanation": "Harga 5 kg apel = 5 × Rp6.000 = Rp30.000. Sisa untuk 5 kg jeruk = Rp50.000 − Rp30.000 = Rp20.000. Harga 1 kg = Rp20.000 ÷ 5 = Rp4.000.\nJawaban: C. Rp4.000,00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0344_simulasi-campur_0_A",
+        "label": "A",
+        "content": "Rp6.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0344_simulasi-campur_1_B",
+        "label": "B",
+        "content": "Rp5.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0344_simulasi-campur_2_C",
+        "label": "C",
+        "content": "Rp4.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0344_simulasi-campur_3_D",
+        "label": "D",
+        "content": "Rp3.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0345_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hasil dari (8 + 11) × 6 − 20 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kurung dulu: 8 + 11 = 19. Lalu 19 × 6 = 114, dan 114 − 20 = 94.\nJawaban: B. 94",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0345_simulasi-campur_0_A",
+        "label": "A",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0345_simulasi-campur_1_B",
+        "label": "B",
+        "content": "94",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0345_simulasi-campur_2_C",
+        "label": "C",
+        "content": "75",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0345_simulasi-campur_3_D",
+        "label": "D",
+        "content": "134",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0346_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika 3 × ☐ + 4 × ☐ = 77, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "3☐ + 4☐ = 7☐, jadi 7 × ☐ = 77 → ☐ = 77 ÷ 7 = 11.\nJawaban: C. 11",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0346_simulasi-campur_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0346_simulasi-campur_1_B",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0346_simulasi-campur_2_C",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0346_simulasi-campur_3_D",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0347_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jumlah dua bilangan adalah 87 dan selisihnya 9. Bilangan yang lebih besar adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan terbesar = (jumlah + selisih) ÷ 2 = (87 + 9) ÷ 2 = 48. (Bilangan kecilnya 39)\nJawaban: B. 48",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0347_simulasi-campur_0_A",
+        "label": "A",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0347_simulasi-campur_1_B",
+        "label": "B",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0347_simulasi-campur_2_C",
+        "label": "C",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0347_simulasi-campur_3_D",
+        "label": "D",
+        "content": "78",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0348_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Uang tiga anak berbanding 3 : 4 : 2 dengan jumlah Rp36.000,00. Uang anak dengan bagian 4 adalah ...",
+    "imageUrl": null,
+    "explanation": "Total perbandingan = 9 bagian senilai Rp36.000, jadi 1 bagian = Rp4.000. Bagian 4 = 4 × Rp4.000 = Rp16.000.\nJawaban: D. Rp16.000,00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0348_simulasi-campur_0_A",
+        "label": "A",
+        "content": "Rp12.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0348_simulasi-campur_1_B",
+        "label": "B",
+        "content": "Rp8.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0348_simulasi-campur_2_C",
+        "label": "C",
+        "content": "Rp20.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0348_simulasi-campur_3_D",
+        "label": "D",
+        "content": "Rp16.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0349_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika ☐ × ▲ = 98 dan ☐ ÷ ▲ = 2, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari ☐ = 2 × ▲, maka 2 × ▲ × ▲ = 98 → ▲ × ▲ = 49 → ▲ = 7. Jadi ☐ = 2 × 7 = 14.\nJawaban: C. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0349_simulasi-campur_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0349_simulasi-campur_1_B",
+        "label": "B",
+        "content": "98",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0349_simulasi-campur_2_C",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0349_simulasi-campur_3_D",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0350_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dua sudut saling berpelurus. Jika salah satu sudut 76°, maka sudut yang lain adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua sudut berpelurus berjumlah 180°. Sudut lainnya = 180° − 76° = 104°.\nJawaban: C. 104°",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0350_simulasi-campur_0_A",
+        "label": "A",
+        "content": "284°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0350_simulasi-campur_1_B",
+        "label": "B",
+        "content": "14°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0350_simulasi-campur_2_C",
+        "label": "C",
+        "content": "104°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0350_simulasi-campur_3_D",
+        "label": "D",
+        "content": "114°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0351_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pada peta berskala 1 : 100, jarak dua kota adalah 11 cm. Jarak sebenarnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Jarak sebenarnya = 11 × 100 = 1.100 cm = 11 m.\nJawaban: D. 11 m",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0351_simulasi-campur_0_A",
+        "label": "A",
+        "content": "110 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0351_simulasi-campur_1_B",
+        "label": "B",
+        "content": "1.100 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0351_simulasi-campur_2_C",
+        "label": "C",
+        "content": "1,1 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0351_simulasi-campur_3_D",
+        "label": "D",
+        "content": "11 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0352_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hasil dari 3 + 9 × 7 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan perkalian lebih dulu: 9 × 7 = 63. Lalu 3 + 63 = 66.\nJawaban: D. 66",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0352_simulasi-campur_0_A",
+        "label": "A",
+        "content": "84",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0352_simulasi-campur_1_B",
+        "label": "B",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0352_simulasi-campur_2_C",
+        "label": "C",
+        "content": "75",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0352_simulasi-campur_3_D",
+        "label": "D",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0353_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika 5 × ● + 9 = 49, maka nilai ● adalah ...",
+    "imageUrl": null,
+    "explanation": "5 × ● = 49 − 9 = 40. Maka ● = 40 ÷ 5 = 8.\nJawaban: D. 8",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0353_simulasi-campur_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0353_simulasi-campur_1_B",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0353_simulasi-campur_2_C",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0353_simulasi-campur_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0354_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Harga 6 buku adalah Rp30.000,00. Harga 24 buku yang sama adalah ...",
+    "imageUrl": null,
+    "explanation": "Harga 1 buku = Rp30.000 ÷ 6 = Rp5.000. Harga 24 buku = 24 × Rp5.000 = Rp120.000.\nJawaban: D. Rp120.000,00",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0354_simulasi-campur_0_A",
+        "label": "A",
+        "content": "Rp115.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0354_simulasi-campur_1_B",
+        "label": "B",
+        "content": "Rp60.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0354_simulasi-campur_2_C",
+        "label": "C",
+        "content": "Rp125.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0354_simulasi-campur_3_D",
+        "label": "D",
+        "content": "Rp120.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0355_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hasil dari (11 + 8) × 4 − 15 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kurung dulu: 11 + 8 = 19. Lalu 19 × 4 = 76, dan 76 − 15 = 61.\nJawaban: D. 61",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0355_simulasi-campur_0_A",
+        "label": "A",
+        "content": "91",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0355_simulasi-campur_1_B",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0355_simulasi-campur_2_C",
+        "label": "C",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0355_simulasi-campur_3_D",
+        "label": "D",
+        "content": "61",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0356_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Setiap kotak berisi 8 kantong dan setiap kantong berisi 5 permen. Banyak permen dalam 1 kotak adalah ...",
+    "imageUrl": null,
+    "explanation": "8 kantong × 5 permen = 40 permen.\nJawaban: C. 40",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0356_simulasi-campur_0_A",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0356_simulasi-campur_1_B",
+        "label": "B",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0356_simulasi-campur_2_C",
+        "label": "C",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0356_simulasi-campur_3_D",
+        "label": "D",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0357_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Angka 2, 4, 9 disusun menjadi bilangan tiga angka dengan setiap angka dipakai tepat sekali. Banyak bilangan berbeda yang terbentuk adalah ...",
+    "imageUrl": null,
+    "explanation": "Ratusan ada 3 pilihan, puluhan 2 pilihan, satuan 1 pilihan: 3 × 2 × 1 = 6 bilangan.\nJawaban: D. 6",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0357_simulasi-campur_0_A",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0357_simulasi-campur_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0357_simulasi-campur_2_C",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0357_simulasi-campur_3_D",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0358_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Wati, Eka, dan Bima memiliki tas berwarna berbeda: merah, biru, dan hijau. Wati tidak memiliki tas merah maupun biru. Eka tidak memiliki tas biru. Warna tas Bima adalah ...",
+    "imageUrl": null,
+    "explanation": "Wati pasti hijau (bukan merah, bukan biru). Eka bukan biru dan hijau sudah terpakai, jadi Eka merah. Sisanya biru untuk Bima.\nJawaban: B. biru",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0358_simulasi-campur_0_A",
+        "label": "A",
+        "content": "tidak dapat ditentukan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0358_simulasi-campur_1_B",
+        "label": "B",
+        "content": "biru",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0358_simulasi-campur_2_C",
+        "label": "C",
+        "content": "hijau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0358_simulasi-campur_3_D",
+        "label": "D",
+        "content": "merah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0359_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah kubus memiliki rusuk 12 cm. Luas seluruh permukaannya adalah ...",
+    "imageUrl": null,
+    "explanation": "Luas permukaan kubus = 6 × sisi × sisi = 6 × 12 × 12 = 864 cm².\nJawaban: B. 864 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0359_simulasi-campur_0_A",
+        "label": "A",
+        "content": "576 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0359_simulasi-campur_1_B",
+        "label": "B",
+        "content": "864 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0359_simulasi-campur_2_C",
+        "label": "C",
+        "content": "1728 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0359_simulasi-campur_3_D",
+        "label": "D",
+        "content": "144 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0360_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hari ini hari Selasa. Hari apakah 34 hari lagi?",
+    "imageUrl": null,
+    "explanation": "34 ÷ 7 = 4 sisa 6. Maju 6 hari dari Selasa adalah Senin.\nJawaban: D. Senin",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0360_simulasi-campur_0_A",
+        "label": "A",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0360_simulasi-campur_1_B",
+        "label": "B",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0360_simulasi-campur_2_C",
+        "label": "C",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0360_simulasi-campur_3_D",
+        "label": "D",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0361_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hari ini hari Sabtu. Hari apakah 67 hari lagi?",
+    "imageUrl": null,
+    "explanation": "67 ÷ 7 = 9 sisa 4. Maju 4 hari dari Sabtu adalah Rabu.\nJawaban: C. Rabu",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0361_simulasi-campur_0_A",
+        "label": "A",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0361_simulasi-campur_1_B",
+        "label": "B",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0361_simulasi-campur_2_C",
+        "label": "C",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0361_simulasi-campur_3_D",
+        "label": "D",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0362_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hasil dari 7/10 − 1/10 adalah ...",
+    "imageUrl": null,
+    "explanation": "Penyebut sama, kurangkan pembilangnya: (7 − 1)/10 = 6/10 = 3/5.\nJawaban: C. 3/5",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0362_simulasi-campur_0_A",
+        "label": "A",
+        "content": "7/10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0362_simulasi-campur_1_B",
+        "label": "B",
+        "content": "8/10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0362_simulasi-campur_2_C",
+        "label": "C",
+        "content": "3/5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0362_simulasi-campur_3_D",
+        "label": "D",
+        "content": "6/20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0363_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika (☐ ÷ 3) + 14 = 18, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "☐ ÷ 3 = 18 − 14 = 4. Maka ☐ = 4 × 3 = 12.\nJawaban: B. 12",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0363_simulasi-campur_0_A",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0363_simulasi-campur_1_B",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0363_simulasi-campur_2_C",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0363_simulasi-campur_3_D",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0364_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jumlah dua bilangan adalah 48 dan selisihnya 8. Bilangan yang lebih besar adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan terbesar = (jumlah + selisih) ÷ 2 = (48 + 8) ÷ 2 = 28. (Bilangan kecilnya 20)\nJawaban: B. 28",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0364_simulasi-campur_0_A",
+        "label": "A",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0364_simulasi-campur_1_B",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0364_simulasi-campur_2_C",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0364_simulasi-campur_3_D",
+        "label": "D",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0365_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika ☐ + ▲ = 18 dan ☐ − ▲ = 14, maka nilai ☐ adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlahkan kedua persamaan: 2 × ☐ = 18 + 14 = 32, jadi ☐ = 16. (Cek: ▲ = 2)\nJawaban: A. 16",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0365_simulasi-campur_0_A",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0365_simulasi-campur_1_B",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0365_simulasi-campur_2_C",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0365_simulasi-campur_3_D",
+        "label": "D",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0366_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah rumah makan menyediakan 3 jenis nasi, 3 jenis lauk, dan 2 jenis minuman. Banyak paket berbeda yang dapat dipilih (satu dari tiap jenis) adalah ...",
+    "imageUrl": null,
+    "explanation": "Gunakan aturan perkalian: 3 × 3 × 2 = 18 paket.\nJawaban: D. 18",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0366_simulasi-campur_0_A",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0366_simulasi-campur_1_B",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0366_simulasi-campur_2_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0366_simulasi-campur_3_D",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0367_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hasil dari 26 × 118 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pecah 118 = 100 + 18: (26 × 100) + (26 × 18) = 2600 + 468 = 3068.\nJawaban: C. 3068",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0367_simulasi-campur_0_A",
+        "label": "A",
+        "content": "3042",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0367_simulasi-campur_1_B",
+        "label": "B",
+        "content": "3094",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0367_simulasi-campur_2_C",
+        "label": "C",
+        "content": "3068",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0367_simulasi-campur_3_D",
+        "label": "D",
+        "content": "3328",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0368_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pada peta berskala 1 : 100, jarak dua kota adalah 3 cm. Jarak sebenarnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Jarak sebenarnya = 3 × 100 = 300 cm = 3 m.\nJawaban: B. 3 m",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0368_simulasi-campur_0_A",
+        "label": "A",
+        "content": "0,3 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0368_simulasi-campur_1_B",
+        "label": "B",
+        "content": "3 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0368_simulasi-campur_2_C",
+        "label": "C",
+        "content": "30 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0368_simulasi-campur_3_D",
+        "label": "D",
+        "content": "300 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0369_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah persegi memiliki keliling 36 cm. Luas persegi tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "Sisi = 36 ÷ 4 = 9 cm. Luas = 9 × 9 = 81 cm².\nJawaban: C. 81 cm²",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0369_simulasi-campur_0_A",
+        "label": "A",
+        "content": "162 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0369_simulasi-campur_1_B",
+        "label": "B",
+        "content": "100 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0369_simulasi-campur_2_C",
+        "label": "C",
+        "content": "81 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0369_simulasi-campur_3_D",
+        "label": "D",
+        "content": "36 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0370_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika 6 × (■ + 12) = 168, maka nilai ■ adalah ...",
+    "imageUrl": null,
+    "explanation": "Bagi kedua ruas dengan 6: ■ + 12 = 28. Maka ■ = 28 − 12 = 16.\nJawaban: C. 16",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0370_simulasi-campur_0_A",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0370_simulasi-campur_1_B",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0370_simulasi-campur_2_C",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0370_simulasi-campur_3_D",
+        "label": "D",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0371_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hasil bagi 55 oleh 10 adalah 5 dengan sisa ...",
+    "imageUrl": null,
+    "explanation": "10 × 5 = 50. Sisanya = 55 − 50 = 5.\nJawaban: B. 5",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0371_simulasi-campur_0_A",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0371_simulasi-campur_1_B",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0371_simulasi-campur_2_C",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0371_simulasi-campur_3_D",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0372_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika 20% dari suatu bilangan adalah 26, maka bilangan itu adalah ...",
+    "imageUrl": null,
+    "explanation": "20% bernilai 26, jadi 10% bernilai 13 dan 100% bernilai 13 × 10 = 130.\nJawaban: C",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0372_simulasi-campur_0_A",
+        "label": "A",
+        "content": "104",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0372_simulasi-campur_1_B",
+        "label": "B",
+        "content": "156",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0372_simulasi-campur_2_C",
+        "label": "C",
+        "content": "130",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0372_simulasi-campur_3_D",
+        "label": "D",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0373_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Keliling sebuah persegi panjang 72 cm dan panjangnya 24 cm. Lebarnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Keliling = 2 × (p + l), jadi p + l = 72 ÷ 2 = 36. Lebar = 36 − 24 = 12 cm.\nJawaban: A. 12 cm",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0373_simulasi-campur_0_A",
+        "label": "A",
+        "content": "12 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0373_simulasi-campur_1_B",
+        "label": "B",
+        "content": "14 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0373_simulasi-campur_2_C",
+        "label": "C",
+        "content": "18 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0373_simulasi-campur_3_D",
+        "label": "D",
+        "content": "48 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0374_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Di sebuah kandang terdapat kambing dan ayam sebanyak 17 ekor dengan jumlah kaki 50 buah. Banyak kambing adalah ...",
+    "imageUrl": null,
+    "explanation": "Jika semuanya ayam, kakinya 17 × 2 = 34. Kelebihan 50 − 34 = 16 kaki. Setiap kambing menambah 2 kaki, jadi kambing = 16 ÷ 2 = 8 ekor.\nJawaban: B. 8 ekor",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0374_simulasi-campur_0_A",
+        "label": "A",
+        "content": "10 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0374_simulasi-campur_1_B",
+        "label": "B",
+        "content": "8 ekor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0374_simulasi-campur_2_C",
+        "label": "C",
+        "content": "6 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0374_simulasi-campur_3_D",
+        "label": "D",
+        "content": "9 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0375_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dalam sebuah lomba, Dina finis tepat sebelum Eka. Lina finis setelah Eka tetapi sebelum Wati. Peserta yang finis terakhir adalah ...",
+    "imageUrl": null,
+    "explanation": "Urutan finis: Dina, Eka, Lina, Wati. Jadi yang terakhir adalah Wati.\nJawaban: C. Wati",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0375_simulasi-campur_0_A",
+        "label": "A",
+        "content": "Lina",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0375_simulasi-campur_1_B",
+        "label": "B",
+        "content": "Eka",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0375_simulasi-campur_2_C",
+        "label": "C",
+        "content": "Wati",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0375_simulasi-campur_3_D",
+        "label": "D",
+        "content": "Dina",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0376_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Fajar, Udin, dan Andi memiliki tas berwarna berbeda: merah, biru, dan hijau. Fajar tidak memiliki tas merah maupun biru. Udin tidak memiliki tas biru. Warna tas Andi adalah ...",
+    "imageUrl": null,
+    "explanation": "Fajar pasti hijau (bukan merah, bukan biru). Udin bukan biru dan hijau sudah terpakai, jadi Udin merah. Sisanya biru untuk Andi.\nJawaban: C. biru",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0376_simulasi-campur_0_A",
+        "label": "A",
+        "content": "tidak dapat ditentukan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0376_simulasi-campur_1_B",
+        "label": "B",
+        "content": "merah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0376_simulasi-campur_2_C",
+        "label": "C",
+        "content": "biru",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0376_simulasi-campur_3_D",
+        "label": "D",
+        "content": "hijau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0377_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hasil dari 17 + 4 × 8 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan perkalian lebih dulu: 4 × 8 = 32. Lalu 17 + 32 = 49.\nJawaban: B. 49",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0377_simulasi-campur_0_A",
+        "label": "A",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0377_simulasi-campur_1_B",
+        "label": "B",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0377_simulasi-campur_2_C",
+        "label": "C",
+        "content": "168",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0377_simulasi-campur_3_D",
+        "label": "D",
+        "content": "53",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0378_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Berat 1 semangka sama dengan berat 2 melon. Berat 1 melon sama dengan berat 5 apel. Berat 1 semangka sama dengan berat ... apel.",
+    "imageUrl": null,
+    "explanation": "1 semangka = 2 melon, dan 1 melon = 5 apel. Jadi 1 semangka = 2 × 5 = 10 apel.\nJawaban: B. 10",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0378_simulasi-campur_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0378_simulasi-campur_1_B",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0378_simulasi-campur_2_C",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0378_simulasi-campur_3_D",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0379_simulasi-campur",
+    "topicId": "top_olimpiade-matematika-sd_simulasi-cam",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Suatu barisan aritmetika memiliki suku pertama 3 dan beda 4. Suku ke berapakah yang bernilai 43?",
+    "imageUrl": null,
+    "explanation": "43 = 3 + 4 × (n − 1) → 4 × (n − 1) = 40 → n − 1 = 10 → n = 11.\nJawaban: B. 11",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0379_simulasi-campur_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0379_simulasi-campur_1_B",
+        "label": "B",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0379_simulasi-campur_2_C",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0379_simulasi-campur_3_D",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

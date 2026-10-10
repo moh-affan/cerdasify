@@ -1,0 +1,962 @@
+[
+  {
+    "id": "q_imoc_p1_01",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Fifteen children line up in front of a movie house. Ben is the 4th child from the front and Carlo is 3rd from the back. How many children are there between Ben and Carlo?",
+    "imageUrl": null,
+    "explanation": "Carlo is 3rd from the back, so he is the 15 − 3 + 1 = 13th child from the front.\nBen is the 4th child. The children between them are in positions 5 to 12: 12 − 5 + 1 = 8 children.\n\n**Answer: B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_01_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_01_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_01_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_01_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_02",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Some time ago, February 8 fell on a Wednesday.\nWhat day of the week was February 28 on that year?",
+    "imageUrl": null,
+    "explanation": "From February 8 to February 28 is 20 days. 20 = 2 × 7 + 6, so February 28 is 6 days after a Wednesday: Thursday, Friday, Saturday, Sunday, Monday, Tuesday.\n\n**Answer: B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_02_a",
+        "label": "A",
+        "content": "Monday",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_02_b",
+        "label": "B",
+        "content": "Tuesday",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_02_c",
+        "label": "C",
+        "content": "Saturday",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_02_d",
+        "label": "D",
+        "content": "Sunday",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_03",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Figure 1 has 3 stars, Figure 2 has 6 stars, and Figure 3 has 9 stars. If the pattern continues, how many stars are there in Figure 5?",
+    "imageUrl": null,
+    "explanation": "Each figure has 3 more stars than the previous one: 3, 6, 9, 12, 15. Figure 5 has 15 stars.\n\n**Answer: D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_03_a",
+        "label": "A",
+        "content": "10 ” are there in Figure 5?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_03_b",
+        "label": "B",
+        "content": "12 Figure 5 Figure 3 Figure 2 Figure 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_03_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_03_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_04",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "On a balance scale, 1 cat weighs the same as 2 rabbits, and 1 rabbit weighs the same as 3 mice. How many mice weigh the same as the cat?",
+    "imageUrl": null,
+    "explanation": "1 cat = 2 rabbits and 1 rabbit = 3 mice, so 1 cat = 2 × 3 = 6 mice.\n\n**Answer: B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_04_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_04_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_04_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_04_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_05",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Study the number sentences below.\n△ + △ + □ = 32\n△ + □ + □ = 22\nFind the sum of △ + □.",
+    "imageUrl": null,
+    "explanation": "Add the two number sentences: (△ + △ + □) + (△ + □ + □) = 32 + 22 = 54.\nThat is 3 × △ + 3 × □ = 54, so △ + □ = 54 ÷ 3 = 18.\n\n**Answer: A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_05_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_05_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_05_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_05_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_06",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Four starfish have these numbers of dots: A has 4 dots, B has 7 dots, C has 6 dots, and D has 8 dots. Which starfish has to crawl away so that the remaining starfish have 18 dots altogether?",
+    "imageUrl": null,
+    "explanation": "Total dots = 4 + 7 + 6 + 8 = 25. To leave 18 dots, the starfish that crawls away must have 25 − 18 = 7 dots, which is starfish B.\n\n**Answer: B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_06_a",
+        "label": "A",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_06_b",
+        "label": "B",
+        "content": "B",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_06_c",
+        "label": "C",
+        "content": "C",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_06_d",
+        "label": "D",
+        "content": "D",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_07",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of the following capital letters CANNOT be drawn with one continuous stroke, without lifting the pen and without going over any line twice?",
+    "imageUrl": null,
+    "explanation": "A figure can be drawn in one stroke only if it has 0 or 2 points where an odd number of lines meet.\nThe capital letter E has 4 such points (3 free ends and the middle junction where 3 lines meet), so it cannot be drawn in one stroke. L, M, and N each have only 2 free ends, so they can.\n\n**Answer: A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_07_a",
+        "label": "A",
+        "content": "E",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_07_b",
+        "label": "B",
+        "content": "L",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_07_c",
+        "label": "C",
+        "content": "M",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_07_d",
+        "label": "D",
+        "content": "N",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_08",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "My brother is 7 years old and I am twice his age. What is the sum of our ages?",
+    "imageUrl": null,
+    "explanation": "I am twice my brother's age: 2 × 7 = 14. The sum of our ages is 7 + 14 = 21.\n\n**Answer: A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_08_a",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_08_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_08_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_08_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_09",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "If ☐ is a 2-digit number, what is its value in the number sentence below?\n27 + ☐ = 45",
+    "imageUrl": null,
+    "explanation": "☐ = 45 − 27 = 18.\n\n**Answer: A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_09_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_09_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_09_c",
+        "label": "C",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_09_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_10",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Refer to the operations below.\n3 ⊕ 2 = 51\n5 ⊕ 1 = 64\n6 ⊕ 4 = 102\nWhat is the value of 4 ⊕ 2?",
+    "imageUrl": null,
+    "explanation": "Pattern: a ⊕ b is written as (a + b) followed by (a − b).\n3 ⊕ 2 → 5 and 1 → 51; 5 ⊕ 1 → 6 and 4 → 64; 6 ⊕ 4 → 10 and 2 → 102.\nSo 4 ⊕ 2 → 6 and 2 → 62.\n\n**Answer: B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_10_a",
+        "label": "A",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_10_b",
+        "label": "B",
+        "content": "62",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_10_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_10_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_11",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Each figure below is made up of 4 identical cubes joined face to face. Dan painted all the outside faces. Which figure needs the least amount of paint?",
+    "imageUrl": null,
+    "explanation": "Each place where two cubes touch hides 2 faces.\nA straight line, an L-shape, and a T-shape each have 3 touching places → 24 − 6 = 18 faces painted.\nA 2 × 2 square has 4 touching places → 24 − 8 = 16 faces painted, the least.\n\n**Answer: D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_11_a",
+        "label": "A",
+        "content": "4 cubes in a straight line",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_11_b",
+        "label": "B",
+        "content": "4 cubes in an L-shape",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_11_c",
+        "label": "C",
+        "content": "4 cubes in a T-shape",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_11_d",
+        "label": "D",
+        "content": "4 cubes in a 2 × 2 square",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_12",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "A big square is divided into a 3 × 3 grid of small squares. How many squares are there altogether in the figure?",
+    "imageUrl": null,
+    "explanation": "In a 3 × 3 grid: 9 small squares (1 × 1), 4 medium squares (2 × 2), and 1 big square (3 × 3). Total = 9 + 4 + 1 = 14.\n\n**Answer: D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_12_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_12_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_12_c",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_12_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_13",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gab is building a rectangular wall in his backyard. The wall is 3 bricks long and 3 bricks high. How many bricks does he need to complete the wall?",
+    "imageUrl": null,
+    "explanation": "The wall has 3 rows with 3 bricks in each row: 3 × 3 = 9 bricks.\n\n**Answer: B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_13_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_13_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_13_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_13_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_14",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "On a standard die, the numbers on opposite faces always add up to 7. Which number is on the face opposite 3?",
+    "imageUrl": null,
+    "explanation": "On a standard die, opposite faces add up to 7. The face opposite 3 is 7 − 3 = 4.\n\n**Answer: C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_14_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_14_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_14_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_14_d",
+        "label": "D",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_15",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Which of the following has the shortest distance around the figure (perimeter)?",
+    "imageUrl": null,
+    "explanation": "Perimeters: A = 4 × 5 = 20 cm; B = 2 × (6 + 3) = 18 cm; C = 2 × (8 + 2) = 20 cm; D = 4 × 6 = 24 cm. The shortest is B.\n\n**Answer: B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_15_a",
+        "label": "A",
+        "content": "A square with sides of 5 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_15_b",
+        "label": "B",
+        "content": "A rectangle 6 cm long and 3 cm wide",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_15_c",
+        "label": "C",
+        "content": "A rectangle 8 cm long and 2 cm wide",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_15_d",
+        "label": "D",
+        "content": "A square with sides of 6 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_16",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "What is the difference between the smallest 3-digit odd number and the largest 2-digit even number that can be formed with the digits 1, 0, 4, 2 and 3, if each digit can only be used once?",
+    "imageUrl": null,
+    "explanation": "Smallest 3-digit odd number from 1, 0, 4, 2, 3: 103.\nLargest 2-digit even number using the remaining digits 4 and 2: 42.\nDifference = 103 − 42 = 61.\n\n**Answer: C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_16_a",
+        "label": "A",
+        "content": "69",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_16_b",
+        "label": "B",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_16_c",
+        "label": "C",
+        "content": "61",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_16_d",
+        "label": "D",
+        "content": "59",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_17",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "How many different 2-digit numbers greater than 60 can be formed using\n3, 7, 4, 6 and 9? (Repetition of digits is not allowed.)",
+    "imageUrl": null,
+    "explanation": "The tens digit must be 6, 7, or 9 (to be greater than 60). For each tens digit, the ones digit can be any of the other 4 digits.\n3 × 4 = 12 numbers.\n\n**Answer: C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_17_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_17_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_17_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_17_d",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_18",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "There are 6 blue balls, 5 green balls, and 3 red balls in a bag. Cath was blindfolded before she takes the balls out, one at a time. How many balls must Cath pick in order to get 5 balls of the same color?",
+    "imageUrl": null,
+    "explanation": "Worst case: Cath picks 4 blue, 4 green, and all 3 red balls = 11 balls without having 5 of the same color.\nThe next ball (12th) must be blue or green, giving 5 of the same color. So she must pick 12 balls.\n\n**Answer: C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_18_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_18_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_18_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_18_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_19",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Brock pulled out 75 cents from his pocket. How many different ways could this amount be made using 5-cent, 25-cent, and 50-cent coins?",
+    "imageUrl": null,
+    "explanation": "Let the coins be 50¢, 25¢, and 5¢.\nWith one 50¢: 50 + 25, or 50 + 5 × 5 → 2 ways.\nWithout 50¢: 3 × 25; 2 × 25 + 5 × 5; 25 + 10 × 5; 15 × 5 → 4 ways.\nTotal = 6 ways.\n\n**Answer: D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_19_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_19_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_19_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_19_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_imoc_p1_20",
+    "topicId": "top_imocsea_2022_p1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Each of the children in Cruz family has at least two brothers and at least two sisters. What is the least number of children in the family?",
+    "imageUrl": null,
+    "explanation": "Each boy needs at least 2 brothers, so there are at least 3 boys. Each girl needs at least 2 sisters, so there are at least 3 girls. With 3 boys and 3 girls, every child has at least 2 brothers and 2 sisters. Least number = 6.\n\n**Answer: C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_imoc_p1_20_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_imoc_p1_20_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_imoc_p1_20_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_imoc_p1_20_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

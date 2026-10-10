@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "q_bing_l1_peny_01",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "If you have 4 apples and you eat 1, how many apples do you have left?",
+    "imageUrl": null,
+    "explanation": "4 − 1 = 3. Angka 3 dalam bahasa Inggris adalah *three*.\n\nKunci Jawaban: **B (Three)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_01_a",
+        "label": "A",
+        "content": "Two",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_01_b",
+        "label": "B",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_01_c",
+        "label": "C",
+        "content": "Four",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_01_d",
+        "label": "D",
+        "content": "Five",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_02",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I am … in the kitchen.",
+    "imageUrl": null,
+    "explanation": "Kegiatan yang dilakukan di dapur (*kitchen*) adalah memasak (*cooking*). Tidur di kamar, berenang di kolam, membaca bisa di mana saja tetapi bukan kegiatan khas dapur.\n\nKunci Jawaban: **A (Cooking)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_02_a",
+        "label": "A",
+        "content": "Cooking",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_02_b",
+        "label": "B",
+        "content": "Sleeping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_02_c",
+        "label": "C",
+        "content": "Swimming",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_02_d",
+        "label": "D",
+        "content": "Reading",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_03",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“My brother is eight years old”. How old is my brother?",
+    "imageUrl": null,
+    "explanation": "*Eight* artinya delapan, jadi umur kakak/adik laki-laki itu 8 tahun.\n\nKunci Jawaban: **B (8 years)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_03_a",
+        "label": "A",
+        "content": "6 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_03_b",
+        "label": "B",
+        "content": "8 years",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_03_c",
+        "label": "C",
+        "content": "10 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_03_d",
+        "label": "D",
+        "content": "12 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_04",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Teacher : How old are you?\nBudi : I am seven years old.\nHow old is Budi?",
+    "imageUrl": null,
+    "explanation": "Budi menjawab *\"I am seven years old\"*. *Seven* = tujuh, jadi Budi berumur 7 tahun.\n\nKunci Jawaban: **C (7 years)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_04_a",
+        "label": "A",
+        "content": "5 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_04_b",
+        "label": "B",
+        "content": "6 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_04_c",
+        "label": "C",
+        "content": "7 years",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_04_d",
+        "label": "D",
+        "content": "9 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_05",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of the following is a farewell greeting in English?",
+    "imageUrl": null,
+    "explanation": "*Goodbye* adalah salam perpisahan (*farewell*). *Hello* = salam bertemu, *please* = tolong, *sorry* = maaf.\n\nKunci Jawaban: **B (Goodbye)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_05_a",
+        "label": "A",
+        "content": "Hello",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_05_b",
+        "label": "B",
+        "content": "Goodbye",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_05_c",
+        "label": "C",
+        "content": "Please",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_05_d",
+        "label": "D",
+        "content": "Sorry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_06",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "It is very cold. Put on your … please.",
+    "imageUrl": null,
+    "explanation": "Saat sangat dingin (*very cold*), kita memakai jaket (*jacket*) agar hangat. Kipas, sandal, dan kacamata hitam dipakai saat panas.\n\nKunci Jawaban: **B (Jacket)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_06_a",
+        "label": "A",
+        "content": "Fan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_06_b",
+        "label": "B",
+        "content": "Jacket",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_06_c",
+        "label": "C",
+        "content": "Sandals",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_06_d",
+        "label": "D",
+        "content": "Sunglasses",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_07",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The response for the expression “How are you?” is ….",
+    "imageUrl": null,
+    "explanation": "Jawaban yang tepat untuk *\"How are you?\"* (Apa kabar?) adalah *\"I am fine, thank you\"* (Saya baik, terima kasih).\n\nKunci Jawaban: **A (I am fine, thank you)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_07_a",
+        "label": "A",
+        "content": "I am fine, thank you",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_07_b",
+        "label": "B",
+        "content": "Good morning",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_07_c",
+        "label": "C",
+        "content": "See you",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_07_d",
+        "label": "D",
+        "content": "Goodnight",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_08",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! What color is the grass?",
+    "imageUrl": "/uploads/bing_l1_peny_q08.png",
+    "explanation": "Rumput berwarna hijau (*green*).\n\nKunci Jawaban: **C (Green)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_08_a",
+        "label": "A",
+        "content": "Blue",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_08_b",
+        "label": "B",
+        "content": "Yellow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_08_c",
+        "label": "C",
+        "content": "Green",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_08_d",
+        "label": "D",
+        "content": "Purple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_09",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! What color is this fruit?",
+    "imageUrl": "/uploads/bing_l1_peny_q09.png",
+    "explanation": "Buah jeruk (*orange*) berwarna oranye/jingga. Dalam bahasa Inggris, warna dan buahnya sama-sama disebut *orange*.\n\nKunci Jawaban: **C (Orange)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_09_a",
+        "label": "A",
+        "content": "Green",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_09_b",
+        "label": "B",
+        "content": "Blue",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_09_c",
+        "label": "C",
+        "content": "Orange",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_09_d",
+        "label": "D",
+        "content": "Purple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_10",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! What color is the sky on a sunny day?",
+    "imageUrl": "/uploads/bing_l1_peny_q10.png",
+    "explanation": "Pada hari cerah (*sunny day*), langit berwarna biru (*blue*).\n\nKunci Jawaban: **B (Blue)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_10_a",
+        "label": "A",
+        "content": "Green",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_10_b",
+        "label": "B",
+        "content": "Blue",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_10_c",
+        "label": "C",
+        "content": "Red",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_10_d",
+        "label": "D",
+        "content": "Black",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_11",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Who is your father's father?",
+    "imageUrl": null,
+    "explanation": "Ayah dari ayah kita adalah kakek (*grandfather*).\n\nKunci Jawaban: **B (Grandfather)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_11_a",
+        "label": "A",
+        "content": "Grandmother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_11_b",
+        "label": "B",
+        "content": "Grandfather",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_11_c",
+        "label": "C",
+        "content": "Uncle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_11_d",
+        "label": "D",
+        "content": "Aunt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_12",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The man who is your father's brother is called ….",
+    "imageUrl": null,
+    "explanation": "Saudara laki-laki ayah adalah paman (*uncle*).\n\nKunci Jawaban: **A (Uncle)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_12_a",
+        "label": "A",
+        "content": "Uncle",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_12_b",
+        "label": "B",
+        "content": "Grandfather",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_12_c",
+        "label": "C",
+        "content": "Aunt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_12_d",
+        "label": "D",
+        "content": "Cousin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_13",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Who is your father's sister?",
+    "imageUrl": null,
+    "explanation": "Saudara perempuan ayah adalah bibi/tante (*aunt*).\n\nKunci Jawaban: **B (Aunt)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_13_a",
+        "label": "A",
+        "content": "Uncle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_13_b",
+        "label": "B",
+        "content": "Aunt",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_13_c",
+        "label": "C",
+        "content": "Grandmother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_13_d",
+        "label": "D",
+        "content": "Grandfather",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_14",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which animal is known for its very long neck?",
+    "imageUrl": null,
+    "explanation": "Hewan yang terkenal dengan lehernya yang sangat panjang adalah jerapah (*giraffe*).\n\nKunci Jawaban: **A (Giraffe)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_14_a",
+        "label": "A",
+        "content": "Giraffe",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_14_b",
+        "label": "B",
+        "content": "Elephant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_14_c",
+        "label": "C",
+        "content": "Lion",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_14_d",
+        "label": "D",
+        "content": "Zebra",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_15",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which animal moves slowly and carries its house (shell) on its back?",
+    "imageUrl": null,
+    "explanation": "Siput (*snail*) bergerak sangat lambat dan membawa \"rumahnya\" berupa cangkang di punggung.\n\nKunci Jawaban: **B (Snail)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_15_a",
+        "label": "A",
+        "content": "Rabbit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_15_b",
+        "label": "B",
+        "content": "Snail",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_15_c",
+        "label": "C",
+        "content": "Deer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_15_d",
+        "label": "D",
+        "content": "Horse",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_16",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "When does the day end?",
+    "imageUrl": null,
+    "explanation": "Hari berakhir pada malam hari (*night*). Urutannya: *morning* (pagi) → *noon* (tengah hari) → *afternoon* (sore) → *night* (malam).\n\nKunci Jawaban: **C (Night)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_16_a",
+        "label": "A",
+        "content": "Morning",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_16_b",
+        "label": "B",
+        "content": "Afternoon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_16_c",
+        "label": "C",
+        "content": "Night",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_16_d",
+        "label": "D",
+        "content": "Noon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_17",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "We use … for smelling.",
+    "imageUrl": null,
+    "explanation": "Kita mencium bau (*smelling*) dengan hidung (*nose*).\n\nKunci Jawaban: **B (Nose)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_17_a",
+        "label": "A",
+        "content": "Ear",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_17_b",
+        "label": "B",
+        "content": "Nose",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_17_c",
+        "label": "C",
+        "content": "Mouth",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_17_d",
+        "label": "D",
+        "content": "Hand",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_18",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "It has five fingers and we use it to hold things. What is it?",
+    "imageUrl": null,
+    "explanation": "Bagian tubuh yang punya lima jari dan dipakai untuk memegang adalah tangan (*hand*).\n\nKunci Jawaban: **B (Hand)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_18_a",
+        "label": "A",
+        "content": "Leg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_18_b",
+        "label": "B",
+        "content": "Hand",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_18_c",
+        "label": "C",
+        "content": "Ear",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_18_d",
+        "label": "D",
+        "content": "Nose",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_19",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Andi has a dog. He loves … dog so much.",
+    "imageUrl": null,
+    "explanation": "Andi laki-laki (*he*), jadi kata kepemilikannya *his* (*his dog* = anjingnya). *Her* untuk perempuan, *him* bukan kata kepemilikan.\n\nKunci Jawaban: **C (His)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_19_a",
+        "label": "A",
+        "content": "Her",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_19_b",
+        "label": "B",
+        "content": "Him",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_19_c",
+        "label": "C",
+        "content": "His",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_19_d",
+        "label": "D",
+        "content": "Your",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_20",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "You use your … to walk.",
+    "imageUrl": null,
+    "explanation": "Kita berjalan (*walk*) menggunakan kaki (*leg*).\n\nKunci Jawaban: **B (Leg)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_20_a",
+        "label": "A",
+        "content": "Eye",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_20_b",
+        "label": "B",
+        "content": "Leg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_20_c",
+        "label": "C",
+        "content": "Hand",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_20_d",
+        "label": "D",
+        "content": "Ear",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_21",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "This animal has four legs and barks. What is it?",
+    "imageUrl": null,
+    "explanation": "Hewan berkaki empat yang menggonggong (*barks*) adalah anjing (*dog*). Kucing mengeong, sapi melenguh, bebek berkaki dua.\n\nKunci Jawaban: **C (Dog)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_21_a",
+        "label": "A",
+        "content": "Cat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_21_b",
+        "label": "B",
+        "content": "Cow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_21_c",
+        "label": "C",
+        "content": "Dog",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_21_d",
+        "label": "D",
+        "content": "Duck",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_22",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "This animal has feathers, two legs, and lays eggs in a nest. What is it?",
+    "imageUrl": null,
+    "explanation": "Hewan berbulu (*feathers*), berkaki dua, dan bertelur di sarang adalah ayam (*chicken*). Ikan, ular, dan katak tidak berbulu.\n\nKunci Jawaban: **B (Chicken)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_22_a",
+        "label": "A",
+        "content": "Fish",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_22_b",
+        "label": "B",
+        "content": "Chicken",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_22_c",
+        "label": "C",
+        "content": "Snake",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_22_d",
+        "label": "D",
+        "content": "Frog",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_23",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Baby cow is called a ….",
+    "imageUrl": null,
+    "explanation": "Anak sapi disebut *calf*. *Cub* = anak singa/beruang, *kid* = anak kambing, *foal* = anak kuda.\n\nKunci Jawaban: **A (Calf)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_23_a",
+        "label": "A",
+        "content": "Calf",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_23_b",
+        "label": "B",
+        "content": "Cub",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_23_c",
+        "label": "C",
+        "content": "Kid",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_23_d",
+        "label": "D",
+        "content": "Foal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_24",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the picture! What fruit is it?",
+    "imageUrl": "/uploads/bing_l1_peny_q24.png",
+    "explanation": "Buah berkulit duri tajam dan berbau sangat kuat adalah durian.\n\nKunci Jawaban: **B (Durian)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_24_a",
+        "label": "A",
+        "content": "Banana",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_24_b",
+        "label": "B",
+        "content": "Durian",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_24_c",
+        "label": "C",
+        "content": "Watermelon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_24_d",
+        "label": "D",
+        "content": "Orange",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_25",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the picture! What fruit is it?",
+    "imageUrl": "/uploads/bing_l1_peny_q25.png",
+    "explanation": "Buah besar berkulit hijau bergaris dengan daging merah dan biji hitam adalah semangka (*watermelon*).\n\nKunci Jawaban: **C (Watermelon)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_25_a",
+        "label": "A",
+        "content": "Melon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_25_b",
+        "label": "B",
+        "content": "Grapes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_25_c",
+        "label": "C",
+        "content": "Watermelon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_25_d",
+        "label": "D",
+        "content": "Strawberry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_26",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "This thing is used to erase writing on the whiteboard. What is it?",
+    "imageUrl": null,
+    "explanation": "Benda untuk menghapus tulisan di papan tulis adalah penghapus (*eraser*).\n\nKunci Jawaban: **C (Eraser)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_26_a",
+        "label": "A",
+        "content": "Marker",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_26_b",
+        "label": "B",
+        "content": "Ruler",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_26_c",
+        "label": "C",
+        "content": "Eraser",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_26_d",
+        "label": "D",
+        "content": "Pencil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_27",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the picture! The item with black-and-white marks used for measuring is called ….",
+    "imageUrl": "/uploads/bing_l1_peny_q27.png",
+    "explanation": "Benda dengan garis-garis ukuran yang dipakai untuk mengukur panjang adalah penggaris (*ruler*).\n\nKunci Jawaban: **B (Ruler)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_27_a",
+        "label": "A",
+        "content": "Pencil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_27_b",
+        "label": "B",
+        "content": "Ruler",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_27_c",
+        "label": "C",
+        "content": "Board marker",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_27_d",
+        "label": "D",
+        "content": "Eraser",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_28",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "This fruit is long and yellow, monkeys love to eat it. What is it?",
+    "imageUrl": null,
+    "explanation": "Buah panjang berwarna kuning yang disukai monyet adalah pisang (*banana*).\n\nKunci Jawaban: **A (Banana)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_28_a",
+        "label": "A",
+        "content": "Banana",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_28_b",
+        "label": "B",
+        "content": "Apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_28_c",
+        "label": "C",
+        "content": "Grapes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_28_d",
+        "label": "D",
+        "content": "Durian",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_29",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the picture! What fruit is it?",
+    "imageUrl": "/uploads/bing_l1_peny_q29.png",
+    "explanation": "Buah panjang melengkung berkulit kuning adalah pisang (*banana*).\n\nKunci Jawaban: **B (Banana)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_29_a",
+        "label": "A",
+        "content": "Apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_29_b",
+        "label": "B",
+        "content": "Banana",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_29_c",
+        "label": "C",
+        "content": "Papaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_29_d",
+        "label": "D",
+        "content": "Mango",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_30",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "This fruit is round, can be red or green, and people say it keeps the doctor away. What is it?",
+    "imageUrl": null,
+    "explanation": "Buah bulat berwarna merah atau hijau yang terkenal dengan pepatah *\"An apple a day keeps the doctor away\"* adalah apel (*apple*).\n\nKunci Jawaban: **A (Apple)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_30_a",
+        "label": "A",
+        "content": "Apple",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_30_b",
+        "label": "B",
+        "content": "Grapes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_30_c",
+        "label": "C",
+        "content": "Durian",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_30_d",
+        "label": "D",
+        "content": "Melon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_31",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Look at the picture! What time is it now?",
+    "imageUrl": "/uploads/bing_l1_peny_q31.png",
+    "explanation": "Jarum pendek di angka 4 dan jarum panjang di angka 12 berarti pukul empat tepat (*four o'clock*).\n\nKunci Jawaban: **A (Four o'clock)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_31_a",
+        "label": "A",
+        "content": "Four o'clock",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_31_b",
+        "label": "B",
+        "content": "Ten to four",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_31_c",
+        "label": "C",
+        "content": "Half past four",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_31_d",
+        "label": "D",
+        "content": "Quarter past four",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_32",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Look at the picture! What time is it now?",
+    "imageUrl": "/uploads/bing_l1_peny_q32.png",
+    "explanation": "Jarum pendek di antara 7 dan 8, jarum panjang di angka 6 berarti pukul setengah delapan, dalam bahasa Inggris *half past seven* (lewat setengah jam dari pukul tujuh).\n\nKunci Jawaban: **B (Half past seven)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_32_a",
+        "label": "A",
+        "content": "Seven o'clock",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_32_b",
+        "label": "B",
+        "content": "Half past seven",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_32_c",
+        "label": "C",
+        "content": "Quarter to seven",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_32_d",
+        "label": "D",
+        "content": "Seven fifteen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_33",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Look at the picture! What fruit is it?",
+    "imageUrl": "/uploads/bing_l1_peny_q33.png",
+    "explanation": "Buah bulat berkulit jingga yang rasanya manis-asam dan bisa dibuat jus adalah jeruk (*orange*).\n\nKunci Jawaban: **A (Orange)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_33_a",
+        "label": "A",
+        "content": "Orange",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_33_b",
+        "label": "B",
+        "content": "Tomato",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_33_c",
+        "label": "C",
+        "content": "Peach",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_33_d",
+        "label": "D",
+        "content": "Apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_34",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Which part of the body do we use for hearing?",
+    "imageUrl": null,
+    "explanation": "Kita mendengar (*hearing*) dengan telinga (*ear*).\n\nKunci Jawaban: **B (Ear)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_34_a",
+        "label": "A",
+        "content": "Eye",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_34_b",
+        "label": "B",
+        "content": "Ear",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_34_c",
+        "label": "C",
+        "content": "Nose",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_34_d",
+        "label": "D",
+        "content": "Mouth",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_35",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Which animal has black and white feathers, cannot fly, but swims very well?",
+    "imageUrl": null,
+    "explanation": "Burung berbulu hitam-putih yang tidak bisa terbang tetapi pandai berenang adalah penguin.\n\nKunci Jawaban: **A (Penguin)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_35_a",
+        "label": "A",
+        "content": "Penguin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_35_b",
+        "label": "B",
+        "content": "Eagle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_35_c",
+        "label": "C",
+        "content": "Parrot",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_35_d",
+        "label": "D",
+        "content": "Owl",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_36",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "What do you say when you meet someone in the morning?",
+    "imageUrl": null,
+    "explanation": "Saat bertemu seseorang di pagi hari kita mengucapkan *Good morning* (selamat pagi). *Good night* diucapkan sebelum tidur.\n\nKunci Jawaban: **B (Good morning)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_36_a",
+        "label": "A",
+        "content": "Good night",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_36_b",
+        "label": "B",
+        "content": "Good morning",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_36_c",
+        "label": "C",
+        "content": "Good evening",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_36_d",
+        "label": "D",
+        "content": "Goodbye",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_37",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "I … my teeth every morning and night.",
+    "imageUrl": null,
+    "explanation": "Kegiatan untuk gigi adalah menggosok gigi: *brush my teeth*. *Comb* untuk rambut.\n\nKunci Jawaban: **A (Brush)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_37_a",
+        "label": "A",
+        "content": "Brush",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_37_b",
+        "label": "B",
+        "content": "Comb",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_37_c",
+        "label": "C",
+        "content": "Wash",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_37_d",
+        "label": "D",
+        "content": "Cut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_38",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Look at the picture! The weather is ….",
+    "imageUrl": "/uploads/bing_l1_peny_q38.png",
+    "explanation": "Saat cuaca cerah dan matahari bersinar terang, cuacanya disebut *sunny*.\n\nKunci Jawaban: **C (Sunny)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_38_a",
+        "label": "A",
+        "content": "Rainy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_38_b",
+        "label": "B",
+        "content": "Snowy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_38_c",
+        "label": "C",
+        "content": "Sunny",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_38_d",
+        "label": "D",
+        "content": "Cloudy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_39",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Which of these is a fruit, not a vegetable?",
+    "imageUrl": null,
+    "explanation": "Mangga (*mango*) adalah buah. Wortel, bayam, dan kentang adalah sayuran.\n\nKunci Jawaban: **C (Mango)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_39_a",
+        "label": "A",
+        "content": "Carrot",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_39_b",
+        "label": "B",
+        "content": "Spinach",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_39_c",
+        "label": "C",
+        "content": "Mango",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_39_d",
+        "label": "D",
+        "content": "Potato",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_peny_40",
+    "topicId": "top_bing_lvl1_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "This is my mother's father. I call him ….",
+    "imageUrl": null,
+    "explanation": "Ayah dari ibu kita adalah kakek (*grandfather*).\n\nKunci Jawaban: **B (Grandfather)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_peny_40_a",
+        "label": "A",
+        "content": "Uncle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_peny_40_b",
+        "label": "B",
+        "content": "Grandfather",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_peny_40_c",
+        "label": "C",
+        "content": "Father",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_peny_40_d",
+        "label": "D",
+        "content": "Cousin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

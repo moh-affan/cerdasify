@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "q_0101_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai dari 2 × 2 × 2 adalah ...",
+    "imageUrl": null,
+    "explanation": "2 dikalikan sebanyak 3 kali menghasilkan 8.\nJawaban: B. 8",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0101_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0101_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0101_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0101_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0102_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 53 × 118 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pecah 118 = 100 + 18: (53 × 100) + (53 × 18) = 5300 + 954 = 6254.\nJawaban: A. 6254",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0102_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "6254",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0102_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "6784",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0102_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "6307",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0102_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "6201",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0103_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 60 × 102 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pecah 102 = 100 + 2: (60 × 100) + (60 × 2) = 6000 + 120 = 6120.\nJawaban: B. 6120",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0103_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "6060",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0103_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "6120",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0103_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "6720",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0103_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "6180",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0104_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai dari 4 × 4 × 4 adalah ...",
+    "imageUrl": null,
+    "explanation": "4 dikalikan sebanyak 3 kali menghasilkan 64.\nJawaban: D. 64",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0104_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0104_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0104_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0104_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0105_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari (13 + 12) × 3 − 3 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kurung dulu: 13 + 12 = 25. Lalu 25 × 3 = 75, dan 75 − 3 = 72.\nJawaban: B. 72",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0105_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0105_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0105_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "78",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0105_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0106_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 2 × 6 + 4 × 6 adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua perkalian dikerjakan lebih dulu: 2×6 = 12 dan 4×6 = 24. Jumlahnya 12 + 24 = 36.\nJawaban: D. 36",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0106_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "120",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0106_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "96",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0106_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0106_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0107_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 8 + 12 × 9 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan perkalian lebih dulu: 12 × 9 = 108. Lalu 8 + 108 = 116.\nJawaban: A. 116",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0107_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "116",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0107_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "128",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0107_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "180",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0107_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0108_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "KPK dari 14 dan 10 adalah ...",
+    "imageUrl": null,
+    "explanation": "KPK = (14 × 10) ÷ FPB(14,10) = 140 ÷ 2 = 70.\nJawaban: C. 70",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0108_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "84",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0108_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0108_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0108_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "140",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0109_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "KPK dari 10 dan 16 adalah ...",
+    "imageUrl": null,
+    "explanation": "KPK = (10 × 16) ÷ FPB(10,16) = 160 ÷ 2 = 80.\nJawaban: A. 80",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0109_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0109_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "160",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0109_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0109_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0110_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil bagi 123 oleh 10 adalah 12 dengan sisa ...",
+    "imageUrl": null,
+    "explanation": "10 × 12 = 120. Sisanya = 123 − 120 = 3.\nJawaban: B. 3",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0110_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0110_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0110_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0110_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0111_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 7 + 4 × 9 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan perkalian lebih dulu: 4 × 9 = 36. Lalu 7 + 36 = 43.\nJawaban: A. 43",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0111_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "43",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0111_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0111_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "99",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0111_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0112_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 12 × 104 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pecah 104 = 100 + 4: (12 × 100) + (12 × 4) = 1200 + 48 = 1248.\nJawaban: B. 1248",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0112_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "1236",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0112_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "1248",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0112_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "1368",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0112_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "1260",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0113_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 36 × 103 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pecah 103 = 100 + 3: (36 × 100) + (36 × 3) = 3600 + 108 = 3708.\nJawaban: D. 3708",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0113_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "4068",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0113_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "3672",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0113_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "3744",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0113_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "3708",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0114_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "FPB dari 6 dan 14 adalah ...",
+    "imageUrl": null,
+    "explanation": "Faktor persekutuan terbesar dari 6 dan 14 adalah 2, karena 6 = 2 × 3 dan 14 = 2 × 7, sedangkan 3 dan 7 sudah tidak punya faktor bersama.\nJawaban: D. 2",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0114_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0114_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0114_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0114_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0115_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai angka 1 pada bilangan 1.613 adalah ...",
+    "imageUrl": null,
+    "explanation": "Angka 1 menempati tempat ribuan, sehingga nilainya 1 × 1000 = 1000.\nJawaban: A. 1000",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0115_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "1000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0115_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0115_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "10000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0115_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0116_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari (10 + 9) × 3 − 20 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kurung dulu: 10 + 9 = 19. Lalu 19 × 3 = 57, dan 57 − 20 = 37.\nJawaban: A. 37",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0116_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0116_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0116_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0116_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0117_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari (11 + 4) × 4 − 6 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kurung dulu: 11 + 4 = 15. Lalu 15 × 4 = 60, dan 60 − 6 = 54.\nJawaban: A. 54",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0117_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0117_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0117_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0117_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0118_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 27 × 115 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pecah 115 = 100 + 15: (27 × 100) + (27 × 15) = 2700 + 405 = 3105.\n\nJawaban: B. 3105",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0118_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "3078",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0118_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "3105",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0118_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "3132",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0118_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "3375",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0119_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari (14 + 11) × 3 − 17 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kurung dulu: 14 + 11 = 25. Lalu 25 × 3 = 75, dan 75 − 17 = 58.\nJawaban: A. 58",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0119_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "58",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0119_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "92",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0119_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0119_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0120_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai dari 1 + 2 + 3 + ... + 37 adalah ...",
+    "imageUrl": null,
+    "explanation": "Gunakan rumus n × (n + 1) ÷ 2 = 37 × 38 ÷ 2 = 703.\nJawaban: A. 703",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0120_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "703",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0120_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "740",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0120_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "1406",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0120_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "1369",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0121_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai dari 1 + 2 + 3 + ... + 18 adalah ...",
+    "imageUrl": null,
+    "explanation": "Gunakan rumus n × (n + 1) ÷ 2 = 18 × 19 ÷ 2 = 171.\nJawaban: A. 171",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0121_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "171",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0121_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "342",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0121_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "324",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0121_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "189",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0122_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Banyaknya bilangan prima antara 34 dan 62 adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan prima dari 35 sampai 61: 37, 41, 43, 47, 53, 59, 61 — ada 7 bilangan.\nJawaban: B. 7",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0122_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0122_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0122_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0122_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0123_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 18 + 7 × 4 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan perkalian lebih dulu: 7 × 4 = 28. Lalu 18 + 28 = 46.\nJawaban: C. 46",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0123_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0123_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "53",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0123_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0123_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0124_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 2 × 3 + 7 × 5 adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua perkalian dikerjakan lebih dulu: 2×3 = 6 dan 7×5 = 35. Jumlahnya 6 + 35 = 41.\nJawaban: A. 41",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0124_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "41",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0124_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0124_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "43",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0124_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0125_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "KPK dari 7 dan 14 adalah ...",
+    "imageUrl": null,
+    "explanation": "KPK = (7 × 14) ÷ FPB(7,14) = 98 ÷ 7 = 14.\nJawaban: A. 14",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0125_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0125_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0125_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "98",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0125_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0126_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 9 + 2 × 3 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan perkalian lebih dulu: 2 × 3 = 6. Lalu 9 + 6 = 15.\nJawaban: B. 15",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0126_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0126_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0126_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0126_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0127_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai dari 1 + 2 + 3 + ... + 29 adalah ...",
+    "imageUrl": null,
+    "explanation": "Gunakan rumus n × (n + 1) ÷ 2 = 29 × 30 ÷ 2 = 435.\nJawaban: A. 435",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0127_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "435",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0127_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "870",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0127_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "841",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0127_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "464",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0128_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 25 × 117 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pecah 117 = 100 + 17: (25 × 100) + (25 × 17) = 2500 + 425 = 2925.\nJawaban: A. 2925",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0128_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "2925",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0128_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "2950",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0128_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "3175",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0128_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "2900",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0129_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai dari 4 × 4 × 4 × 4 adalah ...",
+    "imageUrl": null,
+    "explanation": "4 dikalikan sebanyak 4 kali menghasilkan 256.\nJawaban: A. 256",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0129_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "256",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0129_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0129_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "260",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0129_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0130_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 3 × 4 + 6 × 2 adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua perkalian dikerjakan lebih dulu: 3×4 = 12 dan 6×2 = 12. Jumlahnya 12 + 12 = 24.\nJawaban: A. 24",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0130_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0130_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0130_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0130_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0131_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "FPB dari 99 dan 66 adalah ...",
+    "imageUrl": null,
+    "explanation": "Faktor persekutuan terbesar dari 99 dan 66 adalah 33, karena 99 = 33 × 3 dan 66 = 33 × 2, sedangkan 3 dan 2 sudah tidak punya faktor bersama.\nJawaban: A. 33",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0131_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0131_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "198",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0131_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0131_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0132_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai dari 6 × 6 × 6 × 6 × 6 adalah ...",
+    "imageUrl": null,
+    "explanation": "6 dikalikan sebanyak 5 kali menghasilkan 7776.\nJawaban: C. 7776",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0132_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "1296",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0132_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "7782",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0132_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "7776",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0132_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0133_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil bagi 51 oleh 8 adalah 6 dengan sisa ...",
+    "imageUrl": null,
+    "explanation": "8 × 6 = 48. Sisanya = 51 − 48 = 3.\nJawaban: B. 3",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0133_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0133_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0133_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0133_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0134_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 47 × 116 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pecah 116 = 100 + 16: (47 × 100) + (47 × 16) = 4700 + 752 = 5452.\nJawaban: D. 5452",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0134_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "5922",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0134_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "5405",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0134_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "5499",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0134_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "5452",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0135_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai angka 7 pada bilangan 7.656 adalah ...",
+    "imageUrl": null,
+    "explanation": "Angka 7 menempati tempat ribuan, sehingga nilainya 7 × 1000 = 7000.\nJawaban: A. 7000",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0135_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "7000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0135_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "70000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0135_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "700",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0135_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0136_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari (11 + 10) × 4 − 14 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kurung dulu: 11 + 10 = 21. Lalu 21 × 4 = 84, dan 84 − 14 = 70.\nJawaban: C. 70",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0136_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "98",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0136_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0136_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0136_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0137_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "KPK dari 12 dan 15 adalah ...",
+    "imageUrl": null,
+    "explanation": "KPK = (12 × 15) ÷ FPB(12,15) = 180 ÷ 3 = 60.\nJawaban: B. 60",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0137_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0137_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0137_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0137_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "180",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0138_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "FPB dari 54 dan 48 adalah ...",
+    "imageUrl": null,
+    "explanation": "Faktor persekutuan terbesar dari 54 dan 48 adalah 6, karena 54 = 6 × 9 dan 48 = 6 × 8, sedangkan 9 dan 8 sudah tidak punya faktor bersama.\nJawaban: D. 6",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0138_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0138_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0138_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0138_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0139_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 8 × 12 + 2 × 8 adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua perkalian dikerjakan lebih dulu: 8×12 = 96 dan 2×8 = 16. Jumlahnya 96 + 16 = 112.\nJawaban: A. 112",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0139_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "112",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0139_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "784",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0139_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "120",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0139_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "896",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0140_aritmetika-bagi",
+    "topicId": "top_olimpiade-matematika-sd_aritmetika-b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 7 × 12 + 3 × 8 adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua perkalian dikerjakan lebih dulu: 7×12 = 84 dan 3×8 = 24. Jumlahnya 84 + 24 = 108.\nJawaban: C. 108",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0140_aritmetika-bagi_0_A",
+        "label": "A",
+        "content": "115",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0140_aritmetika-bagi_1_B",
+        "label": "B",
+        "content": "696",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0140_aritmetika-bagi_2_C",
+        "label": "C",
+        "content": "108",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0140_aritmetika-bagi_3_D",
+        "label": "D",
+        "content": "840",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

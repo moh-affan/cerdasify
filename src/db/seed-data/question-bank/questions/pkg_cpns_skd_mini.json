@@ -1,0 +1,155 @@
+[
+  {
+    "id": "q_0490_twk",
+    "topicId": "top_cpns-skd_twk",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berdasarkan Pasal 2 UU No. 12 Tahun 2011, dasar dari segala sumber hukum negara Republik Indonesia adalah ...",
+    "imageUrl": null,
+    "explanation": "Pancasila merupakan sumber segala sumber hukum negara.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0490_twk_0_A",
+        "label": "A",
+        "content": "Pancasila",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0490_twk_1_B",
+        "label": "B",
+        "content": "UUD NRI 1945",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0490_twk_2_C",
+        "label": "C",
+        "content": "Tap MPR",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0490_twk_3_D",
+        "label": "D",
+        "content": "Dekrit Presiden 1959",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0491_tiu",
+    "topicId": "top_cpns-skd_tiu",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika $x = \\sqrt{72 - \\sqrt{72 - \\dots}}$ dan $y = 3^2 - 1$, maka hubungan $x$ dan $y$ adalah ...",
+    "imageUrl": null,
+    "explanation": "Nilai $x = 8$ dan $y = 8$, sehingga $x = y$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0491_tiu_0_A",
+        "label": "A",
+        "content": "$x > y$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0491_tiu_1_B",
+        "label": "B",
+        "content": "$x < y$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0491_tiu_2_C",
+        "label": "C",
+        "content": "$x = y$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0491_tiu_3_D",
+        "label": "D",
+        "content": "$2x = y$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0492_tkp",
+    "topicId": "top_cpns-skd_tkp",
+    "type": "GRADED_SCALE",
+    "difficulty": "HOTS",
+    "content": "Anda melihat rekan kerja Anda kesulitan menyelesaikan laporan kerja karena sistem baru. Sikap Anda adalah ...",
+    "imageUrl": null,
+    "explanation": "Soal berbobot: setiap opsi bernilai 1–5 poin sesuai kepatutan tindakannya (tidak ada nilai minus). Urutan bobot: A (5) > E (4) > C (3) > D (2) > B (1).\n\n- **A — 5 poin:** Membantu rekan secara langsung dan tuntas tanpa mengabaikan pekerjaan utama.\n- **E — 4 poin:** Memberi bahan belajar, tetapi tanpa pendampingan langsung.\n- **C — 3 poin:** Solusi jangka panjang, tetapi rekan tidak segera terbantu.\n- **D — 2 poin:** Mengerjakan laporan orang lain membuatnya tidak belajar.\n- **B — 1 poin:** Tidak peduli pada kesulitan rekan kerja.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0492_tkp_0_A",
+        "label": "A",
+        "content": "Membimbing rekan tersebut langkah demi langkah setelah pekerjaan utama saya selesai.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 5,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0492_tkp_1_B",
+        "label": "B",
+        "content": "Mengabaikannya karena setiap pegawai wajib belajar mandiri.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 1,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0492_tkp_2_C",
+        "label": "C",
+        "content": "Melaporkannya kepada atasan agar diadakan pelatihan.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 3,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0492_tkp_3_D",
+        "label": "D",
+        "content": "Mengerjakan seluruh laporannya sebagai bentuk solidaritas.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 2,
+        "order": 3
+      },
+      {
+        "id": "opt_q_0492_tkp_4_E",
+        "label": "E",
+        "content": "Memberikan materi panduan manual sistem baru untuk dipelajari.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "q_bing_l2_peny_01",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Bacaan (Soal No. 1 – 5)]\n*The following text is for question number 1 to 5.*\n\nMy name is Raihan. I am 10 years old, and I am now in 5th grade of elementary school. I am the oldest student in my class. I have a younger brother named Fajar. He is small.\nHe is still 3 years old, he has chubby cheeks and curly hair. He will be having his fourth birthday next week, on August 9th.\n:::\n\nHow is Raihan in his class?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"I am the oldest student in my class.\"* Raihan adalah siswa tertua di kelasnya.\n\nKunci Jawaban: **D (He is the oldest student in his class.)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_01_a",
+        "label": "A",
+        "content": "He is the tallest student in his class.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_01_b",
+        "label": "B",
+        "content": "He is the smallest student in his class.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_01_c",
+        "label": "C",
+        "content": "He is the smartest student in his class.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_01_d",
+        "label": "D",
+        "content": "He is the oldest student in his class.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_02",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Bacaan (Soal No. 1 – 5)]\n*The following text is for question number 1 to 5.*\n\nMy name is Raihan. I am 10 years old, and I am now in 5th grade of elementary school. I am the oldest student in my class. I have a younger brother named Fajar. He is small.\nHe is still 3 years old, he has chubby cheeks and curly hair. He will be having his fourth birthday next week, on August 9th.\n:::\n\nRaihan has a … brother.",
+    "imageUrl": null,
+    "explanation": "Teks: *\"I have a younger brother named Fajar.\"*\n\nKunci Jawaban: **B (Younger)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_02_a",
+        "label": "A",
+        "content": "Older",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_02_b",
+        "label": "B",
+        "content": "Younger",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_02_c",
+        "label": "C",
+        "content": "Taller",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_02_d",
+        "label": "D",
+        "content": "Oldest",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_03",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Bacaan (Soal No. 1 – 5)]\n*The following text is for question number 1 to 5.*\n\nMy name is Raihan. I am 10 years old, and I am now in 5th grade of elementary school. I am the oldest student in my class. I have a younger brother named Fajar. He is small.\nHe is still 3 years old, he has chubby cheeks and curly hair. He will be having his fourth birthday next week, on August 9th.\n:::\n\nRaihan's brother has chubby … and curly ….",
+    "imageUrl": null,
+    "explanation": "Teks: *\"he has chubby cheeks and curly hair.\"*\n\nKunci Jawaban: **B (cheeks, hair)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_03_a",
+        "label": "A",
+        "content": "cheeks, hands",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_03_b",
+        "label": "B",
+        "content": "cheeks, hair",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_03_c",
+        "label": "C",
+        "content": "face, cheeks",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_03_d",
+        "label": "D",
+        "content": "hair, face",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_04",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Bacaan (Soal No. 1 – 5)]\n*The following text is for question number 1 to 5.*\n\nMy name is Raihan. I am 10 years old, and I am now in 5th grade of elementary school. I am the oldest student in my class. I have a younger brother named Fajar. He is small.\nHe is still 3 years old, he has chubby cheeks and curly hair. He will be having his fourth birthday next week, on August 9th.\n:::\n\nRaihan's brother is ….",
+    "imageUrl": null,
+    "explanation": "Teks: *\"He is small.\"*\n\nKunci Jawaban: **B (Small)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_04_a",
+        "label": "A",
+        "content": "Tall",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_04_b",
+        "label": "B",
+        "content": "Small",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_04_c",
+        "label": "C",
+        "content": "Thin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_04_d",
+        "label": "D",
+        "content": "Old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_05",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Teks Bacaan (Soal No. 1 – 5)]\n*The following text is for question number 1 to 5.*\n\nMy name is Raihan. I am 10 years old, and I am now in 5th grade of elementary school. I am the oldest student in my class. I have a younger brother named Fajar. He is small.\nHe is still 3 years old, he has chubby cheeks and curly hair. He will be having his fourth birthday next week, on August 9th.\n:::\n\nRaihan's brother will be having his birthday on ….",
+    "imageUrl": null,
+    "explanation": "Teks: *\"He will be having his fourth birthday next week, on August 9th.\"*\n\nKunci Jawaban: **B (August 9th)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_05_a",
+        "label": "A",
+        "content": "August 8th",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_05_b",
+        "label": "B",
+        "content": "August 9th",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_05_c",
+        "label": "C",
+        "content": "September 9th",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_05_d",
+        "label": "D",
+        "content": "July 9th",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_06",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dimas : Do you like durian?\nWulan : No, I don't like … food.",
+    "imageUrl": null,
+    "explanation": "Durian terkenal dengan baunya yang menyengat, jadi Wulan tidak suka makanan yang berbau (*smelly*).\n\nKunci Jawaban: **B (Smelly)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_06_a",
+        "label": "A",
+        "content": "Sweet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_06_b",
+        "label": "B",
+        "content": "Smelly",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_06_c",
+        "label": "C",
+        "content": "Sour",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_06_d",
+        "label": "D",
+        "content": "Salty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_07",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I love lime because it tastes ….",
+    "imageUrl": null,
+    "explanation": "Jeruk nipis (*lime*) rasanya asam (*sour*).\n\nKunci Jawaban: **C (Sour)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_07_a",
+        "label": "A",
+        "content": "Sweet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_07_b",
+        "label": "B",
+        "content": "Bitter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_07_c",
+        "label": "C",
+        "content": "Sour",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_07_d",
+        "label": "D",
+        "content": "Salty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_08",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Below is the food that tastes salty, except ….",
+    "imageUrl": null,
+    "explanation": "Keripik, kerupuk, dan telur asin rasanya asin. Cokelat (*chocolate*) rasanya manis, jadi itu jawabannya.\n\nKunci Jawaban: **C (Chocolate)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_08_a",
+        "label": "A",
+        "content": "Chips",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_08_b",
+        "label": "B",
+        "content": "Crackers",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_08_c",
+        "label": "C",
+        "content": "Chocolate",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_08_d",
+        "label": "D",
+        "content": "Salted egg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_09",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rina is holding a red candy wrapped in plastic. What does Rina hold?",
+    "imageUrl": null,
+    "explanation": "Rina memegang permen merah, dan permen rasanya manis (*sweet candy*).\n\nKunci Jawaban: **D (Sweet candy)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_09_a",
+        "label": "A",
+        "content": "Sour lime",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_09_b",
+        "label": "B",
+        "content": "Bitter melon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_09_c",
+        "label": "C",
+        "content": "Sour grapes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_09_d",
+        "label": "D",
+        "content": "Sweet candy",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_10",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of these statements is right about the taste of the food?",
+    "imageUrl": null,
+    "explanation": "Jus jeruk bisa terasa sangat asam, jadi pernyataan A masuk akal. Permen tidak asin, semangka tidak pahit, dan sup tidak manis.\n\nKunci Jawaban: **A (I'm drinking a very sour orange juice)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_10_a",
+        "label": "A",
+        "content": "I'm drinking a very sour orange juice",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_10_b",
+        "label": "B",
+        "content": "The candies are salty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_10_c",
+        "label": "C",
+        "content": "Farah eats a bitter watermelon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_10_d",
+        "label": "D",
+        "content": "The soup tastes very sweet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_11",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "It is worn on the head to protect us from the sun. It is a ….",
+    "imageUrl": null,
+    "explanation": "Benda yang dipakai di kepala untuk melindungi dari sinar matahari adalah topi (*hat*).\n\nKunci Jawaban: **B (Hat)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_11_a",
+        "label": "A",
+        "content": "Necklace",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_11_b",
+        "label": "B",
+        "content": "Hat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_11_c",
+        "label": "C",
+        "content": "Bracelet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_11_d",
+        "label": "D",
+        "content": "Ring",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_12",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The choir group … from Jakarta.",
+    "imageUrl": null,
+    "explanation": "*The choir group* (paduan suara) dianggap satu kelompok (tunggal) dan menyatakan fakta sekarang, jadi memakai *is*.\n\nKunci Jawaban: **A (Is)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_12_a",
+        "label": "A",
+        "content": "Is",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_12_b",
+        "label": "B",
+        "content": "Are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_12_c",
+        "label": "C",
+        "content": "Was",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_12_d",
+        "label": "D",
+        "content": "Were",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_13",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Grandpa … some noodles last night.",
+    "imageUrl": null,
+    "explanation": "*Last night* menunjukkan masa lampau, jadi kata kerjanya bentuk kedua: *eat* → *ate*.\n\nKunci Jawaban: **D (Ate)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_13_a",
+        "label": "A",
+        "content": "Eats",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_13_b",
+        "label": "B",
+        "content": "Eated",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_13_c",
+        "label": "C",
+        "content": "Eating",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_13_d",
+        "label": "D",
+        "content": "Ate",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_14",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Father … some vegetables from the garden and put them in the basket.",
+    "imageUrl": null,
+    "explanation": "Mengambil sayuran dari kebun disebut memetik (*picks*).\n\nKunci Jawaban: **C (Picks)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_14_a",
+        "label": "A",
+        "content": "Puts",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_14_b",
+        "label": "B",
+        "content": "Buys",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_14_c",
+        "label": "C",
+        "content": "Picks",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_14_d",
+        "label": "D",
+        "content": "Eats",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_15",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My mother … the car with my brother yesterday.",
+    "imageUrl": null,
+    "explanation": "*Yesterday* menunjukkan masa lampau, jadi kata kerjanya *washed* (*wash* + *-ed*).\n\nKunci Jawaban: **B (Washed)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_15_a",
+        "label": "A",
+        "content": "Wash",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_15_b",
+        "label": "B",
+        "content": "Washed",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_15_c",
+        "label": "C",
+        "content": "Is washing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_15_d",
+        "label": "D",
+        "content": "Has wash",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_16",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the picture. There is a beautiful … in the living room.",
+    "imageUrl": "/uploads/bing_l2_peny_q16.png",
+    "explanation": "Benda indah bergambar pemandangan yang digantung di dinding adalah lukisan (*painting*).\n\nKunci Jawaban: **C (Painting)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_16_a",
+        "label": "A",
+        "content": "Clock",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_16_b",
+        "label": "B",
+        "content": "Calendar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_16_c",
+        "label": "C",
+        "content": "Painting",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_16_d",
+        "label": "D",
+        "content": "Flower vase",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_17",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the picture. There is a … in the bedroom.",
+    "imageUrl": "/uploads/bing_l2_peny_q17.png",
+    "explanation": "Tempat menaruh buku-buku adalah rak buku (*bookshelf*).\n\nKunci Jawaban: **D (Bookshelf)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_17_a",
+        "label": "A",
+        "content": "Wardrobe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_17_b",
+        "label": "B",
+        "content": "Window",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_17_c",
+        "label": "C",
+        "content": "Cupboard",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_17_d",
+        "label": "D",
+        "content": "Bookshelf",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_18",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the picture. There is a … in the living room.",
+    "imageUrl": "/uploads/bing_l2_peny_q18.png",
+    "explanation": "Kursi panjang yang empuk di ruang keluarga untuk duduk menonton TV adalah sofa (*couch*).\n\nKunci Jawaban: **B (Couch)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_18_a",
+        "label": "A",
+        "content": "Wardrobe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_18_b",
+        "label": "B",
+        "content": "Couch",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_18_c",
+        "label": "C",
+        "content": "Bed",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_18_d",
+        "label": "D",
+        "content": "Stove",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_19",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tio : What is this?\nSari : This flat, soft item lies on the floor and keeps our feet warm. This is a ….",
+    "imageUrl": null,
+    "explanation": "Benda datar dan lembut yang diletakkan di lantai untuk menghangatkan kaki adalah karpet kecil (*rug*).\n\nKunci Jawaban: **C (Rug)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_19_a",
+        "label": "A",
+        "content": "Mirror",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_19_b",
+        "label": "B",
+        "content": "Cupboard",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_19_c",
+        "label": "C",
+        "content": "Rug",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_19_d",
+        "label": "D",
+        "content": "Table",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_20",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Wira : Where is my notebook?\nLala : Your notebook is on the ….",
+    "imageUrl": "/uploads/bing_l2_peny_q20.png",
+    "explanation": "Wira duduk di sofa saat menonton TV, jadi bukunya ada di sofa (*couch*).\n\nKunci Jawaban: **C (Couch)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_20_a",
+        "label": "A",
+        "content": "Wardrobe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_20_b",
+        "label": "B",
+        "content": "Cupboard",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_20_c",
+        "label": "C",
+        "content": "Couch",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_20_d",
+        "label": "D",
+        "content": "Bookshelf",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_21",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the picture! My mother drinks … in the morning.",
+    "imageUrl": "/uploads/bing_l2_peny_q21.png",
+    "explanation": "Minuman panas berwarna hitam dan pahit yang dibuat dari biji kopi adalah kopi (*a cup of coffee*).\n\nKunci Jawaban: **B (A cup of coffee)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_21_a",
+        "label": "A",
+        "content": "A cup of tea",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_21_b",
+        "label": "B",
+        "content": "A cup of coffee",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_21_c",
+        "label": "C",
+        "content": "A cup of soup",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_21_d",
+        "label": "D",
+        "content": "A cup of honey",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_22",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“He keeps his room organized and clean” from the statement, it means his room is ….",
+    "imageUrl": null,
+    "explanation": "*Organized and clean* (teratur dan bersih) artinya rapi (*tidy*).\n\nKunci Jawaban: **C (Tidy)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_22_a",
+        "label": "A",
+        "content": "Dirty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_22_b",
+        "label": "B",
+        "content": "Messy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_22_c",
+        "label": "C",
+        "content": "Tidy",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_22_d",
+        "label": "D",
+        "content": "Broken",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_23",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the pictures. There are several items in the kitchen, except …",
+    "imageUrl": "/uploads/bing_l2_peny_q23_options.png",
+    "explanation": "Mangkuk, kompor, dan wajan ada di dapur. Bantal (*pillow*, gambar B) ada di kamar tidur.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_23_a",
+        "label": "A",
+        "content": "Picture A (bowl)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_23_b",
+        "label": "B",
+        "content": "Picture B (pillow)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_23_c",
+        "label": "C",
+        "content": "Picture C (stove)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_23_d",
+        "label": "D",
+        "content": "Picture D (frying pan)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_24",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“I bought a new backpack for school, it's colorful and I like it.” Look at the pictures. Which one is the backpack?",
+    "imageUrl": "/uploads/bing_l2_peny_q24_options.png",
+    "explanation": "Ransel (*backpack*) adalah tas dengan dua tali untuk dibawa di punggung, yaitu gambar A. B tas selempang, C tas tangan, D dompet.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_24_a",
+        "label": "A",
+        "content": "Picture A",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_24_b",
+        "label": "B",
+        "content": "Picture B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_24_c",
+        "label": "C",
+        "content": "Picture C",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_24_d",
+        "label": "D",
+        "content": "Picture D",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_25",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Dialog Soal: Buying Mangoes]\n**Sari :** “Mom, I want to buy some mangoes.”\n**Mom :** “We have some bananas in the fridge, Sari.”\n**Sari :** “I don't want that, Mom, I like mangoes.”\n**Mom :** “Okay, let's go to the market and buy some.”\n**Sari :** “Alright, Mom.”\n:::\n\nWhich is the correct sentence based on the conversation above?",
+    "imageUrl": null,
+    "explanation": "Sari ingin membeli mangga, dan ibunya berkata *\"let's go to the market and buy some.\"* Jadi Sari dan ibunya ke pasar membeli mangga.\n\nKunci Jawaban: **C (Sari and her mother go to the market to buy some mangoes)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_25_a",
+        "label": "A",
+        "content": "Sari and her mother go to the market to buy some bananas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_25_b",
+        "label": "B",
+        "content": "Sari goes to the market alone",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_25_c",
+        "label": "C",
+        "content": "Sari and her mother go to the market to buy some mangoes",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_25_d",
+        "label": "D",
+        "content": "Sari and her mother stay home and eat bananas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_26",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Which of these statements is correct?",
+    "imageUrl": null,
+    "explanation": "Cabai (*chili*) rasanya pedas (*spicy*). Jeruk nipis asam, gula manis, dan cuka asam.\n\nKunci Jawaban: **B (The chili tastes spicy)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_26_a",
+        "label": "A",
+        "content": "The lime tastes sweet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_26_b",
+        "label": "B",
+        "content": "The chili tastes spicy",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_26_c",
+        "label": "C",
+        "content": "The sugar tastes sour",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_26_d",
+        "label": "D",
+        "content": "The vinegar tastes sweet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_27",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bayu : I am so hungry …\nCitra : Do you want …?",
+    "imageUrl": null,
+    "explanation": "Nasi disajikan di piring: *a plate of rice*. Nasi tidak ditaruh di gelas atau cangkir.\n\nKunci Jawaban: **A (A plate of rice)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_27_a",
+        "label": "A",
+        "content": "A plate of rice",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_27_b",
+        "label": "B",
+        "content": "A glass of rice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_27_c",
+        "label": "C",
+        "content": "A cup of rice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_27_d",
+        "label": "D",
+        "content": "A bowl of juice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_28",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Made : Is that a pair of socks?\nWayan : No, it is not. It is …",
+    "imageUrl": "/uploads/bing_l2_peny_q28.png",
+    "explanation": "Wayan menjelaskan bahwa benda itu celana pendek untuk bermain sepak bola, yaitu *a pair of shorts*.\n\nKunci Jawaban: **A (A pair of shorts)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_28_a",
+        "label": "A",
+        "content": "A pair of shorts",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_28_b",
+        "label": "B",
+        "content": "A pair of gloves",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_28_c",
+        "label": "C",
+        "content": "A pair of jeans",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_28_d",
+        "label": "D",
+        "content": "A pair of socks",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_29",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rian eats too much candy so he has a ….",
+    "imageUrl": null,
+    "explanation": "Terlalu banyak makan permen bisa merusak gigi sehingga sakit gigi (*toothache*).\n\nKunci Jawaban: **C (Toothache)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_29_a",
+        "label": "A",
+        "content": "Sore throat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_29_b",
+        "label": "B",
+        "content": "Sore eyes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_29_c",
+        "label": "C",
+        "content": "Toothache",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_29_d",
+        "label": "D",
+        "content": "Headache",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_30",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Which of the following statements is correct?",
+    "imageUrl": null,
+    "explanation": "Jeruk nipis rasanya asam, jadi *sour lime juice* benar. Permen tidak asin, mangga tidak pedas, jus jeruk tidak pahit.\n\nKunci Jawaban: **C (Eka is drinking a sour lime juice)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_30_a",
+        "label": "A",
+        "content": "Bima eats a salty candy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_30_b",
+        "label": "B",
+        "content": "Wati is having a spicy mango",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_30_c",
+        "label": "C",
+        "content": "Eka is drinking a sour lime juice",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_30_d",
+        "label": "D",
+        "content": "Toni is drinking a bitter orange juice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_31",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Look at the picture! What is it? It is a/an ….",
+    "imageUrl": "/uploads/bing_l2_peny_q31.png",
+    "explanation": "Buah bulat berkulit jingga yang manis-asam dan bisa dibuat jus adalah jeruk (*orange*).\n\nKunci Jawaban: **B (Orange)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_31_a",
+        "label": "A",
+        "content": "Guava",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_31_b",
+        "label": "B",
+        "content": "Orange",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_31_c",
+        "label": "C",
+        "content": "Peach",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_31_d",
+        "label": "D",
+        "content": "Apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_32",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "It is a small red fruit with tiny seeds on the outside and green leaves on top. It is a/an ….",
+    "imageUrl": null,
+    "explanation": "Buah kecil merah dengan biji-biji kecil di luar kulitnya dan daun hijau di atasnya adalah stroberi (*strawberry*).\n\nKunci Jawaban: **A (Strawberry)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_32_a",
+        "label": "A",
+        "content": "Strawberry",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_32_b",
+        "label": "B",
+        "content": "Cherry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_32_c",
+        "label": "C",
+        "content": "Grape",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_32_d",
+        "label": "D",
+        "content": "Apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_33",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Dialog (Soal No. 33 – 34)]\n*The following dialog is for question number 33 and 34:*\n\n**Bella :** “Hi Kevin, what are you eating?”\n**Kevin :** “A few slices of watermelon. My mom prepared them in my lunch box.”\n**Bella :** “Do you like watermelon?”\n**Kevin :** “Yes, I love it, it's so juicy and sweet, especially on a hot day.”\n:::\n\nWhat does Kevin have in his lunch box?",
+    "imageUrl": null,
+    "explanation": "Kevin berkata: *\"A few slices of watermelon. My mom prepared them in my lunch box.\"*\n\nKunci Jawaban: **A (Some watermelon slices)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_33_a",
+        "label": "A",
+        "content": "Some watermelon slices",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_33_b",
+        "label": "B",
+        "content": "Some melon slices",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_33_c",
+        "label": "C",
+        "content": "A whole watermelon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_33_d",
+        "label": "D",
+        "content": "Watermelon juice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_34",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Dialog (Soal No. 33 – 34)]\n*The following dialog is for question number 33 and 34:*\n\n**Bella :** “Hi Kevin, what are you eating?”\n**Kevin :** “A few slices of watermelon. My mom prepared them in my lunch box.”\n**Bella :** “Do you like watermelon?”\n**Kevin :** “Yes, I love it, it's so juicy and sweet, especially on a hot day.”\n:::\n\nWhich statement is true based on the dialogue?",
+    "imageUrl": null,
+    "explanation": "Kevin berkata: *\"My mom prepared them in my lunch box.\"* Jadi ibu Kevin yang menyiapkannya.\n\nKunci Jawaban: **B (Kevin's mom prepared it)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_34_a",
+        "label": "A",
+        "content": "Kevin is eating a melon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_34_b",
+        "label": "B",
+        "content": "Kevin's mom prepared it",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_34_c",
+        "label": "C",
+        "content": "Kevin doesn't like sweet food",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_34_d",
+        "label": "D",
+        "content": "Bella ate the watermelon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_35",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Bacaan (Soal No. 35 – 37)]\n*Read the text below to answer number 35 to 37!*\n\nIn Miss Rani's classroom, there are five students: Yoga, Clarissa, Fikri, Naya, and Denis. Yoga sits in the front row, between Clarissa and Fikri. Denis sits in the back row, beside Naya. There is a globe on the shelf, and a calendar next to the clock.\n:::\n\nThe following are things that could be seen in the classroom above, except ….",
+    "imageUrl": null,
+    "explanation": "Di kelas ada bola dunia (*globe*), kalender, dan jam. Kulkas (*refrigerator*) tidak disebutkan.\n\nKunci Jawaban: **D (Refrigerator)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_35_a",
+        "label": "A",
+        "content": "Globe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_35_b",
+        "label": "B",
+        "content": "Calendar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_35_c",
+        "label": "C",
+        "content": "Clock",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_35_d",
+        "label": "D",
+        "content": "Refrigerator",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_36",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Bacaan (Soal No. 35 – 37)]\n*Read the text below to answer number 35 to 37!*\n\nIn Miss Rani's classroom, there are five students: Yoga, Clarissa, Fikri, Naya, and Denis. Yoga sits in the front row, between Clarissa and Fikri. Denis sits in the back row, beside Naya. There is a globe on the shelf, and a calendar next to the clock.\n:::\n\nWhere is the calendar located?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"a calendar next to the clock.\"*\n\nKunci Jawaban: **A (Next to the clock)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_36_a",
+        "label": "A",
+        "content": "Next to the clock",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_36_b",
+        "label": "B",
+        "content": "Under the table",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_36_c",
+        "label": "C",
+        "content": "Beside the door",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_36_d",
+        "label": "D",
+        "content": "Inside the cupboard",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_37",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Bacaan (Soal No. 35 – 37)]\n*Read the text below to answer number 35 to 37!*\n\nIn Miss Rani's classroom, there are five students: Yoga, Clarissa, Fikri, Naya, and Denis. Yoga sits in the front row, between Clarissa and Fikri. Denis sits in the back row, beside Naya. There is a globe on the shelf, and a calendar next to the clock.\n:::\n\nThe following statements are true about Yoga, except ….",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Yoga sits in the front row, between Clarissa and Fikri.\"* Jadi *Yoga sits in the back row* salah.\n\nKunci Jawaban: **C (Yoga sits in the back row)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_37_a",
+        "label": "A",
+        "content": "Yoga is Miss Rani's student",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_37_b",
+        "label": "B",
+        "content": "Yoga sits between Clarissa and Fikri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_37_c",
+        "label": "C",
+        "content": "Yoga sits in the back row",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_37_d",
+        "label": "D",
+        "content": "Yoga sits in the front row",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_38",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Bacaan (Soal No. 38 – 39)]\n*The following text is for question number 38 and 39:*\n\nHello, my name is Salsa Amelia. I live in Malang, East Java. I am the youngest in my family. My oldest sister is Vania Amelia. She is 15 years old and studies in SMP Nusantara. My older brother is Rafi Amelia. He is 11 years old. He studies in SD Nusantara. I am the only one who is still in kindergarten.\n:::\n\nHow many children does the Amelia family have?",
+    "imageUrl": null,
+    "explanation": "Keluarga Amelia punya tiga anak: Vania (perempuan), Rafi (laki-laki), dan Salsa (perempuan). Jadi dua perempuan dan satu laki-laki.\n\nKunci Jawaban: **B (Three children, two girls and one boy)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_38_a",
+        "label": "A",
+        "content": "Three children, all of them are girls",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_38_b",
+        "label": "B",
+        "content": "Three children, two girls and one boy",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_38_c",
+        "label": "C",
+        "content": "Three children, two boys and one girl",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_38_d",
+        "label": "D",
+        "content": "Two children",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_39",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Bacaan (Soal No. 38 – 39)]\n*The following text is for question number 38 and 39:*\n\nHello, my name is Salsa Amelia. I live in Malang, East Java. I am the youngest in my family. My oldest sister is Vania Amelia. She is 15 years old and studies in SMP Nusantara. My older brother is Rafi Amelia. He is 11 years old. He studies in SD Nusantara. I am the only one who is still in kindergarten.\n:::\n\nHow old is most probably Salsa?",
+    "imageUrl": null,
+    "explanation": "Salsa anak bungsu dan masih TK (*kindergarten*), jadi umurnya paling mungkin 5 tahun.\n\nKunci Jawaban: **D (5 years old)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_39_a",
+        "label": "A",
+        "content": "15 years old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_39_b",
+        "label": "B",
+        "content": "11 years old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_39_c",
+        "label": "C",
+        "content": "8 years old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_39_d",
+        "label": "D",
+        "content": "5 years old",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l2_peny_40",
+    "topicId": "top_bing_lvl2_penyisihan",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "What do I call my father's mother?",
+    "imageUrl": null,
+    "explanation": "Ibu dari ayah kita adalah nenek (*grandmother*).\n\nKunci Jawaban: **B (Grandmother)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l2_peny_40_a",
+        "label": "A",
+        "content": "Aunt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l2_peny_40_b",
+        "label": "B",
+        "content": "Grandmother",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l2_peny_40_c",
+        "label": "C",
+        "content": "Uncle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l2_peny_40_d",
+        "label": "D",
+        "content": "Sister",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

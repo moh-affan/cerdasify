@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "q_tricky_l1_01",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di meja ada 3 piring. Satu piring kosong sejak awal, sedangkan setiap piring lainnya berisi 4 kue. Banyak kue di meja adalah …",
+    "imageUrl": null,
+    "explanation": "Satu piring kosong sejak awal, artinya piring yang berisi kue hanya 2 piring. Maka banyak kue di meja adalah $2 \\times 4 = 8$ kue.\n\nKunci Jawaban: **B (8)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_01_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_01_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_01_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_01_d",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_02",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rani memiliki 9 permen. Ia memberikan 3 permen kepada adiknya. Kemudian adiknya mengembalikan 2 permen dari yang tadi diberikan. Banyak permen Rani sekarang adalah …",
+    "imageUrl": null,
+    "explanation": "Rani awalnya memiliki 9 permen. Setelah memberikan 3 permen, permennya tersisa $9 - 3 = 6$ permen. Kemudian 2 permen dikembalikan, sehingga banyak permen Rani sekarang adalah $6 + 2 = 8$ permen.\n\nKunci Jawaban: **C (8)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_02_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_02_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_02_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_02_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_03",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ada 5 burung di dahan. 2 burung terbang. 1 burung datang. Berapa burung di dahan sekarang?",
+    "imageUrl": null,
+    "explanation": "Awalnya ada 5 burung di dahan. Ketika 2 burung terbang, burung yang tersisa ada $5 - 2 = 3$ burung. Kemudian datang 1 burung lagi, sehingga banyak burung di dahan sekarang menjadi $3 + 1 = 4$ burung.\n\nKunci Jawaban: **B (4)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_03_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_03_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_03_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_03_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_04",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Budi punya 10 kelereng. Ia menyimpan 4 kelereng di saku. Berapa kelereng Budi yang tidak ada di saku?",
+    "imageUrl": null,
+    "explanation": "Total kelereng Budi berjumlah 10 butir. Yang disimpan di dalam saku ada 4 butir. Yang ditanyakan adalah kelereng yang **tidak di saku**, yaitu $10 - 4 = 6$ kelereng.\n\nKunci Jawaban: **C (6)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_04_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_04_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_04_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_04_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_05",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di rak ada 8 buku. 3 buku dipinjam. Yang tersisa di rak adalah …",
+    "imageUrl": null,
+    "explanation": "Di rak awalnya ada 8 buku. Sebanyak 3 buku dipinjam, sehingga buku yang tersisa di rak adalah $8 - 3 = 5$ buku.\n\nKunci Jawaban: **C (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_05_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_05_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_05_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_05_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_06",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ani memiliki 6 apel. Ia membeli 4 apel. Kemudian 2 apel busuk dan dibuang. Banyak apel Ani sekarang adalah …",
+    "imageUrl": null,
+    "explanation": "Ani memiliki 6 apel lalu membeli 4 apel ($6 + 4 = 10$ apel). Sebanyak 2 apel busuk dan dibuang, sehingga sisa apel Ani sekarang adalah $10 - 2 = 8$ apel.\n\nKunci Jawaban: **C (8)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_06_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_06_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_06_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_06_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_07",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di kotak ada 12 bola. 4 bola merah tidak dihitung. Berapa bola yang dihitung?",
+    "imageUrl": null,
+    "explanation": "Total bola di dalam kotak ada 12 bola. Karena 4 bola merah tidak dihitung, maka bola yang dihitung berjumlah $12 - 4 = 8$ bola.\n\nKunci Jawaban: **C (8)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_07_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_07_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_07_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_07_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_08",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ada 2 anak. Setiap anak punya 5 permen. Satu anak memberi 1 permen ke temannya. Jumlah permen sekarang adalah …",
+    "imageUrl": null,
+    "explanation": "Awalnya ada 2 anak yang masing-masing memiliki 5 permen, sehingga jumlah total permen adalah $5 + 5 = 10$ permen. Ketika satu anak memberikan 1 permen kepada temannya (menjadi 4 dan 6 permen), pemberian tersebut hanya memindahkan kepemilikan antar mereka tanpa ada permen yang dibuang atau dimakan. Jadi **jumlah permen sekarang tetap 10 permen**.\n\nKunci Jawaban: **C (10)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_08_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_08_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_08_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_08_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_09",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rina menghitung jarinya. Ia menutup satu tangan. Berapa jari yang terlihat?",
+    "imageUrl": null,
+    "explanation": "Manusia memiliki 10 jari pada dua tangan (5 jari di setiap tangan). Jika satu tangan ditutup, maka jari pada tangan satunya yang masih terlihat berjumlah **5 jari**.\n\nKunci Jawaban: **B (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_09_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_09_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_09_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_09_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_10",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di meja ada 7 pensil. 2 pensil patah dan tidak dipakai. Pensil yang bisa dipakai berjumlah …",
+    "imageUrl": null,
+    "explanation": "Di meja ada 7 pensil. Sebanyak 2 pensil patah dan tidak dipakai. Yang ditanyakan adalah pensil yang **bisa dipakai**, yaitu $7 - 2 = 5$ pensil.\n\nKunci Jawaban: **C (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_10_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_10_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_10_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_10_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_11",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tono memiliki 8 kelereng. Ia kehilangan 3 kelereng. Kemudian menemukan 1 kelereng. Jumlah kelereng Tono sekarang adalah …",
+    "imageUrl": null,
+    "explanation": "Tono memiliki 8 kelereng. Kehilangan 3 kelereng sehingga tersisa $8 - 3 = 5$ kelereng. Kemudian Tono menemukan 1 kelereng, sehingga jumlah kelereng Tono sekarang adalah $5 + 1 = 6$ kelereng.\n\nKunci Jawaban: **B (6)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_11_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_11_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_11_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_11_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_12",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ada 10 ikan di kolam. 5 ikan kecil tidak dihitung. Berapa ikan yang dihitung?",
+    "imageUrl": null,
+    "explanation": "Total ikan di kolam ada 10 ekor. Karena 5 ikan kecil tidak dihitung, maka banyak ikan yang dihitung adalah $10 - 5 = 5$ ekor.\n\nKunci Jawaban: **A (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_12_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_12_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_12_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_12_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_13",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di kelas ada 12 murid. 3 murid keluar kelas. 2 murid masuk kelas. Banyak murid di kelas sekarang adalah …",
+    "imageUrl": null,
+    "explanation": "Mula-mula ada 12 murid di kelas. Sebanyak 3 murid keluar kelas ($12 - 3 = 9$ murid), lalu 2 murid masuk kelas ($9 + 2 = 11$ murid). Jadi banyak murid di kelas sekarang adalah **11 murid**.\n\nKunci Jawaban: **C (11)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_13_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_13_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_13_c",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_13_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_14",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Satu kotak berisi 6 pensil. Ada 3 kotak. Satu kotak belum dibuka. Berapa pensil yang terlihat?",
+    "imageUrl": null,
+    "explanation": "Ada 3 kotak pensil dan 1 kotak belum dibuka, berarti kotak yang sudah dibuka dan pensilnya terlihat berjumlah $3 - 1 = 2$ kotak. Karena setiap kotak berisi 6 pensil, banyak pensil yang terlihat adalah $2 \\times 6 = 12$ pensil.\n\nKunci Jawaban: **B (12)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_14_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_14_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_14_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_14_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_15",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ayah membawa 10 jeruk. Ia membagikan sama rata ke 2 anak. Satu anak tidak mengambil bagiannya. Jeruk yang masih dibawa Ayah adalah …",
+    "imageUrl": null,
+    "explanation": "Ayah membawa 10 jeruk dan membagikannya sama rata kepada 2 anak, sehingga jatah masing-masing anak adalah $10 \\div 2 = 5$ jeruk. Karena satu anak tidak mengambil bagiannya, jatah 5 jeruk anak tersebut masih tetap dibawa oleh Ayah. Jadi jeruk yang masih dibawa Ayah adalah **5 jeruk**.\n\nKunci Jawaban: **B (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_15_a",
+        "label": "A",
+        "content": "0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_15_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_15_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_15_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_16",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Di papan tulis tertulis angka 1 sampai 9. Bilangan genap dihapus. Berapa angka yang tersisa?",
+    "imageUrl": null,
+    "explanation": "Angka dari 1 sampai 9 terdiri dari 9 angka: {1, 2, 3, 4, 5, 6, 7, 8, 9}. Bilangan genap yang dihapus adalah {2, 4, 6, 8} (ada 4 angka). Maka angka yang tersisa adalah bilangan ganjil {1, 3, 5, 7, 9}, yaitu sebanyak **5 angka** ($9 - 4 = 5$).\n\nKunci Jawaban: **C (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_16_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_16_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_16_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_16_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_17",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dina punya 7 permen. Ia makan 2 permen. Lalu membeli permen hingga jumlahnya menjadi 8. Berapa permen yang dibeli Dina?",
+    "imageUrl": null,
+    "explanation": "Dina awalnya memiliki 7 permen lalu memakan 2 permen, sehingga tersisa $7 - 2 = 5$ permen. Agar jumlahnya menjadi 8 permen, maka permen yang dibeli Dina adalah $8 - 5 = 3$ permen.\n\nKunci Jawaban: **C (3)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_17_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_17_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_17_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_17_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_18",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Ada 4 kantong. Satu kantong kosong, sedangkan setiap kantong lainnya berisi 3 bola. Jumlah bola seluruhnya adalah …",
+    "imageUrl": null,
+    "explanation": "Ada 4 kantong dan 1 kantong di antaranya kosong, sehingga kantong yang berisi bola hanya ada $4 - 1 = 3$ kantong. Karena setiap kantong berisi 3 bola, jumlah bola seluruhnya adalah $3 \\times 3 = 9$ bola.\n\nKunci Jawaban: **B (9)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_18_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_18_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_18_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_18_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_19",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jam menunjukkan pukul 4. Maju 3 jam, lalu mundur 1 jam. Jam menunjukkan pukul …",
+    "imageUrl": null,
+    "explanation": "Jam menunjukkan pukul 4. Jika dimajukan 3 jam menjadi pukul $4 + 3 = 7$. Kemudian dimundurkan 1 jam menjadi $7 - 1 = 6$. Jadi jam menunjukkan **pukul 6**.\n\nKunci Jawaban: **B (6)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_19_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_19_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_19_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_19_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_20",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Bilangan ganjil dari 1 sampai 9 ditulis. Berapa banyak bilangan yang ditulis?",
+    "imageUrl": null,
+    "explanation": "Bilangan ganjil dari 1 sampai 9 adalah: 1, 3, 5, 7, dan 9. Jadi ada **5 bilangan** yang ditulis.\n\nKunci Jawaban: **C (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_20_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_20_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_20_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_20_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_21",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Di meja ada 10 koin. 5 koin perak tidak dihitung. Berapa koin yang dihitung?",
+    "imageUrl": null,
+    "explanation": "Di atas meja ada 10 koin. Karena 5 koin perak tidak dihitung, maka koin yang dihitung berjumlah $10 - 5 = 5$ koin.\n\nKunci Jawaban: **A (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_21_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_21_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_21_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_21_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_22",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Rudi punya 6 pensil. Ia meminjamkan 2 pensil. Pensil itu dikembalikan ke tempat semula. Banyak pensil Rudi sekarang adalah …",
+    "imageUrl": null,
+    "explanation": "Rudi memiliki 6 pensil. Ketika 2 pensil dipinjamkan lalu dikembalikan ke tempat semula, tidak ada pensil yang berkurang. Banyak pensil Rudi sekarang tetap **6 pensil** ($6 - 2 + 2 = 6$).\n\nKunci Jawaban: **C (6)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_22_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_22_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_22_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_22_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_23",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Ada 3 kotak. Kotak pertama berisi 4 bola. Kotak kedua berisi 5 bola. Kotak ketiga kosong. Jumlah bola seluruhnya adalah …",
+    "imageUrl": null,
+    "explanation": "Kotak pertama berisi 4 bola, kotak kedua berisi 5 bola, dan kotak ketiga kosong (0 bola). Jumlah bola seluruhnya adalah $4 + 5 + 0 = 9$ bola.\n\nKunci Jawaban: **C (9)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_23_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_23_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_23_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_23_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_24",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Ibu membeli 12 telur. 2 telur pecah dan dibuang. Berapa telur yang masih bisa dimakan?",
+    "imageUrl": null,
+    "explanation": "Ibu membeli 12 butir telur. Karena 2 butir telur pecah dan dibuang, maka telur yang masih utuh dan bisa dimakan berjumlah $12 - 2 = 10$ butir telur.\n\nKunci Jawaban: **C (10)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_24_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_24_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_24_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_24_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_25",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Andi memiliki 5 buku. Ia membeli buku hingga jumlahnya menjadi 9. Berapa buku yang dibeli Andi?",
+    "imageUrl": null,
+    "explanation": "Andi awalnya memiliki 5 buku. Setelah membeli beberapa buku, jumlah bukunya menjadi 9. Banyak buku yang dibeli Andi adalah $9 - 5 = 4$ buku.\n\nKunci Jawaban: **B (4)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_25_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_25_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_25_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_25_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_26",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Di taman ada 7 bunga. 3 bunga merah tidak dihitung. Banyak bunga yang dihitung adalah …",
+    "imageUrl": null,
+    "explanation": "Di taman ada 7 bunga. Karena 3 bunga merah tidak dihitung, maka banyak bunga yang dihitung adalah $7 - 3 = 4$ bunga.\n\nKunci Jawaban: **B (4)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_26_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_26_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_26_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_26_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_27",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Ada 10 anak berbaris. 2 anak keluar barisan. Berapa anak yang masih berbaris?",
+    "imageUrl": null,
+    "explanation": "Ada 10 anak yang sedang berbaris. Ketika 2 anak keluar dari barisan, banyak anak yang masih berbaris adalah $10 - 2 = 8$ anak.\n\nKunci Jawaban: **C (8)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_27_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_27_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_27_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_27_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_28",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Satu kotak berisi 10 permen. Permen itu dibagikan sama banyak kepada 2 anak. Berapa permen yang diterima tiap anak?",
+    "imageUrl": null,
+    "explanation": "Satu kotak berisi 10 permen dibagikan sama banyak kepada 2 anak. Banyak permen yang diterima tiap anak adalah $10 \\div 2 = 5$ permen.\n\nKunci Jawaban: **C (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_28_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_28_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_28_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_28_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_29",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jam menunjukkan pukul 7. Dimundurkan 2 jam. Jam menunjukkan pukul …",
+    "imageUrl": null,
+    "explanation": "Jam mula-mula menunjukkan pukul 7. Ketika dimundurkan 2 jam, maka waktu sekarang menunjukkan $7 - 2 = 5$, yaitu **pukul 5**.\n\nKunci Jawaban: **B (5)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_29_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_29_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_29_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_29_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_tricky_l1_30",
+    "topicId": "top_mtk_tricky_lvl1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Bilangan genap lebih dari 2 dan kurang dari 12 ditulis. Berapa banyak bilangan yang ditulis?",
+    "imageUrl": null,
+    "explanation": "Bilangan genap lebih dari 2 dan kurang dari 12 adalah bilangan genap di antara 2 dan 12, yaitu: **4, 6, 8, dan 10**. Jumlah bilangan yang ditulis adalah **4 bilangan**.\n\nKunci Jawaban: **B (4)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_tricky_l1_30_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_tricky_l1_30_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_tricky_l1_30_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_tricky_l1_30_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

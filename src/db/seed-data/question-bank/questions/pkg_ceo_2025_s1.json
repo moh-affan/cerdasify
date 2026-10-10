@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "q_ceo25_s1_01",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Yang bukan ciri-ciri makhluk hidup adalah ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: D**\n\n**Pembahasan:** Makhluk hidup bernapas, tumbuh, berkembang biak, bergerak, dan peka terhadap rangsang. 'Tetap' (tidak berubah) bukan ciri makhluk hidup.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_01_a",
+        "label": "A",
+        "content": "Tumbuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_01_b",
+        "label": "B",
+        "content": "Bernapas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_01_c",
+        "label": "C",
+        "content": "Berkembang biak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_01_d",
+        "label": "D",
+        "content": "Tetap",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_02",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tumbuhan berikut berkembang biak dengan biji adalah ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: A**\n\n**Pembahasan:** Padi berkembang biak dengan biji (generatif). Pisang dengan tunas, jahe dengan rimpang (rizoma), dan singkong dengan stek batang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_02_a",
+        "label": "A",
+        "content": "Padi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_02_b",
+        "label": "B",
+        "content": "Pisang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_02_c",
+        "label": "C",
+        "content": "Jahe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_02_d",
+        "label": "D",
+        "content": "Singkong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_03",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tujuan makhluk hidup berkembang biak adalah ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: C**\n\n**Pembahasan:** Makhluk hidup berkembang biak untuk menghasilkan keturunan agar jenisnya tetap lestari dan tidak punah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_03_a",
+        "label": "A",
+        "content": "Memerlukan teman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_03_b",
+        "label": "B",
+        "content": "Berubah dari kecil menjadi besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_03_c",
+        "label": "C",
+        "content": "Melestarikan jenisnya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_03_d",
+        "label": "D",
+        "content": "Membutuhkan Makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_04",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hewan yang bernapas menggunakan insang ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: C**\n\n**Pembahasan:** Ikan bernapas dengan insang yang menyerap oksigen terlarut di air. Capung, kupu-kupu, dan belalang adalah serangga yang bernapas dengan trakea.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_04_a",
+        "label": "A",
+        "content": "Capung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_04_b",
+        "label": "B",
+        "content": "Kupu – Kupu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_04_c",
+        "label": "C",
+        "content": "Ikan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_04_d",
+        "label": "D",
+        "content": "belalang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_05",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Penutup tubuh hewan Siput berupa ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: D**\n\n**Pembahasan:** Tubuh siput yang lunak dilindungi oleh cangkang keras. Sisik menutupi tubuh ikan dan reptil, sedangkan bulu menutupi tubuh burung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_05_a",
+        "label": "A",
+        "content": "Sisik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_05_b",
+        "label": "B",
+        "content": "Lendir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_05_c",
+        "label": "C",
+        "content": "Bulu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_05_d",
+        "label": "D",
+        "content": "Cangkang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_06",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berikut yang termasuk hewan amfibi adalah …",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: C**\n\n**Pembahasan:** Amfibi adalah hewan yang dapat hidup di dua alam (air dan darat), contohnya katak. Ular dan bunglon termasuk reptil, sedangkan ikan hidup sepenuhnya di air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_06_a",
+        "label": "A",
+        "content": "Ular",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_06_b",
+        "label": "B",
+        "content": "Ikan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_06_c",
+        "label": "C",
+        "content": "Katak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_06_d",
+        "label": "D",
+        "content": "Bunglon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_07",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bentuk daun menjari terdapat pada tumbuhan ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: A**\n\n**Pembahasan:** Daun menjari bentuknya seperti jari-jari tangan yang terbuka, contohnya daun singkong dan daun pepaya. Daun padi berbentuk pita, sedangkan daun mangga dan pisang menyirip.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_07_a",
+        "label": "A",
+        "content": "Singkong",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_07_b",
+        "label": "B",
+        "content": "Mangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_07_c",
+        "label": "C",
+        "content": "Padi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_07_d",
+        "label": "D",
+        "content": "Pisang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_08",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat indra yang dapat merasakan panas atau dingin suhu lingkungan adalah . . .",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: D**\n\n**Pembahasan:** Kulit adalah indra peraba yang dapat merasakan panas, dingin, tekanan, dan sakit. Mata untuk melihat, telinga untuk mendengar, dan lidah untuk mengecap rasa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_08_a",
+        "label": "A",
+        "content": "Mata",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_08_b",
+        "label": "B",
+        "content": "Telinga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_08_c",
+        "label": "C",
+        "content": "Lidah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_08_d",
+        "label": "D",
+        "content": "Kulit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_09",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Munculnya akar, daun dan batang adalah ciri-ciri ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: C**\n\n**Pembahasan:** Munculnya akar, batang, dan daun baru menunjukkan bahwa tumbuhan bertambah besar dan bertambah bagian tubuhnya, yaitu tumbuhan sedang tumbuh.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_09_a",
+        "label": "A",
+        "content": "Tumbuhan bernapas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_09_b",
+        "label": "B",
+        "content": "Tumbuhan berkembang biak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_09_c",
+        "label": "C",
+        "content": "Tumbuhan tumbuh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_09_d",
+        "label": "D",
+        "content": "Tumbuhan membutuhkan makan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_10",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Makanan yang banyak mengandung protein hewani...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: C**\n\n**Pembahasan:** Protein hewani berasal dari hewan, contohnya ikan, telur, daging, dan susu. Tahu dan tempe mengandung protein nabati (dari kedelai), sedangkan pepaya adalah buah sumber vitamin.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_10_a",
+        "label": "A",
+        "content": "Tahu dan tempe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_10_b",
+        "label": "B",
+        "content": "Pepaya dan Ikan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_10_c",
+        "label": "C",
+        "content": "Ikan dan telur",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_10_d",
+        "label": "D",
+        "content": "Tempe dan susu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_11",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kunyit merupakan zat pewarna alami yang memberikan warna...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: B**\n\n**Pembahasan:** Rimpang kunyit menghasilkan warna kuning (zat kurkumin) sehingga sering dipakai mewarnai nasi kuning dan kue.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_11_a",
+        "label": "A",
+        "content": "Merah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_11_b",
+        "label": "B",
+        "content": "Kuning",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_11_c",
+        "label": "C",
+        "content": "Hijau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_11_d",
+        "label": "D",
+        "content": "Biru",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_12",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Debu, asap kendaraan, dan bau tidak sedap merupakan pencemaran terhadap …",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: C**\n\n**Pembahasan:** Debu, asap kendaraan, dan bau tidak sedap tersebar melalui udara sehingga termasuk pencemaran udara.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_12_a",
+        "label": "A",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_12_b",
+        "label": "B",
+        "content": "Tanah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_12_c",
+        "label": "C",
+        "content": "Udara",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_12_d",
+        "label": "D",
+        "content": "Sungai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_13",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Alat musik yang berbunyi dengan cara dipukul adalah ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: B**\n\n**Pembahasan:** Gong dimainkan dengan cara dipukul. Angklung dimainkan dengan digoyang, suling ditiup, dan kecapi dipetik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_13_a",
+        "label": "A",
+        "content": "Angklung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_13_b",
+        "label": "B",
+        "content": "Gong",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_13_c",
+        "label": "C",
+        "content": "Suling",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_13_d",
+        "label": "D",
+        "content": "Kecapi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_14",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jenis penyakit yang disebabkan oleh nyamuk ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: B**\n\n**Pembahasan:** Demam berdarah disebabkan oleh virus dengue yang ditularkan melalui gigitan nyamuk *Aedes aegypti*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_14_a",
+        "label": "A",
+        "content": "Pilek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_14_b",
+        "label": "B",
+        "content": "Demam Berdarah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_14_c",
+        "label": "C",
+        "content": "Diare",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_14_d",
+        "label": "D",
+        "content": "Batuk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_15",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Benda dapat berubah bentuk mengikuti wadahnya ….",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: A**\n\n**Pembahasan:** Benda cair seperti susu dan sirup bentuknya selalu berubah mengikuti bentuk wadahnya. Botol, gelas, kelereng, dan kertas adalah benda padat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_15_a",
+        "label": "A",
+        "content": "Susu dan Sirup",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_15_b",
+        "label": "B",
+        "content": "Botol dan Gelas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_15_c",
+        "label": "C",
+        "content": "Kelereng dan kertas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_15_d",
+        "label": "D",
+        "content": "Gula dan plastisin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_16",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut merupakan sifat benda padat adalah ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: C**\n\n**Pembahasan:** Benda padat memiliki bentuk dan ukuran (volume) yang tetap walaupun dipindahkan ke wadah lain.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_16_a",
+        "label": "A",
+        "content": "Bentuk berubah sesuai wadahnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_16_b",
+        "label": "B",
+        "content": "Bentuk dan warna berubah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_16_c",
+        "label": "C",
+        "content": "Bentuk dan ukuran tidak berubah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_16_d",
+        "label": "D",
+        "content": "Bentuk dan ukuran mengikuti ruang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_17",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Lilin yang dinyalakan dalam waktu yang lama akan …",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: B**\n\n**Pembahasan:** Panas dari api membuat lilin padat meleleh atau mencair.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_17_a",
+        "label": "A",
+        "content": "Mendidih",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_17_b",
+        "label": "B",
+        "content": "Mencair",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_17_c",
+        "label": "C",
+        "content": "Membeku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_17_d",
+        "label": "D",
+        "content": "Tidak berubah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_18",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Delman dapat berjalan karena ….. oleh kuda.",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: A**\n\n**Pembahasan:** Kuda berjalan di depan delman sambil menariknya, sehingga delman bergerak karena ditarik oleh kuda.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_18_a",
+        "label": "A",
+        "content": "Ditarik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_18_b",
+        "label": "B",
+        "content": "Didorong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_18_c",
+        "label": "C",
+        "content": "dipukul",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_18_d",
+        "label": "D",
+        "content": "digesek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_19",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Panca indera manusia terdiri dari 5 alat indera, yaitu …",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: C**\n\n**Pembahasan:** Panca indra manusia: mata (penglihat), telinga (pendengar), hidung (pembau), lidah (pengecap), dan kulit (peraba). Bibir dan gigi bukan alat indra.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_19_a",
+        "label": "A",
+        "content": "Mata, Telinga, Bibir, Hidung, dan Kulit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_19_b",
+        "label": "B",
+        "content": "Mata, Hidung, Bibir, Gigi, dan Lidah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_19_c",
+        "label": "C",
+        "content": "Mata, Telinga, Hidung, Lidah, Kulit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_19_d",
+        "label": "D",
+        "content": "Mata, Telinga, Hidung, Gigi, Kulit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_20",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bagian tanaman yang berfungsi menyerap air dan mineral dari dalam tanah adalah …",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: A**\n\n**Pembahasan:** Akar berfungsi menyerap air dan mineral dari dalam tanah, lalu air diangkut melalui batang ke daun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_20_a",
+        "label": "A",
+        "content": "Akar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_20_b",
+        "label": "B",
+        "content": "Batang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_20_c",
+        "label": "C",
+        "content": "Daun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_20_d",
+        "label": "D",
+        "content": "Bunga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_21",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sumber daya alam yang dapat habis persediaannya adalah …",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: C**\n\n**Pembahasan:** Batu bara terbentuk dalam waktu jutaan tahun sehingga dapat habis jika terus digunakan. Cahaya matahari, air, dan angin selalu tersedia (sumber daya alam yang dapat diperbarui).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_21_a",
+        "label": "A",
+        "content": "Cahaya Matahari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_21_b",
+        "label": "B",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_21_c",
+        "label": "C",
+        "content": "Batu Bara",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_21_d",
+        "label": "D",
+        "content": "Angin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_22",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hewan dibawah ini yang termasuk serangga adalah…",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: B**\n\n**Pembahasan:** Serangga memiliki 6 kaki dan tubuh terbagi tiga (kepala, dada, perut), contohnya belalang. Sapi adalah mamalia, sedangkan bunglon dan kadal adalah reptil.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_22_a",
+        "label": "A",
+        "content": "Sapi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_22_b",
+        "label": "B",
+        "content": "Belalang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_22_c",
+        "label": "C",
+        "content": "Bunglon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_22_d",
+        "label": "D",
+        "content": "Kadal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_23",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tumbuhan yang hidup di air adalah …",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: A**\n\n**Pembahasan:** Teratai hidup di air dengan daun mengapung di permukaan. Singkong, kamboja, dan melati hidup di darat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_23_a",
+        "label": "A",
+        "content": "Teratai",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_23_b",
+        "label": "B",
+        "content": "Singkong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_23_c",
+        "label": "C",
+        "content": "Kamboja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_23_d",
+        "label": "D",
+        "content": "Melati",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_24",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tumbuhan yang hidupnya menumpang atau menempel pada tumbuhan lain…",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: A**\n\n**Pembahasan:** Anggrek hidup menempel pada batang pohon lain (epifit) untuk mendapatkan cahaya matahari. Kaktus dan mawar tumbuh di tanah, sedangkan enceng gondok mengapung di air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_24_a",
+        "label": "A",
+        "content": "Anggrek",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_24_b",
+        "label": "B",
+        "content": "Kaktus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_24_c",
+        "label": "C",
+        "content": "Bunga mawar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_24_d",
+        "label": "D",
+        "content": "Enceng Gondok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_25",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Di bawah ini perubahan energi listrik menjadi energi bunyi terjadi pada …",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: D**\n\n**Pembahasan:** Radio mengubah energi listrik menjadi energi bunyi. Dispenser dan setrika mengubah listrik menjadi panas, sedangkan hair dryer mengubah listrik menjadi panas dan gerak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_25_a",
+        "label": "A",
+        "content": "Dispenser",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_25_b",
+        "label": "B",
+        "content": "Setrika",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_25_c",
+        "label": "C",
+        "content": "Hair Dryer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_25_d",
+        "label": "D",
+        "content": "Radio",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_26",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Alat yang dapat digunakan sebagai penunjuk Arah adalah…",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: A**\n\n**Pembahasan:** Kompas memiliki jarum magnet yang selalu menunjuk arah utara–selatan, sehingga dapat digunakan sebagai penunjuk arah. Termometer untuk mengukur suhu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_26_a",
+        "label": "A",
+        "content": "Kompas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_26_b",
+        "label": "B",
+        "content": "Termometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_26_c",
+        "label": "C",
+        "content": "Jam dinding",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_26_d",
+        "label": "D",
+        "content": "Kalkulator",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_27",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ketika bensin mobil habis, mobil tidak bisa berjalan. Artinya mobil butuh...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: C**\n\n**Pembahasan:** Bensin adalah sumber energi bagi mesin mobil. Tanpa bensin, mesin tidak mendapat energi sehingga mobil tidak bisa berjalan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_27_a",
+        "label": "A",
+        "content": "Angin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_27_b",
+        "label": "B",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_27_c",
+        "label": "C",
+        "content": "Energi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_27_d",
+        "label": "D",
+        "content": "Oli",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_28",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Matahari terbit dari arah …. Dan tenggelam di arah….",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: D**\n\n**Pembahasan:** Matahari tampak terbit di sebelah timur dan tenggelam di sebelah barat karena bumi berputar (berotasi) dari barat ke timur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_28_a",
+        "label": "A",
+        "content": "Utara dan Selatan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_28_b",
+        "label": "B",
+        "content": "Utara dan barat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_28_c",
+        "label": "C",
+        "content": "Selatan dan barat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_28_d",
+        "label": "D",
+        "content": "Timur dan Barat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_29",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bentuk miniatur bumi yang digunakan untuk menyatakan bentuk bumi tiruan disebut …",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: A**\n\n**Pembahasan:** Globe adalah tiruan (miniatur) bumi yang berbentuk bulat. Peta dan atlas menggambarkan permukaan bumi pada bidang datar.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_29_a",
+        "label": "A",
+        "content": "Globe",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_29_b",
+        "label": "B",
+        "content": "Peta",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_29_c",
+        "label": "C",
+        "content": "Atlas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_29_d",
+        "label": "D",
+        "content": "Bola bumi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_ceo25_s1_30",
+    "topicId": "top_ceo_2025_s1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bagian permukaan bumi yang tidak digenangi air disebut ...",
+    "imageUrl": null,
+    "explanation": "**Kunci Jawaban: B**\n\n**Pembahasan:** Bagian permukaan bumi yang tidak tertutup air disebut daratan. Pegunungan dan bukit adalah bentuk-bentuk daratan, sedangkan lautan digenangi air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_ceo25_s1_30_a",
+        "label": "A",
+        "content": "Pegunungan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_ceo25_s1_30_b",
+        "label": "B",
+        "content": "Daratan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_ceo25_s1_30_c",
+        "label": "C",
+        "content": "Bukit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_ceo25_s1_30_d",
+        "label": "D",
+        "content": "Lautan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "pkg_jso_2025_ing_1_q01",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "If you have 3 pencils and you buy 9 more pencils, how many pencils do you have in total?",
+    "imageUrl": null,
+    "explanation": "Operasi hitung penjumlahan: $3 + 9 = 12$ (*Twelve*). Jadi total pensil yang dimiliki adalah 12 pensil.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q01_opt_a",
+        "label": "A",
+        "content": "Five",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q01_opt_b",
+        "label": "B",
+        "content": "Seven",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q01_opt_c",
+        "label": "C",
+        "content": "Eight",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q01_opt_d",
+        "label": "D",
+        "content": "Twelve",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q02",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I am … in the bathroom.",
+    "imageUrl": null,
+    "explanation": "Aktivitas yang lazim dilakukan di kamar mandi (*bathroom*) adalah menggosok gigi (*brushing teeth*). Menonton TV di ruang keluarga, makan di ruang makan, dan tidur di kamar tidur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q02_opt_a",
+        "label": "A",
+        "content": "Watching TV",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q02_opt_b",
+        "label": "B",
+        "content": "Eating meal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q02_opt_c",
+        "label": "C",
+        "content": "Sleeping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q02_opt_d",
+        "label": "D",
+        "content": "Brushing teeth",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q03",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“My sister is nine years old”. How old is my sister ?",
+    "imageUrl": null,
+    "explanation": "Kata bilangan *nine* berarti sembilan (9). Jadi usia saudara perempuan tersebut adalah 9 tahun (*9 years*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q03_opt_a",
+        "label": "A",
+        "content": "7 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q03_opt_b",
+        "label": "B",
+        "content": "5 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q03_opt_c",
+        "label": "C",
+        "content": "9 years",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q03_opt_d",
+        "label": "D",
+        "content": "4 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q04",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Teacher : How old are you?\nMia : I am ten years old.\nHow old is Mia?",
+    "imageUrl": null,
+    "explanation": "Mia secara langsung menjawab: *\"I am ten years old\"*, yang berarti usianya adalah 10 tahun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q04_opt_a",
+        "label": "A",
+        "content": "6 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q04_opt_b",
+        "label": "B",
+        "content": "10 years",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q04_opt_c",
+        "label": "C",
+        "content": "12 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q04_opt_d",
+        "label": "D",
+        "content": "7 years",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q05",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of the following is the greeting in English?",
+    "imageUrl": null,
+    "explanation": "*Hello* (halo/hai) adalah ungkapan salam sapaan (*greeting*). *Goodbye* adalah salam perpisahan (*parting*), *Thank you* ucapan terima kasih, dan *Sorry* ucapan meminta maaf.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q05_opt_a",
+        "label": "A",
+        "content": "Goodbye",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q05_opt_b",
+        "label": "B",
+        "content": "Thank you",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q05_opt_c",
+        "label": "C",
+        "content": "Hello",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q05_opt_d",
+        "label": "D",
+        "content": "Sorry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q06",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "It is very hot. Turn on the … please.",
+    "imageUrl": null,
+    "explanation": "Ketika ruangan bersuhu sangat panas (*very hot*), alat elektronik yang dinyalakan untuk menyejukkan udara adalah kipas angin (*fan*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q06_opt_a",
+        "label": "A",
+        "content": "Television",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q06_opt_b",
+        "label": "B",
+        "content": "Radio",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q06_opt_c",
+        "label": "C",
+        "content": "Stove",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q06_opt_d",
+        "label": "D",
+        "content": "Fan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q07",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The response for the expression “Good afternoon” is ….",
+    "imageUrl": null,
+    "explanation": "Salam sapaan *Good afternoon* (selamat siang/sore) direspon secara sepadan dengan mengucapkan *Good afternoon*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q07_opt_a",
+        "label": "A",
+        "content": "Good afternoon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q07_opt_b",
+        "label": "B",
+        "content": "Good evening",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q07_opt_c",
+        "label": "C",
+        "content": "Goodbye",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q07_opt_d",
+        "label": "D",
+        "content": "Goodnight",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q08",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What color is the sky on a sunny day?",
+    "imageUrl": null,
+    "explanation": "Pada hari yang cerah (*sunny day*), langit tampak berwarna biru (*blue*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q08_opt_a",
+        "label": "A",
+        "content": "Green",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q08_opt_b",
+        "label": "B",
+        "content": "Blue",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q08_opt_c",
+        "label": "C",
+        "content": "Red",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q08_opt_d",
+        "label": "D",
+        "content": "Yellow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q09",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What color is the ripe banana?",
+    "imageUrl": null,
+    "explanation": "Warna kulit buah pisang yang sudah matang adalah kuning (*yellow*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q09_opt_a",
+        "label": "A",
+        "content": "Yellow",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q09_opt_b",
+        "label": "B",
+        "content": "Green",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q09_opt_c",
+        "label": "C",
+        "content": "Blue",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q09_opt_d",
+        "label": "D",
+        "content": "Red",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q10",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What color is the grass?",
+    "imageUrl": null,
+    "explanation": "Rumput alami umumnya berwarna hijau (*green*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q10_opt_a",
+        "label": "A",
+        "content": "Blue",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q10_opt_b",
+        "label": "B",
+        "content": "Yellow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q10_opt_c",
+        "label": "C",
+        "content": "Purple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q10_opt_d",
+        "label": "D",
+        "content": "Green",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q11",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Who is your mother’s mother?",
+    "imageUrl": null,
+    "explanation": "Ibu dari ibu kita adalah nenek kita (*grandmother*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q11_opt_a",
+        "label": "A",
+        "content": "Grandfather",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q11_opt_b",
+        "label": "B",
+        "content": "Grandmother",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q11_opt_c",
+        "label": "C",
+        "content": "Aunt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q11_opt_d",
+        "label": "D",
+        "content": "Uncle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q12",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! This is my ….",
+    "imageUrl": "/uploads/jso25_ing1_q12.png",
+    "explanation": "Gambar stimulus memperlihatkan seorang pria tua lanjut usia berambut putih dan berkacamata, yaitu kakek (*grandfather*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q12_opt_a",
+        "label": "A",
+        "content": "Mother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q12_opt_b",
+        "label": "B",
+        "content": "Grandfather",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q12_opt_c",
+        "label": "C",
+        "content": "Aunt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q12_opt_d",
+        "label": "D",
+        "content": "Grandmother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q13",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Who is your mother’s sister?",
+    "imageUrl": null,
+    "explanation": "Saudara perempuan dari ibu kita adalah bibi/tante (*aunt*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q13_opt_a",
+        "label": "A",
+        "content": "Uncle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q13_opt_b",
+        "label": "B",
+        "content": "Aunt",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q13_opt_c",
+        "label": "C",
+        "content": "Father",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q13_opt_d",
+        "label": "D",
+        "content": "Grandmother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q14",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which animal has a shell and moves slowly?",
+    "imageUrl": null,
+    "explanation": "Hewan yang memiliki tempurung pelindung (*shell*) dan berjalan sangat lambat (*moves slowly*) adalah kura-kura/penyu (*turtle*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q14_opt_a",
+        "label": "A",
+        "content": "Turtle",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q14_opt_b",
+        "label": "B",
+        "content": "Rabbit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q14_opt_c",
+        "label": "C",
+        "content": "Snake",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q14_opt_d",
+        "label": "D",
+        "content": "Deer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q15",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which animal is known for its black and white stripes?",
+    "imageUrl": null,
+    "explanation": "Hewan yang memiliki pola garis-garis loreng hitam dan putih (*black and white stripes*) pada tubuhnya adalah zebra.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q15_opt_a",
+        "label": "A",
+        "content": "Lion",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q15_opt_b",
+        "label": "B",
+        "content": "Zebra",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q15_opt_c",
+        "label": "C",
+        "content": "Giraffe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q15_opt_d",
+        "label": "D",
+        "content": "Elephant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q16",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "When does the day start?",
+    "imageUrl": null,
+    "explanation": "Hari dan rutinitas manusia diawali pada saat fajar/pagi hari (*in the morning*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q16_opt_a",
+        "label": "A",
+        "content": "In the morning",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q16_opt_b",
+        "label": "B",
+        "content": "In the afternoon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q16_opt_c",
+        "label": "C",
+        "content": "In the evening",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q16_opt_d",
+        "label": "D",
+        "content": "In the night",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q17",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "We use our … for tasting food.",
+    "imageUrl": null,
+    "explanation": "Kita mengecap rasa makanan (*tasting*) menggunakan indra pengecap lidah yang berada di dalam mulut (*mouth*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q17_opt_a",
+        "label": "A",
+        "content": "Ear",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q17_opt_b",
+        "label": "B",
+        "content": "Eye",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q17_opt_c",
+        "label": "C",
+        "content": "Mouth",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q17_opt_d",
+        "label": "D",
+        "content": "Leg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q18",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture. What is it?",
+    "imageUrl": "/uploads/jso25_ing1_q18.png",
+    "explanation": "Gambar menunjukkan hidung (*nose*), bagian tubuh untuk mencium bau. *Hand* = tangan, *leg* = kaki, *eyebrow* = alis.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q18_opt_a",
+        "label": "A",
+        "content": "hand",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q18_opt_b",
+        "label": "B",
+        "content": "nose",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q18_opt_c",
+        "label": "C",
+        "content": "leg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q18_opt_d",
+        "label": "D",
+        "content": "eyebrow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q19",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Aimee has a cat. She loves …. cat so much.",
+    "imageUrl": null,
+    "explanation": "Subjek kalimat adalah seorang perempuan (*Aimee* / *She*), sehingga kata ganti kepemilikan (*possessive adjective*) yang tepat adalah *her* (*her cat*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q19_opt_a",
+        "label": "A",
+        "content": "His",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q19_opt_b",
+        "label": "B",
+        "content": "Him",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q19_opt_c",
+        "label": "C",
+        "content": "Her",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q19_opt_d",
+        "label": "D",
+        "content": "Your",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q20",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "You use your ….. to write something.",
+    "imageUrl": null,
+    "explanation": "Anggota tubuh yang digunakan untuk memegang pena/pensil dan menulis adalah tangan (*hand*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q20_opt_a",
+        "label": "A",
+        "content": "Nose",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q20_opt_b",
+        "label": "B",
+        "content": "Leg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q20_opt_c",
+        "label": "C",
+        "content": "Hand",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q20_opt_d",
+        "label": "D",
+        "content": "Eye",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q21",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "This animal has four legs, and sounds “meow”, what is it …",
+    "imageUrl": null,
+    "explanation": "Hewan berkaki empat yang bersuara khas \"meow\" adalah kucing (*cat*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q21_opt_a",
+        "label": "A",
+        "content": "Frog",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q21_opt_b",
+        "label": "B",
+        "content": "Buffalo",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q21_opt_c",
+        "label": "C",
+        "content": "Cat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q21_opt_d",
+        "label": "D",
+        "content": "Cow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q22",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "This animal has two legs, wings, and can fly in the sky. What is it …",
+    "imageUrl": null,
+    "explanation": "Hewan bertulang belakang yang berkaki dua, memiliki sepasang sayap, dan mampu terbang bebas di angkasa adalah burung (*bird*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q22_opt_a",
+        "label": "A",
+        "content": "Chicken",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q22_opt_b",
+        "label": "B",
+        "content": "Bird",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q22_opt_c",
+        "label": "C",
+        "content": "Butterfly",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q22_opt_d",
+        "label": "D",
+        "content": "Ant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q23",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A baby dog is called a puppy. A baby cat is called a …",
+    "imageUrl": null,
+    "explanation": "Istilah baku dalam bahasa Inggris untuk anak kucing adalah *kitten*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q23_opt_a",
+        "label": "A",
+        "content": "Kitty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q23_opt_b",
+        "label": "B",
+        "content": "Kitten",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q23_opt_c",
+        "label": "C",
+        "content": "Kit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q23_opt_d",
+        "label": "D",
+        "content": "Catty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q24",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! What animal is it?",
+    "imageUrl": "/uploads/jso25_ing1_q24.png",
+    "explanation": "Gambar menunjukkan hewan besar bertubuh gemuk berwarna abu-abu, bermulut lebar, tanpa cula, dan hidup di dekat air. Hewan itu adalah kuda nil (*hippopotamus*). Badak (*rhinoceros*) memiliki cula di hidungnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q24_opt_a",
+        "label": "A",
+        "content": "Cow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q24_opt_b",
+        "label": "B",
+        "content": "Buffalo",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q24_opt_c",
+        "label": "C",
+        "content": "Hippopotamus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q24_opt_d",
+        "label": "D",
+        "content": "Rhinoceros",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q25",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! What animal is it?",
+    "imageUrl": "/uploads/jso25_ing1_q25.png",
+    "explanation": "Gambar stimulus menampilkan lumba-lumba (*dolphin*) yang ramah dan melompat di atas air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q25_opt_a",
+        "label": "A",
+        "content": "Shark",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q25_opt_b",
+        "label": "B",
+        "content": "Orca",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q25_opt_c",
+        "label": "C",
+        "content": "Dolphin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q25_opt_d",
+        "label": "D",
+        "content": "Eel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q26",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "This thing is used for writing on the whiteboard and it has black ink. What is it?",
+    "imageUrl": null,
+    "explanation": "Benda yang digunakan khusus untuk menulis pada papan tulis putih (*whiteboard*) adalah spidol papan tulis (*board marker* / *whiteboard marker*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q26_opt_a",
+        "label": "A",
+        "content": "Eraser",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q26_opt_b",
+        "label": "B",
+        "content": "Ruler",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q26_opt_c",
+        "label": "C",
+        "content": "Chalk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q26_opt_d",
+        "label": "D",
+        "content": "Board marker",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q27",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! What is it?",
+    "imageUrl": "/uploads/jso25_ing1_q27.png",
+    "explanation": "Gambar stimulus menampilkan tas ransel sekolah anak (*bag* / *backpack*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q27_opt_a",
+        "label": "A",
+        "content": "Bag",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q27_opt_b",
+        "label": "B",
+        "content": "Ruler",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q27_opt_c",
+        "label": "C",
+        "content": "Pencil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q27_opt_d",
+        "label": "D",
+        "content": "Table",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q28",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "This fruit taste is sour, and the color is orange. What is it …",
+    "imageUrl": null,
+    "explanation": "Buah yang berwarna jingga (*orange*) dan memiliki rasa asam manis menyegarkan adalah jeruk (*orange*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q28_opt_a",
+        "label": "A",
+        "content": "Banana",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q28_opt_b",
+        "label": "B",
+        "content": "Strawberry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q28_opt_c",
+        "label": "C",
+        "content": "Orange",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q28_opt_d",
+        "label": "D",
+        "content": "Durian",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q29",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! What fruit is it?",
+    "imageUrl": "/uploads/jso25_ing1_q29.png",
+    "explanation": "Gambar menunjukkan buah besar berkulit hijau bergaris dengan daging buah merah dan biji hitam, yaitu semangka (*watermelon*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q29_opt_a",
+        "label": "A",
+        "content": "Watermelon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q29_opt_b",
+        "label": "B",
+        "content": "Strawberry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q29_opt_c",
+        "label": "C",
+        "content": "Melon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q29_opt_d",
+        "label": "D",
+        "content": "Grapes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_ing_1_q30",
+    "topicId": "top_jso_2025_ing_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The fruit has a strong smell and sharp thorns on its thick skin. What is it …",
+    "imageUrl": null,
+    "explanation": "Buah dengan aroma yang sangat menyengat (*strong smell*) dan kulit berakar duri tajam (*sharp thorns*) adalah durian (*durian*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_ing_1_q30_opt_a",
+        "label": "A",
+        "content": "Banana",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q30_opt_b",
+        "label": "B",
+        "content": "Watermelon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q30_opt_c",
+        "label": "C",
+        "content": "Dragon fruit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_ing_1_q30_opt_d",
+        "label": "D",
+        "content": "Durian",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

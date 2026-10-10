@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "q_0408_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika sekarang bulan Agustus dan musim panen akan tiba 5 bulan lagi, maka musim panen akan tiba pada bulan ...",
+    "imageUrl": null,
+    "explanation": "Agustus adalah bulan ke-8. Ditambah 5 bulan lagi $= 8 + 5 = 13$.\nBulan ke-13 adalah bulan ke-1 di tahun berikutnya, yaitu **Januari**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0408_matematika-leve_0_A",
+        "label": "A",
+        "content": "Desember",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0408_matematika-leve_1_B",
+        "label": "B",
+        "content": "Januari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0408_matematika-leve_2_C",
+        "label": "C",
+        "content": "Februari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0408_matematika-leve_3_D",
+        "label": "D",
+        "content": "Maret",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0409_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "625 – 342 – 123 = ...",
+    "imageUrl": null,
+    "explanation": "Langkah pengurangan:\n$$625 - 342 - 123 = 283 - 123 = 160$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0409_matematika-leve_0_A",
+        "label": "A",
+        "content": "160",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0409_matematika-leve_1_B",
+        "label": "B",
+        "content": "150",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0409_matematika-leve_2_C",
+        "label": "C",
+        "content": "260",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0409_matematika-leve_3_D",
+        "label": "D",
+        "content": "250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0410_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Aku adalah sebuah bilangan. Jika aku dikalikan 5 kemudian dikurangi 8, hasilnya 37. Bilangan berapakah aku?",
+    "imageUrl": null,
+    "explanation": "Menyusun persamaan:\n$$5x - 8 = 37 \\implies 5x = 37 + 8 = 45 \\implies x = 45 \\div 5 = 9$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0410_matematika-leve_0_A",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0410_matematika-leve_1_B",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0410_matematika-leve_2_C",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0410_matematika-leve_3_D",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0411_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Urutkan pecahan-pecahan berikut dari yang terbesar : $\\frac{5}{6} , \\frac{3}{4} , \\frac{7}{9} , \\frac{2}{3}$",
+    "imageUrl": null,
+    "explanation": "Konversi pecahan ke desimal untuk membandingkan:\n- $\\frac{5}{6} \\approx 0,833$\n- $\\frac{7}{9} \\approx 0,778$\n- $\\frac{3}{4} = 0,750$\n- $\\frac{2}{3} \\approx 0,667$\nUrutan dari yang terbesar: **$\\frac{5}{6} , \\frac{7}{9} , \\frac{3}{4} , \\frac{2}{3}$**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0411_matematika-leve_0_A",
+        "label": "A",
+        "content": "$\\frac{2}{3} , \\frac{3}{4} , \\frac{7}{9} , \\frac{5}{6}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0411_matematika-leve_1_B",
+        "label": "B",
+        "content": "$\\frac{5}{6} , \\frac{7}{9} , \\frac{3}{4} , \\frac{2}{3}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0411_matematika-leve_2_C",
+        "label": "C",
+        "content": "$\\frac{3}{4} , \\frac{2}{3} , \\frac{5}{6} , \\frac{7}{9}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0411_matematika-leve_3_D",
+        "label": "D",
+        "content": "$\\frac{7}{9} , \\frac{5}{6} , \\frac{3}{4} , \\frac{2}{3}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0412_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sudut $\\frac{2}{5}$ putaran besarnya ...",
+    "imageUrl": null,
+    "explanation": "Satu putaran penuh $= 360^\\circ$.\n$$\\frac{2}{5} \\times 360^\\circ = 2 \\times 72^\\circ = 144^\\circ$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0412_matematika-leve_0_A",
+        "label": "A",
+        "content": "$72^\\circ$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0412_matematika-leve_1_B",
+        "label": "B",
+        "content": "$144^\\circ$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0412_matematika-leve_2_C",
+        "label": "C",
+        "content": "$180^\\circ$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0412_matematika-leve_3_D",
+        "label": "D",
+        "content": "$216^\\circ$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0413_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah segitiga siku-siku memiliki sisi miring 25 cm dan salah satu sisi tegaknya 7 cm. Luas segitiga tersebut adalah ... cm2.",
+    "imageUrl": null,
+    "explanation": "Sisi miring $c = 25$ cm, sisi tegak $a = 7$ cm.\nSisi tegak lainnya $b = \\sqrt{25^2 - 7^2} = \\sqrt{625 - 49} = \\sqrt{576} = 24$ cm.\n$$\\text{Luas segitiga} = \\frac{1}{2} \\times a \\times b = \\frac{1}{2} \\times 7 \\times 24 = 84 \\text{ cm}^2$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0413_matematika-leve_0_A",
+        "label": "A",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0413_matematika-leve_1_B",
+        "label": "B",
+        "content": "336",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0413_matematika-leve_2_C",
+        "label": "C",
+        "content": "168",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0413_matematika-leve_3_D",
+        "label": "D",
+        "content": "84",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0414_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "FPB dari 84, 126, dan 210 adalah ...",
+    "imageUrl": null,
+    "explanation": "Faktorisasi prima:\n$84 = 2^2 \\times 3 \\times 7$\n$126 = 2 \\times 3^2 \\times 7$\n$210 = 2 \\times 3 \\times 5 \\times 7$\n$$\\text{FPB} = 2 \\times 3 \\times 7 = 42$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0414_matematika-leve_0_A",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0414_matematika-leve_1_B",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0414_matematika-leve_2_C",
+        "label": "C",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0414_matematika-leve_3_D",
+        "label": "D",
+        "content": "84",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0415_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari 3 × (L + XL) adalah ...",
+    "imageUrl": null,
+    "explanation": "Konversi angka romawi:\n$\\text{L} = 50$, $\\text{XL} = 40$.\n$$\\text{L} + \\text{XL} = 50 + 40 = 90$$.\n$$3 \\times 90 = 270 = \\text{CCLXX}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0415_matematika-leve_0_A",
+        "label": "A",
+        "content": "CCLXX",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0415_matematika-leve_1_B",
+        "label": "B",
+        "content": "CL",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0415_matematika-leve_2_C",
+        "label": "C",
+        "content": "XC",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0415_matematika-leve_3_D",
+        "label": "D",
+        "content": "CLLX",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0416_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Menurut jadwal pemberangkatan, bus dari Surabaya ke Malang seharusnya berangkat pukul 07.30. Akan tetapi, karena ada perbaikan mesin, bus tersebut mengalami keterlambatan pemberangkatan selama 55 menit. Pukul berapa bus itu berangkat?",
+    "imageUrl": null,
+    "explanation": "Jadwal berangkat pukul 07.30, terlambat 55 menit.\n07.30 + 30 menit = 08.00, lalu 08.00 + 25 menit = 08.25.\n\nKunci Jawaban: **C (08.25)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0416_matematika-leve_0_A",
+        "label": "A",
+        "content": "08.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0416_matematika-leve_1_B",
+        "label": "B",
+        "content": "08.20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0416_matematika-leve_2_C",
+        "label": "C",
+        "content": "08.25",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0416_matematika-leve_3_D",
+        "label": "D",
+        "content": "08.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0417_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perbandingan umur Andi dan Budi adalah 2 : 3. Jika selisih umur mereka 5 tahun, maka umur Andi adalah ... tahun.",
+    "imageUrl": null,
+    "explanation": "Perbandingan Andi : Budi $= 2 : 3$.\nSelisih rasio $= 3 - 2 = 1$ bagian $= 5$ tahun.\nUmur Andi $= 2 \\times 5 = 10$ tahun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0417_matematika-leve_0_A",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0417_matematika-leve_1_B",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0417_matematika-leve_2_C",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0417_matematika-leve_3_D",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0418_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "15 × 12 – 5 × 12 = ...",
+    "imageUrl": null,
+    "explanation": "Sifat distributif perkalian:\n$$15 \\times 12 - 5 \\times 12 = (15 - 5) \\times 12 = 10 \\times 12 = 120$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0418_matematika-leve_0_A",
+        "label": "A",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0418_matematika-leve_1_B",
+        "label": "B",
+        "content": "120",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0418_matematika-leve_2_C",
+        "label": "C",
+        "content": "150",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0418_matematika-leve_3_D",
+        "label": "D",
+        "content": "200",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0419_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Harga sebuah tas awalnya adalah Rp 150.000. Jika harga tersebut naik 20%, kemudian turun 10% dari harga baru, harga terakhir tas tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "Harga awal $= \\text{Rp } 150.000$.\nNaik 20%: $150.000 \\times 1,20 = \\text{Rp } 180.000$.\nTurun 10% dari harga baru: $180.000 \\times 0,90 = \\text{Rp } 162.000$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0419_matematika-leve_0_A",
+        "label": "A",
+        "content": "Rp 162.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0419_matematika-leve_1_B",
+        "label": "B",
+        "content": "Rp 153.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0419_matematika-leve_2_C",
+        "label": "C",
+        "content": "Rp 144.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0419_matematika-leve_3_D",
+        "label": "D",
+        "content": "Rp 135.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0420_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "There are five numbers: 2, 3, 5, 7, 11. The numbers above which are prime factors of 210 are ...",
+    "imageUrl": null,
+    "explanation": "Faktorisasi prima dari 210:\n$$210 = 2 \\times 3 \\times 5 \\times 7$$.\nSemua bilangan 2, 3, 5, dan 7 merupakan faktor prima dari 210, sedangkan 11 bukan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0420_matematika-leve_0_A",
+        "label": "A",
+        "content": "2, 3 and 7 only",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0420_matematika-leve_1_B",
+        "label": "B",
+        "content": "2, 5 and 7 only",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0420_matematika-leve_2_C",
+        "label": "C",
+        "content": "3, 5 and 7 only",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0420_matematika-leve_3_D",
+        "label": "D",
+        "content": "2, 3, 5 and 7 only",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0421_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Luas sebuah kebun Pak Budi yang berbentuk persegi adalah 900 m2. Panjang sisi kebun tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "Kebun persegi dengan luas $900 \\text{ m}^2$.\n$$\\text{Panjang sisi} = \\sqrt{900} = 30 \\text{ meter}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0421_matematika-leve_0_A",
+        "label": "A",
+        "content": "25 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0421_matematika-leve_1_B",
+        "label": "B",
+        "content": "30 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0421_matematika-leve_2_C",
+        "label": "C",
+        "content": "35 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0421_matematika-leve_3_D",
+        "label": "D",
+        "content": "40 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0422_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berapakah kelipatan persekutuan terkecil dari 36 dan 48?",
+    "imageUrl": null,
+    "explanation": "Faktorisasi prima:\n$36 = 2^2 \\times 3^2$\n$48 = 2^4 \\times 3$\n$$\\text{KPK} = 2^4 \\times 3^2 = 16 \\times 9 = 144$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0422_matematika-leve_0_A",
+        "label": "A",
+        "content": "1728",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0422_matematika-leve_1_B",
+        "label": "B",
+        "content": "288",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0422_matematika-leve_2_C",
+        "label": "C",
+        "content": "144",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0422_matematika-leve_3_D",
+        "label": "D",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0423_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "2 kg + 25 gram – 0,5 hg = ... gram",
+    "imageUrl": null,
+    "explanation": "Konversi ke gram:\n$2 \\text{ kg} = 2.000 \\text{ g}$\n$25 \\text{ g} = 25 \\text{ g}$\n$0,5 \\text{ hg} = 50 \\text{ g}$\n$$2.000 + 25 - 50 = 1.975 \\text{ gram}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0423_matematika-leve_0_A",
+        "label": "A",
+        "content": "1.575",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0423_matematika-leve_1_B",
+        "label": "B",
+        "content": "1.975",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0423_matematika-leve_2_C",
+        "label": "C",
+        "content": "2.450",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0423_matematika-leve_3_D",
+        "label": "D",
+        "content": "2.525",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0424_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pernyataan berikut:\n- Angka 3 menempati tempat puluhan.\n- Angka 9 menempati tempat satuan.\n- Angka 4 menempati tempat ratusan dan ribuan.\n\nLambang bilangan dari pernyataan di atas adalah ...",
+    "imageUrl": null,
+    "explanation": "Menyusun nilai tempat:\nRibuan: 4, Ratusan: 4, Puluhan: 3, Satuan: 9 $\\implies$ **4.439**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0424_matematika-leve_0_A",
+        "label": "A",
+        "content": "4.394",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0424_matematika-leve_1_B",
+        "label": "B",
+        "content": "4.439",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0424_matematika-leve_2_C",
+        "label": "C",
+        "content": "3.494",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0424_matematika-leve_3_D",
+        "label": "D",
+        "content": "9.434",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0425_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola bilangan kuadrat berikut:\n$$1, 4, 9, x, 25, y, 49, \\dots$$\nNilai dari $x + y$ adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola kuadrat: $1^2, 2^2, 3^2, 4^2, 5^2, 6^2, 7^2$.\n$x = 4^2 = 16$\n$y = 6^2 = 36$\n$$x + y = 16 + 36 = 52$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0425_matematika-leve_0_A",
+        "label": "A",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0425_matematika-leve_1_B",
+        "label": "B",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0425_matematika-leve_2_C",
+        "label": "C",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0425_matematika-leve_3_D",
+        "label": "D",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0426_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perbandingan usia kakak dan adik adalah 7 : 4. Jika jumlah usia mereka berdua adalah 33 tahun, maka usia adik adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlah bagian rasio $= 7 + 4 = 11$ bagian.\n1 bagian $= 33 \\div 11 = 3$ tahun.\nUsia adik $= 4 \\times 3 = 12$ tahun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0426_matematika-leve_0_A",
+        "label": "A",
+        "content": "12 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0426_matematika-leve_1_B",
+        "label": "B",
+        "content": "15 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0426_matematika-leve_2_C",
+        "label": "C",
+        "content": "18 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0426_matematika-leve_3_D",
+        "label": "D",
+        "content": "21 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0427_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Selisih KPK dan FPB dari 42 dan 70 adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan 42 dan 70:\n- $\\text{FPB}(42, 70) = 14$\n- $\\text{KPK}(42, 70) = 210$\n$$\\text{Selisih} = 210 - 14 = 196$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0427_matematika-leve_0_A",
+        "label": "A",
+        "content": "210",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0427_matematika-leve_1_B",
+        "label": "B",
+        "content": "204",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0427_matematika-leve_2_C",
+        "label": "C",
+        "content": "196",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0427_matematika-leve_3_D",
+        "label": "D",
+        "content": "188",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0428_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu ingin membeli kue untuk acara arisan. Jika ibu membeli 15 kue, uangnya kurang Rp 5.000. Namun jika hanya membeli 10 kue, uang ibu akan bersisa Rp 5.000. Berpakah uang ibu?",
+    "imageUrl": null,
+    "explanation": "Misalkan harga 1 kue $= k$ dan uang ibu $= U$.\n$U = 15k - 5000$\n$U = 10k + 5000$\n$$15k - 5000 = 10k + 5000 \\implies 5k = 10.000 \\implies k = 2.000$$.\nUang ibu $U = 10(2.000) + 5.000 = \\text{Rp } 25.000$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0428_matematika-leve_0_A",
+        "label": "A",
+        "content": "Rp 15.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0428_matematika-leve_1_B",
+        "label": "B",
+        "content": "Rp 20.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0428_matematika-leve_2_C",
+        "label": "C",
+        "content": "Rp 25.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0428_matematika-leve_3_D",
+        "label": "D",
+        "content": "Rp 30.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0429_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah taman berbentuk persegi panjang dengan panjang 25 meter dan lebar 15 meter. Berapakah keliling taman tersebut?",
+    "imageUrl": null,
+    "explanation": "Keliling persegi panjang:\n$$K = 2 \\times (p + l) = 2 \\times (25 + 15) = 2 \\times 40 = 80 \\text{ meter}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0429_matematika-leve_0_A",
+        "label": "A",
+        "content": "40 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0429_matematika-leve_B",
+        "label": "B",
+        "content": "50 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0429_matematika-leve_2_C",
+        "label": "C",
+        "content": "60 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0429_matematika-leve_3_D",
+        "label": "D",
+        "content": "80 meter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0430_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bentuk persen dari $\\frac{7}{8}$ adalah ...",
+    "imageUrl": null,
+    "explanation": "Mengubah pecahan biasa ke persen:\n$$\\frac{7}{8} \\times 100\\% = 7 \\times 12,5\\% = 87,5\\%$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0430_matematika-leve_0_A",
+        "label": "A",
+        "content": "77,5 %",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0430_matematika-leve_1_B",
+        "label": "B",
+        "content": "82,5 %",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0430_matematika-leve_2_C",
+        "label": "C",
+        "content": "87,5 %",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0430_matematika-leve_3_D",
+        "label": "D",
+        "content": "92,5 %",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0431_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari 12 × (–7) + 48 : (–6) adalah ...",
+    "imageUrl": null,
+    "explanation": "Urutan operasi perkalian dan pembagian terlebih dahulu:\n$$12 \\times (-7) = -84$$\n$$48 \\div (-6) = -8$$\n$$-84 + (-8) = -92$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0431_matematika-leve_0_A",
+        "label": "A",
+        "content": "–92",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0431_matematika-leve_1_B",
+        "label": "B",
+        "content": "–48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0431_matematika-leve_2_C",
+        "label": "C",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0431_matematika-leve_3_D",
+        "label": "D",
+        "content": "92",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0432_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sudut yang dibentuk antara kedua jarum pendek dan panjang pada jam 15.00 menunjukkan sudut …",
+    "imageUrl": null,
+    "explanation": "Pada pukul 15.00, jarum pendek di angka 3 dan jarum panjang di angka 12, membentuk sudut $3 \\times 30^\\circ = 90^\\circ$ yang merupakan sudut **siku-siku**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0432_matematika-leve_0_A",
+        "label": "A",
+        "content": "Lancip",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0432_matematika-leve_1_B",
+        "label": "B",
+        "content": "Siku-siku",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0432_matematika-leve_2_C",
+        "label": "C",
+        "content": "Tumpul",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0432_matematika-leve_3_D",
+        "label": "D",
+        "content": "Lurus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0433_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah balok memiliki panjang 12 cm, lebar 8 cm, dan tinggi 5 cm. Jika panjang balok tersebut diperpanjang 3 cm, berapa volume balok yang baru?",
+    "imageUrl": null,
+    "explanation": "Panjang baru $= 12 + 3 = 15$ cm.\nLebar $= 8$ cm, tinggi $= 5$ cm.\n$$\\text{Volume baru} = 15 \\times 8 \\times 5 = 600 \\text{ cm}^3$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0433_matematika-leve_0_A",
+        "label": "A",
+        "content": "480 cm3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0433_matematika-leve_1_B",
+        "label": "B",
+        "content": "600 cm3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0433_matematika-leve_2_C",
+        "label": "C",
+        "content": "660 cm3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0433_matematika-leve_3_D",
+        "label": "D",
+        "content": "720 cm3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0434_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tentukan hasil dari penjumlahan bilangan berikut : XIX + XIV = ...",
+    "imageUrl": null,
+    "explanation": "Angka romawi:\n$\\text{XIX} = 19$, $\\text{XIV} = 14$.\n$$19 + 14 = 33 = \\text{XXXIII}$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0434_matematika-leve_0_A",
+        "label": "A",
+        "content": "XXXV",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0434_matematika-leve_1_B",
+        "label": "B",
+        "content": "XXXIV",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0434_matematika-leve_2_C",
+        "label": "C",
+        "content": "XXXIII",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0434_matematika-leve_3_D",
+        "label": "D",
+        "content": "XXXII",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0435_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan gambar bangun datar di samping! Persegi tengah berukuran $6\\text{ cm} \\times 6\\text{ cm}$, 4 persegi di sudut berukuran $3\\text{ cm} \\times 3\\text{ cm}$, dan terdapat 4 segitiga dengan alas $6\\text{ cm}$ dan tinggi $3\\text{ cm}$. Luas seluruh daerah yang diarsir adalah ... $\\text{cm}^2$.",
+    "imageUrl": "/uploads/prisma2025_m2_q28.jpeg",
+    "explanation": "Luas daerah yang diarsir terdiri dari:\n1. 4 buah persegi sudut ($3 \\times 3$): $4 \\times 9 = 36 \\text{ cm}^2$.\n2. 4 buah segitiga alas 6 cm tinggi 3 cm: $4 \\times (\\frac{1}{2} \\times 6 \\times 3) = 4 \\times 9 = 36 \\text{ cm}^2$.\n$$\\text{Total Luas Arsir} = 36 + 36 = 72 \\text{ cm}^2$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0435_matematika-leve_0_A",
+        "label": "A",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0435_matematika-leve_1_B",
+        "label": "B",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0435_matematika-leve_2_C",
+        "label": "C",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0435_matematika-leve_3_D",
+        "label": "D",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0436_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sepertiga dari suatu bilangan adalah 16. Berapakah seperempat dari bilangan tersebut?",
+    "imageUrl": null,
+    "explanation": "$$\\frac{1}{3} x = 16 \\implies x = 16 \\times 3 = 48$$.\n$$\\frac{1}{4} x = \\frac{1}{4} \\times 48 = 12$$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0436_matematika-leve_0_A",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0436_matematika-leve_1_B",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0436_matematika-leve_2_C",
+        "label": "C",
+        "content": "112",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0436_matematika-leve_3_D",
+        "label": "D",
+        "content": "124",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_0437_matematika-leve",
+    "topicId": "top_olimpiade-prisma_matematika-level-2-",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di antara pilihan berikut, yang merupakan bilangan genap adalah ...",
+    "imageUrl": null,
+    "explanation": "Evaluasi setiap pilihan:\n- A: $5^2 - 1 = 25 - 1 = 24$ (Genap, habis dibagi 2)\n- B: $10 + 7 = 17$ (Ganjil)\n- C: $3 \\times 11 = 33$ (Ganjil)\n- D: $25 \\div 5 = 5$ (Ganjil).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_0437_matematika-leve_0_A",
+        "label": "A",
+        "content": "$5^2 - 1$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_0437_matematika-leve_1_B",
+        "label": "B",
+        "content": "$10 + 7$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_0437_matematika-leve_2_C",
+        "label": "C",
+        "content": "$3 \\times 11$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_0437_matematika-leve_3_D",
+        "label": "D",
+        "content": "$25 \\div 5$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

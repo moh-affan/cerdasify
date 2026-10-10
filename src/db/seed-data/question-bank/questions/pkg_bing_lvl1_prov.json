@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "q_bing_l1_prov_01",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Cerita Fabel (Soal No. 1 – 5)]\n*Read the short story below thoroughly to answer number 1 to 5!*\n\n**THE ANT AND THE GRASSHOPPER**\nOne summer day, an ant was busy collecting food for the winter. A grasshopper was playing and singing all day long. The grasshopper laughed at the ant and said, “Why are you working so hard? Come and play with me!” The ant replied, “I am saving food for the cold winter. You should do the same.” The grasshopper ignored the advice. When winter came, the ant had plenty of food, but the grasshopper had nothing to eat and was freezing. The grasshopper learned a lesson: work hard today to prepare for tomorrow.\n:::\n\nWho was busy collecting food for the winter?",
+    "imageUrl": null,
+    "explanation": "Kalimat pertama: *\"an ant was busy collecting food for the winter.\"* Jadi yang sibuk mengumpulkan makanan adalah semut (*ant*).\n\nKunci Jawaban: **D (Ant)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_01_a",
+        "label": "A",
+        "content": "Grasshopper",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_01_b",
+        "label": "B",
+        "content": "Bird",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_01_c",
+        "label": "C",
+        "content": "Rabbit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_01_d",
+        "label": "D",
+        "content": "Ant",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_02",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Cerita Fabel (Soal No. 1 – 5)]\n*Read the short story below thoroughly to answer number 1 to 5!*\n\n**THE ANT AND THE GRASSHOPPER**\nOne summer day, an ant was busy collecting food for the winter. A grasshopper was playing and singing all day long. The grasshopper laughed at the ant and said, “Why are you working so hard? Come and play with me!” The ant replied, “I am saving food for the cold winter. You should do the same.” The grasshopper ignored the advice. When winter came, the ant had plenty of food, but the grasshopper had nothing to eat and was freezing. The grasshopper learned a lesson: work hard today to prepare for tomorrow.\n:::\n\nWhat was the grasshopper doing all day?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"A grasshopper was playing and singing all day long.\"*\n\nKunci Jawaban: **C (Playing and singing)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_02_a",
+        "label": "A",
+        "content": "Working",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_02_b",
+        "label": "B",
+        "content": "Sleeping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_02_c",
+        "label": "C",
+        "content": "Playing and singing",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_02_d",
+        "label": "D",
+        "content": "Collecting food",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_03",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Cerita Fabel (Soal No. 1 – 5)]\n*Read the short story below thoroughly to answer number 1 to 5!*\n\n**THE ANT AND THE GRASSHOPPER**\nOne summer day, an ant was busy collecting food for the winter. A grasshopper was playing and singing all day long. The grasshopper laughed at the ant and said, “Why are you working so hard? Come and play with me!” The ant replied, “I am saving food for the cold winter. You should do the same.” The grasshopper ignored the advice. When winter came, the ant had plenty of food, but the grasshopper had nothing to eat and was freezing. The grasshopper learned a lesson: work hard today to prepare for tomorrow.\n:::\n\nWhy did the ant collect food?",
+    "imageUrl": null,
+    "explanation": "Semut berkata: *\"I am saving food for the cold winter.\"* Ia menyimpan makanan untuk musim dingin.\n\nKunci Jawaban: **B (To save it for winter)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_03_a",
+        "label": "A",
+        "content": "To sell it",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_03_b",
+        "label": "B",
+        "content": "To save it for winter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_03_c",
+        "label": "C",
+        "content": "To give it to the grasshopper",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_03_d",
+        "label": "D",
+        "content": "To play with it",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_04",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Cerita Fabel (Soal No. 1 – 5)]\n*Read the short story below thoroughly to answer number 1 to 5!*\n\n**THE ANT AND THE GRASSHOPPER**\nOne summer day, an ant was busy collecting food for the winter. A grasshopper was playing and singing all day long. The grasshopper laughed at the ant and said, “Why are you working so hard? Come and play with me!” The ant replied, “I am saving food for the cold winter. You should do the same.” The grasshopper ignored the advice. When winter came, the ant had plenty of food, but the grasshopper had nothing to eat and was freezing. The grasshopper learned a lesson: work hard today to prepare for tomorrow.\n:::\n\nWhat happened to the grasshopper in winter?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"the grasshopper had nothing to eat and was freezing.\"* Belalang kedinginan dan kelaparan (*cold and hungry*).\n\nKunci Jawaban: **B (He was cold and hungry)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_04_a",
+        "label": "A",
+        "content": "He had plenty of food",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_04_b",
+        "label": "B",
+        "content": "He was cold and hungry",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_04_c",
+        "label": "C",
+        "content": "He went to the market",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_04_d",
+        "label": "D",
+        "content": "He helped the ant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_05",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Cerita Fabel (Soal No. 1 – 5)]\n*Read the short story below thoroughly to answer number 1 to 5!*\n\n**THE ANT AND THE GRASSHOPPER**\nOne summer day, an ant was busy collecting food for the winter. A grasshopper was playing and singing all day long. The grasshopper laughed at the ant and said, “Why are you working so hard? Come and play with me!” The ant replied, “I am saving food for the cold winter. You should do the same.” The grasshopper ignored the advice. When winter came, the ant had plenty of food, but the grasshopper had nothing to eat and was freezing. The grasshopper learned a lesson: work hard today to prepare for tomorrow.\n:::\n\nWhat lesson does the grasshopper learn at the end of the story?",
+    "imageUrl": null,
+    "explanation": "Pelajaran di akhir cerita: *\"work hard today to prepare for tomorrow\"*, yaitu bekerja keras itu penting.\n\nKunci Jawaban: **B (Working hard is important)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_05_a",
+        "label": "A",
+        "content": "Singing is more important than food",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_05_b",
+        "label": "B",
+        "content": "Working hard is important",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_05_c",
+        "label": "C",
+        "content": "Ants are unfriendly",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_05_d",
+        "label": "D",
+        "content": "Winter is fun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_06",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! What time is it now?",
+    "imageUrl": "/uploads/bing_l1_prov_q06.png",
+    "explanation": "Jarum pendek di angka 10 dan jarum panjang di angka 3 berarti lewat 15 menit dari pukul sepuluh, yaitu *quarter past ten* (10.15).\n\nKunci Jawaban: **B (Quarter past ten)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_06_a",
+        "label": "A",
+        "content": "Ten o'clock",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_06_b",
+        "label": "B",
+        "content": "Quarter past ten",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_06_c",
+        "label": "C",
+        "content": "Half past ten",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_06_d",
+        "label": "D",
+        "content": "Ten to eleven",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_07",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mother : “Shouldn't you … your vegetables?”\nRani : “I don't like vegetables, Mom.”",
+    "imageUrl": null,
+    "explanation": "Sayuran (*vegetables*) dimakan, jadi kata kerjanya *eat*.\n\nKunci Jawaban: **A (Eat)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_07_a",
+        "label": "A",
+        "content": "Eat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_07_b",
+        "label": "B",
+        "content": "Drink",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_07_c",
+        "label": "C",
+        "content": "Throw",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_07_d",
+        "label": "D",
+        "content": "Cook",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_08",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Percakapan Liburan (Soal No. 8 – 10)]\n*Read the text to answer question number 8 – 10!*\n\n**Dina :** “Hi, Fira! Where did you go for the holiday?”\n**Fira :** “I went to my grandma's house near the beach! How about your holiday?”\n**Dina :** “My family and I visited my uncle in Bali for his wedding. It was so much fun!”\n**Fira :** “That sounds wonderful!”\n:::\n\nWhere did Fira go for her holiday?",
+    "imageUrl": null,
+    "explanation": "Fira berkata: *\"I went to my grandma's house near the beach!\"*\n\nKunci Jawaban: **B (Near the beach)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_08_a",
+        "label": "A",
+        "content": "Bali",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_08_b",
+        "label": "B",
+        "content": "Near the beach",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_08_c",
+        "label": "C",
+        "content": "Jakarta",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_08_d",
+        "label": "D",
+        "content": "Bandung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_09",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Percakapan Liburan (Soal No. 8 – 10)]\n*Read the text to answer question number 8 – 10!*\n\n**Dina :** “Hi, Fira! Where did you go for the holiday?”\n**Fira :** “I went to my grandma's house near the beach! How about your holiday?”\n**Dina :** “My family and I visited my uncle in Bali for his wedding. It was so much fun!”\n**Fira :** “That sounds wonderful!”\n:::\n\nWhy did Dina go to Bali?",
+    "imageUrl": null,
+    "explanation": "Dina berkata: *\"My family and I visited my uncle in Bali for his wedding.\"* Jadi Dina ke Bali untuk menghadiri pernikahan.\n\nKunci Jawaban: **A (For a wedding)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_09_a",
+        "label": "A",
+        "content": "For a wedding",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_09_b",
+        "label": "B",
+        "content": "For school",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_09_c",
+        "label": "C",
+        "content": "For shopping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_09_d",
+        "label": "D",
+        "content": "For a funeral",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_10",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Percakapan Liburan (Soal No. 8 – 10)]\n*Read the text to answer question number 8 – 10!*\n\n**Dina :** “Hi, Fira! Where did you go for the holiday?”\n**Fira :** “I went to my grandma's house near the beach! How about your holiday?”\n**Dina :** “My family and I visited my uncle in Bali for his wedding. It was so much fun!”\n**Fira :** “That sounds wonderful!”\n:::\n\nThis dialogue most likely happens ….",
+    "imageUrl": null,
+    "explanation": "Dua teman yang saling bertanya tentang liburan yang baru selesai paling mungkin bercakap di sekolah setelah liburan.\n\nKunci Jawaban: **A (at school, after the holiday)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_10_a",
+        "label": "A",
+        "content": "at school, after the holiday",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_10_b",
+        "label": "B",
+        "content": "at a hospital",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_10_c",
+        "label": "C",
+        "content": "at a funeral",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_10_d",
+        "label": "D",
+        "content": "in the sea",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_11",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rima has a rabbit. She loves … rabbit so much.",
+    "imageUrl": null,
+    "explanation": "Rima perempuan (*she*), jadi kata kepemilikannya *her* (*her rabbit*).\n\nKunci Jawaban: **C (Her)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_11_a",
+        "label": "A",
+        "content": "His",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_11_b",
+        "label": "B",
+        "content": "Him",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_11_c",
+        "label": "C",
+        "content": "Her",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_11_d",
+        "label": "D",
+        "content": "Your",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_12",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "You use your … to write something.",
+    "imageUrl": null,
+    "explanation": "Kita menulis menggunakan tangan (*hand*).\n\nKunci Jawaban: **C (Hand)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_12_a",
+        "label": "A",
+        "content": "Nose",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_12_b",
+        "label": "B",
+        "content": "Leg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_12_c",
+        "label": "C",
+        "content": "Hand",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_12_d",
+        "label": "D",
+        "content": "Eye",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_13",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of the following is an item of clothing worn on the feet?",
+    "imageUrl": null,
+    "explanation": "Pakaian yang dipakai di kaki adalah sepatu (*shoes*). Syal di leher, topi di kepala, sarung tangan di tangan.\n\nKunci Jawaban: **C (Shoes)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_13_a",
+        "label": "A",
+        "content": "Scarf",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_13_b",
+        "label": "B",
+        "content": "Hat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_13_c",
+        "label": "C",
+        "content": "Shoes",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_13_d",
+        "label": "D",
+        "content": "Gloves",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_14",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "C-N-A-D-Y … The correct arrangement is …",
+    "imageUrl": null,
+    "explanation": "Huruf C-N-A-D-Y disusun menjadi *CANDY* (permen).\n\nKunci Jawaban: **B (Candy)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_14_a",
+        "label": "A",
+        "content": "Cnady",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_14_b",
+        "label": "B",
+        "content": "Candy",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_14_c",
+        "label": "C",
+        "content": "Dynca",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_14_d",
+        "label": "D",
+        "content": "Yandc",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_15",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What is a common animal to see in a zoo, but not usually at home?",
+    "imageUrl": null,
+    "explanation": "Singa (*lion*) adalah hewan liar yang biasa dilihat di kebun binatang, bukan hewan peliharaan di rumah.\n\nKunci Jawaban: **C (Lion)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_15_a",
+        "label": "A",
+        "content": "Cat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_15_b",
+        "label": "B",
+        "content": "Dog",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_15_c",
+        "label": "C",
+        "content": "Lion",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_15_d",
+        "label": "D",
+        "content": "Fish",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_16",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Is-a-this-pen. The correct sentence is …",
+    "imageUrl": null,
+    "explanation": "Pola kalimat pernyataan: *This* + *is* + *a pen* → *This is a pen*. Pilihan B adalah kalimat tanya.\n\nKunci Jawaban: **A (This is a pen)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_16_a",
+        "label": "A",
+        "content": "This is a pen",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_16_b",
+        "label": "B",
+        "content": "Is this a pen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_16_c",
+        "label": "C",
+        "content": "A pen this is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_16_d",
+        "label": "D",
+        "content": "Pen is this a",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_17",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Birds live in nests. Birds can …?",
+    "imageUrl": null,
+    "explanation": "Burung (*birds*) dapat terbang (*fly*).\n\nKunci Jawaban: **B (Fly)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_17_a",
+        "label": "A",
+        "content": "Swim",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_17_b",
+        "label": "B",
+        "content": "Fly",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_17_c",
+        "label": "C",
+        "content": "Dig",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_17_d",
+        "label": "D",
+        "content": "Crawl",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_18",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The … gives us milk.",
+    "imageUrl": null,
+    "explanation": "Hewan yang menghasilkan susu adalah sapi (*cow*).\n\nKunci Jawaban: **B (Cow)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_18_a",
+        "label": "A",
+        "content": "Lion",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_18_b",
+        "label": "B",
+        "content": "Cow",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_18_c",
+        "label": "C",
+        "content": "Cat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_18_d",
+        "label": "D",
+        "content": "Chicken",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_19",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The soap and the towel are in the …?",
+    "imageUrl": null,
+    "explanation": "Sabun dan handuk ada di kamar mandi (*bathroom*).\n\nKunci Jawaban: **B (Bathroom)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_19_a",
+        "label": "A",
+        "content": "Kitchen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_19_b",
+        "label": "B",
+        "content": "Bathroom",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_19_c",
+        "label": "C",
+        "content": "Garage",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_19_d",
+        "label": "D",
+        "content": "Garden",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_20",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "G-D-R-E-A-N. The correct arrangement is …?",
+    "imageUrl": null,
+    "explanation": "Huruf G-D-R-E-A-N disusun menjadi *GARDEN* (kebun).\n\nKunci Jawaban: **A (Garden)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_20_a",
+        "label": "A",
+        "content": "Garden",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_20_b",
+        "label": "B",
+        "content": "Danger",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_20_c",
+        "label": "C",
+        "content": "Ranged",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_20_d",
+        "label": "D",
+        "content": "Garned",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_21",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "A: “Look! The cat is hiding.”\nB: “Yes, it is … the box, we can only see its tail.”",
+    "imageUrl": null,
+    "explanation": "Kucing bersembunyi dan hanya ekornya yang terlihat, berarti kucing berada di dalam (*inside*) kotak.\n\nKunci Jawaban: **A (Inside)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_21_a",
+        "label": "A",
+        "content": "Inside",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_21_b",
+        "label": "B",
+        "content": "Outside",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_21_c",
+        "label": "C",
+        "content": "Above",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_21_d",
+        "label": "D",
+        "content": "Below",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_22",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu : “Where are the plates?”\nRani : “They are … the cupboard.”",
+    "imageUrl": null,
+    "explanation": "Piring disimpan di dalam (*inside*) lemari.\n\nKunci Jawaban: **B (Inside)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_22_a",
+        "label": "A",
+        "content": "Behind",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_22_b",
+        "label": "B",
+        "content": "Inside",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_22_c",
+        "label": "C",
+        "content": "Above",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_22_d",
+        "label": "D",
+        "content": "Beside",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_23",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The bird is sleeping … the nest.",
+    "imageUrl": null,
+    "explanation": "Burung tidur di dalam (*inside*) sarangnya.\n\nKunci Jawaban: **C (Inside)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_23_a",
+        "label": "A",
+        "content": "On top of",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_23_b",
+        "label": "B",
+        "content": "Under",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_23_c",
+        "label": "C",
+        "content": "Inside",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_23_d",
+        "label": "D",
+        "content": "Beside",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_24",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The cat is sleeping … the sofa, very close to it.",
+    "imageUrl": null,
+    "explanation": "*Beside* berarti di samping/dekat sesuatu. Kucing tidur di samping sofa, dekat sekali dengannya.\n\nKunci Jawaban: **D (Beside)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_24_a",
+        "label": "A",
+        "content": "Under",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_24_b",
+        "label": "B",
+        "content": "Behind",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_24_c",
+        "label": "C",
+        "content": "In front of",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_24_d",
+        "label": "D",
+        "content": "Beside",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_25",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“Oh no! The vase is … the table, very close to the edge. It might fall!”",
+    "imageUrl": null,
+    "explanation": "Vas berada di atas (*on*) meja dan dekat tepinya, sehingga bisa jatuh.\n\nKunci Jawaban: **C (On)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_25_a",
+        "label": "A",
+        "content": "Beside",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_25_b",
+        "label": "B",
+        "content": "Below",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_25_c",
+        "label": "C",
+        "content": "On",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_25_d",
+        "label": "D",
+        "content": "Under",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_26",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Cerita (Soal No. 26 – 30)]\n*Read the text below to answer number 26-30!*\n\nEvery weekend, my family and I go to the countryside. We like to visit my grandfather's farm. My favorite spot is called Green Hill. It has tall trees and colorful flowers. It is very peaceful.\nI like to pick strawberries and feed the chickens there. Sometimes there are rabbits and butterflies in the field! Every morning, we collect fresh eggs from the henhouse. I collected ten eggs last week. I put them in a basket in the kitchen.\nThis year I want to learn to ride a horse. It is difficult to ride, but so much fun! My brother is a good rider. He says he can teach me. I hope I can do it!\n:::\n\nWhere does the family go every weekend?",
+    "imageUrl": null,
+    "explanation": "Kalimat pertama: *\"Every weekend, my family and I go to the countryside.\"*\n\nKunci Jawaban: **B (Countryside)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_26_a",
+        "label": "A",
+        "content": "Beach",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_26_b",
+        "label": "B",
+        "content": "Countryside",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_26_c",
+        "label": "C",
+        "content": "City",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_26_d",
+        "label": "D",
+        "content": "School",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_27",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Cerita (Soal No. 26 – 30)]\n*Read the text below to answer number 26-30!*\n\nEvery weekend, my family and I go to the countryside. We like to visit my grandfather's farm. My favorite spot is called Green Hill. It has tall trees and colorful flowers. It is very peaceful.\nI like to pick strawberries and feed the chickens there. Sometimes there are rabbits and butterflies in the field! Every morning, we collect fresh eggs from the henhouse. I collected ten eggs last week. I put them in a basket in the kitchen.\nThis year I want to learn to ride a horse. It is difficult to ride, but so much fun! My brother is a good rider. He says he can teach me. I hope I can do it!\n:::\n\nMy favorite spot is called …",
+    "imageUrl": null,
+    "explanation": "Teks: *\"My favorite spot is called Green Hill.\"*\n\nKunci Jawaban: **B (Green Hill)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_27_a",
+        "label": "A",
+        "content": "Blue Lake",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_27_b",
+        "label": "B",
+        "content": "Green Hill",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_27_c",
+        "label": "C",
+        "content": "Rice Field",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_27_d",
+        "label": "D",
+        "content": "Flower Garden",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_28",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Cerita (Soal No. 26 – 30)]\n*Read the text below to answer number 26-30!*\n\nEvery weekend, my family and I go to the countryside. We like to visit my grandfather's farm. My favorite spot is called Green Hill. It has tall trees and colorful flowers. It is very peaceful.\nI like to pick strawberries and feed the chickens there. Sometimes there are rabbits and butterflies in the field! Every morning, we collect fresh eggs from the henhouse. I collected ten eggs last week. I put them in a basket in the kitchen.\nThis year I want to learn to ride a horse. It is difficult to ride, but so much fun! My brother is a good rider. He says he can teach me. I hope I can do it!\n:::\n\nHow many eggs did I collect last week?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"I collected ten eggs last week.\"*\n\nKunci Jawaban: **B (Ten)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_28_a",
+        "label": "A",
+        "content": "Five",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_28_b",
+        "label": "B",
+        "content": "Ten",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_28_c",
+        "label": "C",
+        "content": "Twenty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_28_d",
+        "label": "D",
+        "content": "Two",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_29",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Cerita (Soal No. 26 – 30)]\n*Read the text below to answer number 26-30!*\n\nEvery weekend, my family and I go to the countryside. We like to visit my grandfather's farm. My favorite spot is called Green Hill. It has tall trees and colorful flowers. It is very peaceful.\nI like to pick strawberries and feed the chickens there. Sometimes there are rabbits and butterflies in the field! Every morning, we collect fresh eggs from the henhouse. I collected ten eggs last week. I put them in a basket in the kitchen.\nThis year I want to learn to ride a horse. It is difficult to ride, but so much fun! My brother is a good rider. He says he can teach me. I hope I can do it!\n:::\n\nWhat do I usually do at the farm?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"I like to pick strawberries and feed the chickens there.\"*\n\nKunci Jawaban: **B (Pick strawberries and feed the chickens)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_29_a",
+        "label": "A",
+        "content": "Watch TV",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_29_b",
+        "label": "B",
+        "content": "Pick strawberries and feed the chickens",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_29_c",
+        "label": "C",
+        "content": "Ride a car",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_29_d",
+        "label": "D",
+        "content": "Cook dinner",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_30",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Teks Cerita (Soal No. 26 – 30)]\n*Read the text below to answer number 26-30!*\n\nEvery weekend, my family and I go to the countryside. We like to visit my grandfather's farm. My favorite spot is called Green Hill. It has tall trees and colorful flowers. It is very peaceful.\nI like to pick strawberries and feed the chickens there. Sometimes there are rabbits and butterflies in the field! Every morning, we collect fresh eggs from the henhouse. I collected ten eggs last week. I put them in a basket in the kitchen.\nThis year I want to learn to ride a horse. It is difficult to ride, but so much fun! My brother is a good rider. He says he can teach me. I hope I can do it!\n:::\n\nWhat is my brother good at?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"My brother is a good rider.\"* Jadi kakak/adik laki-lakinya pandai menunggang kuda.\n\nKunci Jawaban: **A (Riding a horse)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_30_a",
+        "label": "A",
+        "content": "Riding a horse",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_30_b",
+        "label": "B",
+        "content": "Swimming",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_30_c",
+        "label": "C",
+        "content": "Cooking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_30_d",
+        "label": "D",
+        "content": "Painting",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_31",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Look at the picture! What is it? It is a/an ….",
+    "imageUrl": "/uploads/bing_l1_prov_q31.png",
+    "explanation": "Buah besar bulat berkulit hijau, berdaging merah dengan biji hitam adalah semangka (*watermelon*).\n\nKunci Jawaban: **B (Watermelon)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_31_a",
+        "label": "A",
+        "content": "Melon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_31_b",
+        "label": "B",
+        "content": "Watermelon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_31_c",
+        "label": "C",
+        "content": "Pumpkin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_31_d",
+        "label": "D",
+        "content": "Apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_32",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "It is a small red fruit with tiny seeds on its skin and green leaves on top. It is a/an ….",
+    "imageUrl": null,
+    "explanation": "Buah kecil merah dengan biji-biji kecil di kulitnya dan daun hijau di atasnya adalah stroberi (*strawberry*).\n\nKunci Jawaban: **A (Strawberry)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_32_a",
+        "label": "A",
+        "content": "Strawberry",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_32_b",
+        "label": "B",
+        "content": "Cherry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_32_c",
+        "label": "C",
+        "content": "Apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_32_d",
+        "label": "D",
+        "content": "Grape",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_33",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Dialog (Soal No. 33 – 34)]\n*The following dialog is for question number 33 and 34:*\n\n**Sinta :** “Hi Doni, what are you eating?”\n**Doni :** “A slice of watermelon. My mom cut it for me after lunch.”\n**Sinta :** “Do you like watermelon?”\n**Doni :** “Yes, very much! It is sweet and refreshing.”\n:::\n\nWhat is Doni eating?",
+    "imageUrl": null,
+    "explanation": "Doni berkata: *\"A slice of watermelon.\"* Jadi ia makan sepotong semangka.\n\nKunci Jawaban: **A (A slice of watermelon)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_33_a",
+        "label": "A",
+        "content": "A slice of watermelon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_33_b",
+        "label": "B",
+        "content": "A slice of melon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_33_c",
+        "label": "C",
+        "content": "A whole watermelon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_33_d",
+        "label": "D",
+        "content": "Watermelon juice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_34",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Dialog (Soal No. 33 – 34)]\n*The following dialog is for question number 33 and 34:*\n\n**Sinta :** “Hi Doni, what are you eating?”\n**Doni :** “A slice of watermelon. My mom cut it for me after lunch.”\n**Sinta :** “Do you like watermelon?”\n**Doni :** “Yes, very much! It is sweet and refreshing.”\n:::\n\nWhich statement is true based on the dialogue?",
+    "imageUrl": null,
+    "explanation": "Doni berkata: *\"My mom cut it for me after lunch.\"* Jadi pernyataan yang benar adalah ibu Doni yang memotong semangka.\n\nKunci Jawaban: **B (Doni's mom cut the watermelon)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_34_a",
+        "label": "A",
+        "content": "Doni is eating a whole watermelon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_34_b",
+        "label": "B",
+        "content": "Doni's mom cut the watermelon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_34_c",
+        "label": "C",
+        "content": "Doni doesn't like sweet food",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_34_d",
+        "label": "D",
+        "content": "Doni dislikes sweet fruit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_35",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Ruang Kelas (Soal No. 35 – 37)]\n*Read the text below to answer number 35 to 37!*\n\nIn Mrs. Tanti's classroom, there are five students: Dita, Farel, Nadia, Bima, and Wulan. Dita sits in the front row, between Farel and Nadia. Bima sits in the back row, beside Wulan. There is a clock on the wall above the bookshelf, and a calendar next to the whiteboard.\n:::\n\nWhich of these can be found in the classroom above, except ….",
+    "imageUrl": null,
+    "explanation": "Di kelas ada jam (*clock*), papan tulis (*whiteboard*), dan rak buku (*bookshelf*). Kulkas (*refrigerator*) tidak disebutkan.\n\nKunci Jawaban: **D (Refrigerator)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_35_a",
+        "label": "A",
+        "content": "Clock",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_35_b",
+        "label": "B",
+        "content": "Whiteboard",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_35_c",
+        "label": "C",
+        "content": "Bookshelf",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_35_d",
+        "label": "D",
+        "content": "Refrigerator",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_36",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Ruang Kelas (Soal No. 35 – 37)]\n*Read the text below to answer number 35 to 37!*\n\nIn Mrs. Tanti's classroom, there are five students: Dita, Farel, Nadia, Bima, and Wulan. Dita sits in the front row, between Farel and Nadia. Bima sits in the back row, beside Wulan. There is a clock on the wall above the bookshelf, and a calendar next to the whiteboard.\n:::\n\nWhere is the clock located?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"There is a clock on the wall above the bookshelf.\"*\n\nKunci Jawaban: **A (On the wall above the bookshelf)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_36_a",
+        "label": "A",
+        "content": "On the wall above the bookshelf",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_36_b",
+        "label": "B",
+        "content": "Under the table",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_36_c",
+        "label": "C",
+        "content": "Beside the door",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_36_d",
+        "label": "D",
+        "content": "Inside the cupboard",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_37",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Ruang Kelas (Soal No. 35 – 37)]\n*Read the text below to answer number 35 to 37!*\n\nIn Mrs. Tanti's classroom, there are five students: Dita, Farel, Nadia, Bima, and Wulan. Dita sits in the front row, between Farel and Nadia. Bima sits in the back row, beside Wulan. There is a clock on the wall above the bookshelf, and a calendar next to the whiteboard.\n:::\n\nThe following statements are true about Dita, except ….",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Dita sits in the front row, between Farel and Nadia.\"* Jadi pernyataan *Dita sits in the back row* salah.\n\nKunci Jawaban: **C (Dita sits in the back row)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_37_a",
+        "label": "A",
+        "content": "Dita is one of Mrs. Tanti's students",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_37_b",
+        "label": "B",
+        "content": "Dita sits between Farel and Nadia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_37_c",
+        "label": "C",
+        "content": "Dita sits in the back row",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_37_d",
+        "label": "D",
+        "content": "Dita's classmates include Bima and Wulan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_38",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Perkenalan (Soal No. 38 – 39)]\n*The following text is for question number 38 and 39:*\n\nHello, my name is Raka Pradana. I live in Semarang, Central Java. I am the oldest child in my family. My younger sister is Kirana Pradana. She is 9 years old and studies in SD Tunas Bangsa. My youngest brother is Bayu Pradana. He is 5 years old and studies in kindergarten. I am the only one who is already in junior high school.\n:::\n\nHow many children does the Pradana family have?",
+    "imageUrl": null,
+    "explanation": "Keluarga Pradana punya tiga anak: Raka (laki-laki), Kirana (perempuan), dan Bayu (laki-laki). Jadi dua laki-laki dan satu perempuan.\n\nKunci Jawaban: **C (Three children, two boys and one girl)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_38_a",
+        "label": "A",
+        "content": "Two children, both girls",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_38_b",
+        "label": "B",
+        "content": "Three children, two girls and one boy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_38_c",
+        "label": "C",
+        "content": "Three children, two boys and one girl",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_38_d",
+        "label": "D",
+        "content": "Four children",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_39",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Teks Perkenalan (Soal No. 38 – 39)]\n*The following text is for question number 38 and 39:*\n\nHello, my name is Raka Pradana. I live in Semarang, Central Java. I am the oldest child in my family. My younger sister is Kirana Pradana. She is 9 years old and studies in SD Tunas Bangsa. My youngest brother is Bayu Pradana. He is 5 years old and studies in kindergarten. I am the only one who is already in junior high school.\n:::\n\nHow old is most probably Raka?",
+    "imageUrl": null,
+    "explanation": "Raka adalah anak tertua dan satu-satunya yang sudah SMP, sedangkan adiknya Kirana 9 tahun. Jadi umur Raka paling mungkin 13 tahun.\n\nKunci Jawaban: **C (13 years old)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_39_a",
+        "label": "A",
+        "content": "6 years old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_39_b",
+        "label": "B",
+        "content": "9 years old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_39_c",
+        "label": "C",
+        "content": "13 years old",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_39_d",
+        "label": "D",
+        "content": "5 years old",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_bing_l1_prov_40",
+    "topicId": "top_bing_lvl1_provinsi",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Look at the picture! What fruit is it? It has a strong smell and sharp thorns.",
+    "imageUrl": "/uploads/bing_l1_prov_q40.png",
+    "explanation": "Buah berbau sangat kuat dengan kulit berduri tajam adalah durian.\n\nKunci Jawaban: **C (Durian)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_bing_l1_prov_40_a",
+        "label": "A",
+        "content": "Banana",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_bing_l1_prov_40_b",
+        "label": "B",
+        "content": "Watermelon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_bing_l1_prov_40_c",
+        "label": "C",
+        "content": "Durian",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_bing_l1_prov_40_d",
+        "label": "D",
+        "content": "Orange",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

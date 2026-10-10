@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "q_p24_m3_01",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Faktor Persekutuan Terbesar dari 54, 64, dan 72 adalah…",
+    "imageUrl": null,
+    "explanation": "54 = 2 × 3³, 64 = 2⁶, dan 72 = 2³ × 3². Faktor yang dimiliki ketiganya hanya 2, jadi FPB = 2.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_01_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_01_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_01_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_01_d",
+        "label": "D",
+        "content": "576",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_02",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai dari $\\frac{2019^2 - 2017^2}{2019 - 2017}$ = …",
+    "imageUrl": null,
+    "explanation": "Gunakan selisih kuadrat: a² − b² = (a − b)(a + b).\n$\\frac{2019^2 - 2017^2}{2019 - 2017} = \\frac{(2019-2017)(2019+2017)}{2019-2017} = 2019 + 2017 = 4.036$.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_02_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_02_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_02_c",
+        "label": "C",
+        "content": "2019",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_02_d",
+        "label": "D",
+        "content": "4036",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_03",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Diketahui barisan bilangan: 1, 16, 25, …, 196, …,\n1.369. Pada barisan tersebut dua bilangan yang tepat mengisi adalah …",
+    "imageUrl": null,
+    "explanation": "Barisan ini adalah kuadrat dari 1, 4, 5, …, 14, …, 37.\nBilangan dasarnya mengikuti pola: setiap suku = jumlah dua suku sebelumnya.\n1, 4, 5 (=1+4), 9 (=4+5), 14 (=5+9), 23 (=9+14), 37 (=14+23).\nJadi bilangan yang hilang adalah 9² = 81 dan 23² = 529.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_03_a",
+        "label": "A",
+        "content": "27 dan 256",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_03_b",
+        "label": "B",
+        "content": "49 dan 324",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_03_c",
+        "label": "C",
+        "content": "81 dan 529",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_03_d",
+        "label": "D",
+        "content": "121 dan 576",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_04",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari $\\frac{2}{5} \\times 11 : 20\\%$ adalah …",
+    "imageUrl": null,
+    "explanation": "$\\frac{2}{5} \\times 11 = \\frac{22}{5} = 4{,}4$.\nDibagi 20% berarti dibagi 0,2: 4,4 : 0,2 = 22.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_04_a",
+        "label": "A",
+        "content": "2,2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_04_b",
+        "label": "B",
+        "content": "8,8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_04_c",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_04_d",
+        "label": "D",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_05",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika kita menulis bilangan 1 – 400, berapakah jumlah dari seluruh bilangan genapnya?",
+    "imageUrl": null,
+    "explanation": "Bilangan genap dari 1 sampai 400: 2, 4, 6, …, 400 (ada 200 bilangan).\nJumlahnya = 2 × (1 + 2 + … + 200) = 2 × (200 × 201 ÷ 2) = 40.200.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_05_a",
+        "label": "A",
+        "content": "20.200",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_05_b",
+        "label": "B",
+        "content": "22.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_05_c",
+        "label": "C",
+        "content": "40.200",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_05_d",
+        "label": "D",
+        "content": "42.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_06",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika 4 hari yang lalu adalah hari Kamis, maka\n2024 hari lagi setelah hari ini adalah hari …",
+    "imageUrl": null,
+    "explanation": "4 hari yang lalu Kamis, jadi hari ini Senin (Jumat, Sabtu, Minggu, Senin).\n2024 = 7 × 289 + 1, jadi 2024 hari lagi sama dengan 1 hari setelah Senin, yaitu Selasa.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_06_a",
+        "label": "A",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_06_b",
+        "label": "B",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_06_c",
+        "label": "C",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_06_d",
+        "label": "D",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_07",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "20,768 – 0,23 + 40,5 = …",
+    "imageUrl": null,
+    "explanation": "20,768 − 0,23 = 20,538. Lalu 20,538 + 40,5 = 61,038.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_07_a",
+        "label": "A",
+        "content": "61,38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_07_b",
+        "label": "B",
+        "content": "61,038",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_07_c",
+        "label": "C",
+        "content": "61,083",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_07_d",
+        "label": "D",
+        "content": "61,83",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_08",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pak Hasan membuat denah kebun berukuran 3cm\n× 4cm dalam skala 1:10.000. Luas kebun Pak\nHasan sebenarnya adalah …",
+    "imageUrl": null,
+    "explanation": "Ukuran sebenarnya: 3 cm × 10.000 = 30.000 cm = 300 m, dan 4 cm × 10.000 = 40.000 cm = 400 m.\nLuas = 300 m × 400 m = 120.000 m² = 12 ha (1 ha = 10.000 m²).\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_08_a",
+        "label": "A",
+        "content": "0,12 ha",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_08_b",
+        "label": "B",
+        "content": "1,2 ha",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_08_c",
+        "label": "C",
+        "content": "12 ha",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_08_d",
+        "label": "D",
+        "content": "120 ha",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_09",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Arfan mempunyai 8a jeruk. Arfan memberikan\n11 jeruk kepada Budi. Jeruk Arfan tinggal 2a + 7.\nJika harga setiap jeruk adalah Rp 1.250,00, berapa uang Arfan yang telah dibayarkan untuk membeli semua jeruk tersebut?",
+    "imageUrl": null,
+    "explanation": "8a − 11 = 2a + 7 → 6a = 18 → a = 3. Jeruk Arfan mula-mula 8 × 3 = 24 buah.\nUang yang dibayarkan = 24 × Rp 1.250,00 = Rp 30.000,00.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_09_a",
+        "label": "A",
+        "content": "Rp 15.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_09_b",
+        "label": "B",
+        "content": "Rp 25.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_09_c",
+        "label": "C",
+        "content": "Rp 20.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_09_d",
+        "label": "D",
+        "content": "Rp 30.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_10",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dalam suatu lingkaran yang berjari-jari 4 cm dibuat persegi ABCD sehingga titik-titik sudut persegi tersebut berada pada lingkaran. Luas persegi ABCD tersebut adalah … cm².",
+    "imageUrl": null,
+    "explanation": "Titik sudut persegi berada pada lingkaran, jadi diagonal persegi = diameter = 2 × 4 = 8 cm.\nLuas persegi = (d × d) ÷ 2 = (8 × 8) ÷ 2 = 32 cm².\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_10_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_10_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_10_c",
+        "label": "C",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_10_d",
+        "label": "D",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_11",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Panjang rusuk kubus yang volumenya 4.913 cm³ adalah … cm.",
+    "imageUrl": null,
+    "explanation": "17 × 17 × 17 = 4.913, jadi panjang rusuknya 17 cm.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_11_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_11_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_11_c",
+        "label": "C",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_11_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_12",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rata-rata nilai 5 orang adalah 7,2. Jika ditambah dengan nilai Rani dan Ani maka rata-ratanya menjadi 7,5. Jika Ani mendapatkan nilai 8, maka nilai Rani adalah …",
+    "imageUrl": null,
+    "explanation": "Jumlah nilai 5 orang = 5 × 7,2 = 36.\nJumlah nilai 7 orang = 7 × 7,5 = 52,5.\nNilai Rani + Ani = 52,5 − 36 = 16,5, sehingga nilai Rani = 16,5 − 8 = 8,5.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_12_a",
+        "label": "A",
+        "content": "7,5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_12_b",
+        "label": "B",
+        "content": "7,8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_12_c",
+        "label": "C",
+        "content": "8,2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_12_d",
+        "label": "D",
+        "content": "8,5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_13",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seekor burung menempuh jarak sejauh 90 km dengan kecepatan 40 km/jam. Dan burung itu berhenti pada pukul 10.45. Pukul berapa burung itu berangkat dari tempat asalnya?",
+    "imageUrl": null,
+    "explanation": "Waktu tempuh = jarak : kecepatan = 90 : 40 = 2,25 jam = 2 jam 15 menit.\nBerangkat = 10.45 − 2 jam 15 menit = 08.30.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_13_a",
+        "label": "A",
+        "content": "08.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_13_b",
+        "label": "B",
+        "content": "08.20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_13_c",
+        "label": "C",
+        "content": "08.40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_13_d",
+        "label": "D",
+        "content": "08.30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_14",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "4 dasawarsa + 5 lustrum + 72 bulan = … tahun.",
+    "imageUrl": null,
+    "explanation": "1 dasawarsa = 10 tahun, 1 lustrum = 5 tahun, 12 bulan = 1 tahun.\n4 dasawarsa + 5 lustrum + 72 bulan = 40 + 25 + 6 = 71 tahun.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_14_a",
+        "label": "A",
+        "content": "296",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_14_b",
+        "label": "B",
+        "content": "131",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_14_c",
+        "label": "C",
+        "content": "71",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_14_d",
+        "label": "D",
+        "content": "48,5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_15",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pak Imam mengisi kolam ikan dengan air selama\n1,5 jam. Jika debit air mengalir 30 liter/menit.\nVolume air yang telah mengalir sebanyak …liter.",
+    "imageUrl": null,
+    "explanation": "1,5 jam = 90 menit. Volume = debit × waktu = 30 liter/menit × 90 menit = 2.700 liter.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_15_a",
+        "label": "A",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_15_b",
+        "label": "B",
+        "content": "180",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_15_c",
+        "label": "C",
+        "content": "2700",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_15_d",
+        "label": "D",
+        "content": "300",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_16",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kebun Pak Tono panjangnya 300 meter dan lebarnya 100 meter. Setahun yang lalu ia menjual kebunnya seluas 1 ha. Berapa luas kebun Pak Tono yang tersisa?",
+    "imageUrl": null,
+    "explanation": "Luas kebun = 300 m × 100 m = 30.000 m² = 3 ha. Setelah dijual 1 ha, sisanya 3 − 1 = 2 ha.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_16_a",
+        "label": "A",
+        "content": "4 ha",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_16_b",
+        "label": "B",
+        "content": "3 ha",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_16_c",
+        "label": "C",
+        "content": "2 ha",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_16_d",
+        "label": "D",
+        "content": "1 ha",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_17",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui ∠KOM adalah sudut siku-siku dan titik L terletak di dalam ∠KOM. Jika ∠LOM = 72°, maka ∠KOL = …",
+    "imageUrl": null,
+    "explanation": "∠KOM siku-siku berarti ∠KOL + ∠LOM = 90°.\n∠KOL = 90° − 72° = 18°.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_17_a",
+        "label": "A",
+        "content": "37°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_17_b",
+        "label": "B",
+        "content": "28°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_17_c",
+        "label": "C",
+        "content": "18°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_17_d",
+        "label": "D",
+        "content": "10°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_18",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ani, Dina, dan Yanti gemar berenang. Ani berenang setiap 2 hari sekali, Dina setiap 3 hari sekali, dan Yanti setiap 4 hari sekali. Pada hari Selasa mereka berenang bersama-sama. Setelah hari Selasa itu, pada hari apakah mereka berenang bersama-sama untuk kedua kalinya?",
+    "imageUrl": null,
+    "explanation": "Mereka berenang bersama setiap KPK(2, 3, 4) = 12 hari.\nSetelah Selasa, mereka bersama lagi 12 hari kemudian (pertama) dan 24 hari kemudian (kedua).\n24 = 7 × 3 + 3, jadi 3 hari setelah Selasa: Jumat.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_18_a",
+        "label": "A",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_18_b",
+        "label": "B",
+        "content": "Jum’at",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_18_c",
+        "label": "C",
+        "content": "Sabtu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_18_d",
+        "label": "D",
+        "content": "Minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_19",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "If √21,16 = p, find the value of p!",
+    "imageUrl": null,
+    "explanation": "46 × 46 = 2.116, sehingga √21,16 = 4,6.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_19_a",
+        "label": "A",
+        "content": "4,3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_19_b",
+        "label": "B",
+        "content": "4,6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_19_c",
+        "label": "C",
+        "content": "5,3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_19_d",
+        "label": "D",
+        "content": "5,6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_20",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai dari $\\sqrt{6 \\times 8 + 1} + \\sqrt{8 \\times 12 + 4} + \\sqrt{12 \\times 18 + 9} + \\sqrt{18 \\times 26 + 16}$ adalah …",
+    "imageUrl": null,
+    "explanation": "√(6 × 8 + 1) = √49 = 7\n√(8 × 12 + 4) = √100 = 10\n√(12 × 18 + 9) = √225 = 15\n√(18 × 26 + 16) = √484 = 22\nJumlah = 7 + 10 + 15 + 22 = 54.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_20_a",
+        "label": "A",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_20_b",
+        "label": "B",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_20_c",
+        "label": "C",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_20_d",
+        "label": "D",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_21",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "$\\sqrt{1.225} + 17^2 - 9^2 = \\dots$",
+    "imageUrl": null,
+    "explanation": "√1.225 = 35, 17² = 289, dan 9² = 81.\n35 + 289 − 81 = 243.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_21_a",
+        "label": "A",
+        "content": "243",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_21_b",
+        "label": "B",
+        "content": "99",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_21_c",
+        "label": "C",
+        "content": "61",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_21_d",
+        "label": "D",
+        "content": "51",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_22",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika $\\frac{5}{6}$ dari suatu bilangan ditambah 4, hasilnya sama dengan bilangan tersebut. Bilangan tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Misal bilangannya x. $\\frac{5}{6}x + 4 = x$ → $\\frac{1}{6}x = 4$ → x = 24.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_22_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_22_b",
+        "label": "B",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_22_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_22_d",
+        "label": "D",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_23",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pak Soleh memberikan $\\frac{1}{2}$ dari gajinya kepada Bu Soleh dan membelanjakan $\\frac{3}{4}$ dari sisanya. Sisa uangnya ditabung. Persentase gaji yang ditabungnya adalah …",
+    "imageUrl": null,
+    "explanation": "Setelah memberi 1/2 gaji, sisanya 1/2.\nDibelanjakan 3/4 dari sisa, jadi yang tersisa 1/4 × 1/2 = 1/8 gaji.\n1/8 = 12,5%.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_23_a",
+        "label": "A",
+        "content": "14,3%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_23_b",
+        "label": "B",
+        "content": "15,7%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_23_c",
+        "label": "C",
+        "content": "25%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_23_d",
+        "label": "D",
+        "content": "12,5%",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_24",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Banyaknya angka nol jika seratus miliar dikurangi sembilan ribu adalah …",
+    "imageUrl": null,
+    "explanation": "Seratus miliar − sembilan ribu = 100.000.000.000 − 9.000 = 99.999.991.000.\nAngka nol pada hasilnya ada 3.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_24_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_24_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_24_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_24_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_25",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "$[(0{,}5) + (0{,}5)^2 + (0{,}5)^3 + (0{,}5)^4] \\times 16 = \\dots$",
+    "imageUrl": null,
+    "explanation": "(0,5) = 0,5; (0,5)² = 0,25; (0,5)³ = 0,125; (0,5)⁴ = 0,0625.\nJumlahnya 0,9375, lalu × 16 = 15.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_25_a",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_25_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_25_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_25_d",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_26",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Penulisan bilangan 12,3456789 yang dibulatkan sampai dua angka desimal adalah …",
+    "imageUrl": null,
+    "explanation": "Dibulatkan ke dua angka di belakang koma: angka ketiga adalah 5, sehingga angka kedua dibulatkan ke atas. 12,3456789 ≈ 12,35.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_26_a",
+        "label": "A",
+        "content": "12,30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_26_b",
+        "label": "B",
+        "content": "12,34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_26_c",
+        "label": "C",
+        "content": "12,35",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_26_d",
+        "label": "D",
+        "content": "12,40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_27",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Faktorisasi prima dari 720 adalah …",
+    "imageUrl": null,
+    "explanation": "720 = 16 × 45 = 2⁴ × 9 × 5 = 2⁴ × 3² × 5.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_27_a",
+        "label": "A",
+        "content": "$2 \\times 3 \\times 5$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_27_b",
+        "label": "B",
+        "content": "$2^4 \\times 3^2 \\times 5$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_27_c",
+        "label": "C",
+        "content": "$2^2 \\times 3^4 \\times 5$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_27_d",
+        "label": "D",
+        "content": "$2^4 \\times 3 \\times 5^2$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_28",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan tabel berat badan siswa kelas V SD berikut!\n$$\\begin{array}{|c|c|}\\hline \\text{Berat Badan} & \\text{Jumlah Siswa} \\\\ \\hline 34 \\text{ kg} & 5 \\\\ 35 \\text{ kg} & 5 \\\\ 36 \\text{ kg} & 4 \\\\ 37 \\text{ kg} & 3 \\\\ 38 \\text{ kg} & 6 \\\\ \\hline \\end{array}$$\nModus dari data di atas adalah …",
+    "imageUrl": null,
+    "explanation": "Modus adalah data dengan frekuensi terbanyak. Frekuensi terbesar adalah 6 siswa, yaitu berat 38 kg.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_28_a",
+        "label": "A",
+        "content": "34 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_28_b",
+        "label": "B",
+        "content": "37 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_28_c",
+        "label": "C",
+        "content": "38 kg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_28_d",
+        "label": "D",
+        "content": "35 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_29",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan tabel berat badan siswa kelas V SD berikut!\n$$\\begin{array}{|c|c|}\\hline \\text{Berat Badan} & \\text{Jumlah Siswa} \\\\ \\hline 34 \\text{ kg} & 5 \\\\ 35 \\text{ kg} & 5 \\\\ 36 \\text{ kg} & 4 \\\\ 37 \\text{ kg} & 3 \\\\ 38 \\text{ kg} & 6 \\\\ \\hline \\end{array}$$\nSiswa yang berat badannya di bawah rata-rata berjumlah …",
+    "imageUrl": null,
+    "explanation": "Rata-rata = (34×5 + 35×5 + 36×4 + 37×3 + 38×6) : 23 = (170 + 175 + 144 + 111 + 228) : 23 = 828 : 23 = 36 kg.\nSiswa di bawah 36 kg: 34 kg (5) + 35 kg (5) = 10 siswa.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_29_a",
+        "label": "A",
+        "content": "14 siswa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_29_b",
+        "label": "B",
+        "content": "10 siswa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_29_c",
+        "label": "C",
+        "content": "5 siswa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_29_d",
+        "label": "D",
+        "content": "9 siswa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m3_30",
+    "topicId": "top_prisma_2024_m3",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan tabel berat badan siswa kelas V SD berikut!\n$$\\begin{array}{|c|c|}\\hline \\text{Berat Badan} & \\text{Jumlah Siswa} \\\\ \\hline 34 \\text{ kg} & 5 \\\\ 35 \\text{ kg} & 5 \\\\ 36 \\text{ kg} & 4 \\\\ 37 \\text{ kg} & 3 \\\\ 38 \\text{ kg} & 6 \\\\ \\hline \\end{array}$$\nMedian dari data di atas adalah …",
+    "imageUrl": null,
+    "explanation": "Banyak data = 5 + 5 + 4 + 3 + 6 = 23, jadi median adalah data ke-12.\nData ke-1–5 = 34 kg, ke-6–10 = 35 kg, ke-11–14 = 36 kg. Data ke-12 = 36 kg.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m3_30_a",
+        "label": "A",
+        "content": "36 kg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m3_30_b",
+        "label": "B",
+        "content": "35 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m3_30_c",
+        "label": "C",
+        "content": "37 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m3_30_d",
+        "label": "D",
+        "content": "38 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

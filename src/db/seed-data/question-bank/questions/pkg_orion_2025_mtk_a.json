@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "pkg_orion_2025_mtk_a_q01",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bentuk panjang dari bilangan 145 adalah ....",
+    "imageUrl": null,
+    "explanation": "Nilai tempat bilangan 145 adalah 1 ratusan (100), 4 puluhan (40), dan 5 satuan (5). Jadi bentuk panjangnya adalah $100 + 40 + 5$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q01_opt_a",
+        "label": "A",
+        "content": "100 + 4 + 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q01_opt_b",
+        "label": "B",
+        "content": "100 + 40 + 50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q01_opt_c",
+        "label": "C",
+        "content": "100 + 40 + 5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q01_opt_d",
+        "label": "D",
+        "content": "100 + 400 + 50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q02",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bu Siska membeli 500 gram gula. Ia lalu menggunakan 250 gram untuk membuat roti, dan 25 gram untuk membuat minuman. Berapakah sisa gula yang dibeli bu Siska?",
+    "imageUrl": null,
+    "explanation": "Sisa gula = $500 - 250 - 25 = 250 - 25 = 225\\text{ gram}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q02_opt_a",
+        "label": "A",
+        "content": "200 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q02_opt_b",
+        "label": "B",
+        "content": "175 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q02_opt_c",
+        "label": "C",
+        "content": "225 gram",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q02_opt_d",
+        "label": "D",
+        "content": "215 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q03",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar kaleng susu di bawah ini!\n\nBenda pada gambar tersebut berbentuk bangun ruang ....",
+    "imageUrl": "/uploads/orion2025_mtka_q03_kaleng.png",
+    "explanation": "Kaleng susu memiliki alas dan tutup berupa lingkaran sejajar yang dihubungkan sisi lengkung selimut, sehingga berbentuk bangun ruang tabung (silinder).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q03_opt_a",
+        "label": "A",
+        "content": "Tabung (Silinder)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q03_opt_b",
+        "label": "B",
+        "content": "Bola",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q03_opt_c",
+        "label": "C",
+        "content": "Balok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q03_opt_d",
+        "label": "D",
+        "content": "Kerucut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q04",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar bangun ruang berikut!\n\nNama bangun ruang pada gambar di atas adalah ....",
+    "imageUrl": "/uploads/orion2025_mtka_q04_kerucut.png",
+    "explanation": "Bangun ruang dengan alas lingkaran dan satu titik puncak meruncing ke atas adalah kerucut.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q04_opt_a",
+        "label": "A",
+        "content": "Kerucut",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q04_opt_b",
+        "label": "B",
+        "content": "Balok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q04_opt_c",
+        "label": "C",
+        "content": "Kubus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q04_opt_d",
+        "label": "D",
+        "content": "Bola",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q05",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar timbangan berikut ini!\n\nBerdasarkan posisi lengan timbangan pada gambar di atas, pernyataan yang tepat adalah ....",
+    "imageUrl": "/uploads/orion2025_mtka_q05_timbangan.png",
+    "explanation": "Kedua piringan timbangan berada pada posisi sejajar mendatar (seimbang), yang artinya berat buku sama dengan berat buah jeruk.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q05_opt_a",
+        "label": "A",
+        "content": "Buku lebih berat dari buah jeruk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q05_opt_b",
+        "label": "B",
+        "content": "Buku sama berat dengan buah jeruk",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q05_opt_c",
+        "label": "C",
+        "content": "Buku lebih ringan dari buah jeruk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q05_opt_d",
+        "label": "D",
+        "content": "Buah jeruk lebih ringan dari buku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q06",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di halaman parkir terdapat 10 buah mobil. Jika setiap mobil memiliki 4 roda, berapa jumlah seluruh roda mobil di tempat parkir tersebut?",
+    "imageUrl": null,
+    "explanation": "Jumlah roda = $10\\text{ mobil} \\times 4\\text{ roda} = 40\\text{ roda}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q06_opt_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q06_opt_b",
+        "label": "B",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q06_opt_c",
+        "label": "C",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q06_opt_d",
+        "label": "D",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q07",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ani bangun pagi pukul 06.30. Kak Mona bangun pagi 30 menit sebelum Ani bangun. Pukul berapa Kak Mona bangun pagi?",
+    "imageUrl": null,
+    "explanation": "30 menit sebelum pukul 06.30 adalah $06.30 - 00.30 = 06.00$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q07_opt_a",
+        "label": "A",
+        "content": "05.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q07_opt_b",
+        "label": "B",
+        "content": "05.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q07_opt_c",
+        "label": "C",
+        "content": "06.00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q07_opt_d",
+        "label": "D",
+        "content": "07.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q08",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dalam sehari Ibu Rita mampu menjual kue donat sebanyak 50 buah. Berapa buah kue donat yang dapat dijual Ibu Rita selama 3 hari?",
+    "imageUrl": null,
+    "explanation": "Banyak donat = $50 \\times 3 = 150\\text{ buah}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q08_opt_a",
+        "label": "A",
+        "content": "110",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q08_opt_b",
+        "label": "B",
+        "content": "150",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q08_opt_c",
+        "label": "C",
+        "content": "130",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q08_opt_d",
+        "label": "D",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q09",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ayah akan pergi ke Surabaya pada hari Minggu. Jika hari ini adalah hari Senin, berapa hari lagi ayah akan berangkat ke Surabaya?",
+    "imageUrl": null,
+    "explanation": "Menghitung dari Senin: Selasa (1), Rabu (2), Kamis (3), Jumat (4), Sabtu (5), Minggu (6). Jadi 6 hari lagi ayah berangkat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q09_opt_a",
+        "label": "A",
+        "content": "5 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q09_opt_b",
+        "label": "B",
+        "content": "7 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q09_opt_c",
+        "label": "C",
+        "content": "4 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q09_opt_d",
+        "label": "D",
+        "content": "6 hari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q10",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Susan berlatih menggambar mulai dari pukul 15.00 dan selesai pukul 16.30. Berapa lama Susan berlatih menggambar?",
+    "imageUrl": null,
+    "explanation": "Selisih waktu = $16.30 - 15.00 = 1\\text{ jam } 30\\text{ menit}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q10_opt_a",
+        "label": "A",
+        "content": "1 jam 15 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q10_opt_b",
+        "label": "B",
+        "content": "1 jam 45 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q10_opt_c",
+        "label": "C",
+        "content": "1 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q10_opt_d",
+        "label": "D",
+        "content": "2 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q11",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar empat gelas air berikut!\n\nGelas yang berisi volume air paling sedikit adalah ....",
+    "imageUrl": "/uploads/orion2025_mtka_q11_gelas.png",
+    "explanation": "Berdasarkan ketinggian permukaan air pada gambar, gelas nomor 3 memiliki tinggi air yang paling rendah, sehingga volumenya paling sedikit.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q11_opt_a",
+        "label": "A",
+        "content": "Gelas 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q11_opt_b",
+        "label": "B",
+        "content": "Gelas 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q11_opt_c",
+        "label": "C",
+        "content": "Gelas 3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q11_opt_d",
+        "label": "D",
+        "content": "Gelas 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q12",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah tiang bendera mempunyai tinggi 400 cm. Berapa meter tinggi tiang bendera tersebut?",
+    "imageUrl": null,
+    "explanation": "$1\\text{ meter} = 100\\text{ cm}$. Maka $400\\text{ cm} = 400 : 100 = 4\\text{ meter}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q12_opt_a",
+        "label": "A",
+        "content": "40 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q12_opt_b",
+        "label": "B",
+        "content": "4 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q12_opt_c",
+        "label": "C",
+        "content": "0,4 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q12_opt_d",
+        "label": "D",
+        "content": "400 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q13",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil penjumlahan panjang dari $2\\text{ m} + 10\\text{ cm} = \\dots\\text{ cm}$.",
+    "imageUrl": null,
+    "explanation": "$2\\text{ m} = 200\\text{ cm}$. Maka $200\\text{ cm} + 10\\text{ cm} = 210\\text{ cm}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q13_opt_a",
+        "label": "A",
+        "content": "12 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q13_opt_b",
+        "label": "B",
+        "content": "20 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q13_opt_c",
+        "label": "C",
+        "content": "210 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q13_opt_d",
+        "label": "D",
+        "content": "201 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q14",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Diketahui tinggi pohon sebagai berikut:\n- Pohon pepaya = 2 m\n- Pohon jeruk = 75 cm\n- Pohon rambutan = 5 m\n\nUrutan pohon dari yang paling tinggi hingga terendah adalah ....",
+    "imageUrl": null,
+    "explanation": "Samakan satuan ke cm:\n- Rambutan: $5\\text{ m} = 500\\text{ cm}$\n- Pepaya: $2\\text{ m} = 200\\text{ cm}$\n- Jeruk: $75\\text{ cm}$\nUrutan tertinggi: Rambutan -> Pepaya -> Jeruk.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q14_opt_a",
+        "label": "A",
+        "content": "Pohon jeruk, pohon rambutan, pohon pepaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q14_opt_b",
+        "label": "B",
+        "content": "Pohon pepaya, pohon rambutan, pohon jeruk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q14_opt_c",
+        "label": "C",
+        "content": "Pohon rambutan, pohon pepaya, pohon jeruk",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q14_opt_d",
+        "label": "D",
+        "content": "Pohon rambutan, pohon jeruk, pohon pepaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q15",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rika mempunyai pita sepanjang 50 cm, Vita mempunyai pita sepanjang 1 meter, dan Rinda memiliki pita sepanjang 60 cm. Siapakah yang memiliki pita paling panjang?",
+    "imageUrl": null,
+    "explanation": "Vita memiliki pita $1\\text{ m} = 100\\text{ cm}$, Rinda $60\\text{ cm}$, dan Rika $50\\text{ cm}$. Jadi yang paling panjang adalah pita milik Vita.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q15_opt_a",
+        "label": "A",
+        "content": "Rika",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q15_opt_b",
+        "label": "B",
+        "content": "Vita",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q15_opt_c",
+        "label": "C",
+        "content": "Rinda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q15_opt_d",
+        "label": "D",
+        "content": "Rinda dan Rika",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q16",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar jam dinding berikut ini!\n\nWaktu yang ditunjukkan oleh jarum jam pada gambar adalah ....",
+    "imageUrl": "/uploads/orion2025_mtka_q20_bola.png",
+    "explanation": "Jarum pendek berada di antara angka 12 dan 1, sedangkan jarum panjang tepat menunjuk ke angka 6 (30 menit). Jadi waktu menunjukkan pukul 12.30.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q16_opt_a",
+        "label": "A",
+        "content": "Pukul 12.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q16_opt_b",
+        "label": "B",
+        "content": "Pukul 12.06",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q16_opt_c",
+        "label": "C",
+        "content": "Pukul 12.30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q16_opt_d",
+        "label": "D",
+        "content": "Pukul 12.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q17",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kelapa mempunyai berat 2 kg, sedangkan semangka memiliki berat 4 kg. Maka buah kelapa .... daripada buah semangka.",
+    "imageUrl": null,
+    "explanation": "Karena $2\\text{ kg} < 4\\text{ kg}$, maka buah kelapa lebih ringan daripada buah semangka.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q17_opt_a",
+        "label": "A",
+        "content": "Sama berat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q17_opt_b",
+        "label": "B",
+        "content": "Lebih berat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q17_opt_c",
+        "label": "C",
+        "content": "Lebih ringan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q17_opt_d",
+        "label": "D",
+        "content": "Dua kali lebih berat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q18",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bibi membeli buah melon yang beratnya 1 kg lebih 3 ons. Berapa ons berat melon tersebut? (Diketahui 1 kg = 10 ons)",
+    "imageUrl": null,
+    "explanation": "$1\\text{ kg} = 10\\text{ ons}$. Maka $10\\text{ ons} + 3\\text{ ons} = 13\\text{ ons}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q18_opt_a",
+        "label": "A",
+        "content": "13 ons",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q18_opt_b",
+        "label": "B",
+        "content": "15 ons",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q18_opt_c",
+        "label": "C",
+        "content": "150 ons",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q18_opt_d",
+        "label": "D",
+        "content": "8 ons",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q19",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Anton mempunyai berat 40 kg, Sinta memiliki berat 35 kg, dan Rino mempunyai berat 45 kg. Di antara ketiga anak tersebut, yang memiliki berat badan paling berat adalah ....",
+    "imageUrl": null,
+    "explanation": "Perbandingan berat badan: Rino (45 kg) > Anton (40 kg) > Sinta (35 kg). Jadi yang paling berat adalah Rino.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q19_opt_a",
+        "label": "A",
+        "content": "Anton",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q19_opt_b",
+        "label": "B",
+        "content": "Sinta",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q19_opt_c",
+        "label": "C",
+        "content": "Rino",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q19_opt_d",
+        "label": "D",
+        "content": "Sinta dan Rino",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q20",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar berikut!\n\nBangun ruang di sebelah kiri (yang lebih pendek) pada gambar di atas adalah ....",
+    "imageUrl": "/uploads/orion2025_mtka_q16_jam.png",
+    "explanation": "Bangun di sebelah kiri memiliki 6 sisi berbentuk persegi yang sama besar, sehingga merupakan **kubus**. Bangun di sebelah kanan yang lebih tinggi adalah balok.\n\nKunci Jawaban: **A (Kubus)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q20_opt_a",
+        "label": "A",
+        "content": "Kubus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q20_opt_b",
+        "label": "B",
+        "content": "Balok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q20_opt_c",
+        "label": "C",
+        "content": "Kerucut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q20_opt_d",
+        "label": "D",
+        "content": "Bola",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q21",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Saya tidur pada pukul 9 malam. Penulisan tanda waktu 24 jam untuk pukul 9 malam adalah ....",
+    "imageUrl": null,
+    "explanation": "Dalam format waktu 24 jam, setelah pukul 12 siang dihitung $12 + 9 = 21.00$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q21_opt_a",
+        "label": "A",
+        "content": "09.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q21_opt_b",
+        "label": "B",
+        "content": "21.00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q21_opt_c",
+        "label": "C",
+        "content": "10.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q21_opt_d",
+        "label": "D",
+        "content": "12.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q22",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ayah mempunyai 135 lembar kertas. Dia menggunakan 86 lembar kertas untuk menulis surat. Kemudian ayah membeli lagi 125 lembar kertas. Berapa lembar kertas yang dimiliki Ayah sekarang?",
+    "imageUrl": null,
+    "explanation": "Jumlah kertas = $135 - 86 + 125 = 49 + 125 = 174\\text{ lembar}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q22_opt_a",
+        "label": "A",
+        "content": "176",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q22_opt_b",
+        "label": "B",
+        "content": "174",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q22_opt_c",
+        "label": "C",
+        "content": "185",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q22_opt_d",
+        "label": "D",
+        "content": "184",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q23",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Andi memiliki 29 balon. Doni mempunyai balon lebih banyak 25 buah dari balon Andi. Berapa jumlah seluruh balon Andi dan Doni jika digabungkan?",
+    "imageUrl": null,
+    "explanation": "Balon Andi = 29. Balon Doni = $29 + 25 = 54$. Total balon = $29 + 54 = 83\\text{ balon}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q23_opt_a",
+        "label": "A",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q23_opt_b",
+        "label": "B",
+        "content": "84",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q23_opt_c",
+        "label": "C",
+        "content": "83",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q23_opt_d",
+        "label": "D",
+        "content": "93",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q24",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rini akan pergi ke Surabaya pukul 10.30 menaiki bus dari Kota Malang. Lama perjalanan adalah 2 jam. Pukul berapa Rini sampai di Surabaya?",
+    "imageUrl": null,
+    "explanation": "Rini berangkat ke Surabaya pukul 10.30 menaiki bus dengan lama perjalanan 2 jam.\n$$\\text{Waktu tiba} = 10.30 + 02.00 = 12.30$$.\n\nKunci Jawaban: **A (12.30)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q24_opt_a",
+        "label": "A",
+        "content": "12.30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q24_opt_b",
+        "label": "B",
+        "content": "13.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q24_opt_c",
+        "label": "C",
+        "content": "14.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q24_opt_d",
+        "label": "D",
+        "content": "21.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q25",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ahmad memiliki 87 butir kelereng. Dia membeli 16 butir kelereng lagi di toko. Ketika digunakan untuk bermain bersama teman-temannya, kelereng Ahmad hilang 15 butir. Berapa butir kelereng Ahmad sekarang?",
+    "imageUrl": null,
+    "explanation": "Kelereng Ahmad = $87 + 16 - 15 = 87 + 1 = 88\\text{ butir}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q25_opt_a",
+        "label": "A",
+        "content": "87",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q25_opt_b",
+        "label": "B",
+        "content": "89",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q25_opt_c",
+        "label": "C",
+        "content": "88",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q25_opt_d",
+        "label": "D",
+        "content": "86",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q26",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kereta api berangkat pukul 08.30 dari Stasiun A dan tiba di Stasiun B pukul 10.30. Lama waktu tempuh perjalanan kereta api adalah ....",
+    "imageUrl": null,
+    "explanation": "Lama waktu tempuh = $10.30 - 08.30 = 2\\text{ jam}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q26_opt_a",
+        "label": "A",
+        "content": "2 jam",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q26_opt_b",
+        "label": "B",
+        "content": "5 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q26_opt_c",
+        "label": "C",
+        "content": "3 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q26_opt_d",
+        "label": "D",
+        "content": "1 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q27",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rika mempunyai pita sepanjang 275 cm, sedangkan Vita mempunyai pita lebih pendek 19 cm dari pita Rika. Panjang pita milik Vita adalah ....",
+    "imageUrl": null,
+    "explanation": "Panjang pita Vita = $275 - 19 = 256\\text{ cm}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q27_opt_a",
+        "label": "A",
+        "content": "255 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q27_opt_b",
+        "label": "B",
+        "content": "257 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q27_opt_c",
+        "label": "C",
+        "content": "256 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q27_opt_d",
+        "label": "D",
+        "content": "294 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q28",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu mempunyai 148 butir telur. Dia menggunakan 99 butir telur untuk membuat kue pesanan. Kemudian Ibu membeli lagi 36 butir telur. Berapa butir telur yang dimiliki Ibu sekarang?",
+    "imageUrl": null,
+    "explanation": "Sisa telur = $148 - 99 + 36 = 49 + 36 = 85\\text{ butir}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q28_opt_a",
+        "label": "A",
+        "content": "85 butir",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q28_opt_b",
+        "label": "B",
+        "content": "67 butir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q28_opt_c",
+        "label": "C",
+        "content": "58 butir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q28_opt_d",
+        "label": "D",
+        "content": "95 butir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q29",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ani lahir pada bulan ke-3 (Maret). Sedangkan Riska lahir 5 bulan setelah Ani. Pada bulan apakah Riska lahir?",
+    "imageUrl": null,
+    "explanation": "Bulan ke-3 adalah Maret. $3 + 5 = 8$, yaitu bulan ke-8 (Agustus).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q29_opt_a",
+        "label": "A",
+        "content": "April",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q29_opt_b",
+        "label": "B",
+        "content": "Mei",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q29_opt_c",
+        "label": "C",
+        "content": "Agustus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q29_opt_d",
+        "label": "D",
+        "content": "September",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q30",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar bangun datar nomor 2 berikut!\n\nNama bangun datar bernomor 2 pada gambar adalah ....",
+    "imageUrl": "/uploads/orion2025_mtka_q30_trapesium.png",
+    "explanation": "Bangun datar nomor 2 memiliki sepasang sisi sejajar yang tidak sama panjang, yaitu bangun datar trapesium.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q30_opt_a",
+        "label": "A",
+        "content": "Segitiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q30_opt_b",
+        "label": "B",
+        "content": "Trapesium",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q30_opt_c",
+        "label": "C",
+        "content": "Segienam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q30_opt_d",
+        "label": "D",
+        "content": "Segilima",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q31",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Diketahui berat beberapa hewan berikut:\n- Kuda = 395 kg\n- Kambing = 59 kg\n- Sapi = 495 kg\n- Harimau = 359 kg\n\nHewan apakah yang memiliki bobot tubuh paling berat?",
+    "imageUrl": null,
+    "explanation": "Perbandingan: Sapi (495 kg) > Kuda (395 kg) > Harimau (359 kg) > Kambing (59 kg). Jadi yang paling berat adalah Sapi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q31_opt_a",
+        "label": "A",
+        "content": "Kuda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q31_opt_b",
+        "label": "B",
+        "content": "Sapi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q31_opt_c",
+        "label": "C",
+        "content": "Kambing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q31_opt_d",
+        "label": "D",
+        "content": "Harimau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q32",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berikut data waktu kelahiran empat orang anak:\n- Made lahir bulan Maret 2014\n- Nyoman lahir bulan Juli 2014\n- Ketut lahir bulan Februari 2014\n- Kadek lahir bulan Agustus 2014\n\nSiapakah anak yang paling muda dari keempat anak tersebut?",
+    "imageUrl": null,
+    "explanation": "Anak yang paling muda adalah yang tanggal lahirnya paling akhir. Karena Kadek lahir pada bulan Agustus 2014 (paling akhir di antara keempatnya), maka Kadek adalah yang paling muda.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q32_opt_a",
+        "label": "A",
+        "content": "Made",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q32_opt_b",
+        "label": "B",
+        "content": "Nyoman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q32_opt_c",
+        "label": "C",
+        "content": "Ketut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q32_opt_d",
+        "label": "D",
+        "content": "Kadek",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q33",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nama bilangan lambang angka 745 yang benar adalah ....",
+    "imageUrl": null,
+    "explanation": "Lambang 745 dibaca secara baku adalah 'tujuh ratus empat puluh lima'.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q33_opt_a",
+        "label": "A",
+        "content": "Tujuh ratus empat puluh lima",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q33_opt_b",
+        "label": "B",
+        "content": "Tujuh ratus lima",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q33_opt_c",
+        "label": "C",
+        "content": "Tujuh ratus empat puluh dan lima",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q33_opt_d",
+        "label": "D",
+        "content": "Tujuh puluh empat ratus lima",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q34",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sekarang waktu menunjukkan pukul 08.00. Dua puluh menit yang akan datang waktu menunjukkan pukul ....",
+    "imageUrl": null,
+    "explanation": "Waktu saat ini menunjukkan pukul 08.00. Waktu 20 menit yang akan datang adalah:\n$$08.00 + 00.20 = 08.20$$.\n\nKunci Jawaban: **C (08.20)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q34_opt_a",
+        "label": "A",
+        "content": "08.10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q34_opt_b",
+        "label": "B",
+        "content": "10.20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q34_opt_c",
+        "label": "C",
+        "content": "08.20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q34_opt_d",
+        "label": "D",
+        "content": "08.40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q35",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Toni mempunyai 175 butir kelereng. Dia kehilangan 116 butir kelereng di perjalanan pulang sekolah. Berapa butir sisa kelereng yang dimiliki Toni sekarang?",
+    "imageUrl": null,
+    "explanation": "Sisa kelereng = $175 - 116 = 59\\text{ butir}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q35_opt_a",
+        "label": "A",
+        "content": "58",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q35_opt_b",
+        "label": "B",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q35_opt_c",
+        "label": "C",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q35_opt_d",
+        "label": "D",
+        "content": "59",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q36",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar pecahan uang kertas berikut!\n\nRini memiliki 1 lembar uang seribuan dan 1 lembar uang sepuluh ribuan. Berapa total nilai nominal uang Rini seluruhnya?",
+    "imageUrl": "/uploads/orion2025_mtka_q36_uang_gabungan.png",
+    "explanation": "Total uang = $\\text{Rp } 1.000,00 + \\text{Rp } 10.000,00 = \\text{Rp } 11.000,00$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q36_opt_a",
+        "label": "A",
+        "content": "Rp 7.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q36_opt_b",
+        "label": "B",
+        "content": "Rp 12.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q36_opt_c",
+        "label": "C",
+        "content": "Rp 11.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q36_opt_d",
+        "label": "D",
+        "content": "Rp 10.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q37",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ayah mempunyai 2 buah kolam ikan. Masing-masing kolam berisi 20 ekor ikan gurami. Berapa total seluruh ikan gurami milik ayah?",
+    "imageUrl": null,
+    "explanation": "Total ikan = $2\\text{ kolam} \\times 20\\text{ ekor} = 40\\text{ ekor}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q37_opt_a",
+        "label": "A",
+        "content": "22 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q37_opt_b",
+        "label": "B",
+        "content": "24 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q37_opt_c",
+        "label": "C",
+        "content": "26 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q37_opt_d",
+        "label": "D",
+        "content": "40 ekor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q38",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pada sebuah neraca, piringan yang berisi radio turun ke bawah, sedangkan piringan yang berisi 3 buah apel naik ke atas.\n\nPernyataan yang benar adalah ....",
+    "imageUrl": null,
+    "explanation": "Piringan neraca yang lebih berat akan turun. Karena piringan berisi radio turun, maka radio lebih berat daripada 3 buah apel.\n\nKunci Jawaban: **B (Radio lebih berat dari 3 buah apel)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q38_opt_a",
+        "label": "A",
+        "content": "Radio sama berat dengan 3 buah apel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q38_opt_b",
+        "label": "B",
+        "content": "Radio lebih berat dari 3 buah apel",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q38_opt_c",
+        "label": "C",
+        "content": "Radio lebih ringan dari 3 buah apel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q38_opt_d",
+        "label": "D",
+        "content": "3 buah apel lebih berat dari radio",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q39",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Seekor ikan hasil tangkapan memiliki berat 3 kg. Berapa ons berat ikan tersebut? (Diketahui 1 kg = 10 ons)",
+    "imageUrl": null,
+    "explanation": "$1\\text{ kg} = 10\\text{ ons}$. Maka $3\\text{ kg} = 3 \\times 10 = 30\\text{ ons}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q39_opt_a",
+        "label": "A",
+        "content": "13 ons",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q39_opt_b",
+        "label": "B",
+        "content": "16 ons",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q39_opt_c",
+        "label": "C",
+        "content": "30 ons",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q39_opt_d",
+        "label": "D",
+        "content": "33 ons",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_orion_2025_mtk_a_q40",
+    "topicId": "top_orion_mtk_la",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan diagram batang hobi olahraga siswa berikut ini!\n\nBerdasarkan diagram di atas, berapakah jumlah seluruh anak yang menyukai olahraga sepak bola dan bola voli?",
+    "imageUrl": "/uploads/orion2025_mtka_q40_diagram.png",
+    "explanation": "Berdasarkan diagram batang:\n- Sepak bola = 60 anak\n- Bola voli = 30 anak\nJumlah total = $60 + 30 = 90\\text{ anak}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_orion_2025_mtk_a_q40_opt_a",
+        "label": "A",
+        "content": "60 anak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q40_opt_b",
+        "label": "B",
+        "content": "90 anak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q40_opt_c",
+        "label": "C",
+        "content": "80 anak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_orion_2025_mtk_a_q40_opt_d",
+        "label": "D",
+        "content": "30 anak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

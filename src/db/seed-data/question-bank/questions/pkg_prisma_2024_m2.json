@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "q_p24_m2_01",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Aku sekarang berada 6 langkah di sebelah kiri 4.\nAku adalah bilangan …",
+    "imageUrl": null,
+    "explanation": "Pada garis bilangan, bergerak 6 langkah ke kiri dari 4 berarti 4 − 6 = −2.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_01_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_01_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_01_c",
+        "label": "C",
+        "content": "-2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_01_d",
+        "label": "D",
+        "content": "-3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_02",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "234 × 25 – 25 × 34 = …",
+    "imageUrl": null,
+    "explanation": "Gunakan sifat distributif: 234 × 25 − 25 × 34 = 25 × (234 − 34) = 25 × 200 = 5.000.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_02_a",
+        "label": "A",
+        "content": "5000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_02_b",
+        "label": "B",
+        "content": "5850",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_02_c",
+        "label": "C",
+        "content": "850",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_02_d",
+        "label": "D",
+        "content": "7956",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_03",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai B pada operasi 25 + B = 250 : 5",
+    "imageUrl": null,
+    "explanation": "250 : 5 = 50, sehingga 25 + B = 50 → B = 50 − 25 = 25.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_03_a",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_03_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_03_c",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_03_d",
+        "label": "D",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_04",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tiga bilangan berurutan jumlahnya 144. Bilangan terbesarnya adalah …",
+    "imageUrl": null,
+    "explanation": "Misalkan bilangan tengahnya n, maka (n − 1) + n + (n + 1) = 3n = 144 → n = 48. Ketiga bilangan: 47, 48, 49. Bilangan terbesar = 49.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_04_a",
+        "label": "A",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_04_b",
+        "label": "B",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_04_c",
+        "label": "C",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_04_d",
+        "label": "D",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_05",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 2 × (XL + LX) adalah …",
+    "imageUrl": null,
+    "explanation": "XL = 40 dan LX = 60. Maka 2 × (40 + 60) = 2 × 100 = 200 = CC.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_05_a",
+        "label": "A",
+        "content": "XXLL",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_05_b",
+        "label": "B",
+        "content": "XC",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_05_c",
+        "label": "C",
+        "content": "MM",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_05_d",
+        "label": "D",
+        "content": "CC",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_06",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "FPB dari 270 dan 80 adalah …",
+    "imageUrl": null,
+    "explanation": "270 = 2 × 3³ × 5 dan 80 = 2⁴ × 5. Faktor persekutuannya 2 × 5, jadi FPB = 10.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_06_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_06_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_06_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_06_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_07",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Salim umurnya 14 tahun lebih tua daripada\nMukhlis dan 4 tahun lebih muda daripada\nHamdan. jika total umur mereka 140 tahun. Umur\nSalim adalah …",
+    "imageUrl": null,
+    "explanation": "Misal umur Salim S. Mukhlis = S − 14 dan Hamdan = S + 4.\nS + (S − 14) + (S + 4) = 3S − 10 = 140 → 3S = 150 → S = 50 tahun.\n(Cek: 50 + 36 + 54 = 140 ✓)\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_07_a",
+        "label": "A",
+        "content": "30 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_07_b",
+        "label": "B",
+        "content": "40 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_07_c",
+        "label": "C",
+        "content": "50 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_07_d",
+        "label": "D",
+        "content": "60 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_08",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Faktor prima dari 120 adalah …",
+    "imageUrl": null,
+    "explanation": "120 = 2 × 2 × 2 × 3 × 5 = 2³ × 3 × 5.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_08_a",
+        "label": "A",
+        "content": "$2^4 \\times 3 \\times 5$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_08_b",
+        "label": "B",
+        "content": "$2^3 \\times 3 \\times 5$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_08_c",
+        "label": "C",
+        "content": "$3^2 \\times 7 \\times 11$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_08_d",
+        "label": "D",
+        "content": "$7^2 \\times 5 \\times 2$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_09",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "There are five numbers: 2, 3, 11, 7, 13. Which of these numbers are prime factors of 182?",
+    "imageUrl": null,
+    "explanation": "182 = 2 × 91 = 2 × 7 × 13. Dari bilangan 2, 3, 11, 7, 13, yang merupakan faktor prima 182 adalah 2, 7, dan 13.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_09_a",
+        "label": "A",
+        "content": "2, 7 and 11 only",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_09_b",
+        "label": "B",
+        "content": "7 and 13 only",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_09_c",
+        "label": "C",
+        "content": "2, 7 and 13 only",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_09_d",
+        "label": "D",
+        "content": "3, 7 and 13 only",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_10",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hitunglah 12 × 13 + 13 × 14 – 14 × 15 + 15 × 16",
+    "imageUrl": null,
+    "explanation": "Hitung satu per satu:\n12 × 13 = 156, 13 × 14 = 182, 14 × 15 = 210, 15 × 16 = 240.\n156 + 182 − 210 + 240 = 368.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_10_a",
+        "label": "A",
+        "content": "368",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_10_b",
+        "label": "B",
+        "content": "478",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_10_c",
+        "label": "C",
+        "content": "534",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_10_d",
+        "label": "D",
+        "content": "564",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_11",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Luas sawah Pak Pardi yang berbentuk persegi adalah 1.764 m². Panjang sisi sawah adalah …",
+    "imageUrl": null,
+    "explanation": "Sisi persegi = √1.764 = 42 m, karena 42 × 42 = 1.764.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_11_a",
+        "label": "A",
+        "content": "38 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_11_b",
+        "label": "B",
+        "content": "42 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_11_c",
+        "label": "C",
+        "content": "48 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_11_d",
+        "label": "D",
+        "content": "52 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_12",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Harga sebuah buku bacaan mula-mula Rp 20.000.\nJika harga tersebut naik 40%, kemudian turun\n20% dari harga baru. Harga terakhir buku tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Naik 40%: Rp 20.000 + 40% × Rp 20.000 = Rp 20.000 + Rp 8.000 = Rp 28.000.\nTurun 20% dari harga baru: Rp 28.000 − 20% × Rp 28.000 = Rp 28.000 − Rp 5.600 = Rp 22.400.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_12_a",
+        "label": "A",
+        "content": "Rp 22.400",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_12_b",
+        "label": "B",
+        "content": "Rp 24.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_12_c",
+        "label": "C",
+        "content": "Rp 25.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_12_d",
+        "label": "D",
+        "content": "Rp 28.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_13",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "$1\\frac{3}{4} + 250\\% - 0{,}75 = \\dots$",
+    "imageUrl": null,
+    "explanation": "$1\\frac{3}{4}$ = 1,75 dan 250% = 2,5.\n1,75 + 2,5 − 0,75 = 3,5.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_13_a",
+        "label": "A",
+        "content": "$3\\frac{1}{5}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_13_b",
+        "label": "B",
+        "content": "3,5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_13_c",
+        "label": "C",
+        "content": "35%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_13_d",
+        "label": "D",
+        "content": "3,125",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_14",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perbandingan umur Nana dan Nani adalah 3 : 5.\nJumlah umur mereka 32 tahun, selisih umur mereka … tahun.",
+    "imageUrl": null,
+    "explanation": "Jumlah perbandingan 3 + 5 = 8 bagian = 32 tahun, jadi 1 bagian = 4 tahun.\nUmur Nana = 12 tahun, Nani = 20 tahun. Selisihnya = 2 bagian = 8 tahun.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_14_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_14_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_14_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_14_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_15",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bentuk paling sederhana dari pecahan $\\frac{32}{40}$ adalah …",
+    "imageUrl": null,
+    "explanation": "FPB dari 32 dan 40 adalah 8. Bagi pembilang dan penyebut dengan 8: 32/40 = 4/5.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_15_a",
+        "label": "A",
+        "content": "1/5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_15_b",
+        "label": "B",
+        "content": "4/5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_15_c",
+        "label": "C",
+        "content": "2/5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_15_d",
+        "label": "D",
+        "content": "3/5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_16",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Menurut jadwal pemberangkatan, kereta api\nParahyangan dari Jakarta ke Bandung berangkat pukul 06.00 dan tiba pukul 08.40. akan tetapi, karena terjadi suatu kerusakan, maka kereta api tersebut mengalami keterlambatan pemberangkatan selama 47 menit. Pukul berapa kereta api itu berangkat dari Jakarta?",
+    "imageUrl": null,
+    "explanation": "Jadwal berangkat pukul 06.00. Karena terlambat 47 menit, kereta berangkat pukul 06.00 + 47 menit = 06.47.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_16_a",
+        "label": "A",
+        "content": "06.07",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_16_b",
+        "label": "B",
+        "content": "06.47",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_16_c",
+        "label": "C",
+        "content": "06.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_16_d",
+        "label": "D",
+        "content": "07.47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_17",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Halaman kantor tempat ayah bekerja berbentuk persegi panjang dengan ukuran panjang 135 meter dan lebar 85 meter. Keliling halaman kantor tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Keliling persegi panjang = 2 × (p + l) = 2 × (135 + 85) = 2 × 220 = 440 m.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_17_a",
+        "label": "A",
+        "content": "440 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_17_b",
+        "label": "B",
+        "content": "270 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_17_c",
+        "label": "C",
+        "content": "220 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_17_d",
+        "label": "D",
+        "content": "110 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_18",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sudut yang dibentuk antara kedua jarum pendek dan panjang pada jam 17.00 menunjukkan sudut …",
+    "imageUrl": null,
+    "explanation": "Pukul 17.00 jarum panjang menunjuk angka 12 dan jarum pendek angka 5. Jarak antarangka 30°, jadi sudutnya 5 × 30° = 150°. Sudut antara 90° dan 180° adalah sudut tumpul.\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_18_a",
+        "label": "A",
+        "content": "Tumpul",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_18_b",
+        "label": "B",
+        "content": "Lancip",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_18_c",
+        "label": "C",
+        "content": "Siku-siku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_18_d",
+        "label": "D",
+        "content": "180°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_19",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nayla pergi ke luar kota pada hari Jum’at. Jika\nNayla di luar kota selama 250 hari, hari apakah\nNayla tiba di rumah?",
+    "imageUrl": null,
+    "explanation": "Satu minggu = 7 hari. 250 = 7 × 35 + 5, jadi 250 hari setelah Jumat sama dengan 5 hari setelah Jumat: Sabtu (1), Minggu (2), Senin (3), Selasa (4), Rabu (5).\n\nKunci Jawaban: **A**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_19_a",
+        "label": "A",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_19_b",
+        "label": "B",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_19_c",
+        "label": "C",
+        "content": "Jum’at",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_19_d",
+        "label": "D",
+        "content": "Sabtu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_20",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pecahan biasa paling sederhana dari $0{,}24$ adalah …",
+    "imageUrl": null,
+    "explanation": "0,24 = 24/100. FPB dari 24 dan 100 adalah 4, sehingga 24/100 = 6/25.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_20_a",
+        "label": "A",
+        "content": "6/50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_20_b",
+        "label": "B",
+        "content": "6/25",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_20_c",
+        "label": "C",
+        "content": "12/50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_20_d",
+        "label": "D",
+        "content": "6/100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_21",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berapakah kelipatan persekutuan terkecil dari 54 dan 63?",
+    "imageUrl": null,
+    "explanation": "54 = 2 × 3³ dan 63 = 3² × 7. KPK = 2 × 3³ × 7 = 2 × 27 × 7 = 378.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_21_a",
+        "label": "A",
+        "content": "376",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_21_b",
+        "label": "B",
+        "content": "378",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_21_c",
+        "label": "C",
+        "content": "380",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_21_d",
+        "label": "D",
+        "content": "382",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_22",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sudut $\\frac{3}{4}$ putaran besarnya …",
+    "imageUrl": null,
+    "explanation": "Satu putaran penuh = 360°. Maka 3/4 putaran = 3/4 × 360° = 270°.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_22_a",
+        "label": "A",
+        "content": "180°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_22_b",
+        "label": "B",
+        "content": "270°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_22_c",
+        "label": "C",
+        "content": "240°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_22_d",
+        "label": "D",
+        "content": "90°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_23",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Angka 5 menempati tempat satuan\nAngka 2 menempati ratusan\nAngka 7 menempati tempat puluhan dan ribuan\nLambang bilangan dari pernyataan di atas adalah …",
+    "imageUrl": null,
+    "explanation": "Ribuan = 7, ratusan = 2, puluhan = 7, satuan = 5. Bilangannya 7.275.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_23_a",
+        "label": "A",
+        "content": "2.757",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_23_b",
+        "label": "B",
+        "content": "7.527",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_23_c",
+        "label": "C",
+        "content": "7.275",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_23_d",
+        "label": "D",
+        "content": "5.727",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_24",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ayah ingin membelikan bunga untuk ibu. Jika ayah membeli 12 tangkai mawar uangnya kurang\nRp 4.000. Namun jika hanya membeli 8 tangkai mawar, uang ayah akan bersisa Rp 2.000.\nBerapakah uang ayah?",
+    "imageUrl": null,
+    "explanation": "Selisih 12 tangkai dan 8 tangkai = 4 tangkai, senilai Rp 4.000 + Rp 2.000 = Rp 6.000. Jadi harga 1 tangkai = Rp 1.500.\nUang ayah = 8 × Rp 1.500 + Rp 2.000 = Rp 14.000. (Cek: 12 × Rp 1.500 = Rp 18.000, kurang Rp 4.000 ✓)\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_24_a",
+        "label": "A",
+        "content": "Rp 10.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_24_b",
+        "label": "B",
+        "content": "Rp 12.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_24_c",
+        "label": "C",
+        "content": "Rp 14.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_24_d",
+        "label": "D",
+        "content": "Rp 16.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_25",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Kelereng Andi dan Budi berjumlah 270 butir, perbandingan kelereng Andi dan Budi adalah 4:5.\nJumlah kelereng Budi adalah …",
+    "imageUrl": null,
+    "explanation": "Jumlah perbandingan 4 + 5 = 9. Kelereng Budi = 5/9 × 270 = 150 butir.\n\nKunci Jawaban: **D**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_25_a",
+        "label": "A",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_25_b",
+        "label": "B",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_25_c",
+        "label": "C",
+        "content": "120",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_25_d",
+        "label": "D",
+        "content": "150",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_26",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "5 kg + 17 gram − 0,3 hg = … gram",
+    "imageUrl": null,
+    "explanation": "5 kg = 5.000 gram dan 0,3 hg = 30 gram.\n5.000 + 17 − 30 = 4.987 gram.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_26_a",
+        "label": "A",
+        "content": "4.897",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_26_b",
+        "label": "B",
+        "content": "4.780",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_26_c",
+        "label": "C",
+        "content": "4.987",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_26_d",
+        "label": "D",
+        "content": "21,7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_27",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil dari −2.345 + (−32.987) = …",
+    "imageUrl": null,
+    "explanation": "Menjumlahkan dua bilangan negatif: −2.345 + (−32.987) = −(2.345 + 32.987) = −35.332.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_27_a",
+        "label": "A",
+        "content": "35.332",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_27_b",
+        "label": "B",
+        "content": "−35.332",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_27_c",
+        "label": "C",
+        "content": "30.642",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_27_d",
+        "label": "D",
+        "content": "−30.642",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_28",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Selisih KPK dan FPB dari 84 dan 112 adalah …",
+    "imageUrl": null,
+    "explanation": "84 = 2² × 3 × 7 dan 112 = 2⁴ × 7.\nKPK = 2⁴ × 3 × 7 = 336, FPB = 2² × 7 = 28.\nSelisih = 336 − 28 = 308.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_28_a",
+        "label": "A",
+        "content": "364",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_28_b",
+        "label": "B",
+        "content": "380",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_28_c",
+        "label": "C",
+        "content": "308",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_28_d",
+        "label": "D",
+        "content": "325",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_29",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bentuk persen dari $\\frac{13}{10}$ adalah …",
+    "imageUrl": null,
+    "explanation": "$\\frac{13}{10} = \\frac{130}{100}$ = 130%.\n\nKunci Jawaban: **B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_29_a",
+        "label": "A",
+        "content": "120%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_29_b",
+        "label": "B",
+        "content": "130%",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_29_c",
+        "label": "C",
+        "content": "140%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_29_d",
+        "label": "D",
+        "content": "150%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_p24_m2_30",
+    "topicId": "top_prisma_2024_m2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola bilangan berikut!\n3, 8, x, 18, y, …\nNilai dari x dan y berturut-turut adalah …",
+    "imageUrl": null,
+    "explanation": "Polanya bertambah 5: 3, 8, 13, 18, 23, … Jadi x = 13 dan y = 23.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "opt_q_p24_m2_30_a",
+        "label": "A",
+        "content": "18, 23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "opt_q_p24_m2_30_b",
+        "label": "B",
+        "content": "18, 28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "opt_q_p24_m2_30_c",
+        "label": "C",
+        "content": "13, 23",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "opt_q_p24_m2_30_d",
+        "label": "D",
+        "content": "13, 28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

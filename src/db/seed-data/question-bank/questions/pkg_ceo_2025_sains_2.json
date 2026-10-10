@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "pkg_ceo_2025_sains_2_q01",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kelompok tulang berikut yang semuanya tergolong sebagai tulang panjang (tulang pipa) adalah ....",
+    "imageUrl": null,
+    "explanation": "Tulang paha (femur), tulang hasta (ulna), dan tulang jari (falangus) secara anatomis memiliki bentuk silindris memanjang dengan epifisis di ujungnya sehingga digolongkan sebagai tulang pipa/panjang. Sedangkan tulang rusuk dan belikat adalah tulang pipih.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q01_opt_a",
+        "label": "A",
+        "content": "Tulang paha, tulang rusuk, dan tulang lengan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q01_opt_b",
+        "label": "B",
+        "content": "Tulang paha, tulang jari, dan tulang hasta",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q01_opt_c",
+        "label": "C",
+        "content": "Tulang belikat, tulang lengan, dan tulang jari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q01_opt_d",
+        "label": "D",
+        "content": "Tulang rusuk, tulang hasta, dan tulang belikat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q02",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Letak diafragma pada tubuh manusia yang paling tepat adalah ....",
+    "imageUrl": null,
+    "explanation": "Diafragma adalah otot utama pernapasan berbentuk kubah yang terletak di dasar rongga dada dan menjadi sekat pembatas antara rongga dada dan rongga perut.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q02_opt_a",
+        "label": "A",
+        "content": "Di dalam rongga perut di atas rongga dada",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q02_opt_b",
+        "label": "B",
+        "content": "Di dalam rongga dada sebelah kanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q02_opt_c",
+        "label": "C",
+        "content": "Di dasar rongga dada yang membatasi rongga dada dan rongga perut",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q02_opt_d",
+        "label": "D",
+        "content": "Di dalam rongga dada agak condong ke kanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q03",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Urutan tahapan metamorfosis sempurna pada kupu-kupu yang benar adalah ....",
+    "imageUrl": null,
+    "explanation": "Metamorfosis kupu-kupu bersifat sempurna dengan tahapan: Telur menetas menjadi Ulat (larva), kemudian membentuk Kepompong (pupa), dan keluar menjadi Kupu-kupu dewasa (imago).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q03_opt_a",
+        "label": "A",
+        "content": "Telur -> kepompong -> kepompong menetas -> kupu-kupu dewasa -> ulat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q03_opt_b",
+        "label": "B",
+        "content": "Kepompong -> telur -> kupu-kupu dewasa -> ulat -> kepompong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q03_opt_c",
+        "label": "C",
+        "content": "Telur -> ulat (larva) -> kepompong (pupa) -> kupu-kupu dewasa (imago)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q03_opt_d",
+        "label": "D",
+        "content": "Kupu-kupu dewasa -> kepompong -> ulat -> telur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q04",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hubungan simbiosis yang terjadi antara tanaman benalu dengan pohon mangga inangnya adalah ....",
+    "imageUrl": null,
+    "explanation": "Benalu merupakan parasit (simbiosis parasitisme) yang menancapkan akarnya (haustorium) ke jaringan pengangkut pohon mangga untuk menyerap air dan mineral, sehingga pohon inang dapat kurus lalu mati.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q04_opt_a",
+        "label": "A",
+        "content": "Pohon mangga diuntungkan karena dilindungi benalu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q04_opt_b",
+        "label": "B",
+        "content": "Benalu lama-kelamaan akan mati karena pohon mangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q04_opt_c",
+        "label": "C",
+        "content": "Pohon mangga dirugikan karena benalu menyerap air dan zat hara inang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q04_opt_d",
+        "label": "D",
+        "content": "Pohon mangga akan semakin cepat berbuah lebat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q05",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hewan karnivora umumnya merupakan predator pemburu yang andal karena dilengkapi dengan indra yang sangat tajam, terutama ....",
+    "imageUrl": null,
+    "explanation": "Predator karnivora mengandalkan mata yang tajam (penglihatan stereoskopis), telinga yang peka mendeteksi frekuensi bunyi mangsa (pendengaran), dan hidung dengan daya endus tinggi (penciuman).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q05_opt_a",
+        "label": "A",
+        "content": "Peraba, penglihatan, dan pendengaran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q05_opt_b",
+        "label": "B",
+        "content": "Pendengaran, peraba, dan penciuman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q05_opt_c",
+        "label": "C",
+        "content": "Penglihatan, penciuman, dan peraba",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q05_opt_d",
+        "label": "D",
+        "content": "Penglihatan, pendengaran, dan penciuman",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q06",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tahapan daur hidup lalat rumah yang tepat adalah ....",
+    "imageUrl": null,
+    "explanation": "Lalat mengalami metamorfosis sempurna: Telur diletakkan pada bahan organik membusuk, menetas menjadi Larva (belatung), berkembang menjadi Pupa (kepompong keras), lalu menjadi Lalat dewasa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q06_opt_a",
+        "label": "A",
+        "content": "Telur – larva – nimfa – lalat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q06_opt_b",
+        "label": "B",
+        "content": "Telur – larva (belatung) – pupa – lalat dewasa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q06_opt_c",
+        "label": "C",
+        "content": "Telur – nimfa – pupa – lalat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q06_opt_d",
+        "label": "D",
+        "content": "Telur – belatung – nimfa – lalat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q07",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berdasarkan bentuk fisiknya, tulang penyusun rangka manusia dibedakan menjadi tiga jenis utama, yaitu ....",
+    "imageUrl": null,
+    "explanation": "Klasifikasi tulang berdasarkan bentuknya adalah: (1) Tulang pipa/panjang (misal tulang paha), (2) Tulang pipih (misal tulang belikat dan dada), dan (3) Tulang pendek (misal ruas tulang pergelangan tangan).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q07_opt_a",
+        "label": "A",
+        "content": "Tulang kepala, tulang badan, dan tulang anggota gerak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q07_opt_b",
+        "label": "B",
+        "content": "Tulang belakang, tulang tengkorak, dan tulang pendek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q07_opt_c",
+        "label": "C",
+        "content": "Tulang pipa (panjang), tulang pipih, dan tulang pendek",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q07_opt_d",
+        "label": "D",
+        "content": "Tulang kepala, tulang lengan, dan tulang badan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q08",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rafa mengalami kelainan penglihatan di mana bayangan benda yang dekat jatuh di belakang retina, sehingga ia kesulitan melihat benda jarak dekat. Gangguan mata yang dialami Rafa adalah ....",
+    "imageUrl": null,
+    "explanation": "Hipermetropi (rabun dekat) terjadi ketika bola mata terlalu pendek atau kelengkungan kornea/lensa kurang cembung, menyebabkan bayangan objek dekat terfokus di belakang retina.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q08_opt_a",
+        "label": "A",
+        "content": "Hipermetropi (rabun dekat)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q08_opt_b",
+        "label": "B",
+        "content": "Miopi (rabun jauh)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q08_opt_c",
+        "label": "C",
+        "content": "Presbiopi (mata tua)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q08_opt_d",
+        "label": "D",
+        "content": "Astigmatisme (mata silinder)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q09",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berikut ini yang BUKAN merupakan fungsi sistem rangka bagi tubuh manusia adalah ....",
+    "imageUrl": null,
+    "explanation": "Tulang/rangka berfungsi sebagai alat gerak pasif karena bergerak hanya jika digerakkan oleh otot. Ototlah yang bertindak sebagai alat gerak aktif.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q09_opt_a",
+        "label": "A",
+        "content": "Sebagai alat gerak aktif",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q09_opt_b",
+        "label": "B",
+        "content": "Penyangga dan penunjang bentuk tubuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q09_opt_c",
+        "label": "C",
+        "content": "Melindungi organ vital di dalam tubuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q09_opt_d",
+        "label": "D",
+        "content": "Tempat pembentukan sel-sel darah merah (hemopoesis)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q10",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan diagram jalannya cahaya pada mata berikut!\n\nPada gambar, bayangan benda jauh jatuh di depan retina. Kelainan mata tersebut dapat dikoreksi dengan menggunakan kacamata berlensa ....",
+    "imageUrl": "/uploads/ceo2025_sains2_q11_fotosintesis.png",
+    "explanation": "Gambar menunjukkan berkas cahaya sudah berpotongan (terfokus) sebelum mencapai retina, artinya bayangan jatuh di depan retina. Ini adalah miopi (rabun jauh). Miopi dikoreksi dengan lensa cekung (negatif) yang menyebarkan cahaya (divergen) sehingga bayangan mundur tepat jatuh di retina.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q10_opt_a",
+        "label": "A",
+        "content": "Lensa cembung (konveks / positif)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q10_opt_b",
+        "label": "B",
+        "content": "Lensa rangkap (bifokal)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q10_opt_c",
+        "label": "C",
+        "content": "Lensa cekung (konkaf / negatif)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q10_opt_d",
+        "label": "D",
+        "content": "Lensa silinder",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q11",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan infografis fotosintesis tumbuhan berikut ini!\n\nBerdasarkan bagan infografis di atas, proses fotosintesis terjadi di organel sel bernama ...... dan menghasilkan produk berupa ....",
+    "imageUrl": "/uploads/ceo2025_sains2_q10_mata.png",
+    "explanation": "Fotosintesis berlangsung di dalam kloroplas yang mengandung klorofil dengan reaksi kimia: $6CO_2 + 6H_2O + cahaya \\rightarrow C_6H_{12}O_6 + 6O_2$, menghasilkan glukosa (karbohidrat) dan melepaskan oksigen.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q11_opt_a",
+        "label": "A",
+        "content": "Klorofil dan menghasilkan karbohidrat + air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q11_opt_b",
+        "label": "B",
+        "content": "Daun dan menghasilkan oksigen + air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q11_opt_c",
+        "label": "C",
+        "content": "Batang dan menghasilkan air + karbondioksida",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q11_opt_d",
+        "label": "D",
+        "content": "Kloroplas dan menghasilkan karbohidrat (glukosa) + oksigen ($O_2$)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q12",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan aktivitas gerak dan jenis sendi berikut:\n1. Menekuk lengan siku\n2. Kepala menengok ke kanan dan kiri\n3. Memutar lengan bahu ke segala arah\n\np. Sendi putar q. Sendi peluru r. Sendi engsel\n\nPasangan yang tepat antara aktivitas gerak dan persendian yang bekerja adalah ....",
+    "imageUrl": null,
+    "explanation": "Siku menekuk satu arah adalah kerja sendi engsel (1-r). Gerak rotasi kepala menengok difasilitasi sendi putar antara tulang atlas dan aksis (2-p). Bahu berputar ke segala arah menggunakan sendi peluru (3-q).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q12_opt_a",
+        "label": "A",
+        "content": "1-r, 2-q, 3-p",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q12_opt_b",
+        "label": "B",
+        "content": "1-r, 2-p, 3-q",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q12_opt_c",
+        "label": "C",
+        "content": "1-p, 2-q, 3-r",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q12_opt_d",
+        "label": "D",
+        "content": "1-q, 2-p, 3-r",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q13",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Berikut ini adalah peristiwa yang menerapkan atau melibatkan energi kinetik (gerak), KECUALI ....",
+    "imageUrl": null,
+    "explanation": "Fungsi utama kulkas memanfaatkan perubahan fase fluida pendingin dan perpindahan energi termal (kalor) dari dalam ke luar ruang. Baling-baling kipas, partikel gelombang cahaya, dan getaran pita suara secara langsung memperlihatkan gerak mekanik kinetik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q13_opt_a",
+        "label": "A",
+        "content": "Cahaya matahari bergerak menembus ruang hampa sampai ke bumi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q13_opt_b",
+        "label": "B",
+        "content": "Baling-baling kipas angin yang berputar menyejukkan ruangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q13_opt_c",
+        "label": "C",
+        "content": "Kulkas yang mendinginkan makanan dengan kompresor refrigerasi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q13_opt_d",
+        "label": "D",
+        "content": "Pita suara di leher yang bergetar saat sedang berbicara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q14",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan bagan siklus air berikut ini!\n\nPada tahapan nomor 3 (presipitasi) ditandai dengan turunnya air hujan. Namun jika pada daerah daratan X terjadi alih fungsi lahan menjadi kawasan beton dan pemukiman padat tanpa resapan, dampak buruk yang timbul bagi lingkungan adalah ....",
+    "imageUrl": "/uploads/ceo2025_sains2_q14_siklus_air.png",
+    "explanation": "Jika daerah resapan air ditutupi oleh aspal dan bangunan beton, proses peresapan air ke dalam tanah (infiltrasi) terganggu drastis. Akibatnya aliran limpasan permukaan (surface runoff) meningkat tajam dan memicu banjir.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q14_opt_a",
+        "label": "A",
+        "content": "Polusi udara akibat asap dapur pemukiman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q14_opt_b",
+        "label": "B",
+        "content": "Abrasi pantai yang tinggi akibat air hujan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q14_opt_c",
+        "label": "C",
+        "content": "Banjir karena air hujan tidak dapat meresap ke dalam tanah (infiltrasi terhambat)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q14_opt_d",
+        "label": "D",
+        "content": "Curah hujan semakin berkurang secara mendadak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q15",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pemerintah menetapkan kawasan Taman Nasional Ujung Kulon di Provinsi Banten. Tujuan utama pelestarian lingkungan in-situ tersebut adalah ....",
+    "imageUrl": null,
+    "explanation": "Taman Nasional Ujung Kulon adalah kawasan konservasi in-situ untuk melindungi badak jawa bercula satu (Rhinoceros sondaicus) dari perburuan liar dan degradasi habitat agar terhindar dari kepunahan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q15_opt_a",
+        "label": "A",
+        "content": "Menurunkan populasi badak bercula satu yang berlebihan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q15_opt_b",
+        "label": "B",
+        "content": "Meningkatkan populasi badak untuk diambil culanya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q15_opt_c",
+        "label": "C",
+        "content": "Memanfaatkan badak bercula satu sebagai hewan ternak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q15_opt_d",
+        "label": "D",
+        "content": "Mencegah kepunahan badak bercula satu sebagai satwa langka yang dilindungi di habitat aslinya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q16",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan daftar kelompok hewan berikut:\n1. Pisces\n2. Amoeba\n3. Reptil\n4. Mollusca\n5. Porifera\n6. Amfibi\n7. Arthropoda\n8. Aves\n\nKelompok hewan di atas yang termasuk golongan hewan bertulang belakang (Vertebrata) adalah ....",
+    "imageUrl": null,
+    "explanation": "Lima kelas utama vertebrata adalah: Pisces (1), Amfibi (6), Reptil (3), Aves (8), dan Mamalia. Sedangkan Amoeba (protista), Porifera, Mollusca, dan Arthropoda tergolong invertebrata/avertebrata.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q16_opt_a",
+        "label": "A",
+        "content": "2, 4, 5, dan 6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q16_opt_b",
+        "label": "B",
+        "content": "1, 3, 5, dan 7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q16_opt_c",
+        "label": "C",
+        "content": "1, 3, 7, dan 8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q16_opt_d",
+        "label": "D",
+        "content": "1, 3, 6, dan 8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q17",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Benda atau material yang ditarik secara lemah oleh medan magnet luar digolongkan sebagai benda ....",
+    "imageUrl": null,
+    "explanation": "Paramagnetik adalah benda yang ditarik lemah oleh magnet (contoh: aluminium dan platina). Ferromagnetik ditarik sangat kuat (besi, nikel, baja), sedangkan diamagnetik ditolak sangat lemah oleh magnet.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q17_opt_a",
+        "label": "A",
+        "content": "Diamagnetik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q17_opt_b",
+        "label": "B",
+        "content": "Ferromagnetik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q17_opt_c",
+        "label": "C",
+        "content": "Paramagnetik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q17_opt_d",
+        "label": "D",
+        "content": "Nonmagnetik absolut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q18",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada organ pendengaran manusia, reseptor saraf pendengaran (organ Corti) terletak di bagian ....",
+    "imageUrl": null,
+    "explanation": "Organ pendengaran bagian dalam memuat koklea (rumah siput) yang di dalamnya terdapat cairan endolimfa dan sel-sel rambut saraf (organ Corti) yang meneruskan impuls ke saraf auditorius menuju otak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q18_opt_a",
+        "label": "A",
+        "content": "Telinga daun luar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q18_opt_b",
+        "label": "B",
+        "content": "Saluran telinga luar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q18_opt_c",
+        "label": "C",
+        "content": "Telinga tengah (gendang telinga)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q18_opt_d",
+        "label": "D",
+        "content": "Telinga dalam (koklea / rumah siput)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q19",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika terjadi badai petir, kita selalu melihat kilatan kilat terlebih dahulu baru beberapa detik kemudian mendengar suara gemuruh guntur. Hal ini terjadi karena ....",
+    "imageUrl": null,
+    "explanation": "Kecepatan rambat cahaya di udara mencapai sekitar $300.000.000\\text{ m/s}$, sedangkan laju rambat bunyi di udara hanya sekitar $340\\text{ m/s}$. Karena itu kilatan cahaya sampai ke mata manusia hampir seketika.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q19_opt_a",
+        "label": "A",
+        "content": "Gelombang suara memiliki panjang gelombang lebih besar daripada cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q19_opt_b",
+        "label": "B",
+        "content": "Cahaya dan suara bergerak dengan laju rambat yang sama persis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q19_opt_c",
+        "label": "C",
+        "content": "Cahaya merambat jauh lebih cepat ($3 \\times 10^8\\text{ m/s}$) dibandingkan suara ($340\\text{ m/s}$)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q19_opt_d",
+        "label": "D",
+        "content": "Cahaya memiliki massa yang lebih berat dibanding bunyi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q20",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bunga yang hanya memiliki salah satu alat kelamin saja (benang sari saja atau putik saja) disebut bunga tidak sempurna. Tumbuhan berikut yang memiliki bunga sempurna (hermafrodit) adalah ....",
+    "imageUrl": null,
+    "explanation": "Bunga stroberi memiliki benang sari dan putik sekaligus dalam satu bunga sehingga tergolong bunga sempurna (hermafrodit). Pepaya dan salak umumnya memiliki bunga jantan dan betina terpisah, sedangkan pakis haji (tumbuhan berbiji terbuka) tidak memiliki bunga sejati, melainkan strobilus jantan dan betina pada pohon berbeda.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q20_opt_a",
+        "label": "A",
+        "content": "Bunga strawberry",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q20_opt_b",
+        "label": "B",
+        "content": "Bunga pepaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q20_opt_c",
+        "label": "C",
+        "content": "Bunga salak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q20_opt_d",
+        "label": "D",
+        "content": "Bunga pakis haji",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q21",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Fungsi utama cairan darah pada sistem peredaran darah manusia antara lain adalah ....",
+    "imageUrl": null,
+    "explanation": "Darah berfungsi mengedarkan oksigen (melalui hemoglobin eritrosit) dan sari-sari makanan hasil penyerapan usus ke seluruh jaringan tubuh, serta mengangkut sisa metabolisme menuju organ ekskresi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q21_opt_a",
+        "label": "A",
+        "content": "Mengangkut sari makanan dan oksigen ke seluruh sel tubuh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q21_opt_b",
+        "label": "B",
+        "content": "Membuang cadangan oksigen dari dalam paru-paru",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q21_opt_c",
+        "label": "C",
+        "content": "Mengubah karbohidrat menjadi energi di pembuluh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q21_opt_d",
+        "label": "D",
+        "content": "Membentuk makanan di dalam organ hati",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q22",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pada jaring-jaring makanan di suatu ekosistem padang rumput, tumbuhan padi dan rumput berperan sebagai ....",
+    "imageUrl": null,
+    "explanation": "Tumbuhan hijau memiliki klorofil dan mampu memproduksi makanannya sendiri melalui fotosintesis (autotrof), sehingga berperan sebagai produsen primer pada rantai makanan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q22_opt_a",
+        "label": "A",
+        "content": "Konsumen tingkat I",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q22_opt_b",
+        "label": "B",
+        "content": "Konsumen tingkat II",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q22_opt_c",
+        "label": "C",
+        "content": "Dekomposer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q22_opt_d",
+        "label": "D",
+        "content": "Produsen",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q23",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan nama benda dan sifat zat berikut:\n1. Batu bata\n2. Minyak goreng\n3. Asap kendaraan\n4. Lemari kayu\n\nP. Memiliki volume tetap\nQ. Menempati ruang dan bentuknya tetap\nR. Bentuk berubah sesuai bentuk wadahnya\nS. Bentuk dan volume berubah memenuhi seluruh ruang\n\nPasangan benda dan sifat yang paling sesuai adalah ....",
+    "imageUrl": null,
+    "explanation": "Batu bata zat padat volumenya tetap (1-P). Minyak zat cair bentuknya mengikuti wadah (2-R). Asap zat gas bentuk dan volume berubah menempati seluruh ruangan (3-S). Lemari padat memiliki bentuk dan volume tetap serta menempati ruang (4-Q).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q23_opt_a",
+        "label": "A",
+        "content": "1-P, 2-Q, 3-R, 4-S",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q23_opt_b",
+        "label": "B",
+        "content": "1-Q, 2-S, 3-R, 4-P",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q23_opt_c",
+        "label": "C",
+        "content": "1-P, 2-R, 3-Q, 4-S",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q23_opt_d",
+        "label": "D",
+        "content": "1-P, 2-R, 3-S, 4-Q",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q24",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan gambar bagian-bagian bunga berikut ini!\n\n1. Bagian No 1 (kelopak) berfungsi melindungi bunga saat kuncup\n2. Bagian No 2 (benang sari) berfungsi sebagai alat kelamin betina\n3. Bagian No 3 (putik) berfungsi sebagai alat kelamin jantan\n4. Bagian No 4 (mahkota) berfungsi menarik perhatian serangga penyerbuk\n\nPernyataan yang benar ditunjukkan oleh nomor ....",
+    "imageUrl": "/uploads/ceo2025_sains2_q24_bunga.png",
+    "explanation": "Pada gambar, No 1 kelopak, No 2 benang sari, No 3 putik, dan No 4 mahkota.\nPernyataan 1 benar (kelopak melindungi kuncup) dan pernyataan 4 benar (mahkota berwarna menarik serangga penyerbuk). Pernyataan 2 dan 3 salah karena benang sari adalah alat kelamin jantan, sedangkan putik alat kelamin betina.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q24_opt_a",
+        "label": "A",
+        "content": "1 dan 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q24_opt_b",
+        "label": "B",
+        "content": "2 dan 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q24_opt_c",
+        "label": "C",
+        "content": "1 dan 4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q24_opt_d",
+        "label": "D",
+        "content": "2 dan 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q25",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar struktur tumbuhan berikut ini!\n\nBagian yang ditunjukkan oleh huruf \"y\" berfungsi untuk ...",
+    "imageUrl": "/uploads/ceo2025_sains2_q25_tumbuhan.png",
+    "explanation": "Pada gambar, huruf y menunjuk batang (x = bunga, z = batang bagian bawah/daun, v = akar). Batang berfungsi mengangkut air dan zat hara dari akar ke daun serta hasil fotosintesis ke seluruh bagian tumbuhan. Opsi A adalah fungsi daun, B fungsi buah, dan D fungsi akar.\n\nKunci Jawaban: **C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q25_opt_a",
+        "label": "A",
+        "content": "Tempat tumbuhan membuat makanan melalui proses fotosintesis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q25_opt_b",
+        "label": "B",
+        "content": "Tempat menyimpan cadangan makanan dan melindungi biji di dalamnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q25_opt_c",
+        "label": "C",
+        "content": "Menghantarkan makanan, air, dan nutrisi ke seluruh bagian tumbuhan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q25_opt_d",
+        "label": "D",
+        "content": "Menopang tumbuhan serta menyerap air dan nutrisi dari dalam tanah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q26",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Burung kolibri memiliki adaptasi morfologi yang unik untuk menunjang cara hidupnya. Pasangan antara bagian tubuh burung kolibri dan fungsinya berikut yang tepat adalah:\n1. Sayap\n2. Kaki\n3. Paruh panjang melengkung\n4. Ekor kemudi\n\nE. Bertengger di dahan pohon\nF. Melakukan manuver terbang melayang (hovering)\nG. Menjaga keseimbangan saat terbang\nH. Menghisap nektar di dasar mahkota bunga\n\nPasangan yang tepat ditunjukkan oleh ....",
+    "imageUrl": null,
+    "explanation": "Paruh panjang ramping berfungsi menghisap cairan nektar di bunga (3-H) dan bulu ekor bekerja sebagai kemudi untuk menjaga keseimbangan manuver saat terbang melayang (4-G).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q26_opt_a",
+        "label": "A",
+        "content": "1-G dan 2-E",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q26_opt_b",
+        "label": "B",
+        "content": "1-F dan 2-G",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q26_opt_c",
+        "label": "C",
+        "content": "3-H dan 4-F",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q26_opt_d",
+        "label": "D",
+        "content": "3-H dan 4-G",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q27",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan interaksi makhluk hidup berikut:\n1. Benalu menempel dan menghisap nutrisi di pohon mangga\n2. Tanaman anggrek merambat pada batang pohon rambutan\n3. Lebah madu menghisap nektar bunga sambil membantu penyerbukan\n\nx. Simbiosis Mutualisme y. Simbiosis Parasitisme z. Simbiosis Komensalisme\n\nPasangan yang tepat antara interaksi dan jenis simbiosis yang terjadi adalah ....",
+    "imageUrl": null,
+    "explanation": "Benalu pada mangga merugikan inang (parasitisme / 1-y). Anggrek pada rambutan menumpang tanpa merugikan (komensalisme / 2-z). Lebah dan bunga sama-sama diuntungkan (mutualisme / 3-x).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q27_opt_a",
+        "label": "A",
+        "content": "1-x, 2-y, dan 3-z",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q27_opt_b",
+        "label": "B",
+        "content": "1-y, 2-x, dan 3-z",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q27_opt_c",
+        "label": "C",
+        "content": "1-z, 2-x, dan 3-y",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q27_opt_d",
+        "label": "D",
+        "content": "1-y, 2-z, dan 3-x",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q28",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tanaman cocor bebek memiliki cara perkembangbiakan vegetatif alami yang sangat khas, yaitu dengan ....",
+    "imageUrl": null,
+    "explanation": "Cocor bebek berkembang biak secara vegetatif alami melalui tunas adventif daun, di mana tunas-tunas kecil lengkap dengan akar dapat tumbuh langsung di sepanjang tepi lekukan daunnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q28_opt_a",
+        "label": "A",
+        "content": "Tunas batang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q28_opt_b",
+        "label": "B",
+        "content": "Spora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q28_opt_c",
+        "label": "C",
+        "content": "Tunas adventif daun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q28_opt_d",
+        "label": "D",
+        "content": "Biji berkeping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q29",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Keberadaan tumbuhan air di ekosistem perairan tawar sangat penting bagi keberlangsungan rantai makanan karena ....",
+    "imageUrl": null,
+    "explanation": "Tanaman air berfungsi sebagai produsen primer (penghasil biomassa dan oksigen melalui fotosintesis) sekaligus menyediakan habitat pelindung (shelter) dan substrat tempat ikan bertelur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q29_opt_a",
+        "label": "A",
+        "content": "Merupakan komponen abiotik pengatur suhu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q29_opt_b",
+        "label": "B",
+        "content": "Menjadi tempat berteduh, memijah/bertelur ikan, serta penyuplai oksigen dan produsen",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q29_opt_c",
+        "label": "C",
+        "content": "Membuat arus aliran air sungai menjadi berhenti",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q29_opt_d",
+        "label": "D",
+        "content": "Menghasilkan endapan polutan di dasar danau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2025_sains_2_q30",
+    "topicId": "top_ceo_2025_s2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kelompok bentang alam berikut yang seluruhnya tergolong sebagai kenampakan alam perairan adalah ....",
+    "imageUrl": null,
+    "explanation": "Teluk (lautan yang menjorok ke daratan), sungai (aliran air alami), dan rawa (lahan basah tergenang) semuanya adalah kenampakan alam perairan. Sedangkan pantai dan tanjung adalah bagian daratan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2025_sains_2_q30_opt_a",
+        "label": "A",
+        "content": "Sungai, pantai, dan teluk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q30_opt_b",
+        "label": "B",
+        "content": "Danau, rawa, dan bukit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q30_opt_c",
+        "label": "C",
+        "content": "Selat, tanjung, dan teluk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2025_sains_2_q30_opt_d",
+        "label": "D",
+        "content": "Teluk, sungai, dan rawa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]
