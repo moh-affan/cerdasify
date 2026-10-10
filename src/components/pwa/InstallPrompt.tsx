@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useSyncExternalStore } from 'react';
 import { usePwa } from './PwaContext';
 import { CerdasifyIcon } from '@/components/ui/CerdasifyLogo';
 import {
@@ -15,38 +15,41 @@ import {
   Share,
 } from 'lucide-react';
 
+const DISMISS_KEY = 'cerdasify_pwa_dismissed_time';
+const DISMISS_MS = 3 * 24 * 60 * 60 * 1000;
+const noopSubscribe = () => () => {};
+
+function readRecentlyDismissed(): boolean {
+  try {
+    const t = Number(localStorage.getItem(DISMISS_KEY));
+    return Number.isFinite(t) && t > 0 && Date.now() - t < DISMISS_MS;
+  } catch {
+    return false;
+  }
+}
+
 export default function InstallPrompt() {
   const {
     isInstallable,
     isInstalled,
-    isAndroid,
     isIOS,
     promptInstall,
     showModal,
     setShowModal,
   } = usePwa();
 
-  const [bannerDismissed, setBannerDismissed] = useState(true);
-
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
-
-    // Check if user dismissed banner recently (within 3 days)
-    const dismissedTime = localStorage.getItem('cerdasify_pwa_dismissed_time');
-    if (dismissedTime) {
-      const diff = Date.now() - parseInt(dismissedTime, 10);
-      if (diff < 3 * 24 * 60 * 60 * 1000) {
-        setBannerDismissed(true);
-        return;
-      }
-    }
-    // Show banner on mobile/android if not already installed
-    setBannerDismissed(false);
-  }, []);
+  // Banner disembunyikan 3 hari setelah ditutup. Di server dianggap "ditutup" agar tidak berkedip saat hidrasi.
+  const recentlyDismissed = useSyncExternalStore(noopSubscribe, readRecentlyDismissed, () => true);
+  const [dismissedNow, setDismissedNow] = useState(false);
+  const bannerDismissed = recentlyDismissed || dismissedNow;
 
   const dismissBanner = () => {
-    setBannerDismissed(true);
-    localStorage.setItem('cerdasify_pwa_dismissed_time', Date.now().toString());
+    setDismissedNow(true);
+    try {
+      localStorage.setItem(DISMISS_KEY, Date.now().toString());
+    } catch {
+      // Penyimpanan diblokir (mode privat): cukup sembunyikan untuk sesi ini
+    }
   };
 
   // If already installed, hide banner
@@ -263,11 +266,11 @@ export default function InstallPrompt() {
                             <div className="leading-snug">
                               Pilih menu{' '}
                               <span className="font-semibold text-indigo-700">
-                                "Instal aplikasi"
+                                &ldquo;Instal aplikasi&rdquo;
                               </span>{' '}
                               atau{' '}
                               <span className="font-semibold text-indigo-700">
-                                "Tambahkan ke Layar Utama"
+                                &ldquo;Tambahkan ke Layar Utama&rdquo;
                               </span>
                               .
                             </div>
@@ -277,7 +280,7 @@ export default function InstallPrompt() {
                               3
                             </span>
                             <div className="leading-snug">
-                              Ketuk tombol konfirmasi <span className="font-semibold text-slate-900">"Instal"</span>. Ikon Cerdasify akan langsung muncul di beranda HP Anda!
+                              Ketuk tombol konfirmasi <span className="font-semibold text-slate-900">&ldquo;Instal&rdquo;</span>. Ikon Cerdasify akan langsung muncul di beranda HP Anda!
                             </div>
                           </div>
                         </div>

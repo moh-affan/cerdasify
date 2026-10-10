@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState, useSyncExternalStore } from 'react';
 
 interface BeforeInstallPromptEvent extends Event {
   readonly platforms: string[];
@@ -31,55 +31,39 @@ const PwaContext = createContext<PwaContextType>({
   setShowModal: () => {},
 });
 
+const noopSubscribe = () => () => {};
+const getUA = () => navigator.userAgent || '';
+const getStandalone = () =>
+  window.matchMedia('(display-mode: standalone)').matches ||
+  Boolean((window.navigator as unknown as { standalone?: boolean }).standalone);
+
 export function PwaProvider({ children }: { children: React.ReactNode }) {
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [isInstallable, setIsInstallable] = useState(false);
-  const [isInstalled, setIsInstalled] = useState(false);
-  const [isAndroid, setIsAndroid] = useState(false);
-  const [isIOS, setIsIOS] = useState(false);
+  const [installedByEvent, setInstalledByEvent] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
+  // Nilai dari browser dibaca lewat useSyncExternalStore (server: string kosong / false)
+  const ua = useSyncExternalStore(noopSubscribe, getUA, () => '');
+  const isStandalone = useSyncExternalStore(noopSubscribe, getStandalone, () => false);
+  const isAndroid = /android/i.test(ua);
+  const isIOS = /iphone|ipad|ipod/i.test(ua);
+  const isInstalled = isStandalone || installedByEvent;
+
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-
-    // Detect OS
-    const ua = navigator.userAgent || '';
-    const android = /android/i.test(ua);
-    const ios = /iphone|ipad|ipod/i.test(ua);
-    setIsAndroid(android);
-    setIsIOS(ios);
-
-    // Detect standalone mode
-    const isStandalone =
-      window.matchMedia('(display-mode: standalone)').matches ||
-      Boolean((window.navigator as unknown as { standalone?: boolean }).standalone);
-
-    if (isStandalone) {
-      setIsInstalled(true);
+    // Service worker juga didaftarkan saat development agar fitur PWA bisa diuji
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch((err) => console.warn('Service worker registration note:', err));
     }
 
-    // Register Service Worker
-    if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
-      navigator.serviceWorker
-        .register('/sw.js')
-        .catch((err) => console.warn('Service worker registration note:', err));
-    } else if ('serviceWorker' in navigator) {
-      // In dev also register so developers can test PWA features
-      navigator.serviceWorker
-        .register('/sw.js')
-        .catch((err) => console.warn('Service worker registration note:', err));
-    }
-
-    // Capture beforeinstallprompt
     const handleBeforeInstall = (e: Event) => {
       e.preventDefault();
-      const promptEvent = e as BeforeInstallPromptEvent;
-      setDeferredPrompt(promptEvent);
+      setDeferredPrompt(e as BeforeInstallPromptEvent);
       setIsInstallable(true);
     };
 
     const handleAppInstalled = () => {
-      setIsInstalled(true);
+      setInstalledByEvent(true);
       setIsInstallable(false);
       setDeferredPrompt(null);
       setShowModal(false);
@@ -100,7 +84,7 @@ export function PwaProvider({ children }: { children: React.ReactNode }) {
         await deferredPrompt.prompt();
         const choice = await deferredPrompt.userChoice;
         if (choice.outcome === 'accepted') {
-          setIsInstalled(true);
+          setInstalledByEvent(true);
           setShowModal(false);
         }
         setDeferredPrompt(null);

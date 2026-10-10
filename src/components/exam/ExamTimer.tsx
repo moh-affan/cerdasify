@@ -1,55 +1,50 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Clock, AlertTriangle, Pause } from 'lucide-react';
 import { formatDuration } from '@/lib/utils';
 
 interface ExamTimerProps {
+  /** Sisa detik dari server. Komponen di-mount ulang (prop `key`) setiap kali server memberi nilai baru. */
   initialSeconds: number;
   onTimeOut: () => void;
   onTick?: (remaining: number) => void;
   isPaused?: boolean;
 }
 
-export const ExamTimer: React.FC<ExamTimerProps> = ({
-  initialSeconds,
-  onTimeOut,
-  onTick,
-  isPaused = false,
-}) => {
+/**
+ * Hitung mundur berbasis tenggat (Date.now), sehingga tetap akurat walau tab sempat di latar belakang.
+ * Nilai akhir tetap divalidasi server saat menyimpan/submit.
+ */
+export const ExamTimer: React.FC<ExamTimerProps> = ({ initialSeconds, onTimeOut, onTick, isPaused = false }) => {
   const [seconds, setSeconds] = useState(initialSeconds);
+  const secondsRef = useRef(initialSeconds);
+  const onTimeOutRef = useRef(onTimeOut);
+  const onTickRef = useRef(onTick);
 
   useEffect(() => {
-    setSeconds(initialSeconds);
-  }, [initialSeconds]);
+    onTimeOutRef.current = onTimeOut;
+    onTickRef.current = onTick;
+  }, [onTimeOut, onTick]);
 
   useEffect(() => {
-    if (isPaused) {
-      return;
-    }
-
-    if (seconds <= 0) {
-      onTimeOut();
-      return;
-    }
-
-    const timer = setInterval(() => {
-      setSeconds((prev) => {
-        if (prev <= 1) {
-          clearInterval(timer);
-          onTimeOut();
-          return 0;
-        }
-        const next = prev - 1;
-        if (onTick && next % 5 === 0) {
-          setTimeout(() => onTick(next), 0);
-        }
-        return next;
-      });
-    }, 1000);
-
+    if (isPaused) return;
+    const deadline = Date.now() + secondsRef.current * 1000;
+    const tick = () => {
+      const left = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+      if (left !== secondsRef.current) {
+        secondsRef.current = left;
+        setSeconds(left);
+        onTickRef.current?.(left);
+      }
+      if (left <= 0) {
+        clearInterval(timer);
+        onTimeOutRef.current();
+      }
+    };
+    const timer = setInterval(tick, 500);
     return () => clearInterval(timer);
-  }, [seconds, onTimeOut, onTick, isPaused]);
+  }, [isPaused]);
 
   const isUrgent = seconds < 300; // < 5 mins
   const isCritical = seconds < 60; // < 1 min

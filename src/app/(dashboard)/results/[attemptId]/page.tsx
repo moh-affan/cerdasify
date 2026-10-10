@@ -3,9 +3,14 @@ import { notFound, redirect } from 'next/navigation';
 import { db } from '@/db';
 import { attempts, examPackages, packageQuestions, questions, questionOptions, attemptAnswers, topics, categories } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
+import { finalizeAttempt, parseSelectedIds } from '@/lib/exam-grading';
+import { orderOptionsForAttempt, orderQuestionsForAttempt } from '@/lib/exam-data';
+import { isPastDeadline } from '@/lib/exam-time';
+import type { ScoreResult } from '@/lib/scoring';
+import ZoomableImage from '@/components/ui/ZoomableImage';
 import { eq, asc, inArray } from 'drizzle-orm';
 import { MathRenderer } from '@/components/katex/MathRenderer';
-import { CheckCircle2, XCircle, HelpCircle, Trophy, RotateCcw, ArrowLeft, Clock, BarChart3, BookOpen } from 'lucide-react';
+import { CheckCircle2, XCircle, HelpCircle, RotateCcw, ArrowLeft, Clock, BarChart3, BookOpen } from 'lucide-react';
 import Link from 'next/link';
 
 export default async function ExamResultPage({
@@ -34,82 +39,120 @@ export default async function ExamResultPage({
     notFound();
   }
 
+  // Kunci jawaban & pembahasan TIDAK boleh tampil selama attempt masih berjalan (anti-leak)
+  if (attempt.status === 'IN_PROGRESS' || attempt.status === 'PAUSED') {
+    if (isPastDeadline(attempt, pkg.durationMinutes)) {
+      await finalizeAttempt(attempt.id, pkg, 'TIMED_OUT');
+      redirect(`/results/${attempt.id}`);
+    }
+    if (attempt.userId === user.userId) redirect(`/exam/${pkg.id}`);
+    // Staf yang melihat attempt orang lain yang masih berjalan
+    return (
+      <div className="min-h-screen flex items-center justify-center p-6 text-center text-sm text-slate-600">
+        Attempt ini masih berlangsung. Hasil dan pembahasan tersedia setelah peserta menyelesaikan ujian.
+      </div>
+    );
+  }
+
   const [cat] = await db.select().from(categories).where(eq(categories.id, pkg.categoryId)).limit(1);
 
-  // Parse breakdown
-  let breakdown: any = {};
+  let breakdown: Partial<ScoreResult> = {};
   try {
     breakdown = attempt.scoreBreakdown ? JSON.parse(attempt.scoreBreakdown) : {};
-  } catch {}
+  } catch {
+    breakdown = {};
+  }
+  // Status benar/salah mengikuti hasil penilaian server yang tersimpan
+  const gradedMap = new Map((breakdown.scoreBreakdown?.answersGraded ?? []).map((g) => [g.questionId, g]));
 
-  // Load answers and full questions with explanations
-  const answersDb = await db.select().from(attemptAnswers).where(eq(attemptAnswers.attemptId, attempt.id));
+  const [answersDb, pkgQs, allTopics] = await Promise.all([
+    db.select().from(attemptAnswers).where(eq(attemptAnswers.attemptId, attempt.id)),
+    db
+      .select({ questionId: packageQuestions.questionId })
+      .from(packageQuestions)
+      .where(eq(packageQuestions.packageId, pkg.id))
+      .orderBy(asc(packageQuestions.orderIndex)),
+    db.select().from(topics),
+  ]);
   const answersMap = new Map(answersDb.map((a) => [a.questionId, a]));
-
-  const pkgQs = await db
-    .select({ questionId: packageQuestions.questionId })
-    .from(packageQuestions)
-    .where(eq(packageQuestions.packageId, pkg.id))
-    .orderBy(asc(packageQuestions.orderIndex));
-
-  const relevantQIds = pkgQs.length > 0
-    ? pkgQs.map((pq) => pq.questionId)
-    : answersDb.map((a) => a.questionId);
-
-  const relevantQuestions = relevantQIds.length > 0
-    ? await db.select().from(questions).where(inArray(questions.id, relevantQIds))
-    : [];
-  const qMap = new Map(relevantQuestions.map((q) => [q.id, q]));
-
-  const allTopics = await db.select().from(topics);
   const topicMap = new Map(allTopics.map((t) => [t.id, t.name]));
 
-  const relevantOpts = relevantQIds.length > 0
-    ? await db
-        .select()
-        .from(questionOptions)
-        .where(inArray(questionOptions.questionId, relevantQIds))
-        .orderBy(asc(questionOptions.orderIndex))
-    : [];
+  // Urutan sama seperti saat ujian (termasuk bila soal/opsi diacak)
+  const relevantQIds = orderQuestionsForAttempt(
+    pkgQs.length > 0 ? pkgQs.map((pq) => pq.questionId) : answersDb.map((a) => a.questionId),
+    attempt.id,
+    pkg
+  );
+
+  const [relevantQuestions, relevantOpts] =
+    relevantQIds.length > 0
+      ? await Promise.all([
+          db.select().from(questions).where(inArray(questions.id, relevantQIds)),
+          db
+            .select()
+            .from(questionOptions)
+            .where(inArray(questionOptions.questionId, relevantQIds))
+            .orderBy(asc(questionOptions.orderIndex)),
+        ])
+      : [[], []];
+  const qMap = new Map(relevantQuestions.map((q) => [q.id, q]));
   const optsMap = new Map<string, typeof relevantOpts>();
   for (const opt of relevantOpts) {
     if (!optsMap.has(opt.questionId)) optsMap.set(opt.questionId, []);
     optsMap.get(opt.questionId)!.push(opt);
   }
 
-  // Load detailed question cards
-  const detailedQuestions = answersDb.map((ans, idx) => {
-    const q = qMap.get(ans.questionId);
-    const topicName = q ? topicMap.get(q.topicId) || 'Umum' : 'Umum';
-    const opts = q ? (optsMap.get(q.id) || []) : [];
+  const detailedQuestions = relevantQIds
+    .map((qId) => qMap.get(qId))
+    .filter((q): q is NonNullable<typeof q> => Boolean(q))
+    .map((q, idx) => {
+      const ans = answersMap.get(q.id);
+      const graded = gradedMap.get(q.id);
+      const selectedIds = graded?.selectedOptionIds ?? parseSelectedIds(ans?.selectedOptionIds ?? null);
+      const opts = orderOptionsForAttempt(optsMap.get(q.id) || [], attempt.id, q.id, pkg);
+      const correctIds = opts.filter((o) => o.isCorrect).map((o) => o.id);
+      const isGradedScale = q.type === 'GRADED_SCALE';
+      const topScale = Math.max(0, ...opts.map((o) => o.scoreValue));
+      const isCorrect =
+        graded?.isCorrect ??
+        (isGradedScale
+          ? (ans?.scoreAwarded ?? 0) === topScale
+          : selectedIds.length === correctIds.length && correctIds.length > 0 && correctIds.every((id) => selectedIds.includes(id)));
 
-    const selectedIds = ans.selectedOptionIds ? JSON.parse(ans.selectedOptionIds) : [];
-    const correctOption = opts.find((o) => o.isCorrect);
-
-    const isGradedScale = q?.type === 'GRADED_SCALE';
-    const isCorrect = isGradedScale ? ans.scoreAwarded === 5 : correctOption ? selectedIds.includes(correctOption.id) : false;
-
-    return {
-      index: idx + 1,
-      question: q,
-      topicName,
-      options: opts,
-      selectedIds,
-      isCorrect,
-      scoreAwarded: ans.scoreAwarded,
-      isDoubtful: ans.isDoubtful,
-    };
-  });
+      return {
+        index: idx + 1,
+        question: q,
+        topicName: topicMap.get(q.topicId) || 'Umum',
+        options: opts,
+        isGradedScale,
+        topScale,
+        selectedIds,
+        isCorrect,
+        scoreAwarded: graded?.scoreAwarded ?? ans?.scoreAwarded ?? 0,
+        isDoubtful: Boolean(ans?.isDoubtful),
+      };
+    });
 
   // Calculate durations
   const startTime = new Date(attempt.startedAt).getTime();
-  const finishTime = attempt.finishedAt ? new Date(attempt.finishedAt).getTime() : Date.now();
+  // Attempt di halaman ini selalu sudah selesai, jadi finishedAt tersedia
+  const finishTime = new Date(attempt.finishedAt ?? attempt.startedAt).getTime();
   const durationMinutes = Math.max(1, Math.round((finishTime - startTime) / 60000));
 
   const correctCount = detailedQuestions.filter((q) => q.isCorrect).length;
   const answeredCount = detailedQuestions.filter((q) => q.selectedIds.length > 0).length;
   const wrongCount = answeredCount - correctCount;
   const emptyCount = detailedQuestions.length - answeredCount;
+  // Paket yang seluruhnya soal berbobot (SJT/TKP) tidak mengenal benar/salah
+  const allWeighted = detailedQuestions.length > 0 && detailedQuestions.every((q) => q.isGradedScale);
+  const weightedEarned = detailedQuestions.reduce((sum, q) => sum + (q.isGradedScale ? q.scoreAwarded : 0), 0);
+  const weightedMax = detailedQuestions.reduce((sum, q) => sum + (q.isGradedScale ? q.topScale : 0), 0);
+  // Topik yang seluruh soalnya berbobot: persentase dihitung dari poin, bukan jumlah benar
+  const topicWeightedMax = new Map<string, number>();
+  for (const name of new Set(detailedQuestions.map((q) => q.topicName))) {
+    const inTopic = detailedQuestions.filter((q) => q.topicName === name);
+    if (inTopic.every((q) => q.isGradedScale)) topicWeightedMax.set(name, inTopic.reduce((sum, q) => sum + q.topScale, 0));
+  }
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 pb-20">
@@ -157,7 +200,10 @@ export default async function ExamResultPage({
                   Waktu Pengerjaan: {durationMinutes} Menit
                 </span>
                 <span>•</span>
-                <span>Disubmit pada {new Date(attempt.finishedAt || attempt.startedAt).toLocaleString('id-ID')}</span>
+                <span>
+                  {attempt.status === 'TIMED_OUT' ? 'Waktu habis pada' : 'Disubmit pada'}{' '}
+                  {new Date(attempt.finishedAt || attempt.startedAt).toLocaleString('id-ID')}
+                </span>
               </div>
             </div>
 
@@ -197,7 +243,7 @@ export default async function ExamResultPage({
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-xs">
             <div className="flex items-center justify-between text-slate-500 text-xs font-semibold mb-2">
-              <span>Jawaban Benar</span>
+              <span>{allWeighted ? 'Pilihan Terbaik' : 'Jawaban Benar'}</span>
               <CheckCircle2 className="w-4 h-4 text-emerald-600" />
             </div>
             <div className="text-2xl font-extrabold text-emerald-600 font-mono">
@@ -208,10 +254,10 @@ export default async function ExamResultPage({
 
           <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-xs">
             <div className="flex items-center justify-between text-slate-500 text-xs font-semibold mb-2">
-              <span>Jawaban Salah</span>
-              <XCircle className="w-4 h-4 text-rose-500" />
+              <span>{allWeighted ? 'Pilihan Bernilai Sebagian' : 'Jawaban Salah'}</span>
+              {allWeighted ? <BarChart3 className="w-4 h-4 text-amber-500" /> : <XCircle className="w-4 h-4 text-rose-500" />}
             </div>
-            <div className="text-2xl font-extrabold text-rose-500 font-mono">
+            <div className={`text-2xl font-extrabold font-mono ${allWeighted ? 'text-amber-600' : 'text-rose-500'}`}>
               {wrongCount}
               <span className="text-xs font-normal text-slate-400 ml-1">soal</span>
             </div>
@@ -230,28 +276,37 @@ export default async function ExamResultPage({
 
           <div className="bg-white rounded-2xl p-5 border border-slate-200 shadow-xs">
             <div className="flex items-center justify-between text-slate-500 text-xs font-semibold mb-2">
-              <span>Akurasi Jawaban</span>
+              <span>{allWeighted ? 'Perolehan Poin' : 'Akurasi Jawaban'}</span>
               <BarChart3 className="w-4 h-4 text-indigo-600" />
             </div>
             <div className="text-2xl font-extrabold text-indigo-600 font-mono">
-              {detailedQuestions.length > 0
-                ? Math.round((correctCount / detailedQuestions.length) * 100)
-                : 0}
+              {allWeighted
+                ? weightedMax > 0
+                  ? Math.round((weightedEarned / weightedMax) * 100)
+                  : 0
+                : detailedQuestions.length > 0
+                  ? Math.round((correctCount / detailedQuestions.length) * 100)
+                  : 0}
               %
             </div>
           </div>
         </div>
 
         {/* Topic Breakdown if available */}
-        {breakdown?.byTopic && Object.keys(breakdown.byTopic).length > 0 && (
+        {breakdown.scoreBreakdown?.byTopic && Object.keys(breakdown.scoreBreakdown.byTopic).length > 0 && (
           <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xs">
             <h2 className="text-base font-bold text-slate-800 mb-4 flex items-center gap-2">
               <BarChart3 className="w-5 h-5 text-indigo-600" />
               Analisis Performa Per Topik Soal
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {Object.entries(breakdown.byTopic).map(([tName, tData]: [string, any]) => {
-                const pct = tData.total > 0 ? Math.round((tData.correct / tData.total) * 100) : 0;
+              {Object.entries(breakdown.scoreBreakdown?.byTopic ?? {}).map(([tName, tData]) => {
+                const weightedMaxTopic = topicWeightedMax.get(tName);
+                const pct = weightedMaxTopic
+                  ? Math.round((tData.score / weightedMaxTopic) * 100)
+                  : tData.total > 0
+                    ? Math.round((tData.correct / tData.total) * 100)
+                    : 0;
                 return (
                   <div key={tName} className="p-4 rounded-2xl bg-slate-50 border border-slate-100 space-y-2">
                     <div className="flex items-center justify-between">
@@ -265,8 +320,17 @@ export default async function ExamResultPage({
                       />
                     </div>
                     <div className="flex items-center justify-between text-xs text-slate-500">
-                      <span>Benar {tData.correct} dari {tData.total} soal</span>
-                      <span>Poin: {tData.score}</span>
+                      {weightedMaxTopic ? (
+                        <>
+                          <span>Terbaik {tData.correct} dari {tData.total} soal</span>
+                          <span>Poin: {tData.score} dari {weightedMaxTopic}</span>
+                        </>
+                      ) : (
+                        <>
+                          <span>Benar {tData.correct} dari {tData.total} soal</span>
+                          <span>Poin: {tData.score}</span>
+                        </>
+                      )}
                     </div>
                   </div>
                 );
@@ -304,8 +368,8 @@ export default async function ExamResultPage({
                     <div className="flex items-center flex-wrap gap-1">
                       <span className="text-xs font-semibold text-indigo-600">{item.topicName}</span>
                       <span className="text-xs text-slate-400">•</span>
-                      <span className="text-xs text-slate-500 uppercase">{item.question?.difficulty}</span>
-                      {item.question?.contentMarkdown?.includes(':::passage') && (
+                      <span className="text-xs text-slate-500 uppercase">{item.question.difficulty}</span>
+                      {item.question.contentMarkdown?.includes(':::passage') && (
                         <>
                           <span className="text-xs text-slate-400">•</span>
                           <span className="text-[11px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
@@ -317,7 +381,18 @@ export default async function ExamResultPage({
                   </div>
 
                   <div>
-                    {item.isCorrect ? (
+                    {item.isGradedScale && item.selectedIds.length > 0 ? (
+                      // Soal berbobot: tidak ada benar/salah, yang ada perolehan poin
+                      <span
+                        className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold border ${
+                          item.isCorrect
+                            ? 'bg-emerald-50 text-emerald-700 border-emerald-200'
+                            : 'bg-amber-50 text-amber-800 border-amber-200'
+                        }`}
+                      >
+                        {item.isCorrect && <CheckCircle2 className="w-3.5 h-3.5" />}+{item.scoreAwarded} dari {item.topScale} poin
+                      </span>
+                    ) : item.isCorrect ? (
                       <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
                         <CheckCircle2 className="w-3.5 h-3.5" />
                         Benar (+{item.scoreAwarded})
@@ -337,12 +412,12 @@ export default async function ExamResultPage({
 
                 {/* Question Text with KaTeX */}
                 <div className="text-slate-900 text-base leading-relaxed select-text space-y-3">
-                  <MathRenderer content={item.question?.contentMarkdown || ''} />
-                  {item.question?.imageUrl && (
+                  <MathRenderer content={item.question.contentMarkdown || ''} />
+                  {item.question.imageUrl && (
                     <div className="mt-3 p-2 bg-slate-50 border border-slate-200 rounded-2xl inline-block">
-                      <img
+                      <ZoomableImage
                         src={item.question.imageUrl}
-                        alt="Gambar Soal"
+                        alt={`Gambar soal nomor ${item.index}`}
                         className="max-h-64 w-auto object-contain rounded-xl border border-slate-200 shadow-xs"
                       />
                     </div>
@@ -353,7 +428,8 @@ export default async function ExamResultPage({
                 <div className="space-y-2.5">
                   {item.options.map((opt) => {
                     const isSelected = item.selectedIds.includes(opt.id);
-                    const isCorrect = opt.isCorrect;
+                    // TKP: opsi bernilai tertinggi ditandai sebagai jawaban terbaik
+                    const isCorrect = item.isGradedScale ? opt.scoreValue === item.topScale : opt.isCorrect;
 
                     let optStyle = 'border-slate-200 bg-white text-slate-700';
                     let badgeStyle = 'bg-slate-100 text-slate-600';
@@ -361,6 +437,10 @@ export default async function ExamResultPage({
                     if (isCorrect) {
                       optStyle = 'border-emerald-500 bg-emerald-50/50 text-emerald-950 font-medium ring-1 ring-emerald-500';
                       badgeStyle = 'bg-emerald-600 text-white';
+                    } else if (isSelected && item.isGradedScale) {
+                      // pilihan bernilai sebagian, bukan jawaban salah
+                      optStyle = 'border-amber-400 bg-amber-50/60 text-amber-950 ring-1 ring-amber-400';
+                      badgeStyle = 'bg-amber-500 text-white';
                     } else if (isSelected && !isCorrect) {
                       optStyle = 'border-rose-400 bg-rose-50/60 text-rose-950 ring-1 ring-rose-400';
                       badgeStyle = 'bg-rose-600 text-white';
@@ -375,36 +455,62 @@ export default async function ExamResultPage({
                           {opt.label}
                         </span>
 
-                        <div className="flex-1 pt-0.5">
+                        <div className="flex-1 pt-0.5 space-y-2">
                           <MathRenderer content={opt.contentMarkdown} />
+                          {opt.imageUrl && (
+                            <ZoomableImage
+                              src={opt.imageUrl}
+                              alt={`Gambar opsi ${opt.label}`}
+                              className="max-h-40 w-auto object-contain rounded-lg border border-slate-200"
+                            />
+                          )}
                         </div>
 
-                        {isCorrect && (
-                          <span className="text-xs font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-md shrink-0">
-                            Kunci Benar
-                          </span>
-                        )}
+                        <div className="flex flex-col items-end gap-1 shrink-0">
+                          {item.isGradedScale && (
+                            <span className="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded-md shrink-0">
+                              {opt.scoreValue} poin
+                            </span>
+                          )}
 
-                        {isSelected && !isCorrect && (
-                          <span className="text-xs font-bold text-rose-700 bg-rose-100 px-2 py-0.5 rounded-md shrink-0">
-                            Jawaban Anda
-                          </span>
-                        )}
+                          {isCorrect && (
+                            <span className="text-xs font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-md shrink-0">
+                              {item.isGradedScale ? 'Terbaik' : 'Kunci Benar'}
+                            </span>
+                          )}
+
+                          {isSelected && !isCorrect && (
+                            <span
+                              className={`text-xs font-bold px-2 py-0.5 rounded-md shrink-0 ${
+                                item.isGradedScale ? 'text-amber-800 bg-amber-100' : 'text-rose-700 bg-rose-100'
+                              }`}
+                            >
+                              Jawaban Anda
+                            </span>
+                          )}
+                        </div>
                       </div>
                     );
                   })}
                 </div>
 
                 {/* Step-by-step Pembahasan */}
-                {item.question?.explanationMarkdown && (
+                {(item.question.explanationMarkdown || item.question.explanationImageUrl) && (
                   <div className="p-4 rounded-2xl bg-indigo-50/60 border border-indigo-100 text-slate-800 text-sm space-y-1.5">
                     <div className="flex items-center gap-1.5 font-bold text-indigo-900 text-xs uppercase tracking-wider">
                       <BookOpen className="w-3.5 h-3.5 text-indigo-700" />
                       <span>Pembahasan & Langkah Solusi:</span>
                     </div>
                     <div className="leading-relaxed text-slate-800 select-text">
-                      <MathRenderer content={item.question.explanationMarkdown} />
+                      <MathRenderer content={item.question.explanationMarkdown ?? ''} />
                     </div>
+                    {item.question.explanationImageUrl && (
+                      <ZoomableImage
+                        src={item.question.explanationImageUrl}
+                        alt={`Gambar pembahasan nomor ${item.index}`}
+                        className="mt-2 max-h-64 w-auto object-contain rounded-xl border border-indigo-100 bg-white"
+                      />
+                    )}
                   </div>
                 )}
               </div>

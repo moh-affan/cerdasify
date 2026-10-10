@@ -46,6 +46,7 @@ export const OptionItem: React.FC<OptionItemProps> = ({
         <MathRenderer content={content} />
         {imageUrl && (
           <div className="mt-2">
+            {/* eslint-disable-next-line @next/next/no-img-element -- gambar soal dari URL unggahan dinamis */}
             <img src={imageUrl} alt={`Opsi ${label}`} className="max-h-48 rounded-lg border border-slate-200" />
           </div>
         )}

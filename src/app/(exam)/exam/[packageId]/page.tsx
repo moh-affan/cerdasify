@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback, useRef } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { MathRenderer } from '@/components/katex/MathRenderer';
 import { OptionItem } from '@/components/exam/OptionItem';
@@ -59,7 +59,13 @@ export default function ExamSessionPage() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<Record<string, AnswerState>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [remainingSeconds, setRemainingSeconds] = useState(3600);
+  // Sisa waktu resmi dari server; `key` memaksa timer di-mount ulang setiap ada nilai baru dari server.
+  const [timerSeed, setTimerSeed] = useState({ seconds: 0, key: 0 });
+  const remainingRef = useRef(0);
+  const seedTimer = useCallback((seconds: number) => {
+    remainingRef.current = seconds;
+    setTimerSeed((t) => ({ seconds, key: t.key + 1 }));
+  }, []);
   const [isPaused, setIsPaused] = useState(false);
 
   const [isNavOpenMobile, setIsNavOpenMobile] = useState(false);
@@ -70,9 +76,6 @@ export default function ExamSessionPage() {
   // Initialize session
   const initExam = useCallback(async () => {
     try {
-      setIsLoading(true);
-      setError(null);
-
       // 1. Start or resume attempt (now loads questions and answers in 1 bulk query)
       const startRes = await fetch('/api/exam/start', {
         method: 'POST',
@@ -129,31 +132,21 @@ export default function ExamSessionPage() {
       const isCurrentlyPaused = attemptData.attempt.status === 'PAUSED';
       setIsPaused(isCurrentlyPaused);
 
-      // Compute elapsed seconds or restore remainingSeconds
-      if (
-        attemptData.attempt.remainingSeconds !== null &&
-        attemptData.attempt.remainingSeconds !== undefined
-      ) {
-        setRemainingSeconds(attemptData.attempt.remainingSeconds);
-      } else {
-        const startTime = new Date(attemptData.attempt.startedAt).getTime();
-        const durationSec = attemptData.attempt.durationMinutes * 60;
-        const now = Date.now();
-        const elapsed = Math.floor((now - startTime) / 1000);
-        const rem = Math.max(0, durationSec - elapsed);
-        setRemainingSeconds(rem);
-      }
-    } catch (err: any) {
-      setError(err.message || 'Terjadi kesalahan saat memuat ujian. Silakan coba lagi.');
+      // Sisa waktu selalu dihitung server
+      seedTimer(Math.max(0, Number(attemptData.attempt.remainingSeconds) || 0));
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Terjadi kesalahan saat memuat ujian. Silakan coba lagi.');
     } finally {
       setIsLoading(false);
     }
-  }, [packageId, router]);
+  }, [packageId, router, seedTimer]);
 
   useEffect(() => {
-    if (packageId) {
-      initExam();
-    }
+    if (!packageId) return;
+    // Pemuatan data asinkron: setState baru terjadi setelah respons server diterima
+    void (async () => {
+      await initExam();
+    })();
   }, [packageId, initExam]);
 
   // Save answer to server in background
@@ -161,7 +154,7 @@ export default function ExamSessionPage() {
     async (qId: string, newState: AnswerState) => {
       if (!attemptId) return;
       try {
-        await fetch('/api/exam/save-answer', {
+        const res = await fetch('/api/exam/save-answer', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -171,11 +164,17 @@ export default function ExamSessionPage() {
             isDoubtful: newState.isDoubtful,
           }),
         });
+        if (!res.ok) {
+          const data = await res.json().catch(() => ({}));
+          // Waktu habis / ujian sudah ditutup server → langsung ke halaman hasil
+          if (data.redirectUrl) router.replace(data.redirectUrl);
+          else console.warn('Auto-save ditolak:', data.error);
+        }
       } catch (e) {
         console.warn('Auto-save failed:', e);
       }
     },
-    [attemptId]
+    [attemptId, router]
   );
 
   // Handle Pause
@@ -183,13 +182,22 @@ export default function ExamSessionPage() {
     if (!attemptId || isPaused) return;
     setIsPaused(true);
     try {
-      await fetch('/api/exam/pause', {
+      const res = await fetch('/api/exam/pause', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ attemptId, remainingSeconds }),
+        body: JSON.stringify({ attemptId, remainingSeconds: remainingRef.current }),
       });
+      const data = await res.json();
+      if (!res.ok) {
+        if (data.redirectUrl) return router.replace(data.redirectUrl);
+        setIsPaused(false);
+        alert(data.error || 'Gagal menjeda ujian');
+        return;
+      }
+      seedTimer(data.remainingSeconds);
     } catch (e) {
       console.error('Failed to pause exam', e);
+      setIsPaused(false);
     }
   };
 
@@ -197,11 +205,18 @@ export default function ExamSessionPage() {
   const handleResume = async () => {
     if (!attemptId) return;
     try {
-      await fetch('/api/exam/resume', {
+      const res = await fetch('/api/exam/resume', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ attemptId }),
       });
+      const data = await res.json();
+      if (!res.ok) {
+        if (data.redirectUrl) return router.replace(data.redirectUrl);
+        alert(data.error || 'Gagal melanjutkan ujian');
+        return;
+      }
+      if (typeof data.remainingSeconds === 'number') seedTimer(data.remainingSeconds);
       setIsPaused(false);
     } catch (e) {
       console.error('Failed to resume exam', e);
@@ -268,8 +283,8 @@ export default function ExamSessionPage() {
       }
 
       router.push(data.redirectUrl || `/results/${attemptId}`);
-    } catch (err: any) {
-      alert(err.message || 'Gagal mengirimkan ujian. Silakan coba lagi.');
+    } catch (err) {
+      alert(err instanceof Error ? err.message : 'Gagal mengirimkan ujian. Silakan coba lagi.');
       setIsSubmitting(false);
     }
   };
@@ -293,7 +308,11 @@ export default function ExamSessionPage() {
           <p className="text-sm text-slate-600 mt-2">{error || 'Paket soal belum tersedia'}</p>
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
             <button
-              onClick={() => initExam()}
+              onClick={() => {
+                setIsLoading(true);
+                setError(null);
+                initExam();
+              }}
               className="flex-1 py-3 bg-indigo-600 text-white rounded-xl font-semibold text-sm hover:bg-indigo-700 transition cursor-pointer shadow-sm"
             >
               Coba Lagi
@@ -388,9 +407,12 @@ export default function ExamSessionPage() {
 
           {/* Countdown Timer */}
           <ExamTimer
-            initialSeconds={remainingSeconds}
+            key={timerSeed.key}
+            initialSeconds={timerSeed.seconds}
             onTimeOut={handleSubmitExam}
-            onTick={(s) => setRemainingSeconds(s)}
+            onTick={(s) => {
+              remainingRef.current = s;
+            }}
             isPaused={isPaused}
           />
 
@@ -417,7 +439,7 @@ export default function ExamSessionPage() {
                 {currentIndex + 1}
               </span>
               <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-100 text-slate-600 uppercase tracking-wider">
-                {currentQ.type === 'GRADED_SCALE' ? 'Skala Bertingkat (TKP)' : 'Pilihan Ganda'}
+                {currentQ.type === 'GRADED_SCALE' ? 'Soal Berbobot — setiap pilihan bernilai 1–5' : 'Pilihan Ganda'}
               </span>
               {currentQ.imageUrl && (
                 <span className="text-[11px] font-bold text-indigo-700 bg-indigo-50 border border-indigo-200 px-2 py-0.5 rounded-full flex items-center gap-1">
@@ -454,6 +476,7 @@ export default function ExamSessionPage() {
             {currentQ.imageUrl && (
               <div className="mt-4 p-2 bg-slate-50 border border-slate-200 rounded-2xl inline-block max-w-full">
                 <div className="relative group cursor-pointer" onClick={() => setZoomImageUrl(currentQ.imageUrl!)}>
+                  {/* eslint-disable-next-line @next/next/no-img-element -- gambar soal dari URL unggahan dinamis */}
                   <img
                     src={currentQ.imageUrl}
                     alt={`Gambar Soal Nomor ${currentIndex + 1}`}
@@ -545,7 +568,7 @@ export default function ExamSessionPage() {
             </div>
 
             <div className="p-3 bg-slate-50 rounded-2xl border border-slate-200 text-xs text-slate-600 font-mono font-bold">
-              Sisa Waktu Tersimpan: {Math.floor(remainingSeconds / 60)} menit {remainingSeconds % 60} detik
+              Sisa Waktu Tersimpan: {Math.floor(timerSeed.seconds / 60)} menit {timerSeed.seconds % 60} detik
             </div>
 
             <div className="space-y-2.5 pt-2">
@@ -588,6 +611,7 @@ export default function ExamSessionPage() {
               <X className="w-5 h-5" />
             </button>
             <div className="overflow-auto max-h-[80vh] flex items-center justify-center p-2">
+              {/* eslint-disable-next-line @next/next/no-img-element -- gambar soal dari URL unggahan dinamis */}
               <img
                 src={zoomImageUrl}
                 alt="Gambar Soal Resolusi Tinggi"
