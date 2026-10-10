@@ -8,12 +8,13 @@
     "start": "next start",
     "lint": "eslint",
     "seed": "tsx src/db/seed.ts",
-    "migrate": "tsx src/db/migrate.ts"
+    "migrate": "tsx src/db/migrate.ts",
+    "seed:learning": "tsx src/db/seed_learning.ts",
+    "bank:export": "tsx src/db/export_question_bank.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
     "bcryptjs": "^3.0.3",
-    "better-sqlite3": "^13.0.3",
     "clsx": "^2.1.1",
     "drizzle-orm": "^0.45.3",
     "katex": "^0.19.0",
@@ -28,7 +29,6 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/bcryptjs": "^2.4.6",
-    "@types/better-sqlite3": "^9.6.0",
     "@types/katex": "^0.16.8",
     "@types/node": "^20",
     "@types/react": "^19",

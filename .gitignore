@@ -21,6 +21,8 @@
 *.db-wal
 *.db-shm
 !/data/.gitkeep
+# Cadangan database sebelum skrip perbaikan data
+/data/backup_*.json
 
 # Environment variables
 .env
@@ -49,5 +51,4 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
-scratch/
 *.tsbuildinfo

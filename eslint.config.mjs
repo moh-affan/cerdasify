@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Berkas lokal (cadangan) yang tidak di-commit
+    "data/**",
   ]),
 ]);
 
