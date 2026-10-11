@@ -36,6 +36,8 @@ export interface SeedReading {
   quiz: SeedQuiz[];
 }
 
+export type SeedPhase = 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'L';
+
 /** Satu baris teks Arab: [arab, latin, terjemahan, nomor ayat?] */
 export type SeedArabicLine = [ar: string, latin: string, id: string, n?: number];
 
@@ -47,6 +49,9 @@ export interface SeedLesson {
   title: string;
   titleId?: string;
   minutes: number;
+  /** Override rentang fase set (mis. trik berhitung yang berguna dari SD sampai dewasa) */
+  phaseMin?: SeedPhase;
+  phaseMax?: SeedPhase;
   /** Pengantar Markdown: kapan dibaca, sumber, pesan */
   intro?: string;
   lines?: SeedArabicLine[];
@@ -78,8 +83,8 @@ export interface SeedSpeech {
   title: string;
   titleId?: string;
   minutes: number;
-  phaseMin: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'L';
-  phaseMax: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'L';
+  phaseMin: SeedPhase;
+  phaseMax: SeedPhase;
   /** Bahasa teks: 'id' (default) atau 'en' (dengan terjemahan per kalimat) */
   lang?: 'id' | 'en';
   /** [judul bagian, kalimat-kalimat]; untuk lang 'en' kalimat ditulis "English || Terjemahan" */

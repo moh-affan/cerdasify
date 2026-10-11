@@ -31,6 +31,9 @@ import { doaHarian, suratPendek } from './seed-data/learning/islam';
 import { ceritaPendek } from './seed-data/learning/cerita-pendek';
 import { ensiklopedia } from './seed-data/learning/ensiklopedia';
 import { matematikaFaseA } from './seed-data/learning/matematika-fase-a';
+import { matematikaFaseBC } from './seed-data/learning/matematika-fase-bc';
+import { matematikaFaseD } from './seed-data/learning/matematika-fase-d';
+import { matematikaFaseEF } from './seed-data/learning/matematika-fase-ef';
 import { englishPhaseB } from './seed-data/learning/english-phase-b';
 import { ipaFaseAB } from './seed-data/learning/ipa-fase-ab';
 import { bahasaIndonesiaFaseAB } from './seed-data/learning/bahasa-indonesia-fase-ab';
@@ -115,6 +118,8 @@ const fromLesson = (l: SeedLesson): Entry => ({
   title: l.title,
   titleTranslation: l.titleId,
   minutes: l.minutes,
+  phaseMin: l.phaseMin,
+  phaseMax: l.phaseMax,
   bodyMarkdown: l.intro,
   segments: (l.lines ?? []).map(([ar, latin, id, n]) => (n !== undefined ? { ar, latin, id, n } : { ar, latin, id })),
   vocab: [],
@@ -211,6 +216,18 @@ const CONTENT_SETS: { meta: SetMeta; entries: Entry[] }[] = [
   {
     meta: { subjectId: 'subj_math', type: 'LESSON', phaseMin: 'A', phaseMax: 'A', orderBase: 8000 },
     entries: matematikaFaseA.map(fromLesson),
+  },
+  {
+    meta: { subjectId: 'subj_math', type: 'LESSON', phaseMin: 'B', phaseMax: 'C', orderBase: 8100 },
+    entries: matematikaFaseBC.map(fromLesson),
+  },
+  {
+    meta: { subjectId: 'subj_math', type: 'LESSON', phaseMin: 'D', phaseMax: 'D', orderBase: 8200 },
+    entries: matematikaFaseD.map(fromLesson),
+  },
+  {
+    meta: { subjectId: 'subj_math', type: 'LESSON', phaseMin: 'E', phaseMax: 'L', orderBase: 8300 },
+    entries: matematikaFaseEF.map(fromLesson),
   },
   {
     meta: { subjectId: 'subj_science', type: 'LESSON', phaseMin: 'A', phaseMax: 'B', orderBase: 8500 },

@@ -397,6 +397,7 @@ Konten yang tersedia saat ini:
 - `cerita-pendek.ts` — 8 cerita pendek berbahasa Indonesia (`STORY`, Fase A–B) dengan pesan moral.
 - `ensiklopedia.ts` — 8 artikel ensiklopedia anak (`ENCYCLOPEDIA`, Fase A–C).
 - `matematika-fase-a.ts` — 7 materi Matematika kelas 1–2 (`LESSON`) dalam Markdown + KaTeX.
+- `matematika-fase-bc.ts` (SD 3–6, 9 materi), `matematika-fase-d.ts` (SMP, 9 materi), `matematika-fase-ef.ts` (SMA/UTBK/TIU, 10 materi) — **rumus, trik, dan teori** Matematika per tema (Trik Berhitung, Teori Bilangan, Rumus Geometri, Aljabar, Trigonometri, Kalkulus, Kombinatorik & Peluang, …). Isi ditulis dengan helper `md()` + template `String.raw` agar LaTeX tidak perlu di-escape (hindari `${`); `SeedLesson.phaseMin/phaseMax` boleh menimpa rentang fase set, mis. trik hitung cepat yang tampil dari SD sampai Lanjut. Di dalam rumus pakai `^\circ` (bukan `°`, yang otomatis dikonversi di luar rumus); kuis & catatan dirender sebagai teks biasa, jadi tulis dengan Unicode (², √, π).
 - `islam.ts` — 11 Doa Harian & 7 Surat Pendek (`type = LESSON`, subjek PAI) dengan segmen `{ ar, latin, id, n }`. Teks Arab dirender dengan font Amiri (`next/font/google`, variabel `--font-arabic`); audio TTS sengaja tidak dipakai untuk teks Arab.
 
 ### 11.5 Editor Konten (Panel Admin)

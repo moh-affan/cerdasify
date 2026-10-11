@@ -38,6 +38,7 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 - Kosakata yang bisa diketuk, audio per kalimat (Web Speech API), terjemahan, analisis grammar, dan kuis pemahaman yang dinilai di server.
 - Pendidikan Agama Islam: 11 doa harian & 7 surat pendek dengan teks Arab berharakat, latin, dan terjemahan.
 - Cerita pendek berpesan moral, ensiklopedia anak, dan materi Matematika kelas 1–2 (dengan suara pembaca bahasa Indonesia).
+- Materi Matematika SD kelas 3 sampai SMA/UTBK: rumus (geometri, aljabar, trigonometri, kalkulus), trik hitung cepat (kali 11, kuadrat berakhiran 5, persen berantai, deret TIU), dan teori (bilangan prima, KPK/FPB, Pythagoras, teorema sudut), lengkap dengan KaTeX dan kuis.
 - Bacaan Fase B, materi IPA & Bahasa Indonesia, contoh pidato dengan mode latihan teleprompter, dan komik edukasi.
 - Editor konten di panel admin (`/admin/konten`): tulis/ubah bacaan, materi, pidato, dan komik tanpa menyentuh kode.
 - Dasbor Orang Tua (`/orang-tua`): buat akun anak dan pantau streak, bacaan, skor kuis, serta aktivitas 7 hari terakhir.
