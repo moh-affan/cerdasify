@@ -388,7 +388,7 @@ npm run seed:learning
 ```
 
 Konten yang tersedia saat ini:
-- `english-phase-a.ts` — 30 Daily Reading Fase A–B (Pre-A1).
+- `english-phase-a.ts` + `english-phase-a-year-1.ts` … `year-7.ts` — **365 Daily Reading Fase A–B (Pre-A1)**, satu bacaan per hari selama setahun (48 minggu bertema; slug `a1-`…`a7-`). Urutan dalam set (`orderBase` 1000) = urutan larik, jadi bacaan baru selalu ditambahkan **di akhir** agar urutan yang sudah dibaca anak tidak bergeser. Tokoh tetap (Rafi, Aisyah, Milo, Dina, Budi, Tari, Bu Sari) dan tata bahasa naik bertahap: kalimat sederhana → *-ing* → lampau (*past*, *was/were*) → *will/going to*, perbandingan, *because*, *should*. Catatan pola bersama ada di `english-phase-a-patterns.ts` (`P.past`, `P.comparison`, …); setiap kosakata wajib muncul di teks bacaan (atau salah satu `forms`-nya).
 - `english-phase-d.ts` — 4 Daily Reading Fase D (A2).
 - `english-phase-b.ts` — 15 Daily Reading Fase B (A1): simple past, comparative, going to, should.
 - `ipa-fase-ab.ts` — 8 materi IPA Fase A–B; `bahasa-indonesia-fase-ab.ts` — 6 materi Bahasa Indonesia (EYD V).

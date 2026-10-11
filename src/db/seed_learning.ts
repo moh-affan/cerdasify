@@ -23,6 +23,9 @@ import { englishPhaseAYear1 } from './seed-data/learning/english-phase-a-year-1'
 import { englishPhaseAYear2 } from './seed-data/learning/english-phase-a-year-2';
 import { englishPhaseAYear3 } from './seed-data/learning/english-phase-a-year-3';
 import { englishPhaseAYear4 } from './seed-data/learning/english-phase-a-year-4';
+import { englishPhaseAYear5 } from './seed-data/learning/english-phase-a-year-5';
+import { englishPhaseAYear6 } from './seed-data/learning/english-phase-a-year-6';
+import { englishPhaseAYear7 } from './seed-data/learning/english-phase-a-year-7';
 import { englishPhaseD } from './seed-data/learning/english-phase-d';
 import { doaHarian, suratPendek } from './seed-data/learning/islam';
 import { ceritaPendek } from './seed-data/learning/cerita-pendek';
@@ -176,6 +179,9 @@ const CONTENT_SETS: { meta: SetMeta; entries: Entry[] }[] = [
       ...englishPhaseAYear2,
       ...englishPhaseAYear3,
       ...englishPhaseAYear4,
+      ...englishPhaseAYear5,
+      ...englishPhaseAYear6,
+      ...englishPhaseAYear7,
     ].map(fromReading),
   },
   {

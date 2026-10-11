@@ -218,7 +218,7 @@ export const englishPhaseAYear4: SeedReading[] = [
     vocab: [
       ['sahur', 'makan sahur', '🍚', 'noun', [], 'Sahur! Sahur!'],
       ['shout', 'berteriak', '📢', 'verb', ['shouts'], 'The children shout.'],
-      ['wakes up', 'membangunkan', '⏰', 'verb', ['wake up'], 'Mom wakes Rafi up.'],
+      ['wakes up', 'membangunkan', '⏰', 'verb', ['wakes', 'wake up'], 'Mom wakes Rafi up.'],
       ['dates', 'kurma', '🌴', 'noun', ['date'], 'rice, eggs, and dates'],
       ['all day', 'seharian', '☀️', 'phrase', [], 'fast all day'],
     ],

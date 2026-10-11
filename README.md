@@ -34,7 +34,7 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
   - **Soal berbobot** (SJT/TKP): tidak ada benar/salah mutlak, setiap opsi bernilai 1–5 poin; hasil menampilkan perolehan poin dan alasan setiap bobot.
 
 ### 1b. Pustaka Belajar (Daily English Reading)
-- Bacaan harian bahasa Inggris berjenjang mengikuti Fase Kurikulum Merdeka (SD → SMP → lanjut) dengan level CEFR.
+- Bacaan harian bahasa Inggris berjenjang mengikuti Fase Kurikulum Merdeka (SD → SMP → lanjut) dengan level CEFR. Fase A memiliki **365 bacaan** (satu per hari selama setahun) dengan tokoh dan tata bahasa yang naik bertahap.
 - Kosakata yang bisa diketuk, audio per kalimat (Web Speech API), terjemahan, analisis grammar, dan kuis pemahaman yang dinilai di server.
 - Pendidikan Agama Islam: 11 doa harian & 7 surat pendek dengan teks Arab berharakat, latin, dan terjemahan.
 - Cerita pendek berpesan moral, ensiklopedia anak, dan materi Matematika kelas 1–2 (dengan suara pembaca bahasa Indonesia).
