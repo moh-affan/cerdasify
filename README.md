@@ -7,7 +7,7 @@
 
 ## 📌 Sekilas Tentang Cerdasify
 
-**Cerdasify** adalah sistem aplikasi web fullstack modern berbasis **Next.js 16 (App Router)** dan **PostgreSQL (Supabase)** yang dirancang untuk kebutuhan latihan soal mandiri serta simulasi ujian berskala profesional. Platform ini dilengkapi **1.623 butir soal** dalam **50 paket** (olimpiade Matematika, Sains, dan Bahasa Inggris; OSN; profiling ASN; dan simulasi CPNS SKD), ditambah Pustaka Belajar untuk anak.
+**Cerdasify** adalah sistem aplikasi web fullstack modern berbasis **Next.js 16 (App Router)** dan **PostgreSQL (Supabase)** yang dirancang untuk kebutuhan latihan soal mandiri serta simulasi ujian berskala profesional. Platform ini dilengkapi **1.994 butir soal** dalam **61 paket** (olimpiade Matematika, Sains, dan Bahasa Inggris; OSN; profiling ASN; dan simulasi CPNS SKD), ditambah Pustaka Belajar untuk anak.
 
 Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa distraksi**, dengan performa instan di ponsel pintar (smartphone) maupun komputer desktop tanpa memberatkan kuota internet atau memori perangkat.
 
@@ -15,7 +15,7 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 
 ## ✨ Fitur Unggulan
 
-### 1. Bank Soal & Konten Lengkap (1.623 Soal, 50 Paket)
+### 1. Bank Soal & Konten Lengkap (1.994 Soal, 61 Paket)
 - **Olimpiade Matematika:** PRISMA 2024/2025, CEO 2025, ORION 2025/2026, IMOCSEA, OSN SD (97 soal hasil rekonstruksi dari buku sumber), Buku Soal Sesi 1–5/13/21, Aljabar Marathon 100.
 - **Olimpiade Sains & Bahasa Inggris:** PRISMA, CEO, JSO 2025, KMSI 2024, dan latihan Level 1–2 (penyisihan & provinsi), lengkap dengan gambar asli naskah.
 - **ASN/CPNS:** SJT Manajerial, Sosio-Kultural BerAKHLAK, Potensi Kognitif, Literasi Digital, Mini CPNS SKD.
@@ -39,6 +39,8 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 - Pendidikan Agama Islam: 11 doa harian & 7 surat pendek dengan teks Arab berharakat, latin, dan terjemahan.
 - Cerita pendek berpesan moral, ensiklopedia anak, dan materi Matematika kelas 1–2 (dengan suara pembaca bahasa Indonesia).
 - Materi Matematika SD kelas 3 sampai SMA/UTBK: rumus (geometri, aljabar, trigonometri, kalkulus), trik hitung cepat (kali 11, kuadrat berakhiran 5, persen berantai, deret TIU), dan teori (bilangan prima, KPK/FPB, Pythagoras, teorema sudut), lengkap dengan KaTeX dan kuis.
+- Materi & trik KMSI dan JSO Matematika Level 1–2 yang mengikuti tipe soal paket KMSI 2024 dan JSO 2026 di bank soal.
+- Materi & trik Olimpiade Matematika SD per babak (Penyisihan → Semifinal/Provinsi → Final Nasional & OSN), disusun dari tipe soal PRISMA, CEO, ORION, OSN, dan IMOCSEA di bank soal.
 - Bacaan Fase B, materi IPA & Bahasa Indonesia, contoh pidato dengan mode latihan teleprompter, dan komik edukasi.
 - Editor konten di panel admin (`/admin/konten`): tulis/ubah bacaan, materi, pidato, dan komik tanpa menyentuh kode.
 - Dasbor Orang Tua (`/orang-tua`): buat akun anak dan pantau streak, bacaan, skor kuis, serta aktivitas 7 hari terakhir.
@@ -130,7 +132,7 @@ DEFAULT_ADMIN_PASSWORD="<password-kuat-anda>"
 
 ### 4. Migrasi Skema & Seeding Bank Soal
 ```bash
-# Buat/perbarui tabel dan semai seluruh bank soal (1.623 soal, 50 paket) dari src/db/seed-data/question-bank
+# Buat/perbarui tabel dan semai seluruh bank soal (1.994 soal, 61 paket) dari src/db/seed-data/question-bank
 npm run seed
 
 # Setelah mengedit soal di panel admin: simpan kembali ke berkas bank soal, lalu commit

@@ -270,7 +270,7 @@ Ini memastikan pada layar ponsel selebar 360px–420px, rumus dapat di-scroll se
 
 ## 9. Bank Soal & Seeder Kanonik
 
-Bank soal (1.623 butir, 50 paket, 11 kategori, 67 topik per Oktober 2026) disimpan di repo sebagai **sumber kebenaran**:
+Bank soal (1.994 butir, 61 paket, 11 kategori, 78 topik per Oktober 2026) disimpan di repo sebagai **sumber kebenaran**:
 
 ```
 src/db/seed-data/question-bank/
@@ -282,7 +282,7 @@ src/db/seed-data/question-bank/
 
 | Kelompok | Paket |
 |---|---|
-| Olimpiade Matematika | PRISMA 2024/2025 L1–3, CEO 2025 L1–2, ORION 2025 A/B & 2026 A/B, IMOCSEA 2022, OSN (97 soal), Soal Cerita Tricky, Buku Soal Sesi 1–5/13/21, Aljabar Marathon 100 |
+| Olimpiade Matematika | PRISMA 2024/2025 L1–3, CEO 2025 L1–2, ORION 2025 A/B & 2026 A/B, KMSI 2024 L1–2 (Penyisihan, Final Provinsi, Grand Final L1), JSO 2026 L1–2 (Penyisihan, Final Provinsi, Grand Final), IMOCSEA 2022, OSN (97 soal), Soal Cerita Tricky, Buku Soal Sesi 1–5/13/21, Aljabar Marathon 100 |
 | Olimpiade Sains | PRISMA 2024 IPA L1–3, CEO 2025 Sains L1–3 |
 | Olimpiade Bahasa Inggris | Level 1–2 Penyisihan/Provinsi, PRISMA 2025, CEO 2025, JSO 2025, KMSI 2024 |
 | ASN/CPNS | SJT Manajerial, Sosio-Kultural BerAKHLAK, Potensi Kognitif, Literasi Digital, Mini CPNS SKD |
@@ -308,6 +308,9 @@ Seluruh soal diperiksa ulang: jawaban dihitung ulang, setiap gambar dibuka, dan 
 Temuan yang perlu diingat saat menambah soal:
 - Gambar sering terpasang di nomor yang salah atau wacana diganti cerita lain; selalu buka gambarnya dan bandingkan dengan naskah.
 - Kunci/pembahasan dari dokumen sumber pun bisa keliru (mis. buku OSN no. 18, 65, 75; kunci JSO no. 9) — hitung sendiri.
+- Soal yang kuncinya tidak bisa dipastikan (gambar buram/ambigu, tidak ada opsi yang benar, redaksi kontradiktif) **tidak diikutkan**; redaksi yang jelas salah ketik diperbaiki dan diberi catatan di pembahasan. Keduanya dicatat di berkas audit.
+- Soal isian singkat (mis. Grand Final JSO) diubah menjadi pilihan ganda: kunci dihitung sendiri + tiga pengecoh dari kesalahan umum, dengan catatan "aslinya isian singkat".
+- Aturan penilaian paket olimpiade anak tetap `correctScore: 4, wrongScore: 0, emptyScore: 0` walaupun naskah resmi memakai −1.
 - Soal berbobot (SJT/TKP): setiap opsi harus masuk akal, bobot 5 = tindakan tuntas & sesuai aturan, 1 = melanggar etika/hukum, dan pembahasan menjelaskan alasan kelima bobot.
 
 ---
@@ -398,6 +401,8 @@ Konten yang tersedia saat ini:
 - `ensiklopedia.ts` — 8 artikel ensiklopedia anak (`ENCYCLOPEDIA`, Fase A–C).
 - `matematika-fase-a.ts` — 7 materi Matematika kelas 1–2 (`LESSON`) dalam Markdown + KaTeX.
 - `matematika-fase-bc.ts` (SD 3–6, 9 materi), `matematika-fase-d.ts` (SMP, 9 materi), `matematika-fase-ef.ts` (SMA/UTBK/TIU, 10 materi) — **rumus, trik, dan teori** Matematika per tema (Trik Berhitung, Teori Bilangan, Rumus Geometri, Aljabar, Trigonometri, Kalkulus, Kombinatorik & Peluang, …). Isi ditulis dengan helper `md()` + template `String.raw` agar LaTeX tidak perlu di-escape (hindari `${`); `SeedLesson.phaseMin/phaseMax` boleh menimpa rentang fase set, mis. trik hitung cepat yang tampil dari SD sampai Lanjut. Di dalam rumus pakai `^\circ` (bukan `°`, yang otomatis dikonversi di luar rumus); kuis & catatan dirender sebagai teks biasa, jadi tulis dengan Unicode (², √, π).
+- `matematika-kmsi-jso.ts` — 12 materi & trik **KMSI dan JSO** (`matematikaKmsiJsoLevel1` Fase A–B, `matematikaKmsiJsoLevel2` Fase B–C) dari tipe soal di paket KMSI 2024 & JSO 2026: kata kunci soal cerita, trik pasangan, menghitung gambar, pola final, simbol/timbangan, waktu; keliling–luas, FPB–KPK & digit terakhir, menghitung/menyusun angka, andaikan–menyusul–rata-rata, membilang, geometri final.
+- `matematika-olimpiade.ts` — 13 materi & trik **Olimpiade Matematika SD** yang dipetakan dari tipe soal di bank soal, dikelompokkan per babak lewat `theme`: *Babak Penyisihan* (PRISMA: antrean, hari & satuan, simbol, pola berulang; Fase A–C), *Semifinal & Final Provinsi* (CEO: metode andaikan, umur & perbandingan, KPK/FPB/prima, Gauss & teleskopik), dan *Final Nasional & OSN* (ORION/OSN/IMOCSEA: membilang & sarang merpati, sudut jarum jam, luas arsiran, logika, aljabar cerdik; sampai Fase D).
 - `islam.ts` — 11 Doa Harian & 7 Surat Pendek (`type = LESSON`, subjek PAI) dengan segmen `{ ar, latin, id, n }`. Teks Arab dirender dengan font Amiri (`next/font/google`, variabel `--font-arabic`); audio TTS sengaja tidak dipakai untuk teks Arab.
 
 ### 11.5 Editor Konten (Panel Admin)

@@ -10,20 +10,19 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 
 - **Total Berkas Naskah Soal & Kunci:** `381` berkas
 
-- **Sudah Diimpor ke Database:** `36` berkas (`9.4%`)
+- **Sudah Diimpor ke Database:** `28` berkas (`7.3%`)
 
-- **Belum Diimpor (Antrean Todo):** `345` berkas
+- **Belum Diimpor (Antrean Todo):** `353` berkas
 
-- **Total Soal di Cerdasify Saat Ini:** `1,542` butir soal (100% lengkap kunci & pembahasan)
+- **Total Soal di Cerdasify Saat Ini:** `847` butir soal (100% lengkap kunci & pembahasan)
 
-- **Total Paket Ujian Aktif Saat Ini:** `43` paket ujian
-
+- **Total Paket Ujian Aktif Saat Ini:** `21` paket ujian
 
 
 ---
 
 
-## 1. Olimpiade PRISMA (2024–2026) (9/22 Selesai)
+## 1. Olimpiade PRISMA (2024–2026) (4/22 Selesai)
 
 | Status | Format | Nama Berkas & Jalur | Paket / Keterangan di Cerdasify |
 | :---: | :---: | :--- | :--- |
@@ -33,14 +32,14 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL INGG PENYISIHAN LEVEL 1.pdf` (204 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL INGG PENYISIHAN LEVEL 2.pdf` (255 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL INGG PENYISIHAN LEVEL 3.pdf` (157 KB) | *Siap diimpor ke paket baru* |
-| [x] **SUDAH** | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL IPA PENYISIHAN LEVEL 1.pdf` (350 KB) | **pkg_prisma_2024_ipa_1**: Olimpiade PRISMA 2024 — Penyisihan IPA & Sains Level 1 (30 Soal) |
-| [x] **SUDAH** | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL IPA PENYISIHAN LEVEL 2.pdf` (253 KB) | **pkg_prisma_2024_ipa_2**: Olimpiade PRISMA 2024 — Penyisihan IPA & Sains Level 2 (30 Soal) |
-| [x] **SUDAH** | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL IPA PENYISIHAN LEVEL 3.pdf` (238 KB) | **pkg_prisma_2024_ipa_3**: Olimpiade PRISMA 2024 — Penyisihan IPA & Sains Level 3 (30 Soal) |
+| [ ] Belum | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL IPA PENYISIHAN LEVEL 1.pdf` (350 KB) | *Siap diimpor ke paket baru* |
+| [ ] Belum | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL IPA PENYISIHAN LEVEL 2.pdf` (253 KB) | *Siap diimpor ke paket baru* |
+| [ ] Belum | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL IPA PENYISIHAN LEVEL 3.pdf` (238 KB) | *Siap diimpor ke paket baru* |
 | [x] **SUDAH** | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL MATEMATIKA LEVEL 1 PRISMA 2024.pdf` (141 KB) | **pkg_prisma_2024_m1**: Mode Latihan PRISMA 2024 — Matematika Level 1 (Bergambar) (23 Soal) |
 | [ ] Belum | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL MATEMATIKA LEVEL 2 PRISMA 2024.pdf` (256 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL MATEMATIKA LEVEL 3 PRISMA 2024.pdf` (277 KB) | *Siap diimpor ke paket baru* |
-| [x] **SUDAH** | `DOCX` | `Prisma/PRISMA 2026/Soal 2025/Bhs Inggris 2025/PENYISIHAN INGGIS LEVEL 1 PRISMA 2025.docx` (367 KB) | **pkg_prisma_2025_ing_1**: Olimpiade PRISMA 2025 — Bahasa Inggris Level 1 (Bergambar) (30 Soal) |
-| [x] **SUDAH** | `DOCX` | `Prisma/PRISMA 2026/Soal 2025/Bhs Inggris 2025/PENYISIHAN INGGRIS LEVEL 2 PRISMA 2025.docx` (264 KB) | **pkg_prisma_2025_ing_2**: Olimpiade PRISMA 2025 — Bahasa Inggris Level 2 (Bergambar) (30 Soal) |
+| [ ] Belum | `DOCX` | `Prisma/PRISMA 2026/Soal 2025/Bhs Inggris 2025/PENYISIHAN INGGIS LEVEL 1 PRISMA 2025.docx` (367 KB) | *Siap diimpor ke paket baru* |
+| [ ] Belum | `DOCX` | `Prisma/PRISMA 2026/Soal 2025/Bhs Inggris 2025/PENYISIHAN INGGRIS LEVEL 2 PRISMA 2025.docx` (264 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `Prisma/PRISMA 2026/Soal 2025/Bhs Inggris 2025/PENYISIHAN INGGRIS LEVEL 3 PRISMA 2025.docx` (187 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `Prisma/PRISMA 2026/Soal 2025/Ipa 2025/PENYISIHAN IPA LEVEL 1 PRISMA 2025.docx` (459 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `Prisma/PRISMA 2026/Soal 2025/Ipa 2025/PENYISIHAN IPA LEVEL 2 PRISMA 2025.docx` (607 KB) | *Siap diimpor ke paket baru* |
@@ -50,7 +49,7 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [x] **SUDAH** | `DOCX` | `Prisma/PRISMA 2026/Soal 2025/Matematika 2025/PENYISIHAN MTK LEVEL 2 PRISMA 2025.docx` (56 KB) | **pkg_prisma_2025_m2**: Olimpiade PRISMA 2025 — Matematika Level 2 (Bergambar) (30 Soal) |
 | [x] **SUDAH** | `DOCX` | `Prisma/PRISMA 2026/Soal 2025/Matematika 2025/PENYISIHAN MTK LEVEL 3 PRISMA 2025.docx` (34 KB) | **pkg_prisma_2025_m3**: Olimpiade PRISMA 2025 — Matematika Level 3 (Bergambar) (29 Soal) |
 
-## 2. Chaanakya Ekadanta Olympiad (CEO) (7/24 Selesai)
+## 2. Chaanakya Ekadanta Olympiad (CEO) (2/24 Selesai)
 
 | Status | Format | Nama Berkas & Jalur | Paket / Keterangan di Cerdasify |
 | :---: | :---: | :--- | :--- |
@@ -63,8 +62,8 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `Level 1/ceo mtk 1 penyisihan 2025 tipe b.pdf` (672 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 1/ceo mtk 1 provinsi 2025.pdf` (462 KB) | *Siap diimpor ke paket baru* |
 | [x] **SUDAH** | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/KUNCI-JAWABAN-SEMI FINAL CEO - MATEMATIKA LEVEL 1.pdf` (168 KB) | **pkg_ceo_2025_m1**: Olimpiade Semifinal CEO 2025 — Matematika Level 1 (30 Soal) |
-| [x] **SUDAH** | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - BAHASA INGGRIS LEVEL 1.pdf` (582 KB) | **pkg_ceo_2025_ing_1**: Olimpiade Semifinal CEO 2025 — Bahasa Inggris Level 1 (Bergambar) (30 Soal) |
-| [x] **SUDAH** | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - BAHASA INGGRIS LEVEL 2.pdf` (585 KB) | **pkg_ceo_2025_ing_2**: Olimpiade Semifinal CEO 2025 — Bahasa Inggris Level 2 (Bergambar) (30 Soal) |
+| [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - BAHASA INGGRIS LEVEL 1.pdf` (582 KB) | *Siap diimpor ke paket baru* |
+| [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - BAHASA INGGRIS LEVEL 2.pdf` (585 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - BAHASA INGGRIS LEVEL 3.pdf` (589 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - BAHASA INGGRIS LEVEL 4.pdf` (656 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - BAHASA INGGRIS TK.pdf` (3468 KB) | *Siap diimpor ke paket baru* |
@@ -73,13 +72,13 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - MATEMATIKA LEVEL 3.pdf` (557 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - MATEMATIKA LEVEL 4.pdf` (572 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - MATEMATIKA TK.pdf` (1242 KB) | *Siap diimpor ke paket baru* |
-| [x] **SUDAH** | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - SAINS LEVEL 1.pdf` (468 KB) | **pkg_ceo_2025_sains_1**: Olimpiade Semifinal CEO 2025 — Sains Level 1 (30 Soal) |
-| [x] **SUDAH** | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - SAINS LEVEL 2.pdf` (643 KB) | **pkg_ceo_2025_sains_2**: Olimpiade Semifinal CEO 2025 — Sains Level 2 (Bergambar) (30 Soal) |
-| [x] **SUDAH** | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - SAINS LEVEL 3.pdf` (538 KB) | **pkg_ceo_2025_sains_3**: Olimpiade Semifinal CEO 2025 — Sains Level 3 (Bergambar) (30 Soal) |
+| [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - SAINS LEVEL 1.pdf` (468 KB) | *Siap diimpor ke paket baru* |
+| [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - SAINS LEVEL 2.pdf` (643 KB) | *Siap diimpor ke paket baru* |
+| [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - SAINS LEVEL 3.pdf` (538 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - SAINS LEVEL 4.pdf` (546 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - SAINS TK.pdf` (2602 KB) | *Siap diimpor ke paket baru* |
 
-## 3. Kompetisi Nasional ORION (Final & Grand Final 2025–2026) (5/66 Selesai)
+## 3. Kompetisi Nasional ORION (Final & Grand Final 2025–2026) (2/66 Selesai)
 
 | Status | Format | Nama Berkas & Jalur | Paket / Keterangan di Cerdasify |
 | :---: | :---: | :--- | :--- |
@@ -121,7 +120,7 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `SOAL FINAL NAS ORION PDF/IPS C ok  .pdf` (126 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FINAL NAS ORION PDF/IPS D ok .pdf` (122 KB) | *Siap diimpor ke paket baru* |
 | [x] **SUDAH** | `PDF` | `SOAL FINAL NAS ORION PDF/MAT  A  ok .pdf` (105 KB) | **pkg_orion_2026_ma**: Final Nasional ORION 2026 — Matematika Level A (Kelas 1-2) (35 Soal) |
-| [x] **SUDAH** | `PDF` | `SOAL FINAL NAS ORION PDF/MAT  B ok .pdf` (158 KB) | **pkg_orion_2026_mb**: Final Nasional ORION 2026 — Matematika Level B (Kelas 3-4) (35 Soal) |
+| [ ] Belum | `PDF` | `SOAL FINAL NAS ORION PDF/MAT  B ok .pdf` (158 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FINAL NAS ORION PDF/MAT  D ok .pdf` (144 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FINAL NAS ORION PDF/MAT  TK ok .pdf` (136 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FINAL NAS ORION PDF/MAT C ok .pdf` (157 KB) | *Siap diimpor ke paket baru* |
@@ -138,9 +137,9 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `DOCX` | `SOAL FINAL ORION NASIONAL JUNI 25/Kunci Jawaban Matematika Level A.docx` (13 KB) | *Siap diimpor ke paket baru* |
 | [x] **SUDAH** | `PDF` | `SOAL FINAL ORION NASIONAL JUNI 25/Kunci Jawaban Matematika Level A.pdf` (131 KB) | **pkg_orion_2026_ma**: Kunci Jawaban & Pembahasan ORION 2026 Matematika Level A |
 | [ ] Belum | `DOCX` | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA A ok  .docx` (734 KB) | *Siap diimpor ke paket baru* |
-| [x] **SUDAH** | `PDF` | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA A ok  .pdf` (262 KB) | **pkg_orion_2025_mtk_a**: Final Nasional ORION 2025 — Matematika Level A (Bergambar) (40 Soal) |
+| [ ] Belum | `PDF` | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA A ok  .pdf` (262 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA B ok  .docx` (694 KB) | *Siap diimpor ke paket baru* |
-| [x] **SUDAH** | `PDF` | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA B ok  .pdf` (320 KB) | **pkg_orion_2025_mtk_b**: Final Nasional ORION 2025 — Matematika Level B (Bergambar) (40 Soal) |
+| [ ] Belum | `PDF` | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA B ok  .pdf` (320 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA C ok .docx` (739 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA D ok .docx` (66 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA TK ok .docx` (866 KB) | *Siap diimpor ke paket baru* |
@@ -172,7 +171,7 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `PAST PAPPER FABI/FC SOAL PENYISIHAN FABI 14 S3.pdf` (603 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `PAST PAPPER FABI/SOAL PENYISIHAN FABI 14 S4.pdf` (626 KB) | *Siap diimpor ke paket baru* |
 
-## 5. Java Science Olympiad (JSO 2024–2026) (1/33 Selesai)
+## 5. Java Science Olympiad (JSO 2024–2026) (3/33 Selesai)
 
 | Status | Format | Nama Berkas & Jalur | Paket / Keterangan di Cerdasify |
 | :---: | :---: | :--- | :--- |
@@ -201,16 +200,16 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `SOAL FULL/Soal-Matematika-JSO-Final-Provinsi.pdf` (2074 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/Soal-Penyisihan-Jso-2025-Type-c.pdf` (7505 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/Soal-Type-a-Jso-2024-Penyisihan-2.pdf` (8339 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `SOAL FULL/TIPE A FINPROV JSO 2026.pdf` (7254 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `PDF` | `SOAL FULL/TIPE A FINPROV JSO 2026.pdf` (7254 KB) | **pkg_jso_2026_mtk_prov_1/2**: JSO 2026 Final Provinsi — Matematika L1 (37) & L2 (38); mapel lain belum |
 | [ ] Belum | `PDF` | `SOAL FULL/TIPE B FINPROV JSO 2026.pdf` (7434 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf` (9146 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `SOAL GF FIX JSO 2026.pdf` (7375 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `PDF` | `SOAL GF FIX JSO 2026.pdf` (7375 KB) | **pkg_jso_2026_mtk_gf_1/2**: JSO 2026 Grand Final — Matematika L1 (35) & L2 (34); mapel lain belum |
 | [ ] Belum | `PDF` | `SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` (7603 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `TYPE E SOAL PENYISIHAN JSO 2026.pdf` (5802 KB) | *Siap diimpor ke paket baru* |
-| [x] **SUDAH** | `PDF` | `english/JSO_2025_Bahasa_Inggris_Level_1_2.pdf` (902 KB) | **pkg_jso_2025_ing_1** & **pkg_jso_2025_ing_2**: Olimpiade JSO 2025 — Bahasa Inggris Level 1 & 2 (Bergambar) (60 Soal) |
+| [x] **SUDAH** | `PDF` | `TYPE E SOAL PENYISIHAN JSO 2026.pdf` (5802 KB) | **pkg_jso_2026_mtk_peny_1/2**: JSO 2026 Penyisihan — Matematika L1 (29) & L2 (30); mapel lain belum |
+| [ ] Belum | `PDF` | `english/JSO_2025_Bahasa_Inggris_Level_1_2.pdf` (902 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `jso penyisihan 2025.pdf` (7603 KB) | *Siap diimpor ke paket baru* |
 
-## 6. Kompetisi Matematika, Sains & Inggris (KMSI 2023–2025) (1/26 Selesai)
+## 6. Kompetisi Matematika, Sains & Inggris (KMSI 2023–2025) (4/26 Selesai)
 
 | Status | Format | Nama Berkas & Jalur | Paket / Keterangan di Cerdasify |
 | :---: | :---: | :--- | :--- |
@@ -224,8 +223,8 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `Level 1/kmsi mtk 1 grand final nasional 2022-2023.pdf` (2293 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `Level 1/kmsi mtk 1 grand final nasional 2023.docx` (1952 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 1/kmsi mtk 1 grand final nasional 2023.pdf` (1719 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `DOCX` | `Level 1/kmsi mtk 1 grand final nasional 2024.docx` (2309 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `Level 1/kmsi mtk 1 grand final nasional 2024.pdf` (2057 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `DOCX` | `Level 1/kmsi mtk 1 grand final nasional 2024.docx` (2309 KB) | **pkg_kmsi_2024_mtk_gf_1**: KMSI 2024 Grand Final Nasional — Matematika L1 (35 Soal) |
+| [x] **SUDAH** | `PDF` | `Level 1/kmsi mtk 1 grand final nasional 2024.pdf` (2057 KB) | **pkg_kmsi_2024_mtk_gf_1**: KMSI 2024 Grand Final Nasional — Matematika L1 (35 Soal) |
 | [ ] Belum | `PDF` | `Level 1/kmsi mtk 1 kumpulan soal.pdf` (7680 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 1/kmsi mtk 1 penyisihan 2024 tipe a.pdf` (782 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `Level 1/kmsi mtk 1 penyisihan 2024 tipe b.docx` (1353 KB) | *Siap diimpor ke paket baru* |
@@ -236,9 +235,9 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `Level 1/kmsi mtk 1 penyisihan 2025 tipe d.pdf` (1028 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `Level 2/kmsi mtk 2 penyisihan 2024 tipe b.docx` (1609 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 2/kmsi mtk 2 penyisihan 2024 tipe b.pdf` (906 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `SOAL FULL/New-Soal-Type-a-Penyisihan-Kmsi-2024.pdf` (8810 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `SOAL FULL/type-B-new-final-provinsi-kmsi-2024.pdf` (12715 KB) | *Siap diimpor ke paket baru* |
-| [x] **SUDAH** | `PDF` | `english/KMSI_2024_Bahasa_Inggris_Level_1_dan_2.pdf` (1330 KB) | **pkg_kmsi_2024_ing_1** & **pkg_kmsi_2024_ing_2**: Olimpiade KMSI 2024 — Bahasa Inggris Level 1 & 2 (Bergambar) (80 Soal) |
+| [x] **SUDAH** | `PDF` | `SOAL FULL/New-Soal-Type-a-Penyisihan-Kmsi-2024.pdf` (8810 KB) | **pkg_kmsi_2024_mtk_peny_1/2**: KMSI 2024 Penyisihan — Matematika L1 (30) & L2 (29); mapel lain belum |
+| [x] **SUDAH** | `PDF` | `SOAL FULL/type-B-new-final-provinsi-kmsi-2024.pdf` (12715 KB) | **pkg_kmsi_2024_mtk_prov_1/2**: KMSI 2024 Final Provinsi — Matematika L1 (36) & L2 (38); mapel lain belum |
+| [ ] Belum | `PDF` | `english/KMSI_2024_Bahasa_Inggris_Level_1_dan_2.pdf` (1330 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `kmsi all provinsi 2024.pdf` (8962 KB) | *Siap diimpor ke paket baru* |
 
 ## 7. Olimpiade Bahasa Inggris Nasional (5/20 Selesai)

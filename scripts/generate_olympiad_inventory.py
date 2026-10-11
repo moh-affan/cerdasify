@@ -30,6 +30,12 @@ IMPORTED_PATTERNS = [
     ("Latihan-Soal-Aljabar-SD-100-Soal", "pkg_aljabar_100", "Simulasi Olimpiade SD — Paket 100 Soal Aljabar Marathon (100 Soal)"),
     ("01-Buku-Soal-Matematika-Olimpiade-SD.pdf", "pkg_sesi_*", "Buku Soal Sesi 1, 2, 3, 4, 5, 13, 21 (239 Soal)"),
     ("02-Kunci-Jawaban-dan-Pembahasan.pdf", "pkg_sesi_*", "Kunci Jawaban & Pembahasan Buku Soal Sesi 1..21"),
+    ("New-Soal-Type-a-Penyisihan-Kmsi-2024.pdf", "pkg_kmsi_2024_mtk_peny_1/2", "KMSI 2024 Penyisihan — Matematika L1 (30) & L2 (29); mapel lain belum"),
+    ("type-B-new-final-provinsi-kmsi-2024.pdf", "pkg_kmsi_2024_mtk_prov_1/2", "KMSI 2024 Final Provinsi — Matematika L1 (36) & L2 (38); mapel lain belum"),
+    ("kmsi mtk 1 grand final nasional 2024", "pkg_kmsi_2024_mtk_gf_1", "KMSI 2024 Grand Final Nasional — Matematika L1 (35 Soal)"),
+    ("TYPE E SOAL PENYISIHAN JSO 2026.pdf", "pkg_jso_2026_mtk_peny_1/2", "JSO 2026 Penyisihan — Matematika L1 (29) & L2 (30); mapel lain belum"),
+    ("TIPE A FINPROV JSO 2026.pdf", "pkg_jso_2026_mtk_prov_1/2", "JSO 2026 Final Provinsi — Matematika L1 (37) & L2 (38); mapel lain belum"),
+    ("SOAL GF FIX JSO 2026.pdf", "pkg_jso_2026_mtk_gf_1/2", "JSO 2026 Grand Final — Matematika L1 (35) & L2 (34); mapel lain belum"),
 ]
 
 def check_imported(relpath):

@@ -189,7 +189,7 @@ Pada soal berbobot tidak ada jawaban yang sekadar benar atau salah. Setiap pilih
 
 ### 3.2 Mengelola Bank Soal
 1. Masuk ke menu **Bank Soal** (`/admin/bank-soal`).
-2. Anda dapat melihat seluruh butir soal (1.623 soal per Oktober 2026) yang telah terindeks rapi.
+2. Anda dapat melihat seluruh butir soal (1.994 soal per Oktober 2026) yang telah terindeks rapi.
 3. Gunakan filter pencarian untuk menyaring soal berdasarkan:
    - Kategori (misal: *Olimpiade Matematika*, *Buku Soal*, *CPNS SKD*)
    - Topik (misal: *Geometri*, *Aljabar*, *TIU*, *TKP*)

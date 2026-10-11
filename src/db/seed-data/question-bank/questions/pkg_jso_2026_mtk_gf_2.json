@@ -1,0 +1,1634 @@
+[
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q01",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perbandingan uang Dina dan Dani = 2 : 3, perbandingan uang Dani dan Dutra = 5 : 7. Perbandingan uang Dina dan Dutra adalah …",
+    "imageUrl": null,
+    "explanation": "Samakan Dani (KPK 3 dan 5 = 15): Dina : Dani = 10 : 15, Dani : Dutra = 15 : 21. Jadi Dina : Dutra = **10 : 21**.\n\nKunci Jawaban: **C (10 : 21)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q01_opt_a",
+        "label": "A",
+        "content": "2 : 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q01_opt_b",
+        "label": "B",
+        "content": "2 : 7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q01_opt_c",
+        "label": "C",
+        "content": "10 : 21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q01_opt_d",
+        "label": "D",
+        "content": "6 : 35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q02",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "FPB dari 60, 84, dan 108 adalah...",
+    "imageUrl": null,
+    "explanation": "60 = 2² × 3 × 5, 84 = 2² × 3 × 7, 108 = 2² × 3³. Faktor sama pangkat terkecil: 2² × 3 = **12**.\n\nKunci Jawaban: **D (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q02_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q02_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q02_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q02_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q03",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari 37,2 × 4,5 − 112,6 adalah...",
+    "imageUrl": null,
+    "explanation": "37,2 × 4,5 = 167,4. Lalu 167,4 − 112,6 = **54,8**.\n\nKunci Jawaban: **A (54,8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q03_opt_a",
+        "label": "A",
+        "content": "54,8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q03_opt_b",
+        "label": "B",
+        "content": "44,8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q03_opt_c",
+        "label": "C",
+        "content": "55,8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q03_opt_d",
+        "label": "D",
+        "content": "45,8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q04",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pecahan biasa dari 0,375 adalah...",
+    "imageUrl": null,
+    "explanation": "0,375 = 375/1000 = 3/8 (hafalan: 1/8 = 0,125, jadi 3/8 = 0,375).\n\nKunci Jawaban: **D (3/8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q04_opt_a",
+        "label": "A",
+        "content": "3/5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q04_opt_b",
+        "label": "B",
+        "content": "3/6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q04_opt_c",
+        "label": "C",
+        "content": "3/7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q04_opt_d",
+        "label": "D",
+        "content": "3/8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q05",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui 26 data dengan rata-rata 26. Jika setiap data ditambah 26 lalu dibagi 5, maka rata-rata data yang baru adalah….",
+    "imageUrl": null,
+    "explanation": "Rata-rata ikut berubah dengan operasi yang sama: (26 + 26) : 5 = 52 : 5 = **10,4**.\n\nKunci Jawaban: **B (10,4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q05_opt_a",
+        "label": "A",
+        "content": "9,4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q05_opt_b",
+        "label": "B",
+        "content": "10,4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q05_opt_c",
+        "label": "C",
+        "content": "11,4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q05_opt_d",
+        "label": "D",
+        "content": "12,4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q06",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil dari 2027 − 2026 + 2025 − 2024 + ⋯ + 3 − 2 + 1 adalah …",
+    "imageUrl": null,
+    "explanation": "Pasangkan (2027 − 2026) + (2025 − 2024) + … + (3 − 2): ada (2027 − 3) : 2 + 1 = 1.013 pasangan bernilai 1. Ditambah angka 1 terakhir: 1.013 + 1 = **1.014**.\n\nKunci Jawaban: **D (1014)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q06_opt_a",
+        "label": "A",
+        "content": "2026",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q06_opt_b",
+        "label": "B",
+        "content": "1000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q06_opt_c",
+        "label": "C",
+        "content": "2024",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q06_opt_d",
+        "label": "D",
+        "content": "1014",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q07",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Senja dan Zaki mulai berlari pukul 07.00 dari kota A menuju kota B di jalan yang sama. Senja berlari dengan kecepatan tetap 6 km/jam, Zaki 4 km/jam. Pukul 09.00 Zaki meminjam sepeda dan mengendarainya dengan kecepatan tetap 10 km/jam. Zaki menyusul Senja tepat di kota B. Jarak kota A dan kota B adalah … km.",
+    "imageUrl": null,
+    "explanation": "Pukul 09.00: Senja di 12 km, Zaki di 8 km (selisih 4 km). Zaki bersepeda 10 km/jam, lebih cepat 4 km/jam dari Senja → menyusul dalam 4 : 4 = 1 jam. Saat itu Senja berada di 12 + 6 = **18 km** = kota B.\n\nKunci Jawaban: **D (18)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q07_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q07_opt_b",
+        "label": "B",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q07_opt_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q07_opt_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q08",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang pelari menempuh jarak 3.600 meter dalam waktu 30 menit. Jika dinyatakan dalam satuan km/jam, kecepatannya … km/jam.",
+    "imageUrl": null,
+    "explanation": "3.600 m = 3,6 km dalam ½ jam → 3,6 × 2 = **7,2 km/jam**.\n\nKunci Jawaban: **D (7,2)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q08_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q08_opt_b",
+        "label": "B",
+        "content": "4,2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q08_opt_c",
+        "label": "C",
+        "content": "3,6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q08_opt_d",
+        "label": "D",
+        "content": "7,2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q09",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Harga 6 mangga dan 3 jeruk adalah 42.000. Harga 2 mangga dan 3 jeruk adalah 20.000. Harga 4 mangga adalah …",
+    "imageUrl": null,
+    "explanation": "Kurangkan kedua persamaan: (6 − 2) mangga = 42.000 − 20.000 → 4 mangga = **22.000**.\n\nKunci Jawaban: **A (22.000)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q09_opt_a",
+        "label": "A",
+        "content": "22.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q09_opt_b",
+        "label": "B",
+        "content": "32.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q09_opt_c",
+        "label": "C",
+        "content": "42.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q09_opt_d",
+        "label": "D",
+        "content": "52.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q10",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika KPK dari bilangan 126 dan x adalah 882 serta FPB dari 126 dan x adalah 21, maka nilai x adalah ...",
+    "imageUrl": null,
+    "explanation": "FPB × KPK = 126 × x → 21 × 882 = 126x → x = **147**.\n\nKunci Jawaban: **A (147)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q10_opt_a",
+        "label": "A",
+        "content": "147",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q10_opt_b",
+        "label": "B",
+        "content": "149",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q10_opt_c",
+        "label": "C",
+        "content": "152",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q10_opt_d",
+        "label": "D",
+        "content": "158",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q11",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan kubik antara 100 dan 500 adalah...",
+    "imageUrl": null,
+    "explanation": "5³ = 125, 6³ = 216, 7³ = 343. (4³ = 64 terlalu kecil, 8³ = 512 terlalu besar.)\n\nKunci Jawaban: **A (125, 216, 343)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q11_opt_a",
+        "label": "A",
+        "content": "125, 216, 343",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q11_opt_b",
+        "label": "B",
+        "content": "125, 216, 343, 512",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q11_opt_c",
+        "label": "C",
+        "content": "64, 125, 216, 343",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q11_opt_d",
+        "label": "D",
+        "content": "216, 343, 512",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q12",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan romawi MCMXCIV bernilai...",
+    "imageUrl": null,
+    "explanation": "M = 1000, CM = 900, XC = 90, IV = 4 → **1.994**.\n\nKunci Jawaban: **C (1.994)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q12_opt_a",
+        "label": "A",
+        "content": "1.894",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q12_opt_b",
+        "label": "B",
+        "content": "1.944",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q12_opt_c",
+        "label": "C",
+        "content": "1.994",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q12_opt_d",
+        "label": "D",
+        "content": "1.999",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q13",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "2,026 − 20,26 + 202,6 = …",
+    "imageUrl": null,
+    "explanation": "Kerjakan 2,026 + 202,6 = 204,626, lalu − 20,26 = **184,366**.\n\nKunci Jawaban: **C (184,366)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q13_opt_a",
+        "label": "A",
+        "content": "164,366",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q13_opt_b",
+        "label": "B",
+        "content": "164,386",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q13_opt_c",
+        "label": "C",
+        "content": "184,366",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q13_opt_d",
+        "label": "D",
+        "content": "184,386",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q14",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah persegi panjang memiliki keliling 164 cm. Jika lebarnya 31 cm, panjangnya adalah... cm.",
+    "imageUrl": null,
+    "explanation": "p + l = 164 : 2 = 82. p = 82 − 31 = **51 cm**.\n\nKunci Jawaban: **C (51)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q14_opt_a",
+        "label": "A",
+        "content": "31",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q14_opt_b",
+        "label": "B",
+        "content": "41",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q14_opt_c",
+        "label": "C",
+        "content": "51",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q14_opt_d",
+        "label": "D",
+        "content": "61",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q15",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dalam waktu 3 jam, 3 kucing mampu menghabiskan 3 ikan. Waktu yang diperlukan agar 100 kucing menghabiskan 100 ikan adalah … jam.",
+    "imageUrl": null,
+    "explanation": "Satu kucing menghabiskan satu ikan dalam 3 jam. 100 kucing makan bersamaan, masing-masing satu ikan → tetap **3 jam**. (Jebakan: bukan 100!)\n\nKunci Jawaban: **B (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q15_opt_a",
+        "label": "A",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q15_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q15_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q15_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q16",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar berikut! 11 persegi berukuran sama disusun seperti pada gambar dan diketahui kelilingnya 48 cm. Luas bangun tersebut adalah … cm².",
+    "imageUrl": "/uploads/jso26_gf_m2_q16.png",
+    "explanation": "Hitung sisi luar bangun: kelilingnya sama dengan 24 sisi persegi kecil. Sisi = 48 : 24 = 2 cm. Luas = 11 × 2 × 2 = **44 cm²**.\n\nKunci Jawaban: **C (44)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q16_opt_a",
+        "label": "A",
+        "content": "110",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q16_opt_b",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q16_opt_c",
+        "label": "C",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q16_opt_d",
+        "label": "D",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q17",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika\n\n6 ⊠ 2 = 6 + 66 = 72\n2 ⊠ 3 = 2 + 22 + 222 = 246\n\nMaka nilai x jika x ⊠ 3 = 615 dan x adalah bilangan 1 angka adalah …",
+    "imageUrl": null,
+    "explanation": "x ⊠ 3 = x + xx + xxx = x × (1 + 11 + 111) = 123x = 615 → x = **5**.\n\nKunci Jawaban: **D (5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q17_opt_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q17_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q17_opt_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q17_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q18",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar berikut! ABCD persegi, titik E, F, G, dan H di tengah masing-masing sisi persegi. Jika luas daerah arsir 4 cm², maka luas persegi ABCD adalah … cm².",
+    "imageUrl": "/uploads/jso26_gf_m2_q18.png",
+    "explanation": "Teori terkenal: garis dari titik sudut ke titik tengah sisi seperti pada gambar membentuk persegi kecil yang luasnya **⅕** persegi besar (potong 4 segitiga di luar lalu tempel ke persegi kecil → menjadi 5 persegi kecil). Luas ABCD = 5 × 4 = **20 cm²**.\n\nKunci Jawaban: **C (20)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q18_opt_a",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q18_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q18_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q18_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q19",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika Karina membeli 3 buku, uangnya tersisa 150 ribu. Jika membeli 4 buku, uangnya tersisa 50 ribu. Jumlah uang Karina semula adalah … ribu.",
+    "imageUrl": null,
+    "explanation": "Selisih 1 buku = 150 − 50 = 100 ribu. Uang semula = 3 × 100 + 150 = **450 ribu**.\n\nKunci Jawaban: **A (450)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q19_opt_a",
+        "label": "A",
+        "content": "450",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q19_opt_b",
+        "label": "B",
+        "content": "300",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q19_opt_c",
+        "label": "C",
+        "content": "900",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q19_opt_d",
+        "label": "D",
+        "content": "500",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q20",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika 2026 dibagi p menghasilkan 26 dan bersisa 24, maka nilai p adalah …",
+    "imageUrl": null,
+    "explanation": "2026 = 26 × p + 24 → 26p = 2002 → p = **77**.\n\nKunci Jawaban: **D (77)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q20_opt_a",
+        "label": "A",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q20_opt_b",
+        "label": "B",
+        "content": "55",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q20_opt_c",
+        "label": "C",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q20_opt_d",
+        "label": "D",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q21",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Enggar memiliki total 123 ekor ayam dan kelinci. Jika hewan-hewan tersebut memiliki total 346 kaki, banyak ayam adalah …",
+    "imageUrl": null,
+    "explanation": "Andaikan semua ayam: 246 kaki. Kurang 100 kaki, setiap kelinci +2 → 50 kelinci. Ayam = 123 − 50 = **73**.\n\nKunci Jawaban: **B (73)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q21_opt_a",
+        "label": "A",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q21_opt_b",
+        "label": "B",
+        "content": "73",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q21_opt_c",
+        "label": "C",
+        "content": "76",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q21_opt_d",
+        "label": "D",
+        "content": "83",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q22",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ada 50 soal dalam tes matematika. Setiap jawaban benar diberi 8 poin, setiap jawaban salah dikurangi 4 poin. Vadya memperoleh 196 poin dan tidak ada jawaban kosong. Banyak soal yang ia jawab salah adalah …",
+    "imageUrl": null,
+    "explanation": "Andaikan semua benar: 400 poin. Setiap salah kehilangan 8 + 4 = 12 poin. (400 − 196) : 12 = 204 : 12 = **17** salah.\n\nKunci Jawaban: **A (17)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q22_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q22_opt_b",
+        "label": "B",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q22_opt_c",
+        "label": "C",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q22_opt_d",
+        "label": "D",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q23",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Kereta A meninggalkan Kota X menuju Kota Y dengan kecepatan 60 km/jam. Satu jam kemudian kereta B meninggalkan Kota X menuju Kota Y dengan kecepatan 75 km/jam. Waktu yang diperlukan kereta B untuk menyusul kereta A adalah …",
+    "imageUrl": null,
+    "explanation": "Saat B berangkat, A sudah 60 km di depan. B lebih cepat 15 km/jam → menyusul dalam 60 : 15 = **4 jam**.\n\nKunci Jawaban: **D (4 jam)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q23_opt_a",
+        "label": "A",
+        "content": "2 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q23_opt_b",
+        "label": "B",
+        "content": "3 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q23_opt_c",
+        "label": "C",
+        "content": "3 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q23_opt_d",
+        "label": "D",
+        "content": "4 jam",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q24",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a @ b = a × b − 5b. Jika 12 @ c = 56, maka nilai c adalah …",
+    "imageUrl": null,
+    "explanation": "12c − 5c = 7c = 56 → c = **8**.\n\nKunci Jawaban: **C (8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q24_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q24_opt_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q24_opt_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q24_opt_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q25",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar berikut! Keliling bangun tersebut adalah …",
+    "imageUrl": "/uploads/jso26_gf_m2_q25.png",
+    "explanation": "Trik bangun tangga: geser sisi-sisi tangga ke luar sehingga menjadi persegi panjang 60 × 70 (lebar 18 + 20 + 22 = 60). Keliling = 2 × (60 + 70) = **260**.\n\nKunci Jawaban: **D (260)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q25_opt_a",
+        "label": "A",
+        "content": "450",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q25_opt_b",
+        "label": "B",
+        "content": "300",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q25_opt_c",
+        "label": "C",
+        "content": "280",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q25_opt_d",
+        "label": "D",
+        "content": "260",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q26",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Secara bersamaan X dan Y mulai bergerak dari A ke B, sementara Z bergerak dari B ke A, masing-masing dengan kecepatan tetap yang berbeda. Kecepatan Z adalah 3 kali kecepatan X. Sepuluh menit setelah mulai, Y bertemu Z, dan 10 menit kemudian X bertemu Z. Waktu yang dibutuhkan Y untuk menyelesaikan seluruh perjalanan adalah … menit.",
+    "imageUrl": null,
+    "explanation": "Misal kecepatan X = v, Z = 3v. X bertemu Z setelah 20 menit: jarak AB = 20 × (v + 3v) = 80v. Y bertemu Z setelah 10 menit: 10 × (kecepatan Y + 3v) = 80v → kecepatan Y = 5v. Waktu Y = 80v : 5v = **16 menit**.\n\nKunci Jawaban: **A (16)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q26_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q26_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q26_opt_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q26_opt_d",
+        "label": "D",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q27",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Angka terakhir dari hasil perhitungan\n\n$$\\underbrace{2 \\times 2 \\times \\cdots \\times 2}_{2026\\ \\text{angka } 2} + \\underbrace{4 \\times 4 \\times \\cdots \\times 4}_{2027\\ \\text{angka } 4}$$\n\nadalah …",
+    "imageUrl": null,
+    "explanation": "Angka satuan 2ⁿ berulang 2, 4, 8, 6. 2026 : 4 sisa 2 → satuannya 4. Angka satuan 4ⁿ: 4 (pangkat ganjil), 6 (pangkat genap); 2027 ganjil → 4. Jumlah 4 + 4 = 8 → angka terakhir **8**.\n\nKunci Jawaban: **D (8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q27_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q27_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q27_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q27_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q28",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Berat rata-rata lima mobil A, B, C, D, dan E adalah 200 kg. Berat rata-rata mobil A, B, dan C adalah 198 kg, sedangkan berat rata-rata mobil C, D, dan E adalah 203 kg. Berat mobil C adalah … kg.",
+    "imageUrl": null,
+    "explanation": "Total lima mobil = 1.000. A + B + C = 594 dan C + D + E = 609. Dijumlahkan, C terhitung dua kali: 594 + 609 = 1.203 = 1.000 + C → C = **203 kg**.\n\nKunci Jawaban: **D (203)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q28_opt_a",
+        "label": "A",
+        "content": "160",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q28_opt_b",
+        "label": "B",
+        "content": "300",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q28_opt_c",
+        "label": "C",
+        "content": "190",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q28_opt_d",
+        "label": "D",
+        "content": "203",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q29",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar berikut! Angka 1, 2, 3, 4, 5, dan 6 diletakkan ke dalam kotak tanpa pengulangan agar diperoleh hasil pengurangan (bilangan atas − bilangan bawah) terkecil yang positif. Angka yang diletakkan pada kotak bertanda a adalah …",
+    "imageUrl": "/uploads/jso26_gf_m2_q29.png",
+    "explanation": "Agar selisih kecil, angka ratusan harus berurutan (4 dan 3), lalu sisa angka puluhan atas dibuat sekecil mungkin dan puluhan bawah sebesar mungkin: 412 − 365 = 47 (selisih terkecil, satu-satunya). Kotak a (satuan bilangan bawah) = **5**.\n\nKunci Jawaban: **C (5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q29_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q29_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q29_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q29_opt_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q30",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Amel menulis barisan 4, 8, 12, 16, 20, 24, …, 404. Banyak angka 4 yang telah ia tulis adalah …",
+    "imageUrl": null,
+    "explanation": "Hitung per posisi. Satuan 4: bilangan kelipatan 4 berakhiran 4 → 4, 24, 44, …, 384, 404 (tiap 20) = 21. Puluhan 4: 40, 44, 48 di setiap ratusan (0–99, 100–199, 200–299, 300–399) → 3 × 4 = 12. Ratusan 4: 400, 404 → 2. Total 21 + 12 + 2 = **35**.\n\n*Soal ini aslinya isian singkat di babak Grand Final.*\n\nKunci Jawaban: **B (35)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q30_opt_a",
+        "label": "A",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q30_opt_b",
+        "label": "B",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q30_opt_c",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q30_opt_d",
+        "label": "D",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q31",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika bulan Februari pada suatu tahun memiliki 5 hari Rabu, maka hari terakhir tahun tersebut (31 Desember) adalah hari …",
+    "imageUrl": null,
+    "explanation": "Februari hanya bisa punya 5 hari Rabu jika memiliki 29 hari (tahun kabisat) dengan 1 dan 29 Februari jatuh pada hari Rabu. Dari 1 Februari (hari ke-32) sampai 31 Desember (hari ke-366) ada 334 hari. 334 : 7 = 47 sisa 5 → Rabu + 5 = **Senin**. (Contoh: tahun 2012.)\n\n*Soal ini aslinya isian singkat di babak Grand Final.*\n\nKunci Jawaban: **B (Senin)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q31_opt_a",
+        "label": "A",
+        "content": "Minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q31_opt_b",
+        "label": "B",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q31_opt_c",
+        "label": "C",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q31_opt_d",
+        "label": "D",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q32",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Di dalam sebuah dompet terdapat 17 lembar uang dua puluh ribuan dan beberapa lembar lima puluh ribuan dengan total Rp490.000. Banyak uang lima puluh ribuan adalah … lembar.",
+    "imageUrl": null,
+    "explanation": "17 × 20.000 = 340.000. Sisa 490.000 − 340.000 = 150.000 = 3 × 50.000 → **3** lembar.\n\n*Soal ini aslinya isian singkat di babak Grand Final.*\n\nKunci Jawaban: **A (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q32_opt_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q32_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q32_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q32_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q33",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pada setiap kotak berikut diisi angka 1 sampai 7 (tanpa pengulangan) sehingga hasil penjumlahannya 100. Tentukan bilangan 2 digit terbesarnya!",
+    "imageUrl": "/uploads/jso26_gf_m2_q33.png",
+    "explanation": "Ada 3 kotak puluhan (jumlahnya T) dan 4 kotak satuan. Jumlah semua angka 1–7 = 28, jadi 10T + (28 − T) = 100 → 9T = 72 → T = 8.\nTiga angka puluhan berjumlah 8: {1, 2, 5} atau {1, 3, 4}. Agar bilangan terbesar maksimal, pilih puluhan 5 dengan satuan terbesar dari sisa {3, 4, 6, 7} → **57**. Contoh: 57 + 26 + 14 + 3 = 100 ✓.\n\n*Soal ini aslinya isian singkat di babak Grand Final.*\n\nKunci Jawaban: **B (57)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q33_opt_a",
+        "label": "A",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q33_opt_b",
+        "label": "B",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q33_opt_c",
+        "label": "C",
+        "content": "67",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q33_opt_d",
+        "label": "D",
+        "content": "75",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_gf_2_q34",
+    "topicId": "top_jso_2026_mtk_gf_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Digit terakhir dari $3^{2026}$ adalah …",
+    "imageUrl": null,
+    "explanation": "Angka satuan 3ⁿ berulang: 3, 9, 7, 1 (setiap 4). 2026 : 4 sisa 2 → angka kedua dalam pola = **9**.\n\n*Soal ini aslinya isian singkat di babak Grand Final.*\n\nKunci Jawaban: **D (9)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q34_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q34_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q34_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_gf_2_q34_opt_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

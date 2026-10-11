@@ -34,6 +34,8 @@ import { matematikaFaseA } from './seed-data/learning/matematika-fase-a';
 import { matematikaFaseBC } from './seed-data/learning/matematika-fase-bc';
 import { matematikaFaseD } from './seed-data/learning/matematika-fase-d';
 import { matematikaFaseEF } from './seed-data/learning/matematika-fase-ef';
+import { matematikaOlimpiade } from './seed-data/learning/matematika-olimpiade';
+import { matematikaKmsiJsoLevel1, matematikaKmsiJsoLevel2 } from './seed-data/learning/matematika-kmsi-jso';
 import { englishPhaseB } from './seed-data/learning/english-phase-b';
 import { ipaFaseAB } from './seed-data/learning/ipa-fase-ab';
 import { bahasaIndonesiaFaseAB } from './seed-data/learning/bahasa-indonesia-fase-ab';
@@ -228,6 +230,18 @@ const CONTENT_SETS: { meta: SetMeta; entries: Entry[] }[] = [
   {
     meta: { subjectId: 'subj_math', type: 'LESSON', phaseMin: 'E', phaseMax: 'L', orderBase: 8300 },
     entries: matematikaFaseEF.map(fromLesson),
+  },
+  {
+    meta: { subjectId: 'subj_math', type: 'LESSON', phaseMin: 'B', phaseMax: 'C', orderBase: 8400 },
+    entries: matematikaOlimpiade.map(fromLesson),
+  },
+  {
+    meta: { subjectId: 'subj_math', type: 'LESSON', phaseMin: 'A', phaseMax: 'B', orderBase: 8450 },
+    entries: matematikaKmsiJsoLevel1.map(fromLesson),
+  },
+  {
+    meta: { subjectId: 'subj_math', type: 'LESSON', phaseMin: 'B', phaseMax: 'C', orderBase: 8470 },
+    entries: matematikaKmsiJsoLevel2.map(fromLesson),
   },
   {
     meta: { subjectId: 'subj_science', type: 'LESSON', phaseMin: 'A', phaseMax: 'B', orderBase: 8500 },

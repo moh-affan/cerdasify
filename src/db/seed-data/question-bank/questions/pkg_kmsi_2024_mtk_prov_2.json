@@ -1,0 +1,1826 @@
+[
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q01",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di sekeliling taman berbentuk persegi dengan panjang sisi 54 m akan ditanami pohon pinus sejumlah 27 buah dengan jarak yang sama. Berapakah jarak antarpohonnya?",
+    "imageUrl": null,
+    "explanation": "Keliling taman = 4 × 54 = 216 m. Pada bangun tertutup, banyak jarak = banyak pohon = 27. Jarak = 216 : 27 = **8 m**.\n\n*Catatan: naskah asli menulis 54 cm, padahal opsi dalam meter; satuan disesuaikan.*\n\nKunci Jawaban: **C (8 m)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q01_opt_a",
+        "label": "A",
+        "content": "4 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q01_opt_b",
+        "label": "B",
+        "content": "6 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q01_opt_c",
+        "label": "C",
+        "content": "8 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q01_opt_d",
+        "label": "D",
+        "content": "12 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q02",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Persegi panjang A mempunyai panjang 19 cm dan lebar 27 cm, sedangkan persegi panjang B mempunyai panjang 17 cm dan lebar 23 cm. Berapakah selisih luas kedua persegi panjang tersebut (dalam cm²)?",
+    "imageUrl": null,
+    "explanation": "Luas A = 19 × 27 = 513 cm². Luas B = 17 × 23 = 391 cm². Selisih = 513 − 391 = **122 cm²**.\n\nKunci Jawaban: **A (122)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q02_opt_a",
+        "label": "A",
+        "content": "122",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q02_opt_b",
+        "label": "B",
+        "content": "132",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q02_opt_c",
+        "label": "C",
+        "content": "391",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q02_opt_d",
+        "label": "D",
+        "content": "513",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q03",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah persegi panjang memiliki luas 187 cm² dan panjang 17 cm. Lebar persegi panjang tersebut adalah … cm.",
+    "imageUrl": null,
+    "explanation": "Lebar = luas : panjang = 187 : 17 = **11 cm**.\n\nKunci Jawaban: **C (11)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q03_opt_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q03_opt_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q03_opt_c",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q03_opt_d",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q04",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui panjang dan lebar sebuah persegi panjang berturut-turut 37 cm dan 46 cm. Tentukan keliling persegi panjang!",
+    "imageUrl": null,
+    "explanation": "K = 2 × (37 + 46) = 2 × 83 = **166 cm**.\n\nKunci Jawaban: **B (166 cm)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q04_opt_a",
+        "label": "A",
+        "content": "144 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q04_opt_b",
+        "label": "B",
+        "content": "166 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q04_opt_c",
+        "label": "C",
+        "content": "176 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q04_opt_d",
+        "label": "D",
+        "content": "186 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q05",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika lebar persegi panjang 56 cm dan kelilingnya 228 cm, berapakah panjangnya?",
+    "imageUrl": null,
+    "explanation": "p + l = 228 : 2 = 114. p = 114 − 56 = **58 cm**.\n\nKunci Jawaban: **C (58 cm)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q05_opt_a",
+        "label": "A",
+        "content": "46 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q05_opt_b",
+        "label": "B",
+        "content": "56 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q05_opt_c",
+        "label": "C",
+        "content": "58 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q05_opt_d",
+        "label": "D",
+        "content": "68 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q06",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Budi mempunyai kebun berbentuk persegi panjang berukuran panjang 34 m dan lebar 27 m. Orang tua Budi akan membuat pagar di sekeliling kebun. Berapakah panjang pagar yang dibutuhkan?",
+    "imageUrl": null,
+    "explanation": "Pagar = keliling = 2 × (34 + 27) = 2 × 61 = **122 m**.\n\nKunci Jawaban: **D (122 m)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q06_opt_a",
+        "label": "A",
+        "content": "61 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q06_opt_b",
+        "label": "B",
+        "content": "92 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q06_opt_c",
+        "label": "C",
+        "content": "112 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q06_opt_d",
+        "label": "D",
+        "content": "122 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q07",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui luas persegi panjang 63 cm² dan panjangnya 9 cm. Keliling persegi panjang tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Lebar = 63 : 9 = 7 cm. K = 2 × (9 + 7) = **32 cm**.\n\nKunci Jawaban: **C (32 cm)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q07_opt_a",
+        "label": "A",
+        "content": "16 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q07_opt_b",
+        "label": "B",
+        "content": "18 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q07_opt_c",
+        "label": "C",
+        "content": "32 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q07_opt_d",
+        "label": "D",
+        "content": "36 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q08",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Keliling persegi panjang adalah 36 cm. Jika lebarnya 8 cm, luas persegi panjang adalah …",
+    "imageUrl": null,
+    "explanation": "p = 36 : 2 − 8 = 10 cm. L = 10 × 8 = **80 cm²**.\n\nKunci Jawaban: **D (80 cm²)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q08_opt_a",
+        "label": "A",
+        "content": "64 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q08_opt_b",
+        "label": "B",
+        "content": "70 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q08_opt_c",
+        "label": "C",
+        "content": "72 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q08_opt_d",
+        "label": "D",
+        "content": "80 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q09",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Keliling suatu persegi panjang adalah 76 cm dan lebarnya 20 cm. Luas persegi panjang tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "p = 76 : 2 − 20 = 18 cm. L = 18 × 20 = **360 cm²**.\n\nKunci Jawaban: **D (360 cm²)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q09_opt_a",
+        "label": "A",
+        "content": "18 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q09_opt_b",
+        "label": "B",
+        "content": "36 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q09_opt_c",
+        "label": "C",
+        "content": "180 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q09_opt_d",
+        "label": "D",
+        "content": "360 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q10",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah persegi panjang mempunyai panjang 36 cm dan lebar 48 cm. Berapakah luas persegi panjang tersebut (cm²)?",
+    "imageUrl": null,
+    "explanation": "36 × 48 = 36 × 50 − 36 × 2 = 1.800 − 72 = **1.728 cm²**.\n\nKunci Jawaban: **B (1728)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q10_opt_a",
+        "label": "A",
+        "content": "1782",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q10_opt_b",
+        "label": "B",
+        "content": "1728",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q10_opt_c",
+        "label": "C",
+        "content": "1628",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q10_opt_d",
+        "label": "D",
+        "content": "2728",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q11",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang tukang ingin memasang keramik di lantai gedung berbentuk persegi panjang berukuran 25 m × 16 m. Keramik yang dipasang berukuran 40 cm × 40 cm. Berapa banyak keramik yang dibutuhkan?",
+    "imageUrl": null,
+    "explanation": "Bandingkan luasnya dalam satuan yang sama. Lantai = 2.500 cm × 1.600 cm = 4.000.000 cm². Satu keramik = 40 × 40 = 1.600 cm². Banyak keramik = 4.000.000 : 1.600 = **2.500**.\n\nKunci Jawaban: **C (2500)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q11_opt_a",
+        "label": "A",
+        "content": "3500",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q11_opt_b",
+        "label": "B",
+        "content": "3000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q11_opt_c",
+        "label": "C",
+        "content": "2500",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q11_opt_d",
+        "label": "D",
+        "content": "2000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q12",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan gambar berikut!\n\nLuas dan keliling bangun di atas adalah ...",
+    "imageUrl": "/uploads/kmsi24_prov_m2_q12.png",
+    "explanation": "Luas = ½ × 12 × 9 = 54 cm². Sisi miring: 9, 12, 15 (kelipatan tripel 3, 4, 5). Keliling = 9 + 12 + 15 = **36 cm**.\n\nKunci Jawaban: **D (54 cm² dan 36 cm)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q12_opt_a",
+        "label": "A",
+        "content": "54 cm² dan 30 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q12_opt_b",
+        "label": "B",
+        "content": "54 cm² dan 32 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q12_opt_c",
+        "label": "C",
+        "content": "54 cm² dan 34 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q12_opt_d",
+        "label": "D",
+        "content": "54 cm² dan 36 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q13",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tinggi sebuah segitiga 11 cm. Jika luasnya 66 cm², panjang alasnya adalah … cm.",
+    "imageUrl": null,
+    "explanation": "Alas = 2 × luas : tinggi = 132 : 11 = **12 cm**.\n\nKunci Jawaban: **C (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q13_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q13_opt_b",
+        "label": "B",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q13_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q13_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q14",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui segitiga ABC siku-siku di B. Jika luas segitiga ABC 105 cm² dan panjang AB = 14 cm, panjang BC adalah … cm.",
+    "imageUrl": null,
+    "explanation": "AB dan BC adalah sisi siku-siku. BC = 2 × 105 : 14 = 210 : 14 = **15 cm**.\n\nKunci Jawaban: **A (15)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q14_opt_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q14_opt_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q14_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q14_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q15",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah segitiga siku-siku ABC luasnya 24 cm² dan tingginya 8 cm. Hitunglah keliling segitiga ABC tersebut!",
+    "imageUrl": null,
+    "explanation": "Alas = 2 × 24 : 8 = 6 cm. Sisi miring dari tripel 6, 8, 10 = 10 cm. Keliling = 6 + 8 + 10 = **24 cm**.\n\nKunci Jawaban: **B (24 cm)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q15_opt_a",
+        "label": "A",
+        "content": "20 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q15_opt_b",
+        "label": "B",
+        "content": "24 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q15_opt_c",
+        "label": "C",
+        "content": "28 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q15_opt_d",
+        "label": "D",
+        "content": "34 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q16",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika 2 ⊠ 4 = 2 + 3 + 4 + 5 dan 5 ⊠ 3 = 5 + 6 + 7, serta 1 ⊠ x = 15, maka nilai x adalah ...",
+    "imageUrl": null,
+    "explanation": "a ⊠ b = jumlah b bilangan berurutan mulai dari a. 1 ⊠ x = 1 + 2 + 3 + … sebanyak x suku = 15. 1 + 2 + 3 + 4 + 5 = 15 → **x = 5**.\n\nKunci Jawaban: **D (5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q16_opt_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q16_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q16_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q16_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q17",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah dua bilangan asli yang berbeda adalah 998. Hasil kali terbesar yang mungkin adalah ...",
+    "imageUrl": null,
+    "explanation": "Hasil kali terbesar dicapai saat kedua bilangan sedekat mungkin. Karena harus berbeda: 498 dan 500. 498 × 500 = **249.000**.\n\nKunci Jawaban: **B (249000)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q17_opt_a",
+        "label": "A",
+        "content": "998",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q17_opt_b",
+        "label": "B",
+        "content": "249000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q17_opt_c",
+        "label": "C",
+        "content": "4500",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q17_opt_d",
+        "label": "D",
+        "content": "5000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q18",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah persegi dipotong salah satu sisinya sebesar 6 cm, kemudian sisi lainnya dipotong 10 cm, sehingga menjadi persegi panjang. Ternyata luas persegi panjang 260 cm² lebih kecil daripada luas persegi. Panjang sisi persegi sebelum dipotong adalah ...",
+    "imageUrl": null,
+    "explanation": "Misal sisi s. (s − 6)(s − 10) = s² − 260 → s² − 16s + 60 = s² − 260 → 16s = 320 → **s = 20 cm**. Cek: 400 − 14 × 10 = 400 − 140 = 260 ✓.\n\nKunci Jawaban: **B (20)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q18_opt_a",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q18_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q18_opt_c",
+        "label": "C",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q18_opt_d",
+        "label": "D",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q19",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tono ikut kompetisi matematika KMSI yang terdiri dari 20 soal. Jawaban benar bernilai 5, jawaban salah bernilai −3, dan tidak menjawab dianggap salah. Nilai total Tono 60. Berapa jawaban yang benar?",
+    "imageUrl": null,
+    "explanation": "Metode andaikan: jika semua benar nilainya 100. Setiap soal salah mengurangi 5 + 3 = 8 poin. (100 − 60) : 8 = 5 salah → benar **15**. Cek: 75 − 15 = 60 ✓.\n\nKunci Jawaban: **D (15)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q19_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q19_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q19_opt_c",
+        "label": "C",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q19_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q20",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Salah satu soal matematika KMSI adalah 8 × (Φ + 10) = ?. Jono salah membaca kurung, ia menghitung (8 × Φ) + 10 = ?. Berapakah selisih hasil yang benar dengan hasil Jono?",
+    "imageUrl": null,
+    "explanation": "Hasil benar = 8Φ + 80. Hasil Jono = 8Φ + 10. Selisih = 80 − 10 = **70** (berapa pun nilai Φ).\n\nKunci Jawaban: **A (70)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q20_opt_a",
+        "label": "A",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q20_opt_b",
+        "label": "B",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q20_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q20_opt_d",
+        "label": "D",
+        "content": "tidak dapat ditentukan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q21",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berapa hasil dari:\n\n$$\\frac{\\frac{5}{3} + \\frac{5}{6} + \\frac{5}{9} + \\frac{5}{12}}{\\frac{8}{6} + \\frac{8}{12} + \\frac{8}{18} + \\frac{8}{24}}$$",
+    "imageUrl": null,
+    "explanation": "Misal S = ⅓ + ⅙ + ⅑ + 1/12. Pembilang = 5S. Penyebut = 8 × (⅙ + 1/12 + 1/18 + 1/24) = 8 × ½S = 4S. Hasil = 5S : 4S = **5/4**.\n\nKunci Jawaban: **A (5/4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q21_opt_a",
+        "label": "A",
+        "content": "5/4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q21_opt_b",
+        "label": "B",
+        "content": "9/4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q21_opt_c",
+        "label": "C",
+        "content": "5/3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q21_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q22",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Keliling sebuah segitiga siku-siku adalah 12 cm dan luasnya 6 cm². Panjang sisi terpanjangnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Tripel 3, 4, 5: keliling 3 + 4 + 5 = 12 dan luas ½ × 3 × 4 = 6 ✓. Sisi terpanjang **5 cm**.\n\nKunci Jawaban: **D (5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q22_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q22_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q22_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q22_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q23",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gambar berikut sebuah persegi besar dibagi menjadi beberapa persegi kecil. Pecahan yang menunjukkan daerah diarsir adalah ...",
+    "imageUrl": "/uploads/kmsi24_prov_m2_q23.png",
+    "explanation": "Persegi besar = 4 × 4 = 16 kotak. Empat kotak pojok diarsir = 4/16 = ¼. Bagian tengah (2 × 2 kotak) dibagi 9 persegi kecil, 3 diarsir = 3/9 × 4/16 = 1/12. Total = ¼ + 1/12 = 3/12 + 1/12 = **⅓**.\n\nKunci Jawaban: **A (1/3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q23_opt_a",
+        "label": "A",
+        "content": "1/3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q23_opt_b",
+        "label": "B",
+        "content": "1/4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q23_opt_c",
+        "label": "C",
+        "content": "1/5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q23_opt_d",
+        "label": "D",
+        "content": "3/5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q24",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada deretan angka 123454321234543212345432123454321⋯\n\nJumlah semua angka hingga urutan ke-100 adalah ....",
+    "imageUrl": null,
+    "explanation": "Pola berulang \"12345432\" (8 angka) dengan jumlah 24. 100 = 12 × 8 + 4 → 12 × 24 + (1 + 2 + 3 + 4) = 288 + 10 = **298**.\n\nKunci Jawaban: **D (298)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q24_opt_a",
+        "label": "A",
+        "content": "350",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q24_opt_b",
+        "label": "B",
+        "content": "250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q24_opt_c",
+        "label": "C",
+        "content": "405",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q24_opt_d",
+        "label": "D",
+        "content": "298",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q25",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ada berapa angka 0 berurutan di akhir hasil perkalian 20 × 30 × 40 × 50?",
+    "imageUrl": null,
+    "explanation": "2 × 3 × 4 × 5 = 120 (satu nol), ditambah empat nol dari 20, 30, 40, 50. Hasil 1.200.000 → **5** nol.\n\nKunci Jawaban: **D (5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q25_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q25_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q25_opt_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q25_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q26",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Simbol ⊙, ⊞, dan ⋒ melambangkan angka yang berbeda. Jika 7⊙90901 lebih besar daripada 79⊞9001, dan 79⊞9001 juga lebih besar daripada 798900⋒, maka nilai ⊙ + ⊞ + ⋒ adalah ...",
+    "imageUrl": null,
+    "explanation": "7⊙90901 > 79⊞9001 → ⊙ harus 9 (angka kedua minimal 9), lalu 7990901 > 79⊞9001 → ⊞ < 9.\n79⊞9001 > 798900⋒ → ⊞ ≥ 8, jadi ⊞ = 8, lalu 7989001 > 798900⋒ → ⋒ < 1 → ⋒ = 0.\n⊙ + ⊞ + ⋒ = 9 + 8 + 0 = **17**.\n\nKunci Jawaban: **A (17)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q26_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q26_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q26_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q26_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q27",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ada berapa persegi panjang dalam gambar berikut?",
+    "imageUrl": "/uploads/kmsi24_prov_m2_q28.png",
+    "explanation": "Jika gridnya lengkap 3 × 3, banyak persegi panjang = C(4,2) × C(4,2) = 6 × 6 = 36. Sel pojok kiri atas tidak bergaris atas dan kiri, sehingga semua persegi panjang yang memakai pojok kiri atas hilang: 3 × 3 = 9. Total 36 − 9 = **27**.\n\nKunci Jawaban: **A (27)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q27_opt_a",
+        "label": "A",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q27_opt_b",
+        "label": "B",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q27_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q27_opt_d",
+        "label": "D",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q28",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berapa kalikah angka 2 ditulis dalam nomor halaman buku setebal 1000 halaman?",
+    "imageUrl": null,
+    "explanation": "Dari 000–999, setiap posisi (satuan, puluhan, ratusan) memuat angka 2 sebanyak 100 kali. 3 × 100 = **300** (halaman 1000 tidak memuat angka 2).\n\nKunci Jawaban: **A (300)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q28_opt_a",
+        "label": "A",
+        "content": "300",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q28_opt_b",
+        "label": "B",
+        "content": "404",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q28_opt_c",
+        "label": "C",
+        "content": "180",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q28_opt_d",
+        "label": "D",
+        "content": "250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q29",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ketika menulis bilangan bulat berurutan mulai dari 1 hingga 2023, ada berapa bilangan yang hanya memiliki tepat satu angka \"2\" (contoh 102, 203, 1002)?",
+    "imageUrl": null,
+    "explanation": "1–999: tepat satu angka 2 → pilih posisi (3) × 9 × 9 = 243.\n1000–1999: sama seperti 000–999 → 243.\n2000–2023: angka depan sudah 2, sisanya tidak boleh 2: 2000–2023 tanpa angka 2 lain → 2000, 2001, 2003–2009, 2010, 2011, 2013–2019 = 18.\nTotal 243 + 243 + 18 = **504**.\n\nKunci Jawaban: **C (504)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q29_opt_a",
+        "label": "A",
+        "content": "300",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q29_opt_b",
+        "label": "B",
+        "content": "404",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q29_opt_c",
+        "label": "C",
+        "content": "504",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q29_opt_d",
+        "label": "D",
+        "content": "250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q30",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada sebuah segi delapan beraturan, dengan menghubungkan 3 titik sudutnya, ada berapa segitiga yang tidak kongruen (bentuknya berbeda) yang dapat dibentuk?",
+    "imageUrl": null,
+    "explanation": "Segitiga ditentukan oleh banyak sisi segi delapan yang dilompati antar titik, berjumlah 8: (1,1,6), (1,2,5), (1,3,4), (2,2,4), (2,3,3). Ada **5** bentuk berbeda.\n\nKunci Jawaban: **A (5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q30_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q30_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q30_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q30_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q31",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "99 siswa berdiri melingkar dan masing-masing bersalaman sekali dengan teman di sebelahnya. Ada berapa kali salaman yang terjadi?",
+    "imageUrl": null,
+    "explanation": "Pada lingkaran, banyak pasangan bersebelahan sama dengan banyak orang: **99** salaman (bukan jabat tangan semua orang).\n\nKunci Jawaban: **D (99)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q31_opt_a",
+        "label": "A",
+        "content": "5050",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q31_opt_b",
+        "label": "B",
+        "content": "400",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q31_opt_c",
+        "label": "C",
+        "content": "120",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q31_opt_d",
+        "label": "D",
+        "content": "99",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q32",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada gambar berikut terdapat 5 titik pada lingkaran. Ada berapa segitiga yang dapat dibuat jika salah satu titik sudutnya adalah A atau B?",
+    "imageUrl": "/uploads/kmsi24_prov_m2_q32.png",
+    "explanation": "Semua segitiga dari 5 titik = C(5,3) = 10. Yang tidak memuat A maupun B hanya CDE = 1. Jadi 10 − 1 = **9**.\n\nKunci Jawaban: **B (9)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q32_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q32_opt_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q32_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q32_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q33",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dengan menghubungkan 4 titik pada gambar berikut, ada berapa segi empat yang dapat dibentuk?",
+    "imageUrl": "/uploads/kmsi24_prov_m2_q33.png",
+    "explanation": "Segi empat butuh 2 titik dari garis atas dan 2 titik dari garis bawah (3 titik segaris tidak bisa). C(4,2) × C(3,2) = 6 × 3 = **18**.\n\nKunci Jawaban: **D (18)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q33_opt_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q33_opt_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q33_opt_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q33_opt_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q34",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Deva mendata gunung-gunung tinggi di Papua:\n\n$$\\begin{array}{|l|r|}\\hline \\text{Gunung} & \\text{Tinggi (mdpl)} \\\\ \\hline \\text{Dom} & 1.332 \\\\ \\text{Foja} & 1.800 \\\\ \\text{Togwomeri} & 2.680 \\\\ \\text{Redoura} & 3.083 \\\\ \\hline \\end{array}$$\n\nUrutan gunung dari yang paling tinggi adalah ....",
+    "imageUrl": null,
+    "explanation": "3.083 > 2.680 > 1.800 > 1.332 → Redoura, Togwomeri, Foja, Dom.\n\nKunci Jawaban: **D (Redoura, Togwomeri, Foja, & Dom)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q34_opt_a",
+        "label": "A",
+        "content": "Redoura, Dom, Foja, & Togwomeri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q34_opt_b",
+        "label": "B",
+        "content": "Togwomeri, Redoura, Dom, & Foja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q34_opt_c",
+        "label": "C",
+        "content": "Togwomeri, Redoura, Foja, & Dom",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q34_opt_d",
+        "label": "D",
+        "content": "Redoura, Togwomeri, Foja, & Dom",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q35",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gunung Lokon di dekat Kota Tomohon, Sulawesi Utara, memiliki ketinggian 1.580 meter dari permukaan laut. Bilangan 1.580 jika didekomposisikan menjadi ....",
+    "imageUrl": null,
+    "explanation": "1.580 = 1 ribuan + 5 ratusan + 8 puluhan + 0 satuan = 1.000 + 500 + 80 + 0.\n\nKunci Jawaban: **A (1.000 + 500 + 80 + 0)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q35_opt_a",
+        "label": "A",
+        "content": "1.000 + 500 + 80 + 0",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q35_opt_b",
+        "label": "B",
+        "content": "1.000 + 800 + 50 + 0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q35_opt_c",
+        "label": "C",
+        "content": "1 + 5 + 8 + 0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q35_opt_d",
+        "label": "D",
+        "content": "1.000 + 50 + 80 + 0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q36",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tinggi Gunung Paupau tersusun dari empat angka. Angka 1 menempati ribuan dan puluhan, angka 8 ratusan, dan angka 5 satuan. Tinggi Gunung Paupau adalah ... mdpl.",
+    "imageUrl": null,
+    "explanation": "Ribuan 1, ratusan 8, puluhan 1, satuan 5 → **1.815**.\n\nKunci Jawaban: **B (1.815)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q36_opt_a",
+        "label": "A",
+        "content": "1.851",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q36_opt_b",
+        "label": "B",
+        "content": "1.815",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q36_opt_c",
+        "label": "C",
+        "content": "1.581",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q36_opt_d",
+        "label": "D",
+        "content": "1.518",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q37",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada sebuah pameran buku terjual 206 buku fiksi dan 112 buku nonfiksi. Jumlah buku yang terjual adalah ... eksemplar.",
+    "imageUrl": null,
+    "explanation": "206 + 112 = **318**.\n\nKunci Jawaban: **C (318)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q37_opt_a",
+        "label": "A",
+        "content": "305",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q37_opt_b",
+        "label": "B",
+        "content": "315",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q37_opt_c",
+        "label": "C",
+        "content": "318",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q37_opt_d",
+        "label": "D",
+        "content": "320",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_2_q38",
+    "topicId": "top_kmsi_2024_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pak Rojak memanen 96 butir mangga dan mengemasnya ke dalam 8 kotak kayu sama banyak. Setiap kotak berisi ... buah mangga.",
+    "imageUrl": null,
+    "explanation": "96 : 8 = **12** (karena 8 × 12 = 96).\n\nKunci Jawaban: **B (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q38_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q38_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q38_opt_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_2_q38_opt_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

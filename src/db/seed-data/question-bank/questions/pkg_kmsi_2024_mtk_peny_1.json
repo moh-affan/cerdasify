@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q01",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nama lambang bilangan 25 adalah ...",
+    "imageUrl": null,
+    "explanation": "25 = 2 puluhan dan 5 satuan, dibaca **dua puluh lima**.\n\nKunci Jawaban: **B (Dua puluh lima)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q01_opt_a",
+        "label": "A",
+        "content": "Dua lima",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q01_opt_b",
+        "label": "B",
+        "content": "Dua puluh lima",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q01_opt_c",
+        "label": "C",
+        "content": "Dua dan lima",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q01_opt_d",
+        "label": "D",
+        "content": "Dua lima puluh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q02",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nama lambang bilangan 37 adalah ...",
+    "imageUrl": null,
+    "explanation": "37 = 3 puluhan dan 7 satuan, dibaca **tiga puluh tujuh**.\n\nKunci Jawaban: **A (Tiga puluh tujuh)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q02_opt_a",
+        "label": "A",
+        "content": "Tiga puluh tujuh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q02_opt_b",
+        "label": "B",
+        "content": "Tiga dan tujuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q02_opt_c",
+        "label": "C",
+        "content": "Tiga tujuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q02_opt_d",
+        "label": "D",
+        "content": "Tiga tujuh puluh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q03",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Lambang bilangan dari enam puluh sembilan adalah ...",
+    "imageUrl": null,
+    "explanation": "Enam puluh = 60, sembilan = 9. 60 + 9 = **69**.\n\nKunci Jawaban: **B (69)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q03_opt_a",
+        "label": "A",
+        "content": "609",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q03_opt_b",
+        "label": "B",
+        "content": "69",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q03_opt_c",
+        "label": "C",
+        "content": "6 dan 9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q03_opt_d",
+        "label": "D",
+        "content": "690",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q04",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "18 – 15 – 17 – 14 – 16\n\nBilangan yang terkecil adalah ....",
+    "imageUrl": null,
+    "explanation": "Semua bilangan berpuluhan 1, jadi bandingkan satuannya: 4 paling kecil. Bilangan terkecil **14**.\n\nKunci Jawaban: **C (14)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q04_opt_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q04_opt_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q04_opt_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q04_opt_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q05",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "25 – 23 – 32 – 36 – 26\n\nUrutan dari yang paling kecil adalah ...",
+    "imageUrl": null,
+    "explanation": "Puluhan 2 lebih kecil dari puluhan 3. Urutan: 23, 25, 26, lalu 32, 36.\n\nKunci Jawaban: **D (23 – 25 – 26 – 32 – 36)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q05_opt_a",
+        "label": "A",
+        "content": "32 – 23 – 25 – 26 – 36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q05_opt_b",
+        "label": "B",
+        "content": "25 – 23 – 32 – 36 – 26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q05_opt_c",
+        "label": "C",
+        "content": "23 – 32 – 25 – 36 – 26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q05_opt_d",
+        "label": "D",
+        "content": "23 – 25 – 26 – 32 – 36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q06",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "34 = ...",
+    "imageUrl": null,
+    "explanation": "Angka kiri (3) menempati puluhan, angka kanan (4) menempati satuan. 34 = 3 puluhan dan 4 satuan.\n\nKunci Jawaban: **C (3 puluhan dan 4 satuan)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q06_opt_a",
+        "label": "A",
+        "content": "3 satuan dan 4 puluhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q06_opt_b",
+        "label": "B",
+        "content": "3 puluhan dan 4 puluhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q06_opt_c",
+        "label": "C",
+        "content": "3 puluhan dan 4 satuan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q06_opt_d",
+        "label": "D",
+        "content": "3 ratusan dan 4 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q07",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Angka yang menempati puluhan pada lambang bilangan 156 adalah ...",
+    "imageUrl": null,
+    "explanation": "156: 1 ratusan, **5 puluhan**, 6 satuan.\n\nKunci Jawaban: **B (5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q07_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q07_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q07_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q07_opt_d",
+        "label": "D",
+        "content": "Semua jawaban salah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q08",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "6 puluhan + 8 satuan = ...",
+    "imageUrl": null,
+    "explanation": "6 puluhan = 60, 8 satuan = 8. 60 + 8 = **68**.\n\nKunci Jawaban: **B (68)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q08_opt_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q08_opt_b",
+        "label": "B",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q08_opt_c",
+        "label": "C",
+        "content": "86",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q08_opt_d",
+        "label": "D",
+        "content": "88",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q09",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "25 + 37 = ...",
+    "imageUrl": null,
+    "explanation": "Satuan 5 + 7 = 12 (tulis 2, simpan 1). Puluhan 2 + 3 + 1 = 6. Hasilnya **62**.\n\nKunci Jawaban: **A (62)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q09_opt_a",
+        "label": "A",
+        "content": "62",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q09_opt_b",
+        "label": "B",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q09_opt_c",
+        "label": "C",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q09_opt_d",
+        "label": "D",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q10",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "32 + 19 = ...",
+    "imageUrl": null,
+    "explanation": "Satuan 2 + 9 = 11 (tulis 1, simpan 1). Puluhan 3 + 1 + 1 = 5. Hasilnya **51**.\n\nKunci Jawaban: **D (51)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q10_opt_a",
+        "label": "A",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q10_opt_b",
+        "label": "B",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q10_opt_c",
+        "label": "C",
+        "content": "41",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q10_opt_d",
+        "label": "D",
+        "content": "51",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q11",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "45 – 23 = ...",
+    "imageUrl": null,
+    "explanation": "Satuan 5 − 3 = 2, puluhan 4 − 2 = 2. Hasilnya **22**.\n\nKunci Jawaban: **C (22)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q11_opt_a",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q11_opt_b",
+        "label": "B",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q11_opt_c",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q11_opt_d",
+        "label": "D",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q12",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "30 + 21 – 5 = ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan dari kiri: 30 + 21 = 51, lalu 51 − 5 = **46**.\n\nKunci Jawaban: **A (46)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q12_opt_a",
+        "label": "A",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q12_opt_b",
+        "label": "B",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q12_opt_c",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q12_opt_d",
+        "label": "D",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q13",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "45 – 11 – 23 = ...",
+    "imageUrl": null,
+    "explanation": "45 − 11 = 34, lalu 34 − 23 = **11**.\n\nKunci Jawaban: **C (11)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q13_opt_a",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q13_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q13_opt_c",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q13_opt_d",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q14",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Andi mempunyai 10 permen. Andi membeli lagi 14. Permen Andi sekarang adalah ....",
+    "imageUrl": null,
+    "explanation": "Membeli lagi berarti ditambah: 10 + 14 = **24** permen.\n\nKunci Jawaban: **A (24)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q14_opt_a",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q14_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q14_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q14_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q15",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu mempunyai 25 ekor ayam. Ayam milik ibu mati 15. Ayam milik ibu sekarang adalah ...",
+    "imageUrl": null,
+    "explanation": "Ayam yang mati dikurangkan: 25 − 15 = **10** ekor.\n\nKunci Jawaban: **D (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q15_opt_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q15_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q15_opt_c",
+        "label": "C",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q15_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q16",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berat Andi 20 kg dan berat Budi 23 kg. Siapakah yang badannya lebih berat?",
+    "imageUrl": null,
+    "explanation": "23 kg lebih besar dari 20 kg, jadi **Budi** lebih berat.\n\nKunci Jawaban: **B (Budi)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q16_opt_a",
+        "label": "A",
+        "content": "Andi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q16_opt_b",
+        "label": "B",
+        "content": "Budi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q16_opt_c",
+        "label": "C",
+        "content": "Sama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q16_opt_d",
+        "label": "D",
+        "content": "Tidak ada",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q17",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di kandang ada ayam, kambing, dan sapi. Binatang yang paling ringan adalah ...",
+    "imageUrl": null,
+    "explanation": "Ayam jauh lebih kecil daripada kambing dan sapi, sehingga paling ringan.\n\nKunci Jawaban: **A (Ayam)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q17_opt_a",
+        "label": "A",
+        "content": "Ayam",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q17_opt_b",
+        "label": "B",
+        "content": "Kambing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q17_opt_c",
+        "label": "C",
+        "content": "Sapi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q17_opt_d",
+        "label": "D",
+        "content": "Semua binatang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q18",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di meja belajar ada buku, pensil, dan bolpoin. Benda yang paling berat adalah ...",
+    "imageUrl": null,
+    "explanation": "Buku memiliki banyak lembar kertas sehingga paling berat dibanding pensil dan bolpoin.\n\nKunci Jawaban: **C (Buku)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q18_opt_a",
+        "label": "A",
+        "content": "Bolpoin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q18_opt_b",
+        "label": "B",
+        "content": "Pensil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q18_opt_c",
+        "label": "C",
+        "content": "Buku",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q18_opt_d",
+        "label": "D",
+        "content": "Semua benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q19",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Roda sepeda berbentuk ...",
+    "imageUrl": null,
+    "explanation": "Roda berbentuk bulat dan tidak bersudut, yaitu **lingkaran**, agar bisa menggelinding.\n\nKunci Jawaban: **C (Lingkaran)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q19_opt_a",
+        "label": "A",
+        "content": "Segiempat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q19_opt_b",
+        "label": "B",
+        "content": "Segitiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q19_opt_c",
+        "label": "C",
+        "content": "Lingkaran",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q19_opt_d",
+        "label": "D",
+        "content": "Oval",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q20",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Benda yang berbentuk persegi panjang adalah ...",
+    "imageUrl": null,
+    "explanation": "Uang kertas memiliki dua sisi panjang dan dua sisi pendek: persegi panjang. Uang logam berbentuk lingkaran.\n\nKunci Jawaban: **D (Uang kertas)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q20_opt_a",
+        "label": "A",
+        "content": "Uang logam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q20_opt_b",
+        "label": "B",
+        "content": "Gelas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q20_opt_c",
+        "label": "C",
+        "content": "Bola",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q20_opt_d",
+        "label": "D",
+        "content": "Uang kertas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q21",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jumlah sisi pada segi empat ada ...",
+    "imageUrl": null,
+    "explanation": "Segi empat memiliki **4** sisi.\n\nKunci Jawaban: **B (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q21_opt_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q21_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q21_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q21_opt_d",
+        "label": "D",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q22",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bangun yang sisinya ada 3 adalah ...",
+    "imageUrl": null,
+    "explanation": "Bangun bersisi tiga adalah **segitiga**.\n\nKunci Jawaban: **C (Segitiga)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q22_opt_a",
+        "label": "A",
+        "content": "Persegi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q22_opt_b",
+        "label": "B",
+        "content": "Lingkaran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q22_opt_c",
+        "label": "C",
+        "content": "Segitiga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q22_opt_d",
+        "label": "D",
+        "content": "Segi empat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q23",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Buah semangka ..... dari buah jeruk.",
+    "imageUrl": null,
+    "explanation": "Semangka jauh lebih besar sehingga **lebih berat** dari jeruk.\n\nKunci Jawaban: **A (Lebih berat)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q23_opt_a",
+        "label": "A",
+        "content": "Lebih berat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q23_opt_b",
+        "label": "B",
+        "content": "Lebih ringan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q23_opt_c",
+        "label": "C",
+        "content": "Sama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q23_opt_d",
+        "label": "D",
+        "content": "Lebih kecil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q24",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Lambang bilangan dari tujuh puluh lima adalah ....",
+    "imageUrl": null,
+    "explanation": "Tujuh puluh = 70, lima = 5. 70 + 5 = **75**.\n\nKunci Jawaban: **C (75)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q24_opt_a",
+        "label": "A",
+        "content": "705",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q24_opt_b",
+        "label": "B",
+        "content": "7005",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q24_opt_c",
+        "label": "C",
+        "content": "75",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q24_opt_d",
+        "label": "D",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q25",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "17 + 42 = ...",
+    "imageUrl": null,
+    "explanation": "Satuan 7 + 2 = 9, puluhan 1 + 4 = 5. Hasilnya **59**.\n\nKunci Jawaban: **D (59)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q25_opt_a",
+        "label": "A",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q25_opt_b",
+        "label": "B",
+        "content": "69",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q25_opt_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q25_opt_d",
+        "label": "D",
+        "content": "59",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q26",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Lambang bilangan enam puluh dua adalah ...",
+    "imageUrl": null,
+    "explanation": "Enam puluh = 60, dua = 2. Hasilnya **62**.\n\nKunci Jawaban: **B (62)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q26_opt_a",
+        "label": "A",
+        "content": "74",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q26_opt_b",
+        "label": "B",
+        "content": "62",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q26_opt_c",
+        "label": "C",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q26_opt_d",
+        "label": "D",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q27",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "88 dibaca ...",
+    "imageUrl": null,
+    "explanation": "88 = 8 puluhan dan 8 satuan, dibaca **delapan puluh delapan**.\n\nKunci Jawaban: **C (Delapan puluh delapan)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q27_opt_a",
+        "label": "A",
+        "content": "Delapan puluh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q27_opt_b",
+        "label": "B",
+        "content": "Delapan belas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q27_opt_c",
+        "label": "C",
+        "content": "Delapan puluh delapan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q27_opt_d",
+        "label": "D",
+        "content": "Delapan ratus delapan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q28",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Yang menempati satuan pada 76 adalah ...",
+    "imageUrl": null,
+    "explanation": "Angka paling kanan menempati satuan. Pada 76, satuannya **6**.\n\nKunci Jawaban: **B (6 satuan)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q28_opt_a",
+        "label": "A",
+        "content": "5 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q28_opt_b",
+        "label": "B",
+        "content": "6 satuan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q28_opt_c",
+        "label": "C",
+        "content": "7 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q28_opt_d",
+        "label": "D",
+        "content": "8 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q29",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "18 + 27 = ...",
+    "imageUrl": null,
+    "explanation": "Satuan 8 + 7 = 15 (tulis 5, simpan 1). Puluhan 1 + 2 + 1 = 4. Hasilnya **45**.\n\nKunci Jawaban: **A (45)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q29_opt_a",
+        "label": "A",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q29_opt_b",
+        "label": "B",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q29_opt_c",
+        "label": "C",
+        "content": "96",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q29_opt_d",
+        "label": "D",
+        "content": "55",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_1_q30",
+    "topicId": "top_kmsi_2024_mtk_peny_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "58 – 19 = ...",
+    "imageUrl": null,
+    "explanation": "Satuan 8 − 9 tidak bisa, pinjam 1 puluhan: 18 − 9 = 9. Puluhan 4 − 1 = 3. Hasilnya **39**.\nCek: 39 + 19 = 58.\n\nKunci Jawaban: **D (39)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q30_opt_a",
+        "label": "A",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q30_opt_b",
+        "label": "B",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q30_opt_c",
+        "label": "C",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_1_q30_opt_d",
+        "label": "D",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

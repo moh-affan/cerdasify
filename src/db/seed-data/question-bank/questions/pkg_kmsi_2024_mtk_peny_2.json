@@ -1,0 +1,1394 @@
+[
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q01",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 46 – 57 + 199 adalah …",
+    "imageUrl": null,
+    "explanation": "Trik: tukar urutan agar mudah. 46 + 199 = 245, lalu 245 − 57 = **188**.\n\nKunci Jawaban: **A (188)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q01_opt_a",
+        "label": "A",
+        "content": "188",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q01_opt_b",
+        "label": "B",
+        "content": "190",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q01_opt_c",
+        "label": "C",
+        "content": "208",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q01_opt_d",
+        "label": "D",
+        "content": "210",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q02",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat ukur berat adalah ….",
+    "imageUrl": null,
+    "explanation": "Neraca (timbangan) mengukur berat. Termometer mengukur suhu, mistar dan meteran mengukur panjang.\n\nKunci Jawaban: **B (Neraca)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q02_opt_a",
+        "label": "A",
+        "content": "Termometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q02_opt_b",
+        "label": "B",
+        "content": "Neraca",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q02_opt_c",
+        "label": "C",
+        "content": "Mistar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q02_opt_d",
+        "label": "D",
+        "content": "Meteran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q03",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dua ribu rupiah senilai dengan ….",
+    "imageUrl": null,
+    "explanation": "10 × Rp200 = Rp2.000. (10 × Rp100 = Rp1.000; 10 × Rp1.000 = Rp10.000; 10 × Rp500 = Rp5.000.)\n\nKunci Jawaban: **A (Sepuluh koin dua ratusan)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q03_opt_a",
+        "label": "A",
+        "content": "Sepuluh koin dua ratusan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q03_opt_b",
+        "label": "B",
+        "content": "Sepuluh koin seratusan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q03_opt_c",
+        "label": "C",
+        "content": "Sepuluh koin seribuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q03_opt_d",
+        "label": "D",
+        "content": "Sepuluh koin lima ratusan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q04",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu membeli 19 buah semangka kemudian mendapat bonus 3 buah semangka. Banyak semangka ibu adalah …",
+    "imageUrl": null,
+    "explanation": "Bonus berarti bertambah: 19 + 3 = **22**.\n\nKunci Jawaban: **D (22)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q04_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q04_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q04_opt_c",
+        "label": "C",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q04_opt_d",
+        "label": "D",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q05",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Urutan bilangan loncat 4 setelah 87 adalah …",
+    "imageUrl": null,
+    "explanation": "Loncat 4 dimulai sesudah 87: 87 + 4 = 91, 91 + 4 = 95, 95 + 4 = 99.\n\nKunci Jawaban: **D (91, 95, 99)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q05_opt_a",
+        "label": "A",
+        "content": "83, 87, 91",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q05_opt_b",
+        "label": "B",
+        "content": "86, 90, 94",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q05_opt_c",
+        "label": "C",
+        "content": "87, 91, 95",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q05_opt_d",
+        "label": "D",
+        "content": "91, 95, 99",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q06",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai penjumlahan dari angka ratusan dan puluhan dari hasil 77 + 52 adalah ….",
+    "imageUrl": null,
+    "explanation": "77 + 52 = 129. Angka ratusan = 1, angka puluhan = 2. Jumlahnya 1 + 2 = **3**.\n\nKunci Jawaban: **D (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q06_opt_a",
+        "label": "A",
+        "content": "129",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q06_opt_b",
+        "label": "B",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q06_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q06_opt_d",
+        "label": "D",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q07",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Seminggu setelah hari Kamis adalah hari ….",
+    "imageUrl": null,
+    "explanation": "Seminggu = 7 hari. Setelah 7 hari, hari kembali sama: **Kamis**.\n\nKunci Jawaban: **A (Kamis)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q07_opt_a",
+        "label": "A",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q07_opt_b",
+        "label": "B",
+        "content": "Jumat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q07_opt_c",
+        "label": "C",
+        "content": "Sabtu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q07_opt_d",
+        "label": "D",
+        "content": "Minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q08",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bilangan yang tepat untuk mengisi urutan bilangan 37, …, 49, 55, 61 adalah ….",
+    "imageUrl": null,
+    "explanation": "Selisih 49 → 55 → 61 adalah 6. Jadi 37 + 6 = **43** (cek: 43 + 6 = 49).\n\nKunci Jawaban: **D (43)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q08_opt_a",
+        "label": "A",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q08_opt_b",
+        "label": "B",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q08_opt_c",
+        "label": "C",
+        "content": "41",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q08_opt_d",
+        "label": "D",
+        "content": "43",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q09",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kata yang tepat untuk melengkapi 200 + 10 + 5 ….. 200 + 20 + 1 adalah …",
+    "imageUrl": null,
+    "explanation": "200 + 10 + 5 = 215 dan 200 + 20 + 1 = 221. 215 **lebih kecil** dari 221.\n\nKunci Jawaban: **B (lebih kecil)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q09_opt_a",
+        "label": "A",
+        "content": "sama dengan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q09_opt_b",
+        "label": "B",
+        "content": "lebih kecil",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q09_opt_c",
+        "label": "C",
+        "content": "lebih besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q09_opt_d",
+        "label": "D",
+        "content": "seimbang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q10",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Banyaknya angka 1 yang muncul dari bilangan 1 – 20 adalah …",
+    "imageUrl": null,
+    "explanation": "Satuan 1: 1 dan 11 → 2 angka. Puluhan 1: 10–19 → 10 angka. Total 2 + 10 = **12** (bilangan 11 memuat dua angka 1).\n\nKunci Jawaban: **C (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q10_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q10_opt_b",
+        "label": "B",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q10_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q10_opt_d",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q11",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "200 – 9 = …",
+    "imageUrl": null,
+    "explanation": "Trik: 200 − 10 = 190, lalu tambah 1 → **191**.\n\nKunci Jawaban: **C (191)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q11_opt_a",
+        "label": "A",
+        "content": "209",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q11_opt_b",
+        "label": "B",
+        "content": "200",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q11_opt_c",
+        "label": "C",
+        "content": "191",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q11_opt_d",
+        "label": "D",
+        "content": "109",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q12",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Penulisan seribu lima puluh rupiah adalah …",
+    "imageUrl": null,
+    "explanation": "Seribu = 1.000, lima puluh = 50. 1.000 + 50 = **Rp1.050,00**.\n\nKunci Jawaban: **B (Rp 1.050,00)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q12_opt_a",
+        "label": "A",
+        "content": "Rp 1.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q12_opt_b",
+        "label": "B",
+        "content": "Rp 1.050,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q12_opt_c",
+        "label": "C",
+        "content": "Rp 1.005,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q12_opt_d",
+        "label": "D",
+        "content": "Rp 150,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q13",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika lima bilangan dijumlahkan, jumlahnya 1000. Salah satu bilangan diubah dari 234 menjadi 435. Tentukan jumlah bilangan sekarang ….",
+    "imageUrl": null,
+    "explanation": "Bilangan bertambah 435 − 234 = 201, jadi jumlahnya ikut bertambah 201: 1.000 + 201 = **1.201**.\n\nKunci Jawaban: **A (1201)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q13_opt_a",
+        "label": "A",
+        "content": "1201",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q13_opt_b",
+        "label": "B",
+        "content": "799",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q13_opt_c",
+        "label": "C",
+        "content": "1102",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q13_opt_d",
+        "label": "D",
+        "content": "997",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q14",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Manakah di antara bilangan berikut yang merupakan bilangan prima, kecuali ....",
+    "imageUrl": null,
+    "explanation": "Cek habis dibagi 3: 5 + 7 = 12 → 57 = 3 × 19, bukan prima. 67, 97, dan 79 adalah bilangan prima.\n\nKunci Jawaban: **A (57)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q14_opt_a",
+        "label": "A",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q14_opt_b",
+        "label": "B",
+        "content": "67",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q14_opt_c",
+        "label": "C",
+        "content": "97",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q14_opt_d",
+        "label": "D",
+        "content": "79",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q15",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tes olimpiade matematika dimulai pukul 07.35. Jika lamanya tes adalah 135 menit, maka tes akan selesai pada pukul ....",
+    "imageUrl": null,
+    "explanation": "135 menit = 2 jam 15 menit. 07.35 + 2 jam = 09.35, lalu + 15 menit = **09.50**.\n\nKunci Jawaban: **B (09.50)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q15_opt_a",
+        "label": "A",
+        "content": "10.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q15_opt_b",
+        "label": "B",
+        "content": "09.50",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q15_opt_c",
+        "label": "C",
+        "content": "09.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q15_opt_d",
+        "label": "D",
+        "content": "10.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q16",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Badu memiliki hewan ternak sebanyak 25 ekor, yang terdiri dari ayam dan kambing. Jika jumlah kaki kambing ada 64, maka jumlah kaki ayam yang dimiliki Badu adalah ….",
+    "imageUrl": null,
+    "explanation": "Kambing = 64 : 4 = 16 ekor. Ayam = 25 − 16 = 9 ekor. Kaki ayam = 9 × 2 = **18**.\n\nKunci Jawaban: **A (18)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q16_opt_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q16_opt_b",
+        "label": "B",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q16_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q16_opt_d",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q17",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hari ini adalah hari Minggu, 30 hari setelah besok adalah hari ....",
+    "imageUrl": null,
+    "explanation": "Besok = Senin. 30 : 7 = 4 sisa 2 → Senin + 2 hari = **Rabu**.\n\nKunci Jawaban: **C (Rabu)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q17_opt_a",
+        "label": "A",
+        "content": "Minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q17_opt_b",
+        "label": "B",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q17_opt_c",
+        "label": "C",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q17_opt_d",
+        "label": "D",
+        "content": "Jumat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q18",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bilangan dua angka (tanpa angka berulang) dibentuk dari angka-angka 1, 2, 3. Selisih bilangan terbesar dan terkecil yang dapat dibentuk adalah . . . .",
+    "imageUrl": null,
+    "explanation": "Terbesar: 32, terkecil: 12. Selisihnya 32 − 12 = **20**.\n\n*Catatan: redaksi naskah asli menyebut \"bilangan tiga angka\" (321 − 123 = 198, tidak ada di opsi), sehingga disesuaikan menjadi bilangan dua angka.*\n\nKunci Jawaban: **C (20)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q18_opt_a",
+        "label": "A",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q18_opt_b",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q18_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q18_opt_d",
+        "label": "D",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q19",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika A = 3 dan B = 2, maka bilangan yang menunjukkan A + A – B + A = .....",
+    "imageUrl": null,
+    "explanation": "Ganti huruf dengan angka: 3 + 3 − 2 + 3 = **7**.\n\nKunci Jawaban: **D (7)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q19_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q19_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q19_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q19_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q20",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Budi menuliskan bilangan mulai 1, 2, 3, dan seterusnya hingga 51. Banyaknya angka 1 yang ditulis Budi adalah…",
+    "imageUrl": null,
+    "explanation": "Satuan 1: 1, 11, 21, 31, 41, 51 → 6 angka. Puluhan 1: 10–19 → 10 angka. Total **16**.\n\nKunci Jawaban: **B (16)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q20_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q20_opt_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q20_opt_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q20_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q21",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah bis berisi 40 penumpang. Di suatu terminal turun 5 penumpang wanita dan 3 penumpang laki-laki, sehingga sekarang jumlah penumpang wanita sama banyaknya dengan penumpang laki-laki. Banyaknya penumpang wanita mula-mula adalah . . . . orang.",
+    "imageUrl": null,
+    "explanation": "Sisa penumpang 40 − 8 = 32, terbagi sama: 16 wanita dan 16 laki-laki. Wanita mula-mula = 16 + 5 = **21** orang.\n\nKunci Jawaban: **D (21)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q21_opt_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q21_opt_b",
+        "label": "B",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q21_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q21_opt_d",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q22",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah kubus memiliki sisi = 5 cm. Volume kubus tersebut adalah.... cm³",
+    "imageUrl": null,
+    "explanation": "V = s × s × s = 5 × 5 × 5 = **125** cm³.\n\nKunci Jawaban: **B (125)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q22_opt_a",
+        "label": "A",
+        "content": "170",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q22_opt_b",
+        "label": "B",
+        "content": "125",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q22_opt_c",
+        "label": "C",
+        "content": "350",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q22_opt_d",
+        "label": "D",
+        "content": "200",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q23",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah tabung memiliki luas alas = 12 cm² dan tinggi = 5 cm. Volume tabung tersebut adalah.... cm³",
+    "imageUrl": null,
+    "explanation": "V = luas alas × tinggi = 12 × 5 = **60** cm³.\n\nKunci Jawaban: **D (60)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q23_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q23_opt_b",
+        "label": "B",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q23_opt_c",
+        "label": "C",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q23_opt_d",
+        "label": "D",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q24",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ada 6 anak di dalam bis. Saat di halte naik lagi 4 anak. Kemudian di depan pasar 7 anak kembali naik ke bis. Berapa jumlah anak di bis sekarang?",
+    "imageUrl": null,
+    "explanation": "\"Naik\" berarti ditambah dua kali: 6 + 4 + 7 = **17**.\n\nKunci Jawaban: **A (6 + 4 + 7 = 17)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q24_opt_a",
+        "label": "A",
+        "content": "6 + 4 + 7 = 17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q24_opt_b",
+        "label": "B",
+        "content": "6 + 4 + 7 = 16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q24_opt_c",
+        "label": "C",
+        "content": "6 + 4 – 7 = 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q24_opt_d",
+        "label": "D",
+        "content": "6 – 4 + 7 = 9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q25",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Joshua mengumpulkan 10 daun yang indah. Made juga mengumpulkan 7 daun yang indah. Berapa selisihnya?",
+    "imageUrl": null,
+    "explanation": "Selisih = 10 − 7 = **3**.\n\nKunci Jawaban: **B (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q25_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q25_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q25_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q25_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q26",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bilangan 63 terdiri dari ?",
+    "imageUrl": null,
+    "explanation": "63: angka 6 di tempat puluhan, angka 3 di tempat satuan.\n\nKunci Jawaban: **A (6 puluhan dan 3 satuan)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q26_opt_a",
+        "label": "A",
+        "content": "6 puluhan dan 3 satuan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q26_opt_b",
+        "label": "B",
+        "content": "3 puluhan dan 6 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q26_opt_c",
+        "label": "C",
+        "content": "6 satuan dan 3 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q26_opt_d",
+        "label": "D",
+        "content": "3 puluhan dan 6 puluhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q27",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar di bawah ini!\n\nBilangan yang tepat untuk melengkapi garis bilangan di atas yaitu ?",
+    "imageUrl": "/uploads/kmsi24_peny_m2_q27.png",
+    "explanation": "Ada 6 kotak berurutan dan 34 di kotak kelima. Mundur 4 langkah dari 34: 30, 31, 32, 33. Kotak terakhir: 35.\n\nKunci Jawaban: **B (30, 31, 32, 33, 35)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q27_opt_a",
+        "label": "A",
+        "content": "28, 19, 30, 31, 33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q27_opt_b",
+        "label": "B",
+        "content": "30, 31, 32, 33, 35",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q27_opt_c",
+        "label": "C",
+        "content": "31, 32, 33, 35, 36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q27_opt_d",
+        "label": "D",
+        "content": "29, 30, 31, 32, 33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q28",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar berikut!\n\nJumlah lingkaran di atas yaitu ?",
+    "imageUrl": "/uploads/kmsi24_peny_m2_q28.png",
+    "explanation": "Tiga kotak berisi 10 lingkaran dan satu kotak berisi 5. 10 + 10 + 10 + 5 = **35**.\n\nKunci Jawaban: **A (35)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q28_opt_a",
+        "label": "A",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q28_opt_b",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q28_opt_c",
+        "label": "C",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q28_opt_d",
+        "label": "D",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_peny_2_q29",
+    "topicId": "top_kmsi_2024_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Puluhan dan satuan yang tepat pada gambar di samping adalah ?",
+    "imageUrl": "/uploads/kmsi24_peny_m2_q29.png",
+    "explanation": "Ada 3 batang berisi 10 kotak (3 puluhan) dan 2 batang pendek berisi 3 kotak (3 + 3 = 6 satuan). Jadi 3 puluhan dan 6 satuan = 36.\n\nKunci Jawaban: **B (3 puluhan dan 6 satuan)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q29_opt_a",
+        "label": "A",
+        "content": "2 puluhan dan 6 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q29_opt_b",
+        "label": "B",
+        "content": "3 puluhan dan 6 satuan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q29_opt_c",
+        "label": "C",
+        "content": "3 puluhan dan 3 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_peny_2_q29_opt_d",
+        "label": "D",
+        "content": "3 puluhan dan 2 satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

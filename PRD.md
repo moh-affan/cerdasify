@@ -16,7 +16,7 @@ Aplikasi ini mengusung filosofi **ringan (lightweight), cepat, mobile-friendly**
 
 Sistem dirancang sebagai **Closed/Managed System**, di mana manajemen akun peserta dikontrol terpusat oleh Super Admin melalui antarmuka admin atau impor massal CSV/Excel, serta mendukung manajemen bank soal canggih dengan formula matematika (KaTeX/LaTeX), stimulus gambar (*rich media with lightbox*), mode latihan yang bisa dijeda (*pausable practice mode*), dan penilaian bertingkat (seperti TKP CPNS skala 1–5).
 
-Per Oktober 2026 sistem memiliki **1.623 butir soal** dalam **50 paket** (olimpiade Matematika/Sains/Bahasa Inggris PRISMA, CEO, ORION, JSO, KMSI, IMOCSEA, OSN; Buku Soal Sesi; Aljabar Marathon; profiling ASN; Mini CPNS SKD). Bank soal disimpan di repo (`src/db/seed-data/question-bank/`) sebagai sumber kebenaran seeder dan telah diaudit ulang terhadap naskah sumber.
+Per Oktober 2026 sistem memiliki **1.994 butir soal** dalam **61 paket** (olimpiade Matematika/Sains/Bahasa Inggris PRISMA, CEO, ORION, JSO, KMSI, IMOCSEA, OSN; Buku Soal Sesi; Aljabar Marathon; profiling ASN; Mini CPNS SKD). Bank soal disimpan di repo (`src/db/seed-data/question-bank/`) sebagai sumber kebenaran seeder dan telah diaudit ulang terhadap naskah sumber.
 
 ---
 
@@ -35,7 +35,7 @@ Per Oktober 2026 sistem memiliki **1.623 butir soal** dalam **50 paket** (olimpi
 ### 3.1. Bank Soal & Manajemen Soal (Question Engine)
 1. **Hierarki Soal & Paket Siap Pakai:**
    - **Kategori Utama:** Olimpiade Sains / Matematika, Buku Soal Standar, CPNS SKD, Aljabar & Matematika Lanjut.
-   - **Struktur Paket Soal (50 paket, lihat `DOCS_DEVELOPMENT.md` §9):**
+   - **Struktur Paket Soal (61 paket, lihat `DOCS_DEVELOPMENT.md` §9):**
      - *Olimpiade per berkas lomba:* PRISMA, CEO, ORION, JSO, KMSI, IMOCSEA, OSN, latihan Bahasa Inggris Level 1–2.
      - *Paket Standar 40 Butir:* Buku Soal Sesi 1, 2, 3, 4, 5, 13, 21.
      - *Paket Tematik:* Aljabar Marathon 100 Soal, Soal Cerita Tricky, profiling ASN (SJT, kognitif, literasi digital), Mini CPNS SKD.

@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q01",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mutia membuat 24 gelang yang akan dibagikan kepada teman-temannya. Jika setiap teman Mutia mendapatkan 6 gelang, banyak teman yang mendapatkan gelang adalah …",
+    "imageUrl": null,
+    "explanation": "24 : 6 = **4** teman.\n\nKunci Jawaban: **D (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q01_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q01_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q01_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q01_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q02",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika $n$ adalah hasil dari operasi $15 - 63 \\div 7$, maka nilai $n$ adalah …",
+    "imageUrl": null,
+    "explanation": "Pembagian lebih dulu: 63 : 7 = 9. n = 15 − 9 = **6**.\n\nKunci Jawaban: **C (6)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q02_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q02_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q02_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q02_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q03",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika $m$ adalah hasil dari operasi $56 + 42 \\div 4$, maka nilai $m$ adalah …",
+    "imageUrl": null,
+    "explanation": "42 : 4 = 10,5. m = 56 + 10,5 = **66,5**. (24,5 adalah jawaban jika salah mengerjakan penjumlahan lebih dulu.)\n\nKunci Jawaban: **C (66,5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q03_opt_a",
+        "label": "A",
+        "content": "24,5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q03_opt_b",
+        "label": "B",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q03_opt_c",
+        "label": "C",
+        "content": "66,5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q03_opt_d",
+        "label": "D",
+        "content": "67",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q04",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Selisih dari bilangan 397 dan 53 adalah …",
+    "imageUrl": null,
+    "explanation": "397 − 53 = **344**.\n\nKunci Jawaban: **C (344)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q04_opt_a",
+        "label": "A",
+        "content": "340",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q04_opt_b",
+        "label": "B",
+        "content": "342",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q04_opt_c",
+        "label": "C",
+        "content": "344",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q04_opt_d",
+        "label": "D",
+        "content": "346",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q05",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bangun datar yang memiliki jumlah titik sudut sama dengan persegi adalah …",
+    "imageUrl": null,
+    "explanation": "Persegi punya 4 titik sudut. Jajargenjang juga punya **4** titik sudut.\n\nKunci Jawaban: **B (Jajargenjang)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q05_opt_a",
+        "label": "A",
+        "content": "Segitiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q05_opt_b",
+        "label": "B",
+        "content": "Jajargenjang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q05_opt_c",
+        "label": "C",
+        "content": "Segilima",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q05_opt_d",
+        "label": "D",
+        "content": "Segidelapan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q06",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Angka 11, 13, 14, 15, 17 masing-masing digunakan sekali untuk mengisi kotak seperti pada gambar, sehingga jumlah kotak dari atas ke bawah sama dengan jumlah dari kiri ke kanan. Angka yang menempati posisi tanda tanya adalah …",
+    "imageUrl": "/uploads/jso26_peny_m2_q06.png",
+    "explanation": "Kotak tengah dihitung di kedua arah, jadi sisa empat angka harus terbagi menjadi dua pasang berjumlah sama. Jumlah semua = 70. Jika tengahnya 14, sisa 11, 13, 15, 17 → 11 + 17 = 28 = 13 + 15 ✓. Angka tengah lain membuat sisanya ganjil sehingga tidak bisa dibagi dua sama. Jawaban **14**.\n\nKunci Jawaban: **D (14)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q06_opt_a",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q06_opt_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q06_opt_c",
+        "label": "C",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q06_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q07",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dalam sebuah barisan, Intan berada pada urutan ke-3 dari depan. Jika banyak anak dalam barisan tersebut 12, maka dari belakang Intan berada pada urutan ke- …",
+    "imageUrl": null,
+    "explanation": "Dari belakang = 12 − 3 + 1 = **10**.\n\nKunci Jawaban: **B (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q07_opt_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q07_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q07_opt_c",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q07_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q08",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ada 14 buku di atas rak dan 4 siswa. Masing-masing siswa akan mengambil 3 buku. Jumlah buku yang tersisa di atas rak sebanyak … buku.",
+    "imageUrl": null,
+    "explanation": "Diambil 4 × 3 = 12 buku. Sisa 14 − 12 = **2** buku.\n\nKunci Jawaban: **C (2)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q08_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q08_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q08_opt_c",
+        "label": "C",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q08_opt_d",
+        "label": "D",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q09",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika ditimbang, berat badan Enggar beserta dua kucingnya adalah 41 kg. Berat kedua kucing masing-masing 1 kg dan 2 kg. Berat badan Enggar adalah …",
+    "imageUrl": null,
+    "explanation": "41 − (1 + 2) = **38 kg**.\n\nKunci Jawaban: **B (38 kg)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q09_opt_a",
+        "label": "A",
+        "content": "37 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q09_opt_b",
+        "label": "B",
+        "content": "38 kg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q09_opt_c",
+        "label": "C",
+        "content": "39 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q09_opt_d",
+        "label": "D",
+        "content": "40 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q10",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dina termasuk empat siswa yang tertua di kelasnya. Terdapat 31 siswa yang lebih muda daripada Dina dan dua siswa yang seusia dengannya. Banyaknya siswa di kelas Dina adalah …",
+    "imageUrl": null,
+    "explanation": "Empat siswa tertua = Dina + 2 yang seusia + 1 siswa yang lebih tua. Total = 31 (lebih muda) + 4 (tertua) = **35**.\n\nKunci Jawaban: **B (35)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q10_opt_a",
+        "label": "A",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q10_opt_b",
+        "label": "B",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q10_opt_c",
+        "label": "C",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q10_opt_d",
+        "label": "D",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q11",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai hasil dari perhitungan (16 + 56 + 96) – (6 + 6 + 6) = …",
+    "imageUrl": null,
+    "explanation": "Trik pasangkan: (16 − 6) + (56 − 6) + (96 − 6) = 10 + 50 + 90 = **150**.\n\nKunci Jawaban: **D (150)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q11_opt_a",
+        "label": "A",
+        "content": "120",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q11_opt_b",
+        "label": "B",
+        "content": "130",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q11_opt_c",
+        "label": "C",
+        "content": "140",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q11_opt_d",
+        "label": "D",
+        "content": "150",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q12",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika lima lebihnya dari 21 ditambah empat kurangnya dari 2004, maka diperoleh ...",
+    "imageUrl": null,
+    "explanation": "\"Lima lebihnya dari 21\" = 26. \"Empat kurangnya dari 2004\" = 2000. 26 + 2000 = **2026**.\n\nKunci Jawaban: **D (2026)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q12_opt_a",
+        "label": "A",
+        "content": "2023",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q12_opt_b",
+        "label": "B",
+        "content": "2024",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q12_opt_c",
+        "label": "C",
+        "content": "2025",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q12_opt_d",
+        "label": "D",
+        "content": "2026",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q13",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola barisan bilangan berikut!\n\n$$4,\\ 2,\\ 9,\\ 6,\\ 14,\\ 10,\\ A,\\ B,\\ C,\\ D$$\n\nNilai dari (C + B) − (A + D) adalah …",
+    "imageUrl": null,
+    "explanation": "Pola loncat (dua barisan selang-seling). Suku ganjil: 4, 9, 14, A = 19, C = 24 (+5). Suku genap: 2, 6, 10, B = 14, D = 18 (+4). (24 + 14) − (19 + 18) = 38 − 37 = **1**.\n\nKunci Jawaban: **A (1)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q13_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q13_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q13_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q13_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q14",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika 2024 = M + M + M + M dan nilai 2K = 8, maka nilai dari M + K adalah …",
+    "imageUrl": null,
+    "explanation": "4M = 2024 → M = 506. 2K = 8 → K = 4. M + K = **510**.\n\nKunci Jawaban: **B (510)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q14_opt_a",
+        "label": "A",
+        "content": "506",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q14_opt_b",
+        "label": "B",
+        "content": "510",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q14_opt_c",
+        "label": "C",
+        "content": "514",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q14_opt_d",
+        "label": "D",
+        "content": "518",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q15",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika lusa adalah hari Kamis, maka 17 hari lagi dari hari sekarang adalah hari ... .",
+    "imageUrl": null,
+    "explanation": "Lusa = 2 hari lagi = Kamis → hari ini Selasa. 17 : 7 = 2 sisa 3 → Selasa + 3 = **Jumat**.\n\nKunci Jawaban: **C (Jum'at)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q15_opt_a",
+        "label": "A",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q15_opt_b",
+        "label": "B",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q15_opt_c",
+        "label": "C",
+        "content": "Jum'at",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q15_opt_d",
+        "label": "D",
+        "content": "Sabtu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q16",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada sebuah lintasan balap terdapat 11 bendera. Bendera pertama dipasang tepat pada garis START dan bendera terakhir pada garis FINISH. Jika tiap bendera berjarak 9 meter, panjang lintasan balap tersebut adalah … meter.",
+    "imageUrl": null,
+    "explanation": "11 bendera membentuk 10 jarak. 10 × 9 = **90 meter**.\n\nKunci Jawaban: **C (90)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q16_opt_a",
+        "label": "A",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q16_opt_b",
+        "label": "B",
+        "content": "88",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q16_opt_c",
+        "label": "C",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q16_opt_d",
+        "label": "D",
+        "content": "99",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q17",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dutra punya 15 kelereng, Zaki punya 12 kelereng, dan Mutia hanya punya 6 kelereng. Agar ketiganya memiliki jumlah kelereng yang sama, banyak kelereng yang harus diberikan Dutra dan Zaki masing-masing kepada Mutia adalah … buah.",
+    "imageUrl": null,
+    "explanation": "Total 15 + 12 + 6 = 33, dibagi rata → masing-masing 11. Dutra memberi 15 − 11 = 4, Zaki memberi 12 − 11 = 1. Mutia: 6 + 4 + 1 = 11 ✓.\n\nKunci Jawaban: **A (4 dan 1)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q17_opt_a",
+        "label": "A",
+        "content": "4 dan 1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q17_opt_b",
+        "label": "B",
+        "content": "5 dan 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q17_opt_c",
+        "label": "C",
+        "content": "3 dan 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q17_opt_d",
+        "label": "D",
+        "content": "2 dan 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q18",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan pola bilangan berikut!\n\n$$2,\\ 7,\\ X,\\ 17,\\ Y,\\ 27,\\ Z,\\ \\dots$$\n\nNilai X, Y, Z berturut-turut adalah …",
+    "imageUrl": null,
+    "explanation": "Setiap suku bertambah 5: 2, 7, **12**, 17, **22**, 27, **32**.\n\nKunci Jawaban: **A (12, 22, 32)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q18_opt_a",
+        "label": "A",
+        "content": "12, 22, 32",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q18_opt_b",
+        "label": "B",
+        "content": "22, 12, 32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q18_opt_c",
+        "label": "C",
+        "content": "32, 22, 12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q18_opt_d",
+        "label": "D",
+        "content": "32, 12, 22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q19",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tahun ini umur ayah 37 tahun, umur ibu 30 tahun, dan umurku 7 tahun. Jumlah umur ketiganya akan menjadi 101 tahun setelah … tahun.",
+    "imageUrl": null,
+    "explanation": "Jumlah sekarang 74. Kurang 101 − 74 = 27. Setiap tahun jumlahnya naik 3 (tiga orang): 27 : 3 = **9 tahun**.\n\nKunci Jawaban: **A (9)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q19_opt_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q19_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q19_opt_c",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q19_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q20",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Banyak bangun segitiga dalam gambar berikut adalah …",
+    "imageUrl": "/uploads/jso26_peny_m2_q20.png",
+    "explanation": "Diagonal memotong kedua garis miring di dua titik (sebut X dan Y). Segitiga kecil: 2 di kiri atas (di atas dan di bawah titik X), 2 di kanan bawah (di kanan dan di bawah titik Y). Segitiga sedang: pojok kiri (pojok kiri atas–ujung atas garis miring–pojok kiri bawah) dan pojok kanan (pojok kanan atas–pojok kanan bawah–ujung bawah garis miring). Segitiga besar: 2 segitiga yang dibentuk diagonal dan 2 segitiga yang memakai sisi atas/sisi bawah hingga titik potong. Total 4 + 2 + 4 = **10**.\n\nKunci Jawaban: **D (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q20_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q20_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q20_opt_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q20_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q21",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan bilangan berikut: 298, 265, 278, 287, 289.\n\nUrutan bilangan dari yang terbesar adalah …",
+    "imageUrl": null,
+    "explanation": "Ratusan semua 2. Bandingkan puluhan lalu satuan: 298 > 289 > 287 > 278 > 265.\n\nKunci Jawaban: **B (298, 289, 287, 278, 265)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q21_opt_a",
+        "label": "A",
+        "content": "298, 289, 278, 287, 265",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q21_opt_b",
+        "label": "B",
+        "content": "298, 289, 287, 278, 265",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q21_opt_c",
+        "label": "C",
+        "content": "289, 298, 278, 287, 265",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q21_opt_d",
+        "label": "D",
+        "content": "289, 298, 287, 278, 265",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q22",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dani memiliki 5 kucing. Kemudian salah satu kucingnya melahirkan 3 anak. Kucing Dani saat ini sebanyak …",
+    "imageUrl": null,
+    "explanation": "5 + 3 = **8** kucing.\n\nKunci Jawaban: **D (8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q22_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q22_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q22_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q22_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q23",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Enggar mempunyai 20 buku cerita dan sudah membaca 7 buku. Banyak buku cerita yang belum dibaca Enggar sebanyak …",
+    "imageUrl": null,
+    "explanation": "20 − 7 = **13** buku.\n\nKunci Jawaban: **C (13)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q23_opt_a",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q23_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q23_opt_c",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q23_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q24",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rosa membutuhkan 1 kg tepung untuk membuat 2 loyang kue bolu. Jika Rosa menyimpan 10 kg tepung, banyak kue yang dapat dibuat Rosa sebanyak … loyang.",
+    "imageUrl": null,
+    "explanation": "10 × 2 = **20** loyang.\n\nKunci Jawaban: **C (20)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q24_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q24_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q24_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q24_opt_d",
+        "label": "D",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q25",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika $n$ adalah hasil dari operasi $16 - 54 \\div 9$, maka nilai $n$ adalah …",
+    "imageUrl": null,
+    "explanation": "54 : 9 = 6. n = 16 − 6 = **10**.\n\nKunci Jawaban: **C (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q25_opt_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q25_opt_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q25_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q25_opt_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q26",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pak Ali mempunyai 5 ekor sapi dan 7 ekor bebek. Setelah 3 hari, 3 ekor bebek mati terkena virus dan 1 ekor sapi mati. Jumlah kaki bebek dan sapi Pak Ali yang masih hidup sekarang adalah ... kaki.",
+    "imageUrl": null,
+    "explanation": "Sapi hidup 4 ekor → 16 kaki. Bebek hidup 4 ekor → 8 kaki. Total **24** kaki.\n\nKunci Jawaban: **A (24)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q26_opt_a",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q26_opt_b",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q26_opt_c",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q26_opt_d",
+        "label": "D",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q27",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Erin mempunyai 23 kelereng. Awalnya dia bermain dan menang 5 kelereng, kemudian bermain lagi dan kalah 8 kelereng. Lalu dia memberikan 10 kelereng kepada adiknya. Banyak kelereng Erin sekarang adalah...",
+    "imageUrl": null,
+    "explanation": "23 + 5 − 8 − 10 = **10** kelereng.\n\n*Catatan: naskah asli menanyakan kelereng \"Tata\"; disesuaikan menjadi Erin.*\n\nKunci Jawaban: **A (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q27_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q27_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q27_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q27_opt_d",
+        "label": "D",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q28",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rosa punya 1 buah semangka. Berat 1 buah semangka sama dengan 10 jeruk. Jika 5 buah mangga beratnya sama dengan 2 semangka, maka 3 buah mangga sama dengan ... buah jeruk.",
+    "imageUrl": null,
+    "explanation": "2 semangka = 20 jeruk = 5 mangga → 1 mangga = 4 jeruk. 3 mangga = **12** jeruk.\n\nKunci Jawaban: **A (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q28_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q28_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q28_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q28_opt_d",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q29",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hanik biasanya membaca buku 6 halaman setiap hari, kecuali hari ke-5 dan ke-7 ia membaca 8 halaman. Hanik selesai membaca buku tersebut dalam 7 hari. Jumlah halaman buku yang dibaca Hanik sebanyak … halaman.",
+    "imageUrl": null,
+    "explanation": "5 hari × 6 halaman = 30, ditambah 2 hari × 8 halaman = 16. Total **46** halaman.\n\nKunci Jawaban: **C (46)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q29_opt_a",
+        "label": "A",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q29_opt_b",
+        "label": "B",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q29_opt_c",
+        "label": "C",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q29_opt_d",
+        "label": "D",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_peny_2_q30",
+    "topicId": "top_jso_2026_mtk_peny_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai dari $72 \\div 8 = \\cdots$",
+    "imageUrl": null,
+    "explanation": "8 × 9 = 72, jadi 72 : 8 = **9**.\n\nKunci Jawaban: **D (9)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q30_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q30_opt_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q30_opt_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_peny_2_q30_opt_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

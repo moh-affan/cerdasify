@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q01",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "6 + 5 = ...",
+    "imageUrl": null,
+    "explanation": "6 + 4 = 10, lalu tambah 1 lagi → **11**.\n\nKunci Jawaban: **B (11)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q01_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q01_opt_b",
+        "label": "B",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q01_opt_c",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q01_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q02",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "7 + 3 = ...",
+    "imageUrl": null,
+    "explanation": "7 dan 3 adalah pasangan 10. 7 + 3 = **10**.\n\nKunci Jawaban: **C (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q02_opt_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q02_opt_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q02_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q02_opt_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q03",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "5 + 5 = ...",
+    "imageUrl": null,
+    "explanation": "5 + 5 = **10** (lima jari kiri dan lima jari kanan).\n\nKunci Jawaban: **B (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q03_opt_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q03_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q03_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q03_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q04",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Susunlah dari yang terkecil: 3, 6, 1, 8!",
+    "imageUrl": null,
+    "explanation": "Dari yang terkecil: 1, 3, 6, 8.\n\nKunci Jawaban: **A (1, 3, 6, 8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q04_opt_a",
+        "label": "A",
+        "content": "1, 3, 6, 8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q04_opt_b",
+        "label": "B",
+        "content": "3, 1, 6, 8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q04_opt_c",
+        "label": "C",
+        "content": "8, 6, 3, 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q04_opt_d",
+        "label": "D",
+        "content": "6, 8, 1, 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q05",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ada berapa segitiga pada gambar di bawah ini?",
+    "imageUrl": "/uploads/kmsi24_prov_m1_q05.png",
+    "explanation": "Setiap kotak berisi satu segitiga. Ada 2 baris × 3 kotak = **6** segitiga.\n\nKunci Jawaban: **B (6)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q05_opt_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q05_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q05_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q05_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q06",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ada berapa anak pada gambar di bawah ini?",
+    "imageUrl": "/uploads/kmsi24_prov_m1_q06.png",
+    "explanation": "Hitung satu per satu dari kiri: ada **4** anak yang sedang bermain.\n\nKunci Jawaban: **C (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q06_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q06_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q06_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q06_opt_d",
+        "label": "D",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q07",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "11, 12, 13, 14, …",
+    "imageUrl": null,
+    "explanation": "Setiap bilangan bertambah 1. Setelah 14 adalah **15**.\n\nKunci Jawaban: **D (15)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q07_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q07_opt_b",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q07_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q07_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q08",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "12 + 6 = ...",
+    "imageUrl": null,
+    "explanation": "Satuan 2 + 6 = 8, puluhan tetap 1 → **18**.\n\nKunci Jawaban: **B (18)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q08_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q08_opt_b",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q08_opt_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q08_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q09",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "15 + 4 = ...",
+    "imageUrl": null,
+    "explanation": "Satuan 5 + 4 = 9, puluhan tetap 1 → **19**.\n\nKunci Jawaban: **D (19)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q09_opt_a",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q09_opt_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q09_opt_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q09_opt_d",
+        "label": "D",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q10",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ada berapa bintang pada gambar di bawah ini?",
+    "imageUrl": "/uploads/kmsi24_prov_m1_q10.png",
+    "explanation": "Ada 2 bintang di atas dan 2 bintang di bawah. 2 + 2 = **4**.\n\nKunci Jawaban: **C (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q10_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q10_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q10_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q10_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q11",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ada berapa bunga pada gambar di bawah ini?",
+    "imageUrl": "/uploads/kmsi24_prov_m1_q11.png",
+    "explanation": "Ada **3** bunga (kuning, krem, dan kuning).\n\nKunci Jawaban: **A (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q11_opt_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q11_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q11_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q11_opt_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q12",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "11 + 5 = ...",
+    "imageUrl": null,
+    "explanation": "Satuan 1 + 5 = 6, puluhan tetap 1 → **16**.\n\nKunci Jawaban: **A (16)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q12_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q12_opt_b",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q12_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q12_opt_d",
+        "label": "D",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q13",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ada berapa boneka pada gambar di bawah ini?",
+    "imageUrl": "/uploads/kmsi24_prov_m1_q13.png",
+    "explanation": "Hitung teliti, termasuk boneka yang tertutup di belakang: babi merah muda, boneka krem di atas, burung merah, Mickey, Hello Kitty, dan 2 boneka kuning. Total **7** boneka.\n\nKunci Jawaban: **B (7)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q13_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q13_opt_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q13_opt_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q13_opt_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q14",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "2 + 2 + 2 = ...",
+    "imageUrl": null,
+    "explanation": "2 + 2 = 4, lalu 4 + 2 = **6** (sama dengan 3 × 2).\n\nKunci Jawaban: **C (6)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q14_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q14_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q14_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q14_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q15",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan barisan huruf berikut: \"GRANDFINALKMSI ....\" dan seterusnya. Huruf ke-30 adalah ....",
+    "imageUrl": null,
+    "explanation": "Kata GRANDFINALKMSI terdiri dari 14 huruf dan berulang. 30 : 14 = 2 sisa 2 → huruf ke-2 = **R**.\n\nKunci Jawaban: **B (R)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q15_opt_a",
+        "label": "A",
+        "content": "G",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q15_opt_b",
+        "label": "B",
+        "content": "R",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q15_opt_c",
+        "label": "C",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q15_opt_d",
+        "label": "D",
+        "content": "N",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q16",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seekor katak melompat dari sarangnya sejauh 25 cm, kemudian katak tersebut melompat lagi sejauh 12 cm sebanyak dua kali untuk menerkam mangsanya. Jarak tempuh total yang dilalui katak adalah....",
+    "imageUrl": null,
+    "explanation": "Awas jebakan \"sebanyak dua kali\": 25 + 12 + 12 = **49 cm**.\n\nKunci Jawaban: **C (49 cm)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q16_opt_a",
+        "label": "A",
+        "content": "13 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q16_opt_b",
+        "label": "B",
+        "content": "37 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q16_opt_c",
+        "label": "C",
+        "content": "49 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q16_opt_d",
+        "label": "D",
+        "content": "62 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q17",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dua buah bilangan apabila dijumlahkan hasilnya tepat 10, namun jika dikurangkan hasilnya 6. Bilangan terkecil di antara dua bilangan tersebut adalah....",
+    "imageUrl": null,
+    "explanation": "Trik jumlah–selisih: kecil = (10 − 6) : 2 = **2**, besar = (10 + 6) : 2 = 8. Cek: 8 + 2 = 10, 8 − 2 = 6.\n\nKunci Jawaban: **A (2)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q17_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q17_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q17_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q17_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q18",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui sekumpulan bilangan: 1269, 1342, 1685, 1467, 1501. Urutan bilangan dari yang terbesar ke terkecil adalah…",
+    "imageUrl": null,
+    "explanation": "Semua ribuannya 1, bandingkan ratusan: 6 > 5 > 4 > 3 > 2. Urutan terbesar: 1685, 1501, 1467, 1342, 1269.\n\nKunci Jawaban: **D (1685, 1501, 1467, 1342, 1269)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q18_opt_a",
+        "label": "A",
+        "content": "1269, 1342, 1467, 1501, 1685",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q18_opt_b",
+        "label": "B",
+        "content": "1269, 1467, 1342, 1685, 1501",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q18_opt_c",
+        "label": "C",
+        "content": "1685, 1501, 1269, 1342, 1467",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q18_opt_d",
+        "label": "D",
+        "content": "1685, 1501, 1467, 1342, 1269",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q19",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai tengah di antara 21 dan 47 adalah ...",
+    "imageUrl": null,
+    "explanation": "Nilai tengah = (21 + 47) : 2 = 68 : 2 = **34**. Cek: 34 − 21 = 13 dan 47 − 34 = 13.\n\nKunci Jawaban: **A (34)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q19_opt_a",
+        "label": "A",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q19_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q19_opt_c",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q19_opt_d",
+        "label": "D",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q20",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai A dan B yang memenuhi penjumlahan bersusun berikut adalah ...\n\n$$\\begin{array}{r} 17 \\\\ AB \\\\ \\hline 82 \\end{array}\\;+$$",
+    "imageUrl": null,
+    "explanation": "AB = 82 − 17 = 65, jadi A = **6** dan B = **5**. Cek: 17 + 65 = 82.\n\nKunci Jawaban: **A (6 dan 5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q20_opt_a",
+        "label": "A",
+        "content": "6 dan 5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q20_opt_b",
+        "label": "B",
+        "content": "7 dan 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q20_opt_c",
+        "label": "C",
+        "content": "6 dan 7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q20_opt_d",
+        "label": "D",
+        "content": "7 dan 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q21",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berapakah selisih dari bilangan tiga angka terkecil dengan bilangan dua angka terbesar?",
+    "imageUrl": null,
+    "explanation": "Bilangan tiga angka terkecil = 100, bilangan dua angka terbesar = 99. Selisihnya **1**.\n\nKunci Jawaban: **A (1)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q21_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q21_opt_b",
+        "label": "B",
+        "content": "99",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q21_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q21_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q22",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola berikut:\n\n$$22,\\ 23,\\ 25,\\ 28,\\ \\square,\\ 37$$\n\nBilangan yang menempati kotak kosong adalah ...",
+    "imageUrl": null,
+    "explanation": "Selisihnya bertambah: +1, +2, +3, +4, +5. 28 + 4 = **32**, lalu 32 + 5 = 37 ✓.\n\nKunci Jawaban: **C (32)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q22_opt_a",
+        "label": "A",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q22_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q22_opt_c",
+        "label": "C",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q22_opt_d",
+        "label": "D",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q23",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada penjumlahan berikut:\n\n$$11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 = \\square \\times \\square$$\n\nBilangan yang tepat untuk mengisi kotak-kotak kosong adalah ...",
+    "imageUrl": null,
+    "explanation": "Ada 9 bilangan dengan nilai tengah 15, jadi jumlahnya 15 × 9 = 135. Cek opsi: 16 × 8 = 128, 14 × 10 = 140, 13 × 12 = 156. Jawaban **15 dan 9**.\n\nKunci Jawaban: **B (15 dan 9)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q23_opt_a",
+        "label": "A",
+        "content": "16 dan 8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q23_opt_b",
+        "label": "B",
+        "content": "15 dan 9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q23_opt_c",
+        "label": "C",
+        "content": "14 dan 10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q23_opt_d",
+        "label": "D",
+        "content": "13 dan 12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q24",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hari ini salah satu anggota dari LIMA PETARUNG ROBLOX berulang tahun. Saat ini jumlah usia mereka berlima 80 tahun. Berapa jumlah usia mereka berlima 3 tahun ke depan?",
+    "imageUrl": null,
+    "explanation": "Setiap orang bertambah 3 tahun, ada 5 orang: 80 + 5 × 3 = **95**.\n\nKunci Jawaban: **C (95)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q24_opt_a",
+        "label": "A",
+        "content": "88",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q24_opt_b",
+        "label": "B",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q24_opt_c",
+        "label": "C",
+        "content": "95",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q24_opt_d",
+        "label": "D",
+        "content": "92",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q25",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jono sedang membaca buku. Dia mengalikan kedua nomor halaman buku yang terbuka (berhadapan), hasilnya 240. Jika kedua nomor halaman dijumlahkan, hasilnya ...",
+    "imageUrl": null,
+    "explanation": "Halaman berhadapan adalah dua bilangan berurutan. 15 × 16 = 240, jadi jumlahnya 15 + 16 = **31**.\n\nKunci Jawaban: **A (31)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q25_opt_a",
+        "label": "A",
+        "content": "31",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q25_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q25_opt_c",
+        "label": "C",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q25_opt_d",
+        "label": "D",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q26",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Saat ditimbang:\n• berat 10 apel sama dengan berat 1 semangka dan 2 nanas\n• berat 1 nanas sama dengan berat 2 apel\n\nMaka berat 1 semangka sama dengan berat …. apel",
+    "imageUrl": null,
+    "explanation": "2 nanas = 4 apel. Jadi 10 apel = 1 semangka + 4 apel → 1 semangka = 10 − 4 = **6** apel.\n\nKunci Jawaban: **A (6)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q26_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q26_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q26_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q26_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q27",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika diketahui:\n• Anto lebih berat daripada Sinta\n• Edi lebih berat daripada Sinta, tetapi lebih ringan daripada Anto\n• Bima lebih berat daripada Anto dan Edi, tetapi lebih ringan daripada Farhan\n\nYang paling ringan adalah ...",
+    "imageUrl": null,
+    "explanation": "Urutan dari ringan ke berat: Sinta < Edi < Anto < Bima < Farhan. Paling ringan **Sinta**.\n\nKunci Jawaban: **A (Sinta)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q27_opt_a",
+        "label": "A",
+        "content": "Sinta",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q27_opt_b",
+        "label": "B",
+        "content": "Anto",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q27_opt_c",
+        "label": "C",
+        "content": "Edi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q27_opt_d",
+        "label": "D",
+        "content": "Bima",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q28",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui pola barisan bilangan: 21, 22, 23, 21, 22, 23, 21, 22, 23, ⋯\n\nJumlah bilangan pada pola ke-30 dengan pola ke-40 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola berulang setiap 3 suku. Suku ke-30: 30 : 3 sisa 0 → suku terakhir = 23. Suku ke-40: 40 : 3 sisa 1 → 21. Jumlah 23 + 21 = **44**.\n\nKunci Jawaban: **D (44)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q28_opt_a",
+        "label": "A",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q28_opt_b",
+        "label": "B",
+        "content": "43",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q28_opt_c",
+        "label": "C",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q28_opt_d",
+        "label": "D",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q29",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ada berapa bilangan yang dapat disusun dari angka-angka 1, 2, atau 3 (angka boleh diulang) dengan ketentuan bilangan tersebut lebih besar daripada 10 tetapi tidak lebih dari 32?",
+    "imageUrl": null,
+    "explanation": "Daftar: 11, 12, 13, 21, 22, 23, 31, 32 → **8** bilangan.\n\n*Catatan: naskah asli menulis \"lebih kecil daripada 32\" (hanya 7 bilangan, tidak ada di opsi), sehingga disesuaikan menjadi \"tidak lebih dari 32\".*\n\nKunci Jawaban: **B (8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q29_opt_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q29_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q29_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q29_opt_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q30",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika masing-masing angka 2, 3, 4, 5 ditempatkan pada kotak berikut (setiap angka dipakai satu kali):\n\n$$\\square\\square + \\square\\square$$\n\nmaka hasil penjumlahan terbesar yang didapat adalah ...",
+    "imageUrl": null,
+    "explanation": "Angka besar ditaruh di puluhan: 5 dan 4 di puluhan, 3 dan 2 di satuan. 53 + 42 = **95** (atau 52 + 43 = 95).\n\nKunci Jawaban: **B (95)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q30_opt_a",
+        "label": "A",
+        "content": "97",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q30_opt_b",
+        "label": "B",
+        "content": "95",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q30_opt_c",
+        "label": "C",
+        "content": "86",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q30_opt_d",
+        "label": "D",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q31",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika:\n• Usia Ali lebih tua 5 tahun daripada Budi\n• Usia Budi lebih muda 2 tahun daripada Cinta\n• Usia Cinta lebih tua 4 tahun daripada usia Dina\n\nSelisih usia antara yang tertua dengan yang termuda adalah ...",
+    "imageUrl": null,
+    "explanation": "Misalkan Dina 0. Cinta = 4, Budi = 4 − 2 = 2, Ali = 2 + 5 = 7. Tertua Ali (7), termuda Dina (0). Selisih **7 tahun**.\n\nKunci Jawaban: **D (7 tahun)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q31_opt_a",
+        "label": "A",
+        "content": "6 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q31_opt_b",
+        "label": "B",
+        "content": "8 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q31_opt_c",
+        "label": "C",
+        "content": "9 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q31_opt_d",
+        "label": "D",
+        "content": "7 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q32",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola berikut:\n\n$$0,\\ 1,\\ 2,\\ 3,\\ 6,\\ 7,\\ 14,\\ 15,\\ 30,\\ \\square,\\ 62,\\ 63$$\n\nBilangan yang paling tepat untuk mengisi kotak kosong adalah ...",
+    "imageUrl": null,
+    "explanation": "Polanya bergantian: +1, ×2, +1, ×2, … (0 → 1 → 2 → 3 → 6 → 7 → 14 → 15 → 30). Setelah 30 adalah +1 → **31**, lalu ×2 = 62 ✓.\n\nKunci Jawaban: **A (31)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q32_opt_a",
+        "label": "A",
+        "content": "31",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q32_opt_b",
+        "label": "B",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q32_opt_c",
+        "label": "C",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q32_opt_d",
+        "label": "D",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q33",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada sebuah lintasan balap terdapat 11 bendera. Bendera pertama dipasang tepat pada garis START dan bendera terakhir pada garis FINISH. Jika tiap bendera berjarak 9 meter, berapa panjang lintasan balap tersebut?",
+    "imageUrl": null,
+    "explanation": "11 bendera membentuk 11 − 1 = 10 jarak. Panjang lintasan = 10 × 9 = **90 meter**.\n\nKunci Jawaban: **C (90 meter)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q33_opt_a",
+        "label": "A",
+        "content": "80 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q33_opt_b",
+        "label": "B",
+        "content": "88 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q33_opt_c",
+        "label": "C",
+        "content": "90 meter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q33_opt_d",
+        "label": "D",
+        "content": "99 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q34",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari penjumlahan berikut: 1 + 2 + 3 + ⋯ + 17 + 18 + 19 adalah ...",
+    "imageUrl": null,
+    "explanation": "Rumus Gauss: (1 + 19) × 19 : 2 = 20 × 19 : 2 = **190**.\n\nKunci Jawaban: **D (190)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q34_opt_a",
+        "label": "A",
+        "content": "180",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q34_opt_b",
+        "label": "B",
+        "content": "185",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q34_opt_c",
+        "label": "C",
+        "content": "195",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q34_opt_d",
+        "label": "D",
+        "content": "190",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q35",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam waktu 6 menit Joko mampu bersepeda sejauh 120 meter. Dengan kecepatan yang sama, untuk bersepeda sejauh 180 meter dibutuhkan waktu ...",
+    "imageUrl": null,
+    "explanation": "Setiap menit Joko menempuh 120 : 6 = 20 meter. 180 : 20 = **9 menit**.\n\nKunci Jawaban: **A (9 menit)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q35_opt_a",
+        "label": "A",
+        "content": "9 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q35_opt_b",
+        "label": "B",
+        "content": "10 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q35_opt_c",
+        "label": "C",
+        "content": "8 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q35_opt_d",
+        "label": "D",
+        "content": "12 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_q36",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola pada jam (gambar 1, 2, 3) berikut. Jika dilanjutkan, jam yang paling tepat untuk pola ke-4 adalah ...",
+    "imageUrl": "/uploads/kmsi24_prov_m1_q36.png",
+    "explanation": "Jam 1 menunjukkan pukul 03.00, jam 2 pukul 06.00, jam 3 pukul 12.00 (jarum jam dikali 2: 3 → 6 → 12). Berikutnya 12 × 2 = 24 jam = kembali ke pukul **12.00**, yaitu gambar D (kedua jarum di angka 12). Pola tambah 3, 6, 12 jam juga menghasilkan pukul 12.00.\n\nKunci Jawaban: **D (Jam D)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q36_opt_a",
+        "label": "A",
+        "content": "Jam A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q36_opt_b",
+        "label": "B",
+        "content": "Jam B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q36_opt_c",
+        "label": "C",
+        "content": "Jam C",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_q36_opt_d",
+        "label": "D",
+        "content": "Jam D",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

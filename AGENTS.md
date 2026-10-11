@@ -79,7 +79,7 @@ export const db = drizzle(client, { schema });
 - **Proteksi Tampilan (Screen Privacy Overlay):** Saat state `isPaused` bernilai `true`, konten soal di antarmuka browser **WAJIB** disembunyikan di balik backdrop overlay (*screen blackout*) sehingga peserta tidak dapat membaca soal sambil menghentikan timer.
 
 ### 2.6. Bank Soal Kanonik (`src/db/seed-data/question-bank/`)
-- Seluruh kategori, topik, 50 paket, dan 1.623 soal (Oktober 2026) disimpan sebagai JSON di repo dan menjadi **sumber kebenaran** `npm run seed` (idempoten, satu transaksi, validasi sebelum menulis).
+- Seluruh kategori, topik, 61 paket, dan 1.994 soal (Oktober 2026) disimpan sebagai JSON di repo dan menjadi **sumber kebenaran** `npm run seed` (idempoten, satu transaksi, validasi sebelum menulis).
 - Setelah soal/paket diubah lewat panel admin, **wajib** `npm run bank:export` lalu commit, agar seed berikutnya tidak menimpa perubahan.
 - Jangan menambah skrip impor/perbaikan sekali-jalan yang menulis langsung ke database tanpa memperbarui bank soal. Riwayat alasan perbaikan audit ada di `src/db/seed-data/audit/question_fixes_2026_10.jsonl`.
 - Gambar soal disimpan di `public/uploads/` dan ikut di-deploy; pastikan setiap `imageUrl` di bank soal ada berkasnya.
