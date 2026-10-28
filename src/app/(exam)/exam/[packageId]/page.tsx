@@ -7,6 +7,7 @@ import { OptionItem } from '@/components/exam/OptionItem';
 import { ExamTimer } from '@/components/exam/ExamTimer';
 import { ExamGridNav, QuestionStatusItem } from '@/components/exam/ExamGridNav';
 import { ExamConfirmModal } from '@/components/exam/ExamConfirmModal';
+import { ScratchPad } from '@/components/exam/ScratchPad';
 import { isRetryable, RequestError, requestJson, withRetry, type ApiJson } from '@/lib/fetch-json';
 import {
   ChevronLeft,
@@ -22,6 +23,7 @@ import {
   Maximize2,
   X,
   BookOpen,
+  PencilLine,
 } from 'lucide-react';
 
 interface QuestionOption {
@@ -45,6 +47,10 @@ interface AnswerState {
   selectedOptionIds: string[];
   isDoubtful: boolean;
 }
+
+const AUTO_ADVANCE_KEY = 'cerdasify:exam-auto-advance';
+// Jeda singkat agar peserta sempat melihat pilihannya tertandai sebelum pindah soal
+const AUTO_ADVANCE_DELAY_MS = 400;
 
 interface ExamLoadResponse extends ApiJson {
   attemptId?: string;
@@ -85,6 +91,31 @@ export default function ExamSessionPage() {
   const [isConfirmModalOpen, setIsConfirmModalOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [zoomImageUrl, setZoomImageUrl] = useState<string | null>(null);
+  const [isScratchOpen, setIsScratchOpen] = useState(false);
+
+  // Lanjut otomatis ke soal berikutnya setelah memilih jawaban (preferensi per browser)
+  const [autoAdvance, setAutoAdvance] = useState(() => {
+    try {
+      return typeof window === 'undefined' || localStorage.getItem(AUTO_ADVANCE_KEY) !== '0';
+    } catch {
+      return true;
+    }
+  });
+  const autoAdvanceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const toggleAutoAdvance = () => {
+    setAutoAdvance((prev) => {
+      try {
+        localStorage.setItem(AUTO_ADVANCE_KEY, prev ? '0' : '1');
+      } catch {}
+      return !prev;
+    });
+  };
+  useEffect(() => () => clearTimeout(autoAdvanceTimerRef.current ?? undefined), []);
+
+  // Soal baru selalu dibaca dari atas
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [currentIndex]);
 
   // Initialize session
   const initExam = useCallback(async () => {
@@ -328,6 +359,17 @@ export default function ExamSessionPage() {
     }));
 
     triggerAutoSave(currentQ.id, updatedState);
+
+    // Pilihan ganda kompleks butuh beberapa klik, jadi tidak pindah otomatis
+    if (autoAdvance && currentQ.type !== 'MULTI_CHOICE' && currentIndex < questions.length - 1) {
+      const fromIndex = currentIndex;
+      clearTimeout(autoAdvanceTimerRef.current ?? undefined);
+      // Batal bila peserta sudah pindah soal sendiri selama jeda
+      autoAdvanceTimerRef.current = setTimeout(
+        () => setCurrentIndex((idx) => (idx === fromIndex ? idx + 1 : idx)),
+        AUTO_ADVANCE_DELAY_MS
+      );
+    }
   };
 
   // Toggle Doubtful
@@ -504,6 +546,22 @@ export default function ExamSessionPage() {
             </button>
           )}
 
+          {/* Kertas coretan */}
+          <button
+            type="button"
+            onClick={() => setIsScratchOpen((v) => !v)}
+            title={isScratchOpen ? 'Sembunyikan kertas coretan' : 'Buka kertas coretan untuk berhitung'}
+            aria-pressed={isScratchOpen}
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-semibold transition active:scale-95 cursor-pointer ${
+              isScratchOpen
+                ? 'bg-indigo-600 text-white border-indigo-700'
+                : 'bg-slate-100 text-slate-700 border-slate-200 hover:bg-indigo-50 hover:text-indigo-700 hover:border-indigo-200'
+            }`}
+          >
+            <PencilLine className="w-3.5 h-3.5" />
+            <span className="hidden sm:inline">Coretan</span>
+          </button>
+
           {/* Countdown Timer */}
           <ExamTimer
             key={timerSeed.key}
@@ -528,7 +586,12 @@ export default function ExamSessionPage() {
       </header>
 
       {/* Main Content Area */}
-      <div className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8 flex gap-6 items-start pb-24 lg:pb-8 relative">
+      <div
+        className={`flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8 flex gap-6 items-start lg:pb-8 relative ${
+          // Ruang ekstra di HP agar opsi terbawah bisa digulir ke atas panel coretan
+          isScratchOpen ? 'pb-[calc(48vh+96px)]' : 'pb-24'
+        }`}
+      >
         {/* Question Panel */}
         <main className="flex-1 w-full bg-white rounded-3xl border border-slate-200 shadow-sm p-5 sm:p-8 relative">
           {/* Question Header */}
@@ -607,6 +670,16 @@ export default function ExamSessionPage() {
             ))}
           </div>
 
+          <label className="mt-4 inline-flex items-center gap-2 text-xs text-slate-600 cursor-pointer select-none">
+            <input
+              type="checkbox"
+              checked={autoAdvance}
+              onChange={toggleAutoAdvance}
+              className="w-4 h-4 accent-indigo-600 cursor-pointer"
+            />
+            Lanjut otomatis ke soal berikutnya setelah memilih jawaban
+          </label>
+
           {/* Desktop Inline Pagination Controls */}
           <div className="hidden lg:flex items-center justify-between pt-8 mt-8 border-t border-slate-100">
             <button
@@ -650,6 +723,13 @@ export default function ExamSessionPage() {
           onCloseMobile={() => setIsNavOpenMobile(false)}
         />
       </div>
+
+      <ScratchPad
+        isOpen={isScratchOpen}
+        onClose={() => setIsScratchOpen(false)}
+        pageKey={currentQ.id}
+        pageLabel={`Coretan soal ${currentIndex + 1}`}
+      />
 
       {/* PAUSE OVERLAY (When paused, hides questions to prevent cheating and provides clear resume UI) */}
       {isPaused && (

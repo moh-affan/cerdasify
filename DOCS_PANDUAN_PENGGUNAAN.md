@@ -104,6 +104,7 @@ Antarmuka pengerjaan Cerdasify didesain bersih, modern, dan bebas distraksi (*di
    - Nama paket soal yang sedang dikerjakan.
    - Indikator Timer waktu pengerjaan.
    - Tombol **Jeda** (pada mode latihan).
+   - Tombol **✏️ Coretan**: membuka kertas coretan berpetak untuk berhitung (pena 3 warna, penghapus, batalkan, hapus semua, dan perbesar di desktop). Coretan tersimpan terpisah untuk setiap nomor soal selama halaman ujian terbuka, **tidak dikirim ke server dan tidak dinilai**. Tekan **✕** untuk menyembunyikannya; coretan tidak hilang.
 2. **Kartu Stimulus Soal Cerita / Teks Bacaan (Jika Ada):**
    - Untuk soal-soal berbasis wacana, cerita, dialog, atau petunjuk arah yang berlaku untuk lebih dari 1 soal (seperti pada *Olimpiade Bahasa Inggris Soal No. 1–5*), teks cerita ditampilkan dalam **Kotak Stimulus Bacaan** berlatar lembut dengan badge *Stimulus Bacaan*.
    - **Tampilan Konsisten Multi-Nomor:** Kotak bacaan ini **otomatis tetap tampil di atas setiap nomor soal yang relevan** (misalnya saat peserta berada di nomor 1, 2, 3, 4, maupun 5), sehingga peserta dapat langsung merujuk ke teks tanpa perlu bolak-balik menekan tombol kembali ke nomor 1.
@@ -111,6 +112,7 @@ Antarmuka pengerjaan Cerdasify didesain bersih, modern, dan bebas distraksi (*di
    - Teks pertanyaan yang mendukung penuh simbol matematika dan sains (KaTeX).
    - Area gambar stimulus (jika soal memiliki gambar).
    - Opsi jawaban pilihan ganda (A sampai E).
+   - **Lanjut otomatis:** setelah memilih jawaban, soal berpindah ke nomor berikutnya. Bisa dimatikan lewat kotak centang di bawah opsi jawaban (pilihan ini diingat oleh browser). Soal pilihan ganda kompleks tidak berpindah otomatis.
 4. **Navigasi Grid Nomor Soal:**
    - **Desktop:** Panel nomor soal di sebelah kanan layar.
    - **Smartphone:** Tombol drawer di kanan atas untuk memunculkan daftar nomor tanpa menutupi soal.
@@ -120,7 +122,7 @@ Antarmuka pengerjaan Cerdasify didesain bersih, modern, dan bebas distraksi (*di
      - 🟨 *Kuning*: Soal yang Anda tandai "Ragu-ragu".
      - ⬜ *Abu-abu*: Soal yang belum dijawab.
 5. **Auto-Save Otomatis:**
-   - Setiap kali Anda mengeklik opsi jawaban, sistem secara otomatis mengirimkan jawaban Anda ke server di latar belakang (*background auto-save*). Anda tidak perlu khawatir kehilangan jawaban jika koneksi internet mendadak lambat.
+   - Setiap kali Anda mengeklik opsi jawaban, sistem secara otomatis mengirimkan jawaban Anda ke server di latar belakang (*background auto-save*). Status simpan tampil di bawah nama paket: **Tersimpan**, **Menyimpan…**, atau **Gagal menyimpan, mencoba lagi…**. Jika koneksi terputus, sistem terus mencoba mengirim ulang, dan tombol Kumpulkan menunggu semua jawaban tersimpan lebih dulu.
 
 ---
 
