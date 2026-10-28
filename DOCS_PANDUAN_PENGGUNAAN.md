@@ -104,7 +104,7 @@ Antarmuka pengerjaan Cerdasify didesain bersih, modern, dan bebas distraksi (*di
    - Nama paket soal yang sedang dikerjakan.
    - Indikator Timer waktu pengerjaan.
    - Tombol **Jeda** (pada mode latihan).
-   - Tombol **✏️ Coretan**: membuka kertas coretan berpetak untuk berhitung (pena 3 warna, penghapus, batalkan, hapus semua, dan perbesar di desktop). Coretan tersimpan terpisah untuk setiap nomor soal selama halaman ujian terbuka, **tidak dikirim ke server dan tidak dinilai**. Tekan **✕** untuk menyembunyikannya; coretan tidak hilang.
+   - Tombol **✏️ Coretan**: membuka kertas coretan berpetak untuk berhitung (pena 3 warna, penghapus, batalkan, hapus semua, dan perbesar). Kertasnya **tidak terbatas**: geser dengan **dua jari**, alat **✋ Geser**, atau scroll mouse; tombol 🎯 mengembalikan ke posisi awal. Panel bisa **dipindah** dengan menyeret pegangan ⠿ di ujung kiri toolbar, dan di desktop ukurannya bisa ditarik dari pojok kanan bawah. Coretan tersimpan terpisah untuk setiap nomor soal selama halaman ujian terbuka, **tidak dikirim ke server dan tidak dinilai**. Tekan **✕** untuk menyembunyikannya; coretan tidak hilang.
 2. **Kartu Stimulus Soal Cerita / Teks Bacaan (Jika Ada):**
    - Untuk soal-soal berbasis wacana, cerita, dialog, atau petunjuk arah yang berlaku untuk lebih dari 1 soal (seperti pada *Olimpiade Bahasa Inggris Soal No. 1–5*), teks cerita ditampilkan dalam **Kotak Stimulus Bacaan** berlatar lembut dengan badge *Stimulus Bacaan*.
    - **Tampilan Konsisten Multi-Nomor:** Kotak bacaan ini **otomatis tetap tampil di atas setiap nomor soal yang relevan** (misalnya saat peserta berada di nomor 1, 2, 3, 4, maupun 5), sehingga peserta dapat langsung merujuk ke teks tanpa perlu bolak-balik menekan tombol kembali ke nomor 1.

@@ -589,7 +589,7 @@ export default function ExamSessionPage() {
       <div
         className={`flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8 flex gap-6 items-start lg:pb-8 relative ${
           // Ruang ekstra di HP agar opsi terbawah bisa digulir ke atas panel coretan
-          isScratchOpen ? 'pb-[calc(48vh+96px)]' : 'pb-24'
+          isScratchOpen ? 'pb-[calc(60vh+96px)]' : 'pb-24'
         }`}
       >
         {/* Question Panel */}
