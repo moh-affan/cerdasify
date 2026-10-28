@@ -30,6 +30,10 @@ const client = postgres(databaseUrl || 'postgresql://postgres:postgres@localhost
   prepare: false, // Wajib false untuk Supabase connection pooler (transaction mode)
   ssl: databaseUrl.includes('supabase.co') || databaseUrl.includes('pooler.supabase.com') ? 'require' : undefined,
   max: 10,
+  // Tutup koneksi idle sebelum diputus pooler (mencegah error CONNECTION_CLOSED sesekali di serverless)
+  idle_timeout: 20,
+  max_lifetime: 60 * 30,
+  connect_timeout: 10,
 });
 
 export const db = drizzle(client, { schema });

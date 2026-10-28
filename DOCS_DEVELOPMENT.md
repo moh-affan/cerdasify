@@ -140,7 +140,9 @@ Seluruh kalkulasi skor dilakukan oleh `finalizeAttempt()` ([src/lib/exam-grading
 2. **Validasi waktu di server** ([src/lib/exam-time.ts](src/lib/exam-time.ts)): sisa waktu dihitung dari `remaining_seconds` dan `segment_started_at` (awal segmen berjalan). Auto-save setelah batas waktu (+30 detik toleransi) ditolak dan attempt ditutup sebagai `TIMED_OUT`.
 3. `POST /api/exam/save-answer` hanya menerima soal milik paket tersebut dan opsi milik soal tersebut.
 4. `POST /api/exam/start` memakai `pg_advisory_xact_lock` per (pengguna, paket) sehingga klik ganda / dua tab tidak membuat dua attempt aktif.
-5. Halaman `/results/[attemptId]` baru menampilkan kunci & pembahasan setelah status `COMPLETED`/`TIMED_OUT`; selama attempt masih berjalan peserta diarahkan kembali ke ruang ujian.
+5. Halaman `/results/[attemptId]` baru menampilkan kunci & pembahasan setelah status `COMPLETED`/`TIMED_OUT`; selama attempt masih berjalan peserta diarahkan kembali ke ruang ujian. Status Benar/Salah memakai nilai yang dibekukan saat submit; bila kunci diperbaiki sesudahnya, halaman menampilkan catatan "kunci diperbaiki setelah ujian dinilai".
+6. **Auto-save di klien** ([exam/[packageId]/page.tsx](src/app/(exam)/exam/[packageId]/page.tsx), helper [src/lib/fetch-json.ts](src/lib/fetch-json.ts)): jawaban masuk antrean per soal dan dikirim satu per satu (urutan tidak bisa tertukar), diulang otomatis bila jaringan/server gagal, dengan indikator *Tersimpan / Menyimpan / Gagal menyimpan* di header. Submit menunggu antrean kosong dulu; bila masih gagal, peserta diminta memeriksa koneksi (kecuali submit otomatis saat waktu habis). Memuat ujian juga diulang otomatis (aman karena `start` melanjutkan attempt aktif) dan sesi kedaluwarsa diarahkan ke `/login`.
+7. **Region:** database Supabase berada di Singapura (`ap-southeast-1`), sehingga function Vercel dipaku ke `sin1` lewat [vercel.json](vercel.json) agar setiap query tidak menyeberang benua.
 
 **Aturan penilaian paket (`exam_packages.passing_grade_rules`, JSON).** Hanya kunci berikut yang dibaca `calculateScore()` ([src/lib/scoring.ts](src/lib/scoring.ts)); kunci lain (mis. `correctWeight`) diabaikan diam-diam:
 

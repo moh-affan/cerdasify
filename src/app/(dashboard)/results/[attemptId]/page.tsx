@@ -113,11 +113,11 @@ export default async function ExamResultPage({
       const correctIds = opts.filter((o) => o.isCorrect).map((o) => o.id);
       const isGradedScale = q.type === 'GRADED_SCALE';
       const topScale = Math.max(0, ...opts.map((o) => o.scoreValue));
-      const isCorrect =
-        graded?.isCorrect ??
-        (isGradedScale
-          ? (ans?.scoreAwarded ?? 0) === topScale
-          : selectedIds.length === correctIds.length && correctIds.length > 0 && correctIds.every((id) => selectedIds.includes(id)));
+      const matchesCurrentKey =
+        selectedIds.length === correctIds.length && correctIds.length > 0 && correctIds.every((id) => selectedIds.includes(id));
+      const isCorrect = graded?.isCorrect ?? (isGradedScale ? (ans?.scoreAwarded ?? 0) === topScale : matchesCurrentKey);
+      // Nilai dibekukan saat submit; bila kunci diperbaiki sesudahnya, sorotan kunci di bawah bisa berbeda dari status
+      const keyChangedAfterGrading = !isGradedScale && Boolean(graded) && graded!.isCorrect !== matchesCurrentKey;
 
       return {
         index: idx + 1,
@@ -128,6 +128,7 @@ export default async function ExamResultPage({
         topScale,
         selectedIds,
         isCorrect,
+        keyChangedAfterGrading,
         scoreAwarded: graded?.scoreAwarded ?? ans?.scoreAwarded ?? 0,
         isDoubtful: Boolean(ans?.isDoubtful),
       };
@@ -409,6 +410,13 @@ export default async function ExamResultPage({
                     )}
                   </div>
                 </div>
+
+                {item.keyChangedAfterGrading && (
+                  <p className="mb-3 px-3 py-2 rounded-xl text-xs bg-amber-50 text-amber-800 border border-amber-200">
+                    Kunci soal ini diperbaiki setelah ujian dinilai. Status di atas mengikuti kunci lama; kunci yang
+                    disorot di bawah adalah kunci terbaru.
+                  </p>
+                )}
 
                 {/* Question Text with KaTeX */}
                 <div className="text-slate-900 text-base leading-relaxed select-text space-y-3">

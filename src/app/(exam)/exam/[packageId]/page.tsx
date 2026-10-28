@@ -7,6 +7,7 @@ import { OptionItem } from '@/components/exam/OptionItem';
 import { ExamTimer } from '@/components/exam/ExamTimer';
 import { ExamGridNav, QuestionStatusItem } from '@/components/exam/ExamGridNav';
 import { ExamConfirmModal } from '@/components/exam/ExamConfirmModal';
+import { isRetryable, RequestError, requestJson, withRetry, type ApiJson } from '@/lib/fetch-json';
 import {
   ChevronLeft,
   ChevronRight,
@@ -45,6 +46,18 @@ interface AnswerState {
   isDoubtful: boolean;
 }
 
+interface ExamLoadResponse extends ApiJson {
+  attemptId?: string;
+  attempt?: {
+    status: string;
+    packageTitle: string;
+    packageType?: 'SIMULATION' | 'PRACTICE';
+    remainingSeconds: number;
+  };
+  questions?: Question[];
+  answers?: Record<string, AnswerState>;
+}
+
 export default function ExamSessionPage() {
   const params = useParams();
   const router = useRouter();
@@ -76,30 +89,29 @@ export default function ExamSessionPage() {
   // Initialize session
   const initExam = useCallback(async () => {
     try {
-      // 1. Start or resume attempt (now loads questions and answers in 1 bulk query)
-      const startRes = await fetch('/api/exam/start', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ packageId }),
-      });
+      // 1. Start or resume attempt (now loads questions and answers in 1 bulk query).
+      // Aman diulang: server melanjutkan attempt aktif, tidak membuat attempt baru.
+      const startData = await withRetry(() =>
+        requestJson<ExamLoadResponse>(
+          '/api/exam/start',
+          {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ packageId }),
+          },
+          30000
+        )
+      );
 
-      const startData = await startRes.json();
-      if (!startRes.ok) {
-        throw new Error(startData.error || 'Gagal memulai ujian');
-      }
-
-      const activeAttemptId = startData.attemptId;
+      const activeAttemptId = startData.attemptId!;
       setAttemptId(activeAttemptId);
 
       let attemptData = startData;
       // Fallback if questions were not returned directly
       if (!attemptData.questions || !attemptData.attempt) {
-        const attemptRes = await fetch(`/api/exam/attempt/${activeAttemptId}`);
-        attemptData = await attemptRes.json();
-        if (!attemptRes.ok) {
-          throw new Error(attemptData.error || 'Gagal memuat soal');
-        }
+        attemptData = await withRetry(() => requestJson<ExamLoadResponse>(`/api/exam/attempt/${activeAttemptId}`));
       }
+      if (!attemptData.questions || !attemptData.attempt) throw new Error('Gagal memuat soal');
 
       if (attemptData.attempt.status !== 'IN_PROGRESS' && attemptData.attempt.status !== 'PAUSED') {
         router.replace(`/results/${activeAttemptId}`);
@@ -135,6 +147,11 @@ export default function ExamSessionPage() {
       // Sisa waktu selalu dihitung server
       seedTimer(Math.max(0, Number(attemptData.attempt.remainingSeconds) || 0));
     } catch (err) {
+      // Sesi login kedaluwarsa → arahkan ke halaman masuk, bukan layar error
+      if (err instanceof RequestError && err.status === 401) {
+        router.replace('/login');
+        return;
+      }
       setError(err instanceof Error ? err.message : 'Terjadi kesalahan saat memuat ujian. Silakan coba lagi.');
     } finally {
       setIsLoading(false);
@@ -149,33 +166,95 @@ export default function ExamSessionPage() {
     })();
   }, [packageId, initExam]);
 
-  // Save answer to server in background
-  const triggerAutoSave = useCallback(
-    async (qId: string, newState: AnswerState) => {
-      if (!attemptId) return;
+  // Antrean auto-save: jawaban terbaru per soal yang belum dikonfirmasi server.
+  // Dikirim satu per satu (urutan tidak bisa tertukar) dan diulang bila jaringan/server gagal.
+  const dirtyAnswersRef = useRef(new Map<string, AnswerState>());
+  const saveWorkerRef = useRef<Promise<boolean> | null>(null);
+  const [saveStatus, setSaveStatus] = useState<'saved' | 'saving' | 'error'>('saved');
+
+  /** @returns true bila semua jawaban sudah tersimpan di server */
+  const runSaveWorker = useCallback((): Promise<boolean> => {
+    if (saveWorkerRef.current) return saveWorkerRef.current;
+    if (!attemptId || dirtyAnswersRef.current.size === 0) return Promise.resolve(true);
+
+    const dirty = dirtyAnswersRef.current;
+    saveWorkerRef.current = (async () => {
       try {
-        const res = await fetch('/api/exam/save-answer', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            attemptId,
-            questionId: qId,
-            selectedOptionIds: newState.selectedOptionIds,
-            isDoubtful: newState.isDoubtful,
-          }),
-        });
-        if (!res.ok) {
-          const data = await res.json().catch(() => ({}));
-          // Waktu habis / ujian sudah ditutup server → langsung ke halaman hasil
-          if (data.redirectUrl) router.replace(data.redirectUrl);
-          else console.warn('Auto-save ditolak:', data.error);
+        setSaveStatus('saving');
+        while (dirty.size > 0) {
+          const [qId, state] = dirty.entries().next().value!;
+          try {
+            await withRetry(
+              () =>
+                requestJson('/api/exam/save-answer', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                    attemptId,
+                    questionId: qId,
+                    selectedOptionIds: state.selectedOptionIds,
+                    isDoubtful: state.isDoubtful,
+                  }),
+                }),
+              4
+            );
+            // Jangan hapus bila soal ini diubah lagi selama request berjalan
+            if (dirty.get(qId) === state) dirty.delete(qId);
+          } catch (e) {
+            if (isRetryable(e)) {
+              setSaveStatus('error');
+              return false;
+            }
+            // Waktu habis / ujian sudah ditutup server → langsung ke halaman hasil
+            if (e instanceof RequestError && e.data.redirectUrl) {
+              dirty.clear();
+              router.replace(e.data.redirectUrl);
+              return false;
+            }
+            console.warn('Auto-save ditolak:', e instanceof Error ? e.message : e);
+            dirty.delete(qId);
+          }
         }
-      } catch (e) {
-        console.warn('Auto-save failed:', e);
+        setSaveStatus('saved');
+        return true;
+      } finally {
+        saveWorkerRef.current = null;
       }
+    })();
+    return saveWorkerRef.current;
+  }, [attemptId, router]);
+
+  const triggerAutoSave = useCallback(
+    (qId: string, newState: AnswerState) => {
+      dirtyAnswersRef.current.set(qId, newState);
+      void runSaveWorker();
     },
-    [attemptId, router]
+    [runSaveWorker]
   );
+
+  /** Tunggu hingga antrean kosong; false bila masih ada jawaban yang gagal terkirim. */
+  const flushSaves = useCallback(async () => {
+    while (dirtyAnswersRef.current.size > 0) {
+      if (!(await runSaveWorker())) return dirtyAnswersRef.current.size === 0;
+    }
+    return true;
+  }, [runSaveWorker]);
+
+  // Saat gagal menyimpan: coba lagi berkala & ketika koneksi kembali; peringatkan bila halaman ditutup
+  useEffect(() => {
+    const retry = () => void runSaveWorker();
+    const warnUnsaved = (e: BeforeUnloadEvent) => {
+      if (dirtyAnswersRef.current.size > 0) e.preventDefault();
+    };
+    window.addEventListener('online', retry);
+    window.addEventListener('beforeunload', warnUnsaved);
+    const interval = saveStatus === 'error' ? setInterval(retry, 10000) : undefined;
+    return () => {
+      window.removeEventListener('online', retry);
+      window.removeEventListener('beforeunload', warnUnsaved);
+      if (interval) clearInterval(interval);
+    };
+  }, [saveStatus, runSaveWorker]);
 
   // Handle Pause
   const handlePause = async () => {
@@ -230,7 +309,13 @@ export default function ExamSessionPage() {
     if (!currentQ) return;
 
     const currentAns = answers[currentQ.id] || { selectedOptionIds: [], isDoubtful: false };
-    const newSelected = [optionId]; // Single choice mode
+    // MULTI_CHOICE: klik menambah/menghapus opsi; tipe lain hanya satu pilihan
+    const newSelected =
+      currentQ.type === 'MULTI_CHOICE'
+        ? currentAns.selectedOptionIds.includes(optionId)
+          ? currentAns.selectedOptionIds.filter((id) => id !== optionId)
+          : [...currentAns.selectedOptionIds, optionId]
+        : [optionId];
 
     const updatedState: AnswerState = {
       ...currentAns,
@@ -265,22 +350,28 @@ export default function ExamSessionPage() {
     triggerAutoSave(currentQ.id, updatedState);
   };
 
-  // Submit Final Answers
-  const handleSubmitExam = async () => {
+  // Submit Final Answers. `force` (waktu habis): tetap kumpulkan walau ada jawaban yang gagal tersimpan.
+  const handleSubmitExam = async (force = false) => {
     if (!attemptId || isSubmitting) return;
 
     try {
       setIsSubmitting(true);
-      const res = await fetch('/api/exam/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ attemptId }),
-      });
-
-      const data = await res.json();
-      if (!res.ok) {
-        throw new Error(data.error || 'Gagal mengirimkan ujian');
+      // Pastikan jawaban terakhir sudah sampai di server sebelum dinilai
+      if (!(await flushSaves()) && !force) {
+        alert(
+          'Beberapa jawaban belum tersimpan karena koneksi bermasalah. Periksa internet Anda lalu tekan Kumpulkan lagi.'
+        );
+        setIsSubmitting(false);
+        return;
       }
+
+      const data = await withRetry(() =>
+        requestJson('/api/exam/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ attemptId }),
+        })
+      );
 
       router.push(data.redirectUrl || `/results/${attemptId}`);
     } catch (err) {
@@ -377,6 +468,14 @@ export default function ExamSessionPage() {
             <div className="flex items-center gap-2 text-[11px] text-slate-500 truncate">
               <span>Soal {currentIndex + 1} dari {questions.length}</span>
               <span>•</span>
+              {saveStatus === 'error' ? (
+                <span className="font-semibold text-rose-600">Gagal menyimpan, mencoba lagi…</span>
+              ) : saveStatus === 'saving' ? (
+                <span>Menyimpan…</span>
+              ) : (
+                <span className="text-emerald-600">Tersimpan</span>
+              )}
+              <span>•</span>
               <span className="font-medium text-indigo-600">{currentQ.topicName}</span>
             </div>
           </div>
@@ -409,7 +508,7 @@ export default function ExamSessionPage() {
           <ExamTimer
             key={timerSeed.key}
             initialSeconds={timerSeed.seconds}
-            onTimeOut={handleSubmitExam}
+            onTimeOut={() => handleSubmitExam(true)}
             onTick={(s) => {
               remainingRef.current = s;
             }}
@@ -690,7 +789,7 @@ export default function ExamSessionPage() {
       <ExamConfirmModal
         isOpen={isConfirmModalOpen}
         onClose={() => setIsConfirmModalOpen(false)}
-        onConfirmSubmit={handleSubmitExam}
+        onConfirmSubmit={() => handleSubmitExam()}
         isSubmitting={isSubmitting}
         stats={{
           total: questions.length,
