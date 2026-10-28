@@ -28,6 +28,8 @@ import {
 } from 'lucide-react';
 import { MathRenderer } from '@/components/katex/MathRenderer';
 import { formatDate } from '@/lib/utils';
+import { DeleteAttemptButton } from '@/components/exam/DeleteAttemptButton';
+import { TrashReviewActions } from '@/components/exam/TrashReviewActions';
 
 interface QuestionOption {
   id: string;
@@ -61,6 +63,7 @@ interface AttemptItem {
   isPassed: boolean;
   status: string;
   remainingSeconds: number | null;
+  deletedAt: string | null;
 }
 
 interface PackageDetailClientProps {
@@ -461,9 +464,10 @@ export default function PackageDetailClient({
     return true;
   });
 
-  // Analytics Metrics
-  const totalAttempts = attempts.length;
-  const completedAttempts = attempts.filter((a) => a.status === 'COMPLETED' || a.status === 'TIMED_OUT');
+  // Analytics Metrics (hasil di sampah tidak dihitung)
+  const countedAttempts = attempts.filter((a) => !a.deletedAt);
+  const totalAttempts = countedAttempts.length;
+  const completedAttempts = countedAttempts.filter((a) => a.status === 'COMPLETED' || a.status === 'TIMED_OUT');
   const completedCount = completedAttempts.length;
   const scores = completedAttempts.map((a) => a.scoreTotal || 0);
   const avgScore = completedCount > 0 ? Math.round(scores.reduce((a, b) => a + b, 0) / completedCount) : null;
@@ -1230,6 +1234,11 @@ export default function PackageDetailClient({
                           >
                             {att.status}
                           </span>
+                          {att.deletedAt && (
+                            <span className="ml-1 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase bg-rose-50 text-rose-700">
+                              Di sampah
+                            </span>
+                          )}
                         </td>
                         <td className="py-3 px-4 text-center font-black text-slate-900 text-sm">
                           {att.scoreTotal}
@@ -1246,14 +1255,30 @@ export default function PackageDetailClient({
                           </span>
                         </td>
                         <td className="py-3 px-4 text-right">
-                          <Link
-                            href={`/results/${att.id}`}
-                            target="_blank"
-                            className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-indigo-50 text-indigo-700 hover:bg-indigo-100 font-semibold text-xs transition"
-                          >
-                            <span>Ulasan</span>
-                            <ExternalLink className="w-3 h-3" />
-                          </Link>
+                          <div className="inline-flex items-center gap-1">
+                            <Link
+                              href={`/results/${att.id}`}
+                              target="_blank"
+                              className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-indigo-50 text-indigo-700 hover:bg-indigo-100 font-semibold text-xs transition"
+                            >
+                              <span>Ulasan</span>
+                              <ExternalLink className="w-3 h-3" />
+                            </Link>
+                            {att.deletedAt ? (
+                              <TrashReviewActions
+                                endpoint={`/api/exam/attempt/${att.id}`}
+                                packageTitle={pkg.title}
+                                ownerName={att.userName || att.userUsername || 'peserta'}
+                              />
+                            ) : (
+                              <DeleteAttemptButton
+                                attemptId={att.id}
+                                packageTitle={pkg.title}
+                                isActive={att.status === 'IN_PROGRESS' || att.status === 'PAUSED'}
+                                ownerName={att.userName || att.userUsername || 'peserta'}
+                              />
+                            )}
+                          </div>
                         </td>
                       </tr>
                     ))}

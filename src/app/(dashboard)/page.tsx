@@ -5,6 +5,7 @@ import { examPackages, categories, packageQuestions, questions, attempts, users 
 import { getCurrentUser } from '@/lib/auth';
 import CerdasifyLogo from '@/components/ui/CerdasifyLogo';
 import InstallButton from '@/components/pwa/InstallButton';
+import { DeleteAttemptButton } from '@/components/exam/DeleteAttemptButton';
 import { eq, desc } from 'drizzle-orm';
 import {
   BookOpen,
@@ -116,14 +117,16 @@ export default async function UserDashboardPage({
 
   const isFilterActive = Boolean(searchQuery || selectedCategory || selectedType);
 
-  // User's past attempts
-  const userAttempts = user
+  // User's past attempts (hasil yang dibuang ke sampah disembunyikan dari pemiliknya)
+  const allUserAttempts = user
     ? await db
         .select()
         .from(attempts)
         .where(eq(attempts.userId, user.userId))
         .orderBy(desc(attempts.startedAt))
     : [];
+  const userAttempts = allUserAttempts.filter((a) => !a.deletedAt);
+  const trashedCount = allUserAttempts.length - userAttempts.length;
 
   const pkgTitleMap = new Map(packagesList.map((p) => [p.id, p.title]));
 
@@ -450,7 +453,7 @@ export default async function UserDashboardPage({
         </section>
 
         {/* History of Past Attempts */}
-        {user && userAttempts.length > 0 && (
+        {user && (userAttempts.length > 0 || trashedCount > 0) && (
           <section className="space-y-4 pt-4">
             <div className="flex items-center justify-between">
               <div>
@@ -461,9 +464,15 @@ export default async function UserDashboardPage({
                 <p className="text-xs text-slate-500 mt-0.5">
                   Daftar hasil pengerjaan simulasi ujian dan pembahasan materi
                 </p>
+                {trashedCount > 0 && (
+                  <p className="text-xs text-amber-700 mt-1">
+                    {trashedCount} hasil ada di sampah, menunggu konfirmasi orang tua untuk dihapus.
+                  </p>
+                )}
               </div>
             </div>
 
+            {userAttempts.length > 0 && (
             <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs">
               <div className="divide-y divide-slate-100">
                 {userAttempts.map((att) => {
@@ -522,12 +531,19 @@ export default async function UserDashboardPage({
                           <span>{isCompleted ? 'Lihat Hasil & Pembahasan' : 'Lanjutkan Ujian'}</span>
                           <ChevronRight className="w-3.5 h-3.5" />
                         </Link>
+                        <DeleteAttemptButton
+                          attemptId={att.id}
+                          packageTitle={pkgTitle}
+                          isActive={!isCompleted}
+                          toTrash={Boolean(user.parentId) && user.role === 'USER'}
+                        />
                       </div>
                     </div>
                   );
                 })}
               </div>
             </div>
+            )}
           </section>
         )}
       </main>

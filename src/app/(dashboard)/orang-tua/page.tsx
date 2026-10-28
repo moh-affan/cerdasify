@@ -2,13 +2,14 @@ import React from 'react';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { db } from '@/db';
-import { attempts, learningContents, readingProgress, subjects, users } from '@/db/schema';
+import { attempts, examPackages, learningContents, readingProgress, subjects, users } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
 import CerdasifyLogo from '@/components/ui/CerdasifyLogo';
+import { TrashReviewActions } from '@/components/exam/TrashReviewActions';
 import { AddChildForm, ChildSettings } from '@/components/learn/ParentForms';
 import { GRADE_OPTIONS, PHASE_INFO, computeStreak, gradeToPhase, jakartaDateString, lastNDates } from '@/lib/learning';
 import { asc, desc, eq, inArray } from 'drizzle-orm';
-import { ArrowLeft, Flame, BookOpenCheck, Star, ClipboardCheck, Users } from 'lucide-react';
+import { ArrowLeft, Flame, BookOpenCheck, Star, ClipboardCheck, Trash2, Users } from 'lucide-react';
 
 const DAY_LABEL = ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'];
 
@@ -47,9 +48,19 @@ export default async function ParentDashboardPage() {
       : Promise.resolve([]),
     childIds.length
       ? db
-          .select({ userId: attempts.userId, status: attempts.status })
+          .select({
+            id: attempts.id,
+            userId: attempts.userId,
+            status: attempts.status,
+            scoreTotal: attempts.scoreTotal,
+            startedAt: attempts.startedAt,
+            deletedAt: attempts.deletedAt,
+            packageTitle: examPackages.title,
+          })
           .from(attempts)
+          .innerJoin(examPackages, eq(attempts.packageId, examPackages.id))
           .where(inArray(attempts.userId, childIds))
+          .orderBy(desc(attempts.deletedAt))
       : Promise.resolve([]),
     db.select().from(subjects),
   ]);
@@ -80,7 +91,8 @@ export default async function ParentDashboardPage() {
       maxPerDay: Math.max(1, ...perDay),
       perSubject: [...perSubject.entries()].sort((a, b) => b[1] - a[1]),
       recent: rows.slice(0, 8),
-      examsDone: childAttempts.filter((a) => a.status === 'COMPLETED' || a.status === 'TIMED_OUT').length,
+      examsDone: childAttempts.filter((a) => !a.deletedAt && (a.status === 'COMPLETED' || a.status === 'TIMED_OUT')).length,
+      trashed: childAttempts.filter((a) => a.deletedAt),
     };
   });
 
@@ -207,6 +219,39 @@ export default async function ParentDashboardPage() {
                 )}
               </div>
             </div>
+
+            {s.trashed.length > 0 && (
+              <div className="space-y-2">
+                <h3 className="text-sm font-bold text-slate-700 flex items-center gap-1.5">
+                  <Trash2 className="w-4 h-4 text-rose-500" />
+                  Permintaan Hapus Hasil Ujian ({s.trashed.length})
+                </h3>
+                <p className="text-xs text-slate-500">
+                  {s.child.name} membuang hasil berikut ke sampah. Setujui untuk menghapus permanen, atau pulihkan agar
+                  tetap tercatat di riwayatnya.
+                </p>
+                <ul className="divide-y divide-amber-100 bg-amber-50/60 border border-amber-200 rounded-2xl px-3">
+                  {s.trashed.map((a) => (
+                    <li key={a.id} className="py-2.5 flex flex-col sm:flex-row sm:items-center gap-2 text-sm">
+                      <div className="flex-1 min-w-0">
+                        <div className="font-medium truncate">{a.packageTitle}</div>
+                        <div className="text-[11px] text-slate-500">
+                          Skor {a.scoreTotal} · dikerjakan{' '}
+                          {new Date(a.startedAt).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' })}
+                          {' · '}dibuang{' '}
+                          {new Date(a.deletedAt!).toLocaleDateString('id-ID', { day: 'numeric', month: 'short' })}
+                        </div>
+                      </div>
+                      <TrashReviewActions
+                        endpoint={`/api/parent/attempts/${a.id}`}
+                        packageTitle={a.packageTitle}
+                        ownerName={s.child.name}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </section>
         ))}
       </main>

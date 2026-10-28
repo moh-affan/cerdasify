@@ -289,6 +289,14 @@ Jika Anda memiliki ratusan butir soal atau daftar ratusan siswa dari berkas spre
 ### Q: Apakah ada batasan berapa kali siswa dapat mengulang paket latihan?
 **A:** Tidak ada batasan. Siswa dapat mengulang (*retake*) paket latihan sesering mungkin untuk melatih daya ingat dan penguasaan konsep, di mana riwayat nilai tiap percobaan tersimpan terpisah di menu Riwayat Ujian.
 
+**Q: Bagaimana menghapus hasil ujian yang hanya coba-coba?**
+**A:** Peserta dapat menekan ikon 🗑️ di samping hasil pada **Riwayat Ujian Anda** (beranda) atau tombol **Hapus Hasil** di halaman hasil.
+- **Akun anak** (dibuat dari menu Orang Tua): hasil dipindahkan ke **sampah** dan hilang dari riwayat anak, tetapi baru terhapus permanen setelah **orang tua** (bagian *Permintaan Hapus Hasil Ujian* di Dasbor Orang Tua) atau **admin** (bagian *Sampah Hasil Ujian* di dashboard admin) menekan **Hapus Permanen**. Tombol **Pulihkan** mengembalikan hasil ke riwayat anak. Pengerjaan yang masih berjalan akan diakhiri dan dinilai dulu sebelum dibuang.
+- **Akun biasa** (bukan akun anak): hasil langsung terhapus permanen.
+- **Admin/Super Admin**: dapat menghapus hasil peserta mana pun secara **permanen** dari tabel **Riwayat Pengerjaan Peserta** di detail paket atau dari daftar aktivitas di dashboard admin.
+
+Setiap penghapusan meminta konfirmasi, dan hapus permanen menghilangkan skor beserta seluruh jawaban.
+
 ---
 
 *Cerdasify — Platform Latihan Soal & Simulasi Ujian Cerdas, Cepat, dan Terpercaya.*

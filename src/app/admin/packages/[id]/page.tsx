@@ -79,6 +79,7 @@ export default async function AdminPackageDetailPage({
       isPassed: attempts.isPassed,
       status: attempts.status,
       remainingSeconds: attempts.remainingSeconds,
+      deletedAt: attempts.deletedAt,
     })
     .from(attempts)
     .leftJoin(users, eq(attempts.userId, users.id))

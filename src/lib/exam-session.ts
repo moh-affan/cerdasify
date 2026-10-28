@@ -22,6 +22,8 @@ export async function loadAttempt(
   const [attempt] = await db.select().from(attempts).where(eq(attempts.id, attemptId)).limit(1);
   if (!attempt) throw new ApiError('Sesi ujian tidak ditemukan', 404);
   if (attempt.userId !== user.userId && !(allowStaff && isStaff(user))) throw new ApiError('Anda tidak memiliki akses', 403);
+  // Hasil di sampah sudah "dihapus" bagi pemiliknya; hanya staf yang masih bisa membuka
+  if (attempt.deletedAt && !(allowStaff && isStaff(user))) throw new ApiError('Sesi ujian tidak ditemukan', 404);
 
   const [pkg] = await db.select().from(examPackages).where(eq(examPackages.id, attempt.packageId)).limit(1);
   if (!pkg) throw new ApiError('Paket ujian tidak ditemukan', 404);

@@ -114,6 +114,8 @@ export const attempts = pgTable('attempts', {
   remainingSeconds: integer('remaining_seconds'),
   // Awal segmen waktu berjalan (saat mulai / dilanjutkan). Dipakai server menghitung sisa waktu.
   segmentStartedAt: text('segment_started_at'),
+  // Diisi saat akun anak menghapus hasilnya: masuk sampah, menunggu konfirmasi orang tua/admin
+  deletedAt: text('deleted_at'),
 });
 
 export const attemptAnswers = pgTable('attempt_answers', {

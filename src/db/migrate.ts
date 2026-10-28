@@ -124,6 +124,10 @@ export async function runMigrations() {
     CREATE UNIQUE INDEX IF NOT EXISTS uq_attempts_one_active ON attempts(user_id, package_id)
       WHERE status IN ('IN_PROGRESS', 'PAUSED');
 
+    -- Sampah hasil ujian: hapus oleh akun anak menunggu konfirmasi orang tua/admin
+    ALTER TABLE attempts ADD COLUMN IF NOT EXISTS deleted_at TEXT;
+    CREATE INDEX IF NOT EXISTS idx_attempts_deleted ON attempts(deleted_at) WHERE deleted_at IS NOT NULL;
+
     -- Pustaka Belajar
     ALTER TABLE users ADD COLUMN IF NOT EXISTS grade_level INTEGER;
     ALTER TABLE users ADD COLUMN IF NOT EXISTS parent_id TEXT REFERENCES users(id) ON DELETE SET NULL;

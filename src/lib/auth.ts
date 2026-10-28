@@ -27,6 +27,7 @@ export interface SessionPayload {
   username: string;
   name: string;
   role: 'SUPER_ADMIN' | 'ADMIN' | 'USER';
+  parentId?: string | null; // terisi untuk akun anak (dibaca ulang dari DB, tidak dari token)
   expiresAt: number;
 }
 
@@ -117,6 +118,7 @@ export async function getCurrentUser(): Promise<SessionPayload | null> {
     username: user.username,
     name: user.name,
     role: user.role as 'SUPER_ADMIN' | 'ADMIN' | 'USER',
+    parentId: user.parentId,
     expiresAt: session.expiresAt,
   };
 }

@@ -254,6 +254,9 @@ Ini memastikan pada layar ponsel selebar 360px–420px, rumus dapat di-scroll se
 | Method | Endpoint | Deskripsi | Hak Akses |
 |---|---|---|---|
 | `GET` | `/api/exam/attempt/[attemptId]` | Mengambil soal aktif (Kunci jawaban dihilangkan) | Pemilik Sesi |
+| `DELETE` | `/api/exam/attempt/[attemptId]` | Menghapus hasil/pengerjaan. Akun anak: masuk sampah (`attempts.deleted_at`, attempt aktif dinilai & ditutup dulu). Pengguna lain & staf: permanen beserta jawabannya (FK cascade). Dicatat di log server | Pemilik Sesi, Admin, Super Admin |
+| `PATCH` | `/api/exam/attempt/[attemptId]` | `{ action: 'restore' }` — memulihkan hasil dari sampah | Admin, Super Admin |
+| `DELETE` / `PATCH` | `/api/parent/attempts/[attemptId]` | Orang tua menyetujui hapus permanen / memulihkan hasil di sampah milik anaknya sendiri (`users.parent_id = user.userId`) | Orang Tua |
 | `POST` | `/api/exam/save-answer` | Auto-save pilihan jawaban per butir soal | Pemilik Sesi |
 | `POST` | `/api/exam/pause` | Menghentikan sesi latihan & simpan sisa detik | Pemilik Sesi |
 | `POST` | `/api/exam/resume` | Melanjutkan kembali sesi latihan yang dijeda | Pemilik Sesi |

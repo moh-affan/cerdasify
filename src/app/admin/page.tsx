@@ -3,8 +3,11 @@ import Link from 'next/link';
 import { db } from '@/db';
 import { questions, examPackages, users, attempts } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
-import { desc } from 'drizzle-orm';
+import { DeleteAttemptButton } from '@/components/exam/DeleteAttemptButton';
+import { TrashReviewActions } from '@/components/exam/TrashReviewActions';
+import { desc, isNotNull } from 'drizzle-orm';
 import {
+  Trash2,
   BookOpen,
   Package,
   Users,
@@ -43,10 +46,25 @@ export default async function AdminDashboardOverviewPage() {
       status: attempts.status,
       startedAt: attempts.startedAt,
       finishedAt: attempts.finishedAt,
+      deletedAt: attempts.deletedAt,
     })
     .from(attempts)
     .orderBy(desc(attempts.startedAt))
     .limit(10);
+
+  // Hasil yang dibuang akun anak ke sampah, menunggu konfirmasi
+  const trashedAttempts = await db
+    .select({
+      id: attempts.id,
+      userId: attempts.userId,
+      packageId: attempts.packageId,
+      scoreTotal: attempts.scoreTotal,
+      startedAt: attempts.startedAt,
+      deletedAt: attempts.deletedAt,
+    })
+    .from(attempts)
+    .where(isNotNull(attempts.deletedAt))
+    .orderBy(desc(attempts.deletedAt));
 
   return (
     <div className="max-w-6xl mx-auto space-y-8">
@@ -119,6 +137,54 @@ export default async function AdminDashboardOverviewPage() {
         </div>
       </div>
 
+      {/* Sampah hasil ujian (dibuang akun anak) */}
+      {trashedAttempts.length > 0 && (
+        <div className="bg-white rounded-3xl border border-amber-200 shadow-xs p-6 space-y-4">
+          <div className="border-b border-slate-100 pb-4">
+            <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
+              <Trash2 className="w-4 h-4 text-rose-500" />
+              Sampah Hasil Ujian ({trashedAttempts.length})
+            </h2>
+            <p className="text-xs text-slate-400 mt-0.5">
+              Dibuang oleh akun anak; terhapus permanen setelah dikonfirmasi admin atau orang tuanya.
+            </p>
+          </div>
+          <ul className="divide-y divide-slate-100">
+            {trashedAttempts.map((att) => {
+              const studentName = userMap.get(att.userId) || 'Peserta';
+              const pkgName = pkgMap.get(att.packageId) || 'Paket Ujian';
+              return (
+                <li key={att.id} className="py-3 flex flex-col sm:flex-row sm:items-center gap-2 text-xs">
+                  <div className="flex-1 min-w-0">
+                    <div className="font-bold text-slate-800 truncate">
+                      {studentName} · <span className="font-medium text-slate-600">{pkgName}</span>
+                    </div>
+                    <div className="text-slate-400">
+                      Skor {att.scoreTotal} · dikerjakan {new Date(att.startedAt).toLocaleDateString('id-ID')} · dibuang{' '}
+                      {new Date(att.deletedAt!).toLocaleDateString('id-ID')}
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <Link
+                      href={`/results/${att.id}`}
+                      className="text-indigo-600 hover:text-indigo-800 font-semibold inline-flex items-center gap-1"
+                    >
+                      <span>Detail</span>
+                      <ChevronRight className="w-3.5 h-3.5" />
+                    </Link>
+                    <TrashReviewActions
+                      endpoint={`/api/exam/attempt/${att.id}`}
+                      packageTitle={pkgName}
+                      ownerName={studentName}
+                    />
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+
       {/* Recent Attempts Activity */}
       <div className="bg-white rounded-3xl border border-slate-200/80 shadow-xs p-6 space-y-4">
         <div className="flex items-center justify-between border-b border-slate-100 pb-4">
@@ -166,6 +232,11 @@ export default async function AdminDashboardOverviewPage() {
                         >
                           {att.status}
                         </span>
+                        {att.deletedAt && (
+                          <span className="ml-1 px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-rose-50 text-rose-700">
+                            Di sampah
+                          </span>
+                        )}
                       </td>
                       <td className="py-3 font-mono font-extrabold text-slate-800">
                         {isDone ? att.scoreTotal : '-'}
@@ -184,15 +255,23 @@ export default async function AdminDashboardOverviewPage() {
                         )}
                       </td>
                       <td className="py-3 pr-2 text-right">
-                        {isDone && (
-                          <Link
-                            href={`/results/${att.id}`}
-                            className="text-indigo-600 hover:text-indigo-800 font-semibold text-xs inline-flex items-center gap-1"
-                          >
-                            <span>Detail</span>
-                            <ChevronRight className="w-3.5 h-3.5" />
-                          </Link>
-                        )}
+                        <div className="inline-flex items-center gap-1">
+                          {isDone && (
+                            <Link
+                              href={`/results/${att.id}`}
+                              className="text-indigo-600 hover:text-indigo-800 font-semibold text-xs inline-flex items-center gap-1"
+                            >
+                              <span>Detail</span>
+                              <ChevronRight className="w-3.5 h-3.5" />
+                            </Link>
+                          )}
+                          <DeleteAttemptButton
+                            attemptId={att.id}
+                            packageTitle={pkgName}
+                            isActive={!isDone}
+                            ownerName={studentName}
+                          />
+                        </div>
                       </td>
                     </tr>
                   );

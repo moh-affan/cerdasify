@@ -8,6 +8,8 @@ import { orderOptionsForAttempt, orderQuestionsForAttempt } from '@/lib/exam-dat
 import { isPastDeadline } from '@/lib/exam-time';
 import type { ScoreResult } from '@/lib/scoring';
 import ZoomableImage from '@/components/ui/ZoomableImage';
+import { DeleteAttemptButton } from '@/components/exam/DeleteAttemptButton';
+import { TrashReviewActions } from '@/components/exam/TrashReviewActions';
 import { eq, asc, inArray } from 'drizzle-orm';
 import { MathRenderer } from '@/components/katex/MathRenderer';
 import { CheckCircle2, XCircle, HelpCircle, RotateCcw, ArrowLeft, Clock, BarChart3, BookOpen } from 'lucide-react';
@@ -30,8 +32,13 @@ export default async function ExamResultPage({
     notFound();
   }
 
-  if (attempt.userId !== user.userId && user.role !== 'SUPER_ADMIN' && user.role !== 'ADMIN') {
+  const isStaffViewer = user.role === 'SUPER_ADMIN' || user.role === 'ADMIN';
+  if (attempt.userId !== user.userId && !isStaffViewer) {
     redirect('/');
+  }
+  // Hasil di sampah sudah "dihapus" bagi pemiliknya; staf masih bisa meninjau sebelum mengonfirmasi
+  if (attempt.deletedAt && !isStaffViewer) {
+    notFound();
   }
 
   const [pkg] = await db.select().from(examPackages).where(eq(examPackages.id, attempt.packageId)).limit(1);
@@ -176,6 +183,22 @@ export default async function ExamResultPage({
               <RotateCcw className="w-3.5 h-3.5" />
               <span>Ulangi Ujian</span>
             </Link>
+            {attempt.deletedAt && isStaffViewer ? (
+              <TrashReviewActions
+                endpoint={`/api/exam/attempt/${attempt.id}`}
+                packageTitle={pkg.title}
+                ownerName="peserta ini"
+                redirectAfterConfirm="/admin"
+              />
+            ) : (
+              <DeleteAttemptButton
+                variant="button"
+                attemptId={attempt.id}
+                packageTitle={pkg.title}
+                toTrash={attempt.userId === user.userId && Boolean(user.parentId) && !isStaffViewer}
+                redirectTo={attempt.userId === user.userId ? '/' : '/admin'}
+              />
+            )}
           </div>
         </div>
       </header>

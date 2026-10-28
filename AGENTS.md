@@ -94,6 +94,7 @@ export const db = drizzle(client, { schema });
 - Konten yang diedit lewat panel admin (`edited_at` terisi) **tidak boleh** ditimpa seeder tanpa `--force`.
 - Gambar konten (sampul/panel komik) wajib ringan: WebP/JPEG ≤ 640px untuk aset bawaan di `public/learning/`, dan hanya gambar orisinal, berlisensi bebas, atau hasil AI — jangan menyalin gambar berhak cipta.
 - **RBAC Orang Tua–Anak:** relasi lewat `users.parent_id`. Setiap rute `/api/parent/*` wajib memfilter `parent_id = user.userId`; akun yang memiliki `parent_id` (akun anak) tidak boleh mengakses `/orang-tua` maupun membuat akun anak.
+- **Hapus Hasil Ujian:** akun anak hanya bisa membuang hasilnya ke sampah (`attempts.deleted_at`); hapus permanen butuh konfirmasi orang tua atau admin. Hasil di sampah disembunyikan dari pemiliknya (`loadAttempt`, riwayat, halaman hasil) dan tidak dihitung di statistik. Hapus oleh admin langsung permanen.
 
 ---
 
