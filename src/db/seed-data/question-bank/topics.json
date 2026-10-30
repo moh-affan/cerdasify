@@ -466,5 +466,17 @@
     "categoryId": "cat_olimpiade_jso",
     "name": "Matematika Level 2 Grand Final Nasional JSO 2026",
     "slug": "olimpiade-jso-2026-grand-final-matematika-level-2"
+  },
+  {
+    "id": "top_latihan_mtk_l1_semifinal",
+    "categoryId": "cat_olimpiade_sd",
+    "name": "Latihan Semifinal Matematika Level 1",
+    "slug": "latihan-semifinal-matematika-level-1"
+  },
+  {
+    "id": "top_latihan_mtk_l1_grandfinal",
+    "categoryId": "cat_olimpiade_sd",
+    "name": "Latihan Grand Final Matematika Level 1",
+    "slug": "latihan-grand-final-matematika-level-1"
   }
 ]

@@ -144,6 +144,54 @@
     ]
   },
   {
+    "id": "pkg_kmsi_2024_mtk_gf_1_src04",
+    "topicId": "top_kmsi_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan bahwa:\n\n$$2 \\otimes 3 = 2 + 2 + 2$$\n$$5 \\ominus 3 = 5 - 5 - 5$$\n\nMaka hasil dari $3 \\otimes 5 + 3 \\ominus 5$ adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola: $a \\otimes b$ = angka $a$ ditulis $b$ kali lalu dijumlahkan; $a \\ominus b$ = angka $a$ ditulis $b$ kali lalu dikurangkan.\n- $3 \\otimes 5 = 3 + 3 + 3 + 3 + 3 = 15$\n- $3 \\ominus 5 = 3 - 3 - 3 - 3 - 3$\n\nJadi seluruhnya: 15 + 3 − 3 − 3 − 3 − 3. Hitung dari kiri: 15 + 3 = 18 → 15 → 12 → 9 → **6**.\n\nCatatan: di naskah asli pilihan d tertulis 5 sehingga tidak ada jawaban yang benar; pilihan d diperbaiki menjadi 6.\n\nKunci Jawaban: **D (6)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src04_opt_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src04_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src04_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src04_opt_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
     "id": "pkg_kmsi_2024_mtk_gf_1_q04",
     "topicId": "top_kmsi_2024_mtk_gf_1",
     "type": "SINGLE_CHOICE",
@@ -232,6 +280,54 @@
         "id": "pkg_kmsi_2024_mtk_gf_1_q05_opt_d",
         "label": "D",
         "content": "63",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_gf_1_src07",
+    "topicId": "top_kmsi_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jumlah dari 18 + 81 adalah 99, sehingga 18 dan 81 kita sebut pasangan bilangan 2 angka TERBALIK, karena jika posisi satuan dan puluhannya ditukar lalu kedua bilangan dijumlahkan hasilnya 99. Ada berapa pasang bilangan 2 angka TERBALIK?",
+    "imageUrl": null,
+    "explanation": "Bilangan $\\overline{ab}$ + $\\overline{ba}$ = 11 × (a + b) = 99, jadi a + b = 9. Kedua bilangan harus 2 angka (a dan b bukan 0):\n18 & 81, 27 & 72, 36 & 63, 45 & 54 → **4 pasang** (8 bilangan).\n\nKunci Jawaban: **D (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src07_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src07_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src07_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src07_opt_d",
+        "label": "D",
+        "content": "4",
         "imageUrl": null,
         "isCorrect": true,
         "scoreValue": 4,
@@ -904,6 +1000,150 @@
         "id": "pkg_kmsi_2024_mtk_gf_1_q19_opt_d",
         "label": "D",
         "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_gf_1_src22",
+    "topicId": "top_kmsi_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jumlah panjang 2 pensil identik jika dipasang berjejer sesuai pada gambar di samping, jika diukur pada mistar penggaris, adalah ...",
+    "imageUrl": "/uploads/kmsi24_gf_m1_src22.png",
+    "explanation": "Mistar pada gambar adalah mistar 15 cm. Panjang satu pensil kira-kira tiga perempat mistar, yaitu 11,25 cm. Dua pensil = 11,25 + 11,25 = **22,5 cm**.\n\nCatatan: angka pada mistar di naskah asli tidak terbaca; kunci ini tafsiran tim, belum ada kunci resmi.\n\nKunci Jawaban: **C (22,5 cm)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src22_opt_a",
+        "label": "A",
+        "content": "7,5 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src22_opt_b",
+        "label": "B",
+        "content": "15 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src22_opt_c",
+        "label": "C",
+        "content": "22,5 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src22_opt_d",
+        "label": "D",
+        "content": "30 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_gf_1_src23",
+    "topicId": "top_kmsi_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Banyaknya bilangan ganjil dan prima antara 29 sampai 49 (29 dan 49 ikut dihitung) adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan prima dari 29 sampai 49: 29, 31, 37, 41, 43, 47 (semuanya ganjil). 33, 35, 39, 45, 49 bukan prima. Jadi ada **6** bilangan.\n\nCatatan: jika 29 tidak ikut dihitung, jawabannya 5.\n\nKunci Jawaban: **C (6)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src23_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src23_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src23_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src23_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_gf_1_src24",
+    "topicId": "top_kmsi_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Banyaknya bilangan genap antara angka 18 sampai 42 (18 dan 42 ikut dihitung) adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan genap: 18, 20, 22, …, 42. Banyaknya = (42 − 18) : 2 + 1 = 12 + 1 = **13**.\n\nCatatan: jika 18 dan 42 tidak ikut dihitung, jawabannya 11.\n\nKunci Jawaban: **B (13)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src24_opt_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src24_opt_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src24_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_gf_1_src24_opt_d",
+        "label": "D",
+        "content": "11",
         "imageUrl": null,
         "isCorrect": false,
         "scoreValue": 0,

@@ -200,7 +200,7 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `SOAL FULL/Soal-Matematika-JSO-Final-Provinsi.pdf` (2074 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/Soal-Penyisihan-Jso-2025-Type-c.pdf` (7505 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/Soal-Type-a-Jso-2024-Penyisihan-2.pdf` (8339 KB) | *Siap diimpor ke paket baru* |
-| [x] **SUDAH** | `PDF` | `SOAL FULL/TIPE A FINPROV JSO 2026.pdf` (7254 KB) | **pkg_jso_2026_mtk_prov_1/2**: JSO 2026 Final Provinsi — Matematika L1 (37) & L2 (38); mapel lain belum |
+| [x] **SUDAH** | `PDF` | `SOAL FULL/TIPE A FINPROV JSO 2026.pdf` (7254 KB) | **pkg_jso_2026_mtk_prov_1/2**: JSO 2026 Final Provinsi — Matematika L1 (40) & L2 (38); mapel lain belum |
 | [ ] Belum | `PDF` | `SOAL FULL/TIPE B FINPROV JSO 2026.pdf` (7434 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf` (9146 KB) | *Siap diimpor ke paket baru* |
 | [x] **SUDAH** | `PDF` | `SOAL GF FIX JSO 2026.pdf` (7375 KB) | **pkg_jso_2026_mtk_gf_1/2**: JSO 2026 Grand Final — Matematika L1 (35) & L2 (34); mapel lain belum |
@@ -223,8 +223,8 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `Level 1/kmsi mtk 1 grand final nasional 2022-2023.pdf` (2293 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `Level 1/kmsi mtk 1 grand final nasional 2023.docx` (1952 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 1/kmsi mtk 1 grand final nasional 2023.pdf` (1719 KB) | *Siap diimpor ke paket baru* |
-| [x] **SUDAH** | `DOCX` | `Level 1/kmsi mtk 1 grand final nasional 2024.docx` (2309 KB) | **pkg_kmsi_2024_mtk_gf_1**: KMSI 2024 Grand Final Nasional — Matematika L1 (35 Soal) |
-| [x] **SUDAH** | `PDF` | `Level 1/kmsi mtk 1 grand final nasional 2024.pdf` (2057 KB) | **pkg_kmsi_2024_mtk_gf_1**: KMSI 2024 Grand Final Nasional — Matematika L1 (35 Soal) |
+| [x] **SUDAH** | `DOCX` | `Level 1/kmsi mtk 1 grand final nasional 2024.docx` (2309 KB) | **pkg_kmsi_2024_mtk_gf_1**: KMSI 2024 Grand Final Nasional — Matematika L1 (40 Soal) |
+| [x] **SUDAH** | `PDF` | `Level 1/kmsi mtk 1 grand final nasional 2024.pdf` (2057 KB) | **pkg_kmsi_2024_mtk_gf_1**: KMSI 2024 Grand Final Nasional — Matematika L1 (40 Soal) |
 | [ ] Belum | `PDF` | `Level 1/kmsi mtk 1 kumpulan soal.pdf` (7680 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 1/kmsi mtk 1 penyisihan 2024 tipe a.pdf` (782 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `Level 1/kmsi mtk 1 penyisihan 2024 tipe b.docx` (1353 KB) | *Siap diimpor ke paket baru* |
@@ -236,7 +236,7 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `DOCX` | `Level 2/kmsi mtk 2 penyisihan 2024 tipe b.docx` (1609 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 2/kmsi mtk 2 penyisihan 2024 tipe b.pdf` (906 KB) | *Siap diimpor ke paket baru* |
 | [x] **SUDAH** | `PDF` | `SOAL FULL/New-Soal-Type-a-Penyisihan-Kmsi-2024.pdf` (8810 KB) | **pkg_kmsi_2024_mtk_peny_1/2**: KMSI 2024 Penyisihan — Matematika L1 (30) & L2 (29); mapel lain belum |
-| [x] **SUDAH** | `PDF` | `SOAL FULL/type-B-new-final-provinsi-kmsi-2024.pdf` (12715 KB) | **pkg_kmsi_2024_mtk_prov_1/2**: KMSI 2024 Final Provinsi — Matematika L1 (36) & L2 (38); mapel lain belum |
+| [x] **SUDAH** | `PDF` | `SOAL FULL/type-B-new-final-provinsi-kmsi-2024.pdf` (12715 KB) | **pkg_kmsi_2024_mtk_prov_1/2**: KMSI 2024 Final Provinsi — Matematika L1 (40) & L2 (38); mapel lain belum |
 | [ ] Belum | `PDF` | `english/KMSI_2024_Bahasa_Inggris_Level_1_dan_2.pdf` (1330 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `kmsi all provinsi 2024.pdf` (8962 KB) | *Siap diimpor ke paket baru* |
 

@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q01",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola bilangan berikut.\n\nBaris 1: 1\nBaris 2: 2 3\nBaris 3: 4 5 6\nBaris 4: 7 8 9 10\n\nBilangan pertama pada baris ke-8 adalah ...",
+    "imageUrl": null,
+    "explanation": "Sampai baris ke-7 sudah tertulis 1 + 2 + ... + 7 = 28 bilangan. Bilangan pertama baris ke-8 adalah **29**.\n\nKunci Jawaban: **D (29)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q01_opt_a",
+        "label": "A",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q01_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q01_opt_c",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q01_opt_d",
+        "label": "D",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q02",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dari pola pada soal sebelumnya (Baris 1: 1; Baris 2: 2 3; Baris 3: 4 5 6; ...), jumlah semua bilangan pada baris ke-5 adalah ...",
+    "imageUrl": null,
+    "explanation": "Baris ke-5 berisi 11, 12, 13, 14, 15. Jumlahnya **65**.\n\nKunci Jawaban: **B (65)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q02_opt_a",
+        "label": "A",
+        "content": "55",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q02_opt_b",
+        "label": "B",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q02_opt_c",
+        "label": "C",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q02_opt_d",
+        "label": "D",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q03",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil dari 1 + 2 + 3 + ... + 49 + 50 adalah ...",
+    "imageUrl": null,
+    "explanation": "Pasangkan: 1 + 50 = 51, 2 + 49 = 51, ... ada 25 pasang. 25 × 51 = **1275**.\n\nKunci Jawaban: **C (1275)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q03_opt_a",
+        "label": "A",
+        "content": "1250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q03_opt_b",
+        "label": "B",
+        "content": "1300",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q03_opt_c",
+        "label": "C",
+        "content": "1275",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q03_opt_d",
+        "label": "D",
+        "content": "2550",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q04",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari 20 − 18 + 16 − 14 + 12 − 10 + 8 − 6 + 4 − 2 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kelompokkan: (20 − 18) + (16 − 14) + (12 − 10) + (8 − 6) + (4 − 2) = 5 × 2 = **10**.\n\nKunci Jawaban: **B (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q04_opt_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q04_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q04_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q04_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q05",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pak Yasin menulis bilangan dari 1 sampai 50. Banyak angka 5 yang ditulis adalah ...",
+    "imageUrl": null,
+    "explanation": "Angka 5 muncul pada 5, 15, 25, 35, 45, dan 50. Jadi **6**.\n\nKunci Jawaban: **B (6)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q05_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q05_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q05_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q05_opt_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Angka ke-100 dari bilangan 123123123123... adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola 123 berulang tiap 3 angka. 100 = 33 × 3 + 1, jadi angka ke-100 sama dengan angka ke-1, yaitu **1**.\n\nKunci Jawaban: **C (1)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q06_opt_a",
+        "label": "A",
+        "content": "0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q06_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q06_opt_c",
+        "label": "C",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q06_opt_d",
+        "label": "D",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q07",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui ♣ + ♣ = ♦ dan ♦ + ♣ = 12. Hasil dari ♦ × ♣ adalah ...",
+    "imageUrl": null,
+    "explanation": "♦ + ♣ = ♣ + ♣ + ♣ = 12, jadi ♣ = 4 dan ♦ = 8. ♦ × ♣ = 8 × 4 = **32**.\n\nKunci Jawaban: **A (32)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q07_opt_a",
+        "label": "A",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q07_opt_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q07_opt_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q07_opt_d",
+        "label": "D",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q08",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui a ⊕ b = a × b + a + b. Contoh: 2 ⊕ 3 = 6 + 2 + 3 = 11. Hasil dari 4 ⊕ 5 adalah ...",
+    "imageUrl": null,
+    "explanation": "4 ⊕ 5 = 20 + 4 + 5 = **29**.\n\nKunci Jawaban: **A (29)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q08_opt_a",
+        "label": "A",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q08_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q08_opt_c",
+        "label": "C",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q08_opt_d",
+        "label": "D",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q09",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hari ini hari Senin. 100 hari lagi adalah hari ...",
+    "imageUrl": null,
+    "explanation": "100 = 14 × 7 + 2. Senin + 2 hari = **Rabu**.\n\nKunci Jawaban: **D (Rabu)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q09_opt_a",
+        "label": "A",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q09_opt_b",
+        "label": "B",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q09_opt_c",
+        "label": "C",
+        "content": "Jumat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q09_opt_d",
+        "label": "D",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q10",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tahun 2028 adalah tahun kabisat. Banyak hari dari 1 Januari sampai 31 Maret 2028 adalah ...",
+    "imageUrl": null,
+    "explanation": "Januari 31 + Februari 29 + Maret 31 = **91** hari.\n\nKunci Jawaban: **C (91)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q10_opt_a",
+        "label": "A",
+        "content": "89",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q10_opt_b",
+        "label": "B",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q10_opt_c",
+        "label": "C",
+        "content": "91",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q10_opt_d",
+        "label": "D",
+        "content": "92",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q11",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jam dinding Erin terlambat 15 menit. Saat jam itu menunjukkan pukul 08.50, waktu yang sebenarnya adalah pukul ...",
+    "imageUrl": null,
+    "explanation": "Jam terlambat berarti waktu sebenarnya lebih maju: 08.50 + 15 menit = **09.05**.\n\nKunci Jawaban: **B (09.05)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q11_opt_a",
+        "label": "A",
+        "content": "08.35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q11_opt_b",
+        "label": "B",
+        "content": "09.05",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q11_opt_c",
+        "label": "C",
+        "content": "08.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q11_opt_d",
+        "label": "D",
+        "content": "09.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q12",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Selisih waktu antara pukul 14.35 dan pukul 16.10 adalah ... menit.",
+    "imageUrl": null,
+    "explanation": "14.35 → 15.00 = 25 menit, 15.00 → 16.00 = 60 menit, 16.00 → 16.10 = 10 menit. Total **95** menit.\n\nKunci Jawaban: **B (95)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q12_opt_a",
+        "label": "A",
+        "content": "75",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q12_opt_b",
+        "label": "B",
+        "content": "95",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q12_opt_c",
+        "label": "C",
+        "content": "85",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q12_opt_d",
+        "label": "D",
+        "content": "105",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q13",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Kak Rosa bersepeda sejauh 30 km dengan kecepatan 12 km/jam. Ia berangkat pukul 07.00 dan istirahat sekali selama 30 menit. Ia tiba pukul ...",
+    "imageUrl": null,
+    "explanation": "Waktu bersepeda = 30 : 12 = 2 jam 30 menit. Ditambah istirahat 30 menit = 3 jam. 07.00 + 3 jam = **10.00**.\n\nKunci Jawaban: **B (10.00)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q13_opt_a",
+        "label": "A",
+        "content": "09.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q13_opt_b",
+        "label": "B",
+        "content": "10.00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q13_opt_c",
+        "label": "C",
+        "content": "09.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q13_opt_d",
+        "label": "D",
+        "content": "10.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q14",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Uang Rp35.000 ditukar dengan lembaran Rp2.000 dan Rp5.000 yang banyaknya sama. Banyak lembar uang seluruhnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Satu pasang (Rp2.000 + Rp5.000) = Rp7.000. 35.000 : 7.000 = 5 pasang = **10** lembar.\n\nKunci Jawaban: **C (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q14_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q14_opt_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q14_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q14_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q15",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Umur ayah 4 kali umur anaknya. Lima tahun lagi, umur ayah 3 kali umur anaknya. Umur ayah sekarang adalah ... tahun.",
+    "imageUrl": null,
+    "explanation": "Coba anak 10 tahun, ayah 40 tahun. Lima tahun lagi: 15 dan 45, dan 45 = 3 × 15. Jadi umur ayah **40** tahun.\n\nKunci Jawaban: **A (40)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q15_opt_a",
+        "label": "A",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q15_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q15_opt_c",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q15_opt_d",
+        "label": "D",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q16",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Harga sebuah buku dan sebuah pensil Rp9.000. Buku Rp5.000 lebih mahal daripada pensil. Harga pensil adalah ...",
+    "imageUrl": null,
+    "explanation": "Pensil = (9.000 − 5.000) : 2 = **Rp2.000**, buku Rp7.000.\n\nKunci Jawaban: **C (Rp2.000)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q16_opt_a",
+        "label": "A",
+        "content": "Rp2.500",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q16_opt_b",
+        "label": "B",
+        "content": "Rp3.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q16_opt_c",
+        "label": "C",
+        "content": "Rp2.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q16_opt_d",
+        "label": "D",
+        "content": "Rp4.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q17",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Isi kantong A 3 kali isi kantong B. Jika 10 kelereng dari kantong A dipindah ke kantong B, isi kedua kantong menjadi sama. Isi kantong A mula-mula adalah ...",
+    "imageUrl": null,
+    "explanation": "Selisih A dan B = 2 bagian. Agar sama, A memberi setengah selisih = 1 bagian = 10. Jadi B = 10 dan A = **30**. Cek: 20 dan 20.\n\nKunci Jawaban: **B (30)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q17_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q17_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q17_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q17_opt_d",
+        "label": "D",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q18",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Di kandang ada ayam dan kambing dengan 20 kepala dan 56 kaki. Banyak ayam adalah ...",
+    "imageUrl": null,
+    "explanation": "Semua ayam: 40 kaki. Sisa 16 kaki, kambing = 16 : 2 = 8. Ayam = 20 − 8 = **12**.\n\nKunci Jawaban: **D (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q18_opt_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q18_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q18_opt_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q18_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q19",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tiga lampu berkedip setiap 4 detik, 6 detik, dan 8 detik. Ketiganya berkedip bersamaan. Mereka berkedip bersamaan lagi setelah ... detik.",
+    "imageUrl": null,
+    "explanation": "KPK dari 4, 6, dan 8 adalah **24**.\n\nKunci Jawaban: **C (24)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q19_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q19_opt_b",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q19_opt_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q19_opt_d",
+        "label": "D",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q20",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Ada 24 apel dan 36 jeruk yang akan dimasukkan ke keranjang. Setiap keranjang harus berisi apel sama banyak dan jeruk sama banyak, dan semua buah habis. Banyak keranjang paling banyak adalah ...",
+    "imageUrl": null,
+    "explanation": "Banyak keranjang harus membagi 24 dan 36. Pembagi terbesarnya (FPB) adalah **12**: tiap keranjang 2 apel dan 3 jeruk.\n\nKunci Jawaban: **A (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q20_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q20_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q20_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q20_opt_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q21",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dalam sebuah antrean, Ali berada di urutan ke-3 dari depan dan Budi di urutan ke-4 dari belakang. Di antara Ali dan Budi ada 9 orang. Banyak orang dalam antrean adalah ...",
+    "imageUrl": null,
+    "explanation": "Di depan Ali 2 orang, Ali, 9 orang, Budi, lalu 3 orang di belakang Budi: 2 + 1 + 9 + 1 + 3 = **16**.\n\nKunci Jawaban: **A (16)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q21_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q21_opt_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q21_opt_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q21_opt_d",
+        "label": "D",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q22",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Taman berbentuk lingkaran dengan keliling 60 meter. Di tepi taman ditanam pohon setiap 5 meter. Banyak pohon adalah ...",
+    "imageUrl": null,
+    "explanation": "Pada jalur melingkar, banyak pohon = banyak jarak: 60 : 5 = **12** pohon.\n\nKunci Jawaban: **A (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q22_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q22_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q22_opt_c",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q22_opt_d",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q23",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dari angka 0, 1, 2, dan 3 disusun bilangan tiga angka dengan angka berbeda. Banyak bilangan yang dapat disusun adalah ...",
+    "imageUrl": null,
+    "explanation": "Ratusan tidak boleh 0: 3 pilihan. Puluhan: 3 pilihan, satuan: 2 pilihan. 3 × 3 × 2 = **18**.\n\nKunci Jawaban: **C (18)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q23_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q23_opt_b",
+        "label": "B",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q23_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q23_opt_d",
+        "label": "D",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q24",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dari rumah ke sekolah, Vadya bisa lewat taman atau lewat pasar. Rumah ke taman ada 2 jalan, taman ke sekolah ada 3 jalan. Rumah ke pasar ada 1 jalan, pasar ke sekolah ada 2 jalan. Banyak cara Vadya ke sekolah adalah ...",
+    "imageUrl": null,
+    "explanation": "Lewat taman: 2 × 3 = 6. Lewat pasar: 1 × 2 = 2. Total **8** cara.\n\nKunci Jawaban: **D (8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q24_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q24_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q24_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q24_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q25",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola 2, 6, 12, 20, 30, ... Bilangan berikutnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Bertambah 4, 6, 8, 10, lalu 12. 30 + 12 = **42**.\n\nKunci Jawaban: **B (42)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q25_opt_a",
+        "label": "A",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q25_opt_b",
+        "label": "B",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q25_opt_c",
+        "label": "C",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q25_opt_d",
+        "label": "D",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q26",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola 1, 1, 2, 3, 5, 8, 13, ... Bilangan berikutnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap bilangan = jumlah dua bilangan sebelumnya. 8 + 13 = **21**.\n\nKunci Jawaban: **C (21)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q26_opt_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q26_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q26_opt_c",
+        "label": "C",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q26_opt_d",
+        "label": "D",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q27",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah bilangan dua angka, jumlah kedua angkanya 9. Jika angka puluhan dan satuannya ditukar, bilangannya bertambah 27. Bilangan itu adalah ...",
+    "imageUrl": null,
+    "explanation": "Cek pilihan: 36 → 63, selisih 27, dan 3 + 6 = 9. Jadi **36**.\n\nKunci Jawaban: **D (36)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q27_opt_a",
+        "label": "A",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q27_opt_b",
+        "label": "B",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q27_opt_c",
+        "label": "C",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q27_opt_d",
+        "label": "D",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q28",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari 25 × 4 × 25 × 4 adalah ...",
+    "imageUrl": null,
+    "explanation": "25 × 4 = 100. 100 × 100 = **10000**.\n\nKunci Jawaban: **D (10000)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q28_opt_a",
+        "label": "A",
+        "content": "400",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q28_opt_b",
+        "label": "B",
+        "content": "1000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q28_opt_c",
+        "label": "C",
+        "content": "2500",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q28_opt_d",
+        "label": "D",
+        "content": "10000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q29",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari 999 + 99 + 9 + 3 adalah ...",
+    "imageUrl": null,
+    "explanation": "999 + 1 = 1000, 99 + 1 = 100, 9 + 1 = 10 (memakai 3 dari angka 3). Jadi 1000 + 100 + 10 = **1110**.\n\nKunci Jawaban: **B (1110)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q29_opt_a",
+        "label": "A",
+        "content": "1011",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q29_opt_b",
+        "label": "B",
+        "content": "1110",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q29_opt_c",
+        "label": "C",
+        "content": "1100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q29_opt_d",
+        "label": "D",
+        "content": "1101",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q30",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tiga dadu dilempar bersamaan. Jumlah mata dadu yang muncul 17. Mata dadu terkecil yang muncul adalah ...",
+    "imageUrl": null,
+    "explanation": "Jumlah terbesar tiga dadu 18 (6 + 6 + 6). Jumlah 17 hanya bisa 6 + 6 + 5, jadi terkecil **5**.\n\nKunci Jawaban: **D (5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q30_opt_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q30_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q30_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q30_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q31",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "(Isian) Sebuah persegi besar dibagi menjadi 3 × 3 persegi kecil yang sama besar. Banyak persegi seluruhnya (semua ukuran) adalah ...",
+    "imageUrl": null,
+    "explanation": "Ukuran 1 × 1: 9, ukuran 2 × 2: 4, ukuran 3 × 3: 1. Total **14**.\n\nKunci Jawaban: **A (14)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q31_opt_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q31_opt_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q31_opt_c",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q31_opt_d",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q32",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "(Isian) Lantai berukuran 3 m × 2 m akan dipasang ubin persegi dengan sisi 50 cm. Banyak ubin yang diperlukan adalah ...",
+    "imageUrl": null,
+    "explanation": "3 m = 300 cm → 6 ubin, 2 m = 200 cm → 4 ubin. 6 × 4 = **24** ubin.\n\nKunci Jawaban: **A (24)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q32_opt_a",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q32_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q32_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q32_opt_d",
+        "label": "D",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q33",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "(Isian) Keliling persegi panjang yang panjangnya 7 cm dan lebarnya 5 cm adalah ... cm.",
+    "imageUrl": null,
+    "explanation": "Keliling = 7 + 5 + 7 + 5 = **24** cm.\n\nKunci Jawaban: **A (24)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q33_opt_a",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q33_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q33_opt_c",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q33_opt_d",
+        "label": "D",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q34",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "(Isian) Harga 1 kg gula Rp15.000. Harga 2½ kg gula adalah ...",
+    "imageUrl": null,
+    "explanation": "2 kg = 30.000, ½ kg = 7.500. Total **Rp37.500**.\n\nKunci Jawaban: **C (Rp37.500)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q34_opt_a",
+        "label": "A",
+        "content": "Rp30.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q34_opt_b",
+        "label": "B",
+        "content": "Rp35.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q34_opt_c",
+        "label": "C",
+        "content": "Rp37.500",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q34_opt_d",
+        "label": "D",
+        "content": "Rp40.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_latihan_mtk_l1_grandfinal_1_q35",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "(Isian) Pak Budi membagikan 110 permen kepada 3 anaknya. Anak kedua mendapat 10 permen lebih banyak dari anak ketiga. Anak pertama mendapat 2 kali anak kedua. Banyak permen anak pertama adalah ...",
+    "imageUrl": null,
+    "explanation": "Anak ketiga = k, anak kedua = k + 10, anak pertama = 2k + 20. Jumlah 4k + 30 = 110, jadi k = 20. Anak pertama = **60** (20 + 30 + 60 = 110).\n\nKunci Jawaban: **D (60)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q35_opt_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q35_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q35_opt_c",
+        "label": "C",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_latihan_mtk_l1_grandfinal_1_q35_opt_d",
+        "label": "D",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

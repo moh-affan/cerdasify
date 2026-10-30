@@ -23,6 +23,7 @@
 !/data/.gitkeep
 # Cadangan database sebelum skrip perbaikan data
 /data/backup_*.json
+/data/backups/
 
 # Environment variables
 .env

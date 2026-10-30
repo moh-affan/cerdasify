@@ -528,6 +528,54 @@
     ]
   },
   {
+    "id": "pkg_kmsi_2024_mtk_prov_1_src12",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ada berapa mobil pada gambar di bawah ini?",
+    "imageUrl": "/uploads/kmsi24_prov_m1_src12.png",
+    "explanation": "Hitung satu per satu: taksi kuning, mobil hijau, mobil merah, mobil oranye, mobil truk hijau-oranye, dan mobil biru. Truk juga termasuk mobil (mobil barang), jadi ada **6** mobil.\n\nKunci Jawaban: **B (6)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src12_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src12_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src12_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src12_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
     "id": "pkg_kmsi_2024_mtk_prov_1_q12",
     "topicId": "top_kmsi_2024_mtk_prov_1",
     "type": "SINGLE_CHOICE",
@@ -712,6 +760,54 @@
         "id": "pkg_kmsi_2024_mtk_prov_1_q15_opt_d",
         "label": "D",
         "content": "N",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_src17",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Zidan rajin dan suka membaca buku \"brain game\" matematika. Jika kebiasaan anak ini mampu membaca buku sebanyak 2 buah setiap bulannya, maka waktu yang ia butuhkan secara rutin untuk menamatkan (khatam) satu buku adalah ...",
+    "imageUrl": null,
+    "explanation": "1 bulan ≈ 4 minggu = 28 hari. Dalam 1 bulan Zidan menamatkan 2 buku, jadi 1 buku butuh 28 : 2 = **14 hari** (2 minggu).\n\nCatatan: naskah asli juga menyebut \"judul baru setiap minggunya\" yang bertentangan dengan \"2 buku setiap bulan\". Kunci mengikuti data 2 buku per bulan.\n\nKunci Jawaban: **B (14 hari)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src17_opt_a",
+        "label": "A",
+        "content": "7 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src17_opt_b",
+        "label": "B",
+        "content": "14 hari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src17_opt_c",
+        "label": "C",
+        "content": "21 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src17_opt_d",
+        "label": "D",
+        "content": "28 hari",
         "imageUrl": null,
         "isCorrect": false,
         "scoreValue": 0,
@@ -1152,6 +1248,54 @@
     ]
   },
   {
+    "id": "pkg_kmsi_2024_mtk_prov_1_src27",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "MULTI_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dua gambar timbangan paling atas menunjukkan kondisi timbangan yang seimbang. Di antara gambar a, b, c, dan d berikut, manakah yang BENAR? (Jawaban bisa lebih dari satu, pilih semua yang benar.)",
+    "imageUrl": "/uploads/kmsi24_prov_m1_src27.png",
+    "explanation": "Dari timbangan seimbang: 1 kucing = 2 tikus, dan 3 tikus = 2 bebek, jadi 2 bebek = 3 tikus (1 bebek = satu setengah tikus). Pada keempat gambar, piring kiri lebih rendah, artinya isi kiri harus lebih berat.\n- a. 3 tikus vs 2 kucing (= 4 tikus): kanan lebih berat → **salah**.\n- b. 1 kucing (= 2 tikus) vs 1 bebek (= 1½ tikus): kiri lebih berat → **benar**.\n- c. kucing + tikus (= 3 tikus) vs tikus + bebek (= 2½ tikus): kiri lebih berat → **benar**.\n- d. 1 kucing (= 2 tikus) vs 2 bebek (= 3 tikus): kanan lebih berat → **salah**.\n\nNaskah asli memakai satu jawaban, padahal b dan c sama-sama benar, sehingga di sini soal dibuat pilihan ganda kompleks.\n\nKunci Jawaban: **B dan C**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src27_opt_a",
+        "label": "A",
+        "content": "Gambar a",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src27_opt_b",
+        "label": "B",
+        "content": "Gambar b",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src27_opt_c",
+        "label": "C",
+        "content": "Gambar c",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src27_opt_d",
+        "label": "D",
+        "content": "Gambar d",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
     "id": "pkg_kmsi_2024_mtk_prov_1_q25",
     "topicId": "top_kmsi_2024_mtk_prov_1",
     "type": "SINGLE_CHOICE",
@@ -1579,6 +1723,54 @@
         "imageUrl": null,
         "isCorrect": false,
         "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2024_mtk_prov_1_src37",
+    "topicId": "top_kmsi_2024_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ada berapa kubus yang harus ditambahkan agar gambar kiri menjadi gambar kanan?",
+    "imageUrl": "/uploads/kmsi24_prov_m1_src37.png",
+    "explanation": "Gambar kanan adalah balok 3 kubus (panjang) × 3 kubus (dalam) × 2 kubus (tinggi) = **18** kubus.\nGambar kiri: lapisan atas 3 kubus, lapisan bawah 6 kubus (termasuk kubus yang tertutup di bawah kubus atas, karena kubus tidak bisa melayang) = 9 kubus.\nKubus yang harus ditambahkan = 18 − 9 = **9**.\n\nCatatan: gambar naskah asli beresolusi rendah sehingga kubus tersembunyi tidak terlihat jelas; kunci ini tafsiran tim, belum ada kunci resmi.\n\nKunci Jawaban: **D (9 kubus)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src37_opt_a",
+        "label": "A",
+        "content": "4 kubus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src37_opt_b",
+        "label": "B",
+        "content": "5 kubus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src37_opt_c",
+        "label": "C",
+        "content": "10 kubus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2024_mtk_prov_1_src37_opt_d",
+        "label": "D",
+        "content": "9 kubus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
         "order": 4
       }
     ]

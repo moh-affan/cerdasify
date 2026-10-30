@@ -10,7 +10,9 @@
     "seed": "tsx src/db/seed.ts",
     "migrate": "tsx src/db/migrate.ts",
     "seed:learning": "tsx src/db/seed_learning.ts",
-    "bank:export": "tsx src/db/export_question_bank.ts"
+    "bank:export": "tsx src/db/export_question_bank.ts",
+    "db:backup": "tsx src/db/backup.ts",
+    "db:restore": "tsx src/db/restore.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

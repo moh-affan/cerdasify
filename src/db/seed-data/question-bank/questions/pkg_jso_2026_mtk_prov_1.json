@@ -240,6 +240,54 @@
     ]
   },
   {
+    "id": "pkg_jso_2026_mtk_prov_1_src06",
+    "topicId": "top_jso_2026_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar balok berikut!\n\nBalok tersebut memiliki ukuran 16 cm × 12 cm × 9 cm. Titik T terletak pada titik potong pertemuan diagonal bidang (bidang atas). Panjang garis yang berwarna biru adalah ... cm.",
+    "imageUrl": "/uploads/jso26_prov_m1_src06.png",
+    "explanation": "Panjang balok 16 cm, lebar 12 cm, tinggi 9 cm. Garis biru terdiri atas:\n- 3 rusuk lebar: 3 × 12 = 36 cm\n- 1 rusuk tegak (kanan depan): 9 cm\n- diagonal sisi samping kiri (12 cm × 9 cm): 15 cm, karena 9, 12, 15 adalah tripel Pythagoras (3 × 3, 3 × 4, 3 × 5)\n- 2 garis dari pojok atas ke T. T adalah titik tengah diagonal bidang atas (16 cm × 12 cm) yang panjangnya 20 cm, jadi tiap garis 10 cm: 2 × 10 = 20 cm\n\nTotal = 36 + 9 + 15 + 20 = **80 cm**.\n\nCatatan: soal ini memakai konsep diagonal bidang (Pythagoras) yang biasanya untuk kelas atas; di naskah asli soal ini tetap ada di Level 1.\n\nKunci Jawaban: **B (80)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src06_opt_a",
+        "label": "A",
+        "content": "75",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src06_opt_b",
+        "label": "B",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src06_opt_c",
+        "label": "C",
+        "content": "85",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src06_opt_d",
+        "label": "D",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
     "id": "pkg_jso_2026_mtk_prov_1_q06",
     "topicId": "top_jso_2026_mtk_prov_1",
     "type": "SINGLE_CHOICE",
@@ -283,6 +331,54 @@
         "imageUrl": null,
         "isCorrect": false,
         "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_prov_1_src08",
+    "topicId": "top_jso_2026_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dina menanam 1 tanaman obat herbal. Setiap hari tanaman indukan tersebut disiram dan dirawat. Seminggu kemudian tanaman itu tumbuh berkembang dan beranak. Anak tanaman obat tersebut mampu beranak tunas sebanyak 3 buah. Jika diasumsikan tunas yang tumbuh belum bisa menghasilkan tunas baru, maka jumlah tanaman milik Dina setelah satu bulan adalah ...",
+    "imageUrl": null,
+    "explanation": "Tafsiran yang sesuai pilihan jawaban: tanaman induk beranak 3, lalu setiap anak beranak 3 tunas, dan tunas tidak beranak lagi.\n- Induk: 1\n- Anak: 3\n- Tunas: 3 × 3 = 9\n\nJumlah = 1 + 3 + 9 = **13** tanaman.\n\nKunci Jawaban: **D (13)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src08_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src08_opt_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src08_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src08_opt_d",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
         "order": 4
       }
     ]
@@ -1000,6 +1096,54 @@
         "id": "pkg_jso_2026_mtk_prov_1_q21_opt_d",
         "label": "D",
         "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2026_mtk_prov_1_src24",
+    "topicId": "top_jso_2026_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dua uang koin Rp500,00 dan sepuluh uang koin Rp1.000,00 dibagikan kepada 4 anak sehingga masing-masing anak mendapatkan banyak koin yang sama. Selisih uang terbesar dengan terkecil (yang paling mungkin terjadi) adalah ...",
+    "imageUrl": null,
+    "explanation": "Ada 2 + 10 = 12 koin, dibagi 4 anak, jadi setiap anak mendapat 3 koin.\n- Uang terbesar: 3 koin Rp1.000 = Rp3.000.\n- Uang terkecil: anak yang mendapat kedua koin Rp500 → 500 + 500 + 1.000 = Rp2.000.\n\nSelisih = 3.000 − 2.000 = **Rp1.000**. (Jika dua koin Rp500 diberikan ke dua anak berbeda, selisihnya Rp500, tetapi nilai itu tidak ada di pilihan.)\n\nKunci Jawaban: **A (Rp1.000,00)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src24_opt_a",
+        "label": "A",
+        "content": "Rp1.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src24_opt_b",
+        "label": "B",
+        "content": "Rp2.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src24_opt_c",
+        "label": "C",
+        "content": "Rp1.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2026_mtk_prov_1_src24_opt_d",
+        "label": "D",
+        "content": "Rp3.000,00",
         "imageUrl": null,
         "isCorrect": false,
         "scoreValue": 0,

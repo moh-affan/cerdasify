@@ -674,3 +674,15 @@
 {"package": "pkg_jso_2026_mtk_prov_2", "reason": "Impor 2026-10-11, soal naskah tidak diikutkan / disesuaikan: no. 7 (persegi panjang tidak digambar kongruen), 27 (luas arsir 27,5 tidak di opsi)"}
 {"package": "pkg_jso_2026_mtk_gf_1", "reason": "Impor 2026-10-11, soal naskah tidak diikutkan / disesuaikan: tidak ada; no. 31–35 isian singkat diubah menjadi pilihan ganda"}
 {"package": "pkg_jso_2026_mtk_gf_2", "reason": "Impor 2026-10-11, soal naskah tidak diikutkan / disesuaikan: no. 7 (garis mendatar memotong berapa garis miring tidak jelas); no. 31–35 isian singkat diubah menjadi pilihan ganda"}
+{"id": "pkg_jso_2026_mtk_prov_1_src06", "reason": "Audit 2026-10-30: soal naskah no. 6 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_jso_2026_mtk_prov_1_src08", "reason": "Audit 2026-10-30: soal naskah no. 8 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_jso_2026_mtk_prov_1_src24", "reason": "Audit 2026-10-30: soal naskah no. 24 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_kmsi_2024_mtk_prov_1_src12", "reason": "Audit 2026-10-30: soal naskah no. 12 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_kmsi_2024_mtk_prov_1_src17", "reason": "Audit 2026-10-30: soal naskah no. 17 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_kmsi_2024_mtk_prov_1_src27", "reason": "Audit 2026-10-30: soal naskah no. 27 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_kmsi_2024_mtk_prov_1_src37", "reason": "Audit 2026-10-30: soal naskah no. 37 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_kmsi_2024_mtk_gf_1_src04", "reason": "Audit 2026-10-30: soal naskah no. 4 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_kmsi_2024_mtk_gf_1_src07", "reason": "Audit 2026-10-30: soal naskah no. 7 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_kmsi_2024_mtk_gf_1_src22", "reason": "Audit 2026-10-30: soal naskah no. 22 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_kmsi_2024_mtk_gf_1_src23", "reason": "Audit 2026-10-30: soal naskah no. 23 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
+{"id": "pkg_kmsi_2024_mtk_gf_1_src24", "reason": "Audit 2026-10-30: soal naskah no. 24 dikembalikan agar jumlah & urutan sama dengan naskah asli"}
