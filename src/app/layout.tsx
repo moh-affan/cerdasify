@@ -4,6 +4,7 @@ import 'katex/dist/katex.min.css';
 import './globals.css';
 import { PwaProvider } from '@/components/pwa/PwaContext';
 import InstallPrompt from '@/components/pwa/InstallPrompt';
+import { ScratchPadProvider } from '@/components/exam/ScratchPadContext';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -61,8 +62,10 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col font-sans bg-slate-50 text-slate-900">
         <PwaProvider>
-          {children}
-          <InstallPrompt />
+          <ScratchPadProvider>
+            {children}
+            <InstallPrompt />
+          </ScratchPadProvider>
         </PwaProvider>
       </body>
     </html>

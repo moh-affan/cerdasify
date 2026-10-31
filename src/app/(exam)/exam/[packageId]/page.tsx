@@ -7,7 +7,7 @@ import { OptionItem } from '@/components/exam/OptionItem';
 import { ExamTimer } from '@/components/exam/ExamTimer';
 import { ExamGridNav, QuestionStatusItem } from '@/components/exam/ExamGridNav';
 import { ExamConfirmModal } from '@/components/exam/ExamConfirmModal';
-import { ScratchPad } from '@/components/exam/ScratchPad';
+import { useScratchPad } from '@/components/exam/ScratchPadContext';
 import { isRetryable, RequestError, requestJson, withRetry, type ApiJson } from '@/lib/fetch-json';
 import {
   ChevronLeft,
@@ -91,7 +91,28 @@ export default function ExamSessionPage() {
   const [isConfirmModalOpen, setIsConfirmModalOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [zoomImageUrl, setZoomImageUrl] = useState<string | null>(null);
-  const [isScratchOpen, setIsScratchOpen] = useState(false);
+  const { isOpen: isScratchOpen, setIsOpen: setIsScratchOpen, setPageContext } = useScratchPad();
+
+  // Sinkronkan soal aktif ke canvas coretan global
+  const activeQuestionId = questions[currentIndex]?.id;
+  useEffect(() => {
+    if (activeQuestionId) {
+      setPageContext({
+        key: activeQuestionId,
+        label: `Coretan soal ${currentIndex + 1}`,
+      });
+    }
+    return () => {
+      setPageContext(null);
+    };
+  }, [activeQuestionId, currentIndex, setPageContext]);
+
+  // Sembunyikan coretan saat ujian dijeda (pencegahan kecurangan sesuai §2.5)
+  useEffect(() => {
+    if (isPaused) {
+      setIsScratchOpen(false);
+    }
+  }, [isPaused, setIsScratchOpen]);
 
   // Lanjut otomatis ke soal berikutnya setelah memilih jawaban (preferensi per browser)
   const [autoAdvance, setAutoAdvance] = useState(() => {
@@ -723,13 +744,6 @@ export default function ExamSessionPage() {
           onCloseMobile={() => setIsNavOpenMobile(false)}
         />
       </div>
-
-      <ScratchPad
-        isOpen={isScratchOpen}
-        onClose={() => setIsScratchOpen(false)}
-        pageKey={currentQ.id}
-        pageLabel={`Coretan soal ${currentIndex + 1}`}
-      />
 
       {/* PAUSE OVERLAY (When paused, hides questions to prevent cheating and provides clear resume UI) */}
       {isPaused && (
