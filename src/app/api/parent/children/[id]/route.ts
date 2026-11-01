@@ -5,7 +5,7 @@ import { getCurrentUser, hashPassword } from '@/lib/auth';
 import { apiError, readJson } from '@/lib/api';
 import { and, eq } from 'drizzle-orm';
 
-// Orang tua mengubah kelas / nama / password akun anaknya.
+// Orang tua mengubah kelas / nama / password / batas waktu bermain akun anaknya.
 export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
     const user = await getCurrentUser();
@@ -23,7 +23,12 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id
       return NextResponse.json({ error: 'Akun anak tidak ditemukan' }, { status: 404 });
     }
 
-    const { name, password, gradeLevel } = await readJson<{ name?: unknown; password?: unknown; gradeLevel?: number }>(req);
+    const { name, password, gradeLevel, dailyGameMinutes } = await readJson<{
+      name?: unknown;
+      password?: unknown;
+      gradeLevel?: number;
+      dailyGameMinutes?: unknown;
+    }>(req);
     const updates: Partial<typeof users.$inferInsert> = {};
 
     if (name !== undefined) {
@@ -43,6 +48,13 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id
         return NextResponse.json({ error: 'Kelas tidak valid (1–13)' }, { status: 400 });
       }
       updates.gradeLevel = gradeLevel;
+    }
+    if (dailyGameMinutes !== undefined) {
+      // null = tanpa batas; selain itu 5–600 menit per hari
+      if (dailyGameMinutes !== null && (!Number.isInteger(dailyGameMinutes) || (dailyGameMinutes as number) < 5 || (dailyGameMinutes as number) > 600)) {
+        return NextResponse.json({ error: 'Batas bermain harus 5–600 menit atau tanpa batas' }, { status: 400 });
+      }
+      updates.dailyGameMinutes = dailyGameMinutes as number | null;
     }
 
     if (Object.keys(updates).length === 0) {

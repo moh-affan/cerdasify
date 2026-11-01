@@ -46,6 +46,13 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 - Dasbor Orang Tua (`/orang-tua`): buat akun anak dan pantau streak, bacaan, skor kuis, serta aktivitas 7 hari terakhir.
 - Streak membaca harian & progres per pengguna. Seed konten: `npm run seed:learning`.
 
+### 1c. Bermain (Game Edukasi)
+- **45 set game** di `/bermain` per fase: ⚡ Kilat Hitung (math sprint adaptif, termasuk hitung cepat TIU), 🃏 Kartu Kembar (flip card kata ↔ gambar/arti, soal ↔ hasil, angka ↔ benda, rumus geometri), ✖️ Silang Angka (teka-teki silang persamaan), 🧩 TTS Kata (istilah matematika, IPA, kosakata Inggris), dan 🖼️ Kosakata Bergambar (14 dek, hafalan berjarak Leitner, suara TTS).
+- Ringan: tanpa game engine; emoji sebagai gambar, efek suara via Web Audio, tiap game dimuat terpisah. Bisa dimainkan tamu; skor tersimpan setelah masuk akun.
+- Skor **dinilai ulang di server** dari seed + log jawaban (skor dari klien diabaikan); jawaban TTS tidak pernah dikirim ke browser.
+- Terintegrasi: streak gabungan membaca/bermain, tombol "Main Kartu Kembar" di akhir bacaan, statistik & **batas waktu bermain harian** di Dasbor Orang Tua, editor set game di `/admin/game`.
+- Seed: `npm run seed:games` · ekspor editan admin: `npm run games:export` · uji logika: `npm run test:games`.
+
 ### 2. Engine Ujian & Mode Pengerjaan Fleksibel
 - **Mode Latihan Mandiri (Bisa Dijeda / Pausable Practice Mode):**
   - Dilengkapi tombol **Jeda (Pause)** dan **Lanjutkan (Resume)**.
@@ -140,6 +147,11 @@ npm run bank:export
 
 # Konten Pustaka Belajar
 npm run seed:learning
+
+# Set game edukasi (Bermain) — jalankan setelah seed:learning (butuh tabel mata pelajaran)
+npm run seed:games
+# Setelah mengubah set game di panel admin: simpan ke src/db/seed-data/games/admin-overrides.json, lalu commit
+npm run games:export
 ```
 
 ### 5. Menjalankan Server

@@ -96,6 +96,13 @@ export const db = drizzle(client, { schema });
 - **RBAC Orang Tua–Anak:** relasi lewat `users.parent_id`. Setiap rute `/api/parent/*` wajib memfilter `parent_id = user.userId`; akun yang memiliki `parent_id` (akun anak) tidak boleh mengakses `/orang-tua` maupun membuat akun anak.
 - **Hapus Hasil Ujian:** akun anak hanya bisa membuang hasilnya ke sampah (`attempts.deleted_at`); hapus permanen butuh konfirmasi orang tua atau admin. Hasil di sampah disembunyikan dari pemiliknya (`loadAttempt`, riwayat, halaman hasil) dan tidak dihitung di statistik. Hapus oleh admin langsung permanen.
 
+### 2.8. Bermain (Game Edukasi)
+- Game = **engine + data**: logika murni di `src/lib/games/` (dipakai browser & server), isi di satu tabel generik `game_sets`. Jangan membuat tabel per jenis game; engine baru cukup menambah nilai `engine` + validator di `validate.ts`.
+- **Skor dinilai server**: `POST /api/games/finish` memutar ulang log dengan `seed` sesi (`gradeLog`). Jangan pernah menyimpan skor/bintang kiriman klien. Generator harus deterministik; perubahan generator memengaruhi penilaian sesi yang belum selesai.
+- Jawaban **TTS Kata** tidak boleh dikirim ke browser (pakai `publicCrossword()`; cek/bantuan lewat `/api/games/crossword`).
+- Ramah anak: tanpa papan peringkat publik, tanpa skor minus, papan ditutup saat jeda, batas `users.daily_game_minutes` dari orang tua wajib dihormati di `start`.
+- Konten set di `src/db/seed-data/games/` + `npm run seed:games`; dek kosakata wajib dikurasi manual (emoji jelas, satu kata a–z). Set yang diedit admin disimpan lewat `npm run games:export` (`admin-overrides.json`). Jalankan `npm run test:games` setelah mengubah logika game.
+
 ---
 
 ## 3. Aturan Manajemen Kode & Struktur Direktori
@@ -195,6 +202,7 @@ Setiap agen yang menyelesaikan tugas wajib memverifikasi:
 - [ ] Fitur berjalan dengan responsif pada resolusi layar mobile (360px–420px) dan desktop.
 - [ ] Tidak ada kunci jawaban yang bocor di network tab / response JSON pada rute ujian aktif.
 - [ ] Fitur Pause & Resume mode latihan berfungsi presisi dan menutup tampilan soal saat dijeda.
+- [ ] Bila menyentuh fitur Bermain: `npm run test:games` lolos dan skor tetap dinilai ulang di server.
 - [ ] Soal bergambar dapat di-zoom melalui modal Lightbox.
 - [ ] Error database ditangani dengan `apiError()` (log informatif di server, pesan aman ke klien) dan tidak membuat server crash.
 - [ ] File template impor (`.csv` dan `.xlsx`) tetap sinkron dengan skema validasi.

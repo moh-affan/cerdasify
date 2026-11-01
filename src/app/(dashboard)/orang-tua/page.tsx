@@ -2,14 +2,17 @@ import React from 'react';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { db } from '@/db';
-import { attempts, examPackages, learningContents, readingProgress, subjects, users } from '@/db/schema';
+import { attempts, examPackages, gameProgress, gameSessions, gameSets, learningContents, readingProgress, subjects, users, vocabMastery } from '@/db/schema';
 import { getCurrentUser } from '@/lib/auth';
 import CerdasifyLogo from '@/components/ui/CerdasifyLogo';
 import { TrashReviewActions } from '@/components/exam/TrashReviewActions';
 import { AddChildForm, ChildSettings } from '@/components/learn/ParentForms';
 import { GRADE_OPTIONS, PHASE_INFO, computeStreak, gradeToPhase, jakartaDateString, lastNDates } from '@/lib/learning';
-import { asc, desc, eq, inArray } from 'drizzle-orm';
-import { ArrowLeft, Flame, BookOpenCheck, Star, ClipboardCheck, Trash2, Users } from 'lucide-react';
+import { StarRow } from '@/components/games/Pads';
+import { ENGINE_INFO } from '@/lib/games/types';
+import { MASTERED_BOX } from '@/lib/games/vocab';
+import { and, asc, desc, eq, gte, inArray, sql } from 'drizzle-orm';
+import { ArrowLeft, Flame, BookOpenCheck, Star, ClipboardCheck, Trash2, Users, Gamepad2, Brain, Hourglass } from 'lucide-react';
 
 const DAY_LABEL = ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab'];
 
@@ -21,13 +24,14 @@ export default async function ParentDashboardPage() {
   if (me?.parentId) redirect('/belajar');
 
   const children = await db
-    .select({ id: users.id, name: users.name, username: users.username, gradeLevel: users.gradeLevel })
+    .select({ id: users.id, name: users.name, username: users.username, gradeLevel: users.gradeLevel, dailyGameMinutes: users.dailyGameMinutes })
     .from(users)
     .where(eq(users.parentId, user.userId))
     .orderBy(asc(users.createdAt));
 
   const childIds = children.map((c) => c.id);
-  const [progressRows, attemptRows, allSubjects] = await Promise.all([
+  const monthAgo = lastNDates(30, jakartaDateString())[0];
+  const [progressRows, attemptRows, allSubjects, sessionRows, gameStars, masteredRows] = await Promise.all([
     childIds.length
       ? db
           .select({
@@ -63,6 +67,40 @@ export default async function ParentDashboardPage() {
           .orderBy(desc(attempts.deletedAt))
       : Promise.resolve([]),
     db.select().from(subjects),
+    // Sesi bermain 30 hari terakhir
+    childIds.length
+      ? db
+          .select({
+            userId: gameSessions.userId,
+            playDate: gameSessions.playDate,
+            finishedAt: gameSessions.finishedAt,
+            stars: gameSessions.stars,
+            score: gameSessions.score,
+            durationMs: gameSessions.durationMs,
+            title: gameSets.title,
+            emoji: gameSets.coverEmoji,
+            engine: gameSets.engine,
+            slug: gameSets.slug,
+          })
+          .from(gameSessions)
+          .innerJoin(gameSets, eq(gameSessions.gameSetId, gameSets.id))
+          .where(and(inArray(gameSessions.userId, childIds), eq(gameSessions.status, 'COMPLETED'), gte(gameSessions.playDate, monthAgo)))
+          .orderBy(desc(gameSessions.finishedAt))
+      : Promise.resolve([]),
+    childIds.length
+      ? db
+          .select({ userId: gameProgress.userId, stars: sql<number>`sum(${gameProgress.bestStars})::int` })
+          .from(gameProgress)
+          .where(inArray(gameProgress.userId, childIds))
+          .groupBy(gameProgress.userId)
+      : Promise.resolve([]),
+    childIds.length
+      ? db
+          .select({ userId: vocabMastery.userId, n: sql<number>`count(*)::int` })
+          .from(vocabMastery)
+          .where(and(inArray(vocabMastery.userId, childIds), gte(vocabMastery.box, MASTERED_BOX)))
+          .groupBy(vocabMastery.userId)
+      : Promise.resolve([]),
   ]);
 
   const subjectMap = new Map(allSubjects.map((s) => [s.id, s]));
@@ -79,11 +117,16 @@ export default async function ParentDashboardPage() {
     const perSubject = new Map<string, number>();
     for (const r of rows) perSubject.set(r.subjectId, (perSubject.get(r.subjectId) ?? 0) + 1);
     const childAttempts = attemptRows.filter((a) => a.userId === child.id);
+    const plays = sessionRows.filter((g) => g.userId === child.id);
+    const minutesOn = (dates: string[]) =>
+      Math.round(plays.filter((g) => dates.includes(g.playDate)).reduce((sum, g) => sum + (g.durationMs ?? 0), 0) / 60000);
+    const playDates = [...new Set(plays.map((g) => g.playDate))];
 
     return {
       child,
       phase: gradeToPhase(child.gradeLevel),
-      streak: computeStreak(rows.map((r) => r.readDate), today),
+      // Streak gabungan: membaca atau bermain (sesi bermain 30 hari terakhir)
+      streak: computeStreak([...rows.map((r) => r.readDate), ...playDates], today),
       totalRead: rows.length,
       readToday: perDay[perDay.length - 1],
       accuracy: total > 0 ? Math.round((correct / total) * 100) : null,
@@ -93,6 +136,15 @@ export default async function ParentDashboardPage() {
       recent: rows.slice(0, 8),
       examsDone: childAttempts.filter((a) => !a.deletedAt && (a.status === 'COMPLETED' || a.status === 'TIMED_OUT')).length,
       trashed: childAttempts.filter((a) => a.deletedAt),
+      games: {
+        weekCount: plays.filter((g) => week.includes(g.playDate)).length,
+        minutesToday: minutesOn([today]),
+        minutesWeek: minutesOn(week),
+        perDay: week.map((d) => plays.filter((g) => g.playDate === d).length),
+        stars: gameStars.find((x) => x.userId === child.id)?.stars ?? 0,
+        mastered: masteredRows.find((x) => x.userId === child.id)?.n ?? 0,
+        recent: plays.slice(0, 6),
+      },
     };
   });
 
@@ -115,7 +167,7 @@ export default async function ParentDashboardPage() {
               Dasbor Orang Tua
             </h1>
             <p className="text-sm text-slate-500 mt-1">
-              Pantau kebiasaan membaca, hasil kuis, dan latihan soal anak Anda.
+              Pantau kebiasaan membaca, bermain, hasil kuis, dan latihan soal anak Anda.
             </p>
           </div>
           <AddChildForm />
@@ -148,7 +200,7 @@ export default async function ParentDashboardPage() {
                   </p>
                 </div>
               </div>
-              <ChildSettings childId={s.child.id} gradeLevel={s.child.gradeLevel} />
+              <ChildSettings childId={s.child.id} gradeLevel={s.child.gradeLevel} dailyGameMinutes={s.child.dailyGameMinutes} />
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -218,6 +270,45 @@ export default async function ParentDashboardPage() {
                   </ul>
                 )}
               </div>
+            </div>
+
+            <div className="space-y-3 border-t border-slate-100 pt-5">
+              <h3 className="text-sm font-bold text-slate-700 flex items-center gap-1.5">
+                <Gamepad2 className="w-4 h-4 text-emerald-600" /> Bermain
+              </h3>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <Stat icon={<Gamepad2 className="w-4 h-4 text-emerald-600" />} label="Game minggu ini" value={s.games.weekCount} />
+                <Stat
+                  icon={<Hourglass className="w-4 h-4 text-sky-600" />}
+                  label={s.child.dailyGameMinutes ? `Hari ini (maks. ${s.child.dailyGameMinutes})` : 'Menit hari ini'}
+                  value={`${s.games.minutesToday} mnt`}
+                />
+                <Stat icon={<Star className="w-4 h-4 text-yellow-500" />} label="Bintang game" value={s.games.stars} />
+                <Stat icon={<Brain className="w-4 h-4 text-pink-500" />} label="Kosakata dikuasai" value={s.games.mastered} />
+              </div>
+              <p className="text-xs text-slate-500">
+                {s.games.minutesWeek} menit bermain dalam 7 hari terakhir · per hari:{' '}
+                {s.games.perDay.map((n, i) => (
+                  <span key={week[i]} className={week[i] === today ? 'font-bold text-emerald-700' : ''}>
+                    {DAY_LABEL[new Date(`${week[i]}T00:00:00Z`).getUTCDay()]} {n}
+                    {i < 6 ? ' · ' : ''}
+                  </span>
+                ))}
+              </p>
+              {s.games.recent.length > 0 && (
+                <ul className="divide-y divide-slate-100 bg-slate-50 rounded-2xl px-3">
+                  {s.games.recent.map((g, i) => (
+                    <li key={`${g.slug}-${i}`} className="py-2 flex items-center gap-2.5 text-sm">
+                      <span className="text-xl">{g.emoji || ENGINE_INFO[g.engine].emoji}</span>
+                      <span className="flex-1 min-w-0 truncate font-medium">{g.title}</span>
+                      <StarRow stars={g.stars} size="sm" />
+                      <span className="text-[11px] text-slate-400 shrink-0 w-14 text-right">
+                        {new Date(`${g.playDate}T00:00:00Z`).toLocaleDateString('id-ID', { day: 'numeric', month: 'short' })}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
 
             {s.trashed.length > 0 && (

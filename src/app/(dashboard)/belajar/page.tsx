@@ -20,7 +20,8 @@ import {
   type Phase,
 } from '@/lib/learning';
 import { asc, eq } from 'drizzle-orm';
-import { ArrowLeft, Flame, BookOpenCheck, Clock, CheckCircle2, Sun, Users } from 'lucide-react';
+import { ArrowLeft, Flame, BookOpenCheck, Clock, CheckCircle2, Sun, Users, Gamepad2 } from 'lucide-react';
+import { activityDates } from '@/lib/games/server';
 import { cn } from '@/lib/utils';
 
 export default async function BelajarPage({
@@ -47,7 +48,7 @@ export default async function BelajarPage({
   const phase: Phase = isPhase(sp.fase) ? sp.fase : ownPhase ?? 'A';
   const kids = isKidsPhase(phase);
 
-  const [allSubjects, contents, progress] = await Promise.all([
+  const [allSubjects, contents, progress, activeDates] = await Promise.all([
     db.select().from(subjects).orderBy(asc(subjects.orderIndex)),
     db
       .select({
@@ -70,13 +71,15 @@ export default async function BelajarPage({
       .where(eq(learningContents.isPublished, true))
       .orderBy(asc(learningContents.orderIndex)),
     user ? db.select().from(readingProgress).where(eq(readingProgress.userId, user.userId)) : Promise.resolve([]),
+    // Streak gabungan: hari dihitung aktif bila membaca atau bermain
+    user ? activityDates(user.userId) : Promise.resolve([]),
   ]);
 
   const subjectMap = new Map(allSubjects.map((s) => [s.id, s]));
   const progressMap = new Map(progress.map((p) => [p.contentId, p]));
   const completedIds = new Set(progressMap.keys());
   const today = jakartaDateString();
-  const streak = computeStreak(progress.map((p) => p.readDate), today);
+  const streak = computeStreak(activeDates, today);
 
   const phaseAll = contents.filter((c) => contentMatchesPhase(phase, c.phaseMin, c.phaseMax));
   const subjectFilter = allSubjects.some((s) => s.slug === sp.mapel) ? sp.mapel : undefined;
@@ -161,6 +164,13 @@ export default async function BelajarPage({
             <CerdasifyLogo />
           </div>
           <div className="flex items-center gap-2">
+            <Link
+              href="/bermain"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-semibold hover:bg-emerald-100 transition"
+            >
+              <Gamepad2 className="w-3.5 h-3.5" />
+              Bermain
+            </Link>
             {user && !isChildAccount && (
               <Link
                 href="/orang-tua"
@@ -264,6 +274,21 @@ export default async function BelajarPage({
             ))}
           </nav>
         )}
+
+        {/* Pintasan ke game edukasi (di ponsel tombol header disembunyikan agar tidak melebar) */}
+        <Link
+          href={phase === ownPhase ? '/bermain' : `/bermain?fase=${phase}`}
+          className="sm:hidden flex items-center gap-3 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-2xl px-4 py-3 shadow-sm"
+        >
+          <span className="text-3xl" aria-hidden>
+            🎮
+          </span>
+          <span className="flex-1 min-w-0">
+            <span className="block font-extrabold">Bermain sambil belajar</span>
+            <span className="block text-xs text-white/85">Kilat hitung, kartu kembar, TTS & kosakata bergambar</span>
+          </span>
+          <span aria-hidden>→</span>
+        </Link>
 
         {/* Lanjutkan Membaca */}
         <ContinueReadingBanner serverItem={serverLastRead} />

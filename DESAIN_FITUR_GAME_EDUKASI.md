@@ -1,6 +1,6 @@
 # Desain Fitur: Game Edukasi ("Bermain")
 
-> Status: **Draf desain** · 1 November 2026
+> Status: **Diimplementasikan (Tahap 1–3)** · 1 November 2026 — lihat §10 untuk perbedaan dari draf awal
 > Lingkup: math game, flip card memory, teka-teki silang matematika, hafalan kosakata bergambar, dan kerangka untuk game berikutnya.
 
 ---
@@ -99,7 +99,7 @@ Grid persamaan yang saling bersilang. Setiap baris dan kolom ganjil adalah satu 
   - Fase C+ memakai keypad dan boleh tanpa bank angka (mode sulit).
 - **Validasi berbasis persamaan, bukan kunci.** Jawaban diterima jika *semua persamaan benar*. Kalau ada solusi alternatif yang sah, anak tidak disalahkan.
 - **Bantuan:** tombol "Cek" menandai persamaan yang salah dengan warna merah lembut (bukan sel tertentu), sehingga anak tetap berpikir. Setiap "Cek" mengurangi bintang maksimal.
-- Ukuran grid: 5×5 (3 persamaan × 3) untuk fase A–C, 7×7 untuk fase D.
+- Ukuran grid 5×5 (3 persamaan mendatar × 3 menurun) untuk semua fase; tingkat kesulitan diatur lewat rentang angka, operasi, bilangan negatif, dan jumlah kotak kosong.
 
 ### 2.4. TTS Kata (Teka-Teki Silang Kata) — engine `CROSSWORD`
 
@@ -200,7 +200,7 @@ export const gameSessions = pgTable('game_sessions', {
   total: integer('total').notNull().default(0),
   durationMs: integer('duration_ms'),
   stars: integer('stars').notNull().default(0), // 0–3
-  status: text('status', { enum: ['IN_PROGRESS', 'COMPLETED', 'ABANDONED', 'REJECTED'] })
+  status: text('status', { enum: ['IN_PROGRESS', 'COMPLETED', 'REJECTED'] })
     .notNull().default('IN_PROGRESS'),
 });
 
@@ -264,7 +264,7 @@ Game tidak tunduk pada aturan "kunci haram" ujian, karena soal hitung `3 + 4` je
 | `VOCAB_PICTURE` | Ronde disusun server (`vocab-round`) dan disimpan di sesi. Log berisi pilihan per butir, lalu dinilai server dan Leitner diperbarui di server |
 
 Aturan lain:
-- `finish` hanya diterima sekali per sesi. Sesi `IN_PROGRESS` lebih dari 2 jam ditandai `ABANDONED`.
+- `finish` idempoten (kiriman ulang mendapat hasil yang sama) dan diterima hingga 7 hari setelah sesi dimulai (antrean offline). Sesi yang tidak pernah diselesaikan tetap `IN_PROGRESS` dan tidak dihitung di statistik.
 - Rate limit `start` memakai `checkRateLimit` (misalnya 60 sesi/jam/user) supaya tabel sesi tidak dibanjiri.
 - Error dikembalikan lewat `apiError()`.
 - Tidak ada papan peringkat publik, sehingga insentif curang rendah. Validasi ini terutama menjaga statistik yang dibaca orang tua.
@@ -394,3 +394,15 @@ Konten disimpan di `src/db/seed-data/games/` dan di-seed lewat `npm run seed:gam
 | Gambar asli vs emoji? | **Emoji dulu** (0 KB, konsisten). Kolom `image_url` opsional per item untuk kata yang tidak punya emoji yang pas (gambar WebP ≤ 640px, orisinal/AI, sesuai §2.7) |
 | Hadiah/XP/lencana? | Bintang + streak cukup untuk MVP. Lencana koleksi ("Ahli Perkalian ×7") di Tahap 3 |
 | Nama rute | `/bermain` (sejajar `/belajar`) |
+
+---
+
+## 10. Catatan Implementasi (perbedaan dari draf)
+
+- **Data seed berupa TypeScript** (`src/db/seed-data/games/index.ts`, `vocab-decks.ts`) seperti Pustaka Belajar, bukan JSON. Set yang dibuat/diedit admin diekspor ke `admin-overrides.json` lewat `npm run games:export` dan diterapkan seeder di atas set bawaan.
+- **TTS Kata** menyimpan `{ words, layout }`; tata letak dihitung ulang setiap seeding/simpan admin. Browser hanya menerima pola grid + petunjuk; "Cek" & "Bantuan huruf" lewat `POST /api/games/crossword`.
+- **Silang Angka**: grid 5×5 untuk semua fase (lihat §2.3); generator memilih kandidat dengan operasi paling beragam agar puzzle × / ÷ tidak didominasi "+".
+- **Status sesi** tanpa `ABANDONED` (lihat §4).
+- **Kartu kosakata bacaan** memakai satu set `kartu-kosakata-bacaan` (`config.source = CONTENT_VOCAB`) yang tidak tampil di hub; dibuka dari halaman bacaan dengan `?konten=slug`.
+- **Batas bermain orang tua** (`users.daily_game_minutes`) sudah diterapkan di Tahap 3: dicek saat `start` dan ditampilkan di layar awal game & hub.
+- Konten awal: 9 Kilat Hitung, 4 Silang Angka, 13 Kartu Kembar, 5 TTS Kata (bangun datar & ruang, bilangan, IPA, Animals, Fruits), 14 dek Kosakata Bergambar (≈ 250 kata) — total 45 set.

@@ -10,6 +10,7 @@ export const users = pgTable('users', {
   isActive: boolean('is_active').notNull().default(true),
   gradeLevel: integer('grade_level'), // 1-12 = SD 1 s.d. SMA 12, 13 = Lanjut/Umum
   parentId: text('parent_id'), // akun orang tua (relasi orang tua-anak)
+  dailyGameMinutes: integer('daily_game_minutes'), // batas bermain per hari (diatur orang tua), null = tanpa batas
   createdAt: text('created_at').notNull().default(sql`CURRENT_TIMESTAMP::text`),
 });
 
@@ -222,4 +223,87 @@ export const readingProgress = pgTable(
     quizTotal: integer('quiz_total').notNull().default(0),
   },
   (table) => [primaryKey({ columns: [table.userId, table.contentId] })]
+);
+
+// ─── Bermain (Game Edukasi) ─────────────────────────────────────────────────
+
+const PHASE_ENUM = ['A', 'B', 'C', 'D', 'E', 'F', 'L'] as const;
+
+export const gameSets = pgTable('game_sets', {
+  id: text('id').primaryKey(),
+  slug: text('slug').notNull().unique(),
+  engine: text('engine', {
+    enum: ['MATH_SPRINT', 'MEMORY_MATCH', 'CROSSMATH', 'CROSSWORD', 'VOCAB_PICTURE'],
+  }).notNull(),
+  subjectId: text('subject_id')
+    .notNull()
+    .references(() => subjects.id, { onDelete: 'cascade' }),
+  phaseMin: text('phase_min', { enum: PHASE_ENUM }).notNull(),
+  phaseMax: text('phase_max', { enum: PHASE_ENUM }).notNull(),
+  title: text('title').notNull(),
+  description: text('description'),
+  coverEmoji: text('cover_emoji'),
+  configJson: text('config_json').notNull(), // parameter engine (rentang angka, durasi, ambang bintang)
+  itemsJson: text('items_json'), // data kurasi: pasangan kartu, dek kata, kata + tata letak TTS
+  orderIndex: integer('order_index').notNull().default(0),
+  isPublished: boolean('is_published').notNull().default(true),
+  createdAt: text('created_at').notNull().default(sql`CURRENT_TIMESTAMP::text`),
+  editedAt: text('edited_at'), // diisi saat diubah lewat panel admin; seeder tidak menimpa tanpa --force
+});
+
+export const gameSessions = pgTable('game_sessions', {
+  id: text('id').primaryKey(),
+  userId: text('user_id')
+    .notNull()
+    .references(() => users.id, { onDelete: 'cascade' }),
+  gameSetId: text('game_set_id')
+    .notNull()
+    .references(() => gameSets.id, { onDelete: 'cascade' }),
+  seed: integer('seed').notNull(),
+  context: text('context'), // mis. slug bacaan untuk kartu kosakata bacaan
+  stateJson: text('state_json'), // data sesi di server: ronde kosakata, jumlah bantuan TTS
+  startedAt: text('started_at').notNull(),
+  finishedAt: text('finished_at'),
+  playDate: text('play_date').notNull(), // YYYY-MM-DD (Asia/Jakarta) untuk streak & batas harian
+  score: integer('score').notNull().default(0),
+  correct: integer('correct').notNull().default(0),
+  total: integer('total').notNull().default(0),
+  durationMs: integer('duration_ms'),
+  stars: integer('stars').notNull().default(0),
+  status: text('status', { enum: ['IN_PROGRESS', 'COMPLETED', 'REJECTED'] })
+    .notNull()
+    .default('IN_PROGRESS'),
+});
+
+export const gameProgress = pgTable(
+  'game_progress',
+  {
+    userId: text('user_id')
+      .notNull()
+      .references(() => users.id, { onDelete: 'cascade' }),
+    gameSetId: text('game_set_id')
+      .notNull()
+      .references(() => gameSets.id, { onDelete: 'cascade' }),
+    bestScore: integer('best_score').notNull().default(0),
+    bestStars: integer('best_stars').notNull().default(0),
+    plays: integer('plays').notNull().default(0),
+    lastPlayedAt: text('last_played_at').notNull(),
+  },
+  (table) => [primaryKey({ columns: [table.userId, table.gameSetId] })]
+);
+
+export const vocabMastery = pgTable(
+  'vocab_mastery',
+  {
+    userId: text('user_id')
+      .notNull()
+      .references(() => users.id, { onDelete: 'cascade' }),
+    wordKey: text('word_key').notNull(), // 'en:cat'
+    box: integer('box').notNull().default(1), // 1–5 (Leitner)
+    dueDate: text('due_date').notNull(), // YYYY-MM-DD
+    correctCount: integer('correct_count').notNull().default(0),
+    wrongCount: integer('wrong_count').notNull().default(0),
+    lastSeenAt: text('last_seen_at').notNull(),
+  },
+  (table) => [primaryKey({ columns: [table.userId, table.wordKey] })]
 );

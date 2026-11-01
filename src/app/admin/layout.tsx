@@ -13,6 +13,7 @@ import {
   Home,
   LogOut,
   Library,
+  Gamepad2,
 } from 'lucide-react';
 
 export default async function AdminLayout({
@@ -32,6 +33,7 @@ export default async function AdminLayout({
     { label: 'Paket Ujian', href: '/admin/packages', icon: Package },
     { label: 'Impor Massal', href: '/admin/import', icon: UploadCloud },
     { label: 'Pustaka Belajar', href: '/admin/konten', icon: Library },
+    { label: 'Game Edukasi', href: '/admin/game', icon: Gamepad2 },
     { label: 'Pengguna & RBAC', href: '/admin/users', icon: Users, superAdminOnly: true },
   ];
 

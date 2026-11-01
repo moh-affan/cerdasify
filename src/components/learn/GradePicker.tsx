@@ -33,12 +33,13 @@ export default function GradePicker({ currentGrade }: { currentGrade: number | n
   return (
     <label className="inline-flex items-center gap-2 text-xs font-semibold text-slate-600">
       {saving ? <Loader2 className="w-4 h-4 animate-spin" /> : <GraduationCap className="w-4 h-4 text-indigo-600" />}
-      <span>Kelasku:</span>
+      <span className="hidden sm:inline">Kelasku:</span>
       <select
+        aria-label="Kelasku"
         value={currentGrade ?? ''}
         disabled={saving}
         onChange={(e) => save(Number(e.target.value))}
-        className="py-1.5 px-2 bg-white border border-slate-200 rounded-lg text-xs text-slate-800 focus:outline-hidden focus:border-indigo-500"
+        className="max-w-32 sm:max-w-none py-1.5 px-2 bg-white border border-slate-200 rounded-lg text-xs text-slate-800 focus:outline-hidden focus:border-indigo-500"
       >
         <option value="" disabled>
           Pilih kelas

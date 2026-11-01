@@ -212,6 +212,71 @@ export async function runMigrations() {
     CREATE INDEX IF NOT EXISTS idx_grammar_content ON content_grammar_notes(content_id);
     CREATE INDEX IF NOT EXISTS idx_quiz_content ON content_quiz_items(content_id);
     CREATE INDEX IF NOT EXISTS idx_progress_user_date ON reading_progress(user_id, read_date);
+
+    -- Bermain (Game Edukasi)
+    ALTER TABLE users ADD COLUMN IF NOT EXISTS daily_game_minutes INTEGER;
+
+    CREATE TABLE IF NOT EXISTS game_sets (
+      id TEXT PRIMARY KEY,
+      slug TEXT NOT NULL UNIQUE,
+      engine TEXT NOT NULL,
+      subject_id TEXT NOT NULL REFERENCES subjects(id) ON DELETE CASCADE,
+      phase_min TEXT NOT NULL,
+      phase_max TEXT NOT NULL,
+      title TEXT NOT NULL,
+      description TEXT,
+      cover_emoji TEXT,
+      config_json TEXT NOT NULL,
+      items_json TEXT,
+      order_index INTEGER NOT NULL DEFAULT 0,
+      is_published BOOLEAN NOT NULL DEFAULT TRUE,
+      created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP::text,
+      edited_at TEXT
+    );
+
+    CREATE TABLE IF NOT EXISTS game_sessions (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      game_set_id TEXT NOT NULL REFERENCES game_sets(id) ON DELETE CASCADE,
+      seed INTEGER NOT NULL,
+      context TEXT,
+      state_json TEXT,
+      started_at TEXT NOT NULL,
+      finished_at TEXT,
+      play_date TEXT NOT NULL,
+      score INTEGER NOT NULL DEFAULT 0,
+      correct INTEGER NOT NULL DEFAULT 0,
+      total INTEGER NOT NULL DEFAULT 0,
+      duration_ms INTEGER,
+      stars INTEGER NOT NULL DEFAULT 0,
+      status TEXT NOT NULL DEFAULT 'IN_PROGRESS'
+    );
+
+    CREATE TABLE IF NOT EXISTS game_progress (
+      user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      game_set_id TEXT NOT NULL REFERENCES game_sets(id) ON DELETE CASCADE,
+      best_score INTEGER NOT NULL DEFAULT 0,
+      best_stars INTEGER NOT NULL DEFAULT 0,
+      plays INTEGER NOT NULL DEFAULT 0,
+      last_played_at TEXT NOT NULL,
+      PRIMARY KEY (user_id, game_set_id)
+    );
+
+    CREATE TABLE IF NOT EXISTS vocab_mastery (
+      user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      word_key TEXT NOT NULL,
+      box INTEGER NOT NULL DEFAULT 1,
+      due_date TEXT NOT NULL,
+      correct_count INTEGER NOT NULL DEFAULT 0,
+      wrong_count INTEGER NOT NULL DEFAULT 0,
+      last_seen_at TEXT NOT NULL,
+      PRIMARY KEY (user_id, word_key)
+    );
+
+    CREATE INDEX IF NOT EXISTS idx_game_sets_engine_phase ON game_sets(engine, phase_min);
+    CREATE INDEX IF NOT EXISTS idx_game_sessions_user_date ON game_sessions(user_id, play_date);
+    CREATE INDEX IF NOT EXISTS idx_game_sessions_set ON game_sessions(game_set_id);
+    CREATE INDEX IF NOT EXISTS idx_vocab_mastery_due ON vocab_mastery(user_id, due_date);
   `);
 
   console.log('PostgreSQL database tables and indexes verified and ready.');

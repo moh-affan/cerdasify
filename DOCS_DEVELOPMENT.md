@@ -333,6 +333,9 @@ npm run seed
 # Simpan perubahan soal dari panel admin ke berkas bank soal
 npm run bank:export
 
+# Set game edukasi, ekspor editan admin, dan uji logika game
+npm run seed:games && npm run games:export && npm run test:games
+
 # Menjalankan server pengembangan (development mode)
 npm run dev
 
@@ -421,3 +424,38 @@ Seeder bersifat idempoten (upsert berdasarkan slug), mengacak urutan opsi kuis s
 ---
 
 *Cerdasify Engineering Team — High Performance, Clean Architecture, Uncompromised Integrity.*
+
+---
+
+## 12. Bermain (Game Edukasi)
+
+Desain lengkap & alasan keputusan: [DESAIN_FITUR_GAME_EDUKASI.md](DESAIN_FITUR_GAME_EDUKASI.md).
+
+### 12.1 Prinsip
+- **Game = engine + data.** Logika ada di `src/lib/games/*` (fungsi murni, dipakai browser **dan** server); isi ada di tabel generik `game_sets` (`config_json`, `items_json`). Jangan membuat tabel per jenis game.
+- **Deterministik.** Soal/papan dibuat dari `seed` (PRNG `mulberry32`, `src/lib/games/rng.ts`). Server memutar ulang log untuk menilai; ubah generator dengan hati-hati karena sesi lama yang belum selesai (antrean offline) akan dinilai dengan kode baru.
+- **Ringan.** Tanpa game engine/aset audio; emoji sebagai gambar; efek suara Web Audio (`sfx.ts`); setiap engine di-`dynamic()` import dari `GamePlayer`.
+
+### 12.2 Skema
+| Tabel | Keterangan |
+|---|---|
+| `game_sets` | `engine` (`MATH_SPRINT`, `MEMORY_MATCH`, `CROSSMATH`, `CROSSWORD`, `VOCAB_PICTURE`), `subject_id`, `phase_min/max`, `config_json`, `items_json`, `edited_at` |
+| `game_sessions` | Satu permainan: `seed`, `context` (slug bacaan untuk kartu kosakata bacaan), `state_json` (ronde kosakata, jumlah bantuan TTS), `play_date` (Asia/Jakarta), skor, bintang, `duration_ms`, `status` (`IN_PROGRESS`/`COMPLETED`/`REJECTED`) |
+| `game_progress` | PK (`user_id`, `game_set_id`): skor & bintang terbaik, jumlah main |
+| `vocab_mastery` | PK (`user_id`, `word_key` mis. `en:cat`): kotak Leitner 1–5 & `due_date`; kotak ≥ 4 = dikuasai |
+| `users.daily_game_minutes` | Batas bermain per hari dari orang tua (null = tanpa batas) |
+
+### 12.3 Rute & Alur
+- `/bermain` (hub per fase, tantangan hari ini, streak gabungan) · `/bermain/[slug]` (+ `?konten=slug` untuk `kartu-kosakata-bacaan`).
+- `POST /api/games/start` → membuat sesi (seed dibuat server; ronde kosakata disusun dari `vocab_mastery`), menolak bila batas harian habis (`403`, `code: LIMIT`), rate limit 120/jam.
+- `POST /api/games/finish` → `gradeLog()` (`src/lib/games/server.ts`) memutar ulang log; log tidak sah/tidak wajar → sesi `REJECTED` + `422`. Lalu satu transaksi: sesi, `game_progress`, `vocab_mastery`. Idempoten (kiriman ulang mendapat hasil yang sama) dan menerima hasil hingga 7 hari (antrean offline di `localStorage`).
+- `POST /api/games/crossword` → `check` (hanya daftar kata yang benar) / `hint` (satu huruf; dicatat di sesi untuk mengurangi bintang). Jawaban TTS **tidak pernah** dikirim ke browser (`publicCrossword()`).
+- Tamu: seed dibuat di browser, tidak memanggil start/finish.
+- Admin: `/admin/game`, `POST /api/admin/games`, `PUT|PATCH|DELETE /api/admin/games/[id]` (validasi `src/lib/games/validate.ts` + `admin.ts`; tata letak TTS dihitung ulang saat simpan).
+
+### 12.4 Konten & Perintah
+- Set bawaan: `src/db/seed-data/games/index.ts`; dek kosakata kurasi: `vocab-decks.ts` (kata tunggal a–z, emoji jelas, tanpa ganda per dek).
+- `npm run seed:games` — validasi semua set dulu, lalu satu transaksi; set ber-`edited_at` dilewati kecuali `--force`.
+- `npm run games:export` — menulis set hasil edit admin ke `src/db/seed-data/games/admin-overrides.json` (dibaca seeder berikutnya). Commit berkas ini.
+- `npm run games:vocab-candidates` — daftar kandidat kosakata bergambar dari bacaan (tinjau manual sebelum dipakai).
+- `npm run test:games` — uji replay = permainan klien, generator Silang Angka, tata letak TTS, ronde & Leitner, validasi semua set bawaan.

@@ -123,7 +123,17 @@ export function AddChildForm() {
   );
 }
 
-export function ChildSettings({ childId, gradeLevel }: { childId: string; gradeLevel: number | null }) {
+const GAME_LIMIT_OPTIONS = [15, 30, 45, 60, 90, 120];
+
+export function ChildSettings({
+  childId,
+  gradeLevel,
+  dailyGameMinutes,
+}: {
+  childId: string;
+  gradeLevel: number | null;
+  dailyGameMinutes: number | null;
+}) {
   const router = useRouter();
   const [password, setPassword] = useState('');
   const [status, setStatus] = useState<{ ok: boolean; msg: string } | null>(null);
@@ -158,6 +168,25 @@ export function ChildSettings({ childId, gradeLevel }: { childId: string; gradeL
         {GRADE_OPTIONS.map((g) => (
           <option key={g.value} value={g.value}>
             {g.label}
+          </option>
+        ))}
+      </select>
+      <select
+        value={dailyGameMinutes ?? ''}
+        disabled={saving}
+        onChange={(e) =>
+          update(
+            { dailyGameMinutes: e.target.value === '' ? null : Number(e.target.value) },
+            e.target.value === '' ? 'Batas bermain dihapus' : 'Batas bermain disimpan'
+          )
+        }
+        className="py-2 px-2.5 bg-white border border-slate-200 rounded-lg text-slate-800"
+        aria-label="Batas waktu bermain per hari"
+      >
+        <option value="">🎮 Bermain: tanpa batas</option>
+        {GAME_LIMIT_OPTIONS.map((m) => (
+          <option key={m} value={m}>
+            🎮 Maks. {m} menit/hari
           </option>
         ))}
       </select>

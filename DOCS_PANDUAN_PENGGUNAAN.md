@@ -15,6 +15,7 @@ Selamat datang di **Panduan Penggunaan Resmi Cerdasify**! Dokumen ini dirancang 
    - [2.6 Memperbesar Stimulus Gambar Soal (Lightbox Zoom)](#26-memperbesar-stimulus-gambar-soal-lightbox-zoom)
    - [2.7 Menyimpan & Mengumpulkan Jawaban (Submit)](#27-menyimpan--mengumpulkan-jawaban-submit)
    - [2.8 Menelaah Hasil Ujian & Pembahasan Rumus KaTeX](#28-menelaah-hasil-ujian--pembahasan-rumus-katex)
+   - [2.10 Bermain (Game Edukasi)](#210-bermain-game-edukasi)
 3. [Panduan Pengajar / Admin](#3-panduan-pengajar--admin)
    - [3.1 Akses Panel Admin](#31-akses-panel-admin)
    - [3.2 Mengelola Bank Soal](#32-mengelola-bank-soal)
@@ -22,6 +23,7 @@ Selamat datang di **Panduan Penggunaan Resmi Cerdasify**! Dokumen ini dirancang 
    - [3.4 Mengunggah Gambar Stimulus Soal](#34-mengunggah-gambar-stimulus-soal)
    - [3.5 Mengatur Paket Ujian (Packages)](#35-mengatur-paket-ujian-packages)
    - [3.6 Impor Massal Soal & Peserta (Excel & CSV)](#36-impor-massal-soal--peserta-excel--csv)
+   - [3.7 Mengelola Game Edukasi](#37-mengelola-game-edukasi)
 4. [Tanya Jawab & Tips Kelancaran Ujian (FAQ)](#4-tanya-jawab--tips-kelancaran-ujian-faq)
 
 ---
@@ -180,6 +182,23 @@ Pada soal berbobot tidak ada jawaban yang sekadar benar atau salah. Setiap pilih
 
 ---
 
+### 2.10 Bermain (Game Edukasi)
+Buka **Bermain** dari beranda atau Pustaka Belajar. Game tampil sesuai kelas (Fase); ganti fase lewat tombol di atas daftar.
+
+| Game | Cara bermain |
+|---|---|
+| ⚡ **Kilat Hitung** | Jawab soal sebanyak mungkin dalam 60 detik dengan keypad di layar. Benar 3× berturut-turut → naik level. |
+| 🃏 **Kartu Kembar** | Buka dua kartu untuk mencari pasangan (kata ↔ gambar, soal ↔ hasil, dst.). Kata Inggris diucapkan saat kartu dibuka. Makin sedikit langkah, makin banyak bintang. |
+| ✖️ **Silang Angka** | Isi kotak kosong agar semua persamaan mendatar & menurun benar, lalu tekan **Cek**. Solusi lain yang benar tetap diterima. |
+| 🧩 **TTS Kata** | Ketuk kotak, ketik huruf. Ketuk kotak yang sama untuk ganti arah. **Bantuan huruf** membuka satu huruf tetapi mengurangi bintang. |
+| 🖼️ **Kosakata Bergambar** | Kenali kata baru, lalu jawab tantangan (pilih kata, dengar & pilih gambar, susun huruf, ketik). Kata yang salah diulang besok; kata yang sering benar diulang makin jarang. |
+
+- **Tantangan Hari Ini** menampilkan dek kosakata yang perlu diulang atau game yang belum pernah dimainkan.
+- Di akhir bacaan bahasa Inggris yang punya kosakata bergambar ada tombol **Main Kartu Kembar** dengan kosakata bacaan itu.
+- Tombol ⏸ menjeda permainan dan menutup papan. Tombol 🔊 menyalakan/mematikan suara.
+- Tanpa akun tetap bisa bermain, tetapi bintang tidak tersimpan. Bila koneksi putus saat selesai, hasil disimpan di perangkat dan dikirim otomatis saat online.
+- **Orang tua** melihat statistik bermain anak (game minggu ini, menit bermain, bintang, kosakata dikuasai) di **Dasbor Orang Tua**, dan dapat mengatur **batas bermain per hari** (15–120 menit). Setelah batas tercapai, anak diarahkan ke Pustaka Belajar.
+
 ## 3. Panduan Pengajar / Admin
 
 ### 3.1 Akses Panel Admin
@@ -274,6 +293,17 @@ Jika Anda memiliki ratusan butir soal atau daftar ratusan siswa dari berkas spre
    - Data yang valid akan disimpan ke dalam database secara otomatis dalam satu transaksi aman.
 
 ---
+
+### 3.7 Mengelola Game Edukasi
+1. Buka **Game Edukasi** di panel admin (`/admin/game`) untuk melihat semua set, jumlah pemain, serta menerbitkan/menyembunyikan atau menghapus set.
+2. **Set Game Baru** / ikon pensil membuka editor: judul, slug, jenis game, mapel, rentang fase, emoji, urutan, dan status terbit.
+3. **Konfigurasi** ditulis dalam JSON; tombol **Pakai templat** mengisi contoh dan daftar penjelasan kolom tampil di atasnya.
+4. **Isi** ditulis satu baris per item, kolom dipisah `|`:
+   - Kosakata/Kartu kata: `cat | kucing | 🐱`
+   - Kartu pasangan bebas: `Luas persegi | s × s`
+   - TTS: `PRIMA | Bilangan yang tepat memiliki dua faktor` (tata letak grid dibuat otomatis; kata yang tidak bisa disilangkan dilaporkan sebagai peringatan).
+5. Periksa ulang arti, emoji, dan petunjuk sebelum menerbitkan; gunakan **Coba main** untuk menguji.
+6. Minta pengembang menjalankan `npm run games:export` lalu commit agar perubahan tidak hilang saat seeding ulang.
 
 ## 4. Tanya Jawab & Tips Kelancaran Ujian (FAQ)
 

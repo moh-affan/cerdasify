@@ -1,0 +1,285 @@
+# Inventaris Soal Level 1 (Kelas 1–2) yang Belum Masuk Cerdasify
+
+> Dibuat 01-11-2026 dari folder `olympiad` (salinan lokal Google Drive `__ANAK__/olympiad`, 381 berkas PDF/DOCX), dibandingkan dengan bank soal kanonik Cerdasify (67 paket, 2.201 soal).
+
+## Cara membaca
+
+- **Est. soal**: jumlah butir bernomor yang terdeteksi otomatis. Bisa meleset sekitar 10% karena nomor petunjuk atau opsi ikut terbaca; pada berkas scan bisa lebih rendah karena OCR.
+- **Di bank**: butir yang teksnya mirip (kemiripan token ≥ 0,55) dengan soal yang sudah ada di Cerdasify.
+- **Unik baru**: butir yang belum ada di bank dan belum terhitung di berkas lain (duplikat lintas berkas dan antar-tipe soal sudah dibuang). Angka ini yang dijumlahkan.
+- **scan/OCR**: berkas berupa gambar. Teks dibaca dengan OCR, jadi impornya perlu diketik ulang, dicek manual, dan gambarnya dipotong.
+- Berkas multi-level (JSO/KMSI "SOAL FULL") hanya diambil bagian LEVEL 1 per mapel.
+
+## Ringkasan
+
+| Jenjang | Mapel | Berkas/bagian belum masuk | Perkiraan soal unik baru |
+|---|---|---:|---:|
+| Level 1 / Kelas 1–2 | Matematika | 67 | ±1874 |
+| Level 1 / Kelas 1–2 | Sains | 20 | ±575 |
+| Level 1 / Kelas 1–2 | Bahasa Inggris | 15 | ±392 |
+| Level 1 / Kelas 1–2 | IPS | 13 | ±423 |
+| Kelas 2 (IMOCSEA/ISOCSEA Primary 2) | Matematika | 5 | ±129 |
+| Kelas 2 (IMOCSEA/ISOCSEA Primary 2) | Sains | 4 | ±100 |
+| TK / Kindergarten | Matematika | 8 | ±183 |
+| TK / Kindergarten | Sains | 3 | ±42 |
+| TK / Kindergarten | Bahasa Inggris | 3 | ±37 |
+| **Total Level 1 + kelas 2** | | | **±3493** |
+
+## Level 1 / Kelas 1–2: Matematika
+
+| Kompetisi | Babak/tahun | Berkas | Jenis | Est. soal | Di bank | Unik baru |
+|---|---|---|---|---:|---:|---:|
+| BAIZ | Penyisihan 2025 | `Level 1/baiz olympiad mtk 1 penyisihan 2025.pdf` | scan/OCR | 39 | 1 | 37 |
+| CEO | Final 2023 | `Level 1/ceo mtk 1 final 2023 tipe f.pdf` | teks | 27 | 3 | 23 |
+| CEO | Penyisihan 2023 | `Level 1/ceo mtk 1 penyisihan 2023 tipe a.pdf` | scan/OCR | 18 | 2 | 8 |
+| CEO | Penyisihan 2024 | `Level 1/ceo mtk 1 penyisihan 2024 tipe a.pdf` | teks | 27 | 4 | 20 |
+| CEO | Penyisihan 2024 | `Level 1/ceo mtk 1 penyisihan 2024 tipe b.pdf` | teks | 27 | 6 | 15 |
+| CEO | Penyisihan 2025 | `Level 1/ceo mtk 1 penyisihan 2025 tipe b.pdf` | scan/OCR | 16 | 3 | 8 |
+| FABI | Final | `Level 1/fabi 13 mtk 1 final.pdf` | scan/OCR | 34 | 0 | 34 |
+| FABI | Penyisihan | `FC SOAL PENYISIHAN FABI 14 M1.pdf` | teks | 25 | 0 | 24 |
+| FABI | Penyisihan 2024 | `Level 1/fabi 13 mtk 1 penyisihan 2024.pdf` | scan/OCR | 24 | 0 | 22 |
+| IMOCSEA | Sample test | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2022/PRIMARY 1 IMOCSEA SAMPLE TEST.pdf` | teks | 28 | 1 | 27 |
+| IMOCSEA | Sample test | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2025/IMOCSEA NR 2025 ENGLISH VERSION/IMOCSEA_PRIMARY 1.pdf` | teks | 28 | 0 | 28 |
+| IMOCSEA | Sample test 2023 | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2023/IMOCSEA 2023 PRIMARY 1 NR TEST.pdf` | teks | 28 | 1 | 26 |
+| IMOCSEA | Sample test 2024 | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2024/IMOCSEA-2024-PRIMARY 1-NR-TEST.pdf` | teks | 29 | 0 | 24 |
+| JMSC | Penyisihan 2017 | `Level 1/jmsc mtk 1 penyisihan 2017.pdf` | scan/OCR | 29 | 1 | 26 |
+| JSO | Final Provinsi 2024 | `Level 1/jso mtk 1 final provinsi 2024 tipe a.pdf` | scan/OCR | 26 | 1 | 2 |
+| JSO | Final Provinsi 2024 Tipe B | `SOAL FULL/Soal-Matematika-JSO-Final-Provinsi.pdf` (bagian Level 1) | teks | 42 | 3 | 30 |
+| JSO | Final Provinsi 2025 | `Level 1/jso mtk 1 final provinsi 2025 tipe a.pdf` | scan/OCR | 22 | 5 | 1 |
+| JSO | Final Provinsi 2025 | `SOAL FULL/Soal-Jso-Finprov-2025-Type-b-New.pdf` (bagian Level 1) | teks | 42 | 15 | 19 |
+| JSO | Final Provinsi 2025 | `SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf` (bagian Level 1) | teks | 42 | 14 | 5 |
+| JSO | Final Provinsi 2026 | `SOAL FULL/TIPE B FINPROV JSO 2026.pdf` (bagian Level 1) | teks | 42 | 23 | 15 |
+| JSO | Grand Final 2024 | `SOAL FULL/SOAL-GRAND-FINAL-MATEMATIKA-2024.pdf` (bagian Level 1) | teks | 41 | 0 | 34 |
+| JSO | Grand Final 2025 | `SOAL FULL/Soal-Grand-Final-Jso-2025.pdf` (bagian Level 1) | teks | 43 | 5 | 31 |
+| JSO | Penyisihan 2023 | `Level 1/jso mtk 1 penyisihan 2023 tipe a.pdf` | scan/OCR | 26 | 2 | 14 |
+| JSO | Penyisihan 2023 | `Level 1/jso mtk 1 penyisihan 2023 tipe b.pdf` | scan/OCR | 28 | 2 | 22 |
+| JSO | Penyisihan 2023 | `Level 1/jso mtk 1 penyisihan 2023 tipe d.pdf` | scan/OCR | 30 | 1 | 18 |
+| JSO | Penyisihan 2024 | `SOAL FULL/SOAL-TYPE-D-JSO-2024-PENYISIHAN.pdf` (bagian Level 1) | teks | 33 | 3 | 20 |
+| JSO | Penyisihan 2025 | `JSO 2025/SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` (bagian Level 1) | teks | 33 | 2 | 26 |
+| JSO | Penyisihan 2025 | `SOAL FULL/Soal-Penyisihan-Jso-2025-Type-c.pdf` (bagian Level 1) | teks | 33 | 2 | 5 |
+| KMNR | Modul persiapan final 2018 | `Level 1/kmnr 13 mtk 1 persiapan final 2018.pdf` | teks | 206 | 21 | 173 |
+| KMNR | National Round 2015 | `Level 1/kmnr 10 mtk 1 uji coba 2015.pdf` | scan/OCR | 24 | 0 | 24 |
+| KMNR | Penyisihan 2015 | `Level 1/kmnr 10 mtk 1 penyisihan 2015.pdf` | teks | 25 | 3 | 22 |
+| KMNR | Penyisihan 2024 | `Level 1/kmnr 19 mtk 1 penyisihan 2024.pdf` | teks | 26 | 2 | 24 |
+| KMNR | Semifinal 2014 | `Level 1/kmnr 9 mtk 1 semi final 2014.pdf` | teks | 25 | 1 | 23 |
+| KMNR | Semifinal 2024 | `Level 1/kmnr 19 mtk 1 semi final 2024.pdf` | teks | 25 | 0 | 24 |
+| KMS | Latihan | `Level 1/kms 17 mtk 1 latihan.pdf` | scan/OCR | 25 | 2 | 22 |
+| KMSI | Final Provinsi 2023 | `Level 1/kmsi mtk 1 final provinsi 2023.pdf` | scan/OCR | 39 | 6 | 16 |
+| KMSI | Grand Final 2022-2023 | `Level 1/kmsi mtk 1 grand final nasional 2022-2023.pdf` | scan/OCR | 42 | 1 | 34 |
+| KMSI | Grand Final 2023 | `Level 1/kmsi mtk 1 grand final nasional 2023.pdf` | scan/OCR | 21 | 0 | 8 |
+| KMSI | Penyisihan 2024 | `Level 1/kmsi mtk 1 penyisihan 2024 tipe a.pdf` | teks | 33 | 16 | 4 |
+| KMSI | Penyisihan 2024 | `Level 1/kmsi mtk 1 penyisihan 2024 tipe b.pdf` | teks | 33 | 0 | 27 |
+| KMSI | Penyisihan 2025 | `Level 1/kmsi mtk 1 penyisihan 2025 tipe a.pdf` | scan/OCR | 14 | 0 | 2 |
+| KMSI | Penyisihan 2025 | `Level 1/kmsi mtk 1 penyisihan 2025 tipe d.pdf` | scan/OCR | 14 | 0 | 2 |
+| KMSI (kompilasi) | - | `Level 1/kmsi mtk 1 kumpulan soal.pdf` | teks | 435 | 91 | 131 |
+| KOMAS | - 2022 | `Level 1/komas mtk 1 2022.pdf` | teks | 26 | 0 | 24 |
+| KOMAS | Penyisihan 2023 | `Level 1/komas 18 mtk 1 penyisihan 2023.pdf` | teks | 25 | 1 | 24 |
+| KOMAS | Semifinal 2023 | `Level 1/komas 18 mtk 1 semi final 2023.docx` | scan/OCR | 28 | 0 | 27 |
+| Kompilasi (OMNAS, KMSI, ORION, dll.) | - | `kumpulan soal.pdf` | scan/OCR | 522 | 29 | 269 |
+| LOGAM | Final 2026 | `Level 1/logam mtk 1 final 2026.pdf` | scan/OCR | 18 | 0 | 17 |
+| Latihan FIES | Latihan | `LATIHAN SOAL fies- (MATEMATIKA)- (LEVEL 1).pdf` | teks | 30 | 1 | 27 |
+| Latihan lokal | Logika & aljabar dasar | `soal mtk.pdf` | teks | 50 | 2 | 44 |
+| OMNAS | - | `Level 1/omnas contoh mtk 1.docx` | scan/OCR | 17 | 0 | 4 |
+| OMNAS | Final Provinsi 2024 | `Level 1/omnas 13 mtk 1 provinsi 2024.docx` | scan/OCR | 30 | 0 | 30 |
+| OMNAS | Final Provinsi 2025 | `Level 1/omnas 14 mtk 1 provinsi 2025.docx` | scan/OCR | 27 | 1 | 26 |
+| OMNAS | Penyisihan | `Level 1/omnas 11 mtk 1 penyisihan.pdf` | scan/OCR | 18 | 1 | 9 |
+| OMNAS | Penyisihan | `Level 1/omnas 7 mtk 1 penyisihan.pdf` | scan/OCR | 36 | 1 | 20 |
+| OMNAS | Penyisihan 2023 | `Level 1/omnas 12 mtk 1 penyisihan 2023.docx` | scan/OCR | 24 | 1 | 15 |
+| OMNAS | Penyisihan 2024 | `Level 1/omnas 13 mtk 1 penyisihan 2024.docx` | scan/OCR | 26 | 1 | 19 |
+| ORION | - 2022 | `Level 1/orion mtk 1 2022.pdf` | scan/OCR | 35 | 5 | 26 |
+| ORION | - 2024 | `Level 1/orion mtk 1 2024.pdf` | scan/OCR | 25 | 1 | 23 |
+| ORION | Penyisihan 2025 | `Level 1/orion mtk 1 A penyisihan 2025.pdf` | teks | 30 | 2 | 28 |
+| ORION | Penyisihan 2026 | `Level 1/orion mtk 1 - A penyisihan 2026.pdf` | scan/OCR | 24 | 1 | 6 |
+| ORION | Penyisihan 2026 | `Level 1/orion mtk 1 penyisihan 2026.pdf` | teks | 31 | 1 | 30 |
+| PHI | Penyisihan 2017 | `Level 1/phi mtk 1 penyisihan 2017.pdf` | teks | 30 | 3 | 24 |
+| SIGMA | Penyisihan 2025 | `Level 1/sigma mtk 1 penyisihan 2025.pdf` | teks | 30 | 1 | 28 |
+| TOPAZ | Penyisihan 2022-2023 | `Level 1/topaz mtk 1 penyisihan 2022-2023.pdf` | scan/OCR | 31 | 2 | 13 |
+| UPAC | Penyisihan 2024 | `Level 1/upac mtk 1 penyisihan 2024.pdf` | scan/OCR | 22 | 0 | 18 |
+| VENUS | - 2024 | `Level 1/venus mtk 1 A 2024.pdf` | teks | 25 | 0 | 23 |
+
+## Level 1 / Kelas 1–2: Sains
+
+| Kompetisi | Babak/tahun | Berkas | Jenis | Est. soal | Di bank | Unik baru |
+|---|---|---|---|---:|---:|---:|
+| Contoh HOTS | - | `CONTOH SOAL HOTS-owned/SAINS LVL 1.pdf` | teks | 10 | 0 | 10 |
+| FABI | Penyisihan | `PAST PAPPER FABI/FC SOAL PENYISIHAN FABI 14 S1.pdf` | teks | 25 | 0 | 25 |
+| ISOCSEA | Sample test | `IMOCSEA - ISOCSEA Sample Paper/ISOCSEA NR 2022/PRIMARY 1 ISOCSEA NR TEST.pdf` | teks | 25 | 0 | 25 |
+| ISOCSEA | Sample test 2023 | `IMOCSEA - ISOCSEA Sample Paper/ISOCSEA NR 2023/ISOCSEA-2023-PRIMARY-1.pdf` | teks | 25 | 0 | 25 |
+| ISOCSEA | Sample test 2024 | `IMOCSEA - ISOCSEA Sample Paper/ISOCSEA NR 2024/ISOCSEA-2024-PRIMARY 1-NR-TEST.pdf` | teks | 25 | 0 | 25 |
+| ISOCSEA | Sample test 2025 | `IMOCSEA - ISOCSEA Sample Paper/ISOCSEA NR 2025/ISOCSEA 2025 PRIMARY 1 NR.pdf` | teks | 25 | 0 | 25 |
+| JSO | - 2024 | `SOAL FULL/Soal-Jso-2024-Type-c-New-1.pdf` (bagian Level 1) | teks | 33 | 0 | 29 |
+| JSO | Final Provinsi 2025 | `SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf` (bagian Level 1) | teks | 50 | 0 | 46 |
+| JSO | Final Provinsi 2026 | `SOAL FULL/TIPE A FINPROV JSO 2026.pdf` (bagian Level 1) | teks | 42 | 0 | 39 |
+| JSO | Final Provinsi 2026 | `SOAL FULL/TIPE B FINPROV JSO 2026.pdf` (bagian Level 1) | teks | 43 | 0 | 21 |
+| JSO | Grand Final 2025 | `SOAL FULL/Soal-Grand-Final-Jso-2025.pdf` (bagian Level 1) | teks | 43 | 1 | 37 |
+| JSO | Grand Final 2026 | `SOAL GF FIX JSO 2026.pdf` (bagian Level 1) | teks | 37 | 1 | 35 |
+| JSO | Penyisihan 2024 | `SOAL FULL/SOAL-TYPE-D-JSO-2024-PENYISIHAN.pdf` (bagian Level 1) | teks | 33 | 1 | 25 |
+| JSO | Penyisihan 2025 | `SOAL FULL/Soal-Penyisihan-Jso-2025-Type-c.pdf` (bagian Level 1) | teks | 33 | 1 | 29 |
+| JSO | Penyisihan 2025 | `SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` (bagian Level 1) | teks | 33 | 1 | 19 |
+| JSO | Penyisihan 2026 | `TYPE E SOAL PENYISIHAN JSO 2026.pdf` (bagian Level 1) | teks | 33 | 0 | 26 |
+| KMSI | Final Provinsi 2024 | `kmsi all provinsi 2024.pdf` (bagian Level 1) | teks | 43 | 0 | 23 |
+| KMSI | Penyisihan 2024 | `SOAL FULL/New-Soal-Type-a-Penyisihan-Kmsi-2024.pdf` (bagian Level 1) | teks | 33 | 0 | 33 |
+| ORION | Final Nasional | `SOAL FINAL NAS ORION PDF/SAINS   A  ok  .pdf` | teks | 40 | 0 | 40 |
+| ORION | Grand Final | `GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN/SAINS  A ok  .pdf` | teks | 40 | 0 | 38 |
+
+## Level 1 / Kelas 1–2: Bahasa Inggris
+
+| Kompetisi | Babak/tahun | Berkas | Jenis | Est. soal | Di bank | Unik baru |
+|---|---|---|---|---:|---:|---:|
+| Contoh HOTS | - | `CONTOH SOAL HOTS-owned/ENG LVL 1.pdf` | teks | 10 | 0 | 7 |
+| FABI | Penyisihan | `PAST PAPPER FABI/FC SOAL PENYISIHAN FABI 14 E1.pdf` | teks | 25 | 0 | 23 |
+| JSO | - 2024 | `SOAL FULL/Soal-Jso-2024-Type-c-New-1.pdf` (bagian Level 1) | teks | 33 | 0 | 22 |
+| JSO | Final Provinsi 2025 | `SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf` (bagian Level 1) | teks | 42 | 1 | 35 |
+| JSO | Final Provinsi 2026 | `SOAL FULL/TIPE A FINPROV JSO 2026.pdf` (bagian Level 1) | teks | 46 | 2 | 33 |
+| JSO | Final Provinsi 2026 | `SOAL FULL/TIPE B FINPROV JSO 2026.pdf` (bagian Level 1) | teks | 52 | 0 | 33 |
+| JSO | Grand Final 2025 | `SOAL FULL/Soal-Grand-Final-Jso-2025.pdf` (bagian Level 1) | teks | 42 | 0 | 34 |
+| JSO | Grand Final 2026 | `SOAL GF FIX JSO 2026.pdf` (bagian Level 1) | teks | 42 | 0 | 32 |
+| JSO | Penyisihan 2024 | `SOAL FULL/SOAL-TYPE-D-JSO-2024-PENYISIHAN.pdf` (bagian Level 1) | teks | 33 | 2 | 23 |
+| JSO | Penyisihan 2025 | `SOAL FULL/Soal-Penyisihan-Jso-2025-Type-c.pdf` (bagian Level 1) | teks | 33 | 1 | 23 |
+| JSO | Penyisihan 2026 | `TYPE E SOAL PENYISIHAN JSO 2026.pdf` (bagian Level 1) | teks | 33 | 1 | 16 |
+| KMSI | Penyisihan 2024 | `SOAL FULL/New-Soal-Type-a-Penyisihan-Kmsi-2024.pdf` (bagian Level 1) | teks | 33 | 1 | 29 |
+| ORION | Final Nasional | `SOAL FINAL NAS ORION PDF/B ING  A ok .pdf` | teks | 40 | 1 | 32 |
+| ORION | Grand Final | `GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN/B ING  A ok  .pdf` | teks | 40 | 0 | 32 |
+| PRISMA | Penyisihan | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL INGG PENYISIHAN LEVEL 1.pdf` | teks | 18 | 0 | 18 |
+
+## Level 1 / Kelas 1–2: IPS
+
+| Kompetisi | Babak/tahun | Berkas | Jenis | Est. soal | Di bank | Unik baru |
+|---|---|---|---|---:|---:|---:|
+| JSO | - 2024 | `SOAL FULL/Soal-Jso-2024-Type-c-New-1.pdf` (bagian Level 1) | teks | 33 | 0 | 28 |
+| JSO | Final Provinsi 2025 | `SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf` (bagian Level 1) | teks | 42 | 0 | 37 |
+| JSO | Final Provinsi 2026 | `SOAL FULL/TIPE A FINPROV JSO 2026.pdf` (bagian Level 1) | teks | 42 | 0 | 38 |
+| JSO | Final Provinsi 2026 | `SOAL FULL/TIPE B FINPROV JSO 2026.pdf` (bagian Level 1) | teks | 41 | 0 | 24 |
+| JSO | Grand Final 2025 | `SOAL FULL/Soal-Grand-Final-Jso-2025.pdf` (bagian Level 1) | teks | 42 | 0 | 39 |
+| JSO | Grand Final 2026 | `SOAL GF FIX JSO 2026.pdf` (bagian Level 1) | teks | 37 | 0 | 36 |
+| JSO | Penyisihan 2024 | `SOAL FULL/SOAL-TYPE-D-JSO-2024-PENYISIHAN.pdf` (bagian Level 1) | teks | 33 | 0 | 33 |
+| JSO | Penyisihan 2024 | `SOAL FULL/Soal-Type-a-Jso-2024-Penyisihan-2.pdf` (bagian Level 1) | teks | 33 | 0 | 26 |
+| JSO | Penyisihan 2025 | `SOAL FULL/Soal-Penyisihan-Jso-2025-Type-c.pdf` (bagian Level 1) | teks | 33 | 0 | 28 |
+| JSO | Penyisihan 2025 | `SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` (bagian Level 1) | teks | 33 | 0 | 28 |
+| JSO | Penyisihan 2026 | `TYPE E SOAL PENYISIHAN JSO 2026.pdf` (bagian Level 1) | teks | 33 | 0 | 26 |
+| ORION | Final Nasional | `SOAL FINAL NAS ORION PDF/IPS A ok  .pdf` | teks | 40 | 0 | 40 |
+| ORION | Grand Final | `GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN/IPS A ok  .pdf` | teks | 40 | 0 | 40 |
+
+## Kelas 2 (IMOCSEA/ISOCSEA Primary 2): Matematika
+
+| Kompetisi | Babak/tahun | Berkas | Jenis | Est. soal | Di bank | Unik baru |
+|---|---|---|---|---:|---:|---:|
+| IMOCSEA | Mock test | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2022/PRIMARY 2 IMOCSEA MOCK TEST.pdf` | teks | 28 | 5 | 22 |
+| IMOCSEA | Sample test | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2022/PRIMARY 2 IMOCSEA SAMPLE TEST.pdf` | teks | 28 | 0 | 27 |
+| IMOCSEA | Sample test | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2025/IMOCSEA NR 2025 ENGLISH VERSION/IMOCSEA_PRIMARY 2.pdf` | teks | 29 | 0 | 29 |
+| IMOCSEA | Sample test 2023 | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2023/IMOCSEA 2023 PRIMARY 2 NR TEST.pdf` | teks | 28 | 1 | 26 |
+| IMOCSEA | Sample test 2024 | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2024/IMOCSEA-2024-PRIMARY 2-NR-TEST.pdf` | teks | 27 | 0 | 25 |
+
+## Kelas 2 (IMOCSEA/ISOCSEA Primary 2): Sains
+
+| Kompetisi | Babak/tahun | Berkas | Jenis | Est. soal | Di bank | Unik baru |
+|---|---|---|---|---:|---:|---:|
+| ISOCSEA | Sample test | `IMOCSEA - ISOCSEA Sample Paper/ISOCSEA NR 2022/PRIMARY 2 ISOCSEA NR TEST.pdf` | teks | 25 | 0 | 25 |
+| ISOCSEA | Sample test 2023 | `IMOCSEA - ISOCSEA Sample Paper/ISOCSEA NR 2023/ISOCSEA-2023-PRIMARY-2.pdf` | teks | 25 | 0 | 25 |
+| ISOCSEA | Sample test 2024 | `IMOCSEA - ISOCSEA Sample Paper/ISOCSEA NR 2024/ISOCSEA-2024-PRIMARY 2-NR-TEST.pdf` | teks | 25 | 0 | 25 |
+| ISOCSEA | Sample test 2025 | `IMOCSEA - ISOCSEA Sample Paper/ISOCSEA NR 2025/ISOCSEA 2025 PRIMARY 2 NR.pdf` | teks | 25 | 0 | 25 |
+
+## TK / Kindergarten: Matematika
+
+| Kompetisi | Babak/tahun | Berkas | Jenis | Est. soal | Di bank | Unik baru |
+|---|---|---|---|---:|---:|---:|
+| CEO | Semifinal | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - MATEMATIKA TK.pdf` | teks | 9 | 1 | 2 |
+| IMOCSEA | Mock test | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2022/KINDERGARTEN IMOCSEA MOCK TEST.pdf` | teks | 28 | 2 | 24 |
+| IMOCSEA | Sample test | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2022/KINDER IMOCSEA SAMPLE TEST.pdf` | teks | 28 | 0 | 28 |
+| IMOCSEA | Sample test | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2025/IMOCSEA NR 2025 ENGLISH VERSION/IMOCSEA_KINDERGARTEN.pdf` | teks | 28 | 0 | 28 |
+| IMOCSEA | Sample test 2023 | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2023/IMOCSEA 2023 KINDER NR TEST.pdf` | teks | 28 | 2 | 25 |
+| IMOCSEA | Sample test 2024 | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2024/IMOCSEA-2024-KINDERGARTEN-NR-TEST.pdf` | teks | 28 | 0 | 28 |
+| ORION | Final Nasional | `SOAL FINAL NAS ORION PDF/MAT  TK ok .pdf` | teks | 25 | 1 | 24 |
+| ORION | Grand Final | `GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN/MATEMATIKA TK ok .pdf` | teks | 25 | 1 | 24 |
+
+## TK / Kindergarten: Sains
+
+| Kompetisi | Babak/tahun | Berkas | Jenis | Est. soal | Di bank | Unik baru |
+|---|---|---|---|---:|---:|---:|
+| CEO | Semifinal | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - SAINS TK.pdf` | teks | 12 | 0 | 6 |
+| ORION | Final Nasional | `SOAL FINAL NAS ORION PDF/SAINS   TK ok  .pdf` | teks | 25 | 0 | 21 |
+| ORION | Grand Final | `GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN/SAINS  TK ok .pdf` | teks | 25 | 0 | 15 |
+
+## TK / Kindergarten: Bahasa Inggris
+
+| Kompetisi | Babak/tahun | Berkas | Jenis | Est. soal | Di bank | Unik baru |
+|---|---|---|---|---:|---:|---:|
+| CEO | Semifinal | `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - BAHASA INGGRIS TK.pdf` | teks | 11 | 0 | 7 |
+| ORION | Final Nasional | `SOAL FINAL NAS ORION PDF/B ING  TK ok .pdf` | teks | 25 | 0 | 17 |
+| ORION | Grand Final | `GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN/B ING TK ok  .pdf` | teks | 25 | 0 | 13 |
+
+## Sudah masuk Cerdasify
+
+| Berkas | Mapel | Paket |
+|---|---|---|
+| `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2022/PRIMARY 1 IMOCSEA MOCK TEST.pdf` | Matematika | pkg_imocsea_2022_p1 |
+| `Level 1/ceo mtk 1 provinsi 2025.pdf` | Matematika | pkg_ceo_2025_m1 |
+| `Level 1/kmsi mtk 1 final provinsi 2024 tipe b.pdf` | Matematika | pkg_kmsi_2024_mtk_prov_1 |
+| `Level 1/kmsi mtk 1 grand final nasional 2024.pdf` | Matematika | pkg_kmsi_2024_mtk_gf_1 |
+| `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL IPA PENYISIHAN LEVEL 1.pdf` | Sains | pkg_prisma_2024_ipa_1 |
+| `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL MATEMATIKA LEVEL 1 PRISMA 2024.pdf` | Matematika | pkg_prisma_2024_m1 |
+| `Prisma/PRISMA 2026/Soal 2025/Bhs Inggris 2025/PENYISIHAN INGGIS LEVEL 1 PRISMA 2025.docx` | Bahasa Inggris | pkg_prisma_2025_ing_1 |
+| `SOAL FINAL NAS ORION PDF/MAT  A  ok .pdf` | Matematika | pkg_orion_2026_ma |
+| `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA A ok  .docx` | Matematika | pkg_orion_2025_mtk_a |
+| `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA A ok  .pdf` | Matematika | pkg_orion_2025_mtk_a |
+| `SOAL FULL/New-Soal-Type-a-Penyisihan-Kmsi-2024.pdf` | Matematika | pkg_kmsi_2024_mtk_peny_1 |
+| `SOAL FULL/TIPE A FINPROV JSO 2026.pdf` | Matematika | pkg_jso_2026_mtk_prov_1 |
+| `SOAL GF FIX JSO 2026.pdf` | Matematika | pkg_jso_2026_mtk_gf_1 |
+| `SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` | Bahasa Inggris | pkg_jso_2025_ing_1 |
+| `SOAL SEMI FINAL CEO 2025-owned/KUNCI-JAWABAN-SEMI FINAL CEO - MATEMATIKA LEVEL 1.pdf` | Matematika | pkg_ceo_2025_m1 (kunci) |
+| `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - BAHASA INGGRIS LEVEL 1.pdf` | Bahasa Inggris | pkg_ceo_2025_ing_1 |
+| `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - SAINS LEVEL 1.pdf` | Sains | pkg_ceo_2025_sains_1 |
+| `TYPE E SOAL PENYISIHAN JSO 2026.pdf` | Matematika | pkg_jso_2026_mtk_peny_1 |
+| `english/Soal_Level1_Penyisihan.pdf` | Bahasa Inggris | pkg_bing_lvl1_peny |
+| `english/Soal_Level1_Provinsi.pdf` | Bahasa Inggris | pkg_bing_lvl1_prov |
+| `kmsi all provinsi 2024.pdf` | Matematika | pkg_kmsi_2024_mtk_prov_1 |
+| `kmsi all provinsi 2024.pdf` | Bahasa Inggris | pkg_kmsi_2024_ing_1 |
+| `soal mtk lagi.pdf` | Matematika | pkg_mtk_tricky_l1 |
+
+## Duplikat (tidak dihitung)
+
+| Berkas | Mapel | Keterangan |
+|---|---|---|
+| `CONTOH SOAL HOTS-owned/MAT LVL 1.pdf` | Matematika | dari kumpulan soal.pdf [MATEMATIKA 1] |
+| `GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN/MATEMATIKA A ok  .pdf` | Matematika | dari SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA A ok  .pdf [MATEMATIKA 1] |
+| `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2025/IMOCSEA 2025 BILINGUAL/IMOCSEA NR 2025 KINDER TRANSLATED.pdf` | Matematika | dari IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2025/IMOCSEA NR 2025 ENGLISH VERSION/IMOCSEA_KINDERGARTEN.pdf [MATEMATIKA TK] |
+| `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2025/IMOCSEA 2025 BILINGUAL/IMOCSEA NR 2025 PRIMARY 1 TRANSLATED.pdf` | Matematika | dari IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2025/IMOCSEA NR 2025 ENGLISH VERSION/IMOCSEA_PRIMARY 1.pdf [MATEMATIKA 1] |
+| `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2025/IMOCSEA 2025 BILINGUAL/IMOCSEA NR 2025 PRIMARY 2 translated.pdf` | Matematika | dari IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2025/IMOCSEA NR 2025 ENGLISH VERSION/IMOCSEA_PRIMARY 2.pdf [MATEMATIKA 2(kls)] |
+| `JSO 2025/SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` | Sains | dari SOAL PENYISIHAN JSO 2025 TYPE A+.pdf [SAINS 1] |
+| `JSO 2025/SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` | Bahasa Inggris | dari SOAL PENYISIHAN JSO 2025 TYPE A+.pdf [BAHASA INGGRIS 1] |
+| `JSO 2025/SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` | IPS | dari SOAL PENYISIHAN JSO 2025 TYPE A+.pdf [IPS 1] |
+| `Level 1/jso mtk 1 final provinsi 2024 tipe b.pdf` | Matematika | dari SOAL FULL/Soal-Matematika-JSO-Final-Provinsi.pdf [MATEMATIKA 1] |
+| `Level 1/jso mtk 1 grand final nasional 2025.pdf` | Matematika | dari SOAL FULL/Soal-Grand-Final-Jso-2025.pdf [MATEMATIKA 1] |
+| `Level 1/kmsi mtk 1 final provinsi 2024 tipe a.pdf` | Matematika | dari kmsi all provinsi 2024.pdf [MATEMATIKA 1] |
+| `Level 1/osi mtk 1 2025.pdf` | Matematika | dari kumpulan soal.pdf [MATEMATIKA 1] |
+| `PAST PAPPER FABI/FC SOAL PENYISIHAN FABI 14 M1.pdf` | Matematika | dari FC SOAL PENYISIHAN FABI 14 M1.pdf [MATEMATIKA 1] |
+| `SOAL FINAL ORION NASIONAL JUNI 25/B ING  A ok  .docx` | Bahasa Inggris | dari GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN (set yang sama) |
+| `SOAL FINAL ORION NASIONAL JUNI 25/B ING TK ok  .docx` | Bahasa Inggris | dari GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN (set yang sama) |
+| `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA TK ok .docx` | Matematika | dari GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN (set yang sama) |
+| `SOAL FINAL ORION NASIONAL JUNI 25/SAINS  A ok  .docx` | Sains | dari GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN (set yang sama) |
+| `SOAL FINAL ORION NASIONAL JUNI 25/SAINS  TK ok .docx` | Sains | dari GRAND FINAL NASIONAL ORION KE-4 2026/SOAL LATIHAN (set yang sama) |
+| `SOAL FULL/Soal-Jso-2024-Type-c-New-1.pdf` | Matematika | dari SOAL FULL/SOAL-TYPE-D-JSO-2024-PENYISIHAN.pdf [MATEMATIKA 1] |
+| `SOAL FULL/Soal-Jso-Finprov-2025-Type-b-New.pdf` | Sains | dari SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf [SAINS 1] |
+| `SOAL FULL/Soal-Jso-Finprov-2025-Type-b-New.pdf` | Bahasa Inggris | dari SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf [BAHASA INGGRIS 1] |
+| `SOAL FULL/Soal-Jso-Finprov-2025-Type-b-New.pdf` | IPS | dari SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf [IPS 1] |
+| `SOAL FULL/Soal-Type-a-Jso-2024-Penyisihan-2.pdf` | Matematika | dari SOAL FULL/SOAL-TYPE-D-JSO-2024-PENYISIHAN.pdf [MATEMATIKA 1] |
+| `SOAL FULL/Soal-Type-a-Jso-2024-Penyisihan-2.pdf` | Sains | dari SOAL FULL/SOAL-TYPE-D-JSO-2024-PENYISIHAN.pdf [SAINS 1] |
+| `SOAL FULL/Soal-Type-a-Jso-2024-Penyisihan-2.pdf` | Bahasa Inggris | dari SOAL FULL/SOAL-TYPE-D-JSO-2024-PENYISIHAN.pdf [BAHASA INGGRIS 1] |
+| `SOAL FULL/type-B-new-final-provinsi-kmsi-2024.pdf` | Matematika | dari kmsi all provinsi 2024.pdf [MATEMATIKA 1] |
+| `SOAL FULL/type-B-new-final-provinsi-kmsi-2024.pdf` | Sains | dari kmsi all provinsi 2024.pdf [SAINS 1] |
+| `SOAL FULL/type-B-new-final-provinsi-kmsi-2024.pdf` | Bahasa Inggris | dari kmsi all provinsi 2024.pdf [BAHASA INGGRIS 1] |
+| `SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` | Matematika | dari berkas lain (semua butirnya sudah terhitung) |
+| `SOAL SEMI FINAL CEO 2025-owned/SEMI FINAL CEO - MATEMATIKA LEVEL 1.pdf` | Matematika | dari Level 1/ceo mtk 1 provinsi 2025.pdf [MATEMATIKA 1] |
+| `english/JSO_2025_Bahasa_Inggris_Level_1_2.pdf` | Bahasa Inggris | dari SOAL PENYISIHAN JSO 2025 TYPE A+.pdf [BAHASA INGGRIS 1] |
+| `english/KMSI_2024_Bahasa_Inggris_Level_1_dan_2.pdf` | Bahasa Inggris | dari kmsi all provinsi 2024.pdf [BAHASA INGGRIS 1] |
+| `jso penyisihan 2025.pdf` | Matematika | dari berkas lain (semua butirnya sudah terhitung) |
+| `jso penyisihan 2025.pdf` | Sains | dari SOAL PENYISIHAN JSO 2025 TYPE A+.pdf [SAINS 1] |
+| `jso penyisihan 2025.pdf` | Bahasa Inggris | dari SOAL PENYISIHAN JSO 2025 TYPE A+.pdf [BAHASA INGGRIS 1] |
+| `jso penyisihan 2025.pdf` | IPS | dari SOAL PENYISIHAN JSO 2025 TYPE A+.pdf [IPS 1] |
+
+## Catatan
+
+- `kumpulan soal.pdf` (66 hal.) dan `Level 1/kmsi mtk 1 kumpulan soal.pdf` (48 hal.) adalah kompilasi. Sebagian isinya sama dengan berkas Level 1 lain, jadi angka unik barunya sudah dikurangi duplikat.
+- `Level 1/kmnr 13 mtk 1 persiapan final 2018.pdf` adalah modul latihan (±200 butir), bukan satu naskah lomba.
+- TK/Kindergarten dipisah karena di bawah kelas 1; bisa dipakai sebagai pemanasan.
+- Hampir semua naskah tidak punya kunci resmi. Kunci perlu dihitung ulang saat impor (AGENTS.md §2.3).

@@ -10,7 +10,11 @@
     "seed": "tsx src/db/seed.ts",
     "migrate": "tsx src/db/migrate.ts",
     "seed:learning": "tsx src/db/seed_learning.ts",
+    "seed:games": "tsx src/db/seed_games.ts",
     "bank:export": "tsx src/db/export_question_bank.ts",
+    "games:export": "tsx src/db/export_games.ts",
+    "games:vocab-candidates": "tsx src/db/vocab_candidates.ts",
+    "test:games": "tsx scripts/test-games.ts",
     "db:backup": "tsx src/db/backup.ts",
     "db:restore": "tsx src/db/restore.ts"
   },

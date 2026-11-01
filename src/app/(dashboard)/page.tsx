@@ -205,20 +205,35 @@ export default async function UserDashboardPage({
           </div>
         </section>
 
-        {/* Pustaka Belajar */}
-        <Link
-          href="/belajar"
-          className="flex items-center gap-4 sm:gap-6 bg-gradient-to-br from-sky-500 via-indigo-500 to-fuchsia-500 rounded-3xl p-5 sm:p-7 text-white shadow-lg hover:shadow-xl transition group"
-        >
-          <div className="text-5xl sm:text-6xl shrink-0">📚</div>
-          <div className="flex-1 min-w-0 space-y-1">
-            <h2 className="text-lg sm:text-2xl font-extrabold">Pustaka Belajar</h2>
-            <p className="text-xs sm:text-sm text-white/85">
-              Daily English Reading dengan kosakata, pola kalimat, audio & kuis — dari SD hingga tingkat lanjut.
-            </p>
-          </div>
-          <ChevronRight className="w-6 h-6 shrink-0 group-hover:translate-x-1 transition" />
-        </Link>
+        {/* Pustaka Belajar & Bermain */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <Link
+            href="/belajar"
+            className="flex items-center gap-4 sm:gap-5 bg-gradient-to-br from-sky-500 via-indigo-500 to-fuchsia-500 rounded-3xl p-5 sm:p-6 text-white shadow-lg hover:shadow-xl transition group"
+          >
+            <div className="text-5xl sm:text-6xl shrink-0">📚</div>
+            <div className="flex-1 min-w-0 space-y-1">
+              <h2 className="text-lg sm:text-2xl font-extrabold">Pustaka Belajar</h2>
+              <p className="text-xs sm:text-sm text-white/85">
+                Daily English Reading dengan kosakata, pola kalimat, audio & kuis — dari SD hingga tingkat lanjut.
+              </p>
+            </div>
+            <ChevronRight className="w-6 h-6 shrink-0 group-hover:translate-x-1 transition" />
+          </Link>
+          <Link
+            href="/bermain"
+            className="flex items-center gap-4 sm:gap-5 bg-gradient-to-br from-emerald-500 via-teal-500 to-sky-500 rounded-3xl p-5 sm:p-6 text-white shadow-lg hover:shadow-xl transition group"
+          >
+            <div className="text-5xl sm:text-6xl shrink-0">🎮</div>
+            <div className="flex-1 min-w-0 space-y-1">
+              <h2 className="text-lg sm:text-2xl font-extrabold">Bermain</h2>
+              <p className="text-xs sm:text-sm text-white/85">
+                Kilat hitung, kartu kembar, teka-teki silang angka & kata, dan hafalan kosakata bergambar.
+              </p>
+            </div>
+            <ChevronRight className="w-6 h-6 shrink-0 group-hover:translate-x-1 transition" />
+          </Link>
+        </div>
 
         {/* Available Packages Section */}
         <section className="space-y-5">

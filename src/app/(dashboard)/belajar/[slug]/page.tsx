@@ -25,6 +25,7 @@ import {
 } from '@/lib/learning';
 import { and, asc, eq } from 'drizzle-orm';
 import { ArrowLeft, Clock } from 'lucide-react';
+import { MIN_CONTENT_VOCAB } from '@/lib/games/server';
 import { Amiri } from 'next/font/google';
 
 const NOTES_HEADING: Record<string, string | undefined> = {
@@ -191,6 +192,25 @@ export default async function ReadingPage({ params }: { params: Promise<{ slug: 
           prevContent={prevContent}
           nextContent={nextContent}
         />
+
+        {/* Main Kartu Kembar dengan kosakata bergambar bacaan ini */}
+        {new Set(vocabRows.filter((v) => v.emoji?.trim()).map((v) => v.emoji!.trim())).size >= MIN_CONTENT_VOCAB && (
+          <Link
+            href={`/bermain/kartu-kosakata-bacaan?konten=${encodeURIComponent(content.slug)}`}
+            className="flex items-center gap-4 bg-gradient-to-br from-emerald-500 to-teal-500 text-white rounded-3xl p-5 shadow-md hover:shadow-lg transition group"
+          >
+            <span className="text-5xl shrink-0" aria-hidden>
+              🃏
+            </span>
+            <span className="flex-1 min-w-0">
+              <span className="block text-lg font-extrabold">Main Kartu Kembar</span>
+              <span className="block text-sm text-white/85">Ingat-ingat kosakata bacaan ini sambil bermain!</span>
+            </span>
+            <span className="text-2xl group-hover:translate-x-1 transition" aria-hidden>
+              →
+            </span>
+          </Link>
+        )}
       </main>
     </div>
   );
