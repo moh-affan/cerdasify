@@ -1,6 +1,6 @@
 # Desain Fitur: Game Edukasi ("Bermain")
 
-> Status: **Diimplementasikan (Tahap 1–3)** · 1 November 2026 — lihat §10 untuk perbedaan dari draf awal
+> Status: **Diimplementasikan (Tahap 1–3 + Arcade)** · 1 November 2026 — lihat §10 untuk perbedaan dari draf awal
 > Lingkup: math game, flip card memory, teka-teki silang matematika, hafalan kosakata bergambar, dan kerangka untuk game berikutnya.
 
 ---
@@ -406,3 +406,20 @@ Konten disimpan di `src/db/seed-data/games/` dan di-seed lewat `npm run seed:gam
 - **Kartu kosakata bacaan** memakai satu set `kartu-kosakata-bacaan` (`config.source = CONTENT_VOCAB`) yang tidak tampil di hub; dibuka dari halaman bacaan dengan `?konten=slug`.
 - **Batas bermain orang tua** (`users.daily_game_minutes`) sudah diterapkan di Tahap 3: dicek saat `start` dan ditampilkan di layar awal game & hub.
 - Konten awal: 9 Kilat Hitung, 4 Silang Angka, 13 Kartu Kembar, 5 TTS Kata (bangun datar & ruang, bilangan, IPA, Animals, Fruits), 14 dek Kosakata Bergambar (≈ 250 kata) — total 45 set.
+
+---
+
+## 11. Game Arcade (Tahap 4)
+
+Empat engine arcade dengan ronde singkat, combo, dan nyawa — tetap ringan (DOM + `requestAnimationFrame`, emoji, tanpa aset) dan skornya tetap dinilai server.
+
+| Game | Mekanik | Set bawaan |
+|---|---|---|
+| 🎈 **Balon Hitung** (`BALLOON_POP`) | Balon naik; ketuk yang sesuai aturan. Aturan berganti tiap 15–25 detik. | genap/ganjil, hasil hitung, kelipatan, perkalian, Pop the Balloons (hewan/buah/kendaraan), Pop the Words |
+| 🧺 **Tangkap Benda** (`CATCHER`) | Benda jatuh di 5 kolom; geser keranjang; benda salah = −1 nyawa. | hewan terbang/air/berkaki empat, mengapung/tenggelam, makanan sehat, angka, kelipatan |
+| 🏃 **Lari Jawaban** (`LANE_RUNNER`) | 3 jalur; gerbang jawaban mendekat makin cepat; jalur saat gerbang sampai = jawaban. | hitung, perkalian, campuran, TIU, kosakata hewan/sekolah, dengar & pilih buah, arti kata kerja |
+| 🏰 **Jaga Benteng** (`TOWER_DEFENSE`) | Robot bersoal turun ke benteng; ketik jawaban; bos bersoal cerita tiap gelombang. | kembar 10, tambah-kurang, kali-bagi, bilangan bulat, TIU (diskon & perbandingan berbalik nilai) |
+
+**Integritas:** jadwal (waktu, posisi, isi, benar/salah) dihasilkan dari seed dan tidak dipengaruhi pemain; log hanya aksi bercap waktu permainan. Klien dan server memakai fungsi replay yang sama, server menolak log yang tidak sah (balon fiktif, waktu mundur) dan permainan yang "selesai" lebih cepat dari jadwal. Bintang memperhitungkan ketepatan agar mengetuk/mengetik asal tidak menguntungkan.
+
+**Belum dibuat (usulan lanjutan):** Peta Petualangan, album stiker & avatar, misi harian, dan duel 2 pemain di satu HP.

@@ -4,8 +4,8 @@ import React from 'react';
 import { Delete, Check } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-const keyCls =
-  'h-14 sm:h-16 rounded-2xl bg-white border-2 border-slate-200 text-2xl font-extrabold text-slate-800 active:scale-95 active:bg-indigo-50 transition select-none touch-manipulation disabled:opacity-40';
+const baseKeyCls =
+  'rounded-2xl bg-white border-2 border-slate-200 font-extrabold text-slate-800 active:scale-95 active:bg-indigo-50 transition select-none touch-manipulation disabled:opacity-40';
 
 /** Keypad angka di layar (keyboard bawaan ponsel tidak dipakai agar papan tidak tertutup). */
 export function NumberPad({
@@ -15,6 +15,7 @@ export function NumberPad({
   onToggleMinus,
   disabled,
   submitDisabled,
+  compact,
 }: {
   onDigit: (d: string) => void;
   onBackspace: () => void;
@@ -22,9 +23,12 @@ export function NumberPad({
   onToggleMinus?: () => void;
   disabled?: boolean;
   submitDisabled?: boolean;
+  /** Tombol lebih pendek agar muat di bawah arena game */
+  compact?: boolean;
 }) {
+  const keyCls = compact ? cn(baseKeyCls, 'h-11 sm:h-12 text-xl') : cn(baseKeyCls, 'h-14 sm:h-16 text-2xl');
   return (
-    <div className="grid grid-cols-3 gap-2 w-full max-w-xs mx-auto" role="group" aria-label="Keypad angka">
+    <div className={cn('grid grid-cols-3 w-full max-w-xs mx-auto', compact ? 'gap-1.5' : 'gap-2')} role="group" aria-label="Keypad angka">
       {['1', '2', '3', '4', '5', '6', '7', '8', '9'].map((d) => (
         <button key={d} type="button" className={keyCls} disabled={disabled} onClick={() => onDigit(d)}>
           {d}

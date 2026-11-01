@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q01",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "⊡ = 75 + 13 − 42. Nilai yang tepat untuk mengganti ⊡ adalah ....",
+    "imageUrl": null,
+    "explanation": "75 + 13 = 88, lalu 88 − 42 = **46**.\n\nKunci Jawaban: **D (46)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q01_opt_a",
+        "label": "A",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q01_opt_b",
+        "label": "B",
+        "content": "51",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q01_opt_c",
+        "label": "C",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q01_opt_d",
+        "label": "D",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q02",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rena sedang bermain sebuah permainan. Ia harus meledakkan semua balon bernomor genap. Berapa banyak balon yang tidak diledakkan?",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q02.png",
+    "explanation": "Balon bernomor ganjil (tidak diledakkan): 37, 43, 81, 75. Ada **4** balon.\n\nKunci Jawaban: **C (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q02_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q02_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q02_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q02_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q03",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui jumlah siswa kelas 2 di SD Ikhlas adalah bilangan genap di antara 100 sampai 140 yang semua angkanya berbeda. Jika angka kedua sama dengan jumlah angka pertama dan ketiga, maka berapa jumlah siswa kelas 2 di SD Ikhlas?",
+    "imageUrl": null,
+    "explanation": "Cek pilihan: 110 angkanya tidak berbeda, 121 ganjil, 140: 1 + 0 ≠ 4. 132: genap, angkanya berbeda, dan 1 + 2 = 3. Jawabannya **132**.\n\nKunci Jawaban: **C (132)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q03_opt_a",
+        "label": "A",
+        "content": "110",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q03_opt_b",
+        "label": "B",
+        "content": "121",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q03_opt_c",
+        "label": "C",
+        "content": "132",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q03_opt_d",
+        "label": "D",
+        "content": "140",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q04",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dua hari yang lalu adalah hari Senin. Sepuluh hari lagi adalah hari ....",
+    "imageUrl": null,
+    "explanation": "Hari ini Rabu. 10 = 7 + 3, Rabu + 3 hari = **Sabtu**.\n\nKunci Jawaban: **D (Sabtu)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q04_opt_a",
+        "label": "A",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q04_opt_b",
+        "label": "B",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q04_opt_c",
+        "label": "C",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q04_opt_d",
+        "label": "D",
+        "content": "Sabtu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q05",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah mobil mainan memutari lintasan seperti gambar berikut. Berapa panjang lintasan yang ditempuh mobil mainan dalam tiga putaran?",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q05.png",
+    "explanation": "Satu putaran = 75 + 45 + 25 + 75 + 45 + 25 = 290 cm. Tiga putaran = 3 × 290 = **870 cm**.\n\nKunci Jawaban: **D (870 cm)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q05_opt_a",
+        "label": "A",
+        "content": "755 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q05_opt_b",
+        "label": "B",
+        "content": "780 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q05_opt_c",
+        "label": "C",
+        "content": "855 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q05_opt_d",
+        "label": "D",
+        "content": "870 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q06",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ria menulis KMNR19 berulang-ulang seperti berikut ini: KMNR19KMNR19KMNR19... Huruf atau angka yang ditulis pada urutan ke-50 adalah ....",
+    "imageUrl": null,
+    "explanation": "KMNR19 terdiri atas 6 karakter. 50 = 8 × 6 + 2, jadi urutan ke-50 sama dengan urutan ke-2, yaitu **M**.\n\nKunci Jawaban: **A (M)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q06_opt_a",
+        "label": "A",
+        "content": "M",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q06_opt_b",
+        "label": "B",
+        "content": "N",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q06_opt_c",
+        "label": "C",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q06_opt_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q07",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ria mengikuti lomba KMNR 19 yang dimulai pukul 09.30. Waktu pengerjaan yang diberikan panitia adalah 1 jam 30 menit. Ria selesai 35 menit sebelum waktu habis. Pukul berapa Ria selesai mengerjakan soal?",
+    "imageUrl": null,
+    "explanation": "Waktu habis pukul 09.30 + 1 jam 30 menit = 11.00. Ria selesai 35 menit sebelumnya: **pukul 10.25**.\n\nKunci Jawaban: **C (Pukul 10.25)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q07_opt_a",
+        "label": "A",
+        "content": "Pukul 10.05",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q07_opt_b",
+        "label": "B",
+        "content": "Pukul 10.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q07_opt_c",
+        "label": "C",
+        "content": "Pukul 10.25",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q07_opt_d",
+        "label": "D",
+        "content": "Pukul 10.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q08",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Nala menyusun mainannya menjadi sebuah menara seperti pada gambar. Manakah gambar yang sesuai jika dilihat dari atas?",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q08.png",
+    "explanation": "Dari atas terlihat lempeng dasar, lalu lempeng persegi kecil yang menutupi tiang di bawahnya, dan di dalam persegi kecil itu dua lingkaran (tabung tengah dan tabung paling atas). Lingkaran tidak keluar dari persegi kecil. Yang sesuai gambar **B**.\n\nKunci Jawaban: **B (B)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q08_opt_a",
+        "label": "A",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q08_opt_b",
+        "label": "B",
+        "content": "B",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q08_opt_c",
+        "label": "C",
+        "content": "C",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q08_opt_d",
+        "label": "D",
+        "content": "D",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q09",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah bilangan kurang dari 100. Jika angka-angkanya dikalikan, hasilnya 21. Hasil penjumlahan dari kedua angka itu adalah .... (Contoh: bilangan 34, hasil kali angka-angkanya 12 dan hasil penjumlahannya 7.)",
+    "imageUrl": null,
+    "explanation": "21 = 3 × 7, jadi bilangannya 37 atau 73. Jumlah angkanya 3 + 7 = **10**.\n\nKunci Jawaban: **C (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q09_opt_a",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q09_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q09_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q09_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q10",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Kamila mempunyai 8 bola berwarna biru dan merah. Ia akan menyimpan bola tersebut ke dalam sebuah kotak seperti pada gambar. Jika bola yang warnanya sama tidak boleh saling bersentuhan, maka berapa jumlah maksimal bola merah yang ada di dalam kotak?",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q10.png",
+    "explanation": "Setiap bola menyentuh bola di kiri, kanan, atas, dan bawahnya. Supaya bola sewarna tidak bersentuhan, warna harus berselang-seling seperti papan catur: 4 merah dan 4 biru. Jadi paling banyak **4** bola merah.\n\nCatatan: naskah asli menulis \"bola biru dan bola merah tidak boleh saling bersentuhan\", yang tidak mungkin jika kotak terisi penuh; soal ditafsirkan sebagai bola sewarna tidak boleh bersentuhan.\n\nKunci Jawaban: **D (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q10_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q10_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q10_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q10_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q11",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Nala membaca sebuah buku yang berisi 98 halaman. Berapa banyak angka 8 pada semua nomor halaman dalam bukunya?",
+    "imageUrl": null,
+    "explanation": "Angka 8 sebagai satuan: 8, 18, ..., 98 (10 kali). Sebagai puluhan: 80 sampai 89 (10 kali). Total **20**.\n\nKunci Jawaban: **B (20)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q11_opt_a",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q11_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q11_opt_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q11_opt_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q12",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Kevin mempunyai 6 kelereng, Mia 7 kelereng, Nala 9 kelereng, dan Ria 11 kelereng. 3 orang di antara mereka menyimpan kelereng ke dalam sebuah tas. Jika total kelereng dalam tas ada 24, maka siapakah satu orang yang tidak menyimpan kelereng dalam tas?",
+    "imageUrl": null,
+    "explanation": "Total semua 6 + 7 + 9 + 11 = 33. Yang tidak menyimpan = 33 − 24 = 9, yaitu **Nala**.\n\nKunci Jawaban: **C (Nala)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q12_opt_a",
+        "label": "A",
+        "content": "Kevin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q12_opt_b",
+        "label": "B",
+        "content": "Mia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q12_opt_c",
+        "label": "C",
+        "content": "Nala",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q12_opt_d",
+        "label": "D",
+        "content": "Ria",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q13",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Nala mengumpulkan kaleng-kaleng bekas untuk didaur ulang. Agar terlihat rapi, ia menyusun kaleng-kaleng itu menjadi beberapa tumpukan yang tingginya sama (setiap tumpukan lebih dari 1 kaleng). Berapa paling banyak tumpukan kaleng yang Nala susun?",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q13.png",
+    "explanation": "Hitung kaleng: kelompok kiri 8 tumpukan × 2 = 16, tumpukan kanan 2, kaleng berdiri 1, kaleng tidur 2. Total 21 kaleng. 21 = 7 × 3, jadi paling banyak **7** tumpukan berisi 3 kaleng.\n\nKunci Jawaban: **B (7)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q13_opt_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q13_opt_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q13_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q13_opt_d",
+        "label": "D",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q14",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dua buah pensil harganya Rp5.000,00. Jika Lala mempunyai uang Rp57.500,00, berapa pensil yang dapat ia beli?",
+    "imageUrl": null,
+    "explanation": "1 pensil = 2.500. 57.500 : 2.500 = **23** pensil.\n\nKunci Jawaban: **C (23)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q14_opt_a",
+        "label": "A",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q14_opt_b",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q14_opt_c",
+        "label": "C",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q14_opt_d",
+        "label": "D",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q15",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Berapa banyak segitiga yang terlihat pada gambar di samping?",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q15.png",
+    "explanation": "Segitiga kecil dan sedang yang terlihat: pojok kiri atas, pojok kanan atas, dua segitiga kecil di kiri dan kanan tengah, segitiga besar di bawah (5). Ditambah satu segitiga gabungan di sisi kanan (dari pojok kanan atas, pojok kanan bawah, dan titik potong tengah). Total **6**.\n\nKunci Jawaban: **B (6)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q15_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q15_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q15_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q15_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q16",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pak Arif memelihara 20 ekor ayam dan 8 ekor kambing. Pak Arif membeli lagi beberapa ekor ayam dan kambing. Setelah dihitung, banyaknya kaki hewan peliharaan Pak Arif saat ini adalah 90. Kemungkinan jumlah ayam dan kambing yang dibeli Pak Arif adalah ....",
+    "imageUrl": null,
+    "explanation": "Kaki awal: 20 × 2 + 8 × 4 = 72. Tambahan 90 − 72 = 18 kaki. 5 ayam + 2 kambing = 10 + 8 = **18** ✓.\n\nKunci Jawaban: **C (5 ekor ayam dan 2 ekor kambing)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q16_opt_a",
+        "label": "A",
+        "content": "2 ekor ayam dan 5 ekor kambing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q16_opt_b",
+        "label": "B",
+        "content": "4 ekor ayam dan 3 ekor kambing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q16_opt_c",
+        "label": "C",
+        "content": "5 ekor ayam dan 2 ekor kambing",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q16_opt_d",
+        "label": "D",
+        "content": "3 ekor ayam dan 4 ekor kambing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q17",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar berikut. Tinggi sebuah balok besar dan empat balok kecil adalah 39 cm. Sedangkan tinggi sebuah balok besar dan sebuah balok kecil adalah 27 cm. Berapa tinggi dari sebuah balok besar?",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q17.png",
+    "explanation": "Selisihnya 3 balok kecil = 39 − 27 = 12 cm, jadi 1 balok kecil = 4 cm. Balok besar = 27 − 4 = **23 cm**.\n\nKunci Jawaban: **D (23 cm)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q17_opt_a",
+        "label": "A",
+        "content": "4 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q17_opt_b",
+        "label": "B",
+        "content": "20 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q17_opt_c",
+        "label": "C",
+        "content": "21 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q17_opt_d",
+        "label": "D",
+        "content": "23 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q18",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sembilan kotak berikut berisi bilangan 0, 1, 2, 3, 4, 5, 6, 7, dan 8 masing-masing sekali. Bilangan pada setiap tiga kotak mendatar maupun menurun selalu berjumlah 12. Nilai terbesar dari A + B + C adalah ....",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q18.png",
+    "explanation": "Ada dua cara mengisi kotak:\n- A = 6, B = 0, C = 3 (A + B + C = 9)\n- A = 8, B = 2, C = 5 (A + B + C = 15)\nCek cara kedua: 8 4 0 / 3 2 7 / 1 6 5, semua baris dan kolom berjumlah 12. Nilai terbesar **15**.\n\nKunci Jawaban: **D (15)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q18_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q18_opt_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q18_opt_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q18_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q19",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Ria mempunyai beberapa kantong berisi permen dan cokelat. Setiap kantong berisi 6 permen dan 4 cokelat atau 5 permen dan 5 cokelat. Setelah dihitung, banyak cokelat yang ia punya adalah 19. Berapakah banyak permen yang ia punya?",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q19.png",
+    "explanation": "4 × (kantong jenis 1) + 5 × (kantong jenis 2) = 19 hanya bisa 1 kantong jenis 1 dan 3 kantong jenis 2 (4 + 15 = 19). Permen = 6 + 3 × 5 = **21**.\n\nKunci Jawaban: **B (21)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q19_opt_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q19_opt_b",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q19_opt_c",
+        "label": "C",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q19_opt_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q20",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Kertas A, B, dan C berbentuk persegi diletakkan di atas sebuah kertas persegi D seperti pada gambar. Keliling kertas A, B, dan C berturut-turut 4 cm, 12 cm, dan 8 cm. Berapa keliling bagian kertas D yang tidak tertutup ketiga kertas lainnya?",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q20.png",
+    "explanation": "Sisi A = 1 cm, B = 3 cm, C = 2 cm, jadi sisi D = 1 + 3 + 2 = 6 cm. Batas bagian yang tidak tertutup: sisi luar D yang terlihat 5 + 6 + 4 = 15 cm, ditambah garis tepi A, B, C yang berbatasan dengan bagian itu 1 + 2 + 3 + 1 + 2 = 9 cm. Total **24 cm** (sama dengan keliling D karena bentuknya bertangga).\n\nKunci Jawaban: **B (24 cm)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q20_opt_a",
+        "label": "A",
+        "content": "26 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q20_opt_b",
+        "label": "B",
+        "content": "24 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q20_opt_c",
+        "label": "C",
+        "content": "22 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q20_opt_d",
+        "label": "D",
+        "content": "20 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q21",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Setiap bagian pada gambar berikut berisi bilangan satu angka berbeda dari 1 sampai 7. Jumlah seluruh bilangan pada setiap lingkaran adalah 15. Berapa nilai dari B − A + C − D?",
+    "imageUrl": "/uploads/kmnr24_sf_m1_q21.png",
+    "explanation": "Lingkaran A: A + 7 + 3 + D = 15 → A + D = 5. Lingkaran B: B + 3 + 5 + D = 15 → B + D = 7. Lingkaran C: C + 7 + 5 + D = 15 → C + D = 3. Sisa angka 1, 2, 4, 6, jadi D = 1, A = 4, B = 6, C = 2. B − A + C − D = 6 − 4 + 2 − 1 = **3**.\n\nKunci Jawaban: **A (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q21_opt_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q21_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q21_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q21_opt_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q22",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "KPM mengadakan lomba matematika untuk kelas 1–2. Jumlah soal yang diterima setiap siswa sebanyak 20 soal dengan ketentuan: benar mendapat nilai 5, salah dikurangi 1, dan tidak diisi tidak mendapat nilai. Berapa banyak soal yang dijawab benar oleh Nala jika ia mendapatkan nilai 83?",
+    "imageUrl": null,
+    "explanation": "17 benar = 85, dikurangi 2 salah = 83, dan 1 soal kosong (17 + 2 + 1 = 20) ✓. Dengan 18 benar (90) perlu 7 salah, padahal soalnya hanya 20. Jawabannya **17**.\n\nKunci Jawaban: **B (17)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q22_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q22_opt_b",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q22_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q22_opt_d",
+        "label": "D",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q23",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Nala memiliki stiker bergambar kartun dua kali dari jumlah stiker Ria. Banyaknya stiker Ria 4 lebih banyak dari stiker Rio. Jika jumlah stiker mereka bertiga adalah 60 buah, banyaknya stiker Nala adalah ... buah.",
+    "imageUrl": null,
+    "explanation": "Rio = r, Ria = r + 4, Nala = 2r + 8. Jumlah 4r + 12 = 60, r = 12. Nala = 2 × 16 = **32**.\n\nKunci Jawaban: **A (32)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q23_opt_a",
+        "label": "A",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q23_opt_b",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q23_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q23_opt_d",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q24",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Total berat 2 bola dan 1 tongkat bisbol adalah 1260 gram. Berat sebuah tongkat bisbol empat kali berat sebuah bola bisbol. Selisih berat tongkat dan bola bisbol adalah ... gram.",
+    "imageUrl": null,
+    "explanation": "Tongkat = 4 bola, jadi 2 bola + 4 bola = 6 bola = 1260, bola = 210 gram dan tongkat = 840 gram. Selisih **630** gram.\n\nKunci Jawaban: **D (630)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q24_opt_a",
+        "label": "A",
+        "content": "950",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q24_opt_b",
+        "label": "B",
+        "content": "840",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q24_opt_c",
+        "label": "C",
+        "content": "720",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q24_opt_d",
+        "label": "D",
+        "content": "630",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2024_mtk_sf_1_q25",
+    "topicId": "top_kmnr_2024_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Setiap Minggu pagi, Nala berlari mengelilingi taman kota yang berbentuk persegi. Luas taman kota sama dengan empat kali luas rumahnya. Jika rumah Nala berukuran 12 × 12 meter, berapa panjang lintasan lari yang ditempuh Nala untuk mengelilingi taman kota sebanyak tujuh putaran?",
+    "imageUrl": null,
+    "explanation": "Luas rumah 144 m², luas taman 576 m², jadi sisi taman 24 m (24 × 24 = 576). Keliling 4 × 24 = 96 m. Tujuh putaran = **672 m**.\n\nKunci Jawaban: **C (672 m)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q25_opt_a",
+        "label": "A",
+        "content": "1600 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q25_opt_b",
+        "label": "B",
+        "content": "1200 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q25_opt_c",
+        "label": "C",
+        "content": "672 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2024_mtk_sf_1_q25_opt_d",
+        "label": "D",
+        "content": "576 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q01",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar berikut. Apel + apel = 4, apel + jeruk = 6, jeruk + stroberi = 10. Berapakah jeruk + apel + jeruk + stroberi?",
+    "imageUrl": "/uploads/ceo23_final_f_m1_q01.png",
+    "explanation": "Apel + apel = 4, jadi apel = 2. Apel + jeruk = 6, jadi jeruk = 4. Jeruk + stroberi = 10, jadi stroberi = 6. Jeruk + apel + jeruk + stroberi = 4 + 2 + 4 + 6 = **16**.\n\nKunci Jawaban: **D (16)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q01_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q01_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q01_opt_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q01_opt_d",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q02",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika jarum pendek di antara angka 7 dan 8 dan jarum panjang di angka 11, maka jam tersebut menunjukkan pukul ...",
+    "imageUrl": null,
+    "explanation": "Jarum pendek antara 7 dan 8 berarti jam 7 lewat. Jarum panjang di angka 11 berarti menit ke-55. Jadi pukul **07.55**.\n\nKunci Jawaban: **C (07.55)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q02_opt_a",
+        "label": "A",
+        "content": "07.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q02_opt_b",
+        "label": "B",
+        "content": "07.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q02_opt_c",
+        "label": "C",
+        "content": "07.55",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q02_opt_d",
+        "label": "D",
+        "content": "08.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q03",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "32, 41, 16, 28, 11, 23. Urutkan bilangan di atas dari yang paling kecil!",
+    "imageUrl": null,
+    "explanation": "Dari terkecil: **11, 16, 23, 28, 32, 41**.\n\nKunci Jawaban: **C (11, 16, 23, 28, 32, 41)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q03_opt_a",
+        "label": "A",
+        "content": "11, 16, 28, 23, 32, 41",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q03_opt_b",
+        "label": "B",
+        "content": "11, 16, 23, 32, 28, 41",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q03_opt_c",
+        "label": "C",
+        "content": "11, 16, 23, 28, 32, 41",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q03_opt_d",
+        "label": "D",
+        "content": "11, 23, 28, 32, 16, 41",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q04",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ashari menuliskan bilangan 10 sampai 40. Berapa banyak angka 3 yang ditulis Ashari?",
+    "imageUrl": null,
+    "explanation": "Angka 3 muncul di 13 dan 23 (2 kali), di 30 sampai 39 sebagai puluhan (10 kali), dan di 33 sebagai satuan (1 kali). Total **13**.\n\nKunci Jawaban: **B (13)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q04_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q04_opt_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q04_opt_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q04_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q05",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan bola warna-warni pada gambar. Jika adik memiliki 7 kantong berisi bola seperti gambar, maka jumlah bola yang dimiliki adik adalah ...",
+    "imageUrl": "/uploads/ceo23_final_f_m1_q05.png",
+    "explanation": "Satu kantong berisi 3 bola. 7 × 3 = 21 = **dua puluh satu**.\n\nKunci Jawaban: **D (Dua puluh satu)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q05_opt_a",
+        "label": "A",
+        "content": "Dua puluh empat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q05_opt_b",
+        "label": "B",
+        "content": "Dua puluh tiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q05_opt_c",
+        "label": "C",
+        "content": "Dua puluh dua",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q05_opt_d",
+        "label": "D",
+        "content": "Dua puluh satu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q06",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hari ini hari Senin. Sepuluh hari yang akan datang adalah hari ...",
+    "imageUrl": null,
+    "explanation": "10 = 7 + 3. Senin + 3 hari = **Kamis**.\n\nKunci Jawaban: **A (Kamis)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q06_opt_a",
+        "label": "A",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q06_opt_b",
+        "label": "B",
+        "content": "Jumat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q06_opt_c",
+        "label": "C",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q06_opt_d",
+        "label": "D",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q07",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil dari 1 + 2 − 3 + 4 − 5 + 6 − 7 + 8 − 9 = ...",
+    "imageUrl": null,
+    "explanation": "Hitung dari kiri: 1 + 2 = 3, − 3 = 0, + 4 = 4, − 5 = −1, + 6 = 5, − 7 = −2, + 8 = 6, − 9 = **−3**.\n\nKunci Jawaban: **A (−3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q07_opt_a",
+        "label": "A",
+        "content": "−3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q07_opt_b",
+        "label": "B",
+        "content": "−1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q07_opt_c",
+        "label": "C",
+        "content": "0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q07_opt_d",
+        "label": "D",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q08",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu mempunyai 4 keranjang. Setiap keranjang diisi 4 apel. Jika adik memakan 1 apel dan kakak mengambil 2 apel, berapa total apel yang ibu punya sekarang?",
+    "imageUrl": null,
+    "explanation": "4 × 4 = 16 apel. 16 − 1 − 2 = **13**.\n\nKunci Jawaban: **B (13)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q08_opt_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q08_opt_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q08_opt_c",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q08_opt_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q09",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "32 + 12 − .... = 27. Berapakah nilai yang tepat untuk mengisi titik-titik di atas?",
+    "imageUrl": null,
+    "explanation": "32 + 12 = 44. 44 − 27 = **17**.\n\nKunci Jawaban: **A (17)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q09_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q09_opt_b",
+        "label": "B",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q09_opt_c",
+        "label": "C",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q09_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q10",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah lapangan berbentuk persegi panjang dengan ukuran 25 m × 13 m seperti pada gambar. Jika Fikri mengelilingi lapangan tersebut sebanyak 3 kali, berapa panjang lintasan yang dilewati Fikri?",
+    "imageUrl": "/uploads/ceo23_final_f_m1_q10.png",
+    "explanation": "Keliling = 25 + 13 + 25 + 13 = 76 m. Tiga kali = 3 × 76 = **228 m**.\n\nKunci Jawaban: **C (228 m)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q10_opt_a",
+        "label": "A",
+        "content": "458 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q10_opt_b",
+        "label": "B",
+        "content": "378 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q10_opt_c",
+        "label": "C",
+        "content": "228 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q10_opt_d",
+        "label": "D",
+        "content": "198 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q11",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dua jeruk beratnya 60 gram. Jika berat sebuah mangga sama dengan lima buah jeruk, berapa berat buah mangga tersebut?",
+    "imageUrl": null,
+    "explanation": "1 jeruk = 30 gram. Mangga = 5 × 30 = **150 gram**.\n\nKunci Jawaban: **D (150 gram)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q11_opt_a",
+        "label": "A",
+        "content": "250 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q11_opt_b",
+        "label": "B",
+        "content": "212 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q11_opt_c",
+        "label": "C",
+        "content": "185 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q11_opt_d",
+        "label": "D",
+        "content": "150 gram",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q12",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "... × 5 = 45. Angka yang tepat untuk mengisi titik-titik yang kosong adalah ...",
+    "imageUrl": null,
+    "explanation": "9 × 5 = 45, jadi **9**.\n\nKunci Jawaban: **A (9)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q12_opt_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q12_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q12_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q12_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q13",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ada 11 mobil dan 7 sepeda motor di parkiran sekolah. Jumlah seluruh roda yang ada di parkiran sekolah adalah ...",
+    "imageUrl": null,
+    "explanation": "Mobil 11 × 4 = 44, motor 7 × 2 = 14. Jumlah **58** roda.\n\nKunci Jawaban: **B (58)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q13_opt_a",
+        "label": "A",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q13_opt_b",
+        "label": "B",
+        "content": "58",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q13_opt_c",
+        "label": "C",
+        "content": "59",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q13_opt_d",
+        "label": "D",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q14",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar kotak-kotak berikut. Perbandingan jumlah kotak hijau dan jumlah seluruh kotak adalah ...",
+    "imageUrl": "/uploads/ceo23_final_f_m1_q14.png",
+    "explanation": "Ada 6 × 5 = 30 kotak, 10 di antaranya hijau dan 20 kuning. Hijau : seluruh kotak = 10 : 30 = **1 : 3**.\n\nCatatan: naskah asli bertanya \"hijau dan kuning\" (hasilnya 10 : 20 = 1 : 2, tidak ada di pilihan); soal disesuaikan menjadi \"hijau dan seluruh kotak\".\n\nKunci Jawaban: **B (1 : 3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q14_opt_a",
+        "label": "A",
+        "content": "3 : 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q14_opt_b",
+        "label": "B",
+        "content": "1 : 3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q14_opt_c",
+        "label": "C",
+        "content": "10 : 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q14_opt_d",
+        "label": "D",
+        "content": "30 : 10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q15",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "4 × 10 sama hasilnya dengan ...",
+    "imageUrl": null,
+    "explanation": "4 × 10 = 40. Nilai pilihan: 50, 48, 10 + 30 = **40**, dan 35. Jawabannya 10 + 2 × 15 (perkalian dikerjakan dulu).\n\nKunci Jawaban: **C (10 + 2 × 15)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q15_opt_a",
+        "label": "A",
+        "content": "5 × 2 × 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q15_opt_b",
+        "label": "B",
+        "content": "8 + 8 + 8 + 8 + 8 + 8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q15_opt_c",
+        "label": "C",
+        "content": "10 + 2 × 15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q15_opt_d",
+        "label": "D",
+        "content": "15 + 10 + 15 − 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q16",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diva memiliki 12 buku tulis. Kemudian ayah membelikan 1,5 lusin buku lagi. Berapakah buku Diva sekarang?",
+    "imageUrl": null,
+    "explanation": "1,5 lusin = 12 + 6 = 18. 12 + 18 = **30**.\n\nKunci Jawaban: **A (30)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q16_opt_a",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q16_opt_b",
+        "label": "B",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q16_opt_c",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q16_opt_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q17",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ria memiliki 16 pensil dan Santi memiliki 8 pensil. Berapa banyak pensil yang harus diberikan Ria kepada Santi agar mereka memiliki jumlah pensil yang sama?",
+    "imageUrl": null,
+    "explanation": "Selisih 8, Ria memberi setengahnya: **4**. Cek: 12 dan 12.\n\nKunci Jawaban: **B (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q17_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q17_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q17_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q17_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q18",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nama bilangan dari 346.850 adalah ...",
+    "imageUrl": null,
+    "explanation": "346 ribu = tiga ratus empat puluh enam ribu, 850 = delapan ratus lima puluh.\n\nKunci Jawaban: **A (Tiga ratus empat puluh enam ribu delapan ratus lima puluh)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q18_opt_a",
+        "label": "A",
+        "content": "Tiga ratus empat puluh enam ribu delapan ratus lima puluh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q18_opt_b",
+        "label": "B",
+        "content": "Tiga ratus empat puluh ribu delapan ratus lima puluh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q18_opt_c",
+        "label": "C",
+        "content": "Tiga ratus enam puluh empat ribu delapan ratus lima puluh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q18_opt_d",
+        "label": "D",
+        "content": "Tiga ratus enam puluh empat ribu delapan ratus lima",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q19",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "14, 16, 18, A, 22, B, 26. Jika A ditambah B, maka nilainya adalah ...",
+    "imageUrl": null,
+    "explanation": "Pola +2: A = 20, B = 24. A + B = **44**.\n\nKunci Jawaban: **B (44)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q19_opt_a",
+        "label": "A",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q19_opt_b",
+        "label": "B",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q19_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q19_opt_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q20",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Semua bilangan yang dikali dengan angka 1 akan menghasilkan ...",
+    "imageUrl": null,
+    "explanation": "Setiap bilangan dikali 1 hasilnya **bilangan itu sendiri**, misalnya 7 × 1 = 7.\n\nKunci Jawaban: **C (Bilangan itu sendiri)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q20_opt_a",
+        "label": "A",
+        "content": "Dikurangi satu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q20_opt_b",
+        "label": "B",
+        "content": "Ditambah satu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q20_opt_c",
+        "label": "C",
+        "content": "Bilangan itu sendiri",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q20_opt_d",
+        "label": "D",
+        "content": "Sama dengan nol",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q21",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pak Maman ingin membangun dinding dengan susunan batu bata seperti gambar. Jika gambar tersebut adalah susunan untuk satu dinding, banyak batu bata yang dibutuhkan untuk membuat 4 dinding adalah ...",
+    "imageUrl": "/uploads/ceo23_final_f_m1_q21.png",
+    "explanation": "Satu dinding: baris atas 5, baris tengah 6 (termasuk potongan di kedua ujung), baris bawah 5 = 16 batu bata. Empat dinding = 4 × 16 = **64 buah**.\n\nCatatan: potongan bata di ujung dihitung sebagai 1 batu bata.\n\nKunci Jawaban: **C (64 buah)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q21_opt_a",
+        "label": "A",
+        "content": "60 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q21_opt_b",
+        "label": "B",
+        "content": "62 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q21_opt_c",
+        "label": "C",
+        "content": "64 buah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q21_opt_d",
+        "label": "D",
+        "content": "66 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q22",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kelas 2 memiliki 36 siswa yang akan dibagi menjadi 9 kelompok. Banyak siswa dalam tiap kelompok adalah ... siswa.",
+    "imageUrl": null,
+    "explanation": "36 : 9 = **4** siswa.\n\nKunci Jawaban: **B (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q22_opt_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q22_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q22_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q22_opt_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q23",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai dari (2 + 1) × (7 − 2) = ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan yang di dalam kurung dulu: 3 × 5 = **15**.\n\nKunci Jawaban: **B (15)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q23_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q23_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q23_opt_c",
+        "label": "C",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q23_opt_d",
+        "label": "D",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q24",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari 15 dikurangi 7 sama dengan hasil penjumlahan berikut, kecuali ...",
+    "imageUrl": null,
+    "explanation": "15 − 7 = 8. Yang hasilnya bukan 8 adalah **5 + 2** = 7.\n\nKunci Jawaban: **A (5 + 2)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q24_opt_a",
+        "label": "A",
+        "content": "5 + 2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q24_opt_b",
+        "label": "B",
+        "content": "3 + 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q24_opt_c",
+        "label": "C",
+        "content": "2 + 6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q24_opt_d",
+        "label": "D",
+        "content": "4 + 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q25",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu membeli buah mangga seharga sepuluh ribu lima ratus rupiah. Kemudian membeli rambutan seharga dua belas ribu rupiah. Berapa total belanjaan Ibu jika ditulis dengan lambang bilangan?",
+    "imageUrl": null,
+    "explanation": "10.500 + 12.000 = **Rp22.500**.\n\nKunci Jawaban: **D (Rp22.500)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q25_opt_a",
+        "label": "A",
+        "content": "Rp10.500",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q25_opt_b",
+        "label": "B",
+        "content": "Rp12.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q25_opt_c",
+        "label": "C",
+        "content": "Rp20.500",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q25_opt_d",
+        "label": "D",
+        "content": "Rp22.500",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q26",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "(Uraian) Usia Ayah lebih tua 2 tahun dari Ibu, usia Ibu 2 tahun lebih tua dari Paman, sedangkan usia Paman 2 tahun lebih tua dari Bibi. Jika sekarang usia Paman 32 tahun, usia Ayah, Ibu, dan Bibi sekarang adalah ...",
+    "imageUrl": null,
+    "explanation": "Ibu = 32 + 2 = 34, Ayah = 34 + 2 = 36, Bibi = 32 − 2 = 30. Jawabannya **Ayah 36, Ibu 34, Bibi 30**.\n\nKunci Jawaban: **A (Ayah 36, Ibu 34, Bibi 30)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q26_opt_a",
+        "label": "A",
+        "content": "Ayah 36, Ibu 34, Bibi 30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q26_opt_b",
+        "label": "B",
+        "content": "Ayah 34, Ibu 36, Bibi 30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q26_opt_c",
+        "label": "C",
+        "content": "Ayah 36, Ibu 34, Bibi 34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q26_opt_d",
+        "label": "D",
+        "content": "Ayah 38, Ibu 36, Bibi 30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_1_q27",
+    "topicId": "top_ceo_2023_mtk_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "(Uraian) Seekor kelinci di titik A akan mengambil wortel di titik B. Jika kelinci hanya boleh berjalan ke atas dan ke kanan mengikuti jalur pada gambar, berapa banyak cara yang bisa digunakan kelinci untuk mencapai wortel tersebut?",
+    "imageUrl": "/uploads/ceo23_final_f_m1_q27.png",
+    "explanation": "Kelinci harus melangkah 4 kali ke kanan dan 3 kali ke atas. Tulis banyak cara di setiap titik: baris bawah dan kolom kiri bernilai 1, titik lain = jumlah dari titik di kiri dan di bawahnya. Baris ke-2: 1, 2, 3, 4, 5. Baris ke-3: 1, 3, 6, 10, 15. Baris ke-4: 1, 4, 10, 20, **35**.\n\nKunci Jawaban: **C (35)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q27_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q27_opt_b",
+        "label": "B",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q27_opt_c",
+        "label": "C",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_1_q27_opt_d",
+        "label": "D",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q01",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ulangan semester pertama dimulai hari Senin dan berakhir pada hari Rabu minggu berikutnya. Sabtu dan Minggu merupakan hari libur. Berapa hari lamanya ulangan semester?",
+    "imageUrl": null,
+    "explanation": "Minggu pertama Senin sampai Jumat = 5 hari. Minggu berikutnya Senin sampai Rabu = 3 hari. Total 5 + 3 = **8** hari.\n\nKunci Jawaban: **B (8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q01_opt_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q01_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q01_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q01_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q02",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Minggu depan sudah bulan November. Maka 5 bulan lalu adalah bulan ....",
+    "imageUrl": null,
+    "explanation": "Minggu depan November, berarti sekarang masih bulan Oktober. 5 bulan sebelum Oktober: September, Agustus, Juli, Juni, **Mei**.\n\nKunci Jawaban: **D (Mei)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q02_opt_a",
+        "label": "A",
+        "content": "Januari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q02_opt_b",
+        "label": "B",
+        "content": "Juni",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q02_opt_c",
+        "label": "C",
+        "content": "Desember",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q02_opt_d",
+        "label": "D",
+        "content": "Mei",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q03",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pak Ali mempunyai 31 bambu, kemudian membeli lagi 24 bambu dan digunakan untuk atap rumah 18 bambu. Berapa sisa bambu Pak Ali sekarang?",
+    "imageUrl": null,
+    "explanation": "31 + 24 = 55, lalu 55 − 18 = **37**.\n\nKunci Jawaban: **C (37)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q03_opt_a",
+        "label": "A",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q03_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q03_opt_c",
+        "label": "C",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q03_opt_d",
+        "label": "D",
+        "content": "55",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q04",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tali A lebih panjang dari tali B, tali B lebih panjang dari tali C, tali C lebih panjang dari tali D. Dari 4 tali tersebut, tali manakah yang paling panjang?",
+    "imageUrl": null,
+    "explanation": "Urutannya A > B > C > D, jadi yang paling panjang tali **A**.\n\nKunci Jawaban: **A (A)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q04_opt_a",
+        "label": "A",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q04_opt_b",
+        "label": "B",
+        "content": "B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q04_opt_c",
+        "label": "C",
+        "content": "C",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q04_opt_d",
+        "label": "D",
+        "content": "D",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q05",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah kelereng Intan dan Mutia adalah 10. Jika Intan mempunyai 2 kelereng lebih banyak dari Mutia, berapakah kelereng Mutia?",
+    "imageUrl": null,
+    "explanation": "Mutia = (10 − 2) : 2 = **4**, Intan = 6.\n\nKunci Jawaban: **A (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q05_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q05_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q05_opt_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q05_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q06",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Selisih banyaknya segitiga dan persegi pada gambar berikut adalah ...",
+    "imageUrl": "/uploads/jso24_gf_m1_q06.png",
+    "explanation": "Segitiga: 2 baris × 11 = 22. Persegi: 2 baris × 9 = 18. Selisih 22 − 18 = **4**.\n\nCatatan: naskah asli menulis \"lingkaran\", padahal gambarnya segitiga.\n\nKunci Jawaban: **B (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q06_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q06_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q06_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q06_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q07",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai dari 20 + 23 − 2 − 0 − 2 − 3 adalah ...",
+    "imageUrl": null,
+    "explanation": "20 + 23 = 43, lalu 43 − 2 − 0 − 2 − 3 = **36**.\n\nKunci Jawaban: **C (36)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q07_opt_a",
+        "label": "A",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q07_opt_b",
+        "label": "B",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q07_opt_c",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q07_opt_d",
+        "label": "D",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q08",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai yang tepat untuk menggantikan A adalah ...\n\n29 + A = 96",
+    "imageUrl": null,
+    "explanation": "A = 96 − 29 = **67**.\n\nKunci Jawaban: **C (67)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q08_opt_a",
+        "label": "A",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q08_opt_b",
+        "label": "B",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q08_opt_c",
+        "label": "C",
+        "content": "67",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q08_opt_d",
+        "label": "D",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q09",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai tempat angka 9 dalam hasil penjumlahan 234 dan 45 adalah ...",
+    "imageUrl": null,
+    "explanation": "234 + 45 = 279. Angka 9 berada di tempat **satuan**.\n\nKunci Jawaban: **A (Satuan)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q09_opt_a",
+        "label": "A",
+        "content": "Satuan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q09_opt_b",
+        "label": "B",
+        "content": "Puluhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q09_opt_c",
+        "label": "C",
+        "content": "Ratusan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q09_opt_d",
+        "label": "D",
+        "content": "Ribuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q10",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika ⊙ + ⊙ + ⊙ + ⊙ = 28, maka tentukan nilai dari ⊙ + 14.",
+    "imageUrl": null,
+    "explanation": "⊙ = 28 : 4 = 7. ⊙ + 14 = 7 + 14 = **21**.\n\nKunci Jawaban: **C (21)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q10_opt_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q10_opt_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q10_opt_c",
+        "label": "C",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q10_opt_d",
+        "label": "D",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q11",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil dari 10 × 9 ÷ 6 + 8 × 5 ÷ 4 − 7 × 3 ÷ 1 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan × dan ÷ dulu dari kiri: 10 × 9 ÷ 6 = 15; 8 × 5 ÷ 4 = 10; 7 × 3 ÷ 1 = 21. Lalu 15 + 10 − 21 = **4**.\n\nKunci Jawaban: **B (4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q11_opt_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q11_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q11_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q11_opt_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q12",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil dari 25 × 42 ÷ 6 + 28 × 35 ÷ 4 + 63 ÷ 9 × 40 adalah ...",
+    "imageUrl": null,
+    "explanation": "25 × 42 ÷ 6 = 1050 ÷ 6 = 175; 28 × 35 ÷ 4 = 980 ÷ 4 = 245; 63 ÷ 9 × 40 = 7 × 40 = 280. Jumlah 175 + 245 + 280 = **700**.\n\nKunci Jawaban: **D (700)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q12_opt_a",
+        "label": "A",
+        "content": "740",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q12_opt_b",
+        "label": "B",
+        "content": "675",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q12_opt_c",
+        "label": "C",
+        "content": "800",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q12_opt_d",
+        "label": "D",
+        "content": "700",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q13",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Diketahui 150 + 24 × (−15) + A = 10 bernilai benar. Nilai A yang memenuhi adalah ...",
+    "imageUrl": null,
+    "explanation": "24 × (−15) = −360. 150 − 360 = −210. −210 + A = 10, jadi A = **220**.\n\nCatatan: soal ini memakai bilangan negatif (materi kelas atas), sesuai naskah asli.\n\nKunci Jawaban: **A (220)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q13_opt_a",
+        "label": "A",
+        "content": "220",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q13_opt_b",
+        "label": "B",
+        "content": "250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q13_opt_c",
+        "label": "C",
+        "content": "180",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q13_opt_d",
+        "label": "D",
+        "content": "160",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q14",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui penjumlahan bersusun di bawah bernilai benar.\n\n$$\\begin{array}{r} 4\\,6\\,A \\\\ B\\,7 \\\\ \\hline 5\\,6\\,3 \\end{array} +$$\n\nNilai A × B − 5 yang memenuhi adalah ...",
+    "imageUrl": null,
+    "explanation": "Satuan: A + 7 berakhiran 3, jadi A = 6 (6 + 7 = 13, simpan 1). Puluhan: 6 + B + 1 berakhiran 6, jadi B = 9 (6 + 9 + 1 = 16, simpan 1). Ratusan: 4 + 1 = 5 ✓. Cek: 466 + 97 = 563.\nA × B − 5 = 6 × 9 − 5 = **49**.\n\nKunci Jawaban: **C (49)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q14_opt_a",
+        "label": "A",
+        "content": "59",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q14_opt_b",
+        "label": "B",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q14_opt_c",
+        "label": "C",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q14_opt_d",
+        "label": "D",
+        "content": "53",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q15",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tentukan nilai X yang memenuhi operasi berikut.\n\nX → dikali 4 → ditambah 4 → dibagi 5 → 12",
+    "imageUrl": null,
+    "explanation": "Hitung mundur: 12 × 5 = 60, 60 − 4 = 56, 56 : 4 = **14**. Cek: 14 × 4 = 56, + 4 = 60, : 5 = 12.\n\nKunci Jawaban: **A (14)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q15_opt_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q15_opt_b",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q15_opt_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q15_opt_d",
+        "label": "D",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q16",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jumlah dari 3 bilangan berbeda adalah 20. Bilangan pertama besarnya 4 kali dari jumlah bilangan kedua dan bilangan ketiga. Hasil kali ketiga bilangan tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "Bilangan pertama = 4 bagian, jumlah bilangan kedua dan ketiga = 1 bagian, total 5 bagian = 20, jadi 1 bagian = 4. Bilangan pertama 16, bilangan kedua + ketiga = 4 dan harus berbeda: 1 dan 3. Hasil kali 16 × 1 × 3 = **48**.\n\nKunci Jawaban: **B (48)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q16_opt_a",
+        "label": "A",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q16_opt_b",
+        "label": "B",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q16_opt_c",
+        "label": "C",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q16_opt_d",
+        "label": "D",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q17",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pedagang buah-buahan mempunyai 9 kardus buah apel. Setiap kardus berisi 150 buah apel yang akan diberikan kepada 30 orang pedagang eceran dalam jumlah yang sama. Jumlah buah apel yang diterima setiap pedagang eceran tersebut adalah ... buah.",
+    "imageUrl": null,
+    "explanation": "Total apel 9 × 150 = 1.350. Dibagi 30 pedagang: 1.350 : 30 = **45** buah.\n\nKunci Jawaban: **C (45)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q17_opt_a",
+        "label": "A",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q17_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q17_opt_c",
+        "label": "C",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q17_opt_d",
+        "label": "D",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q18",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rosa memberikan bantuan kepada korban banjir berupa beras, mie, dan air mineral. Rosa memberikan 60 kardus air mineral, beras sebanyak 42 kardus kurangnya dari banyak kardus air mineral, dan mie sebanyak 6 kardus lebih banyak dari jumlah kardus beras. Total kardus yang Rosa bagikan kepada korban banjir adalah ...",
+    "imageUrl": null,
+    "explanation": "Air mineral 60, beras 60 − 42 = 18, mie 18 + 6 = 24. Total 60 + 18 + 24 = **102** kardus.\n\nKunci Jawaban: **B (102)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q18_opt_a",
+        "label": "A",
+        "content": "110",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q18_opt_b",
+        "label": "B",
+        "content": "102",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q18_opt_c",
+        "label": "C",
+        "content": "105",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q18_opt_d",
+        "label": "D",
+        "content": "106",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q19",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Erin mengikuti lomba matematika yang terdiri dari 30 soal. Setiap jawaban benar diberi nilai 4, jawaban salah diberi nilai −2, dan setiap soal yang tidak dijawab diberi nilai −1. Jika Erin menjawab 25 soal dan salah sebanyak 3, nilai Erin adalah ...",
+    "imageUrl": null,
+    "explanation": "Benar = 25 − 3 = 22 → 22 × 4 = 88. Salah 3 → 3 × (−2) = −6. Tidak dijawab 30 − 25 = 5 → −5. Nilai = 88 − 6 − 5 = **77**.\n\nKunci Jawaban: **A (77)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q19_opt_a",
+        "label": "A",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q19_opt_b",
+        "label": "B",
+        "content": "82",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q19_opt_c",
+        "label": "C",
+        "content": "83",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q19_opt_d",
+        "label": "D",
+        "content": "88",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q20",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seekor cicak menangkap nyamuk selama 3 hari. Hari pertama cicak menangkap nyamuk 5 ekor lebih sedikit dari hari kedua. Hari kedua cicak menangkap 11 ekor nyamuk. Hari ketiga cicak menangkap 7 ekor lebih banyak dari hari kedua. Jika kecepatan setiap cicak sama, maka banyak nyamuk yang ditangkap oleh 3 cicak (selama 3 hari) adalah ...",
+    "imageUrl": null,
+    "explanation": "Hari 1: 11 − 5 = 6, hari 2: 11, hari 3: 11 + 7 = 18. Satu cicak = 6 + 11 + 18 = 35 ekor. Tiga cicak = 3 × 35 = **105** ekor.\n\nKunci Jawaban: **D (105)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q20_opt_a",
+        "label": "A",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q20_opt_b",
+        "label": "B",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q20_opt_c",
+        "label": "C",
+        "content": "85",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q20_opt_d",
+        "label": "D",
+        "content": "105",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q21",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pak Akbar adalah seorang guru olahraga. Beliau membeli 126 bola untuk sekolahnya. Banyaknya bola basket dua kali jumlah bola sepak, dan banyaknya bola sepak adalah 6 kurangnya dari bola voli. Banyak bola basket adalah ...",
+    "imageUrl": null,
+    "explanation": "Misal bola sepak = s. Basket = 2s, voli = s + 6. Jumlah 2s + s + s + 6 = 4s + 6 = 126, jadi s = 30. Basket = 2 × 30 = **60** (cek: 60 + 30 + 36 = 126).\n\nKunci Jawaban: **C (60)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q21_opt_a",
+        "label": "A",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q21_opt_b",
+        "label": "B",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q21_opt_c",
+        "label": "C",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q21_opt_d",
+        "label": "D",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q22",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hanik belajar matematika dari pukul 07.35 dan istirahat pada pukul 08.05 selama 5 menit. Kemudian Hanik melanjutkan belajar IPA dan selesai pada pukul 09.13. Lama Hanik belajar adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari 07.35 sampai 09.13 = 98 menit. Dikurangi istirahat 5 menit, lama belajar **93 menit** (matematika 30 menit + IPA 63 menit).\n\nKunci Jawaban: **B (93 menit)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q22_opt_a",
+        "label": "A",
+        "content": "95 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q22_opt_b",
+        "label": "B",
+        "content": "93 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q22_opt_c",
+        "label": "C",
+        "content": "98 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q22_opt_d",
+        "label": "D",
+        "content": "90 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q23",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar berikut. Sebuah puzzle berbentuk segitiga tersusun dari dua jenis segitiga kecil berwarna hitam (berarsir) dan putih dengan ukuran yang sama. Beberapa segitiga penyusun puzzle tersebut hilang dan menyisakan bagian seperti pada gambar. Banyak segitiga putih yang hilang adalah ...",
+    "imageUrl": "/uploads/jso24_gf_m1_q23.png",
+    "explanation": "Puzzle berbentuk segitiga dengan sisi 5 segitiga kecil, jadi seluruhnya ada 5 × 5 = 25 segitiga kecil. Yang tersisa: 9 segitiga berarsir (2 di puncak, 1 di tengah, 2 di kanan, 1 di kiri, 3 di bawah) dan 1 segitiga putih di baris bawah, total 10. Yang hilang 25 − 10 = **15** segitiga, semuanya putih.\n\nCatatan: kunci mengikuti tafsiran bahwa semua segitiga yang hilang berwarna putih.\n\nKunci Jawaban: **B (15)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q23_opt_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q23_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q23_opt_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q23_opt_d",
+        "label": "D",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q24",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar berikut. Banyaknya seluruh segitiga dengan berbagai ukuran pada gambar tersebut adalah ...",
+    "imageUrl": "/uploads/jso24_gf_m1_q24.png",
+    "explanation": "Segitiga kecil per baris dari atas: 3, 2, 5, 8, 2 = 20 segitiga kecil. Segitiga besar (sisi 2 satuan): 1 menghadap ke atas di kanan dan 1 menghadap ke bawah di tengah = 2. Total 20 + 2 = 22.\nNilai pilihan: 6 × 5 − 11 = 19, 7 × 5 − 15 = 20, 8 × 5 − 19 = 21, 7 × 6 − 20 = **22**.\n\nKunci Jawaban: **D (7 × 6 − 20)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q24_opt_a",
+        "label": "A",
+        "content": "6 × 5 − 11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q24_opt_b",
+        "label": "B",
+        "content": "7 × 5 − 15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q24_opt_c",
+        "label": "C",
+        "content": "8 × 5 − 19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q24_opt_d",
+        "label": "D",
+        "content": "7 × 6 − 20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q25",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui:\n\n◇ + ◇ + ◇ = 24\n□ + □ + ◇ = 20\n◎ + □ + ◇ = 18\n\nNilai dari ◇ × ◎ + □ adalah ...",
+    "imageUrl": null,
+    "explanation": "◇ = 24 : 3 = 8. □ + □ = 20 − 8 = 12, jadi □ = 6. ◎ = 18 − 6 − 8 = 4. ◇ × ◎ + □ = 8 × 4 + 6 = **38**.\n\nKunci Jawaban: **B (38)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q25_opt_a",
+        "label": "A",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q25_opt_b",
+        "label": "B",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q25_opt_c",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q25_opt_d",
+        "label": "D",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q26",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan pola berikut!\n\n2, 4, 6, 9, ♡, ◆, ☺, 18, 20, 23\n\nNilai dari ♡ × ☺ − ◆ adalah ...",
+    "imageUrl": null,
+    "explanation": "Selisihnya berulang +2, +2, +3: 2, 4, 6, 9, 11, 13, 16, 18, 20, 23. Jadi ♡ = 11, ◆ = 13, ☺ = 16. ♡ × ☺ − ◆ = 11 × 16 − 13 = 176 − 13 = **163**.\n\nKunci Jawaban: **D (163)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q26_opt_a",
+        "label": "A",
+        "content": "127",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q26_opt_b",
+        "label": "B",
+        "content": "143",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q26_opt_c",
+        "label": "C",
+        "content": "150",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q26_opt_d",
+        "label": "D",
+        "content": "163",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q27",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dani memiliki koin 100 sebanyak dua kalinya koin 500. Total nilai dari seluruh koin 100 dan 500 Dani adalah 8.400. Selisih banyaknya koin 100 dan 500 adalah ...",
+    "imageUrl": null,
+    "explanation": "Setiap 1 koin 500 berpasangan dengan 2 koin 100: nilai satu kelompok 500 + 200 = 700. 8.400 : 700 = 12 kelompok, jadi koin 500 ada 12 dan koin 100 ada 24. Selisih 24 − 12 = **12**.\n\nCatatan: naskah asli menulis \"koin ... Intan\" di kalimat kedua; disesuaikan menjadi Dani.\n\nKunci Jawaban: **C (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q27_opt_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q27_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q27_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q27_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q28",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tiga pir beratnya sama dengan sebuah melon. Sebuah melon beratnya sama dengan delapan belas rambutan. Banyak rambutan yang beratnya sama dengan dua pir adalah ...",
+    "imageUrl": null,
+    "explanation": "3 pir = 18 rambutan, jadi 1 pir = 6 rambutan. 2 pir = **12** rambutan.\n\nKunci Jawaban: **C (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q28_opt_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q28_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q28_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q28_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q29",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dina sedang merayakan ulang tahun di rumahnya. Ia mengundang Ghaitsa, Rosa, Erin, dan Hanik untuk datang ke rumahnya. Jika setiap orang berjabat tangan tepat satu kali dengan seluruh teman yang ada, maka banyaknya jabat tangan yang terjadi adalah ...",
+    "imageUrl": null,
+    "explanation": "Ada 5 anak (Dina + 4 tamu). Jabat tangan = 4 + 3 + 2 + 1 = **10**.\n\nKunci Jawaban: **A (10)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q29_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q29_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q29_opt_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q29_opt_d",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q30",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dutra memiliki 254 dorayaki yang akan ia masukkan ke dalam toples. Tiap toples hanya memuat paling banyak 4 dorayaki. Banyaknya toples paling sedikit yang dibutuhkan Dutra adalah ...",
+    "imageUrl": null,
+    "explanation": "254 : 4 = 63 sisa 2. Sisa 2 dorayaki masih butuh 1 toples lagi, jadi **64** toples.\n\nKunci Jawaban: **C (64)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q30_opt_a",
+        "label": "A",
+        "content": "62",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q30_opt_b",
+        "label": "B",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q30_opt_c",
+        "label": "C",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q30_opt_d",
+        "label": "D",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q31",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Banyaknya segitiga pada bangun di samping adalah ...",
+    "imageUrl": "/uploads/jso24_gf_m1_q31.png",
+    "explanation": "Bagian kiri: 3 segitiga kecil (atas, kiri, bawah) + 2 segitiga sedang = 5. Bagian kanan juga 5. Segitiga besar yang memakai dua garis miring dan sisi atas/bawah persegi panjang: 2. Total 5 + 5 + 2 = 12.\nNilai pilihan: 81 ÷ 3 − 3 × 7 = 6, 100 ÷ 4 − 4 × 2 = 17, 121 ÷ 11 − 3 × 2 = 5, 144 ÷ 3 − 9 × 4 = **12**.\n\nKunci Jawaban: **D (144 ÷ 3 − 9 × 4)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q31_opt_a",
+        "label": "A",
+        "content": "81 ÷ 3 − 3 × 7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q31_opt_b",
+        "label": "B",
+        "content": "100 ÷ 4 − 4 × 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q31_opt_c",
+        "label": "C",
+        "content": "121 ÷ 11 − 3 × 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q31_opt_d",
+        "label": "D",
+        "content": "144 ÷ 3 − 9 × 4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q32",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui barisan bilangan 1, 8, 27, 64, 125, A, B. Nilai A + B = ...",
+    "imageUrl": null,
+    "explanation": "Polanya 1 × 1 × 1, 2 × 2 × 2, 3 × 3 × 3, dan seterusnya. A = 6 × 6 × 6 = 216, B = 7 × 7 × 7 = 343. A + B = **559**.\n\nKunci Jawaban: **B (559)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q32_opt_a",
+        "label": "A",
+        "content": "625",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q32_opt_b",
+        "label": "B",
+        "content": "559",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q32_opt_c",
+        "label": "C",
+        "content": "484",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q32_opt_d",
+        "label": "D",
+        "content": "256",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q33",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar berikut. Banyak kubus kecil yang (masih) diperlukan untuk membuat kubus besar yang sisinya 5 satuan adalah ...",
+    "imageUrl": "/uploads/jso24_gf_m1_q33.png",
+    "explanation": "Kubus besar bersisi 5 butuh 5 × 5 × 5 = 125 kubus kecil. Tumpukan pada gambar berbentuk tangga: lapisan bawah 15, lalu 10, 6, 3, dan 1 kubus = 35 kubus. Yang masih diperlukan 125 − 35 = **90**.\n\nKunci Jawaban: **A (90)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q33_opt_a",
+        "label": "A",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q33_opt_b",
+        "label": "B",
+        "content": "93",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q33_opt_c",
+        "label": "C",
+        "content": "87",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q33_opt_d",
+        "label": "D",
+        "content": "96",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q34",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Layla membeli 90 buah jeruk. 2/5 bagian jeruk diberikan kepada teman-teman sekelasnya, 1/6 bagian disimpan di kulkas, dan sisanya dimakan selama 13 hari. Buah jeruk yang dimakan Layla tiap hari adalah ...",
+    "imageUrl": null,
+    "explanation": "2/5 × 90 = 36 (untuk teman), 1/6 × 90 = 15 (di kulkas). Sisa 90 − 36 − 15 = 39 jeruk. 39 : 13 = **3** jeruk per hari.\n\nKunci Jawaban: **C (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q34_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q34_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q34_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q34_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q35",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Operasi # pada himpunan bilangan bulat didefinisikan dengan aturan a # b = b × (a + 1) − a. Nilai 2 # (1 # 3) adalah ...",
+    "imageUrl": null,
+    "explanation": "1 # 3 = 3 × (1 + 1) − 1 = 5. Lalu 2 # 5 = 5 × (2 + 1) − 2 = 15 − 2 = **13**.\n\nKunci Jawaban: **D (13)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q35_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q35_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q35_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q35_opt_d",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q36",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan pola pada gambar berikut. Nilai dari A + B adalah ...",
+    "imageUrl": "/uploads/jso24_gf_m1_q36.png",
+    "explanation": "Aturannya: (bawah kiri × bawah kanan) − (atas kiri × atas kanan) = angka tengah. Cek: 6 × 5 − 7 × 3 = 30 − 21 = 9 dan 9 × 7 − 6 × 4 = 63 − 24 = 39.\nGambar 3: 8 × 5 − 4 × A = 12 → 40 − 4A = 12 → A = 7.\nGambar 4: B × 6 − 8 × 7 = 10 → 6B = 66 → B = 11.\nA + B = 7 + 11 = **18**.\n\nKunci Jawaban: **A (18)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q36_opt_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q36_opt_b",
+        "label": "B",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q36_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q36_opt_d",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q37",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Shafa memiliki 8 koin berwarna emas. Satu koin emas dapat ditukar menjadi 3 koin perak. Sebuah mobil mainan di mal dapat ditukar dengan 11 koin perak. Koin perak yang harus dikumpulkan lagi oleh Shafa apabila Shafa ingin membeli 3 mobil mainan adalah ...",
+    "imageUrl": null,
+    "explanation": "8 koin emas = 8 × 3 = 24 koin perak. 3 mobil = 3 × 11 = 33 koin perak. Kurang 33 − 24 = **9** koin perak.\n\nKunci Jawaban: **C (9)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q37_opt_a",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q37_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q37_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q37_opt_d",
+        "label": "D",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q38",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Yu Muti membeli 5 pizza dan mengirisnya menjadi beberapa bagian. Pizza pertama dipotong menjadi 6 bagian, pizza kedua menjadi 7 bagian, pizza ketiga menjadi 8 bagian, dan seterusnya. Potongan pizza dibagikan kepada anak yatim di panti asuhan samping rumahnya, masing-masing 1 potong. Banyak anak yatim di panti asuhan tersebut 35. Sisa potongan pizza Yu Muti adalah ...",
+    "imageUrl": null,
+    "explanation": "Potongan: 6 + 7 + 8 + 9 + 10 = 40. Dibagikan 35, sisa 40 − 35 = **5** potong.\n\nKunci Jawaban: **D (5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q38_opt_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q38_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q38_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q38_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q39",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Diketahui P adalah bilangan yang terdiri dari 3 angka dan kurang dari 400. Banyaknya bilangan P jika ketiga angkanya berbeda adalah ...",
+    "imageUrl": null,
+    "explanation": "Angka ratusan: 1, 2, atau 3 (3 pilihan). Angka puluhan: 9 pilihan (0–9 kecuali angka ratusan). Angka satuan: 8 pilihan. 3 × 9 × 8 = **216**.\n\nKunci Jawaban: **B (216)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q39_opt_a",
+        "label": "A",
+        "content": "243",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q39_opt_b",
+        "label": "B",
+        "content": "216",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q39_opt_c",
+        "label": "C",
+        "content": "168",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q39_opt_d",
+        "label": "D",
+        "content": "299",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2024_mtk_gf_1_q40",
+    "topicId": "top_jso_2024_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar berikut. Banyak bangun segitiga dan lingkaran pada gambar adalah ...",
+    "imageUrl": "/uploads/jso24_gf_m1_q40.png",
+    "explanation": "Lingkaran: 3 di lampu lalu lintas, 4 roda masing-masing 2 lingkaran (luar dan dalam) = 8, dan 1 di cerobong = 12. Segitiga: 1 atap kecil, 2 di sambungan kereta, 1 di gerbong kanan = 4. Total 12 + 4 = 16 (setengah lingkaran di depan tidak dihitung).\nNilai pilihan: 2 × 5 + 24 ÷ 6 = 14, 4 × 2 + 18 ÷ 3 = 14, 3 × 4 + 8 ÷ 4 = 14, 3 × 4 + 28 ÷ 7 = **16**.\n\nKunci Jawaban: **D (3 × 4 + 28 ÷ 7)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q40_opt_a",
+        "label": "A",
+        "content": "2 × 5 + 24 ÷ 6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q40_opt_b",
+        "label": "B",
+        "content": "4 × 2 + 18 ÷ 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q40_opt_c",
+        "label": "C",
+        "content": "3 × 4 + 8 ÷ 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2024_mtk_gf_1_q40_opt_d",
+        "label": "D",
+        "content": "3 × 4 + 28 ÷ 7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

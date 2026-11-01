@@ -75,5 +75,12 @@
     "slug": "imocsea-internasional",
     "description": "International Mathematics & Science Olympiad Southeast Asia",
     "orderIndex": 8
+  },
+  {
+    "id": "cat_olimpiade_kmnr",
+    "name": "Kompetisi Matematika Nalaria Realistik (KMNR)",
+    "slug": "kompetisi-matematika-nalaria-realistik",
+    "description": "Naskah resmi KMNR (Klinik Pendidikan MIPA) untuk SD kelas 1–2.",
+    "orderIndex": 0
   }
 ]

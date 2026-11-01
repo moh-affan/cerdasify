@@ -439,7 +439,7 @@ Desain lengkap & alasan keputusan: [DESAIN_FITUR_GAME_EDUKASI.md](DESAIN_FITUR_G
 ### 12.2 Skema
 | Tabel | Keterangan |
 |---|---|
-| `game_sets` | `engine` (`MATH_SPRINT`, `MEMORY_MATCH`, `CROSSMATH`, `CROSSWORD`, `VOCAB_PICTURE`), `subject_id`, `phase_min/max`, `config_json`, `items_json`, `edited_at` |
+| `game_sets` | `engine` (`MATH_SPRINT`, `MEMORY_MATCH`, `CROSSMATH`, `CROSSWORD`, `VOCAB_PICTURE`, arcade: `BALLOON_POP`, `CATCHER`, `LANE_RUNNER`, `TOWER_DEFENSE`), `subject_id`, `phase_min/max`, `config_json`, `items_json`, `edited_at` |
 | `game_sessions` | Satu permainan: `seed`, `context` (slug bacaan untuk kartu kosakata bacaan), `state_json` (ronde kosakata, jumlah bantuan TTS), `play_date` (Asia/Jakarta), skor, bintang, `duration_ms`, `status` (`IN_PROGRESS`/`COMPLETED`/`REJECTED`) |
 | `game_progress` | PK (`user_id`, `game_set_id`): skor & bintang terbaik, jumlah main |
 | `vocab_mastery` | PK (`user_id`, `word_key` mis. `en:cat`): kotak Leitner 1–5 & `due_date`; kotak ≥ 4 = dikuasai |
@@ -459,3 +459,18 @@ Desain lengkap & alasan keputusan: [DESAIN_FITUR_GAME_EDUKASI.md](DESAIN_FITUR_G
 - `npm run games:export` — menulis set hasil edit admin ke `src/db/seed-data/games/admin-overrides.json` (dibaca seeder berikutnya). Commit berkas ini.
 - `npm run games:vocab-candidates` — daftar kandidat kosakata bergambar dari bacaan (tinjau manual sebelum dipakai).
 - `npm run test:games` — uji replay = permainan klien, generator Silang Angka, tata letak TTS, ronde & Leitner, validasi semua set bawaan.
+
+### 12.5 Game Arcade
+| Engine | Log aksi klien | Penilaian server (`src/lib/games/arcade.ts`) |
+|---|---|---|
+| `BALLOON_POP` Balon Hitung | `[ms, idBalon][]` ketukan | `replayBalloon`: balon harus ada & masih terlihat pada `ms` (toleransi 250 ms), tidak diketuk dua kali, waktu tidak mundur |
+| `CATCHER` Tangkap Benda | `[ms, x][]` posisi keranjang (dicatat saat bergerak, ±30 ms) | `replayCatcher`: posisi keranjang saat benda sampai (`basketAt`) menentukan tertangkap; 3 nyawa |
+| `LANE_RUNNER` Lari Jawaban | `[ms, jalur][]` pindah jalur | `replayRunner`: jalur saat gerbang sampai (`laneAt`) = pilihan jawaban; nyawa dari config |
+| `TOWER_DEFENSE` Jaga Benteng | `[ms, angka][]` jawaban yang dikirim | `replayDefense`: jawaban menghancurkan robot aktif dengan jawaban itu yang paling dekat ke benteng; robot yang sampai mengurangi HP |
+
+- **Jadwal deterministik dari seed**: waktu muncul, posisi, isi, dan benar/salah setiap benda **tidak** bergantung pada aksi pemain (kecepatan naik menurut waktu/nomor gerbang/gelombang). Karena itu replay di server identik dengan tampilan klien — klien juga menghitung skor, nyawa, dan benda yang tertangkap dengan fungsi replay yang sama setiap frame.
+- **Durasi**: akhir permainan menurut jadwal (`durationMs`, `runnerEnd`, `defenseEnd`) tidak boleh melebihi waktu dinding sesi + 5 detik, sehingga ronde 60 detik tidak bisa "diselesaikan" dalam sekejap.
+- **Aturan** (`ArcadeRule`): `MULTIPLE`, `EVEN`, `ODD`, `EQUALS` (ekspresi bernilai target), `GREATER`, `LESS`, `CATEGORY` (daftar label `good`/`bad`, emoji atau kata). Aturan berganti tiap `waveSec`; generator mengosongkan layar sebelum aturan berganti.
+- **Bintang** memperhitungkan ketepatan (ketukan/jawaban salah), sehingga mengetuk atau mengetik asal tidak menguntungkan.
+- **Render**: DOM + `requestAnimationFrame` (`useGameTime` di `src/components/games/arcade-ui.tsx`), tanpa canvas engine; jam permainan berhenti saat jeda.
+- `npm run test:games` memeriksa: label sesuai aturan (dihitung ulang terpisah), benda hilang sebelum aturan berganti, permainan ideal = ★★★ di semua set, Tangkap Benda selalu bisa dimainkan tanpa salah tangkap (30 seed), opsi Lari Jawaban unik dengan satu kunci, jawaban soal cerita bos selalu bulat.

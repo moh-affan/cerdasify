@@ -233,7 +233,17 @@ export const gameSets = pgTable('game_sets', {
   id: text('id').primaryKey(),
   slug: text('slug').notNull().unique(),
   engine: text('engine', {
-    enum: ['MATH_SPRINT', 'MEMORY_MATCH', 'CROSSMATH', 'CROSSWORD', 'VOCAB_PICTURE'],
+    enum: [
+      'MATH_SPRINT',
+      'MEMORY_MATCH',
+      'CROSSMATH',
+      'CROSSWORD',
+      'VOCAB_PICTURE',
+      'BALLOON_POP',
+      'CATCHER',
+      'LANE_RUNNER',
+      'TOWER_DEFENSE',
+    ],
   }).notNull(),
   subjectId: text('subject_id')
     .notNull()

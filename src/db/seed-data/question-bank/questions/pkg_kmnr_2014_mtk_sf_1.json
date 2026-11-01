@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q01",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berapakah hasil dari 5 + 10 + 15?",
+    "imageUrl": null,
+    "explanation": "5 + 10 + 15 = **30**.\n\nKunci Jawaban: **C (30)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q01_opt_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q01_opt_b",
+        "label": "B",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q01_opt_c",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q01_opt_d",
+        "label": "D",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q02",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hitunglah: (1 + 2 + 3 + 4 + 5) − (2 + 4 + 6)!",
+    "imageUrl": null,
+    "explanation": "1 + 2 + 3 + 4 + 5 = 15 dan 2 + 4 + 6 = 12. 15 − 12 = **3**.\n\nKunci Jawaban: **C (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q02_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q02_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q02_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q02_opt_d",
+        "label": "D",
+        "content": "0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q03",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "24 = 10 lebihnya dari ....",
+    "imageUrl": null,
+    "explanation": "24 − 10 = **14**.\n\nKunci Jawaban: **B (14)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q03_opt_a",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q03_opt_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q03_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q03_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q04",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan ke-6 sebelum 15 adalah ....",
+    "imageUrl": null,
+    "explanation": "Mundur 6 langkah dari 15: 14, 13, 12, 11, 10, **9**.\n\nKunci Jawaban: **C (9)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q04_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q04_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q04_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q04_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q05",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dari bilangan-bilangan di bawah ini, bilangan yang jumlah angka puluhan dan satuannya lebih besar dari 13, kecuali ....",
+    "imageUrl": null,
+    "explanation": "Jumlah puluhan + satuan: 57 → 5 + 7 = 12; 69 → 15; 99 → 18; 168 → 6 + 8 = 14. Yang tidak lebih dari 13 adalah **57**.\n\nKunci Jawaban: **A (57)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q05_opt_a",
+        "label": "A",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q05_opt_b",
+        "label": "B",
+        "content": "69",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q05_opt_c",
+        "label": "C",
+        "content": "99",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q05_opt_d",
+        "label": "D",
+        "content": "168",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q06",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan manakah yang lebih besar dari 34 dan lebih kecil dari 48 pada gambar berikut?",
+    "imageUrl": "/uploads/kmnr14_sf_m1_q06.png",
+    "explanation": "Bilangan di antara 34 dan 48 (34 dan 48 tidak termasuk): 36, 40, 46. Jawabannya **36, 40, 46**.\n\nKunci Jawaban: **B (36, 40, 46)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q06_opt_a",
+        "label": "A",
+        "content": "34, 36, 48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q06_opt_b",
+        "label": "B",
+        "content": "36, 40, 46",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q06_opt_c",
+        "label": "C",
+        "content": "36, 40, 48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q06_opt_d",
+        "label": "D",
+        "content": "32, 36, 40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q07",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bangun datar apakah yang merupakan urutan ketiga dari yang terbesar?",
+    "imageUrl": "/uploads/kmnr14_sf_m1_q07.png",
+    "explanation": "Dari yang terbesar: trapesium, persegi panjang, **segitiga**, lingkaran.\n\nKunci Jawaban: **B (segitiga)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q07_opt_a",
+        "label": "A",
+        "content": "trapesium",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q07_opt_b",
+        "label": "B",
+        "content": "segitiga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q07_opt_c",
+        "label": "C",
+        "content": "persegi panjang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q07_opt_d",
+        "label": "D",
+        "content": "lingkaran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q08",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bilangan 2 angka terbesar yang lebih kecil dari 99 adalah ....",
+    "imageUrl": null,
+    "explanation": "Satu lebih kecil dari 99 adalah **98**.\n\nKunci Jawaban: **C (98)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q08_opt_a",
+        "label": "A",
+        "content": "89",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q08_opt_b",
+        "label": "B",
+        "content": "90",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q08_opt_c",
+        "label": "C",
+        "content": "98",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q08_opt_d",
+        "label": "D",
+        "content": "99",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q09",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "\"2148\", pada bilangan tersebut, angka-angka yang memiliki nilai tempat ratusan dan satuan berturut-turut adalah ....",
+    "imageUrl": null,
+    "explanation": "2148: 2 ribuan, 1 ratusan, 4 puluhan, 8 satuan. Ratusan dan satuan: **1 dan 8**.\n\nKunci Jawaban: **D (1 dan 8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q09_opt_a",
+        "label": "A",
+        "content": "2 dan 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q09_opt_b",
+        "label": "B",
+        "content": "8 dan 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q09_opt_c",
+        "label": "C",
+        "content": "1 dan 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q09_opt_d",
+        "label": "D",
+        "content": "1 dan 8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q10",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam sebuah kantong terdapat 2 lembar uang Rp2.000,00 dan 2 logam uang Rp500,00. Berapa banyak uang seluruhnya?",
+    "imageUrl": null,
+    "explanation": "4.000 + 1.000 = **Rp5.000,00**.\n\nKunci Jawaban: **D (Rp5.000,00)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q10_opt_a",
+        "label": "A",
+        "content": "Rp2.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q10_opt_b",
+        "label": "B",
+        "content": "Rp3.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q10_opt_c",
+        "label": "C",
+        "content": "Rp4.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q10_opt_d",
+        "label": "D",
+        "content": "Rp5.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q11",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dari gambar di bawah ini, wadah manakah yang memiliki jumlah tomat sama banyak?",
+    "imageUrl": "/uploads/kmnr14_sf_m1_q11.png",
+    "explanation": "P = 7, Q = 7, R = 8, S = 7. Yang sama banyak **P, Q, S**.\n\nKunci Jawaban: **D (P, Q, S)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q11_opt_a",
+        "label": "A",
+        "content": "P, Q, R",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q11_opt_b",
+        "label": "B",
+        "content": "P, R, S",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q11_opt_c",
+        "label": "C",
+        "content": "Q, R, S",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q11_opt_d",
+        "label": "D",
+        "content": "P, Q, S",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q12",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan gambar penggaris berikut. Penggaris Tono ... dari penggaris Dodo dalam mm.",
+    "imageUrl": "/uploads/kmnr14_sf_m1_q12.png",
+    "explanation": "Penggaris Tono dari 21 sampai 30 = 9 cm. Penggaris Dodo dari 0 sampai 9 = 9 cm. Jadi keduanya **sama panjang**.\n\nKunci Jawaban: **C (sama panjang)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q12_opt_a",
+        "label": "A",
+        "content": "lebih panjang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q12_opt_b",
+        "label": "B",
+        "content": "lebih pendek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q12_opt_c",
+        "label": "C",
+        "content": "sama panjang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q12_opt_d",
+        "label": "D",
+        "content": "tidak ada jawab",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q13",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Dalam sebuah lomba matematika terdapat 50 soal. Angga mengerjakan 34 soal dan benar semua. Linda mengerjakan 3 soal lebih banyak dari Angga, ternyata yang salah 5 soal. Siapakah yang mendapatkan nilai lebih tinggi?",
+    "imageUrl": null,
+    "explanation": "Angga benar 34. Linda mengerjakan 37, salah 5, jadi benar 32. Nilai lebih tinggi **Angga**.\n\nKunci Jawaban: **B (Angga)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q13_opt_a",
+        "label": "A",
+        "content": "Linda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q13_opt_b",
+        "label": "B",
+        "content": "Angga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q13_opt_c",
+        "label": "C",
+        "content": "Linda dan Angga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q13_opt_d",
+        "label": "D",
+        "content": "tidak keduanya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q14",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hitunglah: (1 + 1 + ... + 1, sebanyak 10 kali) + (5 + 5 + 5 + 5 + 5)",
+    "imageUrl": null,
+    "explanation": "1 sebanyak 10 kali = 10. 5 + 5 + 5 + 5 + 5 = 25. 10 + 25 = **35**.\n\nKunci Jawaban: **B (35)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q14_opt_a",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q14_opt_b",
+        "label": "B",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q14_opt_c",
+        "label": "C",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q14_opt_d",
+        "label": "D",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q15",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan yang tepat untuk mengganti ○ adalah ....\n\n231, 236, 241, ○, 251",
+    "imageUrl": null,
+    "explanation": "Pola bertambah 5: 241 + 5 = **246**.\n\nKunci Jawaban: **B (246)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q15_opt_a",
+        "label": "A",
+        "content": "244",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q15_opt_b",
+        "label": "B",
+        "content": "246",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q15_opt_c",
+        "label": "C",
+        "content": "248",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q15_opt_d",
+        "label": "D",
+        "content": "250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q16",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ani dan Ina bermain dengan 10 kartu. Di belakang setiap kartu tertulis bilangan dari 0 sampai 9. Jika Ani mengambil kartu bertuliskan 8, sedangkan Ina mengambil kartu yang bilangannya 3 kurangnya dari kartu Ani, berapakah jumlah bilangan kartu Ani dan Ina?",
+    "imageUrl": null,
+    "explanation": "Kartu Ina = 8 − 3 = 5. Jumlah 8 + 5 = **13**.\n\nKunci Jawaban: **C (13)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q16_opt_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q16_opt_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q16_opt_c",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q16_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q17",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Seekor gajah 57 kg lebih berat daripada macan. Seekor macan 25 kg lebih berat daripada monyet. Seekor monyet 5 kg lebih berat daripada kucing. Berat kucing adalah 3 kg. Berapakah berat seekor gajah?",
+    "imageUrl": null,
+    "explanation": "Monyet = 3 + 5 = 8 kg, macan = 8 + 25 = 33 kg, gajah = 33 + 57 = **90 kg**.\n\nKunci Jawaban: **B (90 kg)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q17_opt_a",
+        "label": "A",
+        "content": "100 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q17_opt_b",
+        "label": "B",
+        "content": "90 kg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q17_opt_c",
+        "label": "C",
+        "content": "80 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q17_opt_d",
+        "label": "D",
+        "content": "88 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q18",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "MULTI_CHOICE",
+    "difficulty": "HARD",
+    "content": "Halaman X dan halaman Y adalah dua halaman yang berhadapan dalam sebuah buku. Jika jumlah dua halaman tersebut adalah 55, halaman X adalah .... (Jawaban bisa lebih dari satu.)",
+    "imageUrl": null,
+    "explanation": "Dua halaman berhadapan adalah bilangan berurutan: 27 + 28 = 55. Halaman X bisa 27 atau 28, jadi pilih **27 dan 28**.\n\nCatatan: di naskah asli kedua pilihan ini ada, sehingga soal dijadikan pilihan ganda kompleks.\n\nKunci Jawaban: **A dan B**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q18_opt_a",
+        "label": "A",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q18_opt_b",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q18_opt_c",
+        "label": "C",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q18_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q19",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diah mempunyai 12 stiker, Lala mempunyai 8 stiker lebih banyak dari Diah. Wulan mempunyai 10 stiker lebih sedikit dari Lala. Siapakah yang memiliki stiker paling banyak?",
+    "imageUrl": null,
+    "explanation": "Diah 12, Lala 12 + 8 = 20, Wulan 20 − 10 = 10. Paling banyak **Lala**.\n\nKunci Jawaban: **C (Lala)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q19_opt_a",
+        "label": "A",
+        "content": "Diah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q19_opt_b",
+        "label": "B",
+        "content": "Wulan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q19_opt_c",
+        "label": "C",
+        "content": "Lala",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q19_opt_d",
+        "label": "D",
+        "content": "Lala dan Wulan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q20",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Paman menjual 150 itik ke pasar. Hari pertama terjual 52 itik. Selama berjualan 2 hari itu, sisa itik paman adalah 42 itik. Berapa banyak itik yang terjual pada hari kedua?",
+    "imageUrl": null,
+    "explanation": "Yang terjual selama 2 hari = 150 − 42 = 108. Hari kedua = 108 − 52 = **56 itik**.\n\nKunci Jawaban: **A (56 itik)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q20_opt_a",
+        "label": "A",
+        "content": "56 itik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q20_opt_b",
+        "label": "B",
+        "content": "58 itik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q20_opt_c",
+        "label": "C",
+        "content": "60 itik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q20_opt_d",
+        "label": "D",
+        "content": "62 itik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q21",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada tahun 2014 Andi merayakan ulang tahun yang ke-7. Tahun berapakah Andi lahir?",
+    "imageUrl": null,
+    "explanation": "2014 − 7 = **2007**.\n\nKunci Jawaban: **C (2007)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q21_opt_a",
+        "label": "A",
+        "content": "2000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q21_opt_b",
+        "label": "B",
+        "content": "2003",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q21_opt_c",
+        "label": "C",
+        "content": "2007",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q21_opt_d",
+        "label": "D",
+        "content": "2010",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q22",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hasil perkalian dari angka-angka pada M adalah ....",
+    "imageUrl": "/uploads/kmnr14_sf_m1_q22.png",
+    "explanation": "Bilangan pada garis bertambah 7: 99, 106, **113**, 120, 127, 134. Jadi M = 113. Hasil kali angka-angkanya 1 × 1 × 3 = **3**.\n\nKunci Jawaban: **D (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q22_opt_a",
+        "label": "A",
+        "content": "113",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q22_opt_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q22_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q22_opt_d",
+        "label": "D",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q23",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Berapa banyak angka 3 yang ditulis dari 0 sampai 113?",
+    "imageUrl": null,
+    "explanation": "Dari 0 sampai 99 ada 20 angka 3 (10 sebagai satuan: 3, 13, ..., 93; dan 10 sebagai puluhan: 30 sampai 39). Dari 100 sampai 113 ada 2 (103 dan 113). Total **22**.\n\nKunci Jawaban: **C (22)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q23_opt_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q23_opt_b",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q23_opt_c",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q23_opt_d",
+        "label": "D",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q24",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Ada berapa segitiga pada gambar di samping?",
+    "imageUrl": "/uploads/kmnr14_sf_m1_q24.png",
+    "explanation": "Segitiga kecil: baris atas 3, baris tengah 5, baris bawah 3 = 11. Segitiga besar (sisi 2): 2 menghadap ke atas (dengan puncak di dua titik paling atas) dan 1 menghadap ke bawah di tengah = 3. Total 11 + 3 = **14**.\n\nKunci Jawaban: **B (14)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q24_opt_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q24_opt_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q24_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q24_opt_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmnr_2014_mtk_sf_1_q25",
+    "topicId": "top_kmnr_2014_mtk_sf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bentuk pada pola berikutnya adalah ....",
+    "imageUrl": "/uploads/kmnr14_sf_m1_q25.png",
+    "explanation": "Pola berulang tiap 3 kotak: persegi bergaris, lingkaran, segitiga. Garis dalam persegi berganti silang (×) lalu tambah (+); segitiga berputar. Setelah segitiga ke-2 kembali ke persegi, kali ini bergaris silang (×). Jawabannya **c**.\n\nKunci Jawaban: **C (Persegi bergaris silang (×))**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q25_opt_a",
+        "label": "A",
+        "content": "Segitiga dalam persegi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q25_opt_b",
+        "label": "B",
+        "content": "Persegi bergaris tambah (+)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q25_opt_c",
+        "label": "C",
+        "content": "Persegi bergaris silang (×)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmnr_2014_mtk_sf_1_q25_opt_d",
+        "label": "D",
+        "content": "Lingkaran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

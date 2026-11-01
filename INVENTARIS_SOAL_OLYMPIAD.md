@@ -53,7 +53,7 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 
 | Status | Format | Nama Berkas & Jalur | Paket / Keterangan di Cerdasify |
 | :---: | :---: | :--- | :--- |
-| [ ] Belum | `PDF` | `Level 1/ceo mtk 1 final 2023 tipe f.pdf` (976 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `PDF` | `Level 1/ceo mtk 1 final 2023 tipe f.pdf` (976 KB) | **pkg_ceo_2023_mtk_final_f_1**: CEO 2023 Final Tipe F — Matematika L1 (27) |
 | [ ] Belum | `DOCX` | `Level 1/ceo mtk 1 penyisihan 2023 tipe a.docx` (609 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 1/ceo mtk 1 penyisihan 2023 tipe a.pdf` (414 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `DOCX` | `Level 1/ceo mtk 1 penyisihan 2024 tipe a.docx` (1616 KB) | *Siap diimpor ke paket baru* |
@@ -194,14 +194,14 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `DOCX` | `Level 2/jso mtk 2 final provinsi 2024 tipe b.docx` (1180 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/SOAL-FINAL-PROVINSI-JSO-2024-Level-I.pdf` (459 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/SOAL-TYPE-D-JSO-2024-PENYISIHAN.pdf` (8118 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `SOAL FULL/Soal-Grand-Final-Jso-2025.pdf` (9568 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `PDF` | `SOAL FULL/Soal-Grand-Final-Jso-2025.pdf` (9568 KB) | **pkg_jso_2025_mtk_gf_1**: JSO 2025 Grand Final — Matematika L1 (40); mapel lain belum |
 | [ ] Belum | `PDF` | `SOAL FULL/Soal-Jso-2024-Type-c-New-1.pdf` (7942 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `SOAL FULL/Soal-Jso-Finprov-2025-Type-b-New.pdf` (9033 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `SOAL FULL/Soal-Matematika-JSO-Final-Provinsi.pdf` (2074 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `PDF` | `SOAL FULL/Soal-Jso-Finprov-2025-Type-b-New.pdf` (9033 KB) | **pkg_jso_2025_mtk_prov_b_1**: JSO 2025 Final Provinsi Tipe B — Matematika L1 (40); mapel lain belum |
+| [x] **SUDAH** | `PDF` | `SOAL FULL/Soal-Matematika-JSO-Final-Provinsi.pdf` (2074 KB) | **pkg_jso_2024_mtk_prov_b_1**: JSO 2024 Final Provinsi Tipe B — Matematika L1 (40) |
 | [ ] Belum | `PDF` | `SOAL FULL/Soal-Penyisihan-Jso-2025-Type-c.pdf` (7505 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `SOAL FULL/Soal-Type-a-Jso-2024-Penyisihan-2.pdf` (8339 KB) | *Siap diimpor ke paket baru* |
 | [x] **SUDAH** | `PDF` | `SOAL FULL/TIPE A FINPROV JSO 2026.pdf` (7254 KB) | **pkg_jso_2026_mtk_prov_1/2**: JSO 2026 Final Provinsi — Matematika L1 (40) & L2 (38); mapel lain belum |
-| [ ] Belum | `PDF` | `SOAL FULL/TIPE B FINPROV JSO 2026.pdf` (7434 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `PDF` | `SOAL FULL/TIPE B FINPROV JSO 2026.pdf` (7434 KB) | **pkg_jso_2026_mtk_prov_b_1**: JSO 2026 Final Provinsi Tipe B — Matematika L1 (40); mapel lain belum |
 | [ ] Belum | `PDF` | `SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf` (9146 KB) | *Siap diimpor ke paket baru* |
 | [x] **SUDAH** | `PDF` | `SOAL GF FIX JSO 2026.pdf` (7375 KB) | **pkg_jso_2026_mtk_gf_1/2**: JSO 2026 Grand Final — Matematika L1 (35) & L2 (34); mapel lain belum |
 | [ ] Belum | `PDF` | `SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` (7603 KB) | *Siap diimpor ke paket baru* |
@@ -289,8 +289,8 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `Level 1/kmnr 10 mtk 1 uji coba 2015.pdf` (1534 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 1/kmnr 13 mtk 1 persiapan final 2018.pdf` (367 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 1/kmnr 19 mtk 1 penyisihan 2024.pdf` (607 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `Level 1/kmnr 19 mtk 1 semi final 2024.pdf` (568 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `Level 1/kmnr 9 mtk 1 semi final 2014.pdf` (397 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `PDF` | `Level 1/kmnr 19 mtk 1 semi final 2024.pdf` (568 KB) | **pkg_kmnr_2024_mtk_sf_1**: KMNR 19 2024 Semifinal — Kelas 1–2 (25) |
+| [x] **SUDAH** | `PDF` | `Level 1/kmnr 9 mtk 1 semi final 2014.pdf` (397 KB) | **pkg_kmnr_2014_mtk_sf_1**: KMNR 9 2014 Semifinal — Kelas 1–2 (25) |
 | [ ] Belum | `DOCX` | `Level 1/kms 17 mtk 1 latihan.docx` (1798 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 1/kms 17 mtk 1 latihan.pdf` (1381 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `Level 1/komas 18 mtk 1 penyisihan 2023.pdf` (1448 KB) | *Siap diimpor ke paket baru* |
@@ -452,7 +452,7 @@ Dokumen ini memetakan seluruh naskah soal (**PDF** dan **Word/DOCX**) yang tersi
 | [ ] Belum | `PDF` | `CONTOH SOAL HOTS-owned/SAINS LVL 2.pdf` (67 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `CONTOH SOAL HOTS-owned/SAINS LVL 3.pdf` (67 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `CONTOH SOAL HOTS-owned/SAINS LVL 4.pdf` (69 KB) | *Siap diimpor ke paket baru* |
-| [ ] Belum | `PDF` | `SOAL FULL/SOAL-GRAND-FINAL-MATEMATIKA-2024.pdf` (2081 KB) | *Siap diimpor ke paket baru* |
+| [x] **SUDAH** | `PDF` | `SOAL FULL/SOAL-GRAND-FINAL-MATEMATIKA-2024.pdf` (2081 KB) | **pkg_jso_2024_mtk_gf_1**: JSO 2024 Grand Final — Matematika L1 (40); mapel lain belum |
 | [x] **SUDAH** | `PDF` | `ai-generated/02-Kunci-Jawaban-dan-Pembahasan.pdf` (263 KB) | **pkg_sesi_***: Kunci Jawaban & Pembahasan Buku Soal Sesi 1..21 |
 | [ ] Belum | `DOCX` | `kumpulan soal.docx` (17123 KB) | *Siap diimpor ke paket baru* |
 | [ ] Belum | `PDF` | `kumpulan soal.pdf` (8559 KB) | *Siap diimpor ke paket baru* |

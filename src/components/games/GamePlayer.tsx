@@ -27,6 +27,10 @@ const ENGINES: Record<PlayableSet['engine'], React.ComponentType<EngineProps>> =
   CROSSMATH: dynamic(() => import('./CrossMath'), { loading: Loading }),
   CROSSWORD: dynamic(() => import('./Crossword'), { loading: Loading }),
   VOCAB_PICTURE: dynamic(() => import('./VocabPicture'), { loading: Loading }),
+  BALLOON_POP: dynamic(() => import('./BalloonPop'), { loading: Loading }),
+  CATCHER: dynamic(() => import('./Catcher'), { loading: Loading }),
+  LANE_RUNNER: dynamic(() => import('./LaneRunner'), { loading: Loading }),
+  TOWER_DEFENSE: dynamic(() => import('./TowerDefense'), { loading: Loading }),
 };
 
 const QUEUE_KEY = 'cerdasify-game-queue';
@@ -400,7 +404,17 @@ export default function GamePlayer({
               </div>
               <div className="bg-white rounded-2xl border border-slate-200 p-3">
                 <div className="text-[11px] font-semibold text-slate-500">
-                  {set.engine === 'MEMORY_MATCH' ? 'Langkah' : set.engine === 'CROSSMATH' ? 'Puzzle' : 'Benar'}
+                  {set.engine === 'MEMORY_MATCH'
+                    ? 'Langkah'
+                    : set.engine === 'CROSSMATH'
+                      ? 'Puzzle'
+                      : set.engine === 'TOWER_DEFENSE'
+                        ? 'Robot dihentikan'
+                        : set.engine === 'LANE_RUNNER'
+                          ? 'Gerbang benar'
+                          : set.engine === 'BALLOON_POP' || set.engine === 'CATCHER'
+                            ? 'Benda benar'
+                            : 'Benar'}
                 </div>
                 <div className="text-2xl font-extrabold">
                   {set.engine === 'MEMORY_MATCH' ? outcome.result.total : `${outcome.result.correct}/${outcome.result.total}`}

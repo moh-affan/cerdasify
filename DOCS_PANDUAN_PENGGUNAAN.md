@@ -192,6 +192,10 @@ Buka **Bermain** dari beranda atau Pustaka Belajar. Game tampil sesuai kelas (Fa
 | ✖️ **Silang Angka** | Isi kotak kosong agar semua persamaan mendatar & menurun benar, lalu tekan **Cek**. Solusi lain yang benar tetap diterima. |
 | 🧩 **TTS Kata** | Ketuk kotak, ketik huruf. Ketuk kotak yang sama untuk ganti arah. **Bantuan huruf** membuka satu huruf tetapi mengurangi bintang. |
 | 🖼️ **Kosakata Bergambar** | Kenali kata baru, lalu jawab tantangan (pilih kata, dengar & pilih gambar, susun huruf, ketik). Kata yang salah diulang besok; kata yang sering benar diulang makin jarang. |
+| 🎈 **Balon Hitung** *(Arcade)* | Ketuk balon yang sesuai aturan di atas layar (mis. "Kelipatan 3", "Pop the ANIMALS!"). Aturan berganti setiap beberapa detik. Ketukan benar beruntun memberi combo ×2/×3; ketuk asal mengurangi bintang. |
+| 🧺 **Tangkap Benda** *(Arcade)* | Seret keranjang (atau tombol ◀ ▶ / panah) untuk menangkap benda yang sesuai aturan. Menangkap benda yang salah mengurangi nyawa ❤️. |
+| 🏃 **Lari Jawaban** *(Arcade)* | Baca soal (atau dengarkan kata), lalu pindah ke jalur berisi jawaban benar sebelum gerbang sampai. Ketuk jalur, geser, atau tekan panah/1-2-3. Lari makin cepat. |
+| 🏰 **Jaga Benteng** *(Arcade)* | Ketik jawaban soal di atas robot lalu tekan ✓ untuk menghentikannya sebelum sampai ke benteng. Di akhir gelombang datang robot BOS dengan soal cerita. |
 
 - **Tantangan Hari Ini** menampilkan dek kosakata yang perlu diulang atau game yang belum pernah dimainkan.
 - Di akhir bacaan bahasa Inggris yang punya kosakata bergambar ada tombol **Main Kartu Kembar** dengan kosakata bacaan itu.
@@ -298,7 +302,7 @@ Jika Anda memiliki ratusan butir soal atau daftar ratusan siswa dari berkas spre
 1. Buka **Game Edukasi** di panel admin (`/admin/game`) untuk melihat semua set, jumlah pemain, serta menerbitkan/menyembunyikan atau menghapus set.
 2. **Set Game Baru** / ikon pensil membuka editor: judul, slug, jenis game, mapel, rentang fase, emoji, urutan, dan status terbit.
 3. **Konfigurasi** ditulis dalam JSON; tombol **Pakai templat** mengisi contoh dan daftar penjelasan kolom tampil di atasnya.
-4. **Isi** ditulis satu baris per item, kolom dipisah `|`:
+4. **Isi** ditulis satu baris per item, kolom dipisah `|` (game arcade cukup lewat Konfigurasi — aturan balon/tangkap ditulis di `rules`, Lari Jawaban kosakata memakai daftar kata):
    - Kosakata/Kartu kata: `cat | kucing | 🐱`
    - Kartu pasangan bebas: `Luas persegi | s × s`
    - TTS: `PRIMA | Bilangan yang tepat memiliki dua faktor` (tata letak grid dibuat otomatis; kata yang tidak bisa disilangkan dilaporkan sebagai peringatan).

@@ -27,6 +27,12 @@ const inputCls =
   'w-full py-2 px-3 bg-slate-50 border border-slate-200 rounded-xl text-sm text-slate-800 focus:outline-hidden focus:border-indigo-500 focus:bg-white transition';
 const labelCls = 'block text-[11px] font-bold uppercase tracking-wide text-slate-500 mb-1';
 
+const RULE_HELP = [
+  'durationSec: lama permainan · waveSec: aturan berganti tiap sekian detik · pace: slow / normal / fast',
+  'rules: { type: MULTIPLE, n, max } · { type: EVEN | ODD, max } · { type: EQUALS, target, ops: [+,-,×] } · { type: GREATER | LESS, than, max }',
+  '{ type: CATEGORY, prompt, good: [label…], bad: [label…] } — label berupa emoji atau kata pendek; pastikan tidak ada label yang ambigu.',
+];
+
 /** Contoh konfigurasi per engine + penjelasan setiap kolom. */
 const TEMPLATES: Record<GameEngine, { config: object; help: string[] }> = {
   MATH_SPRINT: {
@@ -66,6 +72,35 @@ const TEMPLATES: Record<GameEngine, { config: object; help: string[] }> = {
       'options: jumlah pilihan (2–6). Untuk SPELL/TYPE kata harus satu kata huruf a–z.',
     ],
   },
+  BALLOON_POP: {
+    config: { durationSec: 60, waveSec: 20, pace: 'normal', rules: [{ type: 'MULTIPLE', n: 3, max: 30 }, { type: 'EVEN', max: 20 }] },
+    help: RULE_HELP,
+  },
+  CATCHER: {
+    config: {
+      durationSec: 60,
+      waveSec: 20,
+      pace: 'slow',
+      rules: [{ type: 'CATEGORY', prompt: 'Tangkap hewan yang bisa terbang!', good: ['🐦', '🦋', '🐝'], bad: ['🐶', '🐢', '🐟'] }],
+    },
+    help: RULE_HELP,
+  },
+  LANE_RUNNER: {
+    config: { gates: 30, hearts: 3, startInterval: 5000, minInterval: 3000, source: 'MATH', math: { mode: 'ARITH', ops: ['+', '-'], max: 10, maxCap: 20 } },
+    help: [
+      'gates: jumlah gerbang soal · hearts: nyawa · startInterval/minInterval: jarak antar-gerbang (ms), makin kecil makin cepat',
+      'source MATH: isi "math" seperti Kilat Hitung (mode ARITH/MAKE_TARGET/TIU, ops, max, maxCap, factorMax, factorCap, allowNegative)',
+      'source VOCAB: isi daftar kata di bawah + vocabMode EMOJI_TO_WORD (gambar → kata), WORD_TO_MEANING (kata → arti), LISTEN (dengar → gambar)',
+    ],
+  },
+  TOWER_DEFENSE: {
+    config: { waves: 5, hp: 5, boss: true, startLife: 14000, minLife: 9000, math: { mode: 'ARITH', ops: ['+', '-'], max: 20, maxCap: 50 } },
+    help: [
+      'waves: jumlah gelombang (robot per gelombang = 3 + nomor gelombang) · hp: nyawa benteng',
+      'boss: robot bos bersoal cerita di akhir tiap gelombang · startLife/minLife: lama robot berjalan (ms)',
+      'math: seperti Kilat Hitung (mode ARITH/MAKE_TARGET/TIU, ops, max, maxCap, factorMax, factorCap, allowNegative)',
+    ],
+  },
 };
 
 type ItemFormat = 'vocab' | 'pairs' | 'crossword' | null;
@@ -73,6 +108,7 @@ type ItemFormat = 'vocab' | 'pairs' | 'crossword' | null;
 function itemFormat(engine: GameEngine, config: unknown): ItemFormat {
   const c = (config ?? {}) as Record<string, unknown>;
   if (engine === 'VOCAB_PICTURE') return 'vocab';
+  if (engine === 'LANE_RUNNER') return c.source === 'VOCAB' ? 'vocab' : null;
   if (engine === 'CROSSWORD') return 'crossword';
   if (engine === 'MEMORY_MATCH' && c.source !== 'CONTENT_VOCAB') {
     if (c.pairMode === 'WORD_EMOJI' || c.pairMode === 'WORD_MEANING') return 'vocab';

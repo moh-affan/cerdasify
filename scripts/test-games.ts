@@ -12,7 +12,36 @@ import { buildMemoryBoard, replayMemory, type MemoryLogEntry } from '../src/lib/
 import { applyOp, checkCrossMath, COL_EQ, generateCrossMath, replayCrossMath, ROW_EQ, type CrossMathAnswer } from '../src/lib/games/crossmath';
 import { checkCrossword, entryCells, gradeCrossword, publicCrossword } from '../src/lib/games/crossword';
 import { buildVocabRound, gradeVocab, nextMastery, wordKey } from '../src/lib/games/vocab';
-import type { CrossMathConfig, CrosswordItems, MathSprintConfig, MemoryConfig, VocabCard, VocabConfig } from '../src/lib/games/types';
+import type { CrossMathConfig, CrosswordItems, MathSprintConfig, MemoryConfig, Op, VocabCard, VocabConfig } from '../src/lib/games/types';
+import { mulberry32 } from '../src/lib/games/rng';
+import {
+  balloonResult,
+  buildDefenseSchedule,
+  buildFallingSchedule,
+  buildRunnerSchedule,
+  basketAt,
+  CATCH_RADIUS,
+  catcherResult,
+  defenseResult,
+  replayBalloon,
+  replayCatcher,
+  replayDefense,
+  replayRunner,
+  ruleAt,
+  rulePrompt,
+  runnerResult,
+  toSprintConfig,
+  validMoveLog,
+  wordProblem,
+  type AnswerLog,
+  type ArcadeRule,
+  type DefenseConfig,
+  type FallingConfig,
+  type LaneLog,
+  type MoveLog,
+  type RunnerConfig,
+  type TapLog,
+} from '../src/lib/games/arcade';
 
 let passed = 0;
 function test(name: string, fn: () => void) {
@@ -166,6 +195,154 @@ test('Kosakata: ronde berisi kata baru + jatuh tempo, pilihan unik, nilai & Leit
   assert.deepEqual(nextMastery(undefined, true, '2026-11-01'), { box: 1, dueDate: '2026-11-02' });
   assert.deepEqual(nextMastery({ box: 3, dueDate: '2026-11-01' }, true, '2026-11-01'), { box: 4, dueDate: '2026-11-08' });
   assert.deepEqual(nextMastery({ box: 4, dueDate: '2026-11-01' }, false, '2026-11-01'), { box: 1, dueDate: '2026-11-02' });
+});
+
+// ─── Arcade ─────────────────────────────────────────────────────────────────
+
+function ruleHolds(rule: ArcadeRule, label: string): boolean {
+  if (rule.type === 'CATEGORY') return rule.good.includes(label);
+  if (rule.type === 'EQUALS') {
+    const m = label.match(/^(\d+) ([+−×]) (\d+)$/);
+    assert.ok(m, `ekspresi tidak dikenal: ${label}`);
+    const [a, op, b] = [Number(m![1]), m![2], Number(m![3])];
+    return (op === '+' ? a + b : op === '−' ? a - b : a * b) === rule.target;
+  }
+  const n = Number(label);
+  assert.ok(Number.isInteger(n), `label bukan bilangan: ${label}`);
+  if (rule.type === 'MULTIPLE') return n % rule.n === 0;
+  if (rule.type === 'EVEN') return n % 2 === 0;
+  if (rule.type === 'ODD') return n % 2 === 1;
+  if (rule.type === 'GREATER') return n > rule.than;
+  if (rule.type === 'LESS') return n < rule.than;
+  throw new Error('aturan tidak dikenal');
+}
+
+test('Balon & Tangkap: label sesuai aturan, jadwal dalam durasi, layar kosong saat aturan berganti', () => {
+  for (const { s, config } of validated.filter((v) => v.s.engine === 'BALLOON_POP' || v.s.engine === 'CATCHER')) {
+    const cfg = config as FallingConfig;
+    for (let seed = 1; seed <= 40; seed++) {
+      const sch = buildFallingSchedule(seed, cfg, s.engine === 'BALLOON_POP' ? 'balloon' : 'catcher');
+      assert.deepEqual(buildFallingSchedule(seed, cfg, s.engine === 'BALLOON_POP' ? 'balloon' : 'catcher'), sch, 'deterministik');
+      assert.ok(sch.items.length >= 15, `${s.slug}: terlalu sedikit benda (${sch.items.length})`);
+      assert.ok(sch.items.some((i) => i.good) && sch.items.some((i) => !i.good));
+      for (const item of sch.items) {
+        assert.ok(item.t + item.life <= sch.durationMs, `${s.slug}: benda melewati durasi`);
+        const rule = ruleAt(cfg, sch, item.t);
+        assert.equal(ruleHolds(rule, item.label), item.good, `${s.slug}: "${item.label}" untuk ${rulePrompt(rule)} seharusnya ${item.good}`);
+        // Benda harus hilang sebelum aturan berganti
+        assert.equal(ruleAt(cfg, sch, item.t + item.life), rule, `${s.slug}: benda masih terlihat saat aturan berganti`);
+      }
+    }
+  }
+});
+
+test('Balon Hitung: ketuk semua benar = ★★★; ketukan di luar waktu / ganda ditolak', () => {
+  for (const { s, config } of validated.filter((v) => v.s.engine === 'BALLOON_POP')) {
+    const sch = buildFallingSchedule(9, config as FallingConfig, 'balloon');
+    const perfect: TapLog = sch.items.filter((i) => i.good).map((i) => [i.t + Math.round(i.life / 2), i.id] as [number, number]).sort((a, b) => a[0] - b[0]);
+    const st = replayBalloon(sch, perfect)!;
+    assert.equal(balloonResult(sch, st).stars, 3, s.slug);
+    assert.ok(st.score > st.goodHits * 10, 'combo menambah skor');
+    const g = sch.items.find((i) => i.good)!;
+    assert.equal(replayBalloon(sch, [[g.t + g.life + 2000, g.id]]), null, 'di luar waktu tampil');
+    assert.equal(replayBalloon(sch, [[g.t + 100, g.id], [g.t + 200, g.id]]), null, 'ketuk ganda');
+    assert.equal(replayBalloon(sch, [[1000, 99999]]), null, 'balon tidak ada');
+  }
+});
+
+test('Tangkap Benda: keranjang ideal = tanpa salah tangkap; menangkap 3 benda salah = selesai', () => {
+  for (const { s, config } of validated.filter((v) => v.s.engine === 'CATCHER')) {
+    for (let seed = 1; seed <= 30; seed++) {
+    const sch = buildFallingSchedule(seed, config as FallingConfig, 'catcher');
+    const byCatch = [...sch.items].sort((a, b) => a.t + a.life - (b.t + b.life));
+    // Pemain ideal: geser ke benda benar, menghindar dari benda salah
+    const goodMoves: MoveLog = [];
+    let last = 0;
+    for (const it of byCatch) {
+      const catchAt = it.t + it.life;
+      const at = Math.max(last, catchAt - 120);
+      if (it.good) {
+        goodMoves.push([at, it.x]);
+        last = at;
+      } else if (Math.abs(basketAt(goodMoves, catchAt) - it.x) <= CATCH_RADIUS) {
+        goodMoves.push([at, it.x > 0.5 ? it.x - 0.4 : it.x + 0.4]);
+        last = at;
+      }
+    }
+    const st = replayCatcher(sch, goodMoves);
+    const res = catcherResult(sch, st);
+    assert.equal(st.badHits, 0, `${s.slug} seed ${seed}: benda salah tidak bisa dihindari`);
+    assert.equal(res.correct, res.total, `${s.slug}: tangkapan ideal ${res.correct}/${res.total}`);
+    assert.equal(res.stars, 3);
+    assert.ok(validMoveLog(goodMoves));
+    const badMoves: MoveLog = [];
+    last = 0;
+    for (const it of byCatch) {
+      if (it.good) continue;
+      const at = Math.max(last, it.t + it.life - 120);
+      badMoves.push([at, it.x]);
+      last = at;
+    }
+    const over = replayCatcher(sch, badMoves);
+    assert.ok(over.overAt !== null && over.hearts === 0, `${s.slug}: game over`);
+    assert.ok(catcherResult(sch, over).stars <= 1);
+    }
+    assert.equal(validMoveLog([[100, 0.5], [50, 0.4]]), false, 'waktu mundur ditolak');
+  }
+});
+
+test('Lari Jawaban: opsi unik & satu kunci, lari sempurna = ★★★, salah 3× = selesai', () => {
+  for (const { s, config, items } of validated.filter((v) => v.s.engine === 'LANE_RUNNER')) {
+    const cfg = config as RunnerConfig;
+    for (let seed = 1; seed <= 20; seed++) {
+      const gates = buildRunnerSchedule(seed, cfg, (items as VocabCard[]) ?? null);
+      assert.equal(gates.length, cfg.gates);
+      for (const g of gates) {
+        assert.equal(new Set(g.options).size, 3, `${s.slug}: opsi ganda ${g.options}`);
+        if (cfg.source === 'MATH') {
+          const p = sprintProblem(seed, g.i, Math.min(5, 1 + Math.floor((g.i * 5) / cfg.gates)), toSprintConfig(cfg.math!));
+          assert.equal(g.options[g.correct], String(p.answer), `${s.slug}: kunci gerbang salah`);
+          if (!cfg.math!.allowNegative) assert.ok(g.options.every((o) => Number(o) >= 0), `${s.slug}: opsi negatif`);
+        }
+        assert.ok(g.approach >= 1500 && g.approach < (g.i + 1 < gates.length ? gates[g.i + 1].T - g.T : Infinity), `${s.slug}: hanya satu gerbang terlihat`);
+      }
+      const perfect: LaneLog = gates.map((g) => [g.T - 300, g.correct] as [number, number]);
+      const st = replayRunner(gates, cfg, perfect);
+      assert.equal(runnerResult(gates, st).stars, 3);
+      const wrong: LaneLog = gates.map((g) => [g.T - 300, (g.correct + 1) % 3] as [number, number]);
+      const lost = replayRunner(gates, cfg, wrong);
+      assert.equal(lost.overAt, gates[cfg.hearts - 1].T);
+    }
+  }
+});
+
+test('Jaga Benteng: jawaban bulat (termasuk soal cerita bos), jawab tepat waktu = ★★★, diam = benteng runtuh', () => {
+  for (const { s, config } of validated.filter((v) => v.s.engine === 'TOWER_DEFENSE')) {
+    const cfg = config as DefenseConfig;
+    for (let seed = 1; seed <= 30; seed++) {
+      const robots = buildDefenseSchedule(seed, cfg);
+      assert.ok(robots.every((r) => Number.isInteger(r.answer)), `${s.slug}: jawaban tidak bulat`);
+      if (!cfg.math.allowNegative) assert.ok(robots.every((r) => r.answer >= 0), `${s.slug}: jawaban negatif`);
+      assert.equal(robots.filter((r) => r.boss).length, cfg.boss ? cfg.waves : 0);
+      const answers: AnswerLog = [...robots].sort((a, b) => a.t - b.t).map((r) => [r.t + 400, r.answer] as [number, number]);
+      const st = replayDefense(robots, cfg, answers);
+      assert.equal(st.destroyed.size, robots.length, `${s.slug}: semua robot dihentikan`);
+      assert.ok(st.doneAt !== null);
+      assert.equal(defenseResult(robots, cfg, st).stars, 3);
+      const idle = replayDefense(robots, cfg, []);
+      assert.ok(idle.overAt !== null && idle.hp <= 0);
+    }
+  }
+  for (let seed = 1; seed <= 300; seed++) {
+    for (const math of [
+      { mode: 'ARITH' as const, ops: ['+', '-', '×', '÷'] as Op[], max: 20, maxCap: 60 },
+      { mode: 'TIU' as const, ops: ['×'] as Op[], max: 10, maxCap: 10 },
+      { mode: 'ARITH' as const, ops: ['+'] as Op[], max: 10, maxCap: 30, allowNegative: true },
+    ]) {
+      const wp = wordProblem(mulberry32(seed), 1 + (seed % 5), math);
+      assert.ok(Number.isInteger(wp.answer) && wp.answer >= (math.allowNegative ? -100 : 0), `soal cerita: ${wp.text} = ${wp.answer}`);
+    }
+  }
 });
 
 console.log(`\n${passed} uji lolos.`);

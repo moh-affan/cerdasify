@@ -13,6 +13,7 @@ import type {
   VocabCard,
   VocabConfig,
 } from '../../../lib/games/types';
+import type { DefenseConfig, FallingConfig, RunnerConfig } from '../../../lib/games/arcade';
 import {
   DECK_ANIMALS,
   DECK_BODY,
@@ -288,4 +289,130 @@ const SCIENCE_SETS: SeedGameSet[] = [
   ]),
 ];
 
-export const GAME_SETS: SeedGameSet[] = [...MATH_SETS, ...ENGLISH_SETS, ...SCIENCE_SETS];
+// ─── Arcade ─────────────────────────────────────────────────────────────────
+
+const arcade = (
+  slug: string,
+  engine: 'BALLOON_POP' | 'CATCHER' | 'LANE_RUNNER' | 'TOWER_DEFENSE',
+  subjectId: string,
+  phaseMin: Phase,
+  phaseMax: Phase,
+  title: string,
+  description: string,
+  emoji: string,
+  config: FallingConfig | RunnerConfig | DefenseConfig,
+  items?: VocabCard[]
+): SeedGameSet => ({ slug, engine, subjectId, phaseMin, phaseMax, title, description, emoji, config, items });
+
+const ANIMAL_EMOJI = ['🐶', '🐱', '🐮', '🐴', '🐰', '🦁', '🐘', '🐵', '🦒', '🐻'];
+const FRUIT_EMOJI = ['🍎', '🍌', '🍊', '🍇', '🍉', '🍓', '🥭', '🍍', '🍐', '🍒'];
+const VEHICLE_EMOJI = ['🚗', '🚌', '🚆', '✈️', '🚢', '🚲', '🚚', '🚁', '🚀', '🚜'];
+
+const ARCADE_SETS: SeedGameSet[] = [
+  // Balon Hitung
+  arcade('balon-genap-ganjil', 'BALLOON_POP', MATH, 'A', 'B', 'Balon Genap & Ganjil', 'Pecahkan balon bilangan genap atau ganjil sesuai perintah.', '🎈', {
+    durationSec: 60, waveSec: 20, pace: 'slow', rules: [{ type: 'EVEN', max: 20 }, { type: 'ODD', max: 20 }],
+  }),
+  arcade('balon-hasil-10', 'BALLOON_POP', MATH, 'A', 'A', 'Balon Hasil Hitung', 'Pecahkan balon yang hasil hitungnya sama dengan angka target.', '🎯', {
+    durationSec: 60, waveSec: 20, pace: 'slow',
+    rules: [{ type: 'EQUALS', target: 10, ops: ['+', '-'] }, { type: 'EQUALS', target: 5, ops: ['+'] }, { type: 'EQUALS', target: 8, ops: ['+', '-'] }],
+  }),
+  arcade('balon-kelipatan', 'BALLOON_POP', MATH, 'B', 'C', 'Balon Kelipatan', 'Pecahkan kelipatan 2, 3, 5, atau 10 secepat mungkin.', '🎈', {
+    durationSec: 80, waveSec: 20, pace: 'normal',
+    rules: [{ type: 'MULTIPLE', n: 2, max: 40 }, { type: 'MULTIPLE', n: 3, max: 45 }, { type: 'MULTIPLE', n: 5, max: 60 }, { type: 'MULTIPLE', n: 10, max: 100 }],
+  }),
+  arcade('balon-perkalian', 'BALLOON_POP', MATH, 'C', 'D', 'Balon Perkalian', 'Cari perkalian yang hasilnya tepat, atau bilangan yang lebih besar.', '✖️', {
+    durationSec: 80, waveSec: 20, pace: 'normal',
+    rules: [{ type: 'EQUALS', target: 24, ops: ['×'] }, { type: 'EQUALS', target: 36, ops: ['×'] }, { type: 'EQUALS', target: 12, ops: ['×', '+'] }, { type: 'GREATER', than: 50, max: 100 }],
+  }),
+  arcade('balon-hewan-buah', 'BALLOON_POP', ENGLISH, 'A', 'B', 'Pop the Balloons!', 'Pecahkan balon bergambar hewan, buah, atau kendaraan sesuai perintah.', '🎈', {
+    durationSec: 60, waveSec: 20, pace: 'slow',
+    rules: [
+      { type: 'CATEGORY', prompt: 'Pop the ANIMALS! (hewan)', good: ANIMAL_EMOJI, bad: [...FRUIT_EMOJI, ...VEHICLE_EMOJI.slice(0, 4)] },
+      { type: 'CATEGORY', prompt: 'Pop the FRUITS! (buah)', good: FRUIT_EMOJI, bad: [...ANIMAL_EMOJI, ...VEHICLE_EMOJI.slice(4)] },
+      { type: 'CATEGORY', prompt: 'Pop the VEHICLES! (kendaraan)', good: VEHICLE_EMOJI, bad: [...ANIMAL_EMOJI.slice(0, 5), ...FRUIT_EMOJI.slice(0, 5)] },
+    ],
+  }),
+  arcade('balon-kata-inggris', 'BALLOON_POP', ENGLISH, 'B', 'C', 'Pop the Words!', 'Pecahkan balon berisi kata bahasa Inggris sesuai kelompoknya.', '🔤', {
+    durationSec: 75, waveSec: 25, pace: 'normal',
+    rules: [
+      { type: 'CATEGORY', prompt: 'Pop the COLORS! (warna)', good: ['red', 'blue', 'green', 'yellow', 'purple', 'brown', 'black'], bad: ['cat', 'apple', 'chair', 'run', 'book', 'sun', 'shoes'] },
+      { type: 'CATEGORY', prompt: 'Pop the ANIMALS! (hewan)', good: ['tiger', 'horse', 'rabbit', 'monkey', 'snake', 'duck', 'bear'], bad: ['bread', 'pencil', 'shirt', 'rain', 'door', 'green', 'sing'] },
+      { type: 'CATEGORY', prompt: 'Pop the FOOD! (makanan)', good: ['rice', 'bread', 'cheese', 'soup', 'egg', 'cake', 'noodles'], bad: ['dog', 'ruler', 'coat', 'cloud', 'train', 'bed', 'blue'] },
+    ],
+  }),
+
+  // Tangkap Benda
+  arcade('tangkap-hewan', 'CATCHER', SCIENCE, 'A', 'B', 'Tangkap Hewan', 'Tangkap hewan yang bisa terbang, hidup di air, atau berkaki empat.', '🧺', {
+    durationSec: 60, waveSec: 20, pace: 'slow',
+    rules: [
+      { type: 'CATEGORY', prompt: 'Tangkap hewan yang bisa TERBANG!', good: ['🐦', '🦋', '🐝', '🦉', '🦅', '🦇'], bad: ['🐶', '🐱', '🐘', '🐢', '🐟', '🐌', '🐄'] },
+      { type: 'CATEGORY', prompt: 'Tangkap hewan yang hidup di AIR!', good: ['🐟', '🐠', '🐬', '🐙', '🐳', '🦈'], bad: ['🐶', '🐱', '🐘', '🐓', '🦒', '🐴', '🐝'] },
+      { type: 'CATEGORY', prompt: 'Tangkap hewan berkaki EMPAT!', good: ['🐶', '🐱', '🐘', '🐄', '🦒', '🐴'], bad: ['🐦', '🐟', '🐍', '🐝', '🐔', '🐧', '🦋'] },
+    ],
+  }),
+  arcade('tangkap-mengapung', 'CATCHER', SCIENCE, 'B', 'C', 'Mengapung atau Tenggelam?', 'Tangkap benda yang mengapung atau tenggelam di air.', '🛟', {
+    durationSec: 60, waveSec: 20, pace: 'slow',
+    rules: [
+      { type: 'CATEGORY', prompt: 'Tangkap benda yang MENGAPUNG di air!', good: ['🪵', '🍃', '🪶', '⛵', '🛟', '🥥', '⚽'], bad: ['🪨', '🔑', '🪙', '⚓', '🔨', '🔩', '🧲'] },
+      { type: 'CATEGORY', prompt: 'Tangkap benda yang TENGGELAM di air!', good: ['🪨', '🔑', '🪙', '⚓', '🔨', '🔩', '🧲'], bad: ['🪵', '🍃', '🪶', '⛵', '🛟', '🥥', '⚽'] },
+    ],
+  }),
+  arcade('tangkap-makanan-sehat', 'CATCHER', SCIENCE, 'A', 'B', 'Tangkap Makanan Sehat', 'Isi keranjang dengan makanan sehat, hindari jajanan manis & berminyak.', '🥦', {
+    durationSec: 60, waveSec: 60, pace: 'slow',
+    rules: [{ type: 'CATEGORY', prompt: 'Tangkap makanan SEHAT!', good: ['🍎', '🥦', '🥕', '🍌', '🥛', '🐟', '🥚', '🍇', '🍚'], bad: ['🍬', '🍭', '🍩', '🥤', '🍟', '🧁'] }],
+  }),
+  arcade('tangkap-angka', 'CATCHER', MATH, 'A', 'B', 'Tangkap Angka', 'Tangkap bilangan genap, ganjil, lebih dari, atau kurang dari.', '🔢', {
+    durationSec: 60, waveSec: 15, pace: 'slow',
+    rules: [{ type: 'EVEN', max: 20 }, { type: 'ODD', max: 20 }, { type: 'GREATER', than: 10, max: 20 }, { type: 'LESS', than: 10, max: 20 }],
+  }),
+  arcade('tangkap-kelipatan', 'CATCHER', MATH, 'C', 'C', 'Tangkap Kelipatan', 'Tangkap kelipatan 4, 6, 7, dan 9.', '🧺', {
+    durationSec: 75, waveSec: 18, pace: 'normal',
+    rules: [{ type: 'MULTIPLE', n: 4, max: 48 }, { type: 'MULTIPLE', n: 6, max: 60 }, { type: 'MULTIPLE', n: 7, max: 70 }, { type: 'MULTIPLE', n: 9, max: 90 }],
+  }),
+
+  // Lari Jawaban
+  arcade('lari-hitung-10', 'LANE_RUNNER', MATH, 'A', 'A', 'Lari Hitung', 'Lari ke jalur dengan jawaban penjumlahan & pengurangan yang benar.', '🏃', {
+    gates: 25, hearts: 3, startInterval: 6500, minInterval: 4200, source: 'MATH', math: { mode: 'ARITH', ops: ['+', '-'], max: 10, maxCap: 20 },
+  }),
+  arcade('lari-perkalian', 'LANE_RUNNER', MATH, 'B', 'C', 'Lari Perkalian', 'Perkalian dan pembagian sambil berlari makin cepat.', '🏃', {
+    gates: 30, hearts: 3, startInterval: 5500, minInterval: 3400, source: 'MATH', math: { mode: 'ARITH', ops: ['×', '÷'], max: 10, maxCap: 10, factorMax: 5, factorCap: 10 },
+  }),
+  arcade('lari-hitung-campuran', 'LANE_RUNNER', MATH, 'C', 'D', 'Lari Hitung Campuran', 'Empat operasi hitung dengan kecepatan tinggi.', '🏃', {
+    gates: 30, hearts: 3, startInterval: 5000, minInterval: 3000, source: 'MATH', math: { mode: 'ARITH', ops: ['+', '-', '×', '÷'], max: 50, maxCap: 200, factorMax: 9, factorCap: 12 },
+  }),
+  arcade('lari-tiu', 'LANE_RUNNER', MATH, 'E', 'L', 'Lari Hitung Cepat TIU', 'Persen, pecahan, dan desimal ala TIU sambil berlari.', '🎯', {
+    gates: 30, hearts: 3, startInterval: 7000, minInterval: 4500, source: 'MATH', math: { mode: 'TIU', ops: ['×'], max: 10, maxCap: 10 },
+  }),
+  arcade('lari-kosakata-hewan', 'LANE_RUNNER', ENGLISH, 'A', 'B', 'Run to the Word: Animals', 'Lihat gambar hewan, lari ke kata bahasa Inggris yang benar.', '🐾', {
+    gates: 25, hearts: 3, startInterval: 6500, minInterval: 4500, source: 'VOCAB', vocabMode: 'EMOJI_TO_WORD',
+  }, DECK_ANIMALS),
+  arcade('lari-kosakata-sekolah', 'LANE_RUNNER', ENGLISH, 'B', 'C', 'Run to the Word: At School', 'Lihat gambar benda sekolah, lari ke kata yang benar.', '🎒', {
+    gates: 25, hearts: 3, startInterval: 6000, minInterval: 4000, source: 'VOCAB', vocabMode: 'EMOJI_TO_WORD',
+  }, DECK_SCHOOL),
+  arcade('lari-dengar-buah', 'LANE_RUNNER', ENGLISH, 'A', 'B', 'Listen & Run: Fruits', 'Dengarkan kata bahasa Inggris, lari ke gambar buah yang benar.', '👂', {
+    gates: 25, hearts: 3, startInterval: 6500, minInterval: 4500, source: 'VOCAB', vocabMode: 'LISTEN',
+  }, DECK_FRUITS),
+  arcade('lari-arti-kata-kerja', 'LANE_RUNNER', ENGLISH, 'C', 'D', 'Run to the Meaning: Verbs', 'Baca kata kerja bahasa Inggris, lari ke artinya.', '🏃', {
+    gates: 30, hearts: 3, startInterval: 6000, minInterval: 3800, source: 'VOCAB', vocabMode: 'WORD_TO_MEANING',
+  }, DECK_VERBS),
+
+  // Jaga Benteng
+  arcade('benteng-kembar-10', 'TOWER_DEFENSE', MATH, 'A', 'A', 'Jaga Benteng: Kembar 10', 'Hentikan robot dengan menjawab pasangan jumlah 10.', '🏰', {
+    waves: 4, hp: 5, boss: true, startLife: 18000, minLife: 13000, math: { mode: 'MAKE_TARGET', ops: ['+'], max: 10, maxCap: 10, target: 10 },
+  }),
+  arcade('benteng-tambah-kurang', 'TOWER_DEFENSE', MATH, 'B', 'B', 'Jaga Benteng: Tambah & Kurang', 'Jawab penjumlahan & pengurangan untuk menghentikan robot.', '🏰', {
+    waves: 5, hp: 5, boss: true, startLife: 16000, minLife: 10000, math: { mode: 'ARITH', ops: ['+', '-'], max: 20, maxCap: 60 },
+  }),
+  arcade('benteng-kali-bagi', 'TOWER_DEFENSE', MATH, 'C', 'C', 'Jaga Benteng: Kali & Bagi', 'Perkalian & pembagian, dengan bos soal cerita.', '🏰', {
+    waves: 6, hp: 5, boss: true, startLife: 15000, minLife: 9000, math: { mode: 'ARITH', ops: ['×', '÷'], max: 10, maxCap: 10, factorMax: 5, factorCap: 10 },
+  }),
+  arcade('benteng-bilangan-bulat', 'TOWER_DEFENSE', MATH, 'D', 'D', 'Jaga Benteng: Bilangan Bulat', 'Bilangan positif & negatif; tekan ± untuk jawaban negatif.', '🏰', {
+    waves: 6, hp: 5, boss: true, startLife: 14000, minLife: 8500, math: { mode: 'ARITH', ops: ['+', '-', '×'], max: 10, maxCap: 30, factorMax: 6, factorCap: 12, allowNegative: true },
+  }),
+  arcade('benteng-tiu', 'TOWER_DEFENSE', MATH, 'E', 'L', 'Jaga Benteng: TIU', 'Hitung cepat persen & pecahan, bos membawa soal diskon dan perbandingan.', '🏰', {
+    waves: 5, hp: 5, boss: true, startLife: 22000, minLife: 15000, math: { mode: 'TIU', ops: ['×'], max: 10, maxCap: 10 },
+  }),
+];
+
+export const GAME_SETS: SeedGameSet[] = [...MATH_SETS, ...ENGLISH_SETS, ...SCIENCE_SETS, ...ARCADE_SETS];

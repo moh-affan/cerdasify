@@ -79,7 +79,7 @@ export const db = drizzle(client, { schema });
 - **Proteksi Tampilan (Screen Privacy Overlay):** Saat state `isPaused` bernilai `true`, konten soal di antarmuka browser **WAJIB** disembunyikan di balik backdrop overlay (*screen blackout*) sehingga peserta tidak dapat membaca soal sambil menghentikan timer.
 
 ### 2.6. Bank Soal Kanonik (`src/db/seed-data/question-bank/`)
-- Seluruh kategori, topik, 67 paket, dan 2.201 soal (Oktober 2026) disimpan sebagai JSON di repo dan menjadi **sumber kebenaran** `npm run seed` (idempoten, satu transaksi, validasi sebelum menulis).
+- Seluruh kategori, topik, 75 paket, dan 2.450 soal (Oktober 2026) disimpan sebagai JSON di repo dan menjadi **sumber kebenaran** `npm run seed` (idempoten, satu transaksi, validasi sebelum menulis).
 - Setelah soal/paket diubah lewat panel admin, **wajib** `npm run bank:export` lalu commit, agar seed berikutnya tidak menimpa perubahan.
 - Jangan menambah skrip impor/perbaikan sekali-jalan yang menulis langsung ke database tanpa memperbarui bank soal. Riwayat alasan perbaikan audit ada di `src/db/seed-data/audit/question_fixes_2026_10.jsonl`.
 - Gambar soal disimpan di `public/uploads/` dan ikut di-deploy; pastikan setiap `imageUrl` di bank soal ada berkasnya.
@@ -101,6 +101,7 @@ export const db = drizzle(client, { schema });
 - **Skor dinilai server**: `POST /api/games/finish` memutar ulang log dengan `seed` sesi (`gradeLog`). Jangan pernah menyimpan skor/bintang kiriman klien. Generator harus deterministik; perubahan generator memengaruhi penilaian sesi yang belum selesai.
 - Jawaban **TTS Kata** tidak boleh dikirim ke browser (pakai `publicCrossword()`; cek/bantuan lewat `/api/games/crossword`).
 - Ramah anak: tanpa papan peringkat publik, tanpa skor minus, papan ditutup saat jeda, batas `users.daily_game_minutes` dari orang tua wajib dihormati di `start`.
+- **Arcade** (`src/lib/games/arcade.ts`): jadwal benda wajib deterministik dan tidak bergantung pada aksi pemain; klien menampilkan hasil dari fungsi replay yang sama dengan server. Jangan menambah keacakan berbasis `Math.random()` atau waktu nyata di engine game.
 - Konten set di `src/db/seed-data/games/` + `npm run seed:games`; dek kosakata wajib dikurasi manual (emoji jelas, satu kata a–z). Set yang diedit admin disimpan lewat `npm run games:export` (`admin-overrides.json`). Jalankan `npm run test:games` setelah mengubah logika game.
 
 ---

@@ -1,6 +1,6 @@
 # Inventaris Soal Level 1 (Kelas 1–2) yang Belum Masuk Cerdasify
 
-> Dibuat 01-11-2026 dari folder `olympiad` (salinan lokal Google Drive `__ANAK__/olympiad`, 381 berkas PDF/DOCX), dibandingkan dengan bank soal kanonik Cerdasify (67 paket, 2.201 soal).
+> Dibuat 01-11-2026 dari folder `olympiad` (salinan lokal Google Drive `__ANAK__/olympiad`, 381 berkas PDF/DOCX), dibandingkan dengan bank soal kanonik Cerdasify (75 paket, 2.450 soal; diperbarui setelah impor 01-11-2026).
 
 ## Cara membaca
 
@@ -14,7 +14,7 @@
 
 | Jenjang | Mapel | Berkas/bagian belum masuk | Perkiraan soal unik baru |
 |---|---|---:|---:|
-| Level 1 / Kelas 1–2 | Matematika | 67 | ±1874 |
+| Level 1 / Kelas 1–2 | Matematika | 59 | ±1675 |
 | Level 1 / Kelas 1–2 | Sains | 20 | ±575 |
 | Level 1 / Kelas 1–2 | Bahasa Inggris | 15 | ±392 |
 | Level 1 / Kelas 1–2 | IPS | 13 | ±423 |
@@ -23,14 +23,13 @@
 | TK / Kindergarten | Matematika | 8 | ±183 |
 | TK / Kindergarten | Sains | 3 | ±42 |
 | TK / Kindergarten | Bahasa Inggris | 3 | ±37 |
-| **Total Level 1 + kelas 2** | | | **±3493** |
+| **Total Level 1 + kelas 2** | | | **±3294** |
 
 ## Level 1 / Kelas 1–2: Matematika
 
 | Kompetisi | Babak/tahun | Berkas | Jenis | Est. soal | Di bank | Unik baru |
 |---|---|---|---|---:|---:|---:|
 | BAIZ | Penyisihan 2025 | `Level 1/baiz olympiad mtk 1 penyisihan 2025.pdf` | scan/OCR | 39 | 1 | 37 |
-| CEO | Final 2023 | `Level 1/ceo mtk 1 final 2023 tipe f.pdf` | teks | 27 | 3 | 23 |
 | CEO | Penyisihan 2023 | `Level 1/ceo mtk 1 penyisihan 2023 tipe a.pdf` | scan/OCR | 18 | 2 | 8 |
 | CEO | Penyisihan 2024 | `Level 1/ceo mtk 1 penyisihan 2024 tipe a.pdf` | teks | 27 | 4 | 20 |
 | CEO | Penyisihan 2024 | `Level 1/ceo mtk 1 penyisihan 2024 tipe b.pdf` | teks | 27 | 6 | 15 |
@@ -44,13 +43,8 @@
 | IMOCSEA | Sample test 2024 | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2024/IMOCSEA-2024-PRIMARY 1-NR-TEST.pdf` | teks | 29 | 0 | 24 |
 | JMSC | Penyisihan 2017 | `Level 1/jmsc mtk 1 penyisihan 2017.pdf` | scan/OCR | 29 | 1 | 26 |
 | JSO | Final Provinsi 2024 | `Level 1/jso mtk 1 final provinsi 2024 tipe a.pdf` | scan/OCR | 26 | 1 | 2 |
-| JSO | Final Provinsi 2024 Tipe B | `SOAL FULL/Soal-Matematika-JSO-Final-Provinsi.pdf` (bagian Level 1) | teks | 42 | 3 | 30 |
 | JSO | Final Provinsi 2025 | `Level 1/jso mtk 1 final provinsi 2025 tipe a.pdf` | scan/OCR | 22 | 5 | 1 |
-| JSO | Final Provinsi 2025 | `SOAL FULL/Soal-Jso-Finprov-2025-Type-b-New.pdf` (bagian Level 1) | teks | 42 | 15 | 19 |
 | JSO | Final Provinsi 2025 | `SOAL FULL/Type-a-Soal-Final-Provinsi-Jso-2025.pdf` (bagian Level 1) | teks | 42 | 14 | 5 |
-| JSO | Final Provinsi 2026 | `SOAL FULL/TIPE B FINPROV JSO 2026.pdf` (bagian Level 1) | teks | 42 | 23 | 15 |
-| JSO | Grand Final 2024 | `SOAL FULL/SOAL-GRAND-FINAL-MATEMATIKA-2024.pdf` (bagian Level 1) | teks | 41 | 0 | 34 |
-| JSO | Grand Final 2025 | `SOAL FULL/Soal-Grand-Final-Jso-2025.pdf` (bagian Level 1) | teks | 43 | 5 | 31 |
 | JSO | Penyisihan 2023 | `Level 1/jso mtk 1 penyisihan 2023 tipe a.pdf` | scan/OCR | 26 | 2 | 14 |
 | JSO | Penyisihan 2023 | `Level 1/jso mtk 1 penyisihan 2023 tipe b.pdf` | scan/OCR | 28 | 2 | 22 |
 | JSO | Penyisihan 2023 | `Level 1/jso mtk 1 penyisihan 2023 tipe d.pdf` | scan/OCR | 30 | 1 | 18 |
@@ -61,8 +55,6 @@
 | KMNR | National Round 2015 | `Level 1/kmnr 10 mtk 1 uji coba 2015.pdf` | scan/OCR | 24 | 0 | 24 |
 | KMNR | Penyisihan 2015 | `Level 1/kmnr 10 mtk 1 penyisihan 2015.pdf` | teks | 25 | 3 | 22 |
 | KMNR | Penyisihan 2024 | `Level 1/kmnr 19 mtk 1 penyisihan 2024.pdf` | teks | 26 | 2 | 24 |
-| KMNR | Semifinal 2014 | `Level 1/kmnr 9 mtk 1 semi final 2014.pdf` | teks | 25 | 1 | 23 |
-| KMNR | Semifinal 2024 | `Level 1/kmnr 19 mtk 1 semi final 2024.pdf` | teks | 25 | 0 | 24 |
 | KMS | Latihan | `Level 1/kms 17 mtk 1 latihan.pdf` | scan/OCR | 25 | 2 | 22 |
 | KMSI | Final Provinsi 2023 | `Level 1/kmsi mtk 1 final provinsi 2023.pdf` | scan/OCR | 39 | 6 | 16 |
 | KMSI | Grand Final 2022-2023 | `Level 1/kmsi mtk 1 grand final nasional 2022-2023.pdf` | scan/OCR | 42 | 1 | 34 |
@@ -213,7 +205,10 @@
 | Berkas | Mapel | Paket |
 |---|---|---|
 | `IMOCSEA - ISOCSEA Sample Paper/IMOCSEA NR 2022/PRIMARY 1 IMOCSEA MOCK TEST.pdf` | Matematika | pkg_imocsea_2022_p1 |
+| `Level 1/ceo mtk 1 final 2023 tipe f.pdf` | Matematika | pkg_ceo_2023_mtk_final_f_1 (impor 01-11-2026) |
 | `Level 1/ceo mtk 1 provinsi 2025.pdf` | Matematika | pkg_ceo_2025_m1 |
+| `Level 1/kmnr 19 mtk 1 semi final 2024.pdf` | Matematika | pkg_kmnr_2024_mtk_sf_1 (impor 01-11-2026) |
+| `Level 1/kmnr 9 mtk 1 semi final 2014.pdf` | Matematika | pkg_kmnr_2014_mtk_sf_1 (impor 01-11-2026) |
 | `Level 1/kmsi mtk 1 final provinsi 2024 tipe b.pdf` | Matematika | pkg_kmsi_2024_mtk_prov_1 |
 | `Level 1/kmsi mtk 1 grand final nasional 2024.pdf` | Matematika | pkg_kmsi_2024_mtk_gf_1 |
 | `Prisma/PRISMA 2026/SOAL PRISMA TAHUN 2024/SOAL IPA PENYISIHAN LEVEL 1.pdf` | Sains | pkg_prisma_2024_ipa_1 |
@@ -223,7 +218,12 @@
 | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA A ok  .docx` | Matematika | pkg_orion_2025_mtk_a |
 | `SOAL FINAL ORION NASIONAL JUNI 25/MATEMATIKA A ok  .pdf` | Matematika | pkg_orion_2025_mtk_a |
 | `SOAL FULL/New-Soal-Type-a-Penyisihan-Kmsi-2024.pdf` | Matematika | pkg_kmsi_2024_mtk_peny_1 |
+| `SOAL FULL/SOAL-GRAND-FINAL-MATEMATIKA-2024.pdf` | Matematika | pkg_jso_2024_mtk_gf_1 (impor 01-11-2026) |
+| `SOAL FULL/Soal-Grand-Final-Jso-2025.pdf` | Matematika | pkg_jso_2025_mtk_gf_1 (impor 01-11-2026) |
+| `SOAL FULL/Soal-Jso-Finprov-2025-Type-b-New.pdf` | Matematika | pkg_jso_2025_mtk_prov_b_1 (impor 01-11-2026) |
+| `SOAL FULL/Soal-Matematika-JSO-Final-Provinsi.pdf` | Matematika | pkg_jso_2024_mtk_prov_b_1 (impor 01-11-2026) |
 | `SOAL FULL/TIPE A FINPROV JSO 2026.pdf` | Matematika | pkg_jso_2026_mtk_prov_1 |
+| `SOAL FULL/TIPE B FINPROV JSO 2026.pdf` | Matematika | pkg_jso_2026_mtk_prov_b_1 (impor 01-11-2026) |
 | `SOAL GF FIX JSO 2026.pdf` | Matematika | pkg_jso_2026_mtk_gf_1 |
 | `SOAL PENYISIHAN JSO 2025 TYPE A+.pdf` | Bahasa Inggris | pkg_jso_2025_ing_1 |
 | `SOAL SEMI FINAL CEO 2025-owned/KUNCI-JAWABAN-SEMI FINAL CEO - MATEMATIKA LEVEL 1.pdf` | Matematika | pkg_ceo_2025_m1 (kunci) |

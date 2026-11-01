@@ -10,6 +10,29 @@ import { buildMemoryBoard, replayMemory, type MemoryLogEntry } from './memory';
 import { replaySprint, sprintLogPlausible, type SprintLogEntry } from './math-sprint';
 import { replayCrossMath, type CrossMathRoundLog } from './crossmath';
 import { gradeVocab, type VocabAnswer, type VocabRoundItem } from './vocab';
+import {
+  balloonResult,
+  buildDefenseSchedule,
+  buildFallingSchedule,
+  buildRunnerSchedule,
+  catcherEnd,
+  catcherResult,
+  defenseEnd,
+  defenseResult,
+  replayBalloon,
+  replayCatcher,
+  replayDefense,
+  replayRunner,
+  runnerEnd,
+  runnerResult,
+  validAnswerLog,
+  validLaneLog,
+  validMoveLog,
+  type DefenseConfig,
+  type FallingConfig,
+  type RunnerConfig,
+  type TapLog,
+} from './arcade';
 import type {
   CrossMathConfig,
   CrosswordItems,
@@ -178,6 +201,47 @@ export function gradeLog(params: {
       if (typeof fill !== 'object' || fill === null) return { ok: false, reason: 'Format log tidak valid' };
       const result = gradeCrossword((items as CrosswordItems).layout, fill as CrosswordFill, state.hints ?? 0);
       return { ok: true, result };
+    }
+    // ── Arcade: replay log aksi terhadap jadwal deterministik dari seed ──
+    // Selain log harus sah, lama permainan (menurut jadwal) tidak boleh melebihi waktu dinding sesi.
+    case 'BALLOON_POP': {
+      const cfg = config as FallingConfig;
+      if (!Array.isArray(log) || log.length > 500) return { ok: false, reason: 'Format log tidak valid' };
+      const schedule = buildFallingSchedule(seed, cfg, 'balloon');
+      const st = replayBalloon(schedule, log as TapLog);
+      if (!st) return { ok: false, reason: 'Ketukan tidak sesuai jadwal balon' };
+      if (schedule.durationMs > elapsedMs + 5000) return { ok: false, reason: 'Durasi melebihi waktu sesi' };
+      return { ok: true, result: balloonResult(schedule, st) };
+    }
+    case 'CATCHER': {
+      const cfg = config as FallingConfig;
+      if (!validMoveLog(log)) return { ok: false, reason: 'Format log tidak valid' };
+      const schedule = buildFallingSchedule(seed, cfg, 'catcher');
+      const st = replayCatcher(schedule, log);
+      if (catcherEnd(schedule, st) > elapsedMs + 5000) return { ok: false, reason: 'Durasi melebihi waktu sesi' };
+      if (log.length && log[log.length - 1][0] > catcherEnd(schedule, st) + 2000) return { ok: false, reason: 'Log melewati akhir permainan' };
+      return { ok: true, result: catcherResult(schedule, st) };
+    }
+    case 'LANE_RUNNER': {
+      const cfg = config as RunnerConfig;
+      if (!validLaneLog(log)) return { ok: false, reason: 'Format log tidak valid' };
+      if (cfg.source === 'VOCAB' && !Array.isArray(items)) return { ok: false, reason: 'Data kosakata tidak ditemukan' };
+      const gates = buildRunnerSchedule(seed, cfg, cfg.source === 'VOCAB' ? (items as VocabCard[]) : null);
+      const st = replayRunner(gates, cfg, log);
+      if (runnerEnd(gates, st) > elapsedMs + 5000) return { ok: false, reason: 'Durasi melebihi waktu sesi' };
+      return {
+        ok: true,
+        result: runnerResult(gates, st),
+        review: { mistakes: gates.filter((g) => st.results.get(g.i)?.ok === false).map((g) => ({ question: g.question, answer: g.options[g.correct] })) },
+      };
+    }
+    case 'TOWER_DEFENSE': {
+      const cfg = config as DefenseConfig;
+      if (!validAnswerLog(log)) return { ok: false, reason: 'Format log tidak valid' };
+      const robots = buildDefenseSchedule(seed, cfg);
+      const st = replayDefense(robots, cfg, log);
+      if (defenseEnd(robots, st) > elapsedMs + 5000) return { ok: false, reason: 'Durasi melebihi waktu sesi' };
+      return { ok: true, result: defenseResult(robots, cfg, st) };
     }
     case 'VOCAB_PICTURE': {
       const round = state.round;

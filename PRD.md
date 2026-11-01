@@ -106,6 +106,7 @@ Per Oktober 2026 sistem memiliki **1.994 butir soal** dalam **61 paket** (olimpi
 ### 3.5. Bermain (Game Edukasi)
 - **Tujuan:** latihan berhitung dan kosakata yang menyenangkan untuk anak (Fase A–D) serta hitung cepat TIU (Fase E–L), tetap ringan di ponsel kelas bawah.
 - **Engine:** `MATH_SPRINT` (Kilat Hitung, adaptif 5 level), `MEMORY_MATCH` (Kartu Kembar), `CROSSMATH` (Silang Angka), `CROSSWORD` (TTS Kata), `VOCAB_PICTURE` (Kosakata Bergambar + pengulangan berjarak Leitner 5 kotak: 1, 2, 4, 7, 14 hari).
+- **Arcade:** `BALLOON_POP` (Balon Hitung), `CATCHER` (Tangkap Benda), `LANE_RUNNER` (Lari Jawaban), `TOWER_DEFENSE` (Jaga Benteng). Ronde singkat (60–90 detik / sampai nyawa habis), combo, nyawa, aturan berganti per gelombang; tanpa game engine (DOM + `requestAnimationFrame`).
 - **Data:** satu tabel generik `game_sets` (config + items per engine); sesi di `game_sessions`, rekor di `game_progress`, hafalan di `vocab_mastery`.
 - **Integritas:** server membuat seed, memutar ulang log jawaban, dan memeriksa kewajaran waktu; skor dari klien tidak dipercaya. Jawaban TTS hanya diperiksa di server.
 - **Ramah anak:** tanpa papan peringkat publik, tanpa skor minus, jawaban benar selalu ditampilkan, papan disembunyikan saat jeda; orang tua dapat membatasi menit bermain per hari.
@@ -290,4 +291,5 @@ erDiagram
 | **Phase 7** | Rich Media & Pausable Practice Mode | ✅ Selesai | Upload gambar, Lightbox zoom, dan Pause & Resume aktif |
 | **Phase 8** | Audit Bank Soal & Seeder Kanonik | ✅ Selesai | 1.623 soal diaudit terhadap naskah sumber; bank soal kanonik + `npm run bank:export`; soal berbobot SJT diperbaiki |
 | **Phase 9** | Bermain (Game Edukasi) | ✅ Selesai | 5 engine, 45 set; skor dinilai ulang server; Leitner kosakata; batas waktu bermain orang tua; editor `/admin/game` (lihat §3.5) |
+| **Phase 10** | Game Arcade | ✅ Selesai | 4 engine arcade, 24 set; jadwal deterministik + replay log aksi di server; bagian 🕹️ Arcade di `/bermain` |
 

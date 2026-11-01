@@ -2,6 +2,7 @@
 // sehingga data yang masuk database selalu bisa dimainkan engine-nya.
 
 import { buildCrosswordLayout, normalizeAnswer } from './crossword';
+import type { ArcadeMath, ArcadeRule, DefenseConfig, FallingConfig, RunnerConfig } from './arcade';
 import {
   OPS,
   VOCAB_MODES,
@@ -62,6 +63,72 @@ function vocabCards(items: unknown, min: number): VocabCard[] {
   }
   if (cards.length < min) throw new GameDataError(`Minimal ${min} kata`);
   return cards;
+}
+
+function arcadeMath(raw: unknown, allowTiu = true): ArcadeMath {
+  const m = isObj(raw) ? raw : {};
+  const mode = oneOf(m, 'mode', allowTiu ? (['ARITH', 'MAKE_TARGET', 'TIU'] as const) : (['ARITH', 'MAKE_TARGET'] as const), 'ARITH');
+  const out: ArcadeMath = {
+    mode,
+    ops: ops(m, ['+']),
+    max: int(m, 'max', 2, 10000, 10),
+    maxCap: int(m, 'maxCap', 2, 100000, (m.max as number) ?? 10),
+    ...(m.factorMax !== undefined ? { factorMax: int(m, 'factorMax', 2, 100) } : {}),
+    ...(m.factorCap !== undefined ? { factorCap: int(m, 'factorCap', 2, 100) } : {}),
+    ...(m.allowNegative ? { allowNegative: true } : {}),
+    ...(m.target !== undefined ? { target: int(m, 'target', 3, 1000) } : {}),
+  };
+  if (out.maxCap < out.max) throw new GameDataError('math.maxCap tidak boleh lebih kecil dari max');
+  return out;
+}
+
+function arcadeRule(raw: unknown, i: number): ArcadeRule {
+  if (!isObj(raw)) throw new GameDataError(`Aturan #${i + 1} tidak valid`);
+  const where = `Aturan #${i + 1}`;
+  const num = (k: string, min: number, max: number) => {
+    const v = raw[k];
+    if (typeof v !== 'number' || !Number.isInteger(v) || v < min || v > max) throw new GameDataError(`${where}: ${k} harus bilangan bulat ${min}–${max}`);
+    return v;
+  };
+  switch (raw.type) {
+    case 'MULTIPLE': {
+      const n = num('n', 2, 20);
+      return { type: 'MULTIPLE', n, max: num('max', n * 3, 1000) };
+    }
+    case 'EVEN':
+    case 'ODD':
+      return { type: raw.type, max: num('max', 4, 1000) };
+    case 'EQUALS': {
+      const list = raw.ops ?? ['+'];
+      if (!Array.isArray(list) || !list.length || !list.every((o) => o === '+' || o === '-' || o === '×')) {
+        throw new GameDataError(`${where}: ops hanya boleh + - ×`);
+      }
+      return { type: 'EQUALS', target: num('target', 2, 100), ops: list as ('+' | '-' | '×')[] };
+    }
+    case 'GREATER':
+    case 'LESS': {
+      const than = num('than', 1, 999);
+      return { type: raw.type, than, max: num('max', than + 1, 1000) };
+    }
+    case 'CATEGORY': {
+      const list = (k: 'good' | 'bad') => {
+        const v = raw[k];
+        if (!Array.isArray(v) || v.length < 2 || !v.every((x) => typeof x === 'string' && x.trim() && x.length <= 30)) {
+          throw new GameDataError(`${where}: ${k} minimal 2 label (maks. 30 karakter)`);
+        }
+        return v.map((x: string) => x.trim());
+      };
+      const prompt = typeof raw.prompt === 'string' ? raw.prompt.trim() : '';
+      if (!prompt) throw new GameDataError(`${where}: prompt wajib diisi`);
+      const good = list('good');
+      const bad = list('bad');
+      const overlap = good.filter((g) => bad.includes(g));
+      if (overlap.length) throw new GameDataError(`${where}: label muncul di good dan bad: ${overlap.join(', ')}`);
+      return { type: 'CATEGORY', prompt, good, bad };
+    }
+    default:
+      throw new GameDataError(`${where}: type harus MULTIPLE, EVEN, ODD, EQUALS, GREATER, LESS, atau CATEGORY`);
+  }
 }
 
 export interface ValidatedSet {
@@ -160,6 +227,46 @@ export function validateGameData(engine: GameEngine, rawConfig: unknown, rawItem
       if (layout.rows > 15 || layout.cols > 15) throw new GameDataError(`Grid terlalu besar (${layout.rows}×${layout.cols}); kurangi kata`);
       const items: CrosswordItems = { words, layout };
       return { config, items, warnings };
+    }
+    case 'BALLOON_POP':
+    case 'CATCHER': {
+      if (!Array.isArray(c.rules) || !c.rules.length || c.rules.length > 10) throw new GameDataError('config.rules harus berisi 1–10 aturan');
+      const config: FallingConfig = {
+        durationSec: int(c, 'durationSec', 30, 180, 60),
+        waveSec: int(c, 'waveSec', 10, 90, 20),
+        pace: oneOf(c, 'pace', ['slow', 'normal', 'fast'] as const, 'normal'),
+        rules: c.rules.map(arcadeRule),
+      };
+      return { config, items: null, warnings };
+    }
+    case 'LANE_RUNNER': {
+      const startInterval = int(c, 'startInterval', 2500, 9000, 5000);
+      const config: RunnerConfig = {
+        gates: int(c, 'gates', 10, 60, 30),
+        hearts: int(c, 'hearts', 1, 5, 3),
+        startInterval,
+        minInterval: int(c, 'minInterval', 2000, startInterval, Math.min(3000, startInterval)),
+        source: oneOf(c, 'source', ['MATH', 'VOCAB'] as const, 'MATH'),
+      };
+      let items: unknown = null;
+      if (config.source === 'MATH') config.math = arcadeMath(c.math);
+      else {
+        config.vocabMode = oneOf(c, 'vocabMode', ['EMOJI_TO_WORD', 'WORD_TO_MEANING', 'LISTEN'] as const, 'EMOJI_TO_WORD');
+        items = vocabCards(rawItems, 4);
+      }
+      return { config, items, warnings };
+    }
+    case 'TOWER_DEFENSE': {
+      const startLife = int(c, 'startLife', 5000, 40000, 14000);
+      const config: DefenseConfig = {
+        waves: int(c, 'waves', 2, 10, 5),
+        hp: int(c, 'hp', 1, 10, 5),
+        boss: c.boss !== false,
+        startLife,
+        minLife: int(c, 'minLife', 4000, startLife, Math.min(9000, startLife)),
+        math: arcadeMath(c.math),
+      };
+      return { config, items: null, warnings };
     }
     case 'VOCAB_PICTURE': {
       const modes = c.modes ?? ['LOOK_PICK', 'LISTEN_PICK'];

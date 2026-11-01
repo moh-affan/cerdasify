@@ -18,7 +18,7 @@ import {
   jakartaDateString,
   type Phase,
 } from '@/lib/learning';
-import { ENGINE_INFO, GAME_ENGINES, type VocabCard } from '@/lib/games/types';
+import { ARCADE_ENGINES, ENGINE_INFO, GAME_ENGINES, type VocabCard } from '@/lib/games/types';
 import { activityDates, gameLimitStatus, isContentVocabSet } from '@/lib/games/server';
 import { MASTERED_BOX, wordKey } from '@/lib/games/vocab';
 import { and, asc, eq, gte, lte, sql } from 'drizzle-orm';
@@ -101,14 +101,44 @@ export default async function GamesHubPage({ searchParams }: { searchParams: Pro
   };
 
   // Kelompok: mata pelajaran → urutan engine
+  // Arcade tampil di bagian tersendiri di atas; sisanya dikelompokkan per mata pelajaran
+  const arcadeItems = visible
+    .filter((r) => ARCADE_ENGINES.includes(r.engine))
+    .sort((a, b) => GAME_ENGINES.indexOf(a.engine) - GAME_ENGINES.indexOf(b.engine) || a.orderIndex - b.orderIndex);
   const groups = allSubjects
     .map((s) => ({
       subject: s,
       items: visible
-        .filter((r) => r.subjectId === s.id)
+        .filter((r) => r.subjectId === s.id && !ARCADE_ENGINES.includes(r.engine))
         .sort((a, b) => GAME_ENGINES.indexOf(a.engine) - GAME_ENGINES.indexOf(b.engine) || a.orderIndex - b.orderIndex),
     }))
     .filter((g) => g.items.length);
+
+  const card = (r: (typeof visible)[number]) => {
+    const p = progressMap.get(r.id);
+    const dueCount = dueBySet.get(r.id);
+    return (
+      <Link
+        key={r.id}
+        href={`/bermain/${r.slug}`}
+        className="bg-white rounded-2xl border border-slate-200 p-4 flex flex-col gap-2 hover:shadow-md hover:border-emerald-300 transition group relative"
+      >
+        {dueCount ? (
+          <span className="absolute top-2 right-2 text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-rose-100 text-rose-700">{dueCount} ulang</span>
+        ) : (
+          !p && user && <span className="absolute top-2 right-2 text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-emerald-100 text-emerald-700">Baru</span>
+        )}
+        <div className={kids ? 'text-5xl' : 'text-4xl'}>{r.coverEmoji || ENGINE_INFO[r.engine].emoji}</div>
+        <span className="text-[10px] font-bold uppercase tracking-wide text-slate-400">
+          {ENGINE_INFO[r.engine].emoji} {ENGINE_INFO[r.engine].label}
+        </span>
+        <h3 className="font-bold text-sm leading-snug group-hover:text-emerald-700">{r.title}</h3>
+        <div className="mt-auto pt-1">
+          {p ? <StarRow stars={p.bestStars} size="sm" /> : <span className="text-xs text-slate-400">Belum dimainkan</span>}
+        </div>
+      </Link>
+    );
+  };
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col">
@@ -248,7 +278,19 @@ export default async function GamesHubPage({ searchParams }: { searchParams: Pro
           </section>
         )}
 
-        {groups.length === 0 ? (
+        {arcadeItems.length > 0 && (
+          <section className="space-y-3 rounded-3xl bg-gradient-to-br from-violet-600 via-fuchsia-600 to-orange-500 p-4 sm:p-5 shadow-lg">
+            <div>
+              <h2 className="text-xl font-extrabold text-white">🕹️ Arcade</h2>
+              <p className="text-xs font-semibold text-white/80">
+                Balon, tangkap, lari & jaga benteng · {arcadeItems.filter((i) => progressMap.has(i.id)).length}/{arcadeItems.length} dimainkan
+              </p>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">{arcadeItems.map((r) => card(r))}</div>
+          </section>
+        )}
+
+        {groups.length === 0 && arcadeItems.length === 0 ? (
           <div className="bg-white rounded-3xl border border-dashed border-slate-300 p-10 text-center text-sm text-slate-500">
             Belum ada game untuk {PHASE_INFO[phase].label}. Coba fase lain, ya!
           </div>
@@ -262,31 +304,7 @@ export default async function GamesHubPage({ searchParams }: { searchParams: Pro
                 </span>
               </h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-                {items.map((r) => {
-                  const p = progressMap.get(r.id);
-                  const dueCount = dueBySet.get(r.id);
-                  return (
-                    <Link
-                      key={r.id}
-                      href={`/bermain/${r.slug}`}
-                      className="bg-white rounded-2xl border border-slate-200 p-4 flex flex-col gap-2 hover:shadow-md hover:border-emerald-300 transition group relative"
-                    >
-                      {dueCount ? (
-                        <span className="absolute top-2 right-2 text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-rose-100 text-rose-700">{dueCount} ulang</span>
-                      ) : (
-                        !p && user && <span className="absolute top-2 right-2 text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-emerald-100 text-emerald-700">Baru</span>
-                      )}
-                      <div className={kids ? 'text-5xl' : 'text-4xl'}>{r.coverEmoji || ENGINE_INFO[r.engine].emoji}</div>
-                      <span className="text-[10px] font-bold uppercase tracking-wide text-slate-400">
-                        {ENGINE_INFO[r.engine].emoji} {ENGINE_INFO[r.engine].label}
-                      </span>
-                      <h3 className="font-bold text-sm leading-snug group-hover:text-emerald-700">{r.title}</h3>
-                      <div className="mt-auto pt-1">
-                        {p ? <StarRow stars={p.bestStars} size="sm" /> : <span className="text-xs text-slate-400">Belum dimainkan</span>}
-                      </div>
-                    </Link>
-                  );
-                })}
+                {items.map((r) => card(r))}
               </div>
             </section>
           ))

@@ -1,0 +1,1586 @@
+[
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q01",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu memiliki 3 uang lembar masing-masing Rp2.000,00 dan 3 uang logam masing-masing Rp500,00. Jumlah uang yang dimiliki Ibu adalah ...",
+    "imageUrl": null,
+    "explanation": "3 × 2.000 = 6.000 dan 3 × 500 = 1.500. Jumlah 6.000 + 1.500 = **Rp7.500**.\n\nKunci Jawaban: **B (7.500)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q01_opt_a",
+        "label": "A",
+        "content": "7.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q01_opt_b",
+        "label": "B",
+        "content": "7.500",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q01_opt_c",
+        "label": "C",
+        "content": "8.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q01_opt_d",
+        "label": "D",
+        "content": "8.500",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q02",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dutra sekarang berumur 11 tahun. Dani berumur 4 tahun lebih tua dari Dutra, dan Dina berumur 2 tahun lebih muda dari Dani. Umur Dina sekarang adalah ... tahun.",
+    "imageUrl": null,
+    "explanation": "Dani = 11 + 4 = 15 tahun. Dina = 15 − 2 = **13** tahun.\n\nKunci Jawaban: **C (13)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q02_opt_a",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q02_opt_b",
+        "label": "B",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q02_opt_c",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q02_opt_d",
+        "label": "D",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q05",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Ada berapa bangun segitiga dalam gambar berikut?",
+    "imageUrl": "/uploads/jso25_gf_m1_q05.png",
+    "explanation": "Gambar tersusun dari 3 segitiga besar yang saling menumpuk di atas alas yang sama. Kelompokkan cara menghitungnya:\n- 3 segitiga besar: kiri, tengah, kanan.\n- 2 segitiga yang memakai puncak tengah dan salah satu garis panjang dari ujung sayap.\n- 4 segitiga yang memakai ujung sayap kiri atau ujung sayap kanan (masing-masing 2).\n- 5 segitiga di bagian bawah yang terbentuk dari perpotongan garis-garis miring dengan alas.\nTotal 3 + 2 + 4 + 5 = **14** segitiga.\n\nKunci Jawaban: **C (14)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q05_opt_a",
+        "label": "A",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q05_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q05_opt_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q05_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q06",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dina memiliki dua kantong permen. Kantong pertama ada 8 permen sedangkan kantong kedua ada 6 permen. Semua permen diambil dari kedua kantong lalu dimasukkan ke dalam toples. Banyaknya permen dalam toples sekarang adalah ...",
+    "imageUrl": null,
+    "explanation": "8 + 6 = **14** permen.\n\nKunci Jawaban: **C (14)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q06_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q06_opt_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q06_opt_c",
+        "label": "C",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q06_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q07",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Diketahui usia Erin empat kali usia Ghaitsa. Jika lima tahun kemudian usia Erin tiga kali usia Ghaitsa, maka usia Erin dan usia Ghaitsa sekarang adalah ...",
+    "imageUrl": null,
+    "explanation": "Coba pilihan c: sekarang 40 = 4 × 10. Lima tahun lagi 45 dan 15, dan 45 = 3 × 15 ✓. Jadi **Erin 40 tahun, Ghaitsa 10 tahun**.\n\nKunci Jawaban: **C (Erin 40 tahun, Ghaitsa 10 tahun)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q07_opt_a",
+        "label": "A",
+        "content": "Erin 35 tahun, Ghaitsa 8 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q07_opt_b",
+        "label": "B",
+        "content": "Erin 38 tahun, Ghaitsa 9 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q07_opt_c",
+        "label": "C",
+        "content": "Erin 40 tahun, Ghaitsa 10 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q07_opt_d",
+        "label": "D",
+        "content": "Erin 44 tahun, Ghaitsa 11 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q08",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Huruf-huruf pada kata GO-JSO dituliskan berulang-ulang membentuk barisan huruf berikut.\n\nG, O, J, S, O, G, O, J, S, O, G, O, ...\n\nHuruf yang ke-2025 pada barisan huruf di atas adalah ...",
+    "imageUrl": null,
+    "explanation": "Polanya berulang tiap 5 huruf (G, O, J, S, O). 2025 = 405 × 5, jadi huruf ke-2025 sama dengan huruf ke-5, yaitu **O**.\n\nKunci Jawaban: **D (O)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q08_opt_a",
+        "label": "A",
+        "content": "G",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q08_opt_b",
+        "label": "B",
+        "content": "J",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q08_opt_c",
+        "label": "C",
+        "content": "S",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q08_opt_d",
+        "label": "D",
+        "content": "O",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q09",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan gambar berikut! Nama objek benda pada gambar yang mempunyai jumlah paling sedikit dan paling banyak adalah ...",
+    "imageUrl": "/uploads/jso25_gf_m1_q09.png",
+    "explanation": "Hitung tiap kotak: belalang 10, semut 9, stroberi 9, tomat 9, kupu-kupu 8, kumbang 6. Paling sedikit kumbang (6), paling banyak belalang (10): **Kumbang dan Belalang**.\n\nKunci Jawaban: **D (Kumbang dan Belalang)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q09_opt_a",
+        "label": "A",
+        "content": "Kumbang dan Tomat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q09_opt_b",
+        "label": "B",
+        "content": "Stroberi dan Kupu-kupu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q09_opt_c",
+        "label": "C",
+        "content": "Apel dan Semut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q09_opt_d",
+        "label": "D",
+        "content": "Kumbang dan Belalang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q10",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Selisih uang Adik dan Kakak Rp20.000,00. Dua kali uang Kakak ditambah uang Adik berjumlah Rp50.000,00. Uang Adik tiga kali uang Kakak. Jumlah uang mereka sebenarnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Uang Adik = 3 × uang Kakak. 2 × Kakak + 3 × Kakak = 5 × Kakak = 50.000, jadi Kakak = 10.000 dan Adik = 30.000 (selisih 20.000 ✓). Jumlah uang mereka **Rp40.000,00**.\n\nKunci Jawaban: **B (Rp40.000,00)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q10_opt_a",
+        "label": "A",
+        "content": "Rp60.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q10_opt_b",
+        "label": "B",
+        "content": "Rp40.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q10_opt_c",
+        "label": "C",
+        "content": "Rp30.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q10_opt_d",
+        "label": "D",
+        "content": "Rp10.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q12",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pak Ali mempunyai 5 ekor kuda. Jika 2 ekor kuda dijual, maka banyaknya kaki hewan peliharaan Pak Ali yang tersisa adalah ...",
+    "imageUrl": null,
+    "explanation": "Sisa kuda 5 − 2 = 3 ekor. Kaki = 3 × 4 = **12**.\n\nKunci Jawaban: **B (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q12_opt_a",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q12_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q12_opt_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q12_opt_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q13",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam sebuah antrean ada 5 anak di depan Akbar, sedangkan Wima tepat berada di belakang Akbar. Di belakang Wima ada 7 anak. Berapa jumlah anak dalam antrean?",
+    "imageUrl": null,
+    "explanation": "5 + Akbar + Wima + 7 = 5 + 1 + 1 + 7 = **14** anak.\n\nKunci Jawaban: **A (14)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q13_opt_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q13_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q13_opt_c",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q13_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q14",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan penjumlahan berikut.\n\n$$\\begin{array}{r} A\\,B \\\\ A\\,B \\\\ A\\,B \\\\ \\hline 1\\,6\\,8 \\end{array} +$$\n\nMaka nilai dari A adalah ...",
+    "imageUrl": null,
+    "explanation": "AB + AB + AB = 3 × AB = 168, jadi AB = 168 : 3 = 56. Nilai A = **5** (B = 6).\n\nKunci Jawaban: **D (5)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q14_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q14_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q14_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q14_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q15",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari 4 ratusan + 1 puluhan + 1 satuan adalah ...",
+    "imageUrl": null,
+    "explanation": "400 + 10 + 1 = **411**.\n\nKunci Jawaban: **D (411)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q15_opt_a",
+        "label": "A",
+        "content": "123",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q15_opt_b",
+        "label": "B",
+        "content": "457",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q15_opt_c",
+        "label": "C",
+        "content": "419",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q15_opt_d",
+        "label": "D",
+        "content": "411",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q16",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Di halaman sekolah terdapat tumpukan bata sebanyak 121 buah. Bata-bata itu harus dipindahkan ke tempat lain. Berapa orang anak diperlukan untuk memindahkannya jika banyaknya anak sama dengan banyaknya bata yang dipindahkan setiap anak?",
+    "imageUrl": null,
+    "explanation": "Cari bilangan yang dikali dirinya sendiri sama dengan 121: 11 × 11 = 121. Jadi diperlukan **11** anak, masing-masing memindahkan 11 bata.\n\nKunci Jawaban: **B (11)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q16_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q16_opt_b",
+        "label": "B",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q16_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q16_opt_d",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q17",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar di samping! Berapakah angka terakhir sesuai jalur garis putus-putus berurutan, dan gambar apa yang terbentuk?",
+    "imageUrl": "/uploads/jso25_gf_m1_q17.png",
+    "explanation": "Titik-titik dihubungkan dari 1 sampai angka terakhir **16** dan membentuk gambar **gitar** (badan bergelombang dengan leher panjang).\n\nKunci Jawaban: **D (16 dan gitar)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q17_opt_a",
+        "label": "A",
+        "content": "13 dan piano",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q17_opt_b",
+        "label": "B",
+        "content": "14 dan biola",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q17_opt_c",
+        "label": "C",
+        "content": "15 dan terompet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q17_opt_d",
+        "label": "D",
+        "content": "16 dan gitar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q18",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pak Ali adalah seorang peternak yang handal dan terkenal di desanya. Beliau mempunyai sapi sebanyak 10 ekor, kambing 25 ekor, dan ayam petelur 30 ekor. Banyak jumlah keseluruhan kaki hewan ternak yang dimiliki Pak Ali adalah ...",
+    "imageUrl": null,
+    "explanation": "Sapi 10 × 4 = 40, kambing 25 × 4 = 100, ayam 30 × 2 = 60. Total **200 kaki**.\n\nKunci Jawaban: **A (200 kaki)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q18_opt_a",
+        "label": "A",
+        "content": "200 kaki",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q18_opt_b",
+        "label": "B",
+        "content": "225 kaki",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q18_opt_c",
+        "label": "C",
+        "content": "250 kaki",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q18_opt_d",
+        "label": "D",
+        "content": "300 kaki",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q19",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Luas sebuah kebun durian Pak Yasin yang berbentuk persegi sama dengan luas sebuah sawahnya yang berbentuk persegi panjang. Jika diketahui panjang persegi panjangnya 36 m dan lebarnya 16 m, berapa panjang sisi persegi kebun milik Pak Yasin tersebut?",
+    "imageUrl": null,
+    "explanation": "Luas sawah 36 × 16 = 576 m². Sisi persegi × sisi persegi = 576, dan 24 × 24 = 576. Jadi sisinya **24** m.\n\nKunci Jawaban: **B (24)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q19_opt_a",
+        "label": "A",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q19_opt_b",
+        "label": "B",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q19_opt_c",
+        "label": "C",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q19_opt_d",
+        "label": "D",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q20",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bilangan Misteri \"JUARA JSO\" adalah bilangan tiga digit unik dan istimewa: jika angka-angkanya dikalikan, hasilnya sama dengan jika angka-angkanya dijumlahkan. Salah satu contoh bilangan misteri di bawah ini yang memenuhi syarat tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "123: 1 × 2 × 3 = 6 dan 1 + 2 + 3 = 6, sama. Pilihan lain tidak sama (121: 2 dan 4; 234: 24 dan 9; 911: 9 dan 11). Jawabannya **123**.\n\nKunci Jawaban: **B (123)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q20_opt_a",
+        "label": "A",
+        "content": "121",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q20_opt_b",
+        "label": "B",
+        "content": "123",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q20_opt_c",
+        "label": "C",
+        "content": "234",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q20_opt_d",
+        "label": "D",
+        "content": "911",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q22",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Aku sebuah bangun datar. Aku memiliki 4 sisi. Aku memiliki 4 buah sudut yang keempatnya merupakan sudut siku-siku. Aku memiliki 2 pasang sisi yang sama panjang. Aku adalah ...",
+    "imageUrl": null,
+    "explanation": "4 sisi, 4 sudut siku-siku, dan 2 pasang sisi sama panjang: **persegi panjang**.\n\nKunci Jawaban: **C (Persegi panjang)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q22_opt_a",
+        "label": "A",
+        "content": "Belah ketupat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q22_opt_b",
+        "label": "B",
+        "content": "Segitiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q22_opt_c",
+        "label": "C",
+        "content": "Persegi panjang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q22_opt_d",
+        "label": "D",
+        "content": "Lingkaran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q25",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Aku sebuah bangun ruang. Aku memiliki 6 buah sisi. Keenam sisiku memiliki luas yang sama. Aku adalah ...",
+    "imageUrl": null,
+    "explanation": "Bangun ruang dengan 6 sisi persegi yang sama besar adalah **kubus**.\n\nKunci Jawaban: **D (Kubus)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q25_opt_a",
+        "label": "A",
+        "content": "Limas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q25_opt_b",
+        "label": "B",
+        "content": "Kerucut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q25_opt_c",
+        "label": "C",
+        "content": "Balok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q25_opt_d",
+        "label": "D",
+        "content": "Kubus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q26",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Ozi diberi uang saku oleh ayahnya. Sepertiganya ia gunakan untuk bersedekah di kotak amal jariyah ketika Ozi salat Jumat di masjid. Jika uang Ozi tersisa Rp15.000,00, maka uang saku Ozi mula-mula adalah ...",
+    "imageUrl": null,
+    "explanation": "Sisa = 2/3 uang saku = 15.000, jadi 1/3 = 7.500 dan uang saku = 3 × 7.500 = **Rp22.500,00**.\n\nKunci Jawaban: **C (Rp22.500,00)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q26_opt_a",
+        "label": "A",
+        "content": "Rp20.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q26_opt_b",
+        "label": "B",
+        "content": "Rp21.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q26_opt_c",
+        "label": "C",
+        "content": "Rp22.500,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q26_opt_d",
+        "label": "D",
+        "content": "Rp25.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q27",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah tempat parkir menampung sepeda motor dan mobil sebanyak 25 unit. Jika jumlah roda seluruhnya ada 70 buah dan jumlah motor lebih banyak dari mobil, maka pernyataan berikut yang salah adalah ...",
+    "imageUrl": null,
+    "explanation": "Andaikan semua motor: 25 × 2 = 50 roda. Kelebihan 20 roda, tiap mobil menambah 2 roda, jadi mobil = 10 dan motor = 15. Selisihnya 5. Pernyataan yang salah: **selisih 8 unit**.\n\nKunci Jawaban: **D (Selisih banyak mobil dan sepeda motor 8 unit)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q27_opt_a",
+        "label": "A",
+        "content": "Banyak mobil 10 unit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q27_opt_b",
+        "label": "B",
+        "content": "Banyak sepeda motor 15 unit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q27_opt_c",
+        "label": "C",
+        "content": "Selisih banyak mobil dan sepeda motor 5 unit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q27_opt_d",
+        "label": "D",
+        "content": "Selisih banyak mobil dan sepeda motor 8 unit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q28",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Suatu bangun dikatakan mempunyai simetri lipat jika bangun itu dilipat menjadi dua bagian yang sama dan setangkup (lihat contoh gambar). Huruf pada alfabet berikut ini yang tidak mempunyai simetri lipat adalah ...",
+    "imageUrl": "/uploads/jso25_gf_m1_q28.png",
+    "explanation": "B simetris terhadap garis mendatar, M dan T simetris terhadap garis tegak. Huruf **R** tidak punya simetri lipat.\n\nKunci Jawaban: **B (R)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q28_opt_a",
+        "label": "A",
+        "content": "B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q28_opt_b",
+        "label": "B",
+        "content": "R",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q28_opt_c",
+        "label": "C",
+        "content": "M",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q28_opt_d",
+        "label": "D",
+        "content": "T",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q29",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Di bawah ini adalah pola dasar bangun datar dari jaring-jaring kubus, kecuali ...",
+    "imageUrl": "/uploads/jso25_gf_m1_q29.png",
+    "explanation": "Jaring-jaring kubus tidak boleh memuat 4 persegi yang membentuk persegi besar 2 × 2. Gambar c memuat blok 2 × 2 di bagian atas, sehingga tidak bisa dilipat menjadi kubus. Gambar a, b, dan d adalah jaring-jaring kubus. Jawabannya **gambar c**.\n\nKunci Jawaban: **C (Gambar c)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q29_opt_a",
+        "label": "A",
+        "content": "Gambar a",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q29_opt_b",
+        "label": "B",
+        "content": "Gambar b",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q29_opt_c",
+        "label": "C",
+        "content": "Gambar c",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q29_opt_d",
+        "label": "D",
+        "content": "Gambar d",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q30",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Diketahui 30% dari suatu bilangan sama dengan 60% dari bilangan lainnya. Jika jumlah kedua bilangan tersebut sama dengan 45, maka selisih kedua bilangan tersebut adalah ...",
+    "imageUrl": null,
+    "explanation": "30% bilangan pertama = 60% bilangan kedua, jadi bilangan pertama 2 kali bilangan kedua. 3 bagian = 45, 1 bagian = 15. Bilangannya 30 dan 15, selisih **15**.\n\nCatatan: persen adalah materi kelas atas; soal ini sesuai naskah asli.\n\nKunci Jawaban: **D (15)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q30_opt_a",
+        "label": "A",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q30_opt_b",
+        "label": "B",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q30_opt_c",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q30_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q31",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika berat sebuah semangka sama dengan 4 buah manggis, maka berat 4 semangka sama dengan ... manggis.",
+    "imageUrl": null,
+    "explanation": "4 × 4 = **16** manggis.\n\nKunci Jawaban: **B (16)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q31_opt_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q31_opt_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q31_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q31_opt_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q33",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Umur Hanik enam tahun yang lalu adalah 9 tahun, sedangkan umur Rosa lima tahun yang akan datang adalah 13 tahun. Tentukan jumlah umur Hanik dan Rosa dua tahun yang akan datang.",
+    "imageUrl": null,
+    "explanation": "Hanik sekarang 9 + 6 = 15, Rosa sekarang 13 − 5 = 8. Dua tahun lagi: 17 + 10 = **27**.\n\nKunci Jawaban: **B (27)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q33_opt_a",
+        "label": "A",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q33_opt_b",
+        "label": "B",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q33_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q33_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q34",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Halaman X dan halaman Y adalah dua halaman yang berhadapan dalam sebuah buku. Jika jumlah dua halaman tersebut adalah 33, maka halaman X adalah ...",
+    "imageUrl": null,
+    "explanation": "Dua halaman berhadapan adalah bilangan berurutan: 16 + 17 = 33. Dari pilihan, halaman X = **16**.\n\nKunci Jawaban: **C (16)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q34_opt_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q34_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q34_opt_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q34_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q35",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Saat ulangan matematika pertama, Laila memperoleh nilai 89. Nilai ulangan matematika keduanya 13 poin lebih kecil dari nilai ulangan pertama. Nilai ulangan matematika kedua Laila adalah ...",
+    "imageUrl": null,
+    "explanation": "89 − 13 = **76**.\n\nKunci Jawaban: **B (76)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q35_opt_a",
+        "label": "A",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q35_opt_b",
+        "label": "B",
+        "content": "76",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q35_opt_c",
+        "label": "C",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q35_opt_d",
+        "label": "D",
+        "content": "67",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q36",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ada 15 anak yang sedang antre membeli es krim. Rosa berada di urutan ke-5 dari depan, sedangkan Erin berada di urutan ke-3 dari belakang. Banyaknya anak yang berada di antara Rosa dan Erin adalah ...",
+    "imageUrl": null,
+    "explanation": "Erin di urutan 15 − 3 + 1 = 13 dari depan. Di antara urutan 5 dan 13 ada urutan 6 sampai 12, yaitu **7** anak.\n\nKunci Jawaban: **B (7)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q36_opt_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q36_opt_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q36_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q36_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q37",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Wima membaca buku dari halaman 12 sampai halaman 33. Berapa halaman buku yang telah dibaca Wima?",
+    "imageUrl": null,
+    "explanation": "33 − 12 + 1 = **22 halaman** (halaman 12 ikut dibaca).\n\nKunci Jawaban: **C (22 halaman)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q37_opt_a",
+        "label": "A",
+        "content": "20 halaman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q37_opt_b",
+        "label": "B",
+        "content": "21 halaman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q37_opt_c",
+        "label": "C",
+        "content": "22 halaman",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q37_opt_d",
+        "label": "D",
+        "content": "23 halaman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q38",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada bilangan 4096, nilai tempat ratusan ditempati oleh angka ...",
+    "imageUrl": null,
+    "explanation": "4096: 4 ribuan, 0 ratusan, 9 puluhan, 6 satuan. Jadi angka **0**.\n\nKunci Jawaban: **B (0)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q38_opt_a",
+        "label": "A",
+        "content": "Tidak ada",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q38_opt_b",
+        "label": "B",
+        "content": "0",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q38_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q38_opt_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q39",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah usia Ayah dan Ibu saat ini adalah 70 tahun. Lima tahun yang akan datang, jumlah usia mereka adalah ... tahun.",
+    "imageUrl": null,
+    "explanation": "Masing-masing bertambah 5 tahun, jadi jumlahnya bertambah 10: 70 + 10 = **80** tahun.\n\nKunci Jawaban: **C (80)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q39_opt_a",
+        "label": "A",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q39_opt_b",
+        "label": "B",
+        "content": "75",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q39_opt_c",
+        "label": "C",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q39_opt_d",
+        "label": "D",
+        "content": "85",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_jso_2025_mtk_gf_1_q40",
+    "topicId": "top_jso_2025_mtk_gf_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di kantin sekolah terdapat 15 meja makan. Tiap meja ditempati 6 siswa. Dari semua siswa di kantin itu terdapat 36 siswa yang makan bakso. Tentukan banyaknya siswa di kantin yang tidak makan bakso.",
+    "imageUrl": null,
+    "explanation": "Jumlah siswa 15 × 6 = 90. Yang tidak makan bakso 90 − 36 = **54**.\n\nKunci Jawaban: **D (54)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q40_opt_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q40_opt_b",
+        "label": "B",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q40_opt_c",
+        "label": "C",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_jso_2025_mtk_gf_1_q40_opt_d",
+        "label": "D",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

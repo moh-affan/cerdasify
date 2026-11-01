@@ -47,9 +47,10 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 - Streak membaca harian & progres per pengguna. Seed konten: `npm run seed:learning`.
 
 ### 1c. Bermain (Game Edukasi)
-- **45 set game** di `/bermain` per fase: ⚡ Kilat Hitung (math sprint adaptif, termasuk hitung cepat TIU), 🃏 Kartu Kembar (flip card kata ↔ gambar/arti, soal ↔ hasil, angka ↔ benda, rumus geometri), ✖️ Silang Angka (teka-teki silang persamaan), 🧩 TTS Kata (istilah matematika, IPA, kosakata Inggris), dan 🖼️ Kosakata Bergambar (14 dek, hafalan berjarak Leitner, suara TTS).
+- **69 set game** di `/bermain` per fase: ⚡ Kilat Hitung (math sprint adaptif, termasuk hitung cepat TIU), 🃏 Kartu Kembar (flip card kata ↔ gambar/arti, soal ↔ hasil, angka ↔ benda, rumus geometri), ✖️ Silang Angka (teka-teki silang persamaan), 🧩 TTS Kata (istilah matematika, IPA, kosakata Inggris), dan 🖼️ Kosakata Bergambar (14 dek, hafalan berjarak Leitner, suara TTS).
+- **🕹️ Arcade (24 set):** 🎈 Balon Hitung (pecahkan balon sesuai aturan: kelipatan, genap/ganjil, hasil hitung, kategori), 🧺 Tangkap Benda (hewan, mengapung/tenggelam, makanan sehat, angka), 🏃 Lari Jawaban (lari ke jalur jawaban benar: hitung, TIU, kosakata, dengar & pilih), dan 🏰 Jaga Benteng (ketik jawaban untuk menghentikan robot; bos membawa soal cerita). Ronde 60–90 detik, combo ×2/×3, nyawa ❤️.
 - Ringan: tanpa game engine; emoji sebagai gambar, efek suara via Web Audio, tiap game dimuat terpisah. Bisa dimainkan tamu; skor tersimpan setelah masuk akun.
-- Skor **dinilai ulang di server** dari seed + log jawaban (skor dari klien diabaikan); jawaban TTS tidak pernah dikirim ke browser.
+- Skor **dinilai ulang di server** dari seed + log jawaban (skor dari klien diabaikan); jawaban TTS tidak pernah dikirim ke browser. Game arcade memakai jadwal deterministik + replay log aksi (ketukan, posisi keranjang, jalur, jawaban) yang sama di klien & server.
 - Terintegrasi: streak gabungan membaca/bermain, tombol "Main Kartu Kembar" di akhir bacaan, statistik & **batas waktu bermain harian** di Dasbor Orang Tua, editor set game di `/admin/game`.
 - Seed: `npm run seed:games` · ekspor editan admin: `npm run games:export` · uji logika: `npm run test:games`.
 
