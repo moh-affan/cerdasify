@@ -1,0 +1,1874 @@
+[
+  {
+    "id": "pkg_venus3_2025_sains_b_q01",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Monyet merupakan contoh hewan yang memakan tumbuhan maupun hewan lainnya. Berdasarkan jenis makanannya, monyet termasuk kelompok hewan …",
+    "imageUrl": null,
+    "explanation": "Pemakan tumbuhan dan hewan disebut **omnivora** (pemakan segala).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q01_opt_a",
+        "label": "A",
+        "content": "Herbivora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q01_opt_b",
+        "label": "B",
+        "content": "Karnivora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q01_opt_c",
+        "label": "C",
+        "content": "Omnivora",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q01_opt_d",
+        "label": "D",
+        "content": "Insektivora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q02",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Genangan air yang luas dan dikelilingi daratan dinamakan …",
+    "imageUrl": null,
+    "explanation": "**Danau** adalah genangan air luas yang seluruhnya dikelilingi daratan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q02_opt_a",
+        "label": "A",
+        "content": "Sungai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q02_opt_b",
+        "label": "B",
+        "content": "Laut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q02_opt_c",
+        "label": "C",
+        "content": "Danau",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q02_opt_d",
+        "label": "D",
+        "content": "Samudra",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q03",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Anjing, kucing, dan buaya merupakan hewan pemakan daging yang memiliki gigi taring. Fungsi gigi tersebut untuk …",
+    "imageUrl": null,
+    "explanation": "Gigi taring yang runcing berfungsi **mencabik-cabik** daging.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q03_opt_a",
+        "label": "A",
+        "content": "Memotong makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q03_opt_b",
+        "label": "B",
+        "content": "Mengunyah makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q03_opt_c",
+        "label": "C",
+        "content": "Menghaluskan makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q03_opt_d",
+        "label": "D",
+        "content": "Mencabik-cabik makanan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q04",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Suatu desa mengalami banjir setiap musim hujan. Setelah diteliti, ternyata air sungai di desa tersebut sering tersumbat oleh sampah plastik dan limbah rumah tangga. Tindakan yang paling tepat untuk menjaga sungai agar tetap bersih dan mencegah banjir adalah …",
+    "imageUrl": null,
+    "explanation": "Penyebab banjirnya adalah sampah yang menyumbat sungai, jadi solusinya **melarang membuang sampah ke sungai dan menyediakan tempat sampah** yang layak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q04_opt_a",
+        "label": "A",
+        "content": "Mengurangi kegiatan menimba air dari sungai agar aliran air tidak terganggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q04_opt_b",
+        "label": "B",
+        "content": "Mandi di sungai agar airnya tidak tercemar oleh sabun dan deterjen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q04_opt_c",
+        "label": "C",
+        "content": "Melarang warga membuang sampah dan limbah rumah tangga ke sungai serta menyediakan tempat pembuangan sampah yang layak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q04_opt_d",
+        "label": "D",
+        "content": "Membatasi anak-anak bermain di sungai agar tidak mengganggu ekosistem sungai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q05",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah bendungan baru dibangun di daerah pegunungan. Dari pilihan berikut, yang **bukan** manfaat bendungan adalah …",
+    "imageUrl": null,
+    "explanation": "Bendungan bermanfaat untuk PLTA, irigasi, dan wisata. Membuang limbah ke bendungan justru **mencemari** air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q05_opt_a",
+        "label": "A",
+        "content": "Menyimpan air untuk pembangkit listrik tenaga air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q05_opt_b",
+        "label": "B",
+        "content": "Menyalurkan air ke lahan pertanian melalui irigasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q05_opt_c",
+        "label": "C",
+        "content": "Menjadi tempat pembuangan limbah rumah tangga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q05_opt_d",
+        "label": "D",
+        "content": "Menarik wisatawan untuk berkunjung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q06",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pernyataan berikut mengenai perkembangbiakan vegetatif alami pada tumbuhan:\n(1) Terjadi tanpa adanya peleburan sel kelamin.\n(2) Menghasilkan keturunan yang identik dengan induknya.\n(3) Contohnya adalah cangkok dan stek.\n\nPernyataan yang benar mengenai perkembangbiakan vegetatif alami adalah …",
+    "imageUrl": null,
+    "explanation": "Pernyataan (1) dan (2) benar. Pernyataan (3) salah: cangkok dan stek adalah vegetatif **buatan** (dibantu manusia). Contoh vegetatif alami adalah tunas, umbi, geragih, dan rimpang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q06_opt_a",
+        "label": "A",
+        "content": "Hanya (1) dan (2)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q06_opt_b",
+        "label": "B",
+        "content": "Hanya (1) dan (3)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q06_opt_c",
+        "label": "C",
+        "content": "Hanya (2) dan (3)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q06_opt_d",
+        "label": "D",
+        "content": "(1), (2), dan (3)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q07",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam sebuah percobaan, daun dibakar hingga yang tersisa hanya tulang daunnya. Bagian daun yang hilang terlebih dahulu adalah …",
+    "imageUrl": null,
+    "explanation": "**Helai daun** tipis dan lunak sehingga lebih dulu habis terbakar, sedangkan tulang daun lebih keras dan tersisa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q07_opt_a",
+        "label": "A",
+        "content": "Helai daun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q07_opt_b",
+        "label": "B",
+        "content": "Tulang daun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q07_opt_c",
+        "label": "C",
+        "content": "Tangkai daun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q07_opt_d",
+        "label": "D",
+        "content": "Ujung daun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q08",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Biji yang ditanam di tanah mendapat air dan udara yang cukup. Tahap pertama yang biasanya terjadi adalah …",
+    "imageUrl": null,
+    "explanation": "Saat berkecambah, yang pertama keluar dari biji adalah **akar** (calon akar), baru kemudian batang dan daun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q08_opt_a",
+        "label": "A",
+        "content": "Daun mulai terbentuk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q08_opt_b",
+        "label": "B",
+        "content": "Akar mulai tumbuh keluar dari biji",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q08_opt_c",
+        "label": "C",
+        "content": "Batang tumbuh ke bawah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q08_opt_d",
+        "label": "D",
+        "content": "Bunga bermekaran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q09",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tumbuhan di bawah ini yang mempunyai tulang daun sejajar adalah …",
+    "imageUrl": null,
+    "explanation": "**Padi** bertulang daun sejajar. Singkong menjari, mangga menyirip, eceng gondok melengkung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q09_opt_a",
+        "label": "A",
+        "content": "Singkong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q09_opt_b",
+        "label": "B",
+        "content": "Padi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q09_opt_c",
+        "label": "C",
+        "content": "Mangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q09_opt_d",
+        "label": "D",
+        "content": "Eceng gondok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q10",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Penduduk di dataran rendah memiliki risiko lebih besar terkena banjir dibanding penduduk di dataran tinggi. Namun, ada kota di dataran tinggi yang juga sering banjir. Kemungkinan penyebabnya adalah …",
+    "imageUrl": null,
+    "explanation": "Hutan dan tanah terbuka menyerap air hujan. Jika hutan gundul dan **daerah resapan berkurang**, air hujan langsung mengalir dan menyebabkan banjir.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q10_opt_a",
+        "label": "A",
+        "content": "Udara di dataran tinggi terlalu dingin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q10_opt_b",
+        "label": "B",
+        "content": "Sungai yang mengalir ke bawah tertahan di daerah tinggi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q10_opt_c",
+        "label": "C",
+        "content": "Penggundulan hutan dan kurangnya daerah resapan air",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q10_opt_d",
+        "label": "D",
+        "content": "Letak dataran tinggi lebih dekat dengan pantai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q11",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan beberapa fungsi bagian tumbuhan berikut!\n1) Menyokong berdirinya tumbuhan\n2) Mengangkut air dan garam mineral dari akar ke daun\n3) Menyerap air dan unsur hara dari dalam tanah\n4) Alat perkembangbiakan generatif tumbuhan\n5) Tempat penyimpanan makanan cadangan\n\nFungsi batang ditunjukkan oleh angka …",
+    "imageUrl": null,
+    "explanation": "Batang menyokong tumbuhan (1), mengangkut air dan mineral (2), dan pada beberapa tumbuhan menyimpan cadangan makanan (5), misalnya tebu dan kentang. Menyerap air (3) adalah fungsi akar, alat perkembangbiakan generatif (4) adalah bunga.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q11_opt_a",
+        "label": "A",
+        "content": "1), 2), dan 3)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q11_opt_b",
+        "label": "B",
+        "content": "1), 2), dan 5)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q11_opt_c",
+        "label": "C",
+        "content": "2), 3), dan 4)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q11_opt_d",
+        "label": "D",
+        "content": "3), 4), dan 5)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q12",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Buah-buahan yang lepas dari tangkainya akan jatuh ke tanah. Semua benda di dekat bumi akan selalu bergerak ke arah bumi karena …",
+    "imageUrl": null,
+    "explanation": "**Gaya gravitasi bumi** menarik semua benda ke arah pusat bumi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q12_opt_a",
+        "label": "A",
+        "content": "Gaya gesek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q12_opt_b",
+        "label": "B",
+        "content": "Gaya gravitasi bumi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q12_opt_c",
+        "label": "C",
+        "content": "Gaya listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q12_opt_d",
+        "label": "D",
+        "content": "Gaya pegas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q13",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gaya elastis (gaya pegas) adalah …",
+    "imageUrl": null,
+    "explanation": "Gaya elastis adalah gaya yang **mengembalikan benda ke bentuk semula** setelah ditarik atau ditekan, misalnya pada karet dan pegas.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q13_opt_a",
+        "label": "A",
+        "content": "Gaya yang menarik benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q13_opt_b",
+        "label": "B",
+        "content": "Gaya yang mendorong benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q13_opt_c",
+        "label": "C",
+        "content": "Gaya yang mengembalikan bentuk benda",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q13_opt_d",
+        "label": "D",
+        "content": "Gaya yang menghancurkan benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q14",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dalam pengelolaan kawasan hutan lindung, pembatasan aktivitas manusia di dalamnya menjadi hal yang sangat penting. Tujuan utama pembatasan aktivitas manusia di hutan lindung adalah untuk …",
+    "imageUrl": null,
+    "explanation": "Hutan lindung dijaga untuk **melindungi ekosistem dan keanekaragaman hayati** serta tata air dari kerusakan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q14_opt_a",
+        "label": "A",
+        "content": "Meningkatkan potensi ekonomi kawasan hutan melalui pemanfaatan hasil hutan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q14_opt_b",
+        "label": "B",
+        "content": "Menyediakan ruang rekreasi alam bagi masyarakat umum tanpa batasan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q14_opt_c",
+        "label": "C",
+        "content": "Mempermudah kegiatan penelitian ilmiah tentang keanekaragaman hayati",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q14_opt_d",
+        "label": "D",
+        "content": "Melindungi ekosistem alami dan keanekaragaman hayati yang ada di dalamnya dari gangguan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q15",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Saat sepeda direm, gaya yang bekerja adalah …",
+    "imageUrl": null,
+    "explanation": "Karet rem bergesekan dengan roda sehingga timbul **gaya gesek yang memperlambat** gerak sepeda.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q15_opt_a",
+        "label": "A",
+        "content": "Gaya gesek yang mempercepat gerak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q15_opt_b",
+        "label": "B",
+        "content": "Gaya gesek yang memperlambat gerak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q15_opt_c",
+        "label": "C",
+        "content": "Gaya magnet yang menempel pada roda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q15_opt_d",
+        "label": "D",
+        "content": "Gaya pegas yang mendorong roda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q16",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika menanak nasi, uap panas yang keluar dari panci mengenai tutup panci lalu berubah menjadi titik-titik air. Perubahan wujud yang terjadi disebut …",
+    "imageUrl": null,
+    "explanation": "Uap (gas) berubah menjadi titik-titik air (cair) disebut **pengembunan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q16_opt_a",
+        "label": "A",
+        "content": "Penguapan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q16_opt_b",
+        "label": "B",
+        "content": "Penyubliman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q16_opt_c",
+        "label": "C",
+        "content": "Pengembunan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q16_opt_d",
+        "label": "D",
+        "content": "Pembekuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q17",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kupu-kupu memiliki belalai panjang untuk mengisap nektar bunga, sedangkan semut menggunakan rahangnya untuk menggigit dan membawa makanan. Penyebab perbedaan alat mulut ini adalah …",
+    "imageUrl": null,
+    "explanation": "Bentuk alat mulut menyesuaikan dengan **jenis makanan dan cara mendapatkannya** (adaptasi).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q17_opt_a",
+        "label": "A",
+        "content": "Warna tubuh yang berbeda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q17_opt_b",
+        "label": "B",
+        "content": "Cara berkembang biak yang berbeda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q17_opt_c",
+        "label": "C",
+        "content": "Jenis makanan dan cara mendapatkan makanan yang berbeda",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q17_opt_d",
+        "label": "D",
+        "content": "Habitat yang sama tetapi ukuran tubuh berbeda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q18",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Lampu di rumah kita bisa menyala dan membuat ruangan menjadi terang. Terangnya lampu menunjukkan adanya …",
+    "imageUrl": null,
+    "explanation": "Terang menunjukkan **energi cahaya**. Energi listrik adalah sumbernya, tetapi yang membuat ruangan terang adalah cahayanya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q18_opt_a",
+        "label": "A",
+        "content": "Energi panas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q18_opt_b",
+        "label": "B",
+        "content": "Energi cahaya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q18_opt_c",
+        "label": "C",
+        "content": "Energi listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q18_opt_d",
+        "label": "D",
+        "content": "Energi gerak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q19",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Lilin yang dibakar lama-kelamaan habis dan meninggalkan sedikit cairan lilin. Perubahan pada lilin yang terbakar termasuk …",
+    "imageUrl": null,
+    "explanation": "Pembakaran lilin menghasilkan zat baru (asap, karbon dioksida, uap air), jadi termasuk **perubahan kimia**. Lilin yang hanya mencair adalah perubahan fisika.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q19_opt_a",
+        "label": "A",
+        "content": "Perubahan fisika karena wujudnya berubah sementara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q19_opt_b",
+        "label": "B",
+        "content": "Perubahan kimia karena terbentuk zat baru berupa asap dan panas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q19_opt_c",
+        "label": "C",
+        "content": "Perubahan fisika karena tidak menghasilkan zat baru",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q19_opt_d",
+        "label": "D",
+        "content": "Perubahan kimia karena lilin mencair tanpa zat baru",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q20",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Beberapa hewan memiliki bulu tebal seperti beruang kutub, sedangkan unta memiliki bulu lebih tipis. Penyebab utama perbedaan ini adalah …",
+    "imageUrl": null,
+    "explanation": "Beruang kutub hidup di daerah sangat dingin sehingga butuh bulu tebal, sedangkan unta hidup di gurun panas. Perbedaannya karena **suhu lingkungan** (adaptasi).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q20_opt_a",
+        "label": "A",
+        "content": "Warna kulit hewan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q20_opt_b",
+        "label": "B",
+        "content": "Perbedaan suhu lingkungan tempat tinggal mereka",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q20_opt_c",
+        "label": "C",
+        "content": "Cara berkembang biak yang berbeda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q20_opt_d",
+        "label": "D",
+        "content": "Jumlah makanan yang mereka makan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q21",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika kita menarik mobil mainan dengan tali, maka gaya yang bekerja adalah …",
+    "imageUrl": null,
+    "explanation": "Menarik dengan tali menggunakan **gaya tarik**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q21_opt_a",
+        "label": "A",
+        "content": "Gaya dorong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q21_opt_b",
+        "label": "B",
+        "content": "Gaya gesek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q21_opt_c",
+        "label": "C",
+        "content": "Gaya tarik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q21_opt_d",
+        "label": "D",
+        "content": "Gaya magnet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q22",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bagian bunga yang berfungsi untuk menarik perhatian serangga penyerbuk karena warna dan baunya adalah …",
+    "imageUrl": null,
+    "explanation": "**Mahkota bunga** berwarna cerah dan harum sehingga menarik serangga.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q22_opt_a",
+        "label": "A",
+        "content": "Kelopak bunga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q22_opt_b",
+        "label": "B",
+        "content": "Mahkota bunga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q22_opt_c",
+        "label": "C",
+        "content": "Putik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q22_opt_d",
+        "label": "D",
+        "content": "Benang sari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q23",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Baju yang basah dijemur di bawah sinar matahari hingga kering. Sebenarnya yang terjadi pada air di baju tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Panas matahari membuat air di baju **menguap** menjadi uap air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q23_opt_a",
+        "label": "A",
+        "content": "Air membeku dan menghilang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q23_opt_b",
+        "label": "B",
+        "content": "Air mengalami pencairan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q23_opt_c",
+        "label": "C",
+        "content": "Air mengalami penguapan menjadi uap air",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q23_opt_d",
+        "label": "D",
+        "content": "Air berubah menjadi embun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q24",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ayam betina menghasilkan telur yang kemudian dierami hingga menetas menjadi anak ayam. Cara perkembangbiakan ayam ini termasuk kategori …",
+    "imageUrl": null,
+    "explanation": "Berkembang biak dengan bertelur disebut **ovipar**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q24_opt_a",
+        "label": "A",
+        "content": "Vivipar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q24_opt_b",
+        "label": "B",
+        "content": "Ovovivipar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q24_opt_c",
+        "label": "C",
+        "content": "Ovipar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q24_opt_d",
+        "label": "D",
+        "content": "Vegetatif",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q25",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Logam lebih cepat menghantarkan panas dibandingkan kayu ketika terkena api karena …",
+    "imageUrl": null,
+    "explanation": "Logam adalah **konduktor** (penghantar panas yang baik), sedangkan kayu isolator.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q25_opt_a",
+        "label": "A",
+        "content": "Logam bersifat menyerap cahaya lebih banyak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q25_opt_b",
+        "label": "B",
+        "content": "Logam bersifat sebagai penghantar panas yang baik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q25_opt_c",
+        "label": "C",
+        "content": "Kayu menolak panas dari api",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q25_opt_d",
+        "label": "D",
+        "content": "Kayu memiliki massa lebih ringan daripada logam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q26",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Contoh gaya yang dapat mengubah bentuk benda adalah …",
+    "imageUrl": null,
+    "explanation": "Saat **memeras spons**, bentuk spons berubah. Pilihan lain mengubah gerak atau posisi benda.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q26_opt_a",
+        "label": "A",
+        "content": "Menekan rem sepeda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q26_opt_b",
+        "label": "B",
+        "content": "Menendang bola ke gawang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q26_opt_c",
+        "label": "C",
+        "content": "Memeras spons basah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q26_opt_d",
+        "label": "D",
+        "content": "Mendorong meja ke sudut ruangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q27",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Alat sederhana seperti jungkat-jungkit termasuk dalam jenis pesawat sederhana …",
+    "imageUrl": null,
+    "explanation": "Jungkat-jungkit memiliki titik tumpu di tengah, beban, dan kuasa, jadi termasuk **tuas** (pengungkit).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q27_opt_a",
+        "label": "A",
+        "content": "Bidang miring",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q27_opt_b",
+        "label": "B",
+        "content": "Roda berporos",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q27_opt_c",
+        "label": "C",
+        "content": "Katrol",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q27_opt_d",
+        "label": "D",
+        "content": "Tuas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q28",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Beberapa jenis hewan membantu tumbuhan dalam proses perkembangbiakan. Peran lebah dalam membantu perkembangbiakan tumbuhan adalah …",
+    "imageUrl": null,
+    "explanation": "Lebah membawa serbuk sari dari satu bunga ke bunga lain (**penyerbukan**), sehingga terbentuk buah dan biji.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q28_opt_a",
+        "label": "A",
+        "content": "Penyebaran biji melalui kotorannya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q28_opt_b",
+        "label": "B",
+        "content": "Penyerbukan bunga sehingga menghasilkan buah dan biji",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q28_opt_c",
+        "label": "C",
+        "content": "Perkembangbiakan vegetatif tumbuhan melalui tunas adventif",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q28_opt_d",
+        "label": "D",
+        "content": "Perlindungan tumbuhan dari serangan hama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q29",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Katrol tetap digunakan pada alat seperti …",
+    "imageUrl": null,
+    "explanation": "**Timba di sumur** memakai katrol tetap untuk mengangkat ember air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q29_opt_a",
+        "label": "A",
+        "content": "Tangga lipat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q29_opt_b",
+        "label": "B",
+        "content": "Timba di sumur",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q29_opt_c",
+        "label": "C",
+        "content": "Roda sepeda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q29_opt_d",
+        "label": "D",
+        "content": "Gergaji tangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q30",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hewan memiliki peran yang beragam dalam ekosistem. Peran hewan pemangsa seperti harimau dalam menjaga keseimbangan alam adalah …",
+    "imageUrl": null,
+    "explanation": "Harimau memangsa herbivora (rusa, babi hutan), sehingga **jumlah herbivora terkendali** dan tumbuhan tidak habis dimakan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q30_opt_a",
+        "label": "A",
+        "content": "Menyediakan sumber makanan bagi hewan lain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q30_opt_b",
+        "label": "B",
+        "content": "Membantu penyerbukan tumbuhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q30_opt_c",
+        "label": "C",
+        "content": "Mengendalikan populasi hewan herbivora agar tidak merusak tumbuhan secara berlebihan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q30_opt_d",
+        "label": "D",
+        "content": "Menyuburkan tanah melalui kotorannya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q31",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ketika air dipanaskan, partikel-partikel di dalamnya bergerak lebih cepat hingga menjadi gas. Penyebab perubahan wujud ini adalah …",
+    "imageUrl": null,
+    "explanation": "Pemanasan **menambah energi panas**, sehingga partikel air bergerak makin cepat dan bebas lalu berubah menjadi uap.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q31_opt_a",
+        "label": "A",
+        "content": "Pengurangan energi panas pada air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q31_opt_b",
+        "label": "B",
+        "content": "Penambahan energi panas yang membuat molekul bergerak bebas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q31_opt_c",
+        "label": "C",
+        "content": "Tekanan udara yang berkurang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q31_opt_d",
+        "label": "D",
+        "content": "Adanya gaya gravitasi pada air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q32",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Roda berporos banyak digunakan pada …",
+    "imageUrl": null,
+    "explanation": "Roda yang berputar pada porosnya digunakan pada **mobil mainan**, sepeda, dan gerobak. Sekrup adalah bidang miring.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q32_opt_a",
+        "label": "A",
+        "content": "Sekrup",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q32_opt_b",
+        "label": "B",
+        "content": "Tangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q32_opt_c",
+        "label": "C",
+        "content": "Mobil mainan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q32_opt_d",
+        "label": "D",
+        "content": "Katrol tetap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q33",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pesawat sederhana membantu pekerjaan manusia dengan cara …",
+    "imageUrl": null,
+    "explanation": "Pesawat sederhana membuat pekerjaan lebih mudah dengan **memperkecil gaya** yang dibutuhkan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q33_opt_a",
+        "label": "A",
+        "content": "Memperbesar beban",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q33_opt_b",
+        "label": "B",
+        "content": "Membuat pekerjaan lebih lama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q33_opt_c",
+        "label": "C",
+        "content": "Mengurangi gaya yang dibutuhkan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q33_opt_d",
+        "label": "D",
+        "content": "Menambah jumlah tenaga manusia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q34",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kaca jendela rumah terkadang berembun saat pagi hari yang dingin. Hal ini terjadi …",
+    "imageUrl": null,
+    "explanation": "Uap air di udara menyentuh kaca yang dingin lalu **mengembun** menjadi titik-titik air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q34_opt_a",
+        "label": "A",
+        "content": "Karena uap air di udara mengalami pengembunan ketika menyentuh permukaan kaca yang dingin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q34_opt_b",
+        "label": "B",
+        "content": "Karena kaca memproduksi air ketika dingin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q34_opt_c",
+        "label": "C",
+        "content": "Karena kaca membeku dan mencair menjadi air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q34_opt_d",
+        "label": "D",
+        "content": "Karena udara berubah menjadi padat di kaca",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q35",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Beberapa hewan seperti kadal dapat memutuskan ekornya saat merasa terancam, dan ekor tersebut dapat tumbuh kembali. Kemampuan ini berkaitan dengan …",
+    "imageUrl": null,
+    "explanation": "Memutuskan ekor (autotomi) mengalihkan perhatian pemangsa, jadi merupakan **adaptasi untuk melindungi diri**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q35_opt_a",
+        "label": "A",
+        "content": "Perkembangbiakan generatif",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q35_opt_b",
+        "label": "B",
+        "content": "Perkembangbiakan vegetatif",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q35_opt_c",
+        "label": "C",
+        "content": "Adaptasi untuk melindungi diri",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q35_opt_d",
+        "label": "D",
+        "content": "Proses metamorfosis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q36",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Es batu yang diletakkan di dalam wadah tertutup dapat bertahan lebih lama dibandingkan es yang diletakkan di tempat terbuka. Hal ini …",
+    "imageUrl": null,
+    "explanation": "Wadah tertutup **menghambat panas** dari udara luar, sehingga es mencair lebih lambat (tetapi tetap mencair).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q36_opt_a",
+        "label": "A",
+        "content": "Karena wadah tertutup menahan panas masuk sehingga es mencair lebih lambat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q36_opt_b",
+        "label": "B",
+        "content": "Karena es batu tidak dapat mencair dalam wadah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q36_opt_c",
+        "label": "C",
+        "content": "Karena wadah menyerap semua air dari es",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q36_opt_d",
+        "label": "D",
+        "content": "Karena udara dalam wadah membuat es semakin beku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q37",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kentang berkembang biak dengan cara …",
+    "imageUrl": null,
+    "explanation": "Kentang berkembang biak secara vegetatif dengan **umbi batang**: tunas tumbuh dari mata tunas pada umbi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q37_opt_a",
+        "label": "A",
+        "content": "Melalui biji yang terdapat pada buahnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q37_opt_b",
+        "label": "B",
+        "content": "Melalui tunas yang tumbuh dari umbi batangnya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q37_opt_c",
+        "label": "C",
+        "content": "Melalui spora yang terdapat di daunnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q37_opt_d",
+        "label": "D",
+        "content": "Melalui cangkok batang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q38",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Beberapa tanaman memiliki akar napas yang muncul ke permukaan tanah, seperti pada pohon bakau. Fungsi utama akar ini adalah …",
+    "imageUrl": null,
+    "explanation": "Lumpur di pantai miskin oksigen, jadi akar napas bakau mencuat ke atas untuk **mengambil udara (bernapas)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q38_opt_a",
+        "label": "A",
+        "content": "Mengikat tanah agar tidak longsor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q38_opt_b",
+        "label": "B",
+        "content": "Menyimpan cadangan makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q38_opt_c",
+        "label": "C",
+        "content": "Membantu tanaman bernapas di daerah berlumpur",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q38_opt_d",
+        "label": "D",
+        "content": "Menyerap sinar matahari untuk fotosintesis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_b_q39",
+    "topicId": "top_venus3_2025_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rani sedang membaca buku di ruang yang pencahayaannya redup. Setelah beberapa menit, matanya dapat menyesuaikan dan mulai melihat lebih jelas. Bagian mata yang berperan penting dalam menyesuaikan jumlah cahaya yang masuk ke mata adalah …",
+    "imageUrl": null,
+    "explanation": "**Pupil** melebar di tempat redup agar lebih banyak cahaya masuk, dan menyempit di tempat terang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_b_q39_opt_a",
+        "label": "A",
+        "content": "Retina",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q39_opt_b",
+        "label": "B",
+        "content": "Kornea",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q39_opt_c",
+        "label": "C",
+        "content": "Pupil",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_b_q39_opt_d",
+        "label": "D",
+        "content": "Lensa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

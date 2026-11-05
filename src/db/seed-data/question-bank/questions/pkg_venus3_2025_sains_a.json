@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "pkg_venus3_2025_sains_a_q01",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar! Fungsi utama sirip pada ikan adalah untuk …",
+    "imageUrl": "/uploads/venus25_sa_sirip_ikan.png",
+    "explanation": "Sirip (punggung, perut, dubur, dan ekor) membantu ikan **bergerak dan menjaga keseimbangan** di air. Ikan bernapas dengan insang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q01_opt_a",
+        "label": "A",
+        "content": "Bernapas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q01_opt_b",
+        "label": "B",
+        "content": "Melihat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q01_opt_c",
+        "label": "C",
+        "content": "Bergerak di air",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q01_opt_d",
+        "label": "D",
+        "content": "Mendengar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q02",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di taman, kamu melihat bunga yang indah dan seekor kupu-kupu yang terbang di atasnya. Manakah di antara keduanya yang termasuk makhluk hidup?",
+    "imageUrl": null,
+    "explanation": "Bunga (tumbuhan) dan kupu-kupu (hewan) **keduanya** makhluk hidup: tumbuh, butuh makan, dan berkembang biak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q02_opt_a",
+        "label": "A",
+        "content": "Bunga dan kupu-kupu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q02_opt_b",
+        "label": "B",
+        "content": "Bunga saja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q02_opt_c",
+        "label": "C",
+        "content": "Kupu-kupu saja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q02_opt_d",
+        "label": "D",
+        "content": "Tidak ada",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q03",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Saat pergi ke pantai, kamu melihat air laut dan seekor ikan berenang di dalamnya. Manakah yang merupakan benda tak hidup?",
+    "imageUrl": null,
+    "explanation": "**Air laut** adalah benda tak hidup. Ikan adalah makhluk hidup.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q03_opt_a",
+        "label": "A",
+        "content": "Keduanya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q03_opt_b",
+        "label": "B",
+        "content": "Air laut saja",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q03_opt_c",
+        "label": "C",
+        "content": "Ikan saja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q03_opt_d",
+        "label": "D",
+        "content": "Tidak ada",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q04",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Burung pemakan serangga membantu petani dengan cara …",
+    "imageUrl": null,
+    "explanation": "Burung pemakan serangga **memakan hama serangga**, sehingga tanaman petani terlindungi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q04_opt_a",
+        "label": "A",
+        "content": "Mematuk tanaman petani",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q04_opt_b",
+        "label": "B",
+        "content": "Menyebarkan biji tanaman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q04_opt_c",
+        "label": "C",
+        "content": "Memakan serangga yang merusak tanaman",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q04_opt_d",
+        "label": "D",
+        "content": "Membuat sarang di sawah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q05",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar! Apa hubungan antara pohon dan manusia?",
+    "imageUrl": "/uploads/venus25_sa_pohon.png",
+    "explanation": "Pohon menghasilkan **oksigen** untuk bernapas dan daunnya yang rimbun memberi **tempat berteduh**, seperti pada gambar.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q05_opt_a",
+        "label": "A",
+        "content": "Pohon suka bermain dengan manusia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q05_opt_b",
+        "label": "B",
+        "content": "Manusia bisa memanjat pohon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q05_opt_c",
+        "label": "C",
+        "content": "Pohon memberi kita udara untuk bernapas dan tempat berteduh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q05_opt_d",
+        "label": "D",
+        "content": "Pohon bisa berbicara dengan manusia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q06",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Cacing tanah penting bagi tumbuhan karena …",
+    "imageUrl": "/uploads/venus25_sa_cacing.png",
+    "explanation": "Cacing menggemburkan tanah dan kotorannya menyuburkan tanah, sehingga tanah menjadi **lebih subur**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q06_opt_a",
+        "label": "A",
+        "content": "Cacing tanah memakan daun tumbuhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q06_opt_b",
+        "label": "B",
+        "content": "Cacing tanah membuat tanah menjadi lebih subur",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q06_opt_c",
+        "label": "C",
+        "content": "Cacing tanah melindungi tumbuhan dari hujan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q06_opt_d",
+        "label": "D",
+        "content": "Cacing tanah membuat tumbuhan menjadi tinggi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q07",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Akibat yang terjadi jika semua nyamuk dihilangkan dari lingkungan adalah …",
+    "imageUrl": null,
+    "explanation": "Nyamuk adalah makanan bagi hewan lain (cicak, katak, capung, kelelawar). Jika nyamuk hilang, **hewan pemakan nyamuk kehilangan makanan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q07_opt_a",
+        "label": "A",
+        "content": "Semua hewan akan menjadi lebih sehat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q07_opt_b",
+        "label": "B",
+        "content": "Hewan yang memakan nyamuk akan kehilangan sumber makanan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q07_opt_c",
+        "label": "C",
+        "content": "Tumbuhan akan tumbuh lebih cepat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q07_opt_d",
+        "label": "D",
+        "content": "Udara akan menjadi lebih bersih",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q08",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mengapa tempat tinggal menjadi kebutuhan penting bagi hewan?",
+    "imageUrl": null,
+    "explanation": "Sarang atau tempat tinggal **melindungi** hewan dari cuaca dan pemangsa, serta menjadi tempat membesarkan anak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q08_opt_a",
+        "label": "A",
+        "content": "Hanya agar terlihat indah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q08_opt_b",
+        "label": "B",
+        "content": "Untuk melindungi diri dari cuaca buruk, pemangsa, dan sebagai tempat membesarkan anak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q08_opt_c",
+        "label": "C",
+        "content": "Agar bisa bergerak dengan lebih leluasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q08_opt_d",
+        "label": "D",
+        "content": "Supaya bisa mendapatkan air dengan mudah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q09",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kelompok hewan yang memiliki bulu adalah …",
+    "imageUrl": null,
+    "explanation": "**Burung** memiliki bulu. Ikan dan reptil bersisik, amfibi berkulit licin.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q09_opt_a",
+        "label": "A",
+        "content": "Ikan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q09_opt_b",
+        "label": "B",
+        "content": "Reptil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q09_opt_c",
+        "label": "C",
+        "content": "Burung",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q09_opt_d",
+        "label": "D",
+        "content": "Amfibi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q10",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Matahari yang bersinar dan seekor burung yang sedang berkicau. Manakah yang merupakan makhluk hidup?",
+    "imageUrl": null,
+    "explanation": "**Burung** adalah makhluk hidup. Matahari adalah benda langit (bintang), bukan makhluk hidup.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q10_opt_a",
+        "label": "A",
+        "content": "Matahari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q10_opt_b",
+        "label": "B",
+        "content": "Burung",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q10_opt_c",
+        "label": "C",
+        "content": "Keduanya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q10_opt_d",
+        "label": "D",
+        "content": "Tidak ada",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q11",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Makhluk hidup memiliki kemampuan untuk menanggapi rangsangan. Contoh tumbuhan yang menunjukkan gerakan karena rangsangan sentuhan adalah …",
+    "imageUrl": null,
+    "explanation": "Daun **putri malu** langsung menguncup ketika disentuh, contoh gerak karena rangsangan sentuhan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q11_opt_a",
+        "label": "A",
+        "content": "Pohon mangga yang berbuah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q11_opt_b",
+        "label": "B",
+        "content": "Daun putri malu yang mengatup saat disentuh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q11_opt_c",
+        "label": "C",
+        "content": "Daun pisang yang layu saat tidak disiram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q11_opt_d",
+        "label": "D",
+        "content": "Rumput yang menguning karena terinjak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q12",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tumbuhan termasuk makhluk hidup karena memiliki ciri seperti …",
+    "imageUrl": null,
+    "explanation": "Tumbuhan **membuat makanan sendiri** (fotosintesis) dan **tumbuh**, dua ciri makhluk hidup. Pilihan A salah karena tumbuhan justru bernapas dan berkembang biak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q12_opt_a",
+        "label": "A",
+        "content": "Tidak bisa bergerak, bernapas, dan berkembang biak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q12_opt_b",
+        "label": "B",
+        "content": "Bisa membuat makanan sendiri dan tumbuh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q12_opt_c",
+        "label": "C",
+        "content": "Selalu membutuhkan bahan bakar seperti mesin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q12_opt_d",
+        "label": "D",
+        "content": "Hanya bisa hidup di dalam rumah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q13",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hewan seperti ayam memerlukan makanan, air, dan udara untuk hidup. Jika tidak diberi makan dan minum, maka ayam akan …",
+    "imageUrl": null,
+    "explanation": "Tanpa makanan dan minuman, ayam **menjadi lemah dan bisa mati**. Hewan tidak bisa membuat makanan sendiri.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q13_opt_a",
+        "label": "A",
+        "content": "Bertambah besar dengan cepat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q13_opt_b",
+        "label": "B",
+        "content": "Mampu membuat makanannya sendiri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q13_opt_c",
+        "label": "C",
+        "content": "Menjadi lemah dan bisa mati",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q13_opt_d",
+        "label": "D",
+        "content": "Tetap hidup seperti biasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q14",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Menjaga kelestarian lingkungan penting dilakukan sejak dini. Jika lingkungan rusak dan kotor, maka dampaknya bagi makhluk hidup adalah …",
+    "imageUrl": null,
+    "explanation": "Lingkungan yang rusak membuat makhluk hidup **kehilangan tempat tinggal dan udara bersih**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q14_opt_a",
+        "label": "A",
+        "content": "Makhluk hidup akan tetap sehat dan kuat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q14_opt_b",
+        "label": "B",
+        "content": "Makhluk hidup akan kekurangan tempat tinggal dan udara bersih",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q14_opt_c",
+        "label": "C",
+        "content": "Makhluk hidup menjadi lebih banyak berkembang biak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q14_opt_d",
+        "label": "D",
+        "content": "Makhluk hidup dapat hidup tanpa makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q15",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Semua makhluk hidup membutuhkan udara untuk bernapas. Jika tidak ada udara di sekitarnya, maka makhluk hidup akan …",
+    "imageUrl": null,
+    "explanation": "Tanpa udara (oksigen), makhluk hidup **tidak bisa bernapas** dan tidak dapat bertahan hidup.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q15_opt_a",
+        "label": "A",
+        "content": "Tetap bermain dan beraktivitas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q15_opt_b",
+        "label": "B",
+        "content": "Merasa nyaman dan sejuk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q15_opt_c",
+        "label": "C",
+        "content": "Menjadi lapar dan haus saja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q15_opt_d",
+        "label": "D",
+        "content": "Kesulitan bernapas dan tidak bisa bertahan hidup",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q16",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan aktivitas berikut ini:\n(1) Bermain layang-layang\n(2) Berjemur di pagi hari\n(3) Menggunakan jas hujan\n\nManakah yang cocok dilakukan saat cuaca cerah?",
+    "imageUrl": null,
+    "explanation": "Saat cerah cocok **bermain layang-layang (1) dan berjemur (2)**. Jas hujan dipakai saat hujan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q16_opt_a",
+        "label": "A",
+        "content": "(1) dan (2)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q16_opt_b",
+        "label": "B",
+        "content": "(2) dan (3)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q16_opt_c",
+        "label": "C",
+        "content": "(1) dan (3)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q16_opt_d",
+        "label": "D",
+        "content": "(1), (2), dan (3)",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q17",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kura-kura yang dipelihara di rumah dengan diberi makan sayuran segar secara teratur berguna untuk …",
+    "imageUrl": null,
+    "explanation": "Kura-kura peliharaan **memperindah rumah dan menjadi teman bermain**; ia tidak bisa menjaga rumah atau menangkap serangga.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q17_opt_a",
+        "label": "A",
+        "content": "Memperindah taman rumah dan menjadi teman bermain",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q17_opt_b",
+        "label": "B",
+        "content": "Membantu membersihkan halaman rumah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q17_opt_c",
+        "label": "C",
+        "content": "Menjaga rumah dari binatang buas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q17_opt_d",
+        "label": "D",
+        "content": "Menangkap serangga di halaman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q18",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bunga anggrek sering dijadikan tanaman hias karena …",
+    "imageUrl": null,
+    "explanation": "Anggrek dikenal karena **bentuk bunganya indah, warnanya beragam**, dan dapat tumbuh menempel pada pohon lain.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q18_opt_a",
+        "label": "A",
+        "content": "Bunganya memiliki bentuk yang indah, warna beragam, dan tumbuh menempel pada pohon lain",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q18_opt_b",
+        "label": "B",
+        "content": "Bunganya kecil tanpa warna dan batangnya menjalar di tanah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q18_opt_c",
+        "label": "C",
+        "content": "Bunganya selalu berwarna putih dan hidup di air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q18_opt_d",
+        "label": "D",
+        "content": "Bunganya harum tetapi tidak memiliki kelopak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q19",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Minyak goreng adalah benda cair yang sering digunakan Ibu di dapur. Minyak ini sangat berguna bagi manusia karena …",
+    "imageUrl": null,
+    "explanation": "Minyak goreng dipakai untuk **menggoreng** makanan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q19_opt_a",
+        "label": "A",
+        "content": "Digunakan untuk mencuci pakaian agar harum",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q19_opt_b",
+        "label": "B",
+        "content": "Dipakai untuk menggoreng makanan agar matang dan enak dimakan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q19_opt_c",
+        "label": "C",
+        "content": "Digunakan untuk menyiram tanaman agar subur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q19_opt_d",
+        "label": "D",
+        "content": "Dipakai untuk membersihkan lantai rumah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q20",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Lari pagi adalah salah satu olahraga yang baik dilakukan secara rutin karena …",
+    "imageUrl": null,
+    "explanation": "Lari pagi membuat tubuh **bugar** dan **melatih kekuatan kaki**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q20_opt_a",
+        "label": "A",
+        "content": "Olahraga ini membuat tubuh lemah dan tidak bertenaga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q20_opt_b",
+        "label": "B",
+        "content": "Olahraga ini membuat tubuh bugar dan melatih kekuatan kaki",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q20_opt_c",
+        "label": "C",
+        "content": "Olahraga ini membuat kaki menjadi kaku dan tidak bisa digerakkan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q20_opt_d",
+        "label": "D",
+        "content": "Olahraga ini hanya menggerakkan tangan tanpa melatih kaki",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q21",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sabun cair yang digunakan saat mandi atau mencuci tangan sangat berguna bagi manusia karena …",
+    "imageUrl": null,
+    "explanation": "Sabun **membersihkan kotoran dan kuman** sehingga tubuh tetap sehat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q21_opt_a",
+        "label": "A",
+        "content": "Membantu membersihkan kotoran di tubuh agar tetap sehat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q21_opt_b",
+        "label": "B",
+        "content": "Membuat tubuh menjadi kotor setelah mandi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q21_opt_c",
+        "label": "C",
+        "content": "Menyebabkan kulit menjadi gatal dan sakit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q21_opt_d",
+        "label": "D",
+        "content": "Membuat pakaian menjadi kotor setelah dicuci",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q22",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Renang merupakan olahraga yang dilakukan di dalam air dan bermanfaat karena …",
+    "imageUrl": null,
+    "explanation": "Berenang menggerakkan tangan, kaki, dan badan, sehingga **melatih otot seluruh tubuh** dan menyegarkan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q22_opt_a",
+        "label": "A",
+        "content": "Hanya menggerakkan satu tangan dan membuat cepat lelah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q22_opt_b",
+        "label": "B",
+        "content": "Tidak melatih pernapasan dan membuat badan pegal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q22_opt_c",
+        "label": "C",
+        "content": "Hanya melatih jari-jari tangan tanpa menggerakkan kaki",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q22_opt_d",
+        "label": "D",
+        "content": "Melatih kekuatan otot seluruh tubuh dan membuat tubuh menjadi segar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q23",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika seorang anak menarik gerobak mainannya, gerobak itu akan …",
+    "imageUrl": null,
+    "explanation": "Tarikan adalah gaya yang membuat benda **bergerak mendekati** si penarik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q23_opt_a",
+        "label": "A",
+        "content": "Tetap diam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q23_opt_b",
+        "label": "B",
+        "content": "Bergerak mendekati anak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q23_opt_c",
+        "label": "C",
+        "content": "Berubah menjadi lebih besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q23_opt_d",
+        "label": "D",
+        "content": "Terangkat ke atas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q24",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Air hujan yang turun dari langit dapat berguna bagi manusia, terutama untuk …",
+    "imageUrl": null,
+    "explanation": "Air hujan **menyirami tanaman** sehingga tumbuh subur, termasuk tanaman pangan di sawah dan kebun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q24_opt_a",
+        "label": "A",
+        "content": "Membersihkan jendela rumah dari debu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q24_opt_b",
+        "label": "B",
+        "content": "Membuat pakaian menjadi lebih harum",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q24_opt_c",
+        "label": "C",
+        "content": "Menyiram tanaman agar tumbuh subur dan segar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q24_opt_d",
+        "label": "D",
+        "content": "Mengotori jalanan agar licin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q25",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di halaman rumah terdapat sebuah pot berbentuk bulat dengan warna hitam. Pot tersebut digunakan untuk …",
+    "imageUrl": null,
+    "explanation": "Pot adalah wadah untuk **menanam bunga atau tanaman hias**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q25_opt_a",
+        "label": "A",
+        "content": "Menyimpan air minum",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q25_opt_b",
+        "label": "B",
+        "content": "Menaruh pakaian yang kotor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q25_opt_c",
+        "label": "C",
+        "content": "Menanam bunga atau tanaman hias",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q25_opt_d",
+        "label": "D",
+        "content": "Menyimpan peralatan olahraga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q26",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bersepeda adalah olahraga yang banyak disukai anak-anak karena …",
+    "imageUrl": null,
+    "explanation": "Bersepeda **melatih keseimbangan** dan **menguatkan kaki** karena kita mengayuh pedal.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q26_opt_a",
+        "label": "A",
+        "content": "Hanya menggerakkan tangan tanpa menguatkan kaki",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q26_opt_b",
+        "label": "B",
+        "content": "Membuat tubuh menjadi kaku dan sulit bergerak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q26_opt_c",
+        "label": "C",
+        "content": "Membuat tubuh mudah lelah dan tidak sehat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q26_opt_d",
+        "label": "D",
+        "content": "Membantu melatih keseimbangan tubuh dan menguatkan kaki",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q27",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bensin adalah benda cair yang sering digunakan dalam kehidupan sehari-hari. Kegunaan bensin bagi manusia adalah …",
+    "imageUrl": null,
+    "explanation": "Bensin adalah **bahan bakar kendaraan** bermotor. Bensin berbahaya bila diminum.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q27_opt_a",
+        "label": "A",
+        "content": "Untuk membersihkan lantai agar berkilau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q27_opt_b",
+        "label": "B",
+        "content": "Sebagai minuman penghilang dahaga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q27_opt_c",
+        "label": "C",
+        "content": "Sebagai bahan bakar kendaraan agar bisa berjalan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q27_opt_d",
+        "label": "D",
+        "content": "Untuk keperluan memasak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q28",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bunga matahari dinamakan demikian karena …",
+    "imageUrl": null,
+    "explanation": "Bunga matahari berwarna **kuning cerah** dan bunganya (terutama saat muda) **menghadap ke arah matahari**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q28_opt_a",
+        "label": "A",
+        "content": "Bunganya berwarna merah dan selalu menunduk ke tanah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q28_opt_b",
+        "label": "B",
+        "content": "Bunganya berwarna putih dan selalu mekar di malam hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q28_opt_c",
+        "label": "C",
+        "content": "Bunganya berwarna kuning cerah dan selalu menghadap ke arah sinar matahari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q28_opt_d",
+        "label": "D",
+        "content": "Bunganya berwarna ungu dan tumbuh di tempat teduh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q29",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Langit tampak hitam pekat, petir menyambar, dan hujan deras turun. Cuaca seperti ini disebut …",
+    "imageUrl": null,
+    "explanation": "Hujan deras disertai petir disebut **hujan lebat**. Gerimis adalah hujan rintik-rintik, mendung adalah langit berawan sebelum hujan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q29_opt_a",
+        "label": "A",
+        "content": "Malam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q29_opt_b",
+        "label": "B",
+        "content": "Gerimis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q29_opt_c",
+        "label": "C",
+        "content": "Hujan lebat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q29_opt_d",
+        "label": "D",
+        "content": "Mendung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q30",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sepak bola adalah olahraga yang dilakukan secara berkelompok dan bermanfaat karena …",
+    "imageUrl": null,
+    "explanation": "Sepak bola dimainkan bersama tim, sehingga **melatih kerja sama**, sekaligus **kekuatan kaki dan daya tahan** tubuh.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q30_opt_a",
+        "label": "A",
+        "content": "Hanya melatih tangan dan tidak melibatkan kaki",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q30_opt_b",
+        "label": "B",
+        "content": "Melatih kerja sama, kekuatan kaki, dan daya tahan tubuh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q30_opt_c",
+        "label": "C",
+        "content": "Membuat tubuh menjadi cepat sakit dan lemas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q30_opt_d",
+        "label": "D",
+        "content": "Tidak membutuhkan kekuatan kaki dan hanya berdiri diam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q31",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Singa di alam liar biasanya berburu dan memakan …",
+    "imageUrl": null,
+    "explanation": "Singa adalah karnivora yang memangsa **daging hewan lain**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q31_opt_a",
+        "label": "A",
+        "content": "Buah-buahan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q31_opt_b",
+        "label": "B",
+        "content": "Daging hewan lain",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q31_opt_c",
+        "label": "C",
+        "content": "Daun dan rumput",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q31_opt_d",
+        "label": "D",
+        "content": "Ikan asin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q32",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Air kelapa muda adalah salah satu benda cair alami yang sering diminum manusia karena …",
+    "imageUrl": null,
+    "explanation": "Air kelapa muda **segar dan menghilangkan rasa haus**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q32_opt_a",
+        "label": "A",
+        "content": "Menyebabkan badan menjadi lemas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q32_opt_b",
+        "label": "B",
+        "content": "Rasanya segar dan dapat menghilangkan rasa haus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q32_opt_c",
+        "label": "C",
+        "content": "Membuat perut menjadi sakit dan mulas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q32_opt_d",
+        "label": "D",
+        "content": "Menambah rasa pahit di mulut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q33",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Senam adalah salah satu olahraga yang baik dilakukan di pagi hari karena …",
+    "imageUrl": null,
+    "explanation": "Senam **menggerakkan seluruh tubuh** sehingga tubuh lentur dan sehat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q33_opt_a",
+        "label": "A",
+        "content": "Menggerakkan seluruh tubuh agar tetap lentur dan sehat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q33_opt_b",
+        "label": "B",
+        "content": "Hanya menggerakkan tangan tanpa melibatkan tubuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q33_opt_c",
+        "label": "C",
+        "content": "Membuat badan kaku dan susah bergerak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q33_opt_d",
+        "label": "D",
+        "content": "Tidak menggerakkan tubuh sama sekali",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q34",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Burung peliharaan seperti burung kenari yang diberi makan biji-bijian khusus bermanfaat untuk …",
+    "imageUrl": null,
+    "explanation": "Burung kenari dipelihara karena **kicauannya merdu** dan memperindah suasana rumah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q34_opt_a",
+        "label": "A",
+        "content": "Membersihkan halaman rumah dari sampah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q34_opt_b",
+        "label": "B",
+        "content": "Memperindah rumah dengan kicauannya yang merdu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q34_opt_c",
+        "label": "C",
+        "content": "Menjaga tanaman dari serangga kecil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q34_opt_d",
+        "label": "D",
+        "content": "Mengusir tikus dari rumah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q35",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bunga melati sering ditanam di pekarangan rumah. Ciri bunga melati adalah …",
+    "imageUrl": null,
+    "explanation": "Bunga melati **berwarna putih, kecil, dan harum**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q35_opt_a",
+        "label": "A",
+        "content": "Bunganya berwarna kuning dan tidak memiliki bau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q35_opt_b",
+        "label": "B",
+        "content": "Bunganya berwarna merah muda dan daunnya berduri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q35_opt_c",
+        "label": "C",
+        "content": "Bunganya berwarna putih kecil dan mengeluarkan bau harum",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q35_opt_d",
+        "label": "D",
+        "content": "Bunganya besar dan tidak memiliki wangi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q36",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika cuaca mendung dan langit tampak abu-abu, maka kemungkinan yang akan terjadi adalah …",
+    "imageUrl": null,
+    "explanation": "Langit mendung penuh awan gelap biasanya pertanda **hujan akan turun**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q36_opt_a",
+        "label": "A",
+        "content": "Hari menjadi lebih cerah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q36_opt_b",
+        "label": "B",
+        "content": "Malam akan datang lebih cepat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q36_opt_c",
+        "label": "C",
+        "content": "Hujan akan turun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q36_opt_d",
+        "label": "D",
+        "content": "Bintang akan muncul",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q37",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Makanan yang sudah lama dibiarkan di udara terbuka hingga berjamur atau basi sebaiknya jangan dimakan karena …",
+    "imageUrl": null,
+    "explanation": "Makanan basi atau berjamur mengandung kuman yang dapat menyebabkan **diare atau sakit perut**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q37_opt_a",
+        "label": "A",
+        "content": "Makanan itu sudah kehilangan rasa enaknya saja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q37_opt_b",
+        "label": "B",
+        "content": "Makanan itu bisa menyebabkan penyakit seperti diare atau sakit perut",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q37_opt_c",
+        "label": "C",
+        "content": "Makanan itu justru menambah vitamin dalam tubuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q37_opt_d",
+        "label": "D",
+        "content": "Makanan itu membuat tubuh lebih kuat melawan penyakit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q38",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika kita memukul bola tenis ke arah lawan, gaya kita menyebabkan bola …",
+    "imageUrl": null,
+    "explanation": "Pukulan adalah gaya yang membuat bola **bergerak** ke arah pukulan, yaitu menuju lawan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q38_opt_a",
+        "label": "A",
+        "content": "Diam di tempat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q38_opt_b",
+        "label": "B",
+        "content": "Bergerak menuju lawan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q38_opt_c",
+        "label": "C",
+        "content": "Hilang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q38_opt_d",
+        "label": "D",
+        "content": "Menjadi lebih berat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q39",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Air sangat penting bagi makhluk hidup. Tanpa air, manusia bisa …",
+    "imageUrl": null,
+    "explanation": "Tubuh yang kekurangan air (dehidrasi) membuat kita **haus dan lemas**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q39_opt_a",
+        "label": "A",
+        "content": "Menari terus-menerus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q39_opt_b",
+        "label": "B",
+        "content": "Merasa kenyang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q39_opt_c",
+        "label": "C",
+        "content": "Kehilangan semangat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q39_opt_d",
+        "label": "D",
+        "content": "Haus dan lemas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_sains_a_q40",
+    "topicId": "top_venus3_2025_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Harimau memiliki taring yang tajam dan kuku yang runcing. Kedua ciri ini sangat berguna bagi harimau untuk …",
+    "imageUrl": null,
+    "explanation": "Harimau adalah pemangsa. Kuku runcing untuk **menangkap**, taring tajam untuk **mencabik** daging mangsa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_sains_a_q40_opt_a",
+        "label": "A",
+        "content": "Mengunyah daun-daunan sebagai makanan sehari-hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q40_opt_b",
+        "label": "B",
+        "content": "Menangkap, mencabik, dan memakan hewan lain sebagai mangsanya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q40_opt_c",
+        "label": "C",
+        "content": "Menggali tanah untuk mencari akar tumbuhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_sains_a_q40_opt_d",
+        "label": "D",
+        "content": "Memetik buah-buahan dari pohon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

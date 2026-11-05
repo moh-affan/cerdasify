@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "pkg_maximus_2026_mtk_2_q01",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$305 + 21 = \\dots$",
+    "imageUrl": null,
+    "explanation": "$305 + 21 = 326$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q01_opt_a",
+        "label": "A",
+        "content": "306",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q01_opt_b",
+        "label": "B",
+        "content": "326",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q01_opt_c",
+        "label": "C",
+        "content": "515",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q01_opt_d",
+        "label": "D",
+        "content": "307",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q02",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "$411 - 99 = \\dots$",
+    "imageUrl": null,
+    "explanation": "Cara cepat: $411 - 100 = 311$, lalu tambah 1 (karena kita mengurangi 1 terlalu banyak): $311 + 1 = 312$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q02_opt_a",
+        "label": "A",
+        "content": "312",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q02_opt_b",
+        "label": "B",
+        "content": "300",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q02_opt_c",
+        "label": "C",
+        "content": "311",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q02_opt_d",
+        "label": "D",
+        "content": "322",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q03",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$200 : 50 = \\dots$",
+    "imageUrl": null,
+    "explanation": "$50 \\times 4 = 200$, jadi $200 : 50 = 4$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q03_opt_a",
+        "label": "A",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q03_opt_b",
+        "label": "B",
+        "content": "400",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q03_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q03_opt_d",
+        "label": "D",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q04",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "⚪ + ⚪ = 12\n\n🔺 + ⚪ = 13\n\nMaka 🔺 × ⚪ adalah …",
+    "imageUrl": null,
+    "explanation": "Dua lingkaran = 12, jadi ⚪ = 6. Lalu 🔺 + 6 = 13, jadi 🔺 = 7. Maka 🔺 × ⚪ = 7 × 6 = **42**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q04_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q04_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q04_opt_c",
+        "label": "C",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q04_opt_d",
+        "label": "D",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q05",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Selisih nilai angka ratusan dan nilai angka satuan pada bilangan 13.349 adalah …",
+    "imageUrl": null,
+    "explanation": "Pada 13.349, angka ratusan adalah 3 dengan nilai **300**, dan angka satuan adalah 9 dengan nilai **9**. Selisihnya $300 - 9 = 291$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q05_opt_a",
+        "label": "A",
+        "content": "290",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q05_opt_b",
+        "label": "B",
+        "content": "291",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q05_opt_c",
+        "label": "C",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q05_opt_d",
+        "label": "D",
+        "content": "-2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q06",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rel kereta api pada gambar adalah contoh garis …",
+    "imageUrl": "/uploads/maximus26_m2_rel.png",
+    "explanation": "Dua batang rel selalu berjarak sama dan tidak pernah bertemu, jadi merupakan garis **sejajar**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q06_opt_a",
+        "label": "A",
+        "content": "Sejajar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q06_opt_b",
+        "label": "B",
+        "content": "Tegak lurus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q06_opt_c",
+        "label": "C",
+        "content": "Melingkar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q06_opt_d",
+        "label": "D",
+        "content": "Diagonal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q07",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "1.000 gram = … kg",
+    "imageUrl": null,
+    "explanation": "1 kg = 1.000 gram, jadi 1.000 gram = **1 kg**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q07_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q07_opt_b",
+        "label": "B",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q07_opt_c",
+        "label": "C",
+        "content": "0,1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q07_opt_d",
+        "label": "D",
+        "content": "0",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q08",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "2 kuintal + 3 ons + 5 kg = …",
+    "imageUrl": null,
+    "explanation": "Ubah ke gram:\n- 2 kuintal = 200 kg = 200.000 gram\n- 3 ons = 300 gram\n- 5 kg = 5.000 gram\n\nJumlah $= 200.000 + 300 + 5.000 = 205.300$ gram.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q08_opt_a",
+        "label": "A",
+        "content": "205.300 gram",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q08_opt_b",
+        "label": "B",
+        "content": "200.530 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q08_opt_c",
+        "label": "C",
+        "content": "250.300 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q08_opt_d",
+        "label": "D",
+        "content": "52.300 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q09",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ayah pergi ke luar kota selama 1 minggu 4 hari. Ayah pergi selama …",
+    "imageUrl": null,
+    "explanation": "1 minggu = 7 hari. $7 + 4 = 11$ hari.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q09_opt_a",
+        "label": "A",
+        "content": "6 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q09_opt_b",
+        "label": "B",
+        "content": "12 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q09_opt_c",
+        "label": "C",
+        "content": "11 hari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q09_opt_d",
+        "label": "D",
+        "content": "7 hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q10",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Lambang bilangan Romawi dari 199 adalah …",
+    "imageUrl": null,
+    "explanation": "$199 = 100 + 90 + 9$ = C + XC + IX = **CXCIX**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q10_opt_a",
+        "label": "A",
+        "content": "CCIX",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q10_opt_b",
+        "label": "B",
+        "content": "XCCIX",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q10_opt_c",
+        "label": "C",
+        "content": "XCCX",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q10_opt_d",
+        "label": "D",
+        "content": "CXCIX",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q11",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu pergi ke pasar pukul 08.45 dan baru kembali pukul 10.00. Maka Ibu pergi ke pasar selama …",
+    "imageUrl": null,
+    "explanation": "08.45 → 09.45 = 1 jam, 09.45 → 10.00 = 15 menit. Jadi **1 jam 15 menit**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q11_opt_a",
+        "label": "A",
+        "content": "1 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q11_opt_b",
+        "label": "B",
+        "content": "1 jam 15 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q11_opt_c",
+        "label": "C",
+        "content": "2 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q11_opt_d",
+        "label": "D",
+        "content": "2 jam 15 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q12",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "$42 \\times 2 : 4 = \\dots$",
+    "imageUrl": null,
+    "explanation": "Kerjakan dari kiri: $42 \\times 2 = 84$, lalu $84 : 4 = 21$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q12_opt_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q12_opt_b",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q12_opt_c",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q12_opt_d",
+        "label": "D",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q13",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tika membeli 4 kantong buah jeruk. Masing-masing kantong memiliki berat 2,5 kg. Total berat jeruk yang dibeli Tika adalah …",
+    "imageUrl": null,
+    "explanation": "$4 \\times 2{,}5 = 10$ kg.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q13_opt_a",
+        "label": "A",
+        "content": "10 kg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q13_opt_b",
+        "label": "B",
+        "content": "100 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q13_opt_c",
+        "label": "C",
+        "content": "12,5 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q13_opt_d",
+        "label": "D",
+        "content": "7 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q14",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan gambar! Nilai $x$ adalah …",
+    "imageUrl": "/uploads/maximus26_m2_sudut.png",
+    "explanation": "Dua sudut yang bersebelahan pada garis lurus berjumlah 180°. Maka $x = 180^\\circ - 120^\\circ = 60^\\circ$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q14_opt_a",
+        "label": "A",
+        "content": "45°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q14_opt_b",
+        "label": "B",
+        "content": "90°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q14_opt_c",
+        "label": "C",
+        "content": "120°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q14_opt_d",
+        "label": "D",
+        "content": "60°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q15",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika umur Khinta 2 tahun yang lalu adalah 18 tahun, maka umur Khinta 3 tahun yang akan datang adalah …",
+    "imageUrl": null,
+    "explanation": "Umur sekarang $= 18 + 2 = 20$ tahun. Tiga tahun lagi $= 20 + 3 = 23$ tahun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q15_opt_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q15_opt_b",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q15_opt_c",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q15_opt_d",
+        "label": "D",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q16",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$64 : \\dots = 16$",
+    "imageUrl": null,
+    "explanation": "$16 \\times 4 = 64$, jadi $64 : 4 = 16$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q16_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q16_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q16_opt_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q16_opt_d",
+        "label": "D",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q17",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "$\\dfrac{3}{5} - \\dfrac{1}{2} = \\dots$",
+    "imageUrl": null,
+    "explanation": "Samakan penyebut menjadi 10: $\\frac{6}{10} - \\frac{5}{10} = \\frac{1}{10}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q17_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q17_opt_b",
+        "label": "B",
+        "content": "$\\frac{1}{10}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q17_opt_c",
+        "label": "C",
+        "content": "$\\frac{2}{10}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q17_opt_d",
+        "label": "D",
+        "content": "$\\frac{3}{10}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q18",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Teguh berlari selama 60 menit 180 detik. Jadi, lama Teguh berlari adalah …",
+    "imageUrl": null,
+    "explanation": "60 menit = 1 jam, dan 180 detik = $180 : 60 = 3$ menit. Jadi **1 jam 3 menit**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q18_opt_a",
+        "label": "A",
+        "content": "1 jam 20 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q18_opt_b",
+        "label": "B",
+        "content": "1 jam 2 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q18_opt_c",
+        "label": "C",
+        "content": "1 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q18_opt_d",
+        "label": "D",
+        "content": "1 jam 3 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q19",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kelas 3 Sekolah Pelita akan pergi *field trip* dengan menggunakan 2 bus. Jumlah peserta didik kelas 3 adalah 60 orang dan akan dibagi ke masing-masing bus sama banyak. Jumlah peserta didik pada masing-masing bus adalah …",
+    "imageUrl": null,
+    "explanation": "$60 : 2 = 30$ orang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q19_opt_a",
+        "label": "A",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q19_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q19_opt_c",
+        "label": "C",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q19_opt_d",
+        "label": "D",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q20",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan 28,9 bila dibulatkan ke bilangan bulat terdekat menjadi …",
+    "imageUrl": null,
+    "explanation": "Angka di belakang koma adalah 9 (≥ 5), jadi dibulatkan ke atas menjadi **29**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q20_opt_a",
+        "label": "A",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q20_opt_b",
+        "label": "B",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q20_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q20_opt_d",
+        "label": "D",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q21",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bagian yang diarsir pada gambar jika dinyatakan dalam bentuk pecahan adalah …",
+    "imageUrl": "/uploads/maximus26_m2_pecahan_lingkaran.png",
+    "explanation": "Lingkaran dibagi menjadi 16 bagian sama besar, dan 12 bagian diarsir (4 bagian putih). Pecahannya $\\frac{12}{16} = \\frac{3}{4}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q21_opt_a",
+        "label": "A",
+        "content": "$\\frac{12}{10}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q21_opt_b",
+        "label": "B",
+        "content": "$\\frac{3}{4}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q21_opt_c",
+        "label": "C",
+        "content": "$\\frac{4}{3}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q21_opt_d",
+        "label": "D",
+        "content": "$\\frac{2}{5}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q22",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Segelas air … seember air.",
+    "imageUrl": null,
+    "explanation": "Ember jauh lebih besar dari gelas, jadi segelas air **lebih sedikit** daripada seember air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q22_opt_a",
+        "label": "A",
+        "content": "Lebih sedikit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q22_opt_b",
+        "label": "B",
+        "content": "Sama banyak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q22_opt_c",
+        "label": "C",
+        "content": "Lebih banyak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q22_opt_d",
+        "label": "D",
+        "content": "Lebih besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q23",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ayah membeli 2 baju kemeja dan 1 celana pendek dengan harga Rp202.000,00. Jika Kakak membeli 4 baju dan 2 celana pendek dengan harga yang sama, maka harga yang harus dibayar Kakak adalah …",
+    "imageUrl": null,
+    "explanation": "Belanjaan Kakak tepat dua kali belanjaan Ayah ($4 = 2 \\times 2$ baju, $2 = 2 \\times 1$ celana). Harganya $2 \\times 202.000 = 404.000$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q23_opt_a",
+        "label": "A",
+        "content": "Rp400.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q23_opt_b",
+        "label": "B",
+        "content": "Rp402.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q23_opt_c",
+        "label": "C",
+        "content": "Rp404.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q23_opt_d",
+        "label": "D",
+        "content": "Rp202.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q24",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pak RT memiliki 5 karung beras yang masing-masing berisi 25 kg beras. Jika beras akan dibagikan kepada 25 orang warga, maka masing-masing warga akan mendapatkan beras sebanyak …",
+    "imageUrl": null,
+    "explanation": "Total beras $= 5 \\times 25 = 125$ kg. Tiap warga $= 125 : 25 = 5$ kg.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q24_opt_a",
+        "label": "A",
+        "content": "20 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q24_opt_b",
+        "label": "B",
+        "content": "1 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q24_opt_c",
+        "label": "C",
+        "content": "5 kg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q24_opt_d",
+        "label": "D",
+        "content": "10 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_mtk_2_q25",
+    "topicId": "top_maximus_2026_mtk_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Umur Kakek 9 windu kurang 6 tahun, sedangkan umur Ayah 3 dasawarsa lebih 8 tahun. Selisih umur mereka adalah … tahun",
+    "imageUrl": null,
+    "explanation": "1 windu = 8 tahun, 1 dasawarsa = 10 tahun.\n- Kakek: $9 \\times 8 - 6 = 72 - 6 = 66$ tahun\n- Ayah: $3 \\times 10 + 8 = 38$ tahun\n\nSelisih $= 66 - 38 = 28$ tahun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_mtk_2_q25_opt_a",
+        "label": "A",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q25_opt_b",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q25_opt_c",
+        "label": "C",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_mtk_2_q25_opt_d",
+        "label": "D",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

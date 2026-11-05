@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "pkg_maximus_2026_ing_2_q01",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Your mother's father is your …",
+    "imageUrl": null,
+    "explanation": "Ayah dari ibu adalah kakek (*grandfather*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q01_opt_a",
+        "label": "A",
+        "content": "brother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q01_opt_b",
+        "label": "B",
+        "content": "father",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q01_opt_c",
+        "label": "C",
+        "content": "grandmother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q01_opt_d",
+        "label": "D",
+        "content": "grandfather",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q02",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I … listening to the teacher.",
+    "imageUrl": null,
+    "explanation": "Subjek *I* memakai *to be* **am**: *I am listening to the teacher.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q02_opt_a",
+        "label": "A",
+        "content": "is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q02_opt_b",
+        "label": "B",
+        "content": "are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q02_opt_c",
+        "label": "C",
+        "content": "am",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q02_opt_d",
+        "label": "D",
+        "content": "has",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q03",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The number that comes before five is …",
+    "imageUrl": null,
+    "explanation": "Sebelum 5 (*five*) adalah 4 (*four*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q03_opt_a",
+        "label": "A",
+        "content": "six",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q03_opt_b",
+        "label": "B",
+        "content": "three",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q03_opt_c",
+        "label": "C",
+        "content": "four",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q03_opt_d",
+        "label": "D",
+        "content": "seven",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q04",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "When you leave your friends in the afternoon, you can say …",
+    "imageUrl": null,
+    "explanation": "Saat berpisah kita mengucapkan **Goodbye**. *Good morning/evening* adalah sapaan saat bertemu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q04_opt_a",
+        "label": "A",
+        "content": "Good morning",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q04_opt_b",
+        "label": "B",
+        "content": "Good evening",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q04_opt_c",
+        "label": "C",
+        "content": "How are you?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q04_opt_d",
+        "label": "D",
+        "content": "Goodbye",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q05",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Your father's son is your …",
+    "imageUrl": null,
+    "explanation": "Anak laki-laki ayah (selain dirimu) adalah saudara laki-laki (*brother*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q05_opt_a",
+        "label": "A",
+        "content": "sister",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q05_opt_b",
+        "label": "B",
+        "content": "mother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q05_opt_c",
+        "label": "C",
+        "content": "brother",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q05_opt_d",
+        "label": "D",
+        "content": "grandfather",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q06",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I have one fish and one cat. How many pets do I have?",
+    "imageUrl": null,
+    "explanation": "$1 + 1 = 2$ hewan peliharaan (*two*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q06_opt_a",
+        "label": "A",
+        "content": "One",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q06_opt_b",
+        "label": "B",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q06_opt_c",
+        "label": "C",
+        "content": "Four",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q06_opt_d",
+        "label": "D",
+        "content": "Two",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q07",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "An elephant has a long …",
+    "imageUrl": null,
+    "explanation": "Belalai gajah sebenarnya adalah hidung yang panjang (*long nose*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q07_opt_a",
+        "label": "A",
+        "content": "ear",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q07_opt_b",
+        "label": "B",
+        "content": "mouth",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q07_opt_c",
+        "label": "C",
+        "content": "nose",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q07_opt_d",
+        "label": "D",
+        "content": "leg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q08",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Which sentence expresses a negative preference (something we don't like)?",
+    "imageUrl": null,
+    "explanation": "Kalimat yang menyatakan tidak suka memakai *don't/doesn't like*: **He doesn't like cabbage.**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q08_opt_a",
+        "label": "A",
+        "content": "I like milk.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q08_opt_b",
+        "label": "B",
+        "content": "My mother likes chicken.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q08_opt_c",
+        "label": "C",
+        "content": "He doesn't like cabbage.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q08_opt_d",
+        "label": "D",
+        "content": "We like to play.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q09",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "*Sixteen* in number is …",
+    "imageUrl": null,
+    "explanation": "*Sixteen* = enam belas = **16**. *Sixty* = 60.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q09_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q09_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q09_opt_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q09_opt_d",
+        "label": "D",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q10",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! I don't like … It is too sour.",
+    "imageUrl": "/uploads/maximus26_e2_jeruk.png",
+    "explanation": "Gambar menunjukkan jeruk (*orange*), buah yang rasanya bisa sangat asam (*sour*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q10_opt_a",
+        "label": "A",
+        "content": "orange",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q10_opt_b",
+        "label": "B",
+        "content": "banana",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q10_opt_c",
+        "label": "C",
+        "content": "grape",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q10_opt_d",
+        "label": "D",
+        "content": "watermelon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q11",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "A: Does your sister like milk?\nB: Yes, she …",
+    "imageUrl": null,
+    "explanation": "Pertanyaan dengan *does* dijawab positif dengan **does**: *Yes, she does.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q11_opt_a",
+        "label": "A",
+        "content": "do",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q11_opt_b",
+        "label": "B",
+        "content": "doesn't",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q11_opt_c",
+        "label": "C",
+        "content": "does",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q11_opt_d",
+        "label": "D",
+        "content": "don't",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q12",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Do you like bananas?",
+    "imageUrl": null,
+    "explanation": "Jawaban yang benar untuk *Do you…?* adalah **Yes, I do** atau *No, I don't*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q12_opt_a",
+        "label": "A",
+        "content": "Yes, I do not.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q12_opt_b",
+        "label": "B",
+        "content": "No, I likes.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q12_opt_c",
+        "label": "C",
+        "content": "Yes, I do.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q12_opt_d",
+        "label": "D",
+        "content": "No, I am.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q13",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I like fried chicken. I usually … it for dinner.",
+    "imageUrl": null,
+    "explanation": "Ayam goreng dimakan: *I usually **eat** it for dinner.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q13_opt_a",
+        "label": "A",
+        "content": "drink",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q13_opt_b",
+        "label": "B",
+        "content": "eat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q13_opt_c",
+        "label": "C",
+        "content": "walks",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q13_opt_d",
+        "label": "D",
+        "content": "sleeps",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q14",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "When you talk about food, you say …",
+    "imageUrl": null,
+    "explanation": "Dalam bahasa Inggris, sup dimakan dengan sendok sehingga lazim dikatakan **I eat soup**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q14_opt_a",
+        "label": "A",
+        "content": "I drink soup.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q14_opt_b",
+        "label": "B",
+        "content": "I eat soup.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q14_opt_c",
+        "label": "C",
+        "content": "I walk soup.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q14_opt_d",
+        "label": "D",
+        "content": "I sleep soup.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q15",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which one is a drink?",
+    "imageUrl": null,
+    "explanation": "Minuman adalah teh (*tea*). Kue, roti, dan sup adalah makanan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q15_opt_a",
+        "label": "A",
+        "content": "Cake",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q15_opt_b",
+        "label": "B",
+        "content": "Bread",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q15_opt_c",
+        "label": "C",
+        "content": "Soup",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q15_opt_d",
+        "label": "D",
+        "content": "Tea",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q16",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Complete the question based on the answer: \"There are eighteen students.\"",
+    "imageUrl": null,
+    "explanation": "Jawaban menyebut jumlah, jadi pertanyaannya memakai **How many**: *How many students are there?*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q16_opt_a",
+        "label": "A",
+        "content": "Where are the students?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q16_opt_b",
+        "label": "B",
+        "content": "How many students are there?",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q16_opt_c",
+        "label": "C",
+        "content": "Is there a student?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q16_opt_d",
+        "label": "D",
+        "content": "Do you like the students?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q17",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "My name is Lina. I have a sister named Dita. Dita is 5 years old, and I am 7 years old. Compared to Dita, I am …",
+    "imageUrl": null,
+    "explanation": "Lina 7 tahun, Dita 5 tahun, jadi Lina **lebih tua** (*older*). Hanya pilihan A yang memuat *older*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q17_opt_a",
+        "label": "A",
+        "content": "older/taller",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q17_opt_b",
+        "label": "B",
+        "content": "younger/shorter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q17_opt_c",
+        "label": "C",
+        "content": "smaller",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q17_opt_d",
+        "label": "D",
+        "content": "bigger/shorter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q18",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "… sixteen boxes.",
+    "imageUrl": null,
+    "explanation": "*Sixteen boxes* jamak, jadi memakai **There are**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q18_opt_a",
+        "label": "A",
+        "content": "There is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q18_opt_b",
+        "label": "B",
+        "content": "There are",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q18_opt_c",
+        "label": "C",
+        "content": "It is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q18_opt_d",
+        "label": "D",
+        "content": "He is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q19",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "A: Is that Ani's bag?\nB: Yes, that is … bag.",
+    "imageUrl": null,
+    "explanation": "Ani perempuan, jadi kata ganti kepemilikannya **her**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q19_opt_a",
+        "label": "A",
+        "content": "his",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q19_opt_b",
+        "label": "B",
+        "content": "your",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q19_opt_c",
+        "label": "C",
+        "content": "her",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q19_opt_d",
+        "label": "D",
+        "content": "my",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q20",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "If the answer is \"No, I don't,\" the question is …",
+    "imageUrl": null,
+    "explanation": "Jawaban *No, I don't* menjawab pertanyaan dengan *Do you…?*, yaitu **Do you like water?**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q20_opt_a",
+        "label": "A",
+        "content": "Does he like apples?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q20_opt_b",
+        "label": "B",
+        "content": "Do you like water?",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q20_opt_c",
+        "label": "C",
+        "content": "Does she like juice?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q20_opt_d",
+        "label": "D",
+        "content": "Do they likes food?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q21",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the box. There are 10 pencils, 5 erasers, and 4 rulers. How many stationery items are there in total?",
+    "imageUrl": null,
+    "explanation": "$10 + 5 + 4 = 19$, *nineteen*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q21_opt_a",
+        "label": "A",
+        "content": "Fourteen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q21_opt_b",
+        "label": "B",
+        "content": "Nineteen",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q21_opt_c",
+        "label": "C",
+        "content": "Twenty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q21_opt_d",
+        "label": "D",
+        "content": "Fifteen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q22",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which word is NOT a color?",
+    "imageUrl": null,
+    "explanation": "*Small* berarti kecil (ukuran), bukan warna.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q22_opt_a",
+        "label": "A",
+        "content": "Pink",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q22_opt_b",
+        "label": "B",
+        "content": "Purple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q22_opt_c",
+        "label": "C",
+        "content": "Brown",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q22_opt_d",
+        "label": "D",
+        "content": "Small",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q23",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "If you mix red and white, you get the color …",
+    "imageUrl": null,
+    "explanation": "Merah dicampur putih menghasilkan warna merah muda (*pink*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q23_opt_a",
+        "label": "A",
+        "content": "blue",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q23_opt_b",
+        "label": "B",
+        "content": "green",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q23_opt_c",
+        "label": "C",
+        "content": "pink",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q23_opt_d",
+        "label": "D",
+        "content": "orange",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_ing_2_q24",
+    "topicId": "top_maximus_2026_ing_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A slice of pizza is often shaped like a …",
+    "imageUrl": null,
+    "explanation": "Sepotong pizza bulat berbentuk segitiga (*triangle*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_ing_2_q24_opt_a",
+        "label": "A",
+        "content": "circle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q24_opt_b",
+        "label": "B",
+        "content": "square",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q24_opt_c",
+        "label": "C",
+        "content": "triangle",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_ing_2_q24_opt_d",
+        "label": "D",
+        "content": "big",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

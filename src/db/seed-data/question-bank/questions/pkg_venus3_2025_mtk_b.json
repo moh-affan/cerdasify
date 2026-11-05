@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "pkg_venus3_2025_mtk_b_q01",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bilangan 5.678 dibaca …",
+    "imageUrl": null,
+    "explanation": "5.678 = 5.000 + 600 + 70 + 8, dibaca **lima ribu enam ratus tujuh puluh delapan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q01_opt_a",
+        "label": "A",
+        "content": "Lima ribu enam ratus tujuh puluh delapan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q01_opt_b",
+        "label": "B",
+        "content": "Lima puluh enam ribu tujuh ratus delapan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q01_opt_c",
+        "label": "C",
+        "content": "Lima ratus enam puluh delapan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q01_opt_d",
+        "label": "D",
+        "content": "Lima ribu tujuh ratus delapan puluh enam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q02",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Udin memiliki kotak mainan berbentuk kubus dengan panjang rusuk 15 cm. Volume kotak mainan Udin adalah …",
+    "imageUrl": null,
+    "explanation": "Volume kubus $= s \\times s \\times s = 15 \\times 15 \\times 15 = 225 \\times 15 = 3.375$ cm³.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q02_opt_a",
+        "label": "A",
+        "content": "225 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q02_opt_b",
+        "label": "B",
+        "content": "3.375 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q02_opt_c",
+        "label": "C",
+        "content": "4.500 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q02_opt_d",
+        "label": "D",
+        "content": "6.750 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q03",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bilangan yang tepat untuk mengisi titik-titik berikut adalah …\n\n3.567, …, 3.569",
+    "imageUrl": null,
+    "explanation": "Bilangan di antara 3.567 dan 3.569 adalah **3.568**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q03_opt_a",
+        "label": "A",
+        "content": "3.566",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q03_opt_b",
+        "label": "B",
+        "content": "3.568",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q03_opt_c",
+        "label": "C",
+        "content": "3.570",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q03_opt_d",
+        "label": "D",
+        "content": "3.571",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q04",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Stella memiliki 20 buah apel. Ia ingin membagikan apel tersebut kepada 4 temannya sama rata. Jumlah apel yang diterima setiap temannya adalah …",
+    "imageUrl": null,
+    "explanation": "$20 : 4 = 5$ apel.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q04_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q04_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q04_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q04_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q05",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat yang tepat untuk mengukur panjang sebuah pensil adalah …",
+    "imageUrl": null,
+    "explanation": "Panjang diukur dengan **penggaris**. Timbangan untuk berat, gelas ukur untuk volume, jam untuk waktu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q05_opt_a",
+        "label": "A",
+        "content": "Timbangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q05_opt_b",
+        "label": "B",
+        "content": "Gelas ukur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q05_opt_c",
+        "label": "C",
+        "content": "Penggaris",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q05_opt_d",
+        "label": "D",
+        "content": "Jam dinding",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q06",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Satuan panjang yang lebih pendek dari meter adalah …",
+    "imageUrl": null,
+    "explanation": "Tangga satuan: km – hm – dam – **m** – dm – cm – mm. Yang lebih pendek dari meter adalah **sentimeter**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q06_opt_a",
+        "label": "A",
+        "content": "Kilometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q06_opt_b",
+        "label": "B",
+        "content": "Sentimeter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q06_opt_c",
+        "label": "C",
+        "content": "Dekameter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q06_opt_d",
+        "label": "D",
+        "content": "Hektometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q07",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah akuarium berbentuk kubus dengan panjang sisi 20 cm. Volume akuarium tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "$20 \\times 20 \\times 20 = 8.000$ cm³.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q07_opt_a",
+        "label": "A",
+        "content": "400 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q07_opt_b",
+        "label": "B",
+        "content": "8.000 cm³",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q07_opt_c",
+        "label": "C",
+        "content": "16.000 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q07_opt_d",
+        "label": "D",
+        "content": "32.000 cm³",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q08",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pak Budi memiliki 3.500 ekor ayam dan Pak Andi memiliki 2.800 ekor ayam. Jumlah ayam mereka berdua adalah …",
+    "imageUrl": null,
+    "explanation": "$3.500 + 2.800 = 6.300$ ekor.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q08_opt_a",
+        "label": "A",
+        "content": "5.300 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q08_opt_b",
+        "label": "B",
+        "content": "6.300 ekor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q08_opt_c",
+        "label": "C",
+        "content": "7.300 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q08_opt_d",
+        "label": "D",
+        "content": "8.300 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q09",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah pabrik menghasilkan 2.300 buah mainan mobil-mobilan setiap hari. Banyak mainan yang dihasilkan selama 2 hari adalah …",
+    "imageUrl": null,
+    "explanation": "$2 \\times 2.300 = 4.600$ buah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q09_opt_a",
+        "label": "A",
+        "content": "4.600 buah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q09_opt_b",
+        "label": "B",
+        "content": "4.700 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q09_opt_c",
+        "label": "C",
+        "content": "4.800 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q09_opt_d",
+        "label": "D",
+        "content": "4.900 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q10",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Umur Sella adalah 13 tahun kurang 10 hari, maka umur Sella adalah … bulan (1 bulan = 30 hari)",
+    "imageUrl": null,
+    "explanation": "13 tahun $= 13 \\times 12 = 156$ bulan. 10 hari $= \\frac{10}{30} = \\frac{1}{3}$ bulan. Umur Sella $= 156 - \\frac{1}{3} = 155\\frac{2}{3}$ bulan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q10_opt_a",
+        "label": "A",
+        "content": "$154\\frac{1}{3}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q10_opt_b",
+        "label": "B",
+        "content": "$154\\frac{2}{3}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q10_opt_c",
+        "label": "C",
+        "content": "$155\\frac{1}{3}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q10_opt_d",
+        "label": "D",
+        "content": "$155\\frac{2}{3}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q11",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Safik lebih tua 9 tahun dari Nasrul. Saat ini jumlah umur mereka 55 tahun. Umur Safik 4 tahun yang akan datang adalah …",
+    "imageUrl": null,
+    "explanation": "Umur Safik $= (55 + 9) : 2 = 32$ tahun (Nasrul 23 tahun). Empat tahun lagi Safik berumur $32 + 4 = 36$ tahun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q11_opt_a",
+        "label": "A",
+        "content": "35 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q11_opt_b",
+        "label": "B",
+        "content": "36 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q11_opt_c",
+        "label": "C",
+        "content": "37 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q11_opt_d",
+        "label": "D",
+        "content": "38 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q12",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ibu Mekar membuat 72 kue bolu dan 64 kue donat. Kue-kue itu akan dikemas dalam toples sehingga setiap toples berisi kue yang sama banyak dan jumlah toplesnya sebanyak mungkin. Banyak toples yang dibutuhkan, serta banyak kue bolu dan kue donat di setiap toples berturut-turut adalah …",
+    "imageUrl": null,
+    "explanation": "Banyak toples = FPB(72, 64) = **8**. Setiap toples berisi $72 : 8 = 9$ kue bolu dan $64 : 8 = 8$ kue donat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q12_opt_a",
+        "label": "A",
+        "content": "8 toples, 8 kue bolu, dan 9 kue donat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q12_opt_b",
+        "label": "B",
+        "content": "9 toples, 9 kue bolu, dan 8 kue donat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q12_opt_c",
+        "label": "C",
+        "content": "9 toples, 8 kue bolu, dan 6 kue donat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q12_opt_d",
+        "label": "D",
+        "content": "8 toples, 9 kue bolu, dan 8 kue donat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q13",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "$36 = 2m + 2m + 2m$. Nilai $m$ yang tepat adalah …",
+    "imageUrl": null,
+    "explanation": "$2m + 2m + 2m = 6m = 36$, jadi $m = 6$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q13_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q13_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q13_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q13_opt_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q14",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari $168 + 32 + 87 + 63 - 75 = \\dots$",
+    "imageUrl": null,
+    "explanation": "Pasangkan yang mudah: $168 + 32 = 200$ dan $87 + 63 = 150$. Lalu $200 + 150 - 75 = 275$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q14_opt_a",
+        "label": "A",
+        "content": "185",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q14_opt_b",
+        "label": "B",
+        "content": "235",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q14_opt_c",
+        "label": "C",
+        "content": "265",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q14_opt_d",
+        "label": "D",
+        "content": "275",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q15",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai dari $4 + 2 \\times 6 - 7 + 2 = \\dots$",
+    "imageUrl": null,
+    "explanation": "Kali dulu: $2 \\times 6 = 12$. Lalu $4 + 12 - 7 + 2 = 11$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q15_opt_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q15_opt_b",
+        "label": "B",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q15_opt_c",
+        "label": "C",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q15_opt_d",
+        "label": "D",
+        "content": "31",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q16",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai dari $2 + 0 + 19 \\times 2 - 0 + 19 = \\dots$",
+    "imageUrl": null,
+    "explanation": "Kali dulu: $19 \\times 2 = 38$. Lalu $2 + 0 + 38 - 0 + 19 = 59$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q16_opt_a",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q16_opt_b",
+        "label": "B",
+        "content": "59",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q16_opt_c",
+        "label": "C",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q16_opt_d",
+        "label": "D",
+        "content": "61",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q17",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai dari $3 \\times 4 - 5 \\times 6 + 7 \\times 8 - 9 = \\dots$",
+    "imageUrl": null,
+    "explanation": "Kali dulu: $12 - 30 + 56 - 9$. Dari kiri: $12 - 30 = -18$, $-18 + 56 = 38$, $38 - 9 = 29$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q17_opt_a",
+        "label": "A",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q17_opt_b",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q17_opt_c",
+        "label": "C",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q17_opt_d",
+        "label": "D",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q18",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dua ratus lima ditambah seratus enam puluh sembilan dikurangi tujuh belas sama dengan …",
+    "imageUrl": null,
+    "explanation": "$205 + 169 - 17 = 374 - 17 = 357$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q18_opt_a",
+        "label": "A",
+        "content": "374",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q18_opt_b",
+        "label": "B",
+        "content": "367",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q18_opt_c",
+        "label": "C",
+        "content": "357",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q18_opt_d",
+        "label": "D",
+        "content": "354",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q19",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan kumpulan bilangan berikut!\n\n46, 42, 25, 39, 18, 30, 32, 26\n\nJumlah dari bilangan yang terbesar dengan bilangan yang terkecil adalah …",
+    "imageUrl": null,
+    "explanation": "Terbesar 46, terkecil 18. Jumlahnya $46 + 18 = 64$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q19_opt_a",
+        "label": "A",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q19_opt_b",
+        "label": "B",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q19_opt_c",
+        "label": "C",
+        "content": "58",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q19_opt_d",
+        "label": "D",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q20",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Diketahui barisan bilangan berikut:\n\n1, 5, 10, 14, 28, 32, …, …, 136\n\nJumlah nilai bilangan ke-7 dan bilangan ke-8 adalah …",
+    "imageUrl": null,
+    "explanation": "Polanya bergantian **+4** lalu **×2**: $1 \\xrightarrow{+4} 5 \\xrightarrow{\\times 2} 10 \\xrightarrow{+4} 14 \\xrightarrow{\\times 2} 28 \\xrightarrow{+4} 32 \\xrightarrow{\\times 2} 64 \\xrightarrow{+4} 68 \\xrightarrow{\\times 2} 136$ ✓\n\nBilangan ke-7 = 64 dan ke-8 = 68. Jumlahnya $64 + 68 = 132$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q20_opt_a",
+        "label": "A",
+        "content": "128",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q20_opt_b",
+        "label": "B",
+        "content": "129",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q20_opt_c",
+        "label": "C",
+        "content": "132",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q20_opt_d",
+        "label": "D",
+        "content": "136",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q21",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Cece dan Hengki masing-masing mempunyai permen yang sama banyak. Jika Ibu memberi mereka masing-masing 4 permen, maka jumlah permen mereka seluruhnya menjadi 22. Jumlah permen Cece mula-mula sebelum diberi Ibu adalah …",
+    "imageUrl": null,
+    "explanation": "Setelah diberi, masing-masing punya $22 : 2 = 11$ permen. Mula-mula $11 - 4 = 7$ permen.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q21_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q21_opt_b",
+        "label": "B",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q21_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q21_opt_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q22",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah 8 bilangan asli kelipatan tiga yang pertama adalah …",
+    "imageUrl": null,
+    "explanation": "$3 + 6 + 9 + \\dots + 24 = 3 \\times (1 + 2 + \\dots + 8) = 3 \\times 36 = 108$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q22_opt_a",
+        "label": "A",
+        "content": "96",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q22_opt_b",
+        "label": "B",
+        "content": "98",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q22_opt_c",
+        "label": "C",
+        "content": "102",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q22_opt_d",
+        "label": "D",
+        "content": "108",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q23",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Payza membaca sebuah buku cerita. Ternyata kedua nomor halaman yang tampak bila dijumlahkan hasilnya 53. Hasil kali kedua nomor halaman tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Dua halaman yang tampak berurutan: $n + (n + 1) = 53 \\Rightarrow n = 26$. Halaman 26 dan 27, hasil kalinya $26 \\times 27 = 702$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q23_opt_a",
+        "label": "A",
+        "content": "712",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q23_opt_b",
+        "label": "B",
+        "content": "702",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q23_opt_c",
+        "label": "C",
+        "content": "692",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q23_opt_d",
+        "label": "D",
+        "content": "672",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q24",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pak Gani mempunyai 3 keranjang buah durian. Keranjang A berisi 31 buah, keranjang B berisi 6 buah, dan keranjang C berisi 5 buah. Jumlah buah yang harus dipindahkan dari keranjang A agar semua keranjang berisi durian yang sama banyak adalah …",
+    "imageUrl": null,
+    "explanation": "Total durian $= 31 + 6 + 5 = 42$, sehingga tiap keranjang harus berisi $42 : 3 = 14$. Dari keranjang A harus dipindahkan $31 - 14 = 17$ buah (8 ke B dan 9 ke C).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q24_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q24_opt_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q24_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q24_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q25",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ningsih naik kereta api dari Surakarta ke Jakarta. Ia berangkat hari Minggu pukul 20.30 WIB dan tiba di Jakarta hari Senin pukul 05.15 WIB. Lama perjalanan Ningsih adalah …",
+    "imageUrl": null,
+    "explanation": "20.30 → 24.00 = 3 jam 30 menit, lalu 00.00 → 05.15 = 5 jam 15 menit. Total **8 jam 45 menit**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q25_opt_a",
+        "label": "A",
+        "content": "8 jam 05 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q25_opt_b",
+        "label": "B",
+        "content": "8 jam 15 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q25_opt_c",
+        "label": "C",
+        "content": "8 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q25_opt_d",
+        "label": "D",
+        "content": "8 jam 45 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q26",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Bu Kadek menuliskan bilangan dari 15 sampai dengan 115. Banyak angka 1 yang dituliskan Bu Kadek adalah …",
+    "imageUrl": null,
+    "explanation": "- 15–19: angka 1 di puluhan → 5\n- 21, 31, …, 91: angka 1 di satuan → 8\n- 100–115: angka 1 di ratusan → 16\n- 110–115: angka 1 di puluhan → 6\n- 101 dan 111: angka 1 di satuan → 2\n\nTotal $= 5 + 8 + 16 + 6 + 2 = 37$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q26_opt_a",
+        "label": "A",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q26_opt_b",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q26_opt_c",
+        "label": "C",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q26_opt_d",
+        "label": "D",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q27",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah kelereng Danu (D) adalah 8 lebih sedikit dari dua kali jumlah kelereng yang dimiliki Kayla (K). Kalimat matematika yang tepat dari pernyataan tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Dua kali kelereng Kayla $= 2K$, lalu 8 lebih sedikit: $D = 2K - 8$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q27_opt_a",
+        "label": "A",
+        "content": "$D = K - 8$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q27_opt_b",
+        "label": "B",
+        "content": "$2K = 8 - D$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q27_opt_c",
+        "label": "C",
+        "content": "$D = 2K - 8$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q27_opt_d",
+        "label": "D",
+        "content": "$D = 8 - 2K$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q28",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Waktu yang diperlukan Reza untuk berlari mengelilingi sebuah lapangan adalah 7 menit 13 detik, sedangkan Jona 6 menit 35 detik. Berapa detik lebih cepat waktu yang dicapai Jona daripada Reza?",
+    "imageUrl": null,
+    "explanation": "Reza $= 7 \\times 60 + 13 = 433$ detik, Jona $= 6 \\times 60 + 35 = 395$ detik. Selisih $= 433 - 395 = 38$ detik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q28_opt_a",
+        "label": "A",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q28_opt_b",
+        "label": "B",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q28_opt_c",
+        "label": "C",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q28_opt_d",
+        "label": "D",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q29",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah trapesium mempunyai luas 171 cm². Jika jumlah sisi sejajarnya 18 cm, maka tingginya adalah … cm",
+    "imageUrl": null,
+    "explanation": "Luas trapesium $= \\frac{\\text{jumlah sisi sejajar} \\times t}{2}$: $171 = \\frac{18 \\times t}{2} = 9t \\Rightarrow t = 19$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q29_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q29_opt_b",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q29_opt_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q29_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q30",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bentuk persen dari $\\frac{3}{8}$ adalah …",
+    "imageUrl": null,
+    "explanation": "$\\frac{3}{8} \\times 100\\% = \\frac{300}{8}\\% = 37{,}5\\%$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q30_opt_a",
+        "label": "A",
+        "content": "12,5%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q30_opt_b",
+        "label": "B",
+        "content": "37,5%",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q30_opt_c",
+        "label": "C",
+        "content": "60%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q30_opt_d",
+        "label": "D",
+        "content": "85%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q31",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Gina memiliki satu senar gitar. $\\frac{1}{8}$ panjangnya berwarna biru, $\\frac{2}{3}$ panjangnya berwarna merah, dan sisanya sepanjang 5 cm. Panjang senar itu adalah …",
+    "imageUrl": null,
+    "explanation": "Bagian berwarna $= \\frac{1}{8} + \\frac{2}{3} = \\frac{3}{24} + \\frac{16}{24} = \\frac{19}{24}$. Sisanya $\\frac{5}{24}$ bagian $= 5$ cm, jadi $\\frac{1}{24}$ bagian $= 1$ cm. Panjang senar $= 24$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q31_opt_a",
+        "label": "A",
+        "content": "16 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q31_opt_b",
+        "label": "B",
+        "content": "14 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q31_opt_c",
+        "label": "C",
+        "content": "21 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q31_opt_d",
+        "label": "D",
+        "content": "24 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q32",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ibu membeli minyak goreng 2 liter dengan harga Rp12.500,00/liter, 3 kg telur dengan harga Rp11.750,00/kg, beras 5 kg dengan harga Rp9.500,00/kg, dan 2 kg gula pasir dengan harga Rp14.700,00/kg. Jika Ibu membawa 4 lembar uang lima puluh ribuan, uang kembalian Ibu adalah …",
+    "imageUrl": null,
+    "explanation": "- Minyak: $2 \\times 12.500 = 25.000$\n- Telur: $3 \\times 11.750 = 35.250$\n- Beras: $5 \\times 9.500 = 47.500$\n- Gula: $2 \\times 14.700 = 29.400$\n\nTotal $= 137.150$. Uang Ibu $= 4 \\times 50.000 = 200.000$. Kembalian $= 200.000 - 137.150 = 62.850$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q32_opt_a",
+        "label": "A",
+        "content": "Rp200.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q32_opt_b",
+        "label": "B",
+        "content": "Rp62.850,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q32_opt_c",
+        "label": "C",
+        "content": "Rp137.150,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q32_opt_d",
+        "label": "D",
+        "content": "Rp25.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q33",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "FPB dari 125, 240, dan 375 adalah …",
+    "imageUrl": null,
+    "explanation": "$125 = 5^3$, $240 = 2^4 \\times 3 \\times 5$, $375 = 3 \\times 5^3$. Faktor prima yang sama dengan pangkat terkecil hanya $5$, jadi FPB $= 5$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q33_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q33_opt_b",
+        "label": "B",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q33_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q33_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q34",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sudut $\\frac{2}{5}$ putaran besarnya adalah …",
+    "imageUrl": null,
+    "explanation": "Satu putaran $= 360^\\circ$. $\\frac{2}{5} \\times 360^\\circ = 144^\\circ$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q34_opt_a",
+        "label": "A",
+        "content": "60°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q34_opt_b",
+        "label": "B",
+        "content": "72°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q34_opt_c",
+        "label": "C",
+        "content": "144°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q34_opt_d",
+        "label": "D",
+        "content": "160°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q35",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Aku adalah sebuah bilangan. Jika aku dikalikan 12 kemudian dikurangi 8, hasilnya adalah 64. Aku adalah bilangan …",
+    "imageUrl": null,
+    "explanation": "Mundur: $64 + 8 = 72$, lalu $72 : 12 = 6$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q35_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q35_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q35_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q35_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_b_q36",
+    "topicId": "top_venus3_2025_mtk_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah ayam Paman Joni adalah $\\frac{3}{5}$ dari ayam Ayah. Jika Ayah memiliki 65 ekor ayam, jumlah ayam Paman adalah …",
+    "imageUrl": null,
+    "explanation": "$\\frac{3}{5} \\times 65 = 3 \\times 13 = 39$ ekor.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_b_q36_opt_a",
+        "label": "A",
+        "content": "24 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q36_opt_b",
+        "label": "B",
+        "content": "35 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q36_opt_c",
+        "label": "C",
+        "content": "37 ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_b_q36_opt_d",
+        "label": "D",
+        "content": "39 ekor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

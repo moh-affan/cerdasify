@@ -1,0 +1,1778 @@
+[
+  {
+    "id": "pkg_venus3_2025_ing_a_q01",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "When you go home from school (in the afternoon), what should you say?",
+    "imageUrl": null,
+    "explanation": "Pulang sekolah terjadi siang hari, jadi kita mengucapkan **Good afternoon**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q01_opt_a",
+        "label": "A",
+        "content": "Good night",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q01_opt_b",
+        "label": "B",
+        "content": "Good morning",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q01_opt_c",
+        "label": "C",
+        "content": "Good evening",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q01_opt_d",
+        "label": "D",
+        "content": "Good afternoon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q02",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I can see ____ in the late afternoon.",
+    "imageUrl": null,
+    "explanation": "Pada sore hari menjelang malam kita melihat matahari terbenam (*sunset*). *Sunrise* terjadi pagi hari.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q02_opt_a",
+        "label": "A",
+        "content": "sunrise",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q02_opt_b",
+        "label": "B",
+        "content": "sunset",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q02_opt_c",
+        "label": "C",
+        "content": "dark sky",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q02_opt_d",
+        "label": "D",
+        "content": "nothing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q03",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Day (Soal No. 3 – 5)]\n*Read the text to answer the questions!*\n\nFirst, I wake up. Then, I get dressed. I walk to school. I do not ride a bike. I do not ride the bus. I like to go to school. It rains. I do not like rain. I eat lunch. I eat a sandwich and an apple. I play outside. I like to play. I read a book. I like to read books. I walk home. I do not like walking home. My mother cooks soup for dinner. The soup is hot. Then, I go to bed. I do not like to go to bed.\n:::\n\nHow does the writer go to school?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"I walk to school. I do not ride a bike. I do not ride the bus.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q03_opt_a",
+        "label": "A",
+        "content": "I ride a bus.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q03_opt_b",
+        "label": "B",
+        "content": "I ride a bike.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q03_opt_c",
+        "label": "C",
+        "content": "I walk.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q03_opt_d",
+        "label": "D",
+        "content": "I drive a car.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q04",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[My Day (Soal No. 3 – 5)]\n*Read the text to answer the questions!*\n\nFirst, I wake up. Then, I get dressed. I walk to school. I do not ride a bike. I do not ride the bus. I like to go to school. It rains. I do not like rain. I eat lunch. I eat a sandwich and an apple. I play outside. I like to play. I read a book. I like to read books. I walk home. I do not like walking home. My mother cooks soup for dinner. The soup is hot. Then, I go to bed. I do not like to go to bed.\n:::\n\nWhat does the writer like?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"I like to read books.\"* Penulis tidak suka hujan, berjalan pulang, dan tidur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q04_opt_a",
+        "label": "A",
+        "content": "Walking home",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q04_opt_b",
+        "label": "B",
+        "content": "Books",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q04_opt_c",
+        "label": "C",
+        "content": "Rain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q04_opt_d",
+        "label": "D",
+        "content": "Going to sleep",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q05",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Day (Soal No. 3 – 5)]\n*Read the text to answer the questions!*\n\nFirst, I wake up. Then, I get dressed. I walk to school. I do not ride a bike. I do not ride the bus. I like to go to school. It rains. I do not like rain. I eat lunch. I eat a sandwich and an apple. I play outside. I like to play. I read a book. I like to read books. I walk home. I do not like walking home. My mother cooks soup for dinner. The soup is hot. Then, I go to bed. I do not like to go to bed.\n:::\n\nWhat does the writer eat for dinner?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"My mother cooks **soup** for dinner.\"* Sandwich dan apel dimakan saat makan siang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q05_opt_a",
+        "label": "A",
+        "content": "Sandwich",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q05_opt_b",
+        "label": "B",
+        "content": "Apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q05_opt_c",
+        "label": "C",
+        "content": "Soup",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q05_opt_d",
+        "label": "D",
+        "content": "Pie",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q06",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the picture! What does Fano do in the afternoon?",
+    "imageUrl": "/uploads/venus25_ea_menonton_tv.png",
+    "explanation": "Gambar menunjukkan Fano duduk di sofa memegang remote di depan televisi, jadi ia menonton TV (*he watches TV*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q06_opt_a",
+        "label": "A",
+        "content": "He studies math.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q06_opt_b",
+        "label": "B",
+        "content": "He plays football.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q06_opt_c",
+        "label": "C",
+        "content": "He watches TV.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q06_opt_d",
+        "label": "D",
+        "content": "He goes to sleep.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q07",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Clarie: … you study English?\nJae: Yes, I do.",
+    "imageUrl": null,
+    "explanation": "Subjek *you* memakai **Do**, dan jawabannya *Yes, I do.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q07_opt_a",
+        "label": "A",
+        "content": "Does",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q07_opt_b",
+        "label": "B",
+        "content": "Have",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q07_opt_c",
+        "label": "C",
+        "content": "Has",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q07_opt_d",
+        "label": "D",
+        "content": "Do",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q08",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I am big and fat. My color is gray. I have a big nose. It is called a trunk. What am I?",
+    "imageUrl": null,
+    "explanation": "Hewan besar berwarna abu-abu dengan belalai (*trunk*) adalah gajah (*elephant*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q08_opt_a",
+        "label": "A",
+        "content": "Cow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q08_opt_b",
+        "label": "B",
+        "content": "Buffalo",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q08_opt_c",
+        "label": "C",
+        "content": "Elephant",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q08_opt_d",
+        "label": "D",
+        "content": "Giraffe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q09",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I go to school every Monday to Saturday to ____ with my friends.",
+    "imageUrl": null,
+    "explanation": "Kita pergi ke sekolah untuk belajar (*study*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q09_opt_a",
+        "label": "A",
+        "content": "watch",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q09_opt_b",
+        "label": "B",
+        "content": "study",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q09_opt_c",
+        "label": "C",
+        "content": "run",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q09_opt_d",
+        "label": "D",
+        "content": "jump",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q10",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The best drink for you is …",
+    "imageUrl": null,
+    "explanation": "Minuman paling sehat adalah air putih (*water*). Es krim bukan minuman.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q10_opt_a",
+        "label": "A",
+        "content": "water",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q10_opt_b",
+        "label": "B",
+        "content": "coke",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q10_opt_c",
+        "label": "C",
+        "content": "juice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q10_opt_d",
+        "label": "D",
+        "content": "ice cream",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q11",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "It is a vegetable. It has an orange color. A rabbit likes to eat it. What is it?",
+    "imageUrl": null,
+    "explanation": "Sayuran berwarna oranye kesukaan kelinci adalah wortel (*carrot*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q11_opt_a",
+        "label": "A",
+        "content": "Tomato",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q11_opt_b",
+        "label": "B",
+        "content": "Pumpkin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q11_opt_c",
+        "label": "C",
+        "content": "Papaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q11_opt_d",
+        "label": "D",
+        "content": "Carrot",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q12",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "I am smaller than eleven but greater than seven. What number am I?",
+    "imageUrl": null,
+    "explanation": "Bilangan di antara 7 dan 11 adalah 8, 9, atau 10. Yang ada di pilihan hanya **nine** (9).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q12_opt_a",
+        "label": "A",
+        "content": "Twelve",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q12_opt_b",
+        "label": "B",
+        "content": "Nine",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q12_opt_c",
+        "label": "C",
+        "content": "Five",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q12_opt_d",
+        "label": "D",
+        "content": "One",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q13",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "They ___ singing a song.",
+    "imageUrl": null,
+    "explanation": "Subjek *they* memakai **are**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q13_opt_a",
+        "label": "A",
+        "content": "is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q13_opt_b",
+        "label": "B",
+        "content": "are",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q13_opt_c",
+        "label": "C",
+        "content": "am",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q13_opt_d",
+        "label": "D",
+        "content": "be",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q14",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My mom ___ cooking in the kitchen.",
+    "imageUrl": null,
+    "explanation": "Subjek tunggal *my mom* dalam kalimat sedang terjadi memakai **is**: *My mom is cooking.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q14_opt_a",
+        "label": "A",
+        "content": "is",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q14_opt_b",
+        "label": "B",
+        "content": "are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q14_opt_c",
+        "label": "C",
+        "content": "do",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q14_opt_d",
+        "label": "D",
+        "content": "was",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q15",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The dog ___ running fast.",
+    "imageUrl": null,
+    "explanation": "Subjek tunggal *the dog* memakai **is**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q15_opt_a",
+        "label": "A",
+        "content": "is",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q15_opt_b",
+        "label": "B",
+        "content": "am",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q15_opt_c",
+        "label": "C",
+        "content": "are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q15_opt_d",
+        "label": "D",
+        "content": "does",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q16",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "She ___ to the park on Sundays.",
+    "imageUrl": null,
+    "explanation": "Kebiasaan (*on Sundays*) memakai *simple present*. Subjek *she* → **goes**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q16_opt_a",
+        "label": "A",
+        "content": "goes",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q16_opt_b",
+        "label": "B",
+        "content": "go",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q16_opt_c",
+        "label": "C",
+        "content": "is going",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q16_opt_d",
+        "label": "D",
+        "content": "going",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q17",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "We ___ a big house.",
+    "imageUrl": null,
+    "explanation": "Subjek *we* memakai **have**. *Has* hanya untuk *he, she, it*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q17_opt_a",
+        "label": "A",
+        "content": "have",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q17_opt_b",
+        "label": "B",
+        "content": "has",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q17_opt_c",
+        "label": "C",
+        "content": "are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q17_opt_d",
+        "label": "D",
+        "content": "be",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q18",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Arrange the words: playing / brother / my / is / soccer / now",
+    "imageUrl": null,
+    "explanation": "Pola: subjek + *is* + verb-ing + objek + keterangan waktu: **My brother is playing soccer now.**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q18_opt_a",
+        "label": "A",
+        "content": "My brother is playing soccer now.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q18_opt_b",
+        "label": "B",
+        "content": "Now playing soccer is my brother.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q18_opt_c",
+        "label": "C",
+        "content": "Soccer is my brother playing now.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q18_opt_d",
+        "label": "D",
+        "content": "Playing is my brother now soccer.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q19",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Arrange the words: book / have / I / a / new",
+    "imageUrl": null,
+    "explanation": "Pola: subjek + kata kerja + *a* + kata sifat + kata benda: **I have a new book.**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q19_opt_a",
+        "label": "A",
+        "content": "I have a new book.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q19_opt_b",
+        "label": "B",
+        "content": "A new book I have.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q19_opt_c",
+        "label": "C",
+        "content": "Book I have new a.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q19_opt_d",
+        "label": "D",
+        "content": "New book have I a.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q20",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The sun rises in the ___.",
+    "imageUrl": null,
+    "explanation": "Matahari terbit (*rises*) pada pagi hari (*morning*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q20_opt_a",
+        "label": "A",
+        "content": "morning",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q20_opt_b",
+        "label": "B",
+        "content": "evening",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q20_opt_c",
+        "label": "C",
+        "content": "night",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q20_opt_d",
+        "label": "D",
+        "content": "afternoon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q21",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which one is a fruit?",
+    "imageUrl": null,
+    "explanation": "Pisang (*banana*) adalah buah. Wortel, kentang, dan bawang adalah sayuran.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q21_opt_a",
+        "label": "A",
+        "content": "Banana",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q21_opt_b",
+        "label": "B",
+        "content": "Carrot",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q21_opt_c",
+        "label": "C",
+        "content": "Potato",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q21_opt_d",
+        "label": "D",
+        "content": "Onion",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q22",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which is the opposite of “day”?",
+    "imageUrl": null,
+    "explanation": "Lawan kata *day* (siang) adalah **night** (malam).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q22_opt_a",
+        "label": "A",
+        "content": "Night",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q22_opt_b",
+        "label": "B",
+        "content": "Week",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q22_opt_c",
+        "label": "C",
+        "content": "Afternoon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q22_opt_d",
+        "label": "D",
+        "content": "Morning",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q23",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Tommy's Day (Soal No. 23 – 27)]\n*Read the text to answer the questions!*\n\nTommy is a young boy who loves to play outside. He wakes up at 6:30 in the morning and has breakfast with his family. After breakfast, he gets dressed and goes to school. Tommy loves school because he learns new things and sees his friends. In the afternoon, after school, he plays football with his friends in the park. At night, Tommy helps his mother clean the house and then plays games before going to bed.\n:::\n\nWhat time does Tommy wake up?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"He wakes up at **6:30** in the morning.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q23_opt_a",
+        "label": "A",
+        "content": "6:00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q23_opt_b",
+        "label": "B",
+        "content": "6:30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q23_opt_c",
+        "label": "C",
+        "content": "7:00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q23_opt_d",
+        "label": "D",
+        "content": "8:00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q24",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Tommy's Day (Soal No. 23 – 27)]\n*Read the text to answer the questions!*\n\nTommy is a young boy who loves to play outside. He wakes up at 6:30 in the morning and has breakfast with his family. After breakfast, he gets dressed and goes to school. Tommy loves school because he learns new things and sees his friends. In the afternoon, after school, he plays football with his friends in the park. At night, Tommy helps his mother clean the house and then plays games before going to bed.\n:::\n\nWhy does Tommy love school?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Tommy loves school because he **learns new things and sees his friends**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q24_opt_a",
+        "label": "A",
+        "content": "Because he can sleep",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q24_opt_b",
+        "label": "B",
+        "content": "Because he learns new things and sees his friends",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q24_opt_c",
+        "label": "C",
+        "content": "Because the food is good",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q24_opt_d",
+        "label": "D",
+        "content": "Because he can play all day",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q25",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Tommy's Day (Soal No. 23 – 27)]\n*Read the text to answer the questions!*\n\nTommy is a young boy who loves to play outside. He wakes up at 6:30 in the morning and has breakfast with his family. After breakfast, he gets dressed and goes to school. Tommy loves school because he learns new things and sees his friends. In the afternoon, after school, he plays football with his friends in the park. At night, Tommy helps his mother clean the house and then plays games before going to bed.\n:::\n\nWhat does Tommy do after school?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"In the afternoon, after school, he **plays football with his friends** in the park.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q25_opt_a",
+        "label": "A",
+        "content": "He reads books.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q25_opt_b",
+        "label": "B",
+        "content": "He plays football with his friends.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q25_opt_c",
+        "label": "C",
+        "content": "He sleeps.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q25_opt_d",
+        "label": "D",
+        "content": "He helps his father.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q26",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Tommy's Day (Soal No. 23 – 27)]\n*Read the text to answer the questions!*\n\nTommy is a young boy who loves to play outside. He wakes up at 6:30 in the morning and has breakfast with his family. After breakfast, he gets dressed and goes to school. Tommy loves school because he learns new things and sees his friends. In the afternoon, after school, he plays football with his friends in the park. At night, Tommy helps his mother clean the house and then plays games before going to bed.\n:::\n\nWhat does Tommy do at night before going to bed?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"At night, Tommy helps his mother clean the house and then **plays games** before going to bed.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q26_opt_a",
+        "label": "A",
+        "content": "He plays games.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q26_opt_b",
+        "label": "B",
+        "content": "He plays football.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q26_opt_c",
+        "label": "C",
+        "content": "He studies.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q26_opt_d",
+        "label": "D",
+        "content": "He watches TV.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q27",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Tommy's Day (Soal No. 23 – 27)]\n*Read the text to answer the questions!*\n\nTommy is a young boy who loves to play outside. He wakes up at 6:30 in the morning and has breakfast with his family. After breakfast, he gets dressed and goes to school. Tommy loves school because he learns new things and sees his friends. In the afternoon, after school, he plays football with his friends in the park. At night, Tommy helps his mother clean the house and then plays games before going to bed.\n:::\n\nWho does Tommy help clean the house?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Tommy helps **his mother** clean the house.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q27_opt_a",
+        "label": "A",
+        "content": "His brother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q27_opt_b",
+        "label": "B",
+        "content": "His father",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q27_opt_c",
+        "label": "C",
+        "content": "His mother",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q27_opt_d",
+        "label": "D",
+        "content": "His friend",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q28",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of these is an animal?",
+    "imageUrl": null,
+    "explanation": "Anjing (*dog*) adalah hewan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q28_opt_a",
+        "label": "A",
+        "content": "Car",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q28_opt_b",
+        "label": "B",
+        "content": "Dog",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q28_opt_c",
+        "label": "C",
+        "content": "Chair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q28_opt_d",
+        "label": "D",
+        "content": "Table",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q29",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The opposite of \"up\" is ___.",
+    "imageUrl": null,
+    "explanation": "Lawan kata *up* (atas) adalah **down** (bawah).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q29_opt_a",
+        "label": "A",
+        "content": "down",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q29_opt_b",
+        "label": "B",
+        "content": "left",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q29_opt_c",
+        "label": "C",
+        "content": "right",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q29_opt_d",
+        "label": "D",
+        "content": "forward",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q30",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A “___” is something you use to write.",
+    "imageUrl": null,
+    "explanation": "Alat untuk menulis adalah pensil (*pencil*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q30_opt_a",
+        "label": "A",
+        "content": "book",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q30_opt_b",
+        "label": "B",
+        "content": "pencil",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q30_opt_c",
+        "label": "C",
+        "content": "ball",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q30_opt_d",
+        "label": "D",
+        "content": "plate",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q31",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A “___” is a place where you can buy food.",
+    "imageUrl": null,
+    "explanation": "Tempat membeli makanan adalah toko (*store*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q31_opt_a",
+        "label": "A",
+        "content": "park",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q31_opt_b",
+        "label": "B",
+        "content": "school",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q31_opt_c",
+        "label": "C",
+        "content": "store",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q31_opt_d",
+        "label": "D",
+        "content": "hospital",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q32",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which one is a fruit?",
+    "imageUrl": null,
+    "explanation": "Pisang (*banana*) adalah buah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q32_opt_a",
+        "label": "A",
+        "content": "Potato",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q32_opt_b",
+        "label": "B",
+        "content": "Banana",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q32_opt_c",
+        "label": "C",
+        "content": "Bread",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q32_opt_d",
+        "label": "D",
+        "content": "Cup",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q33",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A “___” is something we wear on our heads.",
+    "imageUrl": null,
+    "explanation": "Topi (*hat*) dipakai di kepala.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q33_opt_a",
+        "label": "A",
+        "content": "socks",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q33_opt_b",
+        "label": "B",
+        "content": "hat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q33_opt_c",
+        "label": "C",
+        "content": "shoes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q33_opt_d",
+        "label": "D",
+        "content": "pants",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q34",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "We use a “___” to play a game of basketball.",
+    "imageUrl": null,
+    "explanation": "Bola basket dimainkan dengan bola (*ball*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q34_opt_a",
+        "label": "A",
+        "content": "ball",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q34_opt_b",
+        "label": "B",
+        "content": "bat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q34_opt_c",
+        "label": "C",
+        "content": "racket",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q34_opt_d",
+        "label": "D",
+        "content": "skateboard",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q35",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A “___” is a vehicle that flies in the sky.",
+    "imageUrl": null,
+    "explanation": "Kendaraan yang terbang adalah pesawat (*airplane*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q35_opt_a",
+        "label": "A",
+        "content": "car",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q35_opt_b",
+        "label": "B",
+        "content": "boat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q35_opt_c",
+        "label": "C",
+        "content": "airplane",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q35_opt_d",
+        "label": "D",
+        "content": "bicycle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q36",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The opposite of \"fast\" is ___.",
+    "imageUrl": null,
+    "explanation": "Lawan kata *fast* (cepat) adalah **slow** (lambat). *Quick* justru sinonimnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q36_opt_a",
+        "label": "A",
+        "content": "slow",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q36_opt_b",
+        "label": "B",
+        "content": "quick",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q36_opt_c",
+        "label": "C",
+        "content": "big",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q36_opt_d",
+        "label": "D",
+        "content": "hard",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_a_q37",
+    "topicId": "top_venus3_2025_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which one is a color?",
+    "imageUrl": null,
+    "explanation": "Merah (*red*) adalah warna.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_a_q37_opt_a",
+        "label": "A",
+        "content": "Table",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q37_opt_b",
+        "label": "B",
+        "content": "Red",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q37_opt_c",
+        "label": "C",
+        "content": "Hat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_a_q37_opt_d",
+        "label": "D",
+        "content": "Banana",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

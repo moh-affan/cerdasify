@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "pkg_maximus_2026_sains_2_q01",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika kita berlari, tubuh akan mengeluarkan …",
+    "imageUrl": null,
+    "explanation": "Saat berlari tubuh menjadi panas, lalu mengeluarkan **keringat** untuk mendinginkan tubuh.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q01_opt_a",
+        "label": "A",
+        "content": "Keringat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q01_opt_b",
+        "label": "B",
+        "content": "Kentut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q01_opt_c",
+        "label": "C",
+        "content": "Makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q01_opt_d",
+        "label": "D",
+        "content": "Darah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q02",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sumber energi tenaga manusia adalah …",
+    "imageUrl": null,
+    "explanation": "Manusia mendapat tenaga dari **makanan** yang dicerna tubuh.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q02_opt_a",
+        "label": "A",
+        "content": "Baterai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q02_opt_b",
+        "label": "B",
+        "content": "Listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q02_opt_c",
+        "label": "C",
+        "content": "Makanan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q02_opt_d",
+        "label": "D",
+        "content": "Bensin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q03",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Permainan pada gambar dapat terbang karena adanya …",
+    "imageUrl": "/uploads/maximus26_s2_layangan.png",
+    "explanation": "Layang-layang terbang karena didorong **angin**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q03_opt_a",
+        "label": "A",
+        "content": "Energi angin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q03_opt_b",
+        "label": "B",
+        "content": "Energi cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q03_opt_c",
+        "label": "C",
+        "content": "Energi listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q03_opt_d",
+        "label": "D",
+        "content": "Energi bunyi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q04",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hal yang terjadi ketika air laut dipanaskan adalah …",
+    "imageUrl": null,
+    "explanation": "Saat dipanaskan, **airnya menguap**, sedangkan garam tidak ikut menguap sehingga **tertinggal**. Begitulah cara petani garam membuat garam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q04_opt_a",
+        "label": "A",
+        "content": "Terbentuk butiran garam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q04_opt_b",
+        "label": "B",
+        "content": "Tidak terjadi apa-apa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q04_opt_c",
+        "label": "C",
+        "content": "Garam pada air laut akan menguap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q04_opt_d",
+        "label": "D",
+        "content": "Air laut menguap, garam tertinggal",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q05",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Garam berasal dari air laut. Untuk memperoleh garam, para petani garam menggunakan …",
+    "imageUrl": null,
+    "explanation": "Air laut dijemur di tambak garam dengan **panas matahari** sampai airnya menguap dan tersisa garam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q05_opt_a",
+        "label": "A",
+        "content": "Minyak bumi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q05_opt_b",
+        "label": "B",
+        "content": "Panas matahari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q05_opt_c",
+        "label": "C",
+        "content": "Air panas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q05_opt_d",
+        "label": "D",
+        "content": "Listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q06",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bayangan pada gambar arahnya ke timur. Bayangan tersebut terbentuk ketika …",
+    "imageUrl": "/uploads/maximus26_s2_bayangan.png",
+    "explanation": "Bayangan selalu berlawanan arah dengan matahari. Bayangan ke timur berarti matahari di **barat**, yaitu pada **sore hari**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q06_opt_a",
+        "label": "A",
+        "content": "Siang hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q06_opt_b",
+        "label": "B",
+        "content": "Pagi hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q06_opt_c",
+        "label": "C",
+        "content": "Sore hari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q06_opt_d",
+        "label": "D",
+        "content": "Malam hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q07",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bayangan benda paling pendek terjadi pada pukul …",
+    "imageUrl": null,
+    "explanation": "Bayangan paling pendek saat matahari hampir tepat di atas kepala, yaitu sekitar tengah hari. Dari pilihan yang ada, yang paling dekat adalah **pukul 1 siang**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q07_opt_a",
+        "label": "A",
+        "content": "9 pagi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q07_opt_b",
+        "label": "B",
+        "content": "3 sore",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q07_opt_c",
+        "label": "C",
+        "content": "1 siang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q07_opt_d",
+        "label": "D",
+        "content": "9 malam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q08",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Madu diolah oleh binatang …",
+    "imageUrl": null,
+    "explanation": "**Lebah** mengolah nektar bunga menjadi madu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q08_opt_a",
+        "label": "A",
+        "content": "Ayam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q08_opt_b",
+        "label": "B",
+        "content": "Lebah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q08_opt_c",
+        "label": "C",
+        "content": "Sapi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q08_opt_d",
+        "label": "D",
+        "content": "Kambing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q09",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Gajah mengambil makanan dengan …",
+    "imageUrl": null,
+    "explanation": "Gajah memakai **belalainya** untuk mengambil makanan lalu memasukkannya ke mulut.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q09_opt_a",
+        "label": "A",
+        "content": "Belalai",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q09_opt_b",
+        "label": "B",
+        "content": "Tangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q09_opt_c",
+        "label": "C",
+        "content": "Kaki",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q09_opt_d",
+        "label": "D",
+        "content": "Mulut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q10",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan gambar berikut! Urutan yang benar dari pertumbuhan ayam adalah …",
+    "imageUrl": "/uploads/maximus26_s2_pertumbuhan_ayam.png",
+    "explanation": "Pertumbuhan ayam: telur (2) → menetas (4) → anak ayam (3) → ayam dewasa (1). Urutannya **2, 4, 3, 1**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q10_opt_a",
+        "label": "A",
+        "content": "1, 2, 3, 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q10_opt_b",
+        "label": "B",
+        "content": "1, 3, 4, 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q10_opt_c",
+        "label": "C",
+        "content": "2, 3, 4, 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q10_opt_d",
+        "label": "D",
+        "content": "2, 4, 3, 1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q11",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ciri anak ayam yang baru menetas adalah …",
+    "imageUrl": null,
+    "explanation": "Anak ayam yang baru menetas ditutupi **bulu halus dan lembut**. Jengger baru tumbuh saat ayam dewasa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q11_opt_a",
+        "label": "A",
+        "content": "Bulunya lembut dan halus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q11_opt_b",
+        "label": "B",
+        "content": "Memiliki jengger",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q11_opt_c",
+        "label": "C",
+        "content": "Suaranya besar dan keras",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q11_opt_d",
+        "label": "D",
+        "content": "Bisa berlari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q12",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hewan yang **tidak** bisa dimanfaatkan untuk melawan tikus adalah …",
+    "imageUrl": null,
+    "explanation": "Burung hantu, kucing, dan anjing dapat memangsa atau mengusir tikus. **Jangkrik** adalah serangga kecil yang tidak bisa melawan tikus.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q12_opt_a",
+        "label": "A",
+        "content": "Burung hantu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q12_opt_b",
+        "label": "B",
+        "content": "Jangkrik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q12_opt_c",
+        "label": "C",
+        "content": "Kucing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q12_opt_d",
+        "label": "D",
+        "content": "Anjing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q13",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Cacing yang hidup di dalam tanah berguna untuk …",
+    "imageUrl": null,
+    "explanation": "Cacing membuat lubang-lubang di tanah sehingga tanah menjadi **gembur** dan subur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q13_opt_a",
+        "label": "A",
+        "content": "Mengeraskan tanah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q13_opt_b",
+        "label": "B",
+        "content": "Membasahi tanah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q13_opt_c",
+        "label": "C",
+        "content": "Menggemburkan tanah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q13_opt_d",
+        "label": "D",
+        "content": "Mengeringkan tanah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q14",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tumbuhan yang berbatang lurus (tidak bercabang) adalah …",
+    "imageUrl": null,
+    "explanation": "Batang **pohon kelapa** tumbuh lurus ke atas tanpa cabang. Rambutan, mangga, dan jeruk batangnya bercabang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q14_opt_a",
+        "label": "A",
+        "content": "Pohon rambutan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q14_opt_b",
+        "label": "B",
+        "content": "Pohon kelapa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q14_opt_c",
+        "label": "C",
+        "content": "Pohon mangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q14_opt_d",
+        "label": "D",
+        "content": "Pohon jeruk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q15",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tanaman sayuran adalah …",
+    "imageUrl": null,
+    "explanation": "**Kangkung** adalah sayuran daun. Mangga adalah buah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q15_opt_a",
+        "label": "A",
+        "content": "Jagung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q15_opt_b",
+        "label": "B",
+        "content": "Bambu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q15_opt_c",
+        "label": "C",
+        "content": "Kangkung",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q15_opt_d",
+        "label": "D",
+        "content": "Mangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q16",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bagian tumbuhan berikut berada di atas tanah, **kecuali** …",
+    "imageUrl": null,
+    "explanation": "**Akar** tumbuh di dalam tanah. Daun, batang, dan bunga berada di atas tanah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q16_opt_a",
+        "label": "A",
+        "content": "Akar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q16_opt_b",
+        "label": "B",
+        "content": "Daun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q16_opt_c",
+        "label": "C",
+        "content": "Batang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q16_opt_d",
+        "label": "D",
+        "content": "Bunga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q17",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Daun yang memiliki bentuk seperti jarum adalah …",
+    "imageUrl": null,
+    "explanation": "**Daun pinus** kecil dan runcing seperti jarum.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q17_opt_a",
+        "label": "A",
+        "content": "Daun kelapa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q17_opt_b",
+        "label": "B",
+        "content": "Daun pinus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q17_opt_c",
+        "label": "C",
+        "content": "Daun pepaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q17_opt_d",
+        "label": "D",
+        "content": "Daun mangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q18",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan gambar! Urutan pertumbuhan kacang merah yang benar adalah …",
+    "imageUrl": "/uploads/maximus26_s2_pertumbuhan_kacang.png",
+    "explanation": "Biji mulai berkecambah dan keluar akar (2) → batang dan daun pertama muncul (3) → tumbuh menjadi tanaman berdaun lebat (1). Urutannya **2, 3, 1**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q18_opt_a",
+        "label": "A",
+        "content": "2, 1, 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q18_opt_b",
+        "label": "B",
+        "content": "2, 3, 1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q18_opt_c",
+        "label": "C",
+        "content": "1, 3, 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q18_opt_d",
+        "label": "D",
+        "content": "3, 2, 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q19",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Penghematan listrik paling efektif dilakukan pada pukul …",
+    "imageUrl": null,
+    "explanation": "Pukul 17.00–22.00 adalah **waktu beban puncak**, saat hampir semua rumah menyalakan lampu dan alat listrik. Menghemat listrik di jam ini paling membantu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q19_opt_a",
+        "label": "A",
+        "content": "6 pagi sampai 9 pagi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q19_opt_b",
+        "label": "B",
+        "content": "10 malam sampai 12 malam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q19_opt_c",
+        "label": "C",
+        "content": "5 sore sampai 9 malam",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q19_opt_d",
+        "label": "D",
+        "content": "10 pagi sampai 5 sore",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q20",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Lampu di rumahmu pada malam hari dimanfaatkan untuk …",
+    "imageUrl": null,
+    "explanation": "Lampu menyala pada malam hari untuk **penerangan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q20_opt_a",
+        "label": "A",
+        "content": "Penerangan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q20_opt_b",
+        "label": "B",
+        "content": "Hiasan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q20_opt_c",
+        "label": "C",
+        "content": "Pemakaian energi listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q20_opt_d",
+        "label": "D",
+        "content": "Menyetrika",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q21",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Randi ingin mengambil benda di tempat yang gelap. Alat yang diperlukan adalah …",
+    "imageUrl": null,
+    "explanation": "**Senter** menghasilkan cahaya sehingga benda di tempat gelap bisa terlihat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q21_opt_a",
+        "label": "A",
+        "content": "Pulpen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q21_opt_b",
+        "label": "B",
+        "content": "Setrika",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q21_opt_c",
+        "label": "C",
+        "content": "Senter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q21_opt_d",
+        "label": "D",
+        "content": "Kipas angin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q22",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika kamu menuangkan air dari cerek ke gelas, bentuk air akan berubah dari bentuk …",
+    "imageUrl": null,
+    "explanation": "Benda cair mengikuti bentuk wadahnya, jadi air berubah dari **bentuk cerek menjadi bentuk gelas**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q22_opt_a",
+        "label": "A",
+        "content": "Cerek menjadi bentuk gelas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q22_opt_b",
+        "label": "B",
+        "content": "Gelas menjadi bentuk cerek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q22_opt_c",
+        "label": "C",
+        "content": "Gelas menjadi bentuk gelas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q22_opt_d",
+        "label": "D",
+        "content": "Cerek menjadi bentuk cerek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q23",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hana mempunyai:\n1. sepatu\n2. sisir\n3. tinta\n4. kaca\n5. madu\n\nBenda di atas yang termasuk benda cair adalah …",
+    "imageUrl": null,
+    "explanation": "**Tinta (3) dan madu (5)** berwujud cair. Sepatu, sisir, dan kaca adalah benda padat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q23_opt_a",
+        "label": "A",
+        "content": "1 dan 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q23_opt_b",
+        "label": "B",
+        "content": "2 dan 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q23_opt_c",
+        "label": "C",
+        "content": "3 dan 5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q23_opt_d",
+        "label": "D",
+        "content": "4 dan 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_2_q24",
+    "topicId": "top_maximus_2026_sains_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ada air laut, pelampung, dan pasir di pantai. Benda yang berisi udara pada kalimat tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "**Pelampung** diisi udara sehingga bisa mengapung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_2_q24_opt_a",
+        "label": "A",
+        "content": "Pelampung",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q24_opt_b",
+        "label": "B",
+        "content": "Air laut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q24_opt_c",
+        "label": "C",
+        "content": "Pasir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_2_q24_opt_d",
+        "label": "D",
+        "content": "Pantai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

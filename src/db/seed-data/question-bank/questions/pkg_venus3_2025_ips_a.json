@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "pkg_venus3_2025_ips_a_q01",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bagaimana cara menunjukkan rasa hormat kepada ayah?",
+    "imageUrl": null,
+    "explanation": "Menghormati ayah ditunjukkan dengan **membantu** dan memperhatikan ayah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q01_opt_a",
+        "label": "A",
+        "content": "Tidak mendengarkan saat ayah berbicara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q01_opt_b",
+        "label": "B",
+        "content": "Membantu ayah saat bekerja atau beristirahat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q01_opt_c",
+        "label": "C",
+        "content": "Membiarkan ayah bekerja tanpa membantu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q01_opt_d",
+        "label": "D",
+        "content": "Menuntut apa yang kita inginkan dari ayah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q02",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tugas utama ayah adalah …",
+    "imageUrl": null,
+    "explanation": "Ayah sebagai kepala keluarga bertugas **menjaga keluarga dan mencari nafkah**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q02_opt_a",
+        "label": "A",
+        "content": "Memasak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q02_opt_b",
+        "label": "B",
+        "content": "Membeli barang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q02_opt_c",
+        "label": "C",
+        "content": "Menjaga keluarga dan mencari nafkah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q02_opt_d",
+        "label": "D",
+        "content": "Membersihkan rumah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q03",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu memiliki tugas untuk …",
+    "imageUrl": null,
+    "explanation": "Ibu **menjaga rumah dan merawat keluarga**, misalnya memasak dan mengasuh anak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q03_opt_a",
+        "label": "A",
+        "content": "Membaca buku sepanjang hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q03_opt_b",
+        "label": "B",
+        "content": "Menjaga rumah dan merawat keluarga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q03_opt_c",
+        "label": "C",
+        "content": "Pergi bekerja setiap hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q03_opt_d",
+        "label": "D",
+        "content": "Hanya tidur di rumah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q04",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Saat kita ingin bertanya kepada guru, sikap yang harus dilakukan adalah …",
+    "imageUrl": null,
+    "explanation": "Kepada guru kita bertanya dengan **sopan dan baik**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q04_opt_a",
+        "label": "A",
+        "content": "Berbicara dengan sopan dan baik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q04_opt_b",
+        "label": "B",
+        "content": "Berteriak memanggil guru dari jauh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q04_opt_c",
+        "label": "C",
+        "content": "Menyuruh teman menyampaikan pesan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q04_opt_d",
+        "label": "D",
+        "content": "Langsung mengambil tanpa izin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q05",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Contoh sikap yang menunjukkan rasa hormat kepada orang tua adalah …",
+    "imageUrl": null,
+    "explanation": "Hormat kepada orang tua: **membantu dan berbicara sopan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q05_opt_a",
+        "label": "A",
+        "content": "Membiarkan mereka bekerja sendiri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q05_opt_b",
+        "label": "B",
+        "content": "Menjawab dengan kasar saat diminta bantuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q05_opt_c",
+        "label": "C",
+        "content": "Membantu mereka dan berbicara dengan sopan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q05_opt_d",
+        "label": "D",
+        "content": "Pergi tanpa izin saat mereka berbicara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q06",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebelum makan sebaiknya kita …",
+    "imageUrl": null,
+    "explanation": "Sebelum makan kita **mencuci tangan** agar bersih dari kuman, lalu **berdoa**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q06_opt_a",
+        "label": "A",
+        "content": "Langsung makan tanpa cuci tangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q06_opt_b",
+        "label": "B",
+        "content": "Bermain di meja makan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q06_opt_c",
+        "label": "C",
+        "content": "Mencuci tangan terlebih dahulu dan berdoa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q06_opt_d",
+        "label": "D",
+        "content": "Membiarkan makanan di meja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q07",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Aturan yang harus dipatuhi saat belajar di rumah adalah …",
+    "imageUrl": null,
+    "explanation": "Saat belajar kita harus **tenang dan fokus** agar mudah memahami pelajaran.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q07_opt_a",
+        "label": "A",
+        "content": "Bermain sambil belajar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q07_opt_b",
+        "label": "B",
+        "content": "Membawa mainan ke meja belajar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q07_opt_c",
+        "label": "C",
+        "content": "Tidak perlu belajar setiap hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q07_opt_d",
+        "label": "D",
+        "content": "Belajar dengan tenang dan fokus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q08",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat transportasi darat yang menggunakan dua roda dan tidak memiliki mesin adalah …",
+    "imageUrl": null,
+    "explanation": "**Sepeda** beroda dua dan digerakkan dengan dikayuh, tanpa mesin. Sepeda motor memakai mesin.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q08_opt_a",
+        "label": "A",
+        "content": "Sepeda motor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q08_opt_b",
+        "label": "B",
+        "content": "Sepeda",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q08_opt_c",
+        "label": "C",
+        "content": "Mobil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q08_opt_d",
+        "label": "D",
+        "content": "Truk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q09",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika kita ingin naik kendaraan umum seperti bus, maka kita harus …",
+    "imageUrl": null,
+    "explanation": "Penumpang kendaraan umum harus **membeli tiket** atau membayar ongkos.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q09_opt_a",
+        "label": "A",
+        "content": "Mengemudikan alat transportasi sendiri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q09_opt_b",
+        "label": "B",
+        "content": "Melompat keluar saat alat transportasi berjalan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q09_opt_c",
+        "label": "C",
+        "content": "Membawa barang tanpa izin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q09_opt_d",
+        "label": "D",
+        "content": "Membeli tiket",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q10",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat komunikasi yang digunakan untuk berkomunikasi secara langsung melalui suara (dua arah) adalah …",
+    "imageUrl": null,
+    "explanation": "**Telepon** memungkinkan kita berbicara dan mendengar lawan bicara secara langsung. Pesawat radio hanya untuk mendengarkan siaran (satu arah).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q10_opt_a",
+        "label": "A",
+        "content": "Telepon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q10_opt_b",
+        "label": "B",
+        "content": "Surat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q10_opt_c",
+        "label": "C",
+        "content": "Pesawat radio",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q10_opt_d",
+        "label": "D",
+        "content": "Sepeda motor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q11",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Apa fungsi bangunan-bangunan pada gambar berikut?",
+    "imageUrl": "/uploads/venus25_ia_tempat_ibadah.png",
+    "explanation": "Gambar menunjukkan candi, masjid, gereja, dan kelenteng/pagoda, yaitu **tempat beribadah** berbagai agama di Indonesia.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q11_opt_a",
+        "label": "A",
+        "content": "Tempat untuk beribadah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q11_opt_b",
+        "label": "B",
+        "content": "Tempat untuk bermain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q11_opt_c",
+        "label": "C",
+        "content": "Tempat untuk menjual barang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q11_opt_d",
+        "label": "D",
+        "content": "Tempat untuk menyimpan uang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q12",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bandara adalah tempat untuk …",
+    "imageUrl": "/uploads/venus25_ia_bandara.png",
+    "explanation": "Bandara (bandar udara) adalah tempat **naik dan turun pesawat terbang**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q12_opt_a",
+        "label": "A",
+        "content": "Mengambil uang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q12_opt_b",
+        "label": "B",
+        "content": "Naik pesawat terbang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q12_opt_c",
+        "label": "C",
+        "content": "Membeli makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q12_opt_d",
+        "label": "D",
+        "content": "Belajar membaca",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q13",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika ingin menyimpan uang dengan aman, kita harus pergi ke …",
+    "imageUrl": null,
+    "explanation": "Uang disimpan dengan aman di **bank**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q13_opt_a",
+        "label": "A",
+        "content": "Pasar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q13_opt_b",
+        "label": "B",
+        "content": "Bank",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q13_opt_c",
+        "label": "C",
+        "content": "Sekolah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q13_opt_d",
+        "label": "D",
+        "content": "Bandara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q14",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tempat yang banyak menjual barang-barang seperti baju, sepatu, dan mainan adalah …",
+    "imageUrl": null,
+    "explanation": "**Mal** (pusat perbelanjaan) menjual banyak barang seperti baju, sepatu, dan mainan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q14_opt_a",
+        "label": "A",
+        "content": "Sekolah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q14_opt_b",
+        "label": "B",
+        "content": "Mal",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q14_opt_c",
+        "label": "C",
+        "content": "Masjid",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q14_opt_d",
+        "label": "D",
+        "content": "Bandara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q15",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Setiap hari Senin sampai Jumat, ayah Sani berangkat pagi-pagi ke tempat kerja menggunakan sepeda motor dan pulang pada sore hari. Apa tugas ayah Sani berdasarkan cerita tersebut?",
+    "imageUrl": null,
+    "explanation": "Ayah Sani pergi ke tempat kerja setiap hari untuk **mencari nafkah** bagi keluarga.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q15_opt_a",
+        "label": "A",
+        "content": "Pergi jalan-jalan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q15_opt_b",
+        "label": "B",
+        "content": "Membantu pekerjaan orang lain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q15_opt_c",
+        "label": "C",
+        "content": "Bekerja mencari nafkah untuk kebutuhan keluarga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q15_opt_d",
+        "label": "D",
+        "content": "Mencari hiburan di tempat kerja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q16",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Lambang negara Indonesia yang digunakan hingga sekarang berbentuk burung Garuda dan disebut …",
+    "imageUrl": null,
+    "explanation": "Lambang negara Indonesia adalah **Garuda Pancasila**. Garuda Indonesia adalah nama maskapai penerbangan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q16_opt_a",
+        "label": "A",
+        "content": "Garuda Sakti",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q16_opt_b",
+        "label": "B",
+        "content": "Garuda Indonesia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q16_opt_c",
+        "label": "C",
+        "content": "Garuda Pancasila",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q16_opt_d",
+        "label": "D",
+        "content": "Garuda Emas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q17",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sikap yang baik terhadap orang yang lebih tua dari kita adalah …",
+    "imageUrl": null,
+    "explanation": "Kepada orang yang lebih tua kita **bersikap sopan dan mendengarkan nasihatnya**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q17_opt_a",
+        "label": "A",
+        "content": "Bersikap sopan dan mendengarkan nasihatnya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q17_opt_b",
+        "label": "B",
+        "content": "Membiarkannya dan meninggalkannya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q17_opt_c",
+        "label": "C",
+        "content": "Mengabaikan mereka",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q17_opt_d",
+        "label": "D",
+        "content": "Tidak peduli dengan mereka",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q18",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Setelah Indonesia merdeka, lagu kebangsaan Indonesia Raya dinyanyikan secara resmi. Lagu tersebut diciptakan oleh komponis bernama …",
+    "imageUrl": null,
+    "explanation": "Lagu *Indonesia Raya* diciptakan oleh **Wage Rudolf (W.R.) Supratman**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q18_opt_a",
+        "label": "A",
+        "content": "Ibu Sud",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q18_opt_b",
+        "label": "B",
+        "content": "W.R. Supratman",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q18_opt_c",
+        "label": "C",
+        "content": "Ismail Marzuki",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q18_opt_d",
+        "label": "D",
+        "content": "H. Mutahar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q19",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di daerah pegunungan, hujan terus turun selama beberapa hari sehingga tanah menjadi sangat lembek. Tiba-tiba tanah di lereng bukit bergerak dan menimbun jalan serta rumah. Peristiwa alam yang terjadi disebut …",
+    "imageUrl": null,
+    "explanation": "Tanah di lereng yang bergerak turun dan menimbun disebut **tanah longsor**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q19_opt_a",
+        "label": "A",
+        "content": "Tanah longsor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q19_opt_b",
+        "label": "B",
+        "content": "Banjir bandang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q19_opt_c",
+        "label": "C",
+        "content": "Hujan deras",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q19_opt_d",
+        "label": "D",
+        "content": "Gempa bumi kecil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q20",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sikap yang bisa kita lakukan jika ada teman yang tidak paham pelajaran adalah …",
+    "imageUrl": null,
+    "explanation": "Teman yang baik **membantu menjelaskan** pelajaran yang belum dipahami.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q20_opt_a",
+        "label": "A",
+        "content": "Membantu menjelaskan pelajaran tersebut",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q20_opt_b",
+        "label": "B",
+        "content": "Mengabaikan teman yang kesulitan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q20_opt_c",
+        "label": "C",
+        "content": "Menertawakan teman tersebut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q20_opt_d",
+        "label": "D",
+        "content": "Melarang teman untuk bertanya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q21",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Papa setiap hari menonton berita di TV. Tujuan Papa menonton berita di TV adalah …",
+    "imageUrl": null,
+    "explanation": "Berita memberi **informasi terbaru** tentang kejadian di sekitar kita.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q21_opt_a",
+        "label": "A",
+        "content": "Agar tahu informasi terbaru",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q21_opt_b",
+        "label": "B",
+        "content": "Agar bisa bernyanyi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q21_opt_c",
+        "label": "C",
+        "content": "Agar menjadi kaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q21_opt_d",
+        "label": "D",
+        "content": "Agar tidur lebih nyenyak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q22",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat komunikasi seperti HP sangat penting dalam kehidupan sehari-hari. Tujuan utama kita memiliki HP adalah …",
+    "imageUrl": null,
+    "explanation": "HP adalah alat komunikasi, jadi tujuan utamanya agar kita bisa **saling berkomunikasi dan berbagi informasi**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q22_opt_a",
+        "label": "A",
+        "content": "Agar kita bisa saling berbagi informasi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q22_opt_b",
+        "label": "B",
+        "content": "Untuk bermain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q22_opt_c",
+        "label": "C",
+        "content": "Agar kelihatan keren",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q22_opt_d",
+        "label": "D",
+        "content": "Agar terlihat seperti orang dewasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q23",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Petugas yang bertanggung jawab mengawasi lalu lintas di jalan raya adalah …",
+    "imageUrl": null,
+    "explanation": "**Polisi lalu lintas** mengatur dan mengawasi lalu lintas di jalan raya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q23_opt_a",
+        "label": "A",
+        "content": "Petugas bank",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q23_opt_b",
+        "label": "B",
+        "content": "Polisi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q23_opt_c",
+        "label": "C",
+        "content": "Chef",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q23_opt_d",
+        "label": "D",
+        "content": "Perawat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q24",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Seorang satpam di lingkungan perumahan memiliki tugas untuk …",
+    "imageUrl": null,
+    "explanation": "Satpam (satuan pengamanan) bertugas **menjaga keamanan** lingkungan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q24_opt_a",
+        "label": "A",
+        "content": "Menyediakan makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q24_opt_b",
+        "label": "B",
+        "content": "Mengawasi dan menjaga keamanan di lingkungan sekitar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q24_opt_c",
+        "label": "C",
+        "content": "Merawat pasien di rumah sakit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q24_opt_d",
+        "label": "D",
+        "content": "Membantu orang menabung di bank",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q25",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di rumah, setiap anggota keluarga saling menghargai dan mendengarkan pendapat satu sama lain. Apa yang terjadi jika dalam keluarga tidak ada sikap saling menghargai?",
+    "imageUrl": null,
+    "explanation": "Tanpa saling menghargai, mudah terjadi **pertengkaran** dan rumah menjadi tidak nyaman.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q25_opt_a",
+        "label": "A",
+        "content": "Semua orang akan selalu setuju",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q25_opt_b",
+        "label": "B",
+        "content": "Keluarga menjadi lebih kompak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q25_opt_c",
+        "label": "C",
+        "content": "Terjadi banyak pertengkaran dan suasana rumah menjadi tidak nyaman",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q25_opt_d",
+        "label": "D",
+        "content": "Semua pekerjaan rumah selesai lebih cepat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q26",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika kita melihat sampah di rumah, yang harus kita lakukan adalah …",
+    "imageUrl": null,
+    "explanation": "Sampah diambil dan **dibuang ke tempat sampah**. Membakar sampah mencemari udara.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q26_opt_a",
+        "label": "A",
+        "content": "Menyiramnya dengan air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q26_opt_b",
+        "label": "B",
+        "content": "Meninggalkannya begitu saja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q26_opt_c",
+        "label": "C",
+        "content": "Mengambil dan membuangnya ke tempat sampah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q26_opt_d",
+        "label": "D",
+        "content": "Membakarnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q27",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pak Toni adalah seorang petani. Setiap hari ia menanam padi di sawah dan merawatnya sampai panen. Apa manfaat pekerjaan Pak Toni bagi masyarakat?",
+    "imageUrl": null,
+    "explanation": "Petani padi **menyediakan beras**, makanan pokok masyarakat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q27_opt_a",
+        "label": "A",
+        "content": "Membuat rumah menjadi lebih bagus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q27_opt_b",
+        "label": "B",
+        "content": "Menyediakan bahan makanan seperti beras",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q27_opt_c",
+        "label": "C",
+        "content": "Menjaga keamanan lingkungan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q27_opt_d",
+        "label": "D",
+        "content": "Memperbaiki kendaraan rusak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q28",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Salah satu cara menjaga alam tetap bersih adalah dengan …",
+    "imageUrl": null,
+    "explanation": "**Mengurangi plastik dan sampah** membantu menjaga alam tetap bersih.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q28_opt_a",
+        "label": "A",
+        "content": "Menggunakan kendaraan setiap hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q28_opt_b",
+        "label": "B",
+        "content": "Membawa makanan dan minuman dalam wadah sekali pakai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q28_opt_c",
+        "label": "C",
+        "content": "Mengurangi penggunaan plastik dan sampah lainnya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q28_opt_d",
+        "label": "D",
+        "content": "Menebang pohon semau kita",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q29",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika sedang belajar di sekolah, tiba-tiba bangunan terasa bergetar. Kursi dan meja bergoyang sendiri. Guru segera meminta siswa keluar ke lapangan dengan tertib. Peristiwa yang dialami siswa disebut …",
+    "imageUrl": null,
+    "explanation": "Getaran yang membuat bangunan dan benda bergoyang adalah **gempa bumi**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q29_opt_a",
+        "label": "A",
+        "content": "Angin kencang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q29_opt_b",
+        "label": "B",
+        "content": "Tanah longsor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q29_opt_c",
+        "label": "C",
+        "content": "Gempa bumi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q29_opt_d",
+        "label": "D",
+        "content": "Hujan deras",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q30",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Setiap pagi, Ayah, Ibu, dan Kakak bekerja sama membersihkan rumah. Ibu menyapu, Ayah mengepel, dan Kakak merapikan tempat tidur. Apa manfaat bekerja sama dalam keluarga?",
+    "imageUrl": null,
+    "explanation": "Dengan bekerja sama, **tugas menjadi lebih ringan dan cepat selesai**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q30_opt_a",
+        "label": "A",
+        "content": "Semua merasa lelah bersama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q30_opt_b",
+        "label": "B",
+        "content": "Tugas rumah menjadi lebih ringan dan cepat selesai",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q30_opt_c",
+        "label": "C",
+        "content": "Orang tua bisa istirahat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q30_opt_d",
+        "label": "D",
+        "content": "Semua anggota keluarga bisa santai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q31",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di sebuah festival budaya, berbagai suku di Indonesia menampilkan makanan khas mereka. Jika panitia ingin memilih menu yang bisa mewakili keragaman tanpa menyinggung suku lain, langkah yang paling tepat adalah …",
+    "imageUrl": null,
+    "explanation": "Agar adil dan menghargai keragaman, sajikan **menu dari berbagai suku** sehingga semua terwakili.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q31_opt_a",
+        "label": "A",
+        "content": "Memilih makanan khas dari suku yang paling terkenal di Indonesia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q31_opt_b",
+        "label": "B",
+        "content": "Memilih makanan dari suku yang memiliki jumlah penduduk terbanyak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q31_opt_c",
+        "label": "C",
+        "content": "Menyajikan makanan yang hanya berasal dari daerah sekitar lokasi acara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q31_opt_d",
+        "label": "D",
+        "content": "Menyediakan beberapa menu dari berbagai suku agar semua terwakili",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q32",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Anak-anak berhak mendapatkan cinta dan perhatian dari keluarga. Salah satu kewajiban anak untuk membalas perhatian itu adalah …",
+    "imageUrl": null,
+    "explanation": "Kewajiban anak adalah **menghormati dan menaati nasihat orang tua**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q32_opt_a",
+        "label": "A",
+        "content": "Membantah orang tua saat ditegur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q32_opt_b",
+        "label": "B",
+        "content": "Menghormati dan menaati nasihat orang tua",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q32_opt_c",
+        "label": "C",
+        "content": "Menyuruh orang tua melakukan semua keinginannya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q32_opt_d",
+        "label": "D",
+        "content": "Mengabaikan kasih sayang orang tua",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q33",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Setiap anak berhak untuk bermain dan berkumpul dengan teman-temannya. Namun, kewajiban anak saat bermain di luar rumah adalah …",
+    "imageUrl": null,
+    "explanation": "Saat bermain di luar, anak wajib **memberi kabar kepada orang tua dan menjaga keselamatan diri**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q33_opt_a",
+        "label": "A",
+        "content": "Bermain sampai larut malam tanpa izin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q33_opt_b",
+        "label": "B",
+        "content": "Memberi kabar kepada orang tua dan menjaga keselamatan diri",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q33_opt_c",
+        "label": "C",
+        "content": "Membiarkan orang tua khawatir tanpa memberi tahu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q33_opt_d",
+        "label": "D",
+        "content": "Bermain di tempat berbahaya tanpa pengawasan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q34",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang nelayan ingin mendirikan rumah yang dekat dengan laut agar mudah berlayar mencari ikan, tetapi ia juga ingin terhindar dari risiko tsunami. Lokasi yang paling bijak untuk dipilih adalah …",
+    "imageUrl": null,
+    "explanation": "**Bukit dekat pantai** tetap dekat dengan laut, tetapi letaknya tinggi sehingga lebih aman dari gelombang tsunami.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q34_opt_a",
+        "label": "A",
+        "content": "Tepat di tepi pantai agar perjalanan lebih cepat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q34_opt_b",
+        "label": "B",
+        "content": "Di atas bukit dekat pantai agar lebih aman dari gelombang besar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q34_opt_c",
+        "label": "C",
+        "content": "Di muara sungai yang langsung menghadap laut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q34_opt_d",
+        "label": "D",
+        "content": "Di tengah laut menggunakan rumah rakit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q35",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di sebuah desa terdapat dua suku dengan adat istiadat berbeda dalam merayakan panen. Salah satu suku ingin memaksakan cara perayaannya pada suku lain. Jika masalah ini tidak diselesaikan dengan bijak, kemungkinan dampak yang muncul adalah …",
+    "imageUrl": null,
+    "explanation": "Memaksakan adat pada kelompok lain dapat menimbulkan **perselisihan** dan merusak kerukunan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q35_opt_a",
+        "label": "A",
+        "content": "Terjalinnya persatuan yang lebih erat antarwarga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q35_opt_b",
+        "label": "B",
+        "content": "Munculnya perselisihan yang merusak kerukunan masyarakat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q35_opt_c",
+        "label": "C",
+        "content": "Semua warga akhirnya memiliki adat yang sama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q35_opt_d",
+        "label": "D",
+        "content": "Tidak ada pengaruh apa pun terhadap kehidupan desa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q36",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika kita tidak menjaga kebersihan lingkungan, siapa yang akan merasakan dampaknya?",
+    "imageUrl": null,
+    "explanation": "Lingkungan kotor merugikan **semua orang dan makhluk hidup** di sekitarnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q36_opt_a",
+        "label": "A",
+        "content": "Hanya orang dewasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q36_opt_b",
+        "label": "B",
+        "content": "Hanya anak-anak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q36_opt_c",
+        "label": "C",
+        "content": "Semua orang dan makhluk hidup di sekitar kita",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q36_opt_d",
+        "label": "D",
+        "content": "Tidak ada yang merasakan dampaknya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q37",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika meminjam barang teman, tindakan yang harus kita lakukan adalah …",
+    "imageUrl": null,
+    "explanation": "Barang pinjaman **dijaga baik-baik dan dikembalikan** setelah selesai dipakai.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q37_opt_a",
+        "label": "A",
+        "content": "Tidak mengembalikan barang yang dipinjam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q37_opt_b",
+        "label": "B",
+        "content": "Meminjam tanpa izin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q37_opt_c",
+        "label": "C",
+        "content": "Menggunakan dengan hati-hati dan mengembalikannya setelah selesai",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q37_opt_d",
+        "label": "D",
+        "content": "Meminjam lalu merusaknya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q38",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Salah satu contoh aturan yang harus ditaati di perpustakaan adalah …",
+    "imageUrl": null,
+    "explanation": "Di perpustakaan kita harus **menjaga kebersihan dan ketenangan** agar orang lain nyaman membaca.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q38_opt_a",
+        "label": "A",
+        "content": "Berbicara keras dengan teman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q38_opt_b",
+        "label": "B",
+        "content": "Menjaga kebersihan dan ketenangan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q38_opt_c",
+        "label": "C",
+        "content": "Membuat keributan dengan mengganggu orang lain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q38_opt_d",
+        "label": "D",
+        "content": "Membawa makanan ke dalam perpustakaan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q39",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah desa berada di dekat gunung berapi yang masih aktif. Walaupun berisiko terkena letusan, banyak penduduk tetap tinggal di sana. Alasan utama yang paling masuk akal adalah …",
+    "imageUrl": null,
+    "explanation": "Abu vulkanik membuat **tanah di sekitar gunung berapi sangat subur**, cocok untuk bertani.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q39_opt_a",
+        "label": "A",
+        "content": "Tanahnya subur sehingga cocok untuk pertanian",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q39_opt_b",
+        "label": "B",
+        "content": "Gunung berapi memiliki udara dingin yang sehat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q39_opt_c",
+        "label": "C",
+        "content": "Gunung selalu aman karena jarang meletus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q39_opt_d",
+        "label": "D",
+        "content": "Sungai besar selalu terbentuk di sekitar gunung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_a_q40",
+    "topicId": "top_venus3_2025_ips_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Setiap daerah di Indonesia memiliki makanan khas yang berbeda karena pengaruh lingkungan dan budaya setempat. Jika semua daerah memiliki akses bahan makanan dan bumbu yang sama, hal yang paling mungkin terjadi pada makanan khas daerah adalah …",
+    "imageUrl": null,
+    "explanation": "Walaupun bahannya sama, **budaya dan cara memasak** tiap daerah berbeda, sehingga makanan khasnya tetap beragam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_a_q40_opt_a",
+        "label": "A",
+        "content": "Semua makanan khas daerah akan menjadi sama rasanya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q40_opt_b",
+        "label": "B",
+        "content": "Tidak ada lagi makanan khas di Indonesia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q40_opt_c",
+        "label": "C",
+        "content": "Setiap daerah hanya memilih makanan modern dan meninggalkan makanan khas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_a_q40_opt_d",
+        "label": "D",
+        "content": "Makanan khas tetap berbeda karena dipengaruhi budaya dan cara memasaknya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

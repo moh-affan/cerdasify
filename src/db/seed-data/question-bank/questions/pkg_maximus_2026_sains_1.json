@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "pkg_maximus_2026_sains_1_q01",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pada pagi hari yang cerah, burung …",
+    "imageUrl": null,
+    "explanation": "Suara burung disebut **berkicau**. Ayam betina berkotek, ayam jantan berkokok, dan harimau mengaum.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q01_opt_a",
+        "label": "A",
+        "content": "Berkotek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q01_opt_b",
+        "label": "B",
+        "content": "Berkicau",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q01_opt_c",
+        "label": "C",
+        "content": "Berkokok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q01_opt_d",
+        "label": "D",
+        "content": "Mengaung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q02",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ternak ayam menghasilkan …",
+    "imageUrl": null,
+    "explanation": "Ayam menghasilkan **telur** (dan daging).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q02_opt_a",
+        "label": "A",
+        "content": "Buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q02_opt_b",
+        "label": "B",
+        "content": "Telur",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q02_opt_c",
+        "label": "C",
+        "content": "Sayur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q02_opt_d",
+        "label": "D",
+        "content": "Daun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q03",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Untuk menggambar garis lurus sebaiknya memakai …",
+    "imageUrl": null,
+    "explanation": "**Penggaris** membantu kita membuat garis yang lurus.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q03_opt_a",
+        "label": "A",
+        "content": "Tas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q03_opt_b",
+        "label": "B",
+        "content": "Penggaris",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q03_opt_c",
+        "label": "C",
+        "content": "Penghapus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q03_opt_d",
+        "label": "D",
+        "content": "Pensil warna",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q04",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Benda cair ini rasanya manis dan biasa dipakai untuk membuat minuman. Benda tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "**Sirup** berwujud cair, manis, dan dicampur air untuk membuat minuman. Cuka rasanya asam, garam asin dan padat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q04_opt_a",
+        "label": "A",
+        "content": "Kecap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q04_opt_b",
+        "label": "B",
+        "content": "Garam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q04_opt_c",
+        "label": "C",
+        "content": "Sirup",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q04_opt_d",
+        "label": "D",
+        "content": "Cuka",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q05",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di bawah ini yang dibutuhkan pada musim hujan adalah …",
+    "imageUrl": null,
+    "explanation": "**Jas hujan** melindungi tubuh dari air hujan. Kipas angin dan kaus singlet lebih dibutuhkan saat cuaca panas.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q05_opt_a",
+        "label": "A",
+        "content": "Kipas angin",
+        "imageUrl": "/uploads/maximus26_s1_kipas.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q05_opt_b",
+        "label": "B",
+        "content": "Kaus singlet",
+        "imageUrl": "/uploads/maximus26_s1_singlet.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q05_opt_c",
+        "label": "C",
+        "content": "Kulkas",
+        "imageUrl": "/uploads/maximus26_s1_kulkas.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q05_opt_d",
+        "label": "D",
+        "content": "Jas hujan",
+        "imageUrl": "/uploads/maximus26_s1_jas_hujan.png",
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q06",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Benda-benda di bawah ini yang mempunyai ulir adalah …",
+    "imageUrl": null,
+    "explanation": "Ulir adalah alur melingkar seperti spiral. **Baut** (dan sekrup) memiliki ulir; paku dan jarum batangnya polos.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q06_opt_a",
+        "label": "A",
+        "content": "Paku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q06_opt_b",
+        "label": "B",
+        "content": "Jarum",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q06_opt_c",
+        "label": "C",
+        "content": "Kayu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q06_opt_d",
+        "label": "D",
+        "content": "Baut",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q07",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sapu lidi digunakan untuk …",
+    "imageUrl": null,
+    "explanation": "Sapu lidi dipakai untuk **menyapu** halaman atau kebun dari daun dan sampah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q07_opt_a",
+        "label": "A",
+        "content": "Menyapu kebun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q07_opt_b",
+        "label": "B",
+        "content": "Membuang sampah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q07_opt_c",
+        "label": "C",
+        "content": "Mencabut rumput",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q07_opt_d",
+        "label": "D",
+        "content": "Menanam bunga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q08",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bila kelereng dan dadu dilempar bersama di lantai, maka …",
+    "imageUrl": null,
+    "explanation": "Kelereng berbentuk bulat sehingga mudah menggelinding dan **bergerak lebih lama**. Dadu berbentuk kubus sehingga cepat berhenti.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q08_opt_a",
+        "label": "A",
+        "content": "Gerakan kelereng lebih lama",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q08_opt_b",
+        "label": "B",
+        "content": "Kelereng tidak bergerak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q08_opt_c",
+        "label": "C",
+        "content": "Gerakan dadu lebih lama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q08_opt_d",
+        "label": "D",
+        "content": "Gerakan dadu lebih cepat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q09",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Robot mainan seperti pada gambar digerakkan oleh …",
+    "imageUrl": "/uploads/maximus26_s1_robot.png",
+    "explanation": "Robot mainan bergerak dengan energi listrik dari **baterai**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q09_opt_a",
+        "label": "A",
+        "content": "Baterai",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q09_opt_b",
+        "label": "B",
+        "content": "Tangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q09_opt_c",
+        "label": "C",
+        "content": "Angin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q09_opt_d",
+        "label": "D",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q10",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bola tenis bergerak karena …",
+    "imageUrl": null,
+    "explanation": "Saat bermain tenis, bola bergerak karena **dipukul** dengan raket.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q10_opt_a",
+        "label": "A",
+        "content": "Pegas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q10_opt_b",
+        "label": "B",
+        "content": "Ditarik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q10_opt_c",
+        "label": "C",
+        "content": "Diangkat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q10_opt_d",
+        "label": "D",
+        "content": "Dipukul",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q11",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kapal besi dapat mengapung karena …",
+    "imageUrl": null,
+    "explanation": "Badan kapal dibuat berongga dan berisi udara, sehingga kapal bisa mengapung walaupun terbuat dari besi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q11_opt_a",
+        "label": "A",
+        "content": "Ada mesin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q11_opt_b",
+        "label": "B",
+        "content": "Ada rongga udara",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q11_opt_c",
+        "label": "C",
+        "content": "Ada kemudi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q11_opt_d",
+        "label": "D",
+        "content": "Ada magnet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q12",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dua kutub magnet yang sama didekatkan, maka akan saling …",
+    "imageUrl": null,
+    "explanation": "Kutub yang sama (utara–utara atau selatan–selatan) saling **tolak-menolak**. Kutub berbeda saling tarik-menarik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q12_opt_a",
+        "label": "A",
+        "content": "Tolak-menolak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q12_opt_b",
+        "label": "B",
+        "content": "Mendekat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q12_opt_c",
+        "label": "C",
+        "content": "Tarik-menarik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q12_opt_d",
+        "label": "D",
+        "content": "Tidak ada reaksi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q13",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jari-jari tangan kita (kanan dan kiri) jumlahnya ada …",
+    "imageUrl": null,
+    "explanation": "Setiap tangan punya 5 jari. Tangan kanan dan kiri jumlahnya $5 + 5 = 10$ (**sepuluh**).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q13_opt_a",
+        "label": "A",
+        "content": "Empat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q13_opt_b",
+        "label": "B",
+        "content": "Lima",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q13_opt_c",
+        "label": "C",
+        "content": "Dua puluh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q13_opt_d",
+        "label": "D",
+        "content": "Sepuluh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q14",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bau benda dapat …",
+    "imageUrl": null,
+    "explanation": "Bau dikenali dengan hidung, yaitu **dicium**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q14_opt_a",
+        "label": "A",
+        "content": "Dicium",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q14_opt_b",
+        "label": "B",
+        "content": "Dilihat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q14_opt_c",
+        "label": "C",
+        "content": "Didengar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q14_opt_d",
+        "label": "D",
+        "content": "Diraba",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q15",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Indra yang digunakan untuk meraba adalah …",
+    "imageUrl": null,
+    "explanation": "**Kulit** adalah indra peraba (merasakan halus, kasar, panas, dingin).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q15_opt_a",
+        "label": "A",
+        "content": "Lidah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q15_opt_b",
+        "label": "B",
+        "content": "Kulit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q15_opt_c",
+        "label": "C",
+        "content": "Hidung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q15_opt_d",
+        "label": "D",
+        "content": "Mata",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q16",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pinggang merupakan bagian …",
+    "imageUrl": null,
+    "explanation": "Pinggang terletak di tengah tubuh, termasuk bagian **badan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q16_opt_a",
+        "label": "A",
+        "content": "Anggota gerak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q16_opt_b",
+        "label": "B",
+        "content": "Kepala",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q16_opt_c",
+        "label": "C",
+        "content": "Badan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q16_opt_d",
+        "label": "D",
+        "content": "Kaki",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q17",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bagian mulut kita yang digunakan untuk mengunyah adalah …",
+    "imageUrl": null,
+    "explanation": "Makanan dikunyah dan dihaluskan oleh **gigi**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q17_opt_a",
+        "label": "A",
+        "content": "Lidah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q17_opt_b",
+        "label": "B",
+        "content": "Gigi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q17_opt_c",
+        "label": "C",
+        "content": "Bibir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q17_opt_d",
+        "label": "D",
+        "content": "Langit-langit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q18",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bagian permukaan kulit manusia yang tidak ditumbuhi rambut adalah …",
+    "imageUrl": null,
+    "explanation": "**Telapak tangan** (dan telapak kaki) tidak ditumbuhi rambut.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q18_opt_a",
+        "label": "A",
+        "content": "Telapak tangan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q18_opt_b",
+        "label": "B",
+        "content": "Siku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q18_opt_c",
+        "label": "C",
+        "content": "Lengan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q18_opt_d",
+        "label": "D",
+        "content": "Paha",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q19",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada usia berapakah gigi susu biasanya copot (tanggal)?",
+    "imageUrl": null,
+    "explanation": "Gigi susu mulai tanggal sekitar usia 6 tahun dan biasanya sudah berganti semua dengan gigi tetap sekitar usia **12 tahun**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q19_opt_a",
+        "label": "A",
+        "content": "6 sampai 12 tahun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q19_opt_b",
+        "label": "B",
+        "content": "6 sampai 10 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q19_opt_c",
+        "label": "C",
+        "content": "10 sampai 15 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q19_opt_d",
+        "label": "D",
+        "content": "6 sampai 20 tahun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q20",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada gambar, bagian ikan yang berguna untuk mencium bau adalah nomor …",
+    "imageUrl": "/uploads/maximus26_s1_kepala_ikan.png",
+    "explanation": "Nomor 1 adalah mata, nomor 2 adalah **lubang hidung** (untuk mencium bau), dan nomor 3 adalah mulut.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q20_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q20_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q20_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q20_opt_d",
+        "label": "D",
+        "content": "Semua jawaban benar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q21",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bagian tubuh yang dapat menyebabkan tubuh kita bergerak adalah …",
+    "imageUrl": null,
+    "explanation": "**Otot** adalah alat gerak aktif: otot berkontraksi dan menarik tulang. Tulang hanya alat gerak pasif yang digerakkan otot.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q21_opt_a",
+        "label": "A",
+        "content": "Tulang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q21_opt_b",
+        "label": "B",
+        "content": "Otot",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q21_opt_c",
+        "label": "C",
+        "content": "Sendi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q21_opt_d",
+        "label": "D",
+        "content": "Kulit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q22",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Contoh makanan pokok di Indonesia yang mengandung banyak karbohidrat adalah …",
+    "imageUrl": null,
+    "explanation": "**Nasi** adalah makanan pokok sumber karbohidrat (zat tenaga).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q22_opt_a",
+        "label": "A",
+        "content": "Sayur bayam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q22_opt_b",
+        "label": "B",
+        "content": "Daging ayam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q22_opt_c",
+        "label": "C",
+        "content": "Buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q22_opt_d",
+        "label": "D",
+        "content": "Nasi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q23",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Air yang dimasukkan ke dalam freezer akan berubah menjadi es batu. Proses ini disebut …",
+    "imageUrl": null,
+    "explanation": "Perubahan air (cair) menjadi es (padat) disebut **membeku**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q23_opt_a",
+        "label": "A",
+        "content": "Mencair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q23_opt_b",
+        "label": "B",
+        "content": "Membeku",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q23_opt_c",
+        "label": "C",
+        "content": "Menguap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q23_opt_d",
+        "label": "D",
+        "content": "Menyublim",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q24",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Air yang dipanaskan terus-menerus akan habis karena berubah menjadi uap. Proses ini disebut …",
+    "imageUrl": null,
+    "explanation": "Perubahan air (cair) menjadi uap (gas) disebut **menguap**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q24_opt_a",
+        "label": "A",
+        "content": "Mencair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q24_opt_b",
+        "label": "B",
+        "content": "Membeku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q24_opt_c",
+        "label": "C",
+        "content": "Menguap",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q24_opt_d",
+        "label": "D",
+        "content": "Menyublim",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_maximus_2026_sains_1_q25",
+    "topicId": "top_maximus_2026_sains_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Benda yang dapat memantul saat dilempar ke lantai adalah …",
+    "imageUrl": null,
+    "explanation": "**Bola karet** bersifat lentur sehingga memantul saat dijatuhkan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_maximus_2026_sains_1_q25_opt_a",
+        "label": "A",
+        "content": "Bola karet",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q25_opt_b",
+        "label": "B",
+        "content": "Buku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q25_opt_c",
+        "label": "C",
+        "content": "Meja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_maximus_2026_sains_1_q25_opt_d",
+        "label": "D",
+        "content": "Kain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 # Inventaris Soal Level 1 (Kelas 1–2) yang Belum Masuk Cerdasify
 
-> Dibuat 01-11-2026 dari folder `olympiad` (salinan lokal Google Drive `__ANAK__/olympiad`, 381 berkas PDF/DOCX), dibandingkan dengan bank soal kanonik Cerdasify (75 paket, 2.450 soal; diperbarui setelah impor 01-11-2026). Setelah impor 05-11-2026 bank berisi 92 paket dan 2.946 soal (lihat bagian *Impor 05-11-2026*).
+> Dibuat 01-11-2026 dari folder `olympiad` (salinan lokal Google Drive `__ANAK__/olympiad`, 381 berkas PDF/DOCX), dibandingkan dengan bank soal kanonik Cerdasify (75 paket, 2.450 soal; diperbarui setelah impor 01-11-2026). Setelah impor 05-11-2026 bank berisi 106 paket dan 3.396 soal (lihat bagian *Impor 05-11-2026*).
 
 ## Cara membaca
 
@@ -288,6 +288,48 @@ Soal uraian CEO 2023 diubah menjadi pilihan ganda bertanda "(Uraian)", mengikuti
 | CEO 2023 Sains L2 | 6, 13, 18 | dibuang | Gas juga mengikuti wadah; Papandayan juga gunung aktif; "menyublim" di kunci = gas→padat (bertentangan dengan KBBI) |
 | CEO 2023 Ing L1 | 18, 19 | dibuang | 66 + 75 = 141 tidak ada; *We have to stay strong* tidak ada |
 | CEO 2023 Ing L2 | 14, 22, 25 | dibuang | *cousin*/*student* sama-sama benar; beberapa opsi sama-sama tidak disebut; semua opsi tanda baca masih salah |
+
+## Impor 05-11-2026 (lanjutan): MAXIMUS dan VENUS
+
+Hanya Level 1–2. Salinan lokal: `~/Downloads/Soal Maximus 1-20261105T114252Z-1-001/` dan `~/Downloads/SOAL NASIONAL VENUS KE-3 MLG 25-20261105T114314Z-1-001/`. Naskah tanpa kunci; semua kunci dihitung/diverifikasi ulang. MAXIMUS memakai level per kelas (Level 1 = kelas 1, Level 2 = kelas 2); VENUS memakai Level A (kelas 1–2) dan B (kelas 3–4).
+
+| Sumber | Paket | Soal |
+|---|---|---:|
+| `Soal Maximus 1/Mat L.1 Maximus.pdf` (Final NTB 2026) | pkg_maximus_2026_mtk_1 | 25 |
+| `Soal Maximus 1/Mat L.2 Maximus.pdf` | pkg_maximus_2026_mtk_2 | 25 |
+| `Soal Maximus 1/BI L.1 Maximus.pdf` | pkg_maximus_2026_ing_1 | 25 |
+| `Soal Maximus 1/BI L.2 Maximus.pdf` | pkg_maximus_2026_ing_2 | 24 |
+| `Soal Maximus 1/Sains 1 Maximus.pdf` | pkg_maximus_2026_sains_1 | 25 |
+| `Soal Maximus 1/Sains 2 Maximus.pdf` | pkg_maximus_2026_sains_2 | 24 |
+| `SOAL NASIONAL VENUS KE-3 MLG 25/MAT A - ok  .pdf` (Babak Final 2025) | pkg_venus3_2025_mtk_a | 40 |
+| `…/MAT B -ok  .pdf` | pkg_venus3_2025_mtk_b | 36 |
+| `…/SAINS  A  ok   .pdf` | pkg_venus3_2025_sains_a | 40 |
+| `…/SAINS  B ok .pdf` | pkg_venus3_2025_sains_b | 39 |
+| `…/B ING   A OK  .pdf` | pkg_venus3_2025_ing_a | 37 |
+| `…/B ING   B OK  .pdf` | pkg_venus3_2025_ing_b | 32 |
+| `…/IPS  A ok .pdf` | pkg_venus3_2025_ips_a | 40 |
+| `…/IPS  B ok .pdf` | pkg_venus3_2025_ips_b | 38 |
+| **Total** | **14 paket** | **450** |
+
+Belum diimpor: `CODING KELAS 1–4` VENUS (hampir seluruhnya soal gambar/arah) serta level TK dan C–E/3–7.
+
+### Soal yang tidak diimpor atau diubah
+
+| Naskah | No. | Tindakan | Alasan |
+|---|---:|---|---|
+| MAXIMUS Mat L2 | 5 | kalimat diperjelas | "selisih angka ratusan dan satuan" hanya cocok dengan opsi bila yang dimaksud nilai tempatnya ($300 - 9 = 291$) |
+| MAXIMUS Ing L1 | 12 | kalimat dirapikan | Instruksi asli rusak ("… two pencils. You should use …") |
+| MAXIMUS Ing L2 | 22 | dibuang | "one book, and then you have two books" bisa berarti total 2 atau 3 |
+| MAXIMUS Sains L2 | 2 | pengecoh diganti | Opsi B dan D identik ("listrik") |
+| MAXIMUS Sains L2 | 25 | dibuang | Jarum dan batu kerikil sama-sama tenggelam |
+| VENUS Mat A | 25 | pengecoh diganti | Opsi C dan D identik ("10 buku") |
+| VENUS Mat B | 1, 12, 13, 30 | dibuang | Kadar garam justru naik menjadi 4,8% (tidak ada di opsi); pola bilangan tidak konsisten; gambar pola lidi dan garis bilangan rusak |
+| VENUS Sains B | 12 | dibuang | Energi angin: tanpa bahan bakar (A) dan tanpa polusi (D) sama-sama benar |
+| VENUS Ing A | 6, 9, 11 | dibuang | Gambar jam terlalu buram; 02:15 = *a quarter past two* = *fifteen past two*; bebek di bawah meja (tidak ada di opsi) |
+| VENUS Ing B | 15, 16, 18, 22, 30, 32, 35, 39 | dibuang | Jawaban tidak tunggal atau tidak ada yang benar (alasan Sarah tidak disebut; basket/plate; "How old she is?"; gambar opsi rusak; grocery/shop; "next day" ambigu; jawaban "paling tepat" subjektif; hot/big sun) |
+| VENUS Ing B | 38 | pengecoh diganti | Opsi A dan D identik |
+| VENUS IPS A | 22 | pengecoh diganti | "Agar alat komunikasi bisa dibawa ke mana-mana" juga masuk akal sebagai tujuan |
+| VENUS IPS B | 24, 39 | dibuang | Kuliah: sekunder/tersier berbeda antarbuku; sawit dan padi sama-sama di dataran rendah |
 
 ## Duplikat (tidak dihitung)
 

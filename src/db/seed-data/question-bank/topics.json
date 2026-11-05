@@ -622,5 +622,89 @@
     "categoryId": "cat_olimpiade_ceo",
     "name": "Bahasa Inggris Level 2 Final CEO 2023",
     "slug": "olimpiade-ceo-2023-final-bahasa-inggris-level-2"
+  },
+  {
+    "id": "top_maximus_2026_mtk_1",
+    "categoryId": "cat_olimpiade_maximus",
+    "name": "Matematika Level 1 (Kelas 1) Final MAXIMUS 2026",
+    "slug": "olimpiade-maximus-2026-final-matematika-level-1"
+  },
+  {
+    "id": "top_maximus_2026_mtk_2",
+    "categoryId": "cat_olimpiade_maximus",
+    "name": "Matematika Level 2 (Kelas 2) Final MAXIMUS 2026",
+    "slug": "olimpiade-maximus-2026-final-matematika-level-2"
+  },
+  {
+    "id": "top_maximus_2026_ing_1",
+    "categoryId": "cat_olimpiade_maximus",
+    "name": "Bahasa Inggris Level 1 (Kelas 1) Final MAXIMUS 2026",
+    "slug": "olimpiade-maximus-2026-final-bahasa-inggris-level-1"
+  },
+  {
+    "id": "top_maximus_2026_ing_2",
+    "categoryId": "cat_olimpiade_maximus",
+    "name": "Bahasa Inggris Level 2 (Kelas 2) Final MAXIMUS 2026",
+    "slug": "olimpiade-maximus-2026-final-bahasa-inggris-level-2"
+  },
+  {
+    "id": "top_maximus_2026_sains_1",
+    "categoryId": "cat_olimpiade_maximus",
+    "name": "Sains Level 1 (Kelas 1) Final MAXIMUS 2026",
+    "slug": "olimpiade-maximus-2026-final-sains-level-1"
+  },
+  {
+    "id": "top_maximus_2026_sains_2",
+    "categoryId": "cat_olimpiade_maximus",
+    "name": "Sains Level 2 (Kelas 2) Final MAXIMUS 2026",
+    "slug": "olimpiade-maximus-2026-final-sains-level-2"
+  },
+  {
+    "id": "top_venus3_2025_mtk_a",
+    "categoryId": "cat_olimpiade_venus",
+    "name": "Matematika Level A (Kelas 1–2) Final VENUS ke-3 2025",
+    "slug": "kompetisi-venus-3-2025-final-matematika-level-a"
+  },
+  {
+    "id": "top_venus3_2025_mtk_b",
+    "categoryId": "cat_olimpiade_venus",
+    "name": "Matematika Level B (Kelas 3–4) Final VENUS ke-3 2025",
+    "slug": "kompetisi-venus-3-2025-final-matematika-level-b"
+  },
+  {
+    "id": "top_venus3_2025_sains_a",
+    "categoryId": "cat_olimpiade_venus",
+    "name": "Sains Level A (Kelas 1–2) Final VENUS ke-3 2025",
+    "slug": "kompetisi-venus-3-2025-final-sains-level-a"
+  },
+  {
+    "id": "top_venus3_2025_sains_b",
+    "categoryId": "cat_olimpiade_venus",
+    "name": "Sains Level B (Kelas 3–4) Final VENUS ke-3 2025",
+    "slug": "kompetisi-venus-3-2025-final-sains-level-b"
+  },
+  {
+    "id": "top_venus3_2025_ing_a",
+    "categoryId": "cat_olimpiade_venus",
+    "name": "Bahasa Inggris Level A (Kelas 1–2) Final VENUS ke-3 2025",
+    "slug": "kompetisi-venus-3-2025-final-bahasa-inggris-level-a"
+  },
+  {
+    "id": "top_venus3_2025_ing_b",
+    "categoryId": "cat_olimpiade_venus",
+    "name": "Bahasa Inggris Level B (Kelas 3–4) Final VENUS ke-3 2025",
+    "slug": "kompetisi-venus-3-2025-final-bahasa-inggris-level-b"
+  },
+  {
+    "id": "top_venus3_2025_ips_a",
+    "categoryId": "cat_olimpiade_venus",
+    "name": "IPS Level A (Kelas 1–2) Final VENUS ke-3 2025",
+    "slug": "kompetisi-venus-3-2025-final-ips-level-a"
+  },
+  {
+    "id": "top_venus3_2025_ips_b",
+    "categoryId": "cat_olimpiade_venus",
+    "name": "IPS Level B (Kelas 3–4) Final VENUS ke-3 2025",
+    "slug": "kompetisi-venus-3-2025-final-ips-level-b"
   }
 ]

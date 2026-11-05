@@ -1,0 +1,1826 @@
+[
+  {
+    "id": "pkg_venus3_2025_ips_b_q01",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perdagangan merupakan bagian dari kegiatan ekonomi yang sangat penting karena menghubungkan produsen dengan konsumen. Contoh kegiatan perdagangan yang menggunakan sarana tradisional adalah …",
+    "imageUrl": null,
+    "explanation": "Sarana tradisional adalah **pasar tradisional** dengan pembayaran tunai dan tawar-menawar. Swalayan dan belanja daring adalah sarana modern.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q01_opt_a",
+        "label": "A",
+        "content": "Membeli sayur dan buah-buahan di pasar swalayan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q01_opt_b",
+        "label": "B",
+        "content": "Berbelanja pakaian melalui situs e-commerce",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q01_opt_c",
+        "label": "C",
+        "content": "Bertransaksi jual beli barang di pasar tradisional menggunakan uang tunai",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q01_opt_d",
+        "label": "D",
+        "content": "Membeli makanan dengan aplikasi online",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q02",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tradisi \"Grebeg Maulud\" di Keraton Yogyakarta menunjukkan nilai persatuan karena …",
+    "imageUrl": null,
+    "explanation": "Nilai persatuan tampak karena tradisi ini **dihadiri berbagai lapisan masyarakat tanpa membedakan asal-usul**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q02_opt_a",
+        "label": "A",
+        "content": "Dihadiri berbagai lapisan masyarakat tanpa memandang asal-usul",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q02_opt_b",
+        "label": "B",
+        "content": "Hanya diikuti oleh masyarakat Jawa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q02_opt_c",
+        "label": "C",
+        "content": "Merupakan tradisi yang bersifat kedaerahan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q02_opt_d",
+        "label": "D",
+        "content": "Tidak melibatkan budaya lain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q03",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kegiatan ekonomi tidak hanya bermanfaat bagi individu, tetapi juga bagi masyarakat luas karena dapat membuka lapangan pekerjaan dan meningkatkan kesejahteraan. Contoh kegiatan ekonomi yang memberi dampak positif bagi banyak orang adalah …",
+    "imageUrl": null,
+    "explanation": "Pabrik yang **mempekerjakan banyak warga** membuka lapangan kerja dan meningkatkan kesejahteraan masyarakat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q03_opt_a",
+        "label": "A",
+        "content": "Seorang ibu yang memasak hanya untuk keluarganya sendiri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q03_opt_b",
+        "label": "B",
+        "content": "Seorang pengusaha membuka pabrik dan mempekerjakan banyak warga sekitar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q03_opt_c",
+        "label": "C",
+        "content": "Seorang pelajar yang sedang belajar ekonomi di sekolah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q03_opt_d",
+        "label": "D",
+        "content": "Seorang petani yang menyimpan seluruh hasil panennya di gudang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q04",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Indonesia memiliki banyak gunung berapi aktif karena berada di kawasan Cincin Api (*Ring of Fire*). Salah satu dampak positif adanya gunung berapi adalah …",
+    "imageUrl": null,
+    "explanation": "Abu vulkanik **menyuburkan tanah** di lereng gunung. Pilihan lain adalah dampak negatif.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q04_opt_a",
+        "label": "A",
+        "content": "Menyebabkan gempa dan kerusakan infrastruktur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q04_opt_b",
+        "label": "B",
+        "content": "Meninggalkan lahar yang membakar hutan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q04_opt_c",
+        "label": "C",
+        "content": "Menyuburkan tanah di sekitar lereng gunung sehingga cocok untuk pertanian",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q04_opt_d",
+        "label": "D",
+        "content": "Menyebabkan masyarakat harus terus mengungsi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q05",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kenampakan alam terbentuk secara alami tanpa campur tangan manusia. Contoh kenampakan alam yang sering dijadikan tempat wisata karena keindahannya sekaligus menjadi sumber air bagi penduduk sekitar adalah …",
+    "imageUrl": null,
+    "explanation": "Hanya **danau alami** yang terbentuk tanpa campur tangan manusia. Sungai buatan, waduk, dan kolam renang adalah kenampakan buatan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q05_opt_a",
+        "label": "A",
+        "content": "Sungai yang dibuat manusia untuk mengairi sawah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q05_opt_b",
+        "label": "B",
+        "content": "Waduk besar yang dibangun oleh pemerintah daerah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q05_opt_c",
+        "label": "C",
+        "content": "Danau alami yang terbentuk di pegunungan dan dikelilingi hutan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q05_opt_d",
+        "label": "D",
+        "content": "Kolam renang buatan yang dibangun di perumahan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q06",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Contoh kegiatan yang dilakukan di dataran rendah adalah …",
+    "imageUrl": null,
+    "explanation": "Dataran rendah yang luas dan panas cocok untuk **sawah padi dan kelapa sawit**. Kopi, sayuran, dan bunga hias lebih cocok di dataran tinggi yang sejuk.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q06_opt_a",
+        "label": "A",
+        "content": "Membuka lahan untuk pertanian padi dan kebun kelapa sawit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q06_opt_b",
+        "label": "B",
+        "content": "Membuka lahan untuk kebun kopi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q06_opt_c",
+        "label": "C",
+        "content": "Membangun bangunan wisata alam pegunungan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q06_opt_d",
+        "label": "D",
+        "content": "Menanam sayuran dataran tinggi dan bunga hias",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q07",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Gunung merupakan kenampakan alam yang berperan penting dalam menjaga keseimbangan ekosistem. Salah satu manfaat gunung berapi yang masih aktif bagi masyarakat di sekitarnya adalah …",
+    "imageUrl": null,
+    "explanation": "Material letusan membuat **tanah menjadi subur** untuk pertanian.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q07_opt_a",
+        "label": "A",
+        "content": "Menjadi tempat pertambangan emas yang berbahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q07_opt_b",
+        "label": "B",
+        "content": "Menjadi tempat pembuangan sampah dari kota besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q07_opt_c",
+        "label": "C",
+        "content": "Menyediakan lahan subur yang sangat baik untuk pertanian setelah letusan terjadi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q07_opt_d",
+        "label": "D",
+        "content": "Menjadi tempat membangun gedung bertingkat karena tanahnya keras",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q08",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sawah terasering adalah kenampakan buatan yang biasanya dibangun di daerah perbukitan atau pegunungan. Salah satu manfaat sawah terasering bagi petani adalah …",
+    "imageUrl": null,
+    "explanation": "Terasering (sawah bertingkat) **menahan tanah agar tidak longsor** dan membuat lereng bisa ditanami.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q08_opt_a",
+        "label": "A",
+        "content": "Menyebabkan banjir besar saat musim hujan datang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q08_opt_b",
+        "label": "B",
+        "content": "Menyulitkan petani saat memanen padi karena tanah yang datar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q08_opt_c",
+        "label": "C",
+        "content": "Mengurangi risiko longsor dan memperluas lahan pertanian di daerah miring",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q08_opt_d",
+        "label": "D",
+        "content": "Membuat tanaman sulit tumbuh karena air tidak bisa mengalir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q09",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Wilayah yang cocok untuk dijadikan tempat wisata alam dengan udara sejuk adalah …",
+    "imageUrl": null,
+    "explanation": "Makin tinggi tempat, makin sejuk udaranya. **Dataran tinggi** cocok untuk wisata alam berhawa sejuk.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q09_opt_a",
+        "label": "A",
+        "content": "Dataran rendah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q09_opt_b",
+        "label": "B",
+        "content": "Gurun pasir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q09_opt_c",
+        "label": "C",
+        "content": "Dataran tinggi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q09_opt_d",
+        "label": "D",
+        "content": "Pantai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q10",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Manfaat hutan yang ada di pegunungan adalah …",
+    "imageUrl": null,
+    "explanation": "Pepohonan di hutan **menghasilkan oksigen dan menyerap karbon dioksida**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q10_opt_a",
+        "label": "A",
+        "content": "Sebagai tempat pembakaran sampah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q10_opt_b",
+        "label": "B",
+        "content": "Penyedia oksigen dan penyerap karbon dioksida",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q10_opt_c",
+        "label": "C",
+        "content": "Tempat penambangan batu bara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q10_opt_d",
+        "label": "D",
+        "content": "Area untuk pembangunan pabrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q11",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pegunungan Jayawijaya memiliki keunikan, yaitu …",
+    "imageUrl": null,
+    "explanation": "Pegunungan Jayawijaya di Papua unik karena **puncaknya bersalju** walaupun berada di daerah tropis.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q11_opt_a",
+        "label": "A",
+        "content": "Memiliki banyak tambang emas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q11_opt_b",
+        "label": "B",
+        "content": "Puncaknya bersalju",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q11_opt_c",
+        "label": "C",
+        "content": "Dikelilingi sungai besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q11_opt_d",
+        "label": "D",
+        "content": "Memiliki pantai indah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q12",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berikut ini yang termasuk manfaat kenampakan alam berupa hutan adalah …",
+    "imageUrl": null,
+    "explanation": "Hutan **menghasilkan oksigen** dan akar pohonnya **menyimpan air** di dalam tanah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q12_opt_a",
+        "label": "A",
+        "content": "Sebagai sumber penghasilan nelayan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q12_opt_b",
+        "label": "B",
+        "content": "Sebagai tempat perkotaan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q12_opt_c",
+        "label": "C",
+        "content": "Sebagai penghasil oksigen dan penyimpan air",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q12_opt_d",
+        "label": "D",
+        "content": "Sebagai sumber energi listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q13",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Salah satu cara merawat bendungan agar tetap berfungsi dengan baik adalah …",
+    "imageUrl": null,
+    "explanation": "Bendungan dirawat dengan **menjaga kebersihan dan mencegah erosi** agar tidak terjadi pendangkalan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q13_opt_a",
+        "label": "A",
+        "content": "Membuang limbah ke dalam bendungan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q13_opt_b",
+        "label": "B",
+        "content": "Menjaga kebersihan dan mencegah erosi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q13_opt_c",
+        "label": "C",
+        "content": "Menjadikannya tempat pembuangan sampah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q13_opt_d",
+        "label": "D",
+        "content": "Membiarkannya tanpa pengawasan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q14",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pelabuhan digunakan sebagai tempat …",
+    "imageUrl": null,
+    "explanation": "Pelabuhan adalah tempat kapal bersandar untuk **bongkar muat barang dan menaikkan/menurunkan penumpang**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q14_opt_a",
+        "label": "A",
+        "content": "Penambangan batu bara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q14_opt_b",
+        "label": "B",
+        "content": "Bongkar muat barang dan penumpang kapal",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q14_opt_c",
+        "label": "C",
+        "content": "Penyediaan air irigasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q14_opt_d",
+        "label": "D",
+        "content": "Pembangunan gedung pencakar langit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q15",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Fasilitas umum yang berfungsi sebagai tempat transportasi darat adalah …",
+    "imageUrl": null,
+    "explanation": "**Terminal** adalah tempat bus dan angkutan darat menaikkan dan menurunkan penumpang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q15_opt_a",
+        "label": "A",
+        "content": "Terminal",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q15_opt_b",
+        "label": "B",
+        "content": "Rumah sakit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q15_opt_c",
+        "label": "C",
+        "content": "Perpustakaan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q15_opt_d",
+        "label": "D",
+        "content": "Pasar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q16",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Seorang anak membeli pakaian bermerek internasional dengan harga sangat mahal, padahal ia sudah memiliki cukup pakaian untuk kebutuhan sehari-hari. Berdasarkan tingkatan kebutuhan manusia, pakaian tersebut termasuk kebutuhan …",
+    "imageUrl": null,
+    "explanation": "Pakaian pokok sudah tercukupi. Pakaian bermerek yang sangat mahal hanya untuk kemewahan dan gengsi, jadi termasuk **kebutuhan tersier**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q16_opt_a",
+        "label": "A",
+        "content": "Primer, karena pakaian adalah kebutuhan pokok setiap orang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q16_opt_b",
+        "label": "B",
+        "content": "Sekunder, karena pakaian dibeli untuk menunjang penampilan setelah kebutuhan dasar terpenuhi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q16_opt_c",
+        "label": "C",
+        "content": "Tersier, karena pakaian tersebut bersifat mewah, hanya untuk kesenangan dan prestise sosial",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q16_opt_d",
+        "label": "D",
+        "content": "Sosial, karena pakaian itu dipakai untuk menghadiri acara yang banyak orangnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q17",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Benteng Marlborough di Bengkulu merupakan peninggalan penjajahan Inggris. Alasan Inggris membangun benteng tersebut terutama adalah …",
+    "imageUrl": null,
+    "explanation": "Inggris (EIC) membangun Benteng Marlborough sebagai benteng pertahanan sekaligus untuk **menguasai perdagangan lada** di Bengkulu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q17_opt_a",
+        "label": "A",
+        "content": "Sebagai tempat beribadah dan pendidikan rakyat Bengkulu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q17_opt_b",
+        "label": "B",
+        "content": "Untuk melindungi diri dari serangan dan menguasai perdagangan lada",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q17_opt_c",
+        "label": "C",
+        "content": "Sebagai pusat pemerintahan Hindia Belanda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q17_opt_d",
+        "label": "D",
+        "content": "Untuk menyimpan rempah-rempah yang diperoleh dari Maluku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q18",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tokoh pahlawan perempuan yang memimpin perlawanan rakyat Aceh melawan penjajah Belanda dengan strategi perang gerilya di hutan-hutan Aceh adalah …",
+    "imageUrl": null,
+    "explanation": "**Cut Nyak Dhien** melanjutkan perjuangan suaminya, Teuku Umar, dengan perang gerilya di hutan Aceh. Sultan Hasanuddin dari Makassar, Imam Bonjol dari Sumatra Barat, Pattimura dari Maluku.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q18_opt_a",
+        "label": "A",
+        "content": "Sultan Hasanuddin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q18_opt_b",
+        "label": "B",
+        "content": "Cut Nyak Dhien",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q18_opt_c",
+        "label": "C",
+        "content": "Tuanku Imam Bonjol",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q18_opt_d",
+        "label": "D",
+        "content": "Pattimura",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q19",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jika kita membandingkan Benteng Rotterdam (Makassar) dan Benteng Marlborough (Bengkulu), perbedaan keduanya pada masa penjajahan adalah …",
+    "imageUrl": null,
+    "explanation": "Benteng Rotterdam dikuasai **Belanda** sebagai pusat pertahanan dan perdagangan di Makassar, sedangkan Benteng Marlborough dibangun **Inggris** sebagai benteng militer di Bengkulu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q19_opt_a",
+        "label": "A",
+        "content": "Benteng Rotterdam digunakan sebagai pusat pendidikan, sedangkan Benteng Marlborough untuk pertahanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q19_opt_b",
+        "label": "B",
+        "content": "Benteng Rotterdam digunakan Belanda untuk pertahanan dan perdagangan, sedangkan Benteng Marlborough dibangun Inggris untuk militer",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q19_opt_c",
+        "label": "C",
+        "content": "Benteng Rotterdam dibangun Inggris, sedangkan Benteng Marlborough dibangun Belanda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q19_opt_d",
+        "label": "D",
+        "content": "Kedua benteng hanya digunakan sebagai tempat penyimpanan rempah tanpa fungsi militer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q20",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pahlawan dari tanah Batak yang berjuang melawan Belanda demi mempertahankan agama dan tanah Batak adalah …",
+    "imageUrl": null,
+    "explanation": "**Sisingamangaraja XII** memimpin perlawanan rakyat Batak (Sumatra Utara). Teuku Umar dari Aceh, Pangeran Antasari dari Kalimantan Selatan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q20_opt_a",
+        "label": "A",
+        "content": "Sultan Iskandar Muda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q20_opt_b",
+        "label": "B",
+        "content": "Sisingamangaraja XII",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q20_opt_c",
+        "label": "C",
+        "content": "Teuku Umar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q20_opt_d",
+        "label": "D",
+        "content": "Pangeran Antasari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q21",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Stasiun kereta api peninggalan Belanda banyak ditemukan di Pulau Jawa. Tujuan utama Belanda membangun jaringan kereta api pada masa penjajahan adalah …",
+    "imageUrl": null,
+    "explanation": "Kereta api dibangun terutama untuk **mengangkut hasil perkebunan** (gula, kopi, teh) ke pelabuhan untuk diekspor.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q21_opt_a",
+        "label": "A",
+        "content": "Mempermudah transportasi rakyat agar dapat bersekolah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q21_opt_b",
+        "label": "B",
+        "content": "Meningkatkan jalur pariwisata ke luar negeri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q21_opt_c",
+        "label": "C",
+        "content": "Memudahkan pengangkutan hasil perkebunan ke pelabuhan untuk diekspor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q21_opt_d",
+        "label": "D",
+        "content": "Sebagai sarana komunikasi antara gubernur dan rakyat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q22",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perbedaan antara kebutuhan dan keinginan terletak pada …",
+    "imageUrl": null,
+    "explanation": "Kebutuhan harus dipenuhi (mendesak), sedangkan keinginan boleh ditunda. Perbedaannya pada **tingkat kepentingannya**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q22_opt_a",
+        "label": "A",
+        "content": "Harga barang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q22_opt_b",
+        "label": "B",
+        "content": "Tingkat urgensi (kepentingan) pemenuhan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q22_opt_c",
+        "label": "C",
+        "content": "Jenis barang yang dibutuhkan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q22_opt_d",
+        "label": "D",
+        "content": "Tempat pembelian barang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q23",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tradisi Ngaben di Bali dikenal sebagai upacara pembakaran jenazah. Tujuan utama tradisi ini adalah …",
+    "imageUrl": null,
+    "explanation": "Ngaben bertujuan **mengantarkan roh** orang yang meninggal menuju kehidupan selanjutnya menurut kepercayaan Hindu Bali.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q23_opt_a",
+        "label": "A",
+        "content": "Menghormati roh leluhur agar memberi hasil panen melimpah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q23_opt_b",
+        "label": "B",
+        "content": "Mengantarkan roh orang yang meninggal agar segera mencapai kehidupan selanjutnya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q23_opt_c",
+        "label": "C",
+        "content": "Memperingati hari kemerdekaan dengan ritual adat Bali",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q23_opt_d",
+        "label": "D",
+        "content": "Memohon keselamatan bagi keluarga yang masih hidup agar terhindar dari bencana",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q24",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gedung Lawang Sewu di Semarang dibangun oleh pemerintah kolonial Belanda dan memiliki ratusan pintu dan jendela. Keberadaan bangunan ini menunjukkan bahwa …",
+    "imageUrl": null,
+    "explanation": "Lawang Sewu kini menjadi cagar budaya yang menunjukkan **nilai sejarah dan arsitektur** peninggalan masa kolonial.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q24_opt_a",
+        "label": "A",
+        "content": "Belanda membangun gedung hanya untuk tempat tinggal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q24_opt_b",
+        "label": "B",
+        "content": "Penjajahan Belanda tidak berpengaruh terhadap perkembangan arsitektur di Indonesia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q24_opt_c",
+        "label": "C",
+        "content": "Bangunan peninggalan penjajah memiliki nilai sejarah dan arsitektur yang tinggi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q24_opt_d",
+        "label": "D",
+        "content": "Semua peninggalan penjajah tidak dapat digunakan kembali setelah kemerdekaan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q25",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tempat kegiatan jual beli yang paling umum dikenal di masyarakat adalah …",
+    "imageUrl": null,
+    "explanation": "**Pasar** adalah tempat bertemunya penjual dan pembeli.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q25_opt_a",
+        "label": "A",
+        "content": "Rumah ibadah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q25_opt_b",
+        "label": "B",
+        "content": "Pasar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q25_opt_c",
+        "label": "C",
+        "content": "Sekolah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q25_opt_d",
+        "label": "D",
+        "content": "Rumah sakit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q26",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pahlawan yang memperjuangkan kemerdekaan Indonesia melalui pendidikan dan organisasi, antara lain dengan mendirikan Budi Utomo pada tahun 1908, adalah …",
+    "imageUrl": null,
+    "explanation": "Budi Utomo didirikan oleh **dr. Sutomo** bersama para pelajar STOVIA atas gagasan dr. Wahidin Sudirohusodo. Ki Hajar Dewantara mendirikan Taman Siswa, Cokroaminoto memimpin Sarekat Islam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q26_opt_a",
+        "label": "A",
+        "content": "Ki Hajar Dewantara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q26_opt_b",
+        "label": "B",
+        "content": "Dr. Sutomo",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q26_opt_c",
+        "label": "C",
+        "content": "H.O.S. Cokroaminoto",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q26_opt_d",
+        "label": "D",
+        "content": "Mohammad Hatta",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q27",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di Papua, tradisi Bakar Batu dilakukan sebagai bentuk kebersamaan masyarakat. Yang membedakan tradisi ini dari pesta adat di daerah lain adalah …",
+    "imageUrl": null,
+    "explanation": "Ciri khas Bakar Batu adalah memasak daging dan umbi-umbian dengan **batu yang dipanaskan**, dikerjakan bersama-sama.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q27_opt_a",
+        "label": "A",
+        "content": "Menggunakan batu panas untuk memasak makanan secara gotong royong",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q27_opt_b",
+        "label": "B",
+        "content": "Melakukan tari perang dengan pakaian khas suku Dani",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q27_opt_c",
+        "label": "C",
+        "content": "Menyembelih hewan ternak sebagai sajian tanpa menggunakan api",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q27_opt_d",
+        "label": "D",
+        "content": "Menghias rumah adat Honai dengan ukiran batu sebagai tanda pesta",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q28",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pasar tradisional biasanya ditandai dengan …",
+    "imageUrl": null,
+    "explanation": "Ciri pasar tradisional adalah adanya **tawar-menawar** harga.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q28_opt_a",
+        "label": "A",
+        "content": "Bangunan modern dan pendingin ruangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q28_opt_b",
+        "label": "B",
+        "content": "Proses tawar-menawar antara pembeli dan penjual",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q28_opt_c",
+        "label": "C",
+        "content": "Harga yang sudah pasti dan tidak bisa ditawar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q28_opt_d",
+        "label": "D",
+        "content": "Penjualan hanya melalui online",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q29",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika sebuah situs sejarah peninggalan Belanda hancur dan tidak dilestarikan, akibat yang paling mungkin terjadi adalah …",
+    "imageUrl": null,
+    "explanation": "Situs sejarah adalah bukti nyata masa lalu. Jika hancur, **generasi muda kehilangan sumber belajar sejarah** secara langsung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q29_opt_a",
+        "label": "A",
+        "content": "Rakyat akan melupakan bahasa penjajah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q29_opt_b",
+        "label": "B",
+        "content": "Generasi muda kehilangan sumber pembelajaran sejarah secara nyata",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q29_opt_c",
+        "label": "C",
+        "content": "Semua bukti penjajahan dapat dihapuskan dari buku pelajaran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q29_opt_d",
+        "label": "D",
+        "content": "Tidak ada lagi bangunan modern di Indonesia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q30",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tempat jual beli yang menggunakan teknologi internet disebut …",
+    "imageUrl": null,
+    "explanation": "Jual beli melalui internet disebut **e-commerce** (perdagangan elektronik).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q30_opt_a",
+        "label": "A",
+        "content": "Pasar tradisional",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q30_opt_b",
+        "label": "B",
+        "content": "Pasar modern",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q30_opt_c",
+        "label": "C",
+        "content": "Pasar loak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q30_opt_d",
+        "label": "D",
+        "content": "E-commerce",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q31",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Strategi perjuangan yang dilakukan oleh Pattimura (Thomas Matulessy) dalam melawan penjajah Belanda di Maluku adalah …",
+    "imageUrl": null,
+    "explanation": "Pattimura **memimpin perlawanan bersenjata** rakyat Maluku dan berhasil merebut Benteng Duurstede pada tahun 1817.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q31_opt_a",
+        "label": "A",
+        "content": "Menyebarkan pendidikan untuk membangkitkan semangat kebangsaan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q31_opt_b",
+        "label": "B",
+        "content": "Memimpin pertempuran besar-besaran bersama rakyat Maluku menggunakan senjata tradisional",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q31_opt_c",
+        "label": "C",
+        "content": "Melakukan diplomasi damai dengan Belanda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q31_opt_d",
+        "label": "D",
+        "content": "Menyebarkan surat kabar untuk mengkritik penjajah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q32",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Keragaman adat di Indonesia sering diiringi pakaian adat khas masing-masing daerah. Ciri utama pakaian adat Minangkabau untuk perempuan adalah …",
+    "imageUrl": null,
+    "explanation": "Pakaian adat perempuan Minangkabau (*Bundo Kanduang*) memakai **tengkuluk** berbentuk tanduk, menyerupai atap rumah gadang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q32_opt_a",
+        "label": "A",
+        "content": "Penutup kepala berbentuk tanduk menyerupai atap rumah gadang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q32_opt_b",
+        "label": "B",
+        "content": "Selendang panjang berwarna merah dan kuning dengan motif parang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q32_opt_c",
+        "label": "C",
+        "content": "Mahkota berlapis emas menyerupai bunga teratai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q32_opt_d",
+        "label": "D",
+        "content": "Kain batik panjang bermotif kawung yang dililitkan di pinggang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q33",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di suatu daerah, masyarakat terbiasa berbelanja di pasar tradisional dan warung kaki lima. Kini banyak pusat perbelanjaan baru dengan sistem swalayan, troli, dan pembayaran nontunai. Tempat jual beli yang paling sesuai dengan ciri-ciri tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Swalayan, troli, dan pembayaran nontunai adalah ciri **supermarket**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q33_opt_a",
+        "label": "A",
+        "content": "Pasar malam yang hanya buka pada waktu tertentu dengan harga yang bisa ditawar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q33_opt_b",
+        "label": "B",
+        "content": "Toko kelontong yang dikelola perorangan dan barangnya terbatas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q33_opt_c",
+        "label": "C",
+        "content": "Supermarket dengan pelayanan mandiri dan fasilitas pembayaran modern",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q33_opt_d",
+        "label": "D",
+        "content": "Warung kaki lima di pinggir jalan dengan menu makanan cepat saji",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q34",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pegunungan memiliki manfaat besar bagi manusia, salah satunya adalah …",
+    "imageUrl": null,
+    "explanation": "Pegunungan adalah **sumber mata air** dan hulu sungai yang mengalir ke daerah di bawahnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q34_opt_a",
+        "label": "A",
+        "content": "Sumber tambang emas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q34_opt_b",
+        "label": "B",
+        "content": "Tempat berkembangnya industri besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q34_opt_c",
+        "label": "C",
+        "content": "Penyedia sumber air melalui sungai dan mata air",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q34_opt_d",
+        "label": "D",
+        "content": "Wilayah untuk budidaya ikan air tawar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q35",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Salah satu cara melestarikan hutan di daerah dataran tinggi adalah …",
+    "imageUrl": null,
+    "explanation": "**Reboisasi** (menanam kembali pohon) menjaga kelestarian hutan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q35_opt_a",
+        "label": "A",
+        "content": "Membiarkan penebangan liar terjadi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q35_opt_b",
+        "label": "B",
+        "content": "Melakukan reboisasi atau penanaman kembali pohon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q35_opt_c",
+        "label": "C",
+        "content": "Membuka lahan baru untuk tambang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q35_opt_d",
+        "label": "D",
+        "content": "Mengganti hutan dengan lahan industri",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q36",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah bendungan dibangun di sungai. Setelah beberapa tahun, terbentuk genangan air luas yang juga dijadikan objek wisata. Kenampakan tersebut dinamakan …",
+    "imageUrl": null,
+    "explanation": "Genangan air luas akibat bendungan buatan manusia disebut **waduk** (danau buatan).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q36_opt_a",
+        "label": "A",
+        "content": "Waduk",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q36_opt_b",
+        "label": "B",
+        "content": "Danau alami",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q36_opt_c",
+        "label": "C",
+        "content": "Sungai buatan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q36_opt_d",
+        "label": "D",
+        "content": "Rawa-rawa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q37",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Candi Borobudur termasuk kenampakan buatan yang digunakan untuk …",
+    "imageUrl": null,
+    "explanation": "Borobudur adalah candi Buddha yang menjadi **tempat ibadah** umat Buddha (misalnya saat Waisak) sekaligus **wisata budaya**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q37_opt_a",
+        "label": "A",
+        "content": "Tempat tinggal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q37_opt_b",
+        "label": "B",
+        "content": "Wisata budaya dan ibadah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q37_opt_c",
+        "label": "C",
+        "content": "Kegiatan pertanian",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q37_opt_d",
+        "label": "D",
+        "content": "Pertemuan pemerintah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ips_b_q38",
+    "topicId": "top_venus3_2025_ips_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah daerah memiliki aliran air yang awalnya berupa sungai kecil alami. Penduduk kemudian menggali jalur baru agar airnya dapat langsung menuju sawah. Kenampakan yang terbentuk adalah …",
+    "imageUrl": null,
+    "explanation": "Jalur air yang digali manusia untuk mengairi sawah adalah **sungai buatan** atau saluran irigasi. Terusan besar adalah kanal untuk kapal.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ips_b_q38_opt_a",
+        "label": "A",
+        "content": "Sungai alami",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q38_opt_b",
+        "label": "B",
+        "content": "Sungai buatan (saluran irigasi)",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q38_opt_c",
+        "label": "C",
+        "content": "Waduk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ips_b_q38_opt_d",
+        "label": "D",
+        "content": "Terusan besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

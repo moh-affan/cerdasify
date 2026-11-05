@@ -89,5 +89,19 @@
     "slug": "olimpiade-sigma",
     "description": "Naskah Olimpiade SIGMA (Sigma Education Centre) Matematika, Sains, dan Bahasa Inggris tingkat SD.",
     "orderIndex": 0
+  },
+  {
+    "id": "cat_olimpiade_maximus",
+    "name": "Olimpiade MAXIMUS",
+    "slug": "olimpiade-maximus",
+    "description": "Naskah Olimpiade MAXIMUS (MIPA Education Centre) Matematika, Sains, dan Bahasa Inggris tingkat SD.",
+    "orderIndex": 0
+  },
+  {
+    "id": "cat_olimpiade_venus",
+    "name": "Kompetisi VENUS",
+    "slug": "kompetisi-venus",
+    "description": "Naskah Kompetisi Matematika, Sains, IPS, dan Bahasa Inggris VENUS tingkat SD.",
+    "orderIndex": 0
   }
 ]

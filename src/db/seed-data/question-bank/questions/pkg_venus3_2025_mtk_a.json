@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "pkg_venus3_2025_mtk_a_q01",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ayah mempunyai 50 lembar kertas. Dia menggunakan 29 lembar untuk membuat kerajinan tangan. Berapa lembar sisa kertas yang dimiliki Ayah sekarang?",
+    "imageUrl": null,
+    "explanation": "$50 - 29 = 21$ lembar.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q01_opt_a",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q01_opt_b",
+        "label": "B",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q01_opt_c",
+        "label": "C",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q01_opt_d",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q02",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah uang pada gambar adalah …",
+    "imageUrl": "/uploads/venus25_ma_uang.png",
+    "explanation": "Ada dua koin Rp1.000, satu koin Rp500, dan satu koin Rp200: $1.000 + 1.000 + 500 + 200 = 2.700$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q02_opt_a",
+        "label": "A",
+        "content": "Rp2.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q02_opt_b",
+        "label": "B",
+        "content": "Rp2.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q02_opt_c",
+        "label": "C",
+        "content": "Rp2.700,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q02_opt_d",
+        "label": "D",
+        "content": "Rp2.900,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q03",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Panjang pensil pada gambar adalah … cm",
+    "imageUrl": "/uploads/venus25_ma_pensil.png",
+    "explanation": "Pangkal pensil (penghapus) tepat di angka 0, dan ujung runcingnya sejajar dengan angka 11 pada penggaris. Jadi panjangnya **11 cm**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q03_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q03_opt_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q03_opt_c",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q03_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q04",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ayah akan bertugas ke Jakarta pada bulan kedelapan. Bulan kedelapan adalah bulan …",
+    "imageUrl": null,
+    "explanation": "Urutan bulan: Januari (1), …, Juli (7), **Agustus (8)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q04_opt_a",
+        "label": "A",
+        "content": "Januari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q04_opt_b",
+        "label": "B",
+        "content": "Maret",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q04_opt_c",
+        "label": "C",
+        "content": "Agustus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q04_opt_d",
+        "label": "D",
+        "content": "Oktober",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q05",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu membeli 4 m lebih 50 cm kain merah di sebuah toko kain. Kain tersebut akan digunakan untuk membuatkan baju adik. Berapa cm kain yang dibeli Ibu? (1 m = 100 cm)",
+    "imageUrl": null,
+    "explanation": "4 m = 400 cm. $400 + 50 = 450$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q05_opt_a",
+        "label": "A",
+        "content": "450",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q05_opt_b",
+        "label": "B",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q05_opt_c",
+        "label": "C",
+        "content": "145",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q05_opt_d",
+        "label": "D",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q06",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bulan sebelum bulan Desember adalah bulan …",
+    "imageUrl": null,
+    "explanation": "Desember adalah bulan ke-12, sebelumnya **November** (bulan ke-11).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q06_opt_a",
+        "label": "A",
+        "content": "Januari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q06_opt_b",
+        "label": "B",
+        "content": "November",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q06_opt_c",
+        "label": "C",
+        "content": "September",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q06_opt_d",
+        "label": "D",
+        "content": "Oktober",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q07",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ana membeli pita biru 50 cm, pita hijau 30 cm, dan pita ungu 400 cm. Berapa cm panjang pita yang dibeli Ana seluruhnya jika digabungkan?",
+    "imageUrl": null,
+    "explanation": "$50 + 30 + 400 = 480$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q07_opt_a",
+        "label": "A",
+        "content": "530 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q07_opt_b",
+        "label": "B",
+        "content": "943 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q07_opt_c",
+        "label": "C",
+        "content": "480 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q07_opt_d",
+        "label": "D",
+        "content": "470 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q08",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu mempunyai 35 butir telur. Ibu menggunakannya untuk kue sebanyak 18 butir. Berapa butir sisa telur yang dimiliki Ibu sekarang?",
+    "imageUrl": null,
+    "explanation": "$35 - 18 = 17$ butir.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q08_opt_a",
+        "label": "A",
+        "content": "19 butir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q08_opt_b",
+        "label": "B",
+        "content": "18 butir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q08_opt_c",
+        "label": "C",
+        "content": "17 butir",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q08_opt_d",
+        "label": "D",
+        "content": "16 butir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q09",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ani mempunyai tongkat yang panjangnya 200 cm. Berapa meter panjang tongkat Ani?",
+    "imageUrl": null,
+    "explanation": "100 cm = 1 meter, jadi 200 cm = **2 meter**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q09_opt_a",
+        "label": "A",
+        "content": "2 meter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q09_opt_b",
+        "label": "B",
+        "content": "3 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q09_opt_c",
+        "label": "C",
+        "content": "20 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q09_opt_d",
+        "label": "D",
+        "content": "22 meter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q10",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nina lahir pada bulan kesembilan. Jadi Nina lahir pada bulan …",
+    "imageUrl": null,
+    "explanation": "Bulan kesembilan adalah **September**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q10_opt_a",
+        "label": "A",
+        "content": "Agustus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q10_opt_b",
+        "label": "B",
+        "content": "Juli",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q10_opt_c",
+        "label": "C",
+        "content": "September",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q10_opt_d",
+        "label": "D",
+        "content": "November",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q11",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Delapan puluh pensil ditambah tujuh pensil sama dengan … pensil.",
+    "imageUrl": null,
+    "explanation": "$80 + 7 = 87$, dibaca **delapan puluh tujuh**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q11_opt_a",
+        "label": "A",
+        "content": "Delapan puluh dan tujuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q11_opt_b",
+        "label": "B",
+        "content": "Delapan puluh tujuh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q11_opt_c",
+        "label": "C",
+        "content": "Delapan puluh dan tujuh puluh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q11_opt_d",
+        "label": "D",
+        "content": "Delapan puluh sembilan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q12",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nilai tempat angka 3 pada bilangan 375 adalah …",
+    "imageUrl": null,
+    "explanation": "375 = 3 **ratusan**, 7 puluhan, 5 satuan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q12_opt_a",
+        "label": "A",
+        "content": "Satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q12_opt_b",
+        "label": "B",
+        "content": "Ratusan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q12_opt_c",
+        "label": "C",
+        "content": "Puluhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q12_opt_d",
+        "label": "D",
+        "content": "Ribuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q13",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sepeda Roni mempunyai dua roda. Roda sepeda Roni berbentuk …",
+    "imageUrl": null,
+    "explanation": "Roda berbentuk **lingkaran** agar bisa berputar dengan mulus.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q13_opt_a",
+        "label": "A",
+        "content": "Segiempat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q13_opt_b",
+        "label": "B",
+        "content": "Lingkaran",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q13_opt_c",
+        "label": "C",
+        "content": "Persegi panjang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q13_opt_d",
+        "label": "D",
+        "content": "Persegi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q14",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nama bilangan dari 299 adalah …",
+    "imageUrl": null,
+    "explanation": "299 = 200 + 90 + 9, dibaca **dua ratus sembilan puluh sembilan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q14_opt_a",
+        "label": "A",
+        "content": "Dua ratus sembilan puluh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q14_opt_b",
+        "label": "B",
+        "content": "Dua ratus sembilan puluh sembilan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q14_opt_c",
+        "label": "C",
+        "content": "Dua ratus sembilan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q14_opt_d",
+        "label": "D",
+        "content": "Dua ratus sembilan belas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q15",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar! Bilangan tersebut dibaca …",
+    "imageUrl": "/uploads/venus25_ma_354.png",
+    "explanation": "354 = 300 + 50 + 4, dibaca **tiga ratus lima puluh empat**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q15_opt_a",
+        "label": "A",
+        "content": "Tiga lima empat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q15_opt_b",
+        "label": "B",
+        "content": "Tiga ratus lima empat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q15_opt_c",
+        "label": "C",
+        "content": "Tiga ratus lima puluh empat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q15_opt_d",
+        "label": "D",
+        "content": "Tiga ratus lima dan empat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q16",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu membeli 234 buah permen, 156 buah cokelat, dan 298 buah kue. Jika kita menulis bilangan-bilangan itu dari yang paling kecil ke yang paling besar, maka urutan yang benar adalah …",
+    "imageUrl": null,
+    "explanation": "Dari yang terkecil: 156, 234, 298.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q16_opt_a",
+        "label": "A",
+        "content": "298, 234, 156",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q16_opt_b",
+        "label": "B",
+        "content": "156, 234, 298",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q16_opt_c",
+        "label": "C",
+        "content": "234, 156, 298",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q16_opt_d",
+        "label": "D",
+        "content": "298, 156, 234",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q17",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kak Dina belajar sepeda mulai pukul 14.30 sampai pukul 15.00. Berapa lama Kak Dina belajar sepeda?",
+    "imageUrl": null,
+    "explanation": "Dari 14.30 sampai 15.00 adalah **30 menit**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q17_opt_a",
+        "label": "A",
+        "content": "1 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q17_opt_b",
+        "label": "B",
+        "content": "1 jam 20 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q17_opt_c",
+        "label": "C",
+        "content": "1 jam 50 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q17_opt_d",
+        "label": "D",
+        "content": "30 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q18",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah toko memiliki 500 buku tulis. Pada hari pertama toko tersebut menjual 56 buku, hari kedua menjual 75 buku, dan hari ketiga menjual 86 buku. Berapa buku tulis yang masih tersisa di toko?",
+    "imageUrl": null,
+    "explanation": "Terjual $56 + 75 + 86 = 217$ buku. Sisa $= 500 - 217 = 283$ buku.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q18_opt_a",
+        "label": "A",
+        "content": "283",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q18_opt_b",
+        "label": "B",
+        "content": "382",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q18_opt_c",
+        "label": "C",
+        "content": "832",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q18_opt_d",
+        "label": "D",
+        "content": "717",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q19",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu membeli 3 kotak apel, masing-masing kotak berisi 50 apel. Setelah dihitung, terdapat 10 buah apel yang busuk dan harus dibuang. Berapa buah apel yang masih bagus?",
+    "imageUrl": null,
+    "explanation": "Jumlah apel $= 3 \\times 50 = 150$. Yang bagus $= 150 - 10 = 140$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q19_opt_a",
+        "label": "A",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q19_opt_b",
+        "label": "B",
+        "content": "110",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q19_opt_c",
+        "label": "C",
+        "content": "140",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q19_opt_d",
+        "label": "D",
+        "content": "130",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q20",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah sekolah memiliki 228 siswa. Pada hari Senin ada 5 siswa tidak masuk karena sakit dan 7 siswa izin tidak masuk. Berapa jumlah siswa yang masuk pada hari Senin?",
+    "imageUrl": null,
+    "explanation": "Tidak masuk $= 5 + 7 = 12$ siswa. Yang masuk $= 228 - 12 = 216$ siswa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q20_opt_a",
+        "label": "A",
+        "content": "261",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q20_opt_b",
+        "label": "B",
+        "content": "216",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q20_opt_c",
+        "label": "C",
+        "content": "322",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q20_opt_d",
+        "label": "D",
+        "content": "321",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q21",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Toni mempunyai penggaris yang panjangnya 30 cm. Karena dipakai mainan, penggarisnya patah sepanjang 2 cm. Berapa cm panjang penggaris Toni sekarang?",
+    "imageUrl": null,
+    "explanation": "$30 - 2 = 28$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q21_opt_a",
+        "label": "A",
+        "content": "28 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q21_opt_b",
+        "label": "B",
+        "content": "27 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q21_opt_c",
+        "label": "C",
+        "content": "26 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q21_opt_d",
+        "label": "D",
+        "content": "32 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q22",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ari menabung Rp1.000 setiap hari. Berapa tabungan Ari selama 20 hari?",
+    "imageUrl": null,
+    "explanation": "$20 \\times 1.000 = 20.000$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q22_opt_a",
+        "label": "A",
+        "content": "Rp30.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q22_opt_b",
+        "label": "B",
+        "content": "Rp15.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q22_opt_c",
+        "label": "C",
+        "content": "Rp20.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q22_opt_d",
+        "label": "D",
+        "content": "Rp45.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q23",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dona membeli pita sepanjang 4 meter lebih 7 cm. Berapa cm pita Dona? (1 meter = 100 cm)",
+    "imageUrl": null,
+    "explanation": "4 meter = 400 cm. $400 + 7 = 407$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q23_opt_a",
+        "label": "A",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q23_opt_b",
+        "label": "B",
+        "content": "407",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q23_opt_c",
+        "label": "C",
+        "content": "450",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q23_opt_d",
+        "label": "D",
+        "content": "404",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q24",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah toko roti membuat 100 roti cokelat dan 150 roti keju. Sebanyak 50 roti terjual pada pagi hari, dan 100 roti terjual pada siang hari. Berapa roti yang masih tersisa di toko?",
+    "imageUrl": null,
+    "explanation": "Jumlah roti $= 100 + 150 = 250$. Terjual $= 50 + 100 = 150$. Sisa $= 250 - 150 = 100$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q24_opt_a",
+        "label": "A",
+        "content": "110",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q24_opt_b",
+        "label": "B",
+        "content": "115",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q24_opt_c",
+        "label": "C",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q24_opt_d",
+        "label": "D",
+        "content": "125",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q25",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu mempunyai 40 buah buku tulis. Buku tersebut dibagikan sama banyak kepada 4 anaknya. Berapa jumlah buku yang diterima masing-masing anaknya?",
+    "imageUrl": null,
+    "explanation": "$40 : 4 = 10$ buku.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q25_opt_a",
+        "label": "A",
+        "content": "20 buku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q25_opt_b",
+        "label": "B",
+        "content": "30 buku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q25_opt_c",
+        "label": "C",
+        "content": "10 buku",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q25_opt_d",
+        "label": "D",
+        "content": "40 buku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q26",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sony memiliki 5 kotak berisi kelereng. Setiap kotak berisi 4 kelereng. Sony memberikan 10 kelereng kepada adiknya. Berapa sisa kelereng yang dimiliki Sony sekarang?",
+    "imageUrl": null,
+    "explanation": "Jumlah kelereng $= 5 \\times 4 = 20$. Sisa $= 20 - 10 = 10$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q26_opt_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q26_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q26_opt_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q26_opt_d",
+        "label": "D",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q27",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di meja Rani ada 13 buku cerita. Ibu menambahkan 4 buku dongeng, lalu Ayah menambahkan lagi 2 buku komik. Berapa jumlah seluruh buku di meja Rani?",
+    "imageUrl": null,
+    "explanation": "$13 + 4 + 2 = 19$ buku.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q27_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q27_opt_b",
+        "label": "B",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q27_opt_c",
+        "label": "C",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q27_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q28",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pak Budi memetik 15 apel di pagi hari. Siangnya memetik lagi 7 apel, dan sore harinya memetik 4 apel. Berapa apel yang dipetik Pak Budi hari itu?",
+    "imageUrl": null,
+    "explanation": "$15 + 7 + 4 = 26$ apel.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q28_opt_a",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q28_opt_b",
+        "label": "B",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q28_opt_c",
+        "label": "C",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q28_opt_d",
+        "label": "D",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q29",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Budi memiliki 20 kelereng. Ia meminjamkan 5 kelereng ke Roni, lalu 3 kelereng lagi ke Dodi. Berapa kelereng Budi sekarang?",
+    "imageUrl": null,
+    "explanation": "$20 - 5 - 3 = 12$ kelereng.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q29_opt_a",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q29_opt_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q29_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q29_opt_d",
+        "label": "D",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q30",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hari ini adalah hari Rabu. Dua hari lagi ada lomba mewarnai di sekolah. Pada hari apa lomba itu diadakan?",
+    "imageUrl": null,
+    "explanation": "Rabu → Kamis (1) → **Jumat** (2).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q30_opt_a",
+        "label": "A",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q30_opt_b",
+        "label": "B",
+        "content": "Jumat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q30_opt_c",
+        "label": "C",
+        "content": "Sabtu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q30_opt_d",
+        "label": "D",
+        "content": "Minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q31",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jam masuk sekolah adalah pukul 07.30. Rani tiba di sekolah pukul 07.00. Berapa lama Rani tiba lebih awal dibandingkan waktu masuk sekolah?",
+    "imageUrl": null,
+    "explanation": "Dari 07.00 sampai 07.30 adalah **30 menit**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q31_opt_a",
+        "label": "A",
+        "content": "1 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q31_opt_b",
+        "label": "B",
+        "content": "2 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q31_opt_c",
+        "label": "C",
+        "content": "30 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q31_opt_d",
+        "label": "D",
+        "content": "40 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q32",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pertandingan sepak bola dimulai pukul 15.00 dan berakhir pukul 16.00. Pertandingan bola basket dimulai pukul 16.30 dan berakhir pukul 17.00. Pertandingan manakah yang berlangsung lebih lama?",
+    "imageUrl": null,
+    "explanation": "Sepak bola berlangsung 1 jam, bola basket 30 menit. Yang lebih lama **sepak bola**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q32_opt_a",
+        "label": "A",
+        "content": "Pertandingan sepak bola",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q32_opt_b",
+        "label": "B",
+        "content": "Pertandingan bola basket",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q32_opt_c",
+        "label": "C",
+        "content": "Tidak ada pertandingan yang lebih lama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q32_opt_d",
+        "label": "D",
+        "content": "Pertandingan sepak bola dan bola basket sama-sama lama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q33",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ulang tahun Rina jatuh 4 hari setelah hari Minggu. Pada hari apa ulang tahun Rina?",
+    "imageUrl": null,
+    "explanation": "Minggu → Senin (1) → Selasa (2) → Rabu (3) → **Kamis** (4).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q33_opt_a",
+        "label": "A",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q33_opt_b",
+        "label": "B",
+        "content": "Jumat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q33_opt_c",
+        "label": "C",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q33_opt_d",
+        "label": "D",
+        "content": "Minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q34",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah balok kayu panjangnya 125 cm. Jika dipotong 30 cm, berapa cm panjang balok kayu tersebut sekarang?",
+    "imageUrl": null,
+    "explanation": "$125 - 30 = 95$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q34_opt_a",
+        "label": "A",
+        "content": "90 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q34_opt_b",
+        "label": "B",
+        "content": "86 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q34_opt_c",
+        "label": "C",
+        "content": "95 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q34_opt_d",
+        "label": "D",
+        "content": "59 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q35",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu memiliki pita sepanjang 2 meter. Ia memakai 75 cm untuk membuat pita rambut dan 1 meter untuk hiasan kue. Berapa cm pita yang tersisa? (1 meter = 100 cm)",
+    "imageUrl": null,
+    "explanation": "2 meter = 200 cm, 1 meter = 100 cm. Sisa $= 200 - 75 - 100 = 25$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q35_opt_a",
+        "label": "A",
+        "content": "10 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q35_opt_b",
+        "label": "B",
+        "content": "20 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q35_opt_c",
+        "label": "C",
+        "content": "26 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q35_opt_d",
+        "label": "D",
+        "content": "25 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q36",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pak Budi memiliki 4 tongkat dengan panjang 195 cm, 1 m, 85 cm, dan 110 cm. Tongkat manakah yang paling pendek?",
+    "imageUrl": null,
+    "explanation": "Ubah ke cm: 195 cm, 100 cm, 85 cm, 110 cm. Yang paling pendek **85 cm**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q36_opt_a",
+        "label": "A",
+        "content": "195 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q36_opt_b",
+        "label": "B",
+        "content": "1 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q36_opt_c",
+        "label": "C",
+        "content": "110 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q36_opt_d",
+        "label": "D",
+        "content": "85 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q37",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Panjang sepasang tali sepatu adalah 100 cm. Jika dipotong menjadi 2 bagian sama panjang untuk membuat gantungan kunci, berapa cm panjang tiap bagian?",
+    "imageUrl": null,
+    "explanation": "$100 : 2 = 50$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q37_opt_a",
+        "label": "A",
+        "content": "92 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q37_opt_b",
+        "label": "B",
+        "content": "50 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q37_opt_c",
+        "label": "C",
+        "content": "60 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q37_opt_d",
+        "label": "D",
+        "content": "45 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q38",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kereta berangkat pukul 08.30 dan tiba pukul 10.00. Berapa lama perjalanan kereta tersebut?",
+    "imageUrl": null,
+    "explanation": "08.30 → 09.30 = 1 jam, 09.30 → 10.00 = 30 menit. Total **1 jam 30 menit**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q38_opt_a",
+        "label": "A",
+        "content": "1 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q38_opt_b",
+        "label": "B",
+        "content": "2 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q38_opt_c",
+        "label": "C",
+        "content": "30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q38_opt_d",
+        "label": "D",
+        "content": "2 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q39",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ani belajar dari pukul 14.00 sampai 15.30. Setelah itu ia bermain dari pukul 15.30 sampai 16.00. Aktivitas mana yang memakan waktu lebih lama?",
+    "imageUrl": null,
+    "explanation": "Belajar 1 jam 30 menit, bermain 30 menit. Yang lebih lama **belajar**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q39_opt_a",
+        "label": "A",
+        "content": "Belajar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q39_opt_b",
+        "label": "B",
+        "content": "Bermain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q39_opt_c",
+        "label": "C",
+        "content": "Belajar dan bermain sama lama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q39_opt_d",
+        "label": "D",
+        "content": "Tidak ada yang lama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_mtk_a_q40",
+    "topicId": "top_venus3_2025_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Edo berulang tahun. Tamu pertama datang pukul 09.30. Tamu terakhir pulang pukul 11.00. Berapa lama acara ulang tahun Edo berlangsung?",
+    "imageUrl": null,
+    "explanation": "09.30 → 10.30 = 1 jam, 10.30 → 11.00 = 30 menit. Total **1 jam 30 menit**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_mtk_a_q40_opt_a",
+        "label": "A",
+        "content": "3 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q40_opt_b",
+        "label": "B",
+        "content": "1 jam 20 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q40_opt_c",
+        "label": "C",
+        "content": "3 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_mtk_a_q40_opt_d",
+        "label": "D",
+        "content": "1 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

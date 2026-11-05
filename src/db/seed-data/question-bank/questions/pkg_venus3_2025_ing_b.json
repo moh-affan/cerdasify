@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "pkg_venus3_2025_ing_b_q01",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "You ________ wear a helmet or you will be fined by the traffic police.",
+    "imageUrl": null,
+    "explanation": "Ada konsekuensi didenda polisi, jadi memakai helm adalah **kewajiban**: *You **must** wear a helmet.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q01_opt_a",
+        "label": "A",
+        "content": "might",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q01_opt_b",
+        "label": "B",
+        "content": "can",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q01_opt_c",
+        "label": "C",
+        "content": "must",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q01_opt_d",
+        "label": "D",
+        "content": "don't have to",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q02",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The driver was driving the school bus very fast. We told him to please _________ down.",
+    "imageUrl": null,
+    "explanation": "*Slow down* = memperlambat. Bus terlalu cepat, jadi sopir diminta *slow down*. *Calm down* berarti menenangkan diri.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q02_opt_a",
+        "label": "A",
+        "content": "slow",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q02_opt_b",
+        "label": "B",
+        "content": "calm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q02_opt_c",
+        "label": "C",
+        "content": "get",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q02_opt_d",
+        "label": "D",
+        "content": "hurry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q03",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "My neighbour __________ for breaking his garden lamp while we were playing football.",
+    "imageUrl": null,
+    "explanation": "*Tell someone off* = memarahi/menegur seseorang. Tetangga **memarahiku** karena lampu tamannya pecah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q03_opt_a",
+        "label": "A",
+        "content": "told me over",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q03_opt_b",
+        "label": "B",
+        "content": "told me up",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q03_opt_c",
+        "label": "C",
+        "content": "told me out",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q03_opt_d",
+        "label": "D",
+        "content": "told me off",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q04",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sam: Did you understand the paragraph?\nBev: Yes, but can we _______ over it again?",
+    "imageUrl": null,
+    "explanation": "*Go over* = membahas/memeriksa ulang. *Can we **go** over it again?*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q04_opt_a",
+        "label": "A",
+        "content": "see",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q04_opt_b",
+        "label": "B",
+        "content": "go",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q04_opt_c",
+        "label": "C",
+        "content": "get",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q04_opt_d",
+        "label": "D",
+        "content": "tell",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q05",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Who Told Whom? (Soal No. 5 – 6)]\n*Read the dialogue and answer the questions!*\n\n**Ajith:** Who did you tell?\n**Shalini:** Just Malani.\n**Ajith:** And who told you?\n**Shalini:** Gill.\n**Ajith:** And nobody else knows?\n**Shalini:** Only you do.\n**Ajith:** Well, of course, I do. I told Gill.\n:::\n\nWho knew the secret first?",
+    "imageUrl": null,
+    "explanation": "Urutannya: **Ajith** memberi tahu Gill → Gill memberi tahu Shalini → Shalini memberi tahu Malani. Jadi yang pertama tahu adalah Ajith.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q05_opt_a",
+        "label": "A",
+        "content": "Ajith",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q05_opt_b",
+        "label": "B",
+        "content": "Shalini",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q05_opt_c",
+        "label": "C",
+        "content": "Malani",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q05_opt_d",
+        "label": "D",
+        "content": "Gill",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q06",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Who Told Whom? (Soal No. 5 – 6)]\n*Read the dialogue and answer the questions!*\n\n**Ajith:** Who did you tell?\n**Shalini:** Just Malani.\n**Ajith:** And who told you?\n**Shalini:** Gill.\n**Ajith:** And nobody else knows?\n**Shalini:** Only you do.\n**Ajith:** Well, of course, I do. I told Gill.\n:::\n\nHow did Shalini find out?",
+    "imageUrl": null,
+    "explanation": "*\"And who told you?\" — \"**Gill**.\"* Shalini tahu dari Gill.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q06_opt_a",
+        "label": "A",
+        "content": "Ajith told Shalini.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q06_opt_b",
+        "label": "B",
+        "content": "Malani told Shalini.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q06_opt_c",
+        "label": "C",
+        "content": "Gill told Shalini.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q06_opt_d",
+        "label": "D",
+        "content": "Shalini told Malani.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q07",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Mandy: Hey Perry! Did you see the match last night?\nPerry: No. While I ________ the match, the power went off, so I couldn't watch the whole match.",
+    "imageUrl": null,
+    "explanation": "Kegiatan yang sedang berlangsung di masa lalu lalu terpotong kejadian lain memakai *past continuous*: *While I **was watching** the match, the power went off.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q07_opt_a",
+        "label": "A",
+        "content": "watched",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q07_opt_b",
+        "label": "B",
+        "content": "watch",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q07_opt_c",
+        "label": "C",
+        "content": "was watching",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q07_opt_d",
+        "label": "D",
+        "content": "will watching",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q08",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "John: I know lots of people here.\nAmir: Do you? I thought you said …",
+    "imageUrl": null,
+    "explanation": "Amir terkejut (*Do you?*), artinya sebelumnya John berkata sebaliknya: **you didn't know anybody**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q08_opt_a",
+        "label": "A",
+        "content": "you didn't know anybody.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q08_opt_b",
+        "label": "B",
+        "content": "you knew everybody.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q08_opt_c",
+        "label": "C",
+        "content": "you know somebody.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q08_opt_d",
+        "label": "D",
+        "content": "you didn't say anything.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q09",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "I feel tired today. I ________ very well last night.",
+    "imageUrl": null,
+    "explanation": "*Last night* → *simple past* negatif: *didn't* + kata kerja bentuk dasar: **didn't sleep**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q09_opt_a",
+        "label": "A",
+        "content": "didn't slept",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q09_opt_b",
+        "label": "B",
+        "content": "hasn't slept",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q09_opt_c",
+        "label": "C",
+        "content": "didn't sleep",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q09_opt_d",
+        "label": "D",
+        "content": "having slept",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q10",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "It's cloudy ________ it's not raining.",
+    "imageUrl": null,
+    "explanation": "Dua keadaan yang berlawanan (berawan tapi tidak hujan) dihubungkan dengan **but**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q10_opt_a",
+        "label": "A",
+        "content": "as",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q10_opt_b",
+        "label": "B",
+        "content": "so",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q10_opt_c",
+        "label": "C",
+        "content": "but",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q10_opt_d",
+        "label": "D",
+        "content": "while",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q11",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[The Fun Day at the Park (Soal No. 11 – 14)]\n*Read the text and answer the questions!*\n\nToday, Sarah and her friends are spending a fun day at the park. Sarah is playing with her kite. The wind is blowing strongly, and the kite is flying high in the sky. Her friend, Jack, is running around the park with his dog. They are both having a great time.\n\nSarah's brother, Tom, is riding his bicycle near the playground. He is going very fast, and he looks very happy. Tom's friend, Anna, is sitting on the grass, drawing pictures of the trees and flowers.\n\nIn the distance, a group of children are playing football. They are passing the ball and kicking it to each other. It looks like they are enjoying their game. Sarah is watching them and thinking about joining the game after she finishes playing with her kite.\n:::\n\nWhat is Sarah doing at the park?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Sarah is playing with her kite.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q11_opt_a",
+        "label": "A",
+        "content": "She is riding her bicycle.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q11_opt_b",
+        "label": "B",
+        "content": "She is playing with her kite.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q11_opt_c",
+        "label": "C",
+        "content": "She is drawing pictures.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q11_opt_d",
+        "label": "D",
+        "content": "She is playing football.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q12",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[The Fun Day at the Park (Soal No. 11 – 14)]\n*Read the text and answer the questions!*\n\nToday, Sarah and her friends are spending a fun day at the park. Sarah is playing with her kite. The wind is blowing strongly, and the kite is flying high in the sky. Her friend, Jack, is running around the park with his dog. They are both having a great time.\n\nSarah's brother, Tom, is riding his bicycle near the playground. He is going very fast, and he looks very happy. Tom's friend, Anna, is sitting on the grass, drawing pictures of the trees and flowers.\n\nIn the distance, a group of children are playing football. They are passing the ball and kicking it to each other. It looks like they are enjoying their game. Sarah is watching them and thinking about joining the game after she finishes playing with her kite.\n:::\n\nWhat is Jack doing at the park?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Jack is running around the park with his dog.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q12_opt_a",
+        "label": "A",
+        "content": "He is drawing pictures.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q12_opt_b",
+        "label": "B",
+        "content": "He is running around with his dog.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q12_opt_c",
+        "label": "C",
+        "content": "He is riding his bicycle.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q12_opt_d",
+        "label": "D",
+        "content": "He is playing football.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q13",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[The Fun Day at the Park (Soal No. 11 – 14)]\n*Read the text and answer the questions!*\n\nToday, Sarah and her friends are spending a fun day at the park. Sarah is playing with her kite. The wind is blowing strongly, and the kite is flying high in the sky. Her friend, Jack, is running around the park with his dog. They are both having a great time.\n\nSarah's brother, Tom, is riding his bicycle near the playground. He is going very fast, and he looks very happy. Tom's friend, Anna, is sitting on the grass, drawing pictures of the trees and flowers.\n\nIn the distance, a group of children are playing football. They are passing the ball and kicking it to each other. It looks like they are enjoying their game. Sarah is watching them and thinking about joining the game after she finishes playing with her kite.\n:::\n\nWho is sitting on the grass?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Tom's friend, **Anna**, is sitting on the grass.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q13_opt_a",
+        "label": "A",
+        "content": "Tom",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q13_opt_b",
+        "label": "B",
+        "content": "Anna",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q13_opt_c",
+        "label": "C",
+        "content": "Jack",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q13_opt_d",
+        "label": "D",
+        "content": "Sarah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q14",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[The Fun Day at the Park (Soal No. 11 – 14)]\n*Read the text and answer the questions!*\n\nToday, Sarah and her friends are spending a fun day at the park. Sarah is playing with her kite. The wind is blowing strongly, and the kite is flying high in the sky. Her friend, Jack, is running around the park with his dog. They are both having a great time.\n\nSarah's brother, Tom, is riding his bicycle near the playground. He is going very fast, and he looks very happy. Tom's friend, Anna, is sitting on the grass, drawing pictures of the trees and flowers.\n\nIn the distance, a group of children are playing football. They are passing the ball and kicking it to each other. It looks like they are enjoying their game. Sarah is watching them and thinking about joining the game after she finishes playing with her kite.\n:::\n\nWhat are the children in the distance doing?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"In the distance, a group of children are **playing football**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q14_opt_a",
+        "label": "A",
+        "content": "They are drawing pictures.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q14_opt_b",
+        "label": "B",
+        "content": "They are playing football.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q14_opt_c",
+        "label": "C",
+        "content": "They are riding bicycles.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q14_opt_d",
+        "label": "D",
+        "content": "They are flying kites.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q15",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Our teacher _______ in front of the class now.",
+    "imageUrl": null,
+    "explanation": "*Now* → *present continuous*. Subjek tunggal *our teacher* → **is talking**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q15_opt_a",
+        "label": "A",
+        "content": "is talking",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q15_opt_b",
+        "label": "B",
+        "content": "are talking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q15_opt_c",
+        "label": "C",
+        "content": "was talking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q15_opt_d",
+        "label": "D",
+        "content": "had talking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q16",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Panda (Soal No. 16 – 17)]\n*Read the text and answer the questions!*\n\nI went to the zoo yesterday and I saw a panda for the first time. The panda is the cutest animal I've ever seen. It has little eyes with black spots around them. Its body is black and white. A panda's body looks almost like a bear's. A panda looks like a tame animal, but it's actually not. Pandas eat bamboo, almost 40 kg of bamboo in just one day. Pandas are animals from China. I like pandas because they're cute.\n:::\n\nWhere are pandas from?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Pandas are animals from **China**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q16_opt_a",
+        "label": "A",
+        "content": "Japan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q16_opt_b",
+        "label": "B",
+        "content": "India",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q16_opt_c",
+        "label": "C",
+        "content": "Indonesia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q16_opt_d",
+        "label": "D",
+        "content": "China",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q17",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[Panda (Soal No. 16 – 17)]\n*Read the text and answer the questions!*\n\nI went to the zoo yesterday and I saw a panda for the first time. The panda is the cutest animal I've ever seen. It has little eyes with black spots around them. Its body is black and white. A panda's body looks almost like a bear's. A panda looks like a tame animal, but it's actually not. Pandas eat bamboo, almost 40 kg of bamboo in just one day. Pandas are animals from China. I like pandas because they're cute.\n:::\n\nWhat does the panda mainly eat?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Pandas eat **bamboo**, almost 40 kg of bamboo in just one day.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q17_opt_a",
+        "label": "A",
+        "content": "Meat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q17_opt_b",
+        "label": "B",
+        "content": "Fish",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q17_opt_c",
+        "label": "C",
+        "content": "Bamboo",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q17_opt_d",
+        "label": "D",
+        "content": "Fruits",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q18",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Do you have … sugar?",
+    "imageUrl": null,
+    "explanation": "*Sugar* tak terhitung, dan dalam kalimat tanya biasa dipakai **any**. *A/an* hanya untuk benda tunggal yang dapat dihitung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q18_opt_a",
+        "label": "A",
+        "content": "an",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q18_opt_b",
+        "label": "B",
+        "content": "any",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q18_opt_c",
+        "label": "C",
+        "content": "some",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q18_opt_d",
+        "label": "D",
+        "content": "a",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q19",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "How … are you? I'm ten years old.",
+    "imageUrl": null,
+    "explanation": "Menanyakan umur: **How old are you?**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q19_opt_a",
+        "label": "A",
+        "content": "long",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q19_opt_b",
+        "label": "B",
+        "content": "far",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q19_opt_c",
+        "label": "C",
+        "content": "short",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q19_opt_d",
+        "label": "D",
+        "content": "old",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q20",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I'm going to sleep. I would like to … the lamp.",
+    "imageUrl": null,
+    "explanation": "Sebelum tidur lampu dimatikan: **switch off**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q20_opt_a",
+        "label": "A",
+        "content": "turn on",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q20_opt_b",
+        "label": "B",
+        "content": "switch on",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q20_opt_c",
+        "label": "C",
+        "content": "switch off",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q20_opt_d",
+        "label": "D",
+        "content": "rewind",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q21",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "……. is your sister? She is in the kitchen.",
+    "imageUrl": null,
+    "explanation": "Jawabannya tempat (*in the kitchen*), jadi pertanyaannya memakai **Where**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q21_opt_a",
+        "label": "A",
+        "content": "What",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q21_opt_b",
+        "label": "B",
+        "content": "Who",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q21_opt_c",
+        "label": "C",
+        "content": "Where",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q21_opt_d",
+        "label": "D",
+        "content": "When",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q22",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Susan wears an accessory on her ears. The accessory is called …",
+    "imageUrl": null,
+    "explanation": "Perhiasan di telinga disebut anting (*earrings*). *Necklace* = kalung, *rings* = cincin.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q22_opt_a",
+        "label": "A",
+        "content": "earrings",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q22_opt_b",
+        "label": "B",
+        "content": "a handset",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q22_opt_c",
+        "label": "C",
+        "content": "rings",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q22_opt_d",
+        "label": "D",
+        "content": "a necklace",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q23",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A woman who gave birth to us is called …",
+    "imageUrl": null,
+    "explanation": "Perempuan yang melahirkan kita adalah ibu (*mother*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q23_opt_a",
+        "label": "A",
+        "content": "aunt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q23_opt_b",
+        "label": "B",
+        "content": "grandmother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q23_opt_c",
+        "label": "C",
+        "content": "mother",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q23_opt_d",
+        "label": "D",
+        "content": "sister",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q24",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the clock! Mozza has a swimming lesson every Monday at …",
+    "imageUrl": "/uploads/venus25_eb_jam.png",
+    "explanation": "Jarum panjang di angka 6 (menit ke-30), jarum pendek di antara 3 dan 4. Jadi pukul 3.30, **half past three**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q24_opt_a",
+        "label": "A",
+        "content": "half past four",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q24_opt_b",
+        "label": "B",
+        "content": "twenty-five past three",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q24_opt_c",
+        "label": "C",
+        "content": "half past three",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q24_opt_d",
+        "label": "D",
+        "content": "four thirty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q25",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sarah: Hey, Emily! How's it going?\nEmily: Hey, Sarah! I'm good. Just stressing about our math test tomorrow.\nSarah: Yeah, me too! Want to study together during lunch?\nEmily: Sounds good!\n\nThe relationship of the speakers is …",
+    "imageUrl": null,
+    "explanation": "Keduanya akan menghadapi ujian matematika yang sama (*our math test*) dan berencana belajar bersama saat makan siang, jadi mereka **teman sekelas** (*classmates*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q25_opt_a",
+        "label": "A",
+        "content": "mother and daughter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q25_opt_b",
+        "label": "B",
+        "content": "sister and brother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q25_opt_c",
+        "label": "C",
+        "content": "classmates",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q25_opt_d",
+        "label": "D",
+        "content": "teacher and student",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q26",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Arrange the sentences!\n1. Squeeze fresh lemon juice into the tea.\n2. Heat water in a kettle.\n3. Pour the hot water into a glass and add a tea bag.\n4. Add some sugar and stir well.\n5. Enjoy your hot lemon tea.",
+    "imageUrl": null,
+    "explanation": "Panaskan air (2) → tuang ke gelas dan masukkan teh celup (3) → peras lemon (1) → tambah gula dan aduk (4) → nikmati (5): **2 – 3 – 1 – 4 – 5**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q26_opt_a",
+        "label": "A",
+        "content": "2 – 4 – 3 – 5 – 1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q26_opt_b",
+        "label": "B",
+        "content": "2 – 3 – 1 – 4 – 5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q26_opt_c",
+        "label": "C",
+        "content": "2 – 5 – 3 – 1 – 4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q26_opt_d",
+        "label": "D",
+        "content": "2 – 4 – 1 – 3 – 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q27",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which is longer, a giraffe's neck or a camel's neck?",
+    "imageUrl": null,
+    "explanation": "Leher jerapah (*giraffe*) jauh lebih panjang daripada leher unta.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q27_opt_a",
+        "label": "A",
+        "content": "A giraffe's neck",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q27_opt_b",
+        "label": "B",
+        "content": "A camel's neck",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q27_opt_c",
+        "label": "C",
+        "content": "They are the same length",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q27_opt_d",
+        "label": "D",
+        "content": "No animal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q28",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What is the name of the furniture at which we sit to eat?",
+    "imageUrl": null,
+    "explanation": "Kita makan menghadap **meja makan** (*table*). Tempat tidur, lemari, dan sofa bukan tempat makan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q28_opt_a",
+        "label": "A",
+        "content": "Bed",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q28_opt_b",
+        "label": "B",
+        "content": "Cupboard",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q28_opt_c",
+        "label": "C",
+        "content": "Table",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q28_opt_d",
+        "label": "D",
+        "content": "Sofa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q29",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sari: Hey, what do you think about this movie?\nAldo: I think this movie is really good.\nSari: I don't think so. This movie is so boring that I slept while watching it. The plot is flat and there is no suspense in the story.\n\nFrom the dialogue we know that Sari is expressing …",
+    "imageUrl": null,
+    "explanation": "Sari berkata *\"I don't think so\"* setelah Aldo memuji film itu, jadi Sari menyatakan **ketidaksetujuan** (*disagreement*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q29_opt_a",
+        "label": "A",
+        "content": "disagreement",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q29_opt_b",
+        "label": "B",
+        "content": "agreement",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q29_opt_c",
+        "label": "C",
+        "content": "doubt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q29_opt_d",
+        "label": "D",
+        "content": "happiness",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q30",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Three days before Sunday is …",
+    "imageUrl": null,
+    "explanation": "Mundur dari Minggu: Sabtu (1), Jumat (2), **Kamis** (3), *Thursday*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q30_opt_a",
+        "label": "A",
+        "content": "Tuesday",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q30_opt_b",
+        "label": "B",
+        "content": "Thursday",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q30_opt_c",
+        "label": "C",
+        "content": "Friday",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q30_opt_d",
+        "label": "D",
+        "content": "Saturday",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q31",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which sentence is written correctly?",
+    "imageUrl": null,
+    "explanation": "Subjek memakai *I* (bukan *me*), dan bentuk lampau *go* adalah *went*: **I went to the park.**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q31_opt_a",
+        "label": "A",
+        "content": "Me went to the park.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q31_opt_b",
+        "label": "B",
+        "content": "I gone to the park.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q31_opt_c",
+        "label": "C",
+        "content": "I went to the park.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q31_opt_d",
+        "label": "D",
+        "content": "Me go to the park.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_venus3_2025_ing_b_q32",
+    "topicId": "top_venus3_2025_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What is the opposite of \"old\"?",
+    "imageUrl": null,
+    "explanation": "Lawan kata *old* (tua) adalah **young** (muda).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_venus3_2025_ing_b_q32_opt_a",
+        "label": "A",
+        "content": "young",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q32_opt_b",
+        "label": "B",
+        "content": "happy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q32_opt_c",
+        "label": "C",
+        "content": "big",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_venus3_2025_ing_b_q32_opt_d",
+        "label": "D",
+        "content": "fast",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]
