@@ -110,7 +110,7 @@ export default function AdminImportPage() {
           <p className="text-xs text-indigo-800/80">
             {activeTab === 'questions'
               ? 'Gunakan template resmi untuk format kolom soal, rumus LaTeX ($...$), dan bobot TKP'
-              : 'Gunakan template resmi untuk mengimpor nama, username, password, dan role'}
+              : 'Gunakan template resmi untuk mengimpor nama, username, password, role, kelas, dan relasi orang tua'}
           </p>
         </div>
 

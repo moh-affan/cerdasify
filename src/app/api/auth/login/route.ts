@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/db';
 import { users } from '@/db/schema';
-import { verifyPassword, createSession, hashPassword, safeEqual } from '@/lib/auth';
+import { verifyPassword, createSession, hashPassword, safeEqual, normalizeUsername } from '@/lib/auth';
 import { apiError, readJson } from '@/lib/api';
 import { checkRateLimit, recordFailure, resetLimit } from '@/lib/rate-limit';
-import { eq } from 'drizzle-orm';
+import { eq, sql } from 'drizzle-orm';
 
 const LOGIN_MAX_FAILURES = 10;
 const LOGIN_WINDOW_MS = 15 * 60 * 1000;
@@ -17,11 +17,11 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Username dan password wajib diisi' }, { status: 400 });
     }
 
-    const trimmedUsername = username.trim();
+    const cleanUsername = normalizeUsername(username);
 
     // Batasi tebak-password: 10 kegagalan per 15 menit per kombinasi IP + username
     const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'local';
-    const limitKey = `login:${ip}:${trimmedUsername.toLowerCase()}`;
+    const limitKey = `login:${ip}:${cleanUsername}`;
     const limit = checkRateLimit(limitKey, LOGIN_MAX_FAILURES);
     if (!limit.allowed) {
       return NextResponse.json(
@@ -29,18 +29,24 @@ export async function POST(req: NextRequest) {
         { status: 429, headers: { 'Retry-After': String(limit.retryAfterSec) } }
       );
     }
-    let [user] = await db.select().from(users).where(eq(users.username, trimmedUsername)).limit(1);
+
+    // Pencarian case-insensitive agar konsisten antara huruf besar/kecil
+    let [user] = await db
+      .select()
+      .from(users)
+      .where(sql`LOWER(${users.username}) = ${cleanUsername}`)
+      .limit(1);
 
     // Auto-sync mechanism: If environment variables for superadmin are defined in Vercel (.env),
     // and the submitted credentials match DEFAULT_ADMIN_USERNAME and DEFAULT_ADMIN_PASSWORD,
     // automatically update the database so changes made in environment variables take effect immediately.
-    const envAdminUsername = process.env.DEFAULT_ADMIN_USERNAME?.trim();
+    const envAdminUsername = normalizeUsername(process.env.DEFAULT_ADMIN_USERNAME);
     const envAdminPassword = process.env.DEFAULT_ADMIN_PASSWORD?.trim();
 
     if (
       envAdminUsername &&
       envAdminPassword &&
-      trimmedUsername === envAdminUsername &&
+      cleanUsername === envAdminUsername &&
       safeEqual(password, envAdminPassword)
     ) {
       const newHash = await hashPassword(envAdminPassword);
@@ -76,6 +82,8 @@ export async function POST(req: NextRequest) {
           passwordHash: newHash,
           role: 'SUPER_ADMIN' as const,
           isActive: true,
+          isParent: false,
+          tokenVersion: 1,
         };
         await db.insert(users).values(newRecord);
         user = newRecord as typeof users.$inferSelect;
@@ -98,6 +106,9 @@ export async function POST(req: NextRequest) {
       username: user.username,
       name: user.name,
       role: user.role as 'SUPER_ADMIN' | 'ADMIN' | 'USER',
+      parentId: user.parentId,
+      isParent: Boolean(user.isParent),
+      tokenVersion: user.tokenVersion ?? 1,
     });
 
     return NextResponse.json({
@@ -107,6 +118,7 @@ export async function POST(req: NextRequest) {
         username: user.username,
         name: user.name,
         role: user.role,
+        isParent: Boolean(user.isParent),
       },
     });
   } catch (error) {

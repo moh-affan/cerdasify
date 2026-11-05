@@ -277,6 +277,11 @@ export async function runMigrations() {
     CREATE INDEX IF NOT EXISTS idx_game_sessions_user_date ON game_sessions(user_id, play_date);
     CREATE INDEX IF NOT EXISTS idx_game_sessions_set ON game_sessions(game_set_id);
     CREATE INDEX IF NOT EXISTS idx_vocab_mastery_due ON vocab_mastery(user_id, due_date);
+
+    -- Manajemen Orang Tua - Anak & Sesi Keamanan
+    ALTER TABLE users ADD COLUMN IF NOT EXISTS is_parent BOOLEAN NOT NULL DEFAULT FALSE;
+    ALTER TABLE users ADD COLUMN IF NOT EXISTS token_version INTEGER NOT NULL DEFAULT 1;
+    UPDATE users SET is_parent = TRUE WHERE id IN (SELECT DISTINCT parent_id FROM users WHERE parent_id IS NOT NULL);
   `);
 
   console.log('PostgreSQL database tables and indexes verified and ready.');

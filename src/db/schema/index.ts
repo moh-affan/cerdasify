@@ -8,9 +8,11 @@ export const users = pgTable('users', {
   passwordHash: text('password_hash').notNull(),
   role: text('role', { enum: ['SUPER_ADMIN', 'ADMIN', 'USER'] }).notNull().default('USER'),
   isActive: boolean('is_active').notNull().default(true),
+  isParent: boolean('is_parent').notNull().default(false), // akun orang tua (punya akses dasbor orang tua)
   gradeLevel: integer('grade_level'), // 1-12 = SD 1 s.d. SMA 12, 13 = Lanjut/Umum
   parentId: text('parent_id'), // akun orang tua (relasi orang tua-anak)
   dailyGameMinutes: integer('daily_game_minutes'), // batas bermain per hari (diatur orang tua), null = tanpa batas
+  tokenVersion: integer('token_version').notNull().default(1), // versi token sesi; increment saat reset password/nonaktif untuk cabut sesi aktif
   createdAt: text('created_at').notNull().default(sql`CURRENT_TIMESTAMP::text`),
 });
 

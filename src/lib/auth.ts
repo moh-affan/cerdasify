@@ -3,10 +3,33 @@ import { cookies } from 'next/headers';
 import bcrypt from 'bcryptjs';
 import { db } from '@/db';
 import { users } from '@/db/schema';
-import { eq } from 'drizzle-orm';
+import { eq, sql } from 'drizzle-orm';
 
 const COOKIE_NAME = 'cerdasify_session';
 const DEV_FALLBACK_SECRET = 'cerdasify-dev-only-secret-do-not-use-in-production';
+
+/** Aturan kanonik username di seluruh aplikasi: huruf kecil, angka, titik, atau garis bawah. */
+export const USERNAME_REGEX = /^[a-z0-9_.]{3,30}$/;
+
+export function normalizeUsername(raw: unknown): string {
+  if (typeof raw !== 'string') return '';
+  return raw.trim().toLowerCase();
+}
+
+export function validateUsername(username: unknown): { valid: boolean; normalized: string; error?: string } {
+  const normalized = normalizeUsername(username);
+  if (!normalized) {
+    return { valid: false, normalized, error: 'Username wajib diisi' };
+  }
+  if (!USERNAME_REGEX.test(normalized)) {
+    return {
+      valid: false,
+      normalized,
+      error: 'Username 3–30 karakter: hanya boleh huruf kecil, angka, titik, atau garis bawah',
+    };
+  }
+  return { valid: true, normalized };
+}
 
 /** Secret penandatangan sesi. Wajib diset (≥ 32 karakter) di produksi agar sesi tidak bisa dipalsukan. */
 function getSessionSecret(): string {
@@ -28,6 +51,8 @@ export interface SessionPayload {
   name: string;
   role: 'SUPER_ADMIN' | 'ADMIN' | 'USER';
   parentId?: string | null; // terisi untuk akun anak (dibaca ulang dari DB, tidak dari token)
+  isParent?: boolean; // akun orang tua (punya hak akses dasbor orang tua)
+  tokenVersion?: number; // versi sesi untuk pencabutan token seketika (saat reset password / nonaktif)
   expiresAt: number;
 }
 
@@ -113,14 +138,33 @@ export async function getCurrentUser(): Promise<SessionPayload | null> {
   const [user] = await db.select().from(users).where(eq(users.id, session.userId)).limit(1);
   if (!user || !user.isActive) return null;
 
+  // Check token version to revoke stale sessions immediately upon password reset or account changes
+  if (
+    session.tokenVersion !== undefined &&
+    user.tokenVersion !== undefined &&
+    session.tokenVersion !== user.tokenVersion
+  ) {
+    return null;
+  }
+
   return {
     userId: user.id,
     username: user.username,
     name: user.name,
     role: user.role as 'SUPER_ADMIN' | 'ADMIN' | 'USER',
     parentId: user.parentId,
+    isParent: Boolean(user.isParent),
+    tokenVersion: user.tokenVersion ?? 1,
     expiresAt: session.expiresAt,
   };
+}
+
+/** Cabut seluruh sesi aktif milik seorang pengguna di semua perangkat. */
+export async function revokeUserSessions(userId: string): Promise<void> {
+  await db
+    .update(users)
+    .set({ tokenVersion: sql`${users.tokenVersion} + 1` })
+    .where(eq(users.id, userId));
 }
 
 export async function requireUser() {

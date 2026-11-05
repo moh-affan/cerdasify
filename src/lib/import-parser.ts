@@ -3,6 +3,7 @@ import crypto from 'crypto';
 import { db, client } from '@/db';
 import { categories, topics, users } from '@/db/schema';
 import { slugify } from '@/lib/utils';
+import { validateUsername } from '@/lib/auth';
 import bcrypt from 'bcryptjs';
 
 export interface ImportError {
@@ -250,83 +251,231 @@ function generatePassword(): string {
 }
 
 /**
- * Impor peserta. Hanya untuk Super Admin (dicek di route).
+ * Impor peserta. Khusus Super Admin (dicek di route).
  * Role SUPER_ADMIN tidak dapat dibuat lewat impor massal.
+ * Mendukung penetapan kelas (grade_level) dan relasi orang tua (parent_id).
  */
 export async function importUsers(rows: SpreadsheetRow[]): Promise<ImportResult> {
   const errors: ImportError[] = [];
   const generatedCredentials: GeneratedCredential[] = [];
-  const existing = new Set((await db.select({ username: users.username }).from(users)).map((u) => u.username.toLowerCase()));
+
+  // Ambil user yang sudah ada di database untuk validasi duplikat & pencarian orang tua
+  const existingUsers = await db
+    .select({ id: users.id, username: users.username, parentId: users.parentId })
+    .from(users);
+
+  const existingMap = new Map<string, { id: string; parentId: string | null }>();
+  for (const u of existingUsers) {
+    existingMap.set(u.username.toLowerCase(), { id: u.id, parentId: u.parentId });
+  }
+
   const seenInFile = new Set<string>();
 
-  const validUsers: { rowNum: number; name: string; username: string; password: string; role: 'ADMIN' | 'USER' }[] = [];
+  interface ParsedUserRow {
+    rowNum: number;
+    id: string;
+    name: string;
+    username: string;
+    password: string;
+    role: 'ADMIN' | 'USER';
+    gradeLevel: number | null;
+    parentUsername: string | null;
+  }
+
+  const validUsers: ParsedUserRow[] = [];
+  // Peta username dari file ke row untuk relasi lokal di dalam file yang sama
+  const fileUserMap = new Map<string, { id: string; role: string; parentUsername: string | null }>();
 
   for (let idx = 0; idx < rows.length; idx++) {
     const rowNum = idx + 2;
     const normalized = normalizeRow(rows[idx]);
 
-    const name = normalized['nama_lengkap'] || normalized['nama'];
-    const username = normalized['username_atau_email'] || normalized['username'];
-    const roleRaw = (normalized['role'] || 'USER').toUpperCase();
+    const name = String(normalized['nama_lengkap'] || normalized['nama'] || '').trim();
+    const usernameRaw = normalized['username_atau_email'] || normalized['username'];
+    const roleRaw = String(normalized['role'] || 'USER').trim().toUpperCase();
 
-    if (!name || !username) {
-      errors.push({ row: rowNum, message: 'Nama lengkap dan username tidak boleh kosong' });
+    const kelasRaw = normalized['kelas'] || normalized['grade'] || normalized['tingkat'];
+    const parentUsernameRaw = normalized['username_orang_tua'] || normalized['parent_username'] || normalized['orang_tua'];
+
+    if (!name) {
+      errors.push({ row: rowNum, field: 'nama_lengkap', message: 'Nama lengkap tidak boleh kosong' });
       continue;
     }
+
+    const usernameVal = validateUsername(usernameRaw);
+    if (!usernameVal.valid) {
+      errors.push({ row: rowNum, field: 'username', message: usernameVal.error || 'Username tidak valid' });
+      continue;
+    }
+    const cleanUsername = usernameVal.normalized;
+
     if (roleRaw !== 'USER' && roleRaw !== 'ADMIN') {
-      errors.push({ row: rowNum, field: 'role', message: `Role '${roleRaw}' tidak diizinkan lewat impor. Gunakan USER atau ADMIN` });
-      continue;
-    }
-    const key = username.toLowerCase();
-    if (existing.has(key)) {
-      errors.push({ row: rowNum, field: 'username', message: `Username '${username}' sudah terdaftar` });
-      continue;
-    }
-    if (seenInFile.has(key)) {
-      errors.push({ row: rowNum, field: 'username', message: `Username '${username}' muncul lebih dari sekali di file` });
+      errors.push({
+        row: rowNum,
+        field: 'role',
+        message: `Role '${roleRaw}' tidak diizinkan lewat impor. Gunakan USER atau ADMIN`,
+      });
       continue;
     }
 
-    let password = normalized['password'];
+    if (existingMap.has(cleanUsername)) {
+      errors.push({ row: rowNum, field: 'username', message: `Username '${cleanUsername}' sudah terdaftar di sistem` });
+      continue;
+    }
+
+    if (seenInFile.has(cleanUsername)) {
+      errors.push({ row: rowNum, field: 'username', message: `Username '${cleanUsername}' muncul lebih dari sekali di file` });
+      continue;
+    }
+
+    let password = typeof normalized['password'] === 'string' ? normalized['password'].trim() : '';
     if (password && password.length < 6) {
       errors.push({ row: rowNum, field: 'password', message: 'Password minimal 6 karakter' });
       continue;
     }
     if (!password) {
       password = generatePassword();
-      generatedCredentials.push({ row: rowNum, username, password });
+      generatedCredentials.push({ row: rowNum, username: cleanUsername, password });
     }
 
-    seenInFile.add(key);
-    validUsers.push({ rowNum, name, username, password, role: roleRaw });
+    // Parsing Kelas (grade level 1–13)
+    let gradeLevel: number | null = null;
+    if (kelasRaw !== undefined && kelasRaw !== null && String(kelasRaw).trim() !== '') {
+      const parsedGrade = Number(kelasRaw);
+      if (!Number.isInteger(parsedGrade) || parsedGrade < 1 || parsedGrade > 13) {
+        errors.push({ row: rowNum, field: 'kelas', message: 'Kelas harus berupa angka 1 s.d. 13' });
+        continue;
+      }
+      gradeLevel = parsedGrade;
+    }
+
+    // Parsing Relasi Orang Tua
+    let parentUsernameClean: string | null = null;
+    if (parentUsernameRaw !== undefined && parentUsernameRaw !== null && String(parentUsernameRaw).trim() !== '') {
+      parentUsernameClean = String(parentUsernameRaw).trim().toLowerCase();
+      if (parentUsernameClean === cleanUsername) {
+        errors.push({ row: rowNum, field: 'username_orang_tua', message: 'Pengguna tidak dapat menjadi orang tua dari diri sendiri' });
+        continue;
+      }
+      if (roleRaw !== 'USER') {
+        errors.push({ row: rowNum, field: 'role', message: 'Akun anak yang memiliki orang tua wajib ber-role USER' });
+        continue;
+      }
+    }
+
+    const assignedId = `usr_imp_${Date.now()}_${randomSuffix()}`;
+    seenInFile.add(cleanUsername);
+    fileUserMap.set(cleanUsername, { id: assignedId, role: roleRaw, parentUsername: parentUsernameClean });
+
+    validUsers.push({
+      rowNum,
+      id: assignedId,
+      name,
+      username: cleanUsername,
+      password,
+      role: roleRaw as 'ADMIN' | 'USER',
+      gradeLevel,
+      parentUsername: parentUsernameClean,
+    });
   }
 
-  let importedCount = 0;
-  const insertedRows = new Set<number>();
+  // Validasi tahap 2: Verifikasi orang tua yang dirujuk
   for (const u of validUsers) {
-    const passwordHash = await bcrypt.hash(u.password, 10);
-    try {
-      await db.insert(users).values({
-        id: `usr_imp_${Date.now()}_${randomSuffix()}`,
-        username: u.username,
-        name: u.name,
-        passwordHash,
-        role: u.role,
-        isActive: true,
-      });
-      importedCount++;
-      insertedRows.add(u.rowNum);
-    } catch (err) {
-      console.error(`Import user row ${u.rowNum} failed:`, err);
-      errors.push({ row: u.rowNum, message: 'Gagal menyimpan baris ini ke database' });
+    if (u.parentUsername) {
+      // Cek apakah orang tua ada di DB atau ada di file yang diimpor
+      const inDb = existingMap.get(u.parentUsername);
+      const inFile = fileUserMap.get(u.parentUsername);
+
+      if (!inDb && !inFile) {
+        errors.push({
+          row: u.rowNum,
+          field: 'username_orang_tua',
+          message: `Orang tua @${u.parentUsername} tidak ditemukan di database maupun di file impor ini`,
+        });
+      } else if (inDb && inDb.parentId) {
+        errors.push({
+          row: u.rowNum,
+          field: 'username_orang_tua',
+          message: `Pengguna @${u.parentUsername} adalah akun anak dan tidak dapat dijadikan orang tua`,
+        });
+      } else if (inFile && inFile.parentUsername) {
+        errors.push({
+          row: u.rowNum,
+          field: 'username_orang_tua',
+          message: `Pengguna @${u.parentUsername} di file ini ditautkan sebagai akun anak, sehingga tidak dapat dijadikan orang tua`,
+        });
+      }
     }
+  }
+
+  // Jika ada error validasi pada baris, jangan tulis sebagian (transaksi atomik)
+  if (errors.length > 0) {
+    return {
+      success: false,
+      totalRows: rows.length,
+      importedCount: 0,
+      errors,
+      generatedCredentials: [],
+    };
+  }
+
+  // Eksekusi insert di dalam transaksi PostgreSQL
+  let importedCount = 0;
+  const parentIdsToMark = new Set<string>();
+
+  try {
+    await client.begin(async (sqlClient) => {
+      for (const u of validUsers) {
+        const passwordHash = await bcrypt.hash(u.password, 10);
+
+        let parentId: string | null = null;
+        if (u.parentUsername) {
+          const inDb = existingMap.get(u.parentUsername);
+          const inFile = fileUserMap.get(u.parentUsername);
+          parentId = inDb ? inDb.id : inFile ? inFile.id : null;
+          if (parentId) {
+            parentIdsToMark.add(parentId);
+          }
+        }
+
+        await sqlClient`
+          INSERT INTO users (
+            id, username, name, password_hash, role, is_active, is_parent,
+            grade_level, parent_id, token_version
+          )
+          VALUES (
+            ${u.id}, ${u.username}, ${u.name}, ${passwordHash}, ${u.role}, true, false,
+            ${u.gradeLevel}, ${parentId}, 1
+          )
+        `;
+        importedCount++;
+      }
+
+      // Tandai semua akun orang tua yang bersangkutan dengan is_parent = true
+      if (parentIdsToMark.size > 0) {
+        await sqlClient`
+          UPDATE users
+          SET is_parent = true
+          WHERE id IN ${sqlClient(Array.from(parentIdsToMark))}
+        `;
+      }
+    });
+  } catch (err) {
+    console.error('Import users transaction failed:', err);
+    return {
+      success: false,
+      totalRows: rows.length,
+      importedCount: 0,
+      errors: [{ row: 0, message: 'Transaksi database gagal saat mengimpor peserta. Seluruh perubahan dibatalkan.' }],
+      generatedCredentials: [],
+    };
   }
 
   return {
     success: importedCount > 0,
     totalRows: rows.length,
     importedCount,
-    errors,
-    generatedCredentials: generatedCredentials.filter((c) => insertedRows.has(c.row)),
+    errors: [],
+    generatedCredentials,
   };
 }

@@ -34,9 +34,10 @@ export default async function UserDashboardPage({
   const user = await getCurrentUser();
   const sp = await searchParams;
   const [userRow] = user
-    ? await db.select({ parentId: users.parentId }).from(users).where(eq(users.id, user.userId)).limit(1)
+    ? await db.select({ parentId: users.parentId, isParent: users.isParent }).from(users).where(eq(users.id, user.userId)).limit(1)
     : [];
   const isChildAccount = Boolean(userRow?.parentId);
+  const showParentDashboardLink = !isChildAccount && Boolean(userRow?.isParent);
 
   const searchQuery = (sp.q || '').trim().toLowerCase();
   const selectedCategory = sp.category || '';
@@ -152,7 +153,7 @@ export default async function UserDashboardPage({
                   </Link>
                 )}
 
-                {!isChildAccount && (
+                {showParentDashboardLink && (
                   <Link
                     href="/orang-tua"
                     className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-50 text-sky-800 border border-sky-200 text-xs font-semibold hover:bg-sky-100 transition"

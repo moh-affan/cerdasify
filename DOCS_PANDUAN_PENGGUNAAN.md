@@ -34,9 +34,11 @@ Cerdasify memiliki tiga peran:
 
 | Peran (Role) | Cara Mendapatkan Akun | Wewenang |
 |---|---|---|
-| **Super Admin** | Dibuat dari pengaturan server (`DEFAULT_ADMIN_USERNAME`/`DEFAULT_ADMIN_PASSWORD`) | Akses penuh: bank soal, paket ujian, impor massal, dan akun pengguna. |
+| **Super Admin** | Dibuat dari pengaturan server (`DEFAULT_ADMIN_USERNAME`/`DEFAULT_ADMIN_PASSWORD`) | Akses penuh: bank soal, paket ujian, impor massal, relasi orang tua–anak, dan manajemen pengguna. |
 | **Admin / Guru** | Dibuat Super Admin di menu **Pengguna** | Kelola bank soal, buat paket latihan, dan periksa statistik soal. |
-| **Peserta / Siswa** | Dibuat Super Admin (atau impor massal), atau akun anak dari menu **Orang Tua** | Mengerjakan latihan/ujian, jeda waktu, ulasan nilai, dan Pustaka Belajar. |
+| **Orang Tua** | Dibuat Super Admin atau akun mandiri yang memiliki akun anak | Akses Dasbor Orang Tua (`/orang-tua`), pantau progres belajar/bermain anak, atur batas bermain, konfirmasi hapus hasil ujian anak. |
+| **Akun Anak** | Dibuat oleh Orang Tua di Dasbor Orang Tua atau oleh Super Admin | Role `USER` dengan penanda `parent_id` dan kelas (1–13). Mengerjakan latihan, Pustaka Belajar, dan Bermain (dengan batas waktu orang tua). Penghapusan hasil ujian memerlukan izin orang tua. |
+| **Peserta Mandiri** | Dibuat Super Admin atau impor massal (umum/CPNS/UTBK) | Mengerjakan latihan/ujian mandiri, jeda waktu, ulasan nilai, dan Pustaka Belajar tanpa keterikatan relasi orang tua. |
 
 Tidak ada akun demo dengan password bawaan. Simpan password setiap akun dengan aman dan ganti bila pernah dibagikan.
 
@@ -201,7 +203,7 @@ Buka **Bermain** dari beranda atau Pustaka Belajar. Game tampil sesuai kelas (Fa
 - Di akhir bacaan bahasa Inggris yang punya kosakata bergambar ada tombol **Main Kartu Kembar** dengan kosakata bacaan itu.
 - Tombol ⏸ menjeda permainan dan menutup papan. Tombol 🔊 menyalakan/mematikan suara.
 - Tanpa akun tetap bisa bermain, tetapi bintang tidak tersimpan. Bila koneksi putus saat selesai, hasil disimpan di perangkat dan dikirim otomatis saat online.
-- **Orang tua** melihat statistik bermain anak (game minggu ini, menit bermain, bintang, kosakata dikuasai) di **Dasbor Orang Tua**, dan dapat mengatur **batas bermain per hari** (15–120 menit). Setelah batas tercapai, anak diarahkan ke Pustaka Belajar.
+- **Orang tua** melihat statistik bermain anak (game minggu ini, menit bermain, bintang, kosakata dikuasai) di **Dasbor Orang Tua**, dan dapat mengatur **batas bermain per hari** (pilihan cepat 15–120 menit, atau fleksibel 5–600 menit, atau tanpa batas). Setelah batas tercapai, anak diarahkan ke Pustaka Belajar.
 
 ## 3. Panduan Pengajar / Admin
 
@@ -291,10 +293,16 @@ Jika Anda memiliki ratusan butir soal atau daftar ratusan siswa dari berkas spre
    - `kunci_jawaban` : Huruf kunci (`A`, `B`, `C`, `D`, `E`) atau bobot `A:5,B:4,C:3,D:2,E:1`
    - `pembahasan` : Penjelasan cara pengerjaan
    - `tingkat_kesulitan` : `MUDAH`, `SEDANG`, `SULIT`, atau `HOTS`
-4. **Unggah & Validasi:**
+4. **Format Kolom Impor Peserta:**
+   - `nama_lengkap` : Nama lengkap peserta (wajib diisi).
+   - `username_atau_email` : ID login unik (3–30 karakter: huruf kecil, angka, titik, atau garis bawah).
+   - `password` : Kata sandi (opsional, min. 6 karakter. Bila dikosongkan, sistem akan mengacak password aman).
+   - `role` : `USER` (peserta) atau `ADMIN` (guru/pengajar).
+   - `kelas` : Angka 1 s.d. 13 (opsional, khusus jika peserta adalah siswa/anak).
+   - `username_orang_tua` : Username akun orang tua (opsional, menautkan anak ke orang tuanya secara otomatis).
+5. **Unggah & Validasi:**
    - Unggah file Excel atau CSV yang telah diisi.
-   - Sistem akan memvalidasi setiap baris data. Jika terdapat format kunci yang salah atau kolom kosong, sistem akan menampilkan laporan baris yang bermasalah secara spesifik.
-   - Data yang valid akan disimpan ke dalam database secara otomatis dalam satu transaksi aman.
+   - Sistem akan memvalidasi setiap baris data dalam **transaksi PostgreSQL aman**. Jika terdapat data tidak valid atau duplikat, sistem menampilkan laporan baris yang bermasalah secara spesifik dan membatalkan seluruh perubahan agar data tetap konsisten.
 
 ---
 

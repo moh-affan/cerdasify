@@ -3,7 +3,7 @@ import { db } from '@/db';
 import { users } from '@/db/schema';
 import { getCurrentUser, hashPassword } from '@/lib/auth';
 import { apiError, readJson } from '@/lib/api';
-import { and, eq } from 'drizzle-orm';
+import { and, eq, sql } from 'drizzle-orm';
 
 // Orang tua mengubah kelas / nama / password / batas waktu bermain akun anaknya.
 export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
@@ -42,6 +42,7 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id
         return NextResponse.json({ error: 'Password minimal 6 karakter' }, { status: 400 });
       }
       updates.passwordHash = await hashPassword(password);
+      updates.tokenVersion = sql`${users.tokenVersion} + 1` as unknown as number;
     }
     if (gradeLevel !== undefined) {
       if (!Number.isInteger(gradeLevel) || gradeLevel < 1 || gradeLevel > 13) {

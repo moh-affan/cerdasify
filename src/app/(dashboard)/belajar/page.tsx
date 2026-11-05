@@ -34,14 +34,16 @@ export default async function BelajarPage({
 
   let gradeLevel: number | null = null;
   let isChildAccount = false;
+  let showParentDashboardLink = false;
   if (user) {
     const [row] = await db
-      .select({ gradeLevel: users.gradeLevel, parentId: users.parentId })
+      .select({ gradeLevel: users.gradeLevel, parentId: users.parentId, isParent: users.isParent })
       .from(users)
       .where(eq(users.id, user.userId))
       .limit(1);
     gradeLevel = row?.gradeLevel ?? null;
     isChildAccount = Boolean(row?.parentId);
+    showParentDashboardLink = !isChildAccount && Boolean(row?.isParent);
   }
 
   const ownPhase = gradeToPhase(gradeLevel);
@@ -171,7 +173,7 @@ export default async function BelajarPage({
               <Gamepad2 className="w-3.5 h-3.5" />
               Bermain
             </Link>
-            {user && !isChildAccount && (
+            {user && showParentDashboardLink && (
               <Link
                 href="/orang-tua"
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-50 text-sky-800 border border-sky-200 text-xs font-semibold hover:bg-sky-100 transition"

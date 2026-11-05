@@ -1,5 +1,6 @@
-nama_lengkap,username_atau_email,password,role
-Budi Santoso,budi_santoso,Password123!,USER
-Siti Aminah,siti_aminah,Password123!,USER
-Ahmad Fauzi,ahmad_fauzi,Password123!,USER
-Ustadz Pembimbing,guru_olimpiade,GuruPassword123!,ADMIN
+nama_lengkap,username_atau_email,password,role,kelas,username_orang_tua
+Budi Santoso,budi_santoso,Password123!,USER,,
+Siti Aminah,siti_aminah,Password123!,USER,,
+Ayah Hendra,ayah_hendra,Password123!,USER,,
+Ahmad Fauzi,ahmad_fauzi,Password123!,USER,4,ayah_hendra
+Ustadz Pembimbing,guru_olimpiade,GuruPassword123!,ADMIN,,

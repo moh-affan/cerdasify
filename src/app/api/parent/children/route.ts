@@ -1,11 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { db } from '@/db';
+import { db, client } from '@/db';
 import { users } from '@/db/schema';
-import { getCurrentUser, hashPassword } from '@/lib/auth';
+import { getCurrentUser, hashPassword, validateUsername } from '@/lib/auth';
 import { apiError, readJson } from '@/lib/api';
-import { eq } from 'drizzle-orm';
-
-const USERNAME_RE = /^[a-z0-9_.]{3,30}$/;
+import { eq, sql } from 'drizzle-orm';
 
 // Orang tua membuat akun anak (role USER, parent_id = orang tua).
 export async function POST(req: NextRequest) {
@@ -27,17 +25,17 @@ export async function POST(req: NextRequest) {
       gradeLevel?: number | null;
     }>(req);
     const cleanName = typeof name === 'string' ? name.trim() : '';
-    const cleanUsername = typeof username === 'string' ? username.trim().toLowerCase() : '';
 
-    if (!cleanName || !cleanUsername || typeof password !== 'string') {
+    if (!cleanName || typeof password !== 'string') {
       return NextResponse.json({ error: 'Nama, username, dan password wajib diisi' }, { status: 400 });
     }
-    if (!USERNAME_RE.test(cleanUsername)) {
-      return NextResponse.json(
-        { error: 'Username 3–30 karakter: huruf kecil, angka, titik, atau garis bawah' },
-        { status: 400 }
-      );
+
+    const usernameValidation = validateUsername(username);
+    if (!usernameValidation.valid) {
+      return NextResponse.json({ error: usernameValidation.error }, { status: 400 });
     }
+    const cleanUsername = usernameValidation.normalized;
+
     if (password.length < 6) {
       return NextResponse.json({ error: 'Password minimal 6 karakter' }, { status: 400 });
     }
@@ -45,21 +43,27 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Kelas tidak valid (1–13)' }, { status: 400 });
     }
 
-    const [existing] = await db.select({ id: users.id }).from(users).where(eq(users.username, cleanUsername)).limit(1);
+    const [existing] = await db
+      .select({ id: users.id })
+      .from(users)
+      .where(sql`LOWER(${users.username}) = ${cleanUsername}`)
+      .limit(1);
     if (existing) {
       return NextResponse.json({ error: 'Username sudah digunakan' }, { status: 400 });
     }
 
     const childId = `usr_${Date.now()}_${Math.random().toString(36).slice(2, 7)}`;
-    await db.insert(users).values({
-      id: childId,
-      username: cleanUsername,
-      name: cleanName,
-      passwordHash: await hashPassword(password),
-      role: 'USER',
-      isActive: true,
-      gradeLevel: gradeLevel ?? null,
-      parentId: user.userId,
+    const passwordHash = await hashPassword(password);
+
+    await client.begin(async (sqlClient) => {
+      await sqlClient`
+        INSERT INTO users (id, username, name, password_hash, role, is_active, is_parent, grade_level, parent_id, token_version)
+        VALUES (${childId}, ${cleanUsername}, ${cleanName}, ${passwordHash}, 'USER', true, false, ${gradeLevel ?? null}, ${user.userId}, 1)
+      `;
+      // Pastikan orang tua memiliki flag is_parent = true
+      await sqlClient`
+        UPDATE users SET is_parent = true WHERE id = ${user.userId}
+      `;
     });
 
     return NextResponse.json({ success: true, childId });
