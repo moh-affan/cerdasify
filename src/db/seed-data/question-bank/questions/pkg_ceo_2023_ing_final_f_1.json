@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q01",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mike: Look, Mom! The animal is so tall. What is it, Mom?\nMom: It is called a …, Mike. It has a long neck.",
+    "imageUrl": null,
+    "explanation": "Hewan tinggi berleher panjang adalah jerapah (*giraffe*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q01_opt_a",
+        "label": "A",
+        "content": "giraffe",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q01_opt_b",
+        "label": "B",
+        "content": "elephant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q01_opt_c",
+        "label": "C",
+        "content": "spider",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q01_opt_d",
+        "label": "D",
+        "content": "lion",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q02",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Family (Soal No. 2 – 5)]\n*Read the text to answer the questions!*\n\nMy name is Elisabeth Hawley. I am the second child of three. My …(1)… is Mr. Huening Hawley. He is an architect. My mother is Mrs. Dania Hawley. …(2)… is a housewife. My big brother is Michael Hawley. He is …(3)… than me. My …(4)… sister is Gisela Hawley. She is still a baby.\n:::\n\nThe correct word to fill blank (1) is …",
+    "imageUrl": null,
+    "explanation": "*Mr. Huening Hawley* (laki-laki dewasa, *He is an architect*) dan berikutnya disebut *my mother*, jadi rumpang (1) adalah **father** (ayah).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q02_opt_a",
+        "label": "A",
+        "content": "father",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q02_opt_b",
+        "label": "B",
+        "content": "mother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q02_opt_c",
+        "label": "C",
+        "content": "brother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q02_opt_d",
+        "label": "D",
+        "content": "sister",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q03",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Family (Soal No. 2 – 5)]\n*Read the text to answer the questions!*\n\nMy name is Elisabeth Hawley. I am the second child of three. My …(1)… is Mr. Huening Hawley. He is an architect. My mother is Mrs. Dania Hawley. …(2)… is a housewife. My big brother is Michael Hawley. He is …(3)… than me. My …(4)… sister is Gisela Hawley. She is still a baby.\n:::\n\nThe correct word to fill blank (2) is …",
+    "imageUrl": null,
+    "explanation": "Kata ganti untuk *my mother* sebagai subjek kalimat adalah **She**: *She is a housewife.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q03_opt_a",
+        "label": "A",
+        "content": "He",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q03_opt_b",
+        "label": "B",
+        "content": "She",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q03_opt_c",
+        "label": "C",
+        "content": "Her",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q03_opt_d",
+        "label": "D",
+        "content": "Him",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q04",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Family (Soal No. 2 – 5)]\n*Read the text to answer the questions!*\n\nMy name is Elisabeth Hawley. I am the second child of three. My …(1)… is Mr. Huening Hawley. He is an architect. My mother is Mrs. Dania Hawley. …(2)… is a housewife. My big brother is Michael Hawley. He is …(3)… than me. My …(4)… sister is Gisela Hawley. She is still a baby.\n:::\n\nThe correct word to fill blank (3) is …",
+    "imageUrl": null,
+    "explanation": "Michael adalah kakak (*big brother*), jadi ia **lebih tua** (*older*) dari Elisabeth.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q04_opt_a",
+        "label": "A",
+        "content": "younger",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q04_opt_b",
+        "label": "B",
+        "content": "smaller",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q04_opt_c",
+        "label": "C",
+        "content": "older",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q04_opt_d",
+        "label": "D",
+        "content": "busier",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q05",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[My Family (Soal No. 2 – 5)]\n*Read the text to answer the questions!*\n\nMy name is Elisabeth Hawley. I am the second child of three. My …(1)… is Mr. Huening Hawley. He is an architect. My mother is Mrs. Dania Hawley. …(2)… is a housewife. My big brother is Michael Hawley. He is …(3)… than me. My …(4)… sister is Gisela Hawley. She is still a baby.\n:::\n\nThe correct word to fill blank (4) is …",
+    "imageUrl": null,
+    "explanation": "Adik perempuan dalam bahasa Inggris disebut **little sister** (ia masih bayi). *Big sister* berarti kakak perempuan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q05_opt_a",
+        "label": "A",
+        "content": "small",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q05_opt_b",
+        "label": "B",
+        "content": "huge",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q05_opt_c",
+        "label": "C",
+        "content": "big",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q05_opt_d",
+        "label": "D",
+        "content": "little",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q06",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jane: Kate, where is Rosa?\nKate: She is absent today. Her mother is sick.\nJane: Oh, I’m … to hear that.",
+    "imageUrl": null,
+    "explanation": "Ungkapan simpati saat mendengar kabar sedih: ***I’m sorry to hear that.***",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q06_opt_a",
+        "label": "A",
+        "content": "happy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q06_opt_b",
+        "label": "B",
+        "content": "glad",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q06_opt_c",
+        "label": "C",
+        "content": "pity",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q06_opt_d",
+        "label": "D",
+        "content": "sorry",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q07",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "a – c – f – i – j – k – r – t – u\n\nThe correct arrangement of the letters is …",
+    "imageUrl": null,
+    "explanation": "Huruf-huruf itu membentuk **jackfruit** (nangka). Ejaan lain salah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q07_opt_a",
+        "label": "A",
+        "content": "Jackfriut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q07_opt_b",
+        "label": "B",
+        "content": "Fruitjack",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q07_opt_c",
+        "label": "C",
+        "content": "Jackfruit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q07_opt_d",
+        "label": "D",
+        "content": "Friutjack",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q08",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "My uncle was very tired, … he went to bed early.",
+    "imageUrl": null,
+    "explanation": "Kalimat kedua adalah akibat dari kalimat pertama, jadi kata hubungnya **so** (sehingga).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q08_opt_a",
+        "label": "A",
+        "content": "but",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q08_opt_b",
+        "label": "B",
+        "content": "or",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q08_opt_c",
+        "label": "C",
+        "content": "because",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q08_opt_d",
+        "label": "D",
+        "content": "so",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q09",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of these is used to ask someone’s age?",
+    "imageUrl": null,
+    "explanation": "Menanyakan umur: **How old are you?**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q09_opt_a",
+        "label": "A",
+        "content": "What is your birthday?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q09_opt_b",
+        "label": "B",
+        "content": "When were you born?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q09_opt_c",
+        "label": "C",
+        "content": "What is your name?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q09_opt_d",
+        "label": "D",
+        "content": "How old are you?",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q10",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "This book costs fifteen thousand rupiah. In numbers, it is …",
+    "imageUrl": null,
+    "explanation": "*Fifteen thousand* = lima belas ribu = **Rp15.000,00**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q10_opt_a",
+        "label": "A",
+        "content": "Rp50.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q10_opt_b",
+        "label": "B",
+        "content": "Rp15.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q10_opt_c",
+        "label": "C",
+        "content": "Rp75.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q10_opt_d",
+        "label": "D",
+        "content": "Rp85.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q11",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "It is twelve o'clock. The time is …",
+    "imageUrl": null,
+    "explanation": "*Twelve o'clock* = pukul **12.00** tepat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q11_opt_a",
+        "label": "A",
+        "content": "11.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q11_opt_b",
+        "label": "B",
+        "content": "10.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q11_opt_c",
+        "label": "C",
+        "content": "12.00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q11_opt_d",
+        "label": "D",
+        "content": "12.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q12",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "In a leap year, … has 29 days.",
+    "imageUrl": null,
+    "explanation": "Pada tahun kabisat (*leap year*), bulan **Februari** memiliki 29 hari.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q12_opt_a",
+        "label": "A",
+        "content": "February",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q12_opt_b",
+        "label": "B",
+        "content": "January",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q12_opt_c",
+        "label": "C",
+        "content": "March",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q12_opt_d",
+        "label": "D",
+        "content": "December",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q13",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My father … some newspapers in the living room.",
+    "imageUrl": null,
+    "explanation": "Koran dibaca: *My father **reads** some newspapers.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q13_opt_a",
+        "label": "A",
+        "content": "watches",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q13_opt_b",
+        "label": "B",
+        "content": "reads",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q13_opt_c",
+        "label": "C",
+        "content": "plays",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q13_opt_d",
+        "label": "D",
+        "content": "listens",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q14",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Climbing mountains, singing, collecting stamps, and reading novels are …",
+    "imageUrl": null,
+    "explanation": "Kegiatan yang dilakukan untuk kesenangan di waktu luang disebut **hobbies** (hobi).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q14_opt_a",
+        "label": "A",
+        "content": "cultures",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q14_opt_b",
+        "label": "B",
+        "content": "hobbies",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q14_opt_c",
+        "label": "C",
+        "content": "traditions",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q14_opt_d",
+        "label": "D",
+        "content": "habits",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q15",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "This is a …",
+    "imageUrl": "/uploads/ceo23_final_e1_segitiga.png",
+    "explanation": "Bangun dengan tiga sisi adalah segitiga (*triangle*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q15_opt_a",
+        "label": "A",
+        "content": "circle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q15_opt_b",
+        "label": "B",
+        "content": "square",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q15_opt_c",
+        "label": "C",
+        "content": "triangle",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q15_opt_d",
+        "label": "D",
+        "content": "rectangle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q16",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "They are very cute animals like a bear. They have little eyes with black spots around them. Their body is black and white. They eat bamboo, almost 40 kg of bamboo in just one day. They are animals from China.\n\nWhich animal is described in this paragraph?",
+    "imageUrl": null,
+    "explanation": "Hewan mirip beruang, berwarna hitam-putih, makan bambu, dan berasal dari Tiongkok adalah **panda**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q16_opt_a",
+        "label": "A",
+        "content": "Panda",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q16_opt_b",
+        "label": "B",
+        "content": "Zebra",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q16_opt_c",
+        "label": "C",
+        "content": "Deer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q16_opt_d",
+        "label": "D",
+        "content": "Giraffe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q17",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Anna always tells the truth to everyone. She is a/an … girl.",
+    "imageUrl": null,
+    "explanation": "Orang yang selalu berkata jujur disebut **honest**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q17_opt_a",
+        "label": "A",
+        "content": "diligent",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q17_opt_b",
+        "label": "B",
+        "content": "careful",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q17_opt_c",
+        "label": "C",
+        "content": "honest",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q17_opt_d",
+        "label": "D",
+        "content": "polite",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q18",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which items are found in the classroom?",
+    "imageUrl": null,
+    "explanation": "Di kelas ada **buku, papan tulis, dan penggaris**. Pilihan A ada di dapur, B di ruang keluarga, D di kamar tidur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q18_opt_a",
+        "label": "A",
+        "content": "Frying pan, spatula, and stove",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q18_opt_b",
+        "label": "B",
+        "content": "Television, sofa, and air freshener",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q18_opt_c",
+        "label": "C",
+        "content": "Books, whiteboard, and rulers",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q18_opt_d",
+        "label": "D",
+        "content": "Bed, storage bench, and sleeping pillows",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q19",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The four seasons in Europe are …",
+    "imageUrl": null,
+    "explanation": "Empat musim: **spring** (semi), **summer** (panas), **autumn** (gugur), dan **winter** (dingin).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q19_opt_a",
+        "label": "A",
+        "content": "winter, hot, wet, spring",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q19_opt_b",
+        "label": "B",
+        "content": "wet, hot, summer, rain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q19_opt_c",
+        "label": "C",
+        "content": "spring, summer, autumn, winter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q19_opt_d",
+        "label": "D",
+        "content": "autumn, winter, hot, rain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q20",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Audrey feels sick. Her head is dizzy. She asks Dion to accompany her to check her health. The doctor says that Audrey has to rest and take the medicine in order to get better soon.\n\nWhy does Audrey want to check her health?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Audrey feels sick. Her head is dizzy.\"* Ia memeriksakan diri karena **merasa tidak sehat**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q20_opt_a",
+        "label": "A",
+        "content": "Because she wants to meet the doctor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q20_opt_b",
+        "label": "B",
+        "content": "Because she wants to go to the hospital",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q20_opt_c",
+        "label": "C",
+        "content": "Because she feels unhealthy",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q20_opt_d",
+        "label": "D",
+        "content": "Because she wants to drink medicine",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q21",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[At the Beach (Soal No. 21 – 23)]\n*Read the text to answer the questions!*\n\nJohn and Dhoni go to the beach on holiday. At the beach, they play volleyball, swim in the sea, and build a sand castle. There are many seashells and crabs at the beach. John sees a sea star when he swims in the sea. The sea star is blue. It looks beautiful.\n:::\n\nWhen do John and Dhoni go to the beach?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"John and Dhoni go to the beach **on holiday**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q21_opt_a",
+        "label": "A",
+        "content": "They go to the beach on the weekend.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q21_opt_b",
+        "label": "B",
+        "content": "They go to the beach on holiday.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q21_opt_c",
+        "label": "C",
+        "content": "They go to the beach on Sunday.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q21_opt_d",
+        "label": "D",
+        "content": "They go to the beach on a school day.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q22",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[At the Beach (Soal No. 21 – 23)]\n*Read the text to answer the questions!*\n\nJohn and Dhoni go to the beach on holiday. At the beach, they play volleyball, swim in the sea, and build a sand castle. There are many seashells and crabs at the beach. John sees a sea star when he swims in the sea. The sea star is blue. It looks beautiful.\n:::\n\nWhat do John and Dhoni do at the beach?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"they play volleyball, swim in the sea, and build a sand castle.\"* Pilihan A menyebut ketiganya dengan lengkap.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q22_opt_a",
+        "label": "A",
+        "content": "They play volleyball, swim, and build a sand castle.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q22_opt_b",
+        "label": "B",
+        "content": "They play volleyball and build a sand castle.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q22_opt_c",
+        "label": "C",
+        "content": "They play volleyball and see the sea star.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q22_opt_d",
+        "label": "D",
+        "content": "They play volleyball, swim, and see seashells.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q23",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[At the Beach (Soal No. 21 – 23)]\n*Read the text to answer the questions!*\n\nJohn and Dhoni go to the beach on holiday. At the beach, they play volleyball, swim in the sea, and build a sand castle. There are many seashells and crabs at the beach. John sees a sea star when he swims in the sea. The sea star is blue. It looks beautiful.\n:::\n\nThere are many … at the beach.",
+    "imageUrl": null,
+    "explanation": "Teks: *\"There are many **seashells and crabs** at the beach.\"* Bintang laut hanya disebut satu ekor.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q23_opt_a",
+        "label": "A",
+        "content": "crabs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q23_opt_b",
+        "label": "B",
+        "content": "seashells",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q23_opt_c",
+        "label": "C",
+        "content": "sea stars and crabs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q23_opt_d",
+        "label": "D",
+        "content": "seashells and crabs",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q24",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "(Essay) Translate this sentence into Indonesian!\n\n“This is a bright afternoon. I sweep the floor to help my mother and my sister is watering some flowers beside the house.”",
+    "imageUrl": null,
+    "explanation": "*Bright afternoon* = sore yang cerah, *sweep the floor* = menyapu lantai, *help my mother* = membantu ibu, *my sister is watering some flowers* = saudara perempuanku sedang menyiram bunga, *beside the house* = di samping rumah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q24_opt_a",
+        "label": "A",
+        "content": "Sore ini cerah. Aku menyapu lantai untuk membantu ibuku, dan kakak/adik perempuanku sedang menyiram bunga di samping rumah.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q24_opt_b",
+        "label": "B",
+        "content": "Pagi ini cerah. Aku mengepel lantai untuk membantu ayahku, dan adikku sedang memetik bunga di depan rumah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q24_opt_c",
+        "label": "C",
+        "content": "Sore ini hujan. Ibuku menyapu lantai untuk membantuku, dan kakakku sedang menanam bunga di belakang rumah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q24_opt_d",
+        "label": "D",
+        "content": "Malam ini terang. Aku menyapu halaman bersama ibuku, dan saudaraku sedang membeli bunga di samping rumah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_1_q25",
+    "topicId": "top_ceo_2023_ing_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "(Essay) Which pair of kitchen things and their uses is correct?",
+    "imageUrl": null,
+    "explanation": "Kompor (*stove*) untuk memasak, pisau (*knife*) untuk memotong, dan kulkas (*refrigerator*) untuk mendinginkan makanan. Pasangan pada pilihan lain tertukar.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q25_opt_a",
+        "label": "A",
+        "content": "Stove – to cook food; knife – to cut vegetables; refrigerator – to keep food cold",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q25_opt_b",
+        "label": "B",
+        "content": "Stove – to keep food cold; knife – to wash plates; refrigerator – to cook rice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q25_opt_c",
+        "label": "C",
+        "content": "Spoon – to cut meat; plate – to boil water; kettle – to fry eggs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_1_q25_opt_d",
+        "label": "D",
+        "content": "Frying pan – to store milk; glass – to cut bread; sink – to bake cake",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

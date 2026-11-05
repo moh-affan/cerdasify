@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "pkg_sigma3_2026_ing_b_q01",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "If you want to ask about someone's well-being, you say …",
+    "imageUrl": null,
+    "explanation": "Menanyakan kabar (*well-being*): **How are you?**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q01_opt_a",
+        "label": "A",
+        "content": "What are you?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q01_opt_b",
+        "label": "B",
+        "content": "What is your name?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q01_opt_c",
+        "label": "C",
+        "content": "How are you?",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q01_opt_d",
+        "label": "D",
+        "content": "Where are you from?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q02",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A: See you tomorrow!\nB: …",
+    "imageUrl": null,
+    "explanation": "Balasan yang wajar untuk *See you tomorrow!* adalah **See you.**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q02_opt_a",
+        "label": "A",
+        "content": "Good night.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q02_opt_b",
+        "label": "B",
+        "content": "Good afternoon.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q02_opt_c",
+        "label": "C",
+        "content": "See you.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q02_opt_d",
+        "label": "D",
+        "content": "I'm fine.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q03",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My mother's sister is my …",
+    "imageUrl": null,
+    "explanation": "Saudara perempuan ibu adalah bibi (*aunt*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q03_opt_a",
+        "label": "A",
+        "content": "niece",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q03_opt_b",
+        "label": "B",
+        "content": "uncle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q03_opt_c",
+        "label": "C",
+        "content": "grandfather",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q03_opt_d",
+        "label": "D",
+        "content": "aunt",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q04",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I drink … from a cow.",
+    "imageUrl": null,
+    "explanation": "Sapi menghasilkan susu (*milk*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q04_opt_a",
+        "label": "A",
+        "content": "tea",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q04_opt_b",
+        "label": "B",
+        "content": "juice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q04_opt_c",
+        "label": "C",
+        "content": "milk",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q04_opt_d",
+        "label": "D",
+        "content": "coffee",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q05",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The correct arrangement for: *likes – to – swim – she – in – pool – the* is …",
+    "imageUrl": null,
+    "explanation": "Pola kalimat: subjek + kata kerja + keterangan: **She likes to swim in the pool.**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q05_opt_a",
+        "label": "A",
+        "content": "She likes to the swim in pool.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q05_opt_b",
+        "label": "B",
+        "content": "To swim in the pool she likes.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q05_opt_c",
+        "label": "C",
+        "content": "She likes to swim in the pool.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q05_opt_d",
+        "label": "D",
+        "content": "The pool she likes to swim in.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q06",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[The Amazing Ant (Soal No. 6 – 10)]\n*Read the text to answer the questions!*\n\nThe ant is a very small insect, but it is one of the strongest animals on Earth! An ant can carry objects that are 50 times its own weight. Ants live in big groups called colonies, and their home is called an anthill. They are very hard workers. They spend all day searching for food and building their homes. They eat many things, like seeds, nectar, and small insects.\n:::\n\nWhat kind of animal is an ant?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"The ant is a very small **insect**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q06_opt_a",
+        "label": "A",
+        "content": "A reptile.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q06_opt_b",
+        "label": "B",
+        "content": "A mammal.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q06_opt_c",
+        "label": "C",
+        "content": "An insect.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q06_opt_d",
+        "label": "D",
+        "content": "A fish.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q07",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[The Amazing Ant (Soal No. 6 – 10)]\n*Read the text to answer the questions!*\n\nThe ant is a very small insect, but it is one of the strongest animals on Earth! An ant can carry objects that are 50 times its own weight. Ants live in big groups called colonies, and their home is called an anthill. They are very hard workers. They spend all day searching for food and building their homes. They eat many things, like seeds, nectar, and small insects.\n:::\n\nHow much weight can an ant carry?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"An ant can carry objects that are **50 times its own weight**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q07_opt_a",
+        "label": "A",
+        "content": "Twice its weight.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q07_opt_b",
+        "label": "B",
+        "content": "Less than its weight.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q07_opt_c",
+        "label": "C",
+        "content": "50 times its own weight.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q07_opt_d",
+        "label": "D",
+        "content": "10 times its own weight.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q08",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[The Amazing Ant (Soal No. 6 – 10)]\n*Read the text to answer the questions!*\n\nThe ant is a very small insect, but it is one of the strongest animals on Earth! An ant can carry objects that are 50 times its own weight. Ants live in big groups called colonies, and their home is called an anthill. They are very hard workers. They spend all day searching for food and building their homes. They eat many things, like seeds, nectar, and small insects.\n:::\n\nA group of ants is called a …",
+    "imageUrl": null,
+    "explanation": "Teks: *\"Ants live in big groups called **colonies**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q08_opt_a",
+        "label": "A",
+        "content": "pack",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q08_opt_b",
+        "label": "B",
+        "content": "herd",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q08_opt_c",
+        "label": "C",
+        "content": "colony",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q08_opt_d",
+        "label": "D",
+        "content": "school",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q09",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[The Amazing Ant (Soal No. 6 – 10)]\n*Read the text to answer the questions!*\n\nThe ant is a very small insect, but it is one of the strongest animals on Earth! An ant can carry objects that are 50 times its own weight. Ants live in big groups called colonies, and their home is called an anthill. They are very hard workers. They spend all day searching for food and building their homes. They eat many things, like seeds, nectar, and small insects.\n:::\n\nAnts spend their day doing two main things: searching for food and …",
+    "imageUrl": null,
+    "explanation": "Teks: *\"They spend all day searching for food and **building their homes**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q09_opt_a",
+        "label": "A",
+        "content": "sleeping",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q09_opt_b",
+        "label": "B",
+        "content": "running fast",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q09_opt_c",
+        "label": "C",
+        "content": "building their homes",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q09_opt_d",
+        "label": "D",
+        "content": "swimming",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q10",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[The Amazing Ant (Soal No. 6 – 10)]\n*Read the text to answer the questions!*\n\nThe ant is a very small insect, but it is one of the strongest animals on Earth! An ant can carry objects that are 50 times its own weight. Ants live in big groups called colonies, and their home is called an anthill. They are very hard workers. They spend all day searching for food and building their homes. They eat many things, like seeds, nectar, and small insects.\n:::\n\nWhat do ants eat?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"They eat many things, like **seeds, nectar, and small insects**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q10_opt_a",
+        "label": "A",
+        "content": "Only small insects.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q10_opt_b",
+        "label": "B",
+        "content": "Only seeds and nectar.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q10_opt_c",
+        "label": "C",
+        "content": "Only meat.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q10_opt_d",
+        "label": "D",
+        "content": "Seeds, nectar, and small insects.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q11",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "She … not have a cat.",
+    "imageUrl": null,
+    "explanation": "Subjek *she* dalam kalimat negatif *simple present* memakai **does not**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q11_opt_a",
+        "label": "A",
+        "content": "do",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q11_opt_b",
+        "label": "B",
+        "content": "does",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q11_opt_c",
+        "label": "C",
+        "content": "are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q11_opt_d",
+        "label": "D",
+        "content": "is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q12",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My mother … dinner every evening.",
+    "imageUrl": null,
+    "explanation": "Kebiasaan (*every evening*) memakai *simple present*. Subjek tunggal *my mother* → kata kerja + s: **cooks**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q12_opt_a",
+        "label": "A",
+        "content": "cook",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q12_opt_b",
+        "label": "B",
+        "content": "cooking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q12_opt_c",
+        "label": "C",
+        "content": "cooks",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q12_opt_d",
+        "label": "D",
+        "content": "are cook",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q13",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "… you a student? Yes, I am.",
+    "imageUrl": null,
+    "explanation": "Subjek *you* memakai *to be* **are**: *Are you a student?*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q13_opt_a",
+        "label": "A",
+        "content": "Is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q13_opt_b",
+        "label": "B",
+        "content": "Do",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q13_opt_c",
+        "label": "C",
+        "content": "Does",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q13_opt_d",
+        "label": "D",
+        "content": "Are",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q14",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "I wish … Italian fluently.",
+    "imageUrl": null,
+    "explanation": "*I wish* untuk pengandaian saat ini diikuti bentuk lampau, misalnya *could*: **I wish I could speak Italian fluently.** Pilihan A tidak tepat karena tidak memiliki subjek setelah *wish*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q14_opt_a",
+        "label": "A",
+        "content": "spoke",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q14_opt_b",
+        "label": "B",
+        "content": "could speak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q14_opt_c",
+        "label": "C",
+        "content": "will speak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q14_opt_d",
+        "label": "D",
+        "content": "am speaking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q15",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "… the assignment, he started reading a novel.",
+    "imageUrl": null,
+    "explanation": "*Having + V3* menyatakan kegiatan yang selesai lebih dulu: **Having finished** the assignment (setelah menyelesaikan tugas), he started reading a novel.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q15_opt_a",
+        "label": "A",
+        "content": "He finished",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q15_opt_b",
+        "label": "B",
+        "content": "Having finished",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q15_opt_c",
+        "label": "C",
+        "content": "To finish",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q15_opt_d",
+        "label": "D",
+        "content": "Finished",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q16",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A doctor works in a …",
+    "imageUrl": null,
+    "explanation": "Dokter bekerja di rumah sakit (*hospital*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q16_opt_a",
+        "label": "A",
+        "content": "school",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q16_opt_b",
+        "label": "B",
+        "content": "bank",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q16_opt_c",
+        "label": "C",
+        "content": "hospital",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q16_opt_d",
+        "label": "D",
+        "content": "factory",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q17",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Space Exploration (Soal No. 17 – 19)]\n*Read the text to answer the questions!*\n\nSpace exploration has always captured the human imagination. Missions like the Apollo program …(1)… pivotal in advancing our understanding of the solar system. Future plans …(2)… sending humans to Mars. Scientists are working hard to overcome the immense technological and physiological challenges involved. The ultimate goal is to establish a permanent presence …(3)… the Red Planet.\n:::\n\nChoose the right word for blank (1).",
+    "imageUrl": null,
+    "explanation": "Subjeknya *missions* (jamak), dan misi Apollo sudah terjadi di masa lalu, jadi memakai **were**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q17_opt_a",
+        "label": "A",
+        "content": "is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q17_opt_b",
+        "label": "B",
+        "content": "was",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q17_opt_c",
+        "label": "C",
+        "content": "were",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q17_opt_d",
+        "label": "D",
+        "content": "are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q18",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Space Exploration (Soal No. 17 – 19)]\n*Read the text to answer the questions!*\n\nSpace exploration has always captured the human imagination. Missions like the Apollo program …(1)… pivotal in advancing our understanding of the solar system. Future plans …(2)… sending humans to Mars. Scientists are working hard to overcome the immense technological and physiological challenges involved. The ultimate goal is to establish a permanent presence …(3)… the Red Planet.\n:::\n\nChoose the right word for blank (2).",
+    "imageUrl": null,
+    "explanation": "*Future plans* jamak dan membicarakan rencana saat ini, jadi kata kerjanya **include** (tanpa -s).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q18_opt_a",
+        "label": "A",
+        "content": "includes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q18_opt_b",
+        "label": "B",
+        "content": "included",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q18_opt_c",
+        "label": "C",
+        "content": "include",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q18_opt_d",
+        "label": "D",
+        "content": "inclusion",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q19",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Space Exploration (Soal No. 17 – 19)]\n*Read the text to answer the questions!*\n\nSpace exploration has always captured the human imagination. Missions like the Apollo program …(1)… pivotal in advancing our understanding of the solar system. Future plans …(2)… sending humans to Mars. Scientists are working hard to overcome the immense technological and physiological challenges involved. The ultimate goal is to establish a permanent presence …(3)… the Red Planet.\n:::\n\nChoose the right word for blank (3).",
+    "imageUrl": null,
+    "explanation": "Untuk permukaan planet dipakai preposisi **on**: *a permanent presence on the Red Planet*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q19_opt_a",
+        "label": "A",
+        "content": "at",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q19_opt_b",
+        "label": "B",
+        "content": "on",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q19_opt_c",
+        "label": "C",
+        "content": "in",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q19_opt_d",
+        "label": "D",
+        "content": "within",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q20",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "… you want some cake?",
+    "imageUrl": null,
+    "explanation": "Subjek *you* dengan kata kerja *want* memakai **Do**: *Do you want some cake?*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q20_opt_a",
+        "label": "A",
+        "content": "Does",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q20_opt_b",
+        "label": "B",
+        "content": "Is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q20_opt_c",
+        "label": "C",
+        "content": "Do",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q20_opt_d",
+        "label": "D",
+        "content": "Are",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q21",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "8:30 is read as …",
+    "imageUrl": null,
+    "explanation": "30 menit = setengah jam (*half*), jadi 8:30 dibaca **half past eight**. *Quarter past eight* = 8:15.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q21_opt_a",
+        "label": "A",
+        "content": "thirty past eight",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q21_opt_b",
+        "label": "B",
+        "content": "half past eight",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q21_opt_c",
+        "label": "C",
+        "content": "quarter past eight",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q21_opt_d",
+        "label": "D",
+        "content": "eight to thirty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q22",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "You use your … to smell.",
+    "imageUrl": null,
+    "explanation": "Kita mencium bau dengan hidung (*nose*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q22_opt_a",
+        "label": "A",
+        "content": "ears",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q22_opt_b",
+        "label": "B",
+        "content": "eyes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q22_opt_c",
+        "label": "C",
+        "content": "mouth",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q22_opt_d",
+        "label": "D",
+        "content": "nose",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_b_q23",
+    "topicId": "top_sigma3_2026_ing_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A … makes honey.",
+    "imageUrl": null,
+    "explanation": "Lebah (*bee*) menghasilkan madu (*honey*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_b_q23_opt_a",
+        "label": "A",
+        "content": "spider",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q23_opt_b",
+        "label": "B",
+        "content": "mosquito",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q23_opt_c",
+        "label": "C",
+        "content": "bee",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_b_q23_opt_d",
+        "label": "D",
+        "content": "fly",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

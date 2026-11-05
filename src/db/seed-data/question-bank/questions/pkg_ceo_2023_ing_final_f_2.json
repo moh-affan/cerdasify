@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q01",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Andrew: Does Bryan go to school in the afternoon?\nCintya: No, …",
+    "imageUrl": null,
+    "explanation": "Bryan laki-laki (*he*), dan pertanyaan dengan *does* dijawab negatif dengan **he does not**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q01_opt_a",
+        "label": "A",
+        "content": "she does",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q01_opt_b",
+        "label": "B",
+        "content": "he do not",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q01_opt_c",
+        "label": "C",
+        "content": "he does not",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q01_opt_d",
+        "label": "D",
+        "content": "she does not",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q02",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The long hand is pointing to ten. The short hand is pointing to three. What time is it?",
+    "imageUrl": null,
+    "explanation": "Jarum panjang di angka 10 berarti menit ke-50. Jarum pendek hampir sampai angka 3 berarti masih pukul 2. Jadi pukul **02.50** (sepuluh menit sebelum pukul tiga).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q02_opt_a",
+        "label": "A",
+        "content": "10.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q02_opt_b",
+        "label": "B",
+        "content": "12.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q02_opt_c",
+        "label": "C",
+        "content": "03.10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q02_opt_d",
+        "label": "D",
+        "content": "02.50",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q03",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "There is still plenty of wood at the back of the house. This sentence means that we still have … wood.",
+    "imageUrl": null,
+    "explanation": "*Wood* adalah kata benda tak terhitung (*uncountable*), sehingga dipakai **an amount of**. *A few, many,* dan *a number of* hanya untuk benda yang dapat dihitung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q03_opt_a",
+        "label": "A",
+        "content": "an amount of",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q03_opt_b",
+        "label": "B",
+        "content": "a few",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q03_opt_c",
+        "label": "C",
+        "content": "many",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q03_opt_d",
+        "label": "D",
+        "content": "a number of",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q04",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which one of the following is a good habit?",
+    "imageUrl": null,
+    "explanation": "Kebiasaan baik adalah **membantu orang tua** (*helping parents*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q04_opt_a",
+        "label": "A",
+        "content": "Coming late to school",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q04_opt_b",
+        "label": "B",
+        "content": "Playing video games all day",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q04_opt_c",
+        "label": "C",
+        "content": "Going shopping every day",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q04_opt_d",
+        "label": "D",
+        "content": "Helping parents",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q05",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What is the correct arrangement?\n\nbaseball – she – Tuesday – plays – every",
+    "imageUrl": null,
+    "explanation": "Subjek + kata kerja + objek + keterangan waktu: **She plays baseball every Tuesday.**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q05_opt_a",
+        "label": "A",
+        "content": "She plays Tuesday every baseball.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q05_opt_b",
+        "label": "B",
+        "content": "She plays baseball every Tuesday.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q05_opt_c",
+        "label": "C",
+        "content": "She every Tuesday baseball plays.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q05_opt_d",
+        "label": "D",
+        "content": "She every baseball plays Tuesday.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q06",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Holiday (Soal No. 6 – 8)]\n*Read the text to answer the questions!*\n\nHello, my name is Dinda. Last holiday, my parents and I went to Taman Safari. We visited several attractions there, such as the Baby Zoo, Safari Journey, and Panda Palace. I am happy because I can see lots of cute animals. I saw baby kangaroos and orangutans. On the Safari Journey ride, I also saw lots of big animals, like zebras and elephants. The last holiday was so exciting!\n:::\n\nWhere did Dinda go on holiday?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"my parents and I went to **Taman Safari**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q06_opt_a",
+        "label": "A",
+        "content": "Taman Safari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q06_opt_b",
+        "label": "B",
+        "content": "Dufan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q06_opt_c",
+        "label": "C",
+        "content": "Ragunan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q06_opt_d",
+        "label": "D",
+        "content": "SeaWorld Ancol",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q07",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Holiday (Soal No. 6 – 8)]\n*Read the text to answer the questions!*\n\nHello, my name is Dinda. Last holiday, my parents and I went to Taman Safari. We visited several attractions there, such as the Baby Zoo, Safari Journey, and Panda Palace. I am happy because I can see lots of cute animals. I saw baby kangaroos and orangutans. On the Safari Journey ride, I also saw lots of big animals, like zebras and elephants. The last holiday was so exciting!\n:::\n\nDinda went on holiday with …",
+    "imageUrl": null,
+    "explanation": "Teks: *\"my **parents** and I went to Taman Safari.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q07_opt_a",
+        "label": "A",
+        "content": "her brother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q07_opt_b",
+        "label": "B",
+        "content": "her sister",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q07_opt_c",
+        "label": "C",
+        "content": "her parents",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q07_opt_d",
+        "label": "D",
+        "content": "her friends",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q08",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Holiday (Soal No. 6 – 8)]\n*Read the text to answer the questions!*\n\nHello, my name is Dinda. Last holiday, my parents and I went to Taman Safari. We visited several attractions there, such as the Baby Zoo, Safari Journey, and Panda Palace. I am happy because I can see lots of cute animals. I saw baby kangaroos and orangutans. On the Safari Journey ride, I also saw lots of big animals, like zebras and elephants. The last holiday was so exciting!\n:::\n\nWhat animals did she see on the Safari Journey?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"On the Safari Journey ride, I also saw lots of big animals, like **zebras and elephants**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q08_opt_a",
+        "label": "A",
+        "content": "Elephants and zebras",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q08_opt_b",
+        "label": "B",
+        "content": "Tigers and lions",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q08_opt_c",
+        "label": "C",
+        "content": "Giraffes and zebras",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q08_opt_d",
+        "label": "D",
+        "content": "Elephants and pandas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q09",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the sign! We are not allowed to turn …",
+    "imageUrl": "/uploads/ceo23_final_e2_rambu.png",
+    "explanation": "Rambu menunjukkan panah belok **kanan** yang dicoret, artinya dilarang belok kanan (*no right turn*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q09_opt_a",
+        "label": "A",
+        "content": "left",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q09_opt_b",
+        "label": "B",
+        "content": "right",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q09_opt_c",
+        "label": "C",
+        "content": "forward",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q09_opt_d",
+        "label": "D",
+        "content": "around",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q10",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "After a two-week ceasefire, the battle broke out again. “Ceasefire” means a period of time …",
+    "imageUrl": null,
+    "explanation": "*Cease* = berhenti, *fire* = tembakan. *Ceasefire* (gencatan senjata) adalah masa untuk **berhenti berperang**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q10_opt_a",
+        "label": "A",
+        "content": "to stop fighting",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q10_opt_b",
+        "label": "B",
+        "content": "to begin fighting",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q10_opt_c",
+        "label": "C",
+        "content": "to start attacking",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q10_opt_d",
+        "label": "D",
+        "content": "to stop debating",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q11",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "“Nineteenth August two thousand and seven” is …",
+    "imageUrl": null,
+    "explanation": "*Nineteenth* = 19, *two thousand and seven* = 2007, jadi **19th August 2007**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q11_opt_a",
+        "label": "A",
+        "content": "19th August 2009",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q11_opt_b",
+        "label": "B",
+        "content": "19th August 2007",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q11_opt_c",
+        "label": "C",
+        "content": "9th August 2007",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q11_opt_d",
+        "label": "D",
+        "content": "19th August 1997",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q12",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Library opening hours: 09.00 AM – 09.00 PM\n\nThe library opens at …",
+    "imageUrl": null,
+    "explanation": "Perpustakaan buka pukul 09.00 **AM**, yaitu pukul sembilan pagi (*nine in the morning*). Pukul 09.00 PM adalah waktu tutupnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q12_opt_a",
+        "label": "A",
+        "content": "nine in the afternoon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q12_opt_b",
+        "label": "B",
+        "content": "nine in the morning",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q12_opt_c",
+        "label": "C",
+        "content": "nine in the evening",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q12_opt_d",
+        "label": "D",
+        "content": "nine at noon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q13",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A frog is … It can live on land and in water.",
+    "imageUrl": null,
+    "explanation": "Hewan yang hidup di dua alam (darat dan air) disebut amfibi (*amphibian*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q13_opt_a",
+        "label": "A",
+        "content": "an aves",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q13_opt_b",
+        "label": "B",
+        "content": "a mammal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q13_opt_c",
+        "label": "C",
+        "content": "an amphibian",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q13_opt_d",
+        "label": "D",
+        "content": "a reptile",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q14",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[My Cousin Andri (Soal No. 14 – 17)]\n*Read the text to answer the questions!*\n\nToday, my cousin Andri comes to visit our house. He is 13 years old. He's my closest cousin. He studies at SMP Mutiara Kita grade 7. He is tall enough for a 7th grader, about 170 cm. His skin is tan. His nose is sharp. His hair is black and wavy. He is quite good looking. He's popular at his school because he's smart and athletic. He always ranks first in his class. He is calm too. His teachers and friends like him.\n:::\n\nWhich of the following statements is true according to the text?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"he's smart … He always ranks first in his class.\"* Jadi ia **siswa yang pintar**. Kulitnya *tan* (sawo matang), ia tinggi, dan ia tenang (*calm*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q14_opt_a",
+        "label": "A",
+        "content": "He has fair skin.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q14_opt_b",
+        "label": "B",
+        "content": "He is a clever student.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q14_opt_c",
+        "label": "C",
+        "content": "He is not tall.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q14_opt_d",
+        "label": "D",
+        "content": "He is a talkative boy.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q15",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[My Cousin Andri (Soal No. 14 – 17)]\n*Read the text to answer the questions!*\n\nToday, my cousin Andri comes to visit our house. He is 13 years old. He's my closest cousin. He studies at SMP Mutiara Kita grade 7. He is tall enough for a 7th grader, about 170 cm. His skin is tan. His nose is sharp. His hair is black and wavy. He is quite good looking. He's popular at his school because he's smart and athletic. He always ranks first in his class. He is calm too. His teachers and friends like him.\n:::\n\nWhat is the correct physical description of Andri?",
+    "imageUrl": null,
+    "explanation": "Teks: tinggi sekitar 170 cm (*tall*), *his nose is sharp*, *his skin is tan*. Rambutnya *wavy* (bergelombang), bukan lurus.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q15_opt_a",
+        "label": "A",
+        "content": "A tall boy with a sharp nose and tan skin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q15_opt_b",
+        "label": "B",
+        "content": "A medium-height boy with a sharp nose and tan skin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q15_opt_c",
+        "label": "C",
+        "content": "A tall boy with black and straight hair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q15_opt_d",
+        "label": "D",
+        "content": "A tall boy with fair skin and a flat nose",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q16",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[My Cousin Andri (Soal No. 14 – 17)]\n*Read the text to answer the questions!*\n\nToday, my cousin Andri comes to visit our house. He is 13 years old. He's my closest cousin. He studies at SMP Mutiara Kita grade 7. He is tall enough for a 7th grader, about 170 cm. His skin is tan. His nose is sharp. His hair is black and wavy. He is quite good looking. He's popular at his school because he's smart and athletic. He always ranks first in his class. He is calm too. His teachers and friends like him.\n:::\n\nThe words “good looking” in the text can be replaced by …",
+    "imageUrl": null,
+    "explanation": "*Good looking* untuk laki-laki berarti **handsome** (tampan). *Beautiful* biasanya untuk perempuan, *ugly* lawan katanya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q16_opt_a",
+        "label": "A",
+        "content": "handsome",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q16_opt_b",
+        "label": "B",
+        "content": "beautiful",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q16_opt_c",
+        "label": "C",
+        "content": "ugly",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q16_opt_d",
+        "label": "D",
+        "content": "nice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q17",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[My Cousin Andri (Soal No. 14 – 17)]\n*Read the text to answer the questions!*\n\nToday, my cousin Andri comes to visit our house. He is 13 years old. He's my closest cousin. He studies at SMP Mutiara Kita grade 7. He is tall enough for a 7th grader, about 170 cm. His skin is tan. His nose is sharp. His hair is black and wavy. He is quite good looking. He's popular at his school because he's smart and athletic. He always ranks first in his class. He is calm too. His teachers and friends like him.\n:::\n\nAndri is smart because …",
+    "imageUrl": null,
+    "explanation": "Bukti bahwa Andri pintar: *\"He always ranks first in his class.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q17_opt_a",
+        "label": "A",
+        "content": "he is calm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q17_opt_b",
+        "label": "B",
+        "content": "he is athletic",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q17_opt_c",
+        "label": "C",
+        "content": "he always ranks first",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q17_opt_d",
+        "label": "D",
+        "content": "his teachers like him",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q18",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tono is 12 years old. He has brown hair and white skin, and his weight is 70 kg. So …",
+    "imageUrl": null,
+    "explanation": "Usia 12 tahun berarti **muda** (*young*), dan berat 70 kg untuk anak 12 tahun berarti **gemuk** (*fat*). Pilihan A dan B salah karena *old*, D salah karena *slim*. Pilihan yang sesuai adalah C.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q18_opt_a",
+        "label": "A",
+        "content": "Tono is a handsome old boy.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q18_opt_b",
+        "label": "B",
+        "content": "Tono is an old, handsome, fat boy.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q18_opt_c",
+        "label": "C",
+        "content": "Tono is a young, handsome, and fat boy.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q18_opt_d",
+        "label": "D",
+        "content": "Tono is a young, ugly, and slim boy.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q19",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[The Elephant (Soal No. 19 – 20)]\n*Read the text to answer the questions!*\n\nAn elephant is the largest and strongest animal. It is a strange-looking animal with its thick legs, huge sides and back, large hanging ears, a small tail, little eyes, long white tusks, and above all it has a long nose, the trunk.\n\nThe trunk is the elephant’s peculiar feature, and it has various uses. The elephant draws up water with its trunk and can squirt it all over its body like a shower bath. It can also lift leaves and put them into its mouth.\n\nIn fact, the trunk serves the elephant as a long arm and hand. An elephant looks very clumsy and heavy, and yet it can move very quickly.\n\nThe elephant is a very intelligent animal. Its intelligence combined with its great strength makes it a very useful servant to man, and it can be trained to serve in various ways such as carrying heavy loads, hunting for tigers, and even fighting.\n:::\n\nThe text tells us about …",
+    "imageUrl": null,
+    "explanation": "Seluruh teks membahas berbagai hal tentang gajah (bentuk tubuh, belalai, kecerdasan), jadi topiknya adalah **an elephant**. Pilihan lain hanya bagian kecil dari teks.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q19_opt_a",
+        "label": "A",
+        "content": "the elephant’s peculiar feature",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q19_opt_b",
+        "label": "B",
+        "content": "a useful servant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q19_opt_c",
+        "label": "C",
+        "content": "a strange-looking animal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q19_opt_d",
+        "label": "D",
+        "content": "an elephant",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q20",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[The Elephant (Soal No. 19 – 20)]\n*Read the text to answer the questions!*\n\nAn elephant is the largest and strongest animal. It is a strange-looking animal with its thick legs, huge sides and back, large hanging ears, a small tail, little eyes, long white tusks, and above all it has a long nose, the trunk.\n\nThe trunk is the elephant’s peculiar feature, and it has various uses. The elephant draws up water with its trunk and can squirt it all over its body like a shower bath. It can also lift leaves and put them into its mouth.\n\nIn fact, the trunk serves the elephant as a long arm and hand. An elephant looks very clumsy and heavy, and yet it can move very quickly.\n\nThe elephant is a very intelligent animal. Its intelligence combined with its great strength makes it a very useful servant to man, and it can be trained to serve in various ways such as carrying heavy loads, hunting for tigers, and even fighting.\n:::\n\nThe most distinguishing characteristic of an elephant is …",
+    "imageUrl": null,
+    "explanation": "Teks: *\"above all it has a long nose, the trunk. The trunk is the elephant’s peculiar feature.\"* Ciri paling khas gajah adalah **belalainya** (hidung panjang).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q20_opt_a",
+        "label": "A",
+        "content": "its clumsiness",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q20_opt_b",
+        "label": "B",
+        "content": "its thick legs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q20_opt_c",
+        "label": "C",
+        "content": "its large body",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q20_opt_d",
+        "label": "D",
+        "content": "its long nose",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q21",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Rare Animals (Soal No. 21 – 22)]\n*Choose the right words to complete the short paragraph!*\n\nPeople are not permitted to …(1)… the rare animals because they will become extinct. Besides, our grandchildren will not be able to …(2)… them in the future.\n:::\n\nThe right word for blank (1) is …",
+    "imageUrl": null,
+    "explanation": "Hewan langka akan punah jika **dibunuh**: *People are not permitted to **kill** the rare animals.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q21_opt_a",
+        "label": "A",
+        "content": "keep",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q21_opt_b",
+        "label": "B",
+        "content": "kill",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q21_opt_c",
+        "label": "C",
+        "content": "save",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q21_opt_d",
+        "label": "D",
+        "content": "pressure",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q22",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[Rare Animals (Soal No. 21 – 22)]\n*Choose the right words to complete the short paragraph!*\n\nPeople are not permitted to …(1)… the rare animals because they will become extinct. Besides, our grandchildren will not be able to …(2)… them in the future.\n:::\n\nThe right word for blank (2) is …",
+    "imageUrl": null,
+    "explanation": "Jika punah, cucu kita tidak bisa **melihat** hewan itu lagi: *…will not be able to **see** them in the future.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q22_opt_a",
+        "label": "A",
+        "content": "hunt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q22_opt_b",
+        "label": "B",
+        "content": "kill",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q22_opt_c",
+        "label": "C",
+        "content": "see",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q22_opt_d",
+        "label": "D",
+        "content": "sell",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q23",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "(Essay) Which group shows five activities that you usually do every morning?",
+    "imageUrl": null,
+    "explanation": "Kegiatan pagi hari: bangun tidur, mandi, menggosok gigi, sarapan, dan berangkat sekolah. Pilihan lain adalah kegiatan siang atau malam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q23_opt_a",
+        "label": "A",
+        "content": "Wake up, take a bath, brush my teeth, have breakfast, go to school",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q23_opt_b",
+        "label": "B",
+        "content": "Have dinner, do homework, brush my teeth, sleep, dream",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q23_opt_c",
+        "label": "C",
+        "content": "Go home from school, have lunch, take a nap, watch TV, play",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q23_opt_d",
+        "label": "D",
+        "content": "Watch the stars, have dinner, pray, read a story, sleep",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_ing_final_f_2_q24",
+    "topicId": "top_ceo_2023_ing_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "(Essay) Rearrange the following sentences into a good paragraph!\n\n1. First we prepared the food.\n2. While we were preparing the food, Father was checking the car.\n3. We went on a picnic on the beach last Sunday.\n4. We had to take food and drink.\n5. Next came the drink.\n6. We started the trip when we had put everything in the car.",
+    "imageUrl": null,
+    "explanation": "Paragraf dimulai dengan pengenalan (3: piknik ke pantai), lalu apa yang harus dibawa (4), langkah pertama menyiapkan makanan (1), kegiatan bersamaan saat menyiapkan makanan (2), lalu minuman (5), dan terakhir berangkat (6): **3 – 4 – 1 – 2 – 5 – 6**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q24_opt_a",
+        "label": "A",
+        "content": "3 – 4 – 1 – 2 – 5 – 6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q24_opt_b",
+        "label": "B",
+        "content": "3 – 1 – 2 – 4 – 5 – 6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q24_opt_c",
+        "label": "C",
+        "content": "4 – 3 – 1 – 5 – 2 – 6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_ing_final_f_2_q24_opt_d",
+        "label": "D",
+        "content": "3 – 4 – 1 – 5 – 6 – 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

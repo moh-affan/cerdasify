@@ -520,5 +520,107 @@
     "categoryId": "cat_olimpiade_kmnr",
     "name": "Matematika Kelas 1–2 Semifinal KMNR 19 2024",
     "slug": "olimpiade-kmnr-2024-semifinal-matematika-kelas-1-2"
+  },
+  {
+    "id": "top_kmsi_2025_mtk_prov_1",
+    "categoryId": "cat_olimpiade_kmsi",
+    "name": "Matematika Level 1 Final Provinsi KMSI 2025",
+    "slug": "olimpiade-kmsi-2025-final-provinsi-matematika-level-1"
+  },
+  {
+    "id": "top_kmsi_2025_mtk_prov_2",
+    "categoryId": "cat_olimpiade_kmsi",
+    "name": "Matematika Level 2 Final Provinsi KMSI 2025",
+    "slug": "olimpiade-kmsi-2025-final-provinsi-matematika-level-2"
+  },
+  {
+    "id": "top_kmsi_2025_sains_prov_1",
+    "categoryId": "cat_olimpiade_kmsi",
+    "name": "Sains Level 1 Final Provinsi KMSI 2025",
+    "slug": "olimpiade-kmsi-2025-final-provinsi-sains-level-1"
+  },
+  {
+    "id": "top_kmsi_2025_sains_prov_2",
+    "categoryId": "cat_olimpiade_kmsi",
+    "name": "Sains Level 2 Final Provinsi KMSI 2025",
+    "slug": "olimpiade-kmsi-2025-final-provinsi-sains-level-2"
+  },
+  {
+    "id": "top_kmsi_2025_ing_prov_1",
+    "categoryId": "cat_olimpiade_kmsi",
+    "name": "Bahasa Inggris Level 1 Final Provinsi KMSI 2025",
+    "slug": "olimpiade-kmsi-2025-final-provinsi-bahasa-inggris-level-1"
+  },
+  {
+    "id": "top_kmsi_2025_ing_prov_2",
+    "categoryId": "cat_olimpiade_kmsi",
+    "name": "Bahasa Inggris Level 2 Final Provinsi KMSI 2025",
+    "slug": "olimpiade-kmsi-2025-final-provinsi-bahasa-inggris-level-2"
+  },
+  {
+    "id": "top_sigma3_2026_mtk_a",
+    "categoryId": "cat_olimpiade_sigma",
+    "name": "Matematika A (Kelas 1–2) Final Provinsi SIGMA 3 2026",
+    "slug": "olimpiade-sigma-3-2026-final-provinsi-matematika-a"
+  },
+  {
+    "id": "top_sigma3_2026_mtk_b",
+    "categoryId": "cat_olimpiade_sigma",
+    "name": "Matematika B (Kelas 3–4) Final Provinsi SIGMA 3 2026",
+    "slug": "olimpiade-sigma-3-2026-final-provinsi-matematika-b"
+  },
+  {
+    "id": "top_sigma3_2026_ing_a",
+    "categoryId": "cat_olimpiade_sigma",
+    "name": "Bahasa Inggris A (Kelas 1–2) Final Provinsi SIGMA 3 2026",
+    "slug": "olimpiade-sigma-3-2026-final-provinsi-bahasa-inggris-a"
+  },
+  {
+    "id": "top_sigma3_2026_ing_b",
+    "categoryId": "cat_olimpiade_sigma",
+    "name": "Bahasa Inggris B (Kelas 3–4) Final Provinsi SIGMA 3 2026",
+    "slug": "olimpiade-sigma-3-2026-final-provinsi-bahasa-inggris-b"
+  },
+  {
+    "id": "top_sigma3_2026_sains_a",
+    "categoryId": "cat_olimpiade_sigma",
+    "name": "Sains A (Kelas 1–2) Final Provinsi SIGMA 3 2026",
+    "slug": "olimpiade-sigma-3-2026-final-provinsi-sains-a"
+  },
+  {
+    "id": "top_sigma3_2026_sains_b",
+    "categoryId": "cat_olimpiade_sigma",
+    "name": "Sains B (Kelas 3–4) Final Provinsi SIGMA 3 2026",
+    "slug": "olimpiade-sigma-3-2026-final-provinsi-sains-b"
+  },
+  {
+    "id": "top_ceo_2023_mtk_final_2",
+    "categoryId": "cat_olimpiade_ceo",
+    "name": "Matematika Level 2 Final CEO 2023",
+    "slug": "olimpiade-ceo-2023-final-matematika-level-2"
+  },
+  {
+    "id": "top_ceo_2023_sains_final_1",
+    "categoryId": "cat_olimpiade_ceo",
+    "name": "Sains Level 1 Final CEO 2023",
+    "slug": "olimpiade-ceo-2023-final-sains-level-1"
+  },
+  {
+    "id": "top_ceo_2023_sains_final_2",
+    "categoryId": "cat_olimpiade_ceo",
+    "name": "Sains Level 2 Final CEO 2023",
+    "slug": "olimpiade-ceo-2023-final-sains-level-2"
+  },
+  {
+    "id": "top_ceo_2023_ing_final_1",
+    "categoryId": "cat_olimpiade_ceo",
+    "name": "Bahasa Inggris Level 1 Final CEO 2023",
+    "slug": "olimpiade-ceo-2023-final-bahasa-inggris-level-1"
+  },
+  {
+    "id": "top_ceo_2023_ing_final_2",
+    "categoryId": "cat_olimpiade_ceo",
+    "name": "Bahasa Inggris Level 2 Final CEO 2023",
+    "slug": "olimpiade-ceo-2023-final-bahasa-inggris-level-2"
   }
 ]

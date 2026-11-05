@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "pkg_sigma3_2026_sains_a_q01",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nita mencuci rambut dengan …",
+    "imageUrl": null,
+    "explanation": "Rambut dicuci dengan **sampo**. Pasta gigi untuk menggosok gigi, sabun untuk membersihkan badan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q01_opt_a",
+        "label": "A",
+        "content": "Sampo",
+        "imageUrl": "/uploads/sigma3_sains_a_sampo.png",
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q01_opt_b",
+        "label": "B",
+        "content": "Pasta gigi",
+        "imageUrl": "/uploads/sigma3_sains_a_pasta_gigi.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q01_opt_c",
+        "label": "C",
+        "content": "Sabun batang",
+        "imageUrl": "/uploads/sigma3_sains_a_sabun.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q01_opt_d",
+        "label": "D",
+        "content": "Minuman kaleng",
+        "imageUrl": "/uploads/sigma3_sains_a_kaleng.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q02",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bagian tubuh pada gambar berguna untuk …",
+    "imageUrl": "/uploads/sigma3_sains_a_gigi.png",
+    "explanation": "Gambar menunjukkan **gigi**. Gigi berguna untuk menggigit dan mengunyah makanan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q02_opt_a",
+        "label": "A",
+        "content": "Mencakar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q02_opt_b",
+        "label": "B",
+        "content": "Meraba",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q02_opt_c",
+        "label": "C",
+        "content": "Melihat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q02_opt_d",
+        "label": "D",
+        "content": "Menggigit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q03",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hidung merupakan bagian dari …",
+    "imageUrl": null,
+    "explanation": "Hidung terletak di wajah, jadi termasuk bagian **kepala**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q03_opt_a",
+        "label": "A",
+        "content": "Kepala",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q03_opt_b",
+        "label": "B",
+        "content": "Badan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q03_opt_c",
+        "label": "C",
+        "content": "Anggota gerak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q03_opt_d",
+        "label": "D",
+        "content": "Organ pencernaan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q04",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bagian telinga yang menangkap gelombang suara adalah …",
+    "imageUrl": null,
+    "explanation": "**Daun telinga** (bagian luar) menangkap dan mengumpulkan gelombang suara, lalu suara masuk ke lubang telinga menuju gendang telinga.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q04_opt_a",
+        "label": "A",
+        "content": "Gendang telinga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q04_opt_b",
+        "label": "B",
+        "content": "Rumah siput",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q04_opt_c",
+        "label": "C",
+        "content": "Daun telinga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q04_opt_d",
+        "label": "D",
+        "content": "Lubang telinga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q05",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Burung merak memberikan keuntungan berupa …",
+    "imageUrl": null,
+    "explanation": "Burung merak terkenal dengan **bulunya yang indah**, sering dijadikan hiasan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q05_opt_a",
+        "label": "A",
+        "content": "Suara yang merdu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q05_opt_b",
+        "label": "B",
+        "content": "Daging yang lezat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q05_opt_c",
+        "label": "C",
+        "content": "Kaki yang indah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q05_opt_d",
+        "label": "D",
+        "content": "Bulu yang indah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q06",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat rumah tangga pada gambar menghasilkan …",
+    "imageUrl": "/uploads/sigma3_sains_a_setrika.png",
+    "explanation": "Gambar menunjukkan **setrika**. Setrika menghasilkan panas untuk merapikan pakaian.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q06_opt_a",
+        "label": "A",
+        "content": "Cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q06_opt_b",
+        "label": "B",
+        "content": "Bunyi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q06_opt_c",
+        "label": "C",
+        "content": "Panas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q06_opt_d",
+        "label": "D",
+        "content": "Suara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q07",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat berikut yang dapat menghasilkan cahaya dan bunyi adalah …",
+    "imageUrl": null,
+    "explanation": "**Televisi** mengeluarkan gambar (cahaya) dan suara (bunyi). Lampu belajar hanya cahaya, setrika panas, kipas angin gerak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q07_opt_a",
+        "label": "A",
+        "content": "Setrika",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q07_opt_b",
+        "label": "B",
+        "content": "Televisi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q07_opt_c",
+        "label": "C",
+        "content": "Lampu belajar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q07_opt_d",
+        "label": "D",
+        "content": "Kipas angin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q08",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Energi yang dihasilkan oleh orang yang sedang berolahraga disebut …",
+    "imageUrl": null,
+    "explanation": "Saat berolahraga tubuh kita bergerak, sehingga menghasilkan **energi gerak**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q08_opt_a",
+        "label": "A",
+        "content": "Energi panas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q08_opt_b",
+        "label": "B",
+        "content": "Energi cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q08_opt_c",
+        "label": "C",
+        "content": "Energi listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q08_opt_d",
+        "label": "D",
+        "content": "Energi gerak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q09",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jengger dan pial pada ayam tumbuh di …",
+    "imageUrl": null,
+    "explanation": "Jengger tumbuh di atas kepala dan pial menggantung di bawah paruh, keduanya di bagian **kepala** ayam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q09_opt_a",
+        "label": "A",
+        "content": "Kepalanya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q09_opt_b",
+        "label": "B",
+        "content": "Kakinya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q09_opt_c",
+        "label": "C",
+        "content": "Sayapnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q09_opt_d",
+        "label": "D",
+        "content": "Lehernya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q10",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hewan pada gambar hidup di …",
+    "imageUrl": "/uploads/sigma3_sains_a_gurita.png",
+    "explanation": "Gambar menunjukkan **gurita**. Gurita hidup di **air laut**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q10_opt_a",
+        "label": "A",
+        "content": "Air kolam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q10_opt_b",
+        "label": "B",
+        "content": "Air sungai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q10_opt_c",
+        "label": "C",
+        "content": "Air laut",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q10_opt_d",
+        "label": "D",
+        "content": "Air hujan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q11",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tumbuhan yang dikenal sebagai tumbuhan perintis dan dapat hidup meskipun menempel di atas bebatuan adalah …",
+    "imageUrl": null,
+    "explanation": "**Lumut** adalah tumbuhan perintis: dapat tumbuh di batu yang lembap dan lama-kelamaan membantu membentuk tanah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q11_opt_a",
+        "label": "A",
+        "content": "Lumut",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q11_opt_b",
+        "label": "B",
+        "content": "Kaktus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q11_opt_c",
+        "label": "C",
+        "content": "Anggrek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q11_opt_d",
+        "label": "D",
+        "content": "Cemara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q12",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Buku yang jatuh tidak menggelinding sebab …",
+    "imageUrl": null,
+    "explanation": "Benda yang menggelinding biasanya berbentuk bulat. Buku berbentuk **pipih dan rata**, jadi tidak menggelinding.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q12_opt_a",
+        "label": "A",
+        "content": "Bentuknya bulat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q12_opt_b",
+        "label": "B",
+        "content": "Bentuknya segitiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q12_opt_c",
+        "label": "C",
+        "content": "Bentuknya melengkung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q12_opt_d",
+        "label": "D",
+        "content": "Bentuknya pipih dan rata",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q13",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Air yang berubah menjadi es berwujud …",
+    "imageUrl": null,
+    "explanation": "Es adalah benda **padat**. Perubahan air menjadi es disebut membeku.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q13_opt_a",
+        "label": "A",
+        "content": "Padat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q13_opt_b",
+        "label": "B",
+        "content": "Cair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q13_opt_c",
+        "label": "C",
+        "content": "Uap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q13_opt_d",
+        "label": "D",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q14",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Benda yang tidak dapat dilihat tetapi dapat dirasakan keberadaannya adalah …",
+    "imageUrl": null,
+    "explanation": "Udara adalah **benda gas**: tidak terlihat, tetapi terasa saat angin bertiup.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q14_opt_a",
+        "label": "A",
+        "content": "Benda padat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q14_opt_b",
+        "label": "B",
+        "content": "Benda cair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q14_opt_c",
+        "label": "C",
+        "content": "Benda gas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q14_opt_d",
+        "label": "D",
+        "content": "Benda lunak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q15",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kertas yang dibakar akan menjadi …",
+    "imageUrl": null,
+    "explanation": "Kertas yang dibakar berubah menjadi **abu**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q15_opt_a",
+        "label": "A",
+        "content": "Abu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q15_opt_b",
+        "label": "B",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q15_opt_c",
+        "label": "C",
+        "content": "Logam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q15_opt_d",
+        "label": "D",
+        "content": "Minyak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q16",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Secangkir minyak goreng dituangkan ke dalam kaleng kosong, maka … minyak berubah.",
+    "imageUrl": null,
+    "explanation": "Minyak goreng adalah benda cair. Benda cair **bentuknya** berubah mengikuti wadah, tetapi berat dan rasanya tetap.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q16_opt_a",
+        "label": "A",
+        "content": "Beratnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q16_opt_b",
+        "label": "B",
+        "content": "Besarnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q16_opt_c",
+        "label": "C",
+        "content": "Bentuknya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q16_opt_d",
+        "label": "D",
+        "content": "Rasanya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q17",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Agar mudah bergerak, ban mobil berbentuk …",
+    "imageUrl": null,
+    "explanation": "Ban berbentuk **lingkaran** sehingga mudah menggelinding.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q17_opt_a",
+        "label": "A",
+        "content": "Persegi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q17_opt_b",
+        "label": "B",
+        "content": "Lingkaran",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q17_opt_c",
+        "label": "C",
+        "content": "Kotak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q17_opt_d",
+        "label": "D",
+        "content": "Segitiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q18",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di bawah ini yang **tidak** termasuk unsur cuaca adalah …",
+    "imageUrl": null,
+    "explanation": "Mendung, panas, dan hujan adalah keadaan cuaca. **Lampu** adalah benda buatan manusia.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q18_opt_a",
+        "label": "A",
+        "content": "Lampu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q18_opt_b",
+        "label": "B",
+        "content": "Mendung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q18_opt_c",
+        "label": "C",
+        "content": "Panas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q18_opt_d",
+        "label": "D",
+        "content": "Hujan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q19",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jas hujan dan payung biasa digunakan pada musim …",
+    "imageUrl": null,
+    "explanation": "Jas hujan dan payung melindungi kita dari air hujan, digunakan pada musim **penghujan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q19_opt_a",
+        "label": "A",
+        "content": "Penghujan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q19_opt_b",
+        "label": "B",
+        "content": "Kemarau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q19_opt_c",
+        "label": "C",
+        "content": "Panas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q19_opt_d",
+        "label": "D",
+        "content": "Salju",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q20",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Musim yang ada di Indonesia adalah musim …",
+    "imageUrl": null,
+    "explanation": "Indonesia beriklim tropis dengan dua musim: kemarau dan penghujan. Musim salju, semi, dan gugur ada di negara empat musim.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q20_opt_a",
+        "label": "A",
+        "content": "Salju",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q20_opt_b",
+        "label": "B",
+        "content": "Kemarau",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q20_opt_c",
+        "label": "C",
+        "content": "Semi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q20_opt_d",
+        "label": "D",
+        "content": "Gugur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q21",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Dhea mempunyai:\n1. madu\n2. gula\n3. kecap\n4. garam\n5. cuka\n\nBenda padat yang dimiliki Dhea ditunjukkan oleh nomor …",
+    "imageUrl": null,
+    "explanation": "**Gula dan garam** (nomor 2 dan 4) berupa butiran padat. Madu, kecap, dan cuka adalah benda cair.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q21_opt_a",
+        "label": "A",
+        "content": "1 dan 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q21_opt_b",
+        "label": "B",
+        "content": "1 dan 3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q21_opt_c",
+        "label": "C",
+        "content": "3 dan 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q21_opt_d",
+        "label": "D",
+        "content": "2 dan 4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q22",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pada pukul 2 siang Reka merasa kepanasan. Ia ingin berteduh di bawah pohon. Agar tidak kepanasan, Reka harus berteduh di sebelah … pohon.",
+    "imageUrl": "/uploads/sigma3_sains_a_pohon.png",
+    "explanation": "Matahari terbit di timur dan terbenam di barat. Pukul 2 siang matahari sudah condong ke **barat**, sehingga bayangan pohon jatuh ke arah sebaliknya, yaitu **timur**. Reka harus berteduh di sebelah timur pohon.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q22_opt_a",
+        "label": "A",
+        "content": "Barat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q22_opt_b",
+        "label": "B",
+        "content": "Selatan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q22_opt_c",
+        "label": "C",
+        "content": "Timur",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q22_opt_d",
+        "label": "D",
+        "content": "Utara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_a_q23",
+    "topicId": "top_sigma3_2026_sains_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kegiatan yang dapat membuat tubuh menjadi kuat dan bugar adalah …",
+    "imageUrl": null,
+    "explanation": "**Olahraga secara teratur** menguatkan otot dan menjaga kebugaran tubuh.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_a_q23_opt_a",
+        "label": "A",
+        "content": "Olahraga secara teratur",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q23_opt_b",
+        "label": "B",
+        "content": "Tidur sepanjang hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q23_opt_c",
+        "label": "C",
+        "content": "Duduk terus-menerus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_a_q23_opt_d",
+        "label": "D",
+        "content": "Makan sambil tidur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

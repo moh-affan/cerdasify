@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q01",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika $a + 2a = 15$ dan $6b = 18$, maka nilai $a \\times b$ adalah …",
+    "imageUrl": null,
+    "explanation": "$a + 2a = 3a = 15$, jadi $a = 5$. $6b = 18$, jadi $b = 3$. Maka $a \\times b = 5 \\times 3 = 15$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q01_opt_a",
+        "label": "A",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q01_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q01_opt_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q01_opt_d",
+        "label": "D",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q02",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ayah pergi ke kantor pukul 06.30 dan tiba di kantor pukul 07.15. Ayah pulang dan tiba di rumah kembali pukul 17.30. Jika lama perjalanan pulang sama dengan lama perjalanan berangkat, maka Ayah berada di kantor selama …",
+    "imageUrl": null,
+    "explanation": "Perjalanan berangkat 06.30 → 07.15 = 45 menit. Perjalanan pulang juga 45 menit, jadi Ayah meninggalkan kantor pukul $17.30 - 45 \\text{ menit} = 16.45$.\n\nDi kantor: 07.15 → 16.45 = **9 jam 30 menit**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q02_opt_a",
+        "label": "A",
+        "content": "9 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q02_opt_b",
+        "label": "B",
+        "content": "9 jam 15 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q02_opt_c",
+        "label": "C",
+        "content": "9 jam 30 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q02_opt_d",
+        "label": "D",
+        "content": "9 jam 45 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q03",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan operasi pembagian di bawah ini!\n\n(i) $27 : 3 = 9$\n(ii) $32 : 4 = 8$\n(iii) $52 : 4 = 12$\n(iv) $45 : 4 = 9$\n\nOperasi pembagian yang benar ditunjukkan pada nomor …",
+    "imageUrl": null,
+    "explanation": "Cek dengan perkalian:\n- (i) $3 \\times 9 = 27$ ✓\n- (ii) $4 \\times 8 = 32$ ✓\n- (iii) $4 \\times 12 = 48 \\ne 52$ ✗ (yang benar $52 : 4 = 13$)\n- (iv) $4 \\times 9 = 36 \\ne 45$ ✗\n\nJadi yang benar hanya **i dan ii**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q03_opt_a",
+        "label": "A",
+        "content": "i dan ii",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q03_opt_b",
+        "label": "B",
+        "content": "i, ii, dan iii",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q03_opt_c",
+        "label": "C",
+        "content": "ii, iii, dan iv",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q03_opt_d",
+        "label": "D",
+        "content": "i, ii, dan iv",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q04",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "28 – 27 – 22 – 52 – 41\n\nUrutan yang benar dari angka-angka di atas, dimulai dari yang paling besar, adalah …",
+    "imageUrl": null,
+    "explanation": "Dari yang terbesar: 52, 41, 28, 27, 22.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q04_opt_a",
+        "label": "A",
+        "content": "52 – 41 – 28 – 27 – 22",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q04_opt_b",
+        "label": "B",
+        "content": "52 – 41 – 27 – 28 – 22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q04_opt_c",
+        "label": "C",
+        "content": "22 – 27 – 28 – 41 – 52",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q04_opt_d",
+        "label": "D",
+        "content": "22 – 28 – 27 – 41 – 52",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q05",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kakak membeli kelereng 6 buah lebih banyak daripada Adik. Adik membeli kelereng sebanyak 15 buah, maka banyaknya kelereng yang dibeli Kakak adalah …",
+    "imageUrl": null,
+    "explanation": "\"Lebih banyak\" berarti ditambah: $15 + 6 = 21$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q05_opt_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q05_opt_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q05_opt_c",
+        "label": "C",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q05_opt_d",
+        "label": "D",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q06",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Budi membeli 3 toples cokelat. Satu toples cokelat berisi 20 biji cokelat. Jumlah cokelat yang dibeli Budi adalah …",
+    "imageUrl": null,
+    "explanation": "$3 \\times 20 = 60$ biji.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q06_opt_a",
+        "label": "A",
+        "content": "23 biji",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q06_opt_b",
+        "label": "B",
+        "content": "50 biji",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q06_opt_c",
+        "label": "C",
+        "content": "60 biji",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q06_opt_d",
+        "label": "D",
+        "content": "70 biji",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q07",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "$51 \\times n = 306$, maka nilai $n$ adalah …",
+    "imageUrl": null,
+    "explanation": "$n = 306 : 51 = 6$. Cek: $51 \\times 6 = 306$ ✓",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q07_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q07_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q07_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q07_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q08",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pada bilangan 5.064, angka 6 bernilai …",
+    "imageUrl": null,
+    "explanation": "5.064 = 5 ribuan, 0 ratusan, **6 puluhan**, 4 satuan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q08_opt_a",
+        "label": "A",
+        "content": "Ratusan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q08_opt_b",
+        "label": "B",
+        "content": "Puluhan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q08_opt_c",
+        "label": "C",
+        "content": "Satuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q08_opt_d",
+        "label": "D",
+        "content": "Ribuan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q09",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari $14 + 3 \\times 25 - 70 = \\dots$",
+    "imageUrl": null,
+    "explanation": "Kerjakan perkalian dulu: $3 \\times 25 = 75$. Lalu $14 + 75 - 70 = 19$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q09_opt_a",
+        "label": "A",
+        "content": "355",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q09_opt_b",
+        "label": "B",
+        "content": "247",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q09_opt_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q09_opt_d",
+        "label": "D",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q10",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "⭐ + ⭐ + ⭐ = 21\n\n⭐ + ⭐ − ⚪ = 10\n\nMaka nilai untuk ⚪ adalah …",
+    "imageUrl": null,
+    "explanation": "Tiga bintang = 21, jadi satu ⭐ = $21 : 3 = 7$.\n\n7 + 7 − ⚪ = 10, berarti 14 − ⚪ = 10, sehingga ⚪ = **4**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q10_opt_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q10_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q10_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q10_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q11",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jam di bawah ini menunjukkan pukul …",
+    "imageUrl": "/uploads/sigma3_mtk_a_jam.png",
+    "explanation": "Jarum panjang menunjuk angka 9, artinya menit ke-$9 \\times 5 = 45$. Jarum pendek **belum sampai angka 2** (berada di antara 1 dan 2), jadi jamnya masih pukul 1.\n\nWaktu yang ditunjukkan **01.45**. Hati-hati: pada pukul 02.45 jarum pendek sudah melewati angka 2 dan hampir sampai angka 3.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q11_opt_a",
+        "label": "A",
+        "content": "01.45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q11_opt_b",
+        "label": "B",
+        "content": "02.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q11_opt_c",
+        "label": "C",
+        "content": "14.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q11_opt_d",
+        "label": "D",
+        "content": "02.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q12",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari $4^3$ adalah …",
+    "imageUrl": null,
+    "explanation": "$4^3 = 4 \\times 4 \\times 4 = 16 \\times 4 = 64$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q12_opt_a",
+        "label": "A",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q12_opt_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q12_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q12_opt_d",
+        "label": "D",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q13",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$3 \\times 4 = \\dots$",
+    "imageUrl": null,
+    "explanation": "$3 \\times 4$ artinya 4 dijumlahkan sebanyak 3 kali: $4 + 4 + 4 = 12$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q13_opt_a",
+        "label": "A",
+        "content": "$3 + 3 + 3$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q13_opt_b",
+        "label": "B",
+        "content": "$4 + 4$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q13_opt_c",
+        "label": "C",
+        "content": "$4 + 3$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q13_opt_d",
+        "label": "D",
+        "content": "$4 + 4 + 4$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q14",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "50.505 jika dibaca menjadi …",
+    "imageUrl": null,
+    "explanation": "50.505 = 50.000 + 500 + 5, dibaca *lima puluh ribu lima ratus lima*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q14_opt_a",
+        "label": "A",
+        "content": "Lima puluh ribu lima ratus lima",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q14_opt_b",
+        "label": "B",
+        "content": "Lima puluh ribu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q14_opt_c",
+        "label": "C",
+        "content": "Lima puluh ribu lima ratus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q14_opt_d",
+        "label": "D",
+        "content": "Lima puluh ribu lima ratus lima puluh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q15",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$305 + 21 = \\dots$",
+    "imageUrl": null,
+    "explanation": "$305 + 21 = 326$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q15_opt_a",
+        "label": "A",
+        "content": "306",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q15_opt_b",
+        "label": "B",
+        "content": "326",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q15_opt_c",
+        "label": "C",
+        "content": "515",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q15_opt_d",
+        "label": "D",
+        "content": "307",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q16",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Satu meja ada 6 kursi. Jika ada 3 meja, maka jumlah kursi adalah …",
+    "imageUrl": null,
+    "explanation": "$3 \\times 6 = 18$ kursi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q16_opt_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q16_opt_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q16_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q16_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q17",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Operasi bilangan di bawah ini yang benar adalah …",
+    "imageUrl": null,
+    "explanation": "Hitung masing-masing: A = 48, **B = 46** ✓, C = 44, D = 34.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q17_opt_a",
+        "label": "A",
+        "content": "$10 + 23 + 15 = 45$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q17_opt_b",
+        "label": "B",
+        "content": "$10 + 21 + 15 = 46$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q17_opt_c",
+        "label": "C",
+        "content": "$6 + 23 + 15 = 42$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q17_opt_d",
+        "label": "D",
+        "content": "$10 + 23 + 1 = 43$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q18",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "5 kg beras … 5 kg kapas\n\nTanda yang tepat untuk mengisi titik-titik di atas adalah …",
+    "imageUrl": null,
+    "explanation": "Keduanya sama-sama 5 kg, jadi beratnya **sama**. Kapas memang terlihat lebih banyak, tetapi beratnya tetap 5 kg.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q18_opt_a",
+        "label": "A",
+        "content": "$<$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q18_opt_b",
+        "label": "B",
+        "content": "$>$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q18_opt_c",
+        "label": "C",
+        "content": "$=$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q18_opt_d",
+        "label": "D",
+        "content": "$\\neq$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q19",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "$\\dfrac{2}{3} \\;\\dots\\; \\dfrac{1}{4}$\n\nTanda yang tepat untuk mengisi titik-titik di atas adalah …",
+    "imageUrl": null,
+    "explanation": "Samakan penyebut: $\\frac{2}{3} = \\frac{8}{12}$ dan $\\frac{1}{4} = \\frac{3}{12}$. Karena $8 > 3$, maka $\\frac{2}{3} > \\frac{1}{4}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q19_opt_a",
+        "label": "A",
+        "content": "$>$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q19_opt_b",
+        "label": "B",
+        "content": "$\\le$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q19_opt_c",
+        "label": "C",
+        "content": "$<$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q19_opt_d",
+        "label": "D",
+        "content": "$=$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q20",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jumlah sisi pada lingkaran adalah …",
+    "imageUrl": null,
+    "explanation": "Lingkaran hanya dibatasi oleh **satu** garis lengkung, jadi memiliki 1 sisi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q20_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q20_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q20_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q20_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q21",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Angka yang memiliki nilai ratusan pada 53.678 adalah …",
+    "imageUrl": null,
+    "explanation": "53.678 = 5 puluh ribuan, 3 ribuan, **6 ratusan**, 7 puluhan, 8 satuan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q21_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q21_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q21_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q21_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q22",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "$391 + \\dots = 650$",
+    "imageUrl": null,
+    "explanation": "Bilangan yang hilang $= 650 - 391 = 259$. Cek: $391 + 259 = 650$ ✓",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q22_opt_a",
+        "label": "A",
+        "content": "390",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q22_opt_b",
+        "label": "B",
+        "content": "309",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q22_opt_c",
+        "label": "C",
+        "content": "259",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q22_opt_d",
+        "label": "D",
+        "content": "209",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_mtk_a_q23",
+    "topicId": "top_sigma3_2026_mtk_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika kemarin hari Selasa, maka tiga hari yang akan datang adalah hari …",
+    "imageUrl": null,
+    "explanation": "Kemarin Selasa, berarti hari ini Rabu. Tiga hari lagi: Kamis (1), Jumat (2), **Sabtu** (3).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q23_opt_a",
+        "label": "A",
+        "content": "Jumat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q23_opt_b",
+        "label": "B",
+        "content": "Sabtu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q23_opt_c",
+        "label": "C",
+        "content": "Minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_mtk_a_q23_opt_d",
+        "label": "D",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

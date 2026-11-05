@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "pkg_sigma3_2026_sains_b_q01",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan gambar bunga berikut! Benang sari ditunjukkan pada nomor …",
+    "imageUrl": "/uploads/sigma3_sains_b_bunga.png",
+    "explanation": "Nomor 1 menunjuk kepala sari di ujung tangkai sari, yaitu bagian **benang sari** (alat kelamin jantan). Nomor 2 adalah putik (tiang kuning di tengah), 3 kelopak, 4 tangkai bunga, dan 5 mahkota.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q01_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q01_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q01_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q01_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q02",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di bawah ini yang **bukan** merupakan kumpulan bagian-bagian tumbuhan adalah …",
+    "imageUrl": null,
+    "explanation": "Pilihan D memuat **bulu**, yang merupakan bagian tubuh hewan, bukan tumbuhan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q02_opt_a",
+        "label": "A",
+        "content": "daun, biji, buah, akar, bunga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q02_opt_b",
+        "label": "B",
+        "content": "bunga, akar, biji, buah, daun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q02_opt_c",
+        "label": "C",
+        "content": "akar, bunga, daun, biji, buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q02_opt_d",
+        "label": "D",
+        "content": "biji, bunga, bulu, daun, buah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q03",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tumbuhan yang memiliki batang basah adalah …",
+    "imageUrl": null,
+    "explanation": "Batang basah bersifat lunak dan berair, contohnya **kangkung**. Beringin dan jati berbatang kayu, sedangkan padi berbatang rumput (berongga dan beruas).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q03_opt_a",
+        "label": "A",
+        "content": "Kangkung",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q03_opt_b",
+        "label": "B",
+        "content": "Pohon beringin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q03_opt_c",
+        "label": "C",
+        "content": "Padi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q03_opt_d",
+        "label": "D",
+        "content": "Pohon jati",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q04",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Daun yang mempunyai tulang daun menyirip terdapat pada gambar …",
+    "imageUrl": null,
+    "explanation": "Tulang daun **menyirip** bercabang dari ibu tulang daun ke kiri dan kanan seperti sirip ikan, terlihat pada daun B. Daun A dan D bertulang sejajar, daun C bertulang melengkung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q04_opt_a",
+        "label": "A",
+        "content": "Daun A",
+        "imageUrl": "/uploads/sigma3_sains_b_daun_a.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q04_opt_b",
+        "label": "B",
+        "content": "Daun B",
+        "imageUrl": "/uploads/sigma3_sains_b_daun_b.png",
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q04_opt_c",
+        "label": "C",
+        "content": "Daun C",
+        "imageUrl": "/uploads/sigma3_sains_b_daun_c.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q04_opt_d",
+        "label": "D",
+        "content": "Daun D",
+        "imageUrl": "/uploads/sigma3_sains_b_daun_d.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q05",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Akar seperti pada gambar merupakan akar …",
+    "imageUrl": "/uploads/sigma3_sains_b_akar.png",
+    "explanation": "Akar pada gambar berupa banyak akar kecil yang sama besar dan tumbuh dari pangkal batang, disebut akar **serabut**. Akar tunggang memiliki satu akar pokok yang besar.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q05_opt_a",
+        "label": "A",
+        "content": "Serabut",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q05_opt_b",
+        "label": "B",
+        "content": "Tunggang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q05_opt_c",
+        "label": "C",
+        "content": "Tunjang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q05_opt_d",
+        "label": "D",
+        "content": "Gantung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q06",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Akar biasanya tumbuh pada …",
+    "imageUrl": null,
+    "explanation": "Akar tumbuh dari **pangkal batang** ke dalam tanah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q06_opt_a",
+        "label": "A",
+        "content": "Tepi daun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q06_opt_b",
+        "label": "B",
+        "content": "Ujung batang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q06_opt_c",
+        "label": "C",
+        "content": "Pangkal batang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q06_opt_d",
+        "label": "D",
+        "content": "Ujung buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q07",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tempat berlangsungnya hubungan saling ketergantungan antara makhluk hidup dengan lingkungannya disebut …",
+    "imageUrl": null,
+    "explanation": "**Ekosistem** adalah hubungan timbal balik antara makhluk hidup dengan lingkungannya. Habitat adalah tempat tinggal makhluk hidup.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q07_opt_a",
+        "label": "A",
+        "content": "Bioma",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q07_opt_b",
+        "label": "B",
+        "content": "Habitat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q07_opt_c",
+        "label": "C",
+        "content": "Ekosistem",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q07_opt_d",
+        "label": "D",
+        "content": "Komunitas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q08",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Makhluk hidup di bawah ini yang saling bersaing dalam mendapatkan makanan adalah …",
+    "imageUrl": null,
+    "explanation": "**Ulat dan belalang** sama-sama memakan daun, sehingga bersaing. Pasangan lain adalah pemangsa dan mangsanya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q08_opt_a",
+        "label": "A",
+        "content": "Ulat dan belalang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q08_opt_b",
+        "label": "B",
+        "content": "Ular dan burung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q08_opt_c",
+        "label": "C",
+        "content": "Tikus dan elang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q08_opt_d",
+        "label": "D",
+        "content": "Kucing dan burung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q09",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ikan badut sering bersembunyi di antara tentakel anemon laut untuk menghindari musuhnya. Hubungan antara ikan badut dan anemon laut membentuk simbiosis …",
+    "imageUrl": null,
+    "explanation": "Ikan badut terlindung dari musuh, sedangkan anemon mendapat sisa makanan dan dibersihkan oleh ikan badut. Keduanya untung: simbiosis **mutualisme**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q09_opt_a",
+        "label": "A",
+        "content": "Mutualisme",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q09_opt_b",
+        "label": "B",
+        "content": "Komensalisme",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q09_opt_c",
+        "label": "C",
+        "content": "Parasitisme",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q09_opt_d",
+        "label": "D",
+        "content": "Netralisme",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q10",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Burung elang suka memakan ular, berarti burung elang termasuk kelompok hewan …",
+    "imageUrl": null,
+    "explanation": "Pemakan daging hewan lain disebut **karnivora**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q10_opt_a",
+        "label": "A",
+        "content": "Karnivora",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q10_opt_b",
+        "label": "B",
+        "content": "Omnivora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q10_opt_c",
+        "label": "C",
+        "content": "Insektivora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q10_opt_d",
+        "label": "D",
+        "content": "Herbivora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q11",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Manfaat utama dari pembangkit listrik tenaga angin adalah …",
+    "imageUrl": null,
+    "explanation": "Angin adalah energi terbarukan yang tidak menghasilkan asap atau polusi, sehingga pembangkit listrik tenaga angin **ramah lingkungan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q11_opt_a",
+        "label": "A",
+        "content": "Tidak memerlukan biaya yang mahal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q11_opt_b",
+        "label": "B",
+        "content": "Teknologinya cukup sederhana",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q11_opt_c",
+        "label": "C",
+        "content": "Teknologi ramah lingkungan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q11_opt_d",
+        "label": "D",
+        "content": "Membagi angin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q12",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Aerogenerator menghasilkan listrik dari tenaga …",
+    "imageUrl": null,
+    "explanation": "*Aero* berarti udara. Aerogenerator (kincir angin pembangkit listrik) memakai tenaga **angin**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q12_opt_a",
+        "label": "A",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q12_opt_b",
+        "label": "B",
+        "content": "Matahari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q12_opt_c",
+        "label": "C",
+        "content": "Angin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q12_opt_d",
+        "label": "D",
+        "content": "Panas bumi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q13",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Kapal selam yang berada dalam air bergerak muncul ke permukaan dengan cara …",
+    "imageUrl": null,
+    "explanation": "Udara dipompakan ke rongga pemberat sehingga air terdorong keluar. Kapal menjadi lebih ringan dan **naik** ke permukaan. Mengisi rongga dengan air justru membuat kapal menyelam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q13_opt_a",
+        "label": "A",
+        "content": "Memompakan udara ke dalam rongga kapal",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q13_opt_b",
+        "label": "B",
+        "content": "Membelokkan kapal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q13_opt_c",
+        "label": "C",
+        "content": "Mengisi rongga kapal dengan air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q13_opt_d",
+        "label": "D",
+        "content": "Mempercepat mesin kapal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q14",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nelayan tidak akan berlayar mencari ikan saat air laut sedang pasang naik karena …",
+    "imageUrl": null,
+    "explanation": "Saat pasang naik, permukaan laut tinggi dan **gelombangnya besar**, sehingga berbahaya untuk berlayar.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q14_opt_a",
+        "label": "A",
+        "content": "Ikan sulit didapat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q14_opt_b",
+        "label": "B",
+        "content": "Gelombang laut yang tinggi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q14_opt_c",
+        "label": "C",
+        "content": "Air laut terlalu tenang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q14_opt_d",
+        "label": "D",
+        "content": "Petani sedang membuat garam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q15",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Manusia mengeluarkan sisa-sisa metabolisme dari tubuhnya. Proses ini dinamakan …",
+    "imageUrl": null,
+    "explanation": "Pengeluaran zat sisa (keringat, urine, karbon dioksida) disebut **ekskresi**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q15_opt_a",
+        "label": "A",
+        "content": "Respirasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q15_opt_b",
+        "label": "B",
+        "content": "Reproduksi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q15_opt_c",
+        "label": "C",
+        "content": "Tumbuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q15_opt_d",
+        "label": "D",
+        "content": "Ekskresi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q16",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bagian mata yang berfungsi memproduksi air mata disebut …",
+    "imageUrl": null,
+    "explanation": "Air mata dihasilkan oleh **kelenjar air mata** yang terletak di sudut atas luar mata.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q16_opt_a",
+        "label": "A",
+        "content": "Otot mata",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q16_opt_b",
+        "label": "B",
+        "content": "Kelenjar mata",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q16_opt_c",
+        "label": "C",
+        "content": "Pelupuk mata",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q16_opt_d",
+        "label": "D",
+        "content": "Saraf mata",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q17",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tulang yang memengaruhi bentuk wajah seseorang adalah tulang …",
+    "imageUrl": null,
+    "explanation": "Tulang **dahi** termasuk tulang yang membentuk wajah. Tulang selangka ada di bahu, tulang leher di leher, dan tulang ubun-ubun di atas kepala (tertutup rambut).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q17_opt_a",
+        "label": "A",
+        "content": "Dahi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q17_opt_b",
+        "label": "B",
+        "content": "Selangka",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q17_opt_c",
+        "label": "C",
+        "content": "Leher",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q17_opt_d",
+        "label": "D",
+        "content": "Ubun-ubun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q18",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah tulang pada manusia dewasa adalah …",
+    "imageUrl": null,
+    "explanation": "Rangka manusia dewasa terdiri atas **206 tulang** keras. Bayi memiliki sekitar 300 tulang yang sebagian masih rawan dan kemudian menyatu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q18_opt_a",
+        "label": "A",
+        "content": "206 tulang rawan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q18_opt_b",
+        "label": "B",
+        "content": "206 tulang keras",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q18_opt_c",
+        "label": "C",
+        "content": "300 tulang rawan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q18_opt_d",
+        "label": "D",
+        "content": "300 tulang keras",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q19",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Penyakit yang disebabkan oleh pencemaran udara adalah penyakit …",
+    "imageUrl": null,
+    "explanation": "Udara kotor yang terhirup merusak saluran pernapasan, menyebabkan penyakit **paru-paru** (misalnya ISPA dan asma).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q19_opt_a",
+        "label": "A",
+        "content": "Diare",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q19_opt_b",
+        "label": "B",
+        "content": "Gatal-gatal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q19_opt_c",
+        "label": "C",
+        "content": "Paru-paru",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q19_opt_d",
+        "label": "D",
+        "content": "Panu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q20",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Persamaan sifat antara benda cair dan gas, yaitu …",
+    "imageUrl": null,
+    "explanation": "Benda cair dan gas sama-sama **bentuknya berubah** mengikuti wadahnya. Benda cair dapat dilihat, jadi B salah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q20_opt_a",
+        "label": "A",
+        "content": "Bentuknya berubah-ubah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q20_opt_b",
+        "label": "B",
+        "content": "Tidak dapat dilihat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q20_opt_c",
+        "label": "C",
+        "content": "Tidak mempunyai wujud",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q20_opt_d",
+        "label": "D",
+        "content": "Bentuknya tetap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q21",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dari gambar berikut, yang disebut gas adalah …",
+    "imageUrl": "/uploads/sigma3_sains_b_balon.png",
+    "explanation": "Karet balon dan talinya adalah benda padat. Yang berwujud gas hanya **udara di dalam balon**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q21_opt_a",
+        "label": "A",
+        "content": "Balon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q21_opt_b",
+        "label": "B",
+        "content": "Tali balon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q21_opt_c",
+        "label": "C",
+        "content": "Balon dan udara di dalamnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q21_opt_d",
+        "label": "D",
+        "content": "Udara dalam balon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q22",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jarak antara mata dan buku pada saat membaca sebaiknya …",
+    "imageUrl": null,
+    "explanation": "Jarak baca yang baik sekitar **30 cm** agar mata tidak cepat lelah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q22_opt_a",
+        "label": "A",
+        "content": "3 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q22_opt_b",
+        "label": "B",
+        "content": "30 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q22_opt_c",
+        "label": "C",
+        "content": "10 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q22_opt_d",
+        "label": "D",
+        "content": "100 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q23",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Beruang memiliki bulu yang tebal sehingga mampu membongkar sarang lebah tanpa tersengat. Kegiatan hewan ini dilakukan dalam rangka mendapatkan makanan berupa …",
+    "imageUrl": null,
+    "explanation": "Beruang membongkar sarang lebah untuk mengambil **madu**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q23_opt_a",
+        "label": "A",
+        "content": "Tumbuhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q23_opt_b",
+        "label": "B",
+        "content": "Madu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q23_opt_c",
+        "label": "C",
+        "content": "Binatang kecil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q23_opt_d",
+        "label": "D",
+        "content": "Ayam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q24",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kenampakan alam berupa daratan yang luas dan tinggi dengan puncak yang curam disebut …",
+    "imageUrl": null,
+    "explanation": "Daratan yang menjulang tinggi dengan puncak curam disebut **gunung**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q24_opt_a",
+        "label": "A",
+        "content": "Sungai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q24_opt_b",
+        "label": "B",
+        "content": "Pantai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q24_opt_c",
+        "label": "C",
+        "content": "Gunung",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q24_opt_d",
+        "label": "D",
+        "content": "Danau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_sains_b_q25",
+    "topicId": "top_sigma3_2026_sains_b",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar! Daerah yang ditunjuk oleh panah disebut …",
+    "imageUrl": "/uploads/sigma3_sains_b_lembah.png",
+    "explanation": "Panah menunjuk daerah rendah di antara dua gunung, disebut **lembah**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_sains_b_q25_opt_a",
+        "label": "A",
+        "content": "Bukit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q25_opt_b",
+        "label": "B",
+        "content": "Danau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q25_opt_c",
+        "label": "C",
+        "content": "Lembah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_sains_b_q25_opt_d",
+        "label": "D",
+        "content": "Gua",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

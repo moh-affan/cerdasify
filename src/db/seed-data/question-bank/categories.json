@@ -82,5 +82,12 @@
     "slug": "kompetisi-matematika-nalaria-realistik",
     "description": "Naskah resmi KMNR (Klinik Pendidikan MIPA) untuk SD kelas 1–2.",
     "orderIndex": 0
+  },
+  {
+    "id": "cat_olimpiade_sigma",
+    "name": "Olimpiade SIGMA",
+    "slug": "olimpiade-sigma",
+    "description": "Naskah Olimpiade SIGMA (Sigma Education Centre) Matematika, Sains, dan Bahasa Inggris tingkat SD.",
+    "orderIndex": 0
   }
 ]

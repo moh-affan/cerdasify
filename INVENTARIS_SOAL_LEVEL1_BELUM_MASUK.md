@@ -1,6 +1,6 @@
 # Inventaris Soal Level 1 (Kelas 1–2) yang Belum Masuk Cerdasify
 
-> Dibuat 01-11-2026 dari folder `olympiad` (salinan lokal Google Drive `__ANAK__/olympiad`, 381 berkas PDF/DOCX), dibandingkan dengan bank soal kanonik Cerdasify (75 paket, 2.450 soal; diperbarui setelah impor 01-11-2026).
+> Dibuat 01-11-2026 dari folder `olympiad` (salinan lokal Google Drive `__ANAK__/olympiad`, 381 berkas PDF/DOCX), dibandingkan dengan bank soal kanonik Cerdasify (75 paket, 2.450 soal; diperbarui setelah impor 01-11-2026). Setelah impor 05-11-2026 bank berisi 92 paket dan 2.946 soal (lihat bagian *Impor 05-11-2026*).
 
 ## Cara membaca
 
@@ -235,6 +235,59 @@
 | `kmsi all provinsi 2024.pdf` | Matematika | pkg_kmsi_2024_mtk_prov_1 |
 | `kmsi all provinsi 2024.pdf` | Bahasa Inggris | pkg_kmsi_2024_ing_1 |
 | `soal mtk lagi.pdf` | Matematika | pkg_mtk_tricky_l1 |
+
+## Impor 05-11-2026 (Google Drive: JAWA TIMUR KMSI 2026, Soal SIGMA 3, SOAL SEMI FINAL CEO 2025 (1))
+
+Hanya Level 1–2. Salinan lokal ada di `~/Downloads/` (folder ZIP yang sudah diekstrak, bertanggal 20261105). Naskah KMSI dan SIGMA tidak menyertakan kunci, jadi semua kunci dihitung/diverifikasi ulang dan gambar dicek satu per satu. Soal yang ambigu atau tanpa jawaban benar **tidak diimpor** (lihat tabel di bawah).
+
+| Sumber | Paket | Soal |
+|---|---|---:|
+| `JAWA TIMUR KMSI 2026/PAST PAPER LV 1-4.pdf` (naskah Final Provinsi KMSI 2025, Type B) | pkg_kmsi_2025_mtk_prov_1 | 39 |
+| 〃 | pkg_kmsi_2025_mtk_prov_2 | 39 |
+| 〃 | pkg_kmsi_2025_sains_prov_1 | 40 |
+| 〃 | pkg_kmsi_2025_sains_prov_2 | 39 |
+| 〃 | pkg_kmsi_2025_ing_prov_1 | 38 |
+| 〃 | pkg_kmsi_2025_ing_prov_2 | 38 |
+| `Soal SIGMA 3/Mat A SIGMA 3.pdf` (Final Provinsi NTB 2026, kelas 1–2) | pkg_sigma3_2026_mtk_a | 23 |
+| `Soal SIGMA 3/Mat B SIGMA 3.pdf` (kelas 3–4) | pkg_sigma3_2026_mtk_b | 23 |
+| `Soal SIGMA 3/BI A SIGMA 3.pdf` | pkg_sigma3_2026_ing_a | 23 |
+| `Soal SIGMA 3/BI B SIGMA 3.pdf` | pkg_sigma3_2026_ing_b | 23 |
+| `Soal SIGMA 3/SAINS A SIGMA 3.pdf` | pkg_sigma3_2026_sains_a | 23 |
+| `Soal SIGMA 3/SAINS B SIGMA 3.pdf` | pkg_sigma3_2026_sains_b | 25 |
+| `SOAL SEMI FINAL CEO 2025 (1)/Tahun 2023/Matematika/Matematika 2 (F).pdf` | pkg_ceo_2023_mtk_final_f_2 | 24 |
+| `…/Tahun 2023/Sains/Sains 1 (F).pdf` | pkg_ceo_2023_sains_final_f_1 | 26 |
+| `…/Tahun 2023/Sains/Sains 2 (F).pdf` | pkg_ceo_2023_sains_final_f_2 | 24 |
+| `…/Tahun 2023/Bahasa Inggris/Bahasa Inggris 1 (F).pdf` | pkg_ceo_2023_ing_final_f_1 | 25 |
+| `…/Tahun 2023/Bahasa Inggris/Bahasa Inggris 2 (F).pdf` | pkg_ceo_2023_ing_final_f_2 | 24 |
+| **Total** | **17 paket** | **496** |
+
+Sudah ada sebelumnya (tidak diimpor ulang): seluruh `Tahun Ajaran 2024-2025` Level 1–2 (= pkg_ceo_2025_m1/m2, sains_1/2, ing_1/2) dan `Tahun 2023/Matematika/Matematika 1 (F).pdf` (= pkg_ceo_2023_mtk_final_f_1). `JAWA TIMUR KMSI 2026/LV 1-4.pdf` hanya surat pemberitahuan & tata tertib, bukan soal.
+
+Soal uraian CEO 2023 diubah menjadi pilihan ganda bertanda "(Uraian)", mengikuti pkg_ceo_2023_mtk_final_f_1.
+
+### Soal yang tidak diimpor atau diubah
+
+| Naskah | No. | Tindakan | Alasan |
+|---|---:|---|---|
+| KMSI 2025 Mat L1 | 11 | dibuang | Banyak tunas dalam sebulan ambigu (4 atau 13) |
+| KMSI 2025 Mat L2 | 2 | dibuang | $n$ tidak tunggal: $n=2$ memberi 1, $n=3$ ($10^3+1^4+4^5$) memberi bilangan besar |
+| KMSI 2025 Sains L2 | 1 | dibuang | Cahaya sekaligus gelombang elektromagnetik dan transversal (dua jawaban benar) |
+| KMSI 2025 Ing L1 | 14 | dibuang | Perpustakaan berada di depan ruang guru dan juga berseberangan dengan lobi (A dan D benar) |
+| KMSI 2025 Ing L1 | 37 | dibuang | *Crab* dan *lobster* sama-sama punya capit |
+| KMSI 2025 Ing L2 | 3, 23 | dibuang | *why* bisa relative/interrogative adverb; dua kata sama-sama tidak cocok mengisi rumpang |
+| KMSI 2025 Ing L2 | 11–15 | diberi instruksi sinonim/antonim | Naskah tanpa instruksi; pilihan berisi dua sinonim/dua antonim sekaligus |
+| SIGMA Mat A | 19, 22 | dibuang | Gambar tidak ada di PDF; Rp100.000 : Rp2.000 = 50 lembar (tidak ada di opsi) |
+| SIGMA Mat A | 18, 20 | pengecoh "≥" diganti | "≥" juga benar ($5 \ge 5$, $\frac{2}{3} \ge \frac{1}{4}$) |
+| SIGMA Mat A | 2 | ditambah keterangan | Lama perjalanan pulang tidak disebut (diasumsikan sama, 45 menit) |
+| SIGMA Mat B | 13, 21 | dibuang | 30 hari setelah 21 Jan 2025 = 20 Feb; $X = 3Y + 10$ tidak ada di opsi |
+| SIGMA Ing A | 6, 25 | dibuang | Salinan persis no. 4; opsi A dan C identik |
+| SIGMA Ing B | 4, 20 | dibuang | Ejaan "ii"/"ee" sama-sama bunyi E; opsi A dan B identik |
+| SIGMA Sains A | 9, 12 | dibuang | Ulat sebenarnya berkaki; akar dan batang teratai sama-sama terendam |
+| CEO 2023 Mat L2 | 10, 13, 18 | dibuang | 2024 hari setelah Minggu = Senin; luas arsir = 32; $33 - 9 \times 2 + 12 : 3 = 19$ (tidak ada di opsi) |
+| CEO 2023 Sains L1 | 10 | dibuang | Aki: kimia→listrik (dipakai) dan listrik→kimia (diisi) sama-sama ada di opsi |
+| CEO 2023 Sains L2 | 6, 13, 18 | dibuang | Gas juga mengikuti wadah; Papandayan juga gunung aktif; "menyublim" di kunci = gas→padat (bertentangan dengan KBBI) |
+| CEO 2023 Ing L1 | 18, 19 | dibuang | 66 + 75 = 141 tidak ada; *We have to stay strong* tidak ada |
+| CEO 2023 Ing L2 | 14, 22, 25 | dibuang | *cousin*/*student* sama-sama benar; beberapa opsi sama-sama tidak disebut; semua opsi tanda baca masih salah |
 
 ## Duplikat (tidak dihitung)
 

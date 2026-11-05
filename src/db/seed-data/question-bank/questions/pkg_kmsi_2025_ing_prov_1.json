@@ -1,0 +1,1826 @@
+[
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q01",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My mother helps me to … my homework.",
+    "imageUrl": null,
+    "explanation": "Setelah *help (someone) to* digunakan kata kerja bentuk dasar: *helps me to **do** my homework*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q01_opt_a",
+        "label": "A",
+        "content": "doing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q01_opt_b",
+        "label": "B",
+        "content": "do",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q01_opt_c",
+        "label": "C",
+        "content": "are doing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q01_opt_d",
+        "label": "D",
+        "content": "did",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q02",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Radit ___ a parrot. The colors are red and green.",
+    "imageUrl": null,
+    "explanation": "Subjek *Radit* tunggal, jadi bentuk *present continuous*-nya **is playing**. *Are* untuk subjek jamak, sedangkan *did playing* dan *done playing* tidak tepat secara tata bahasa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q02_opt_a",
+        "label": "A",
+        "content": "is playing",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q02_opt_b",
+        "label": "B",
+        "content": "are playing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q02_opt_c",
+        "label": "C",
+        "content": "did playing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q02_opt_d",
+        "label": "D",
+        "content": "done playing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q03",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Carla has nine balloons. Father gives her another three balloons. How many balloons does Carla have now?",
+    "imageUrl": null,
+    "explanation": "$9 + 3 = 12$, *twelve*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q03_opt_a",
+        "label": "A",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q03_opt_b",
+        "label": "B",
+        "content": "Six",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q03_opt_c",
+        "label": "C",
+        "content": "Nine",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q03_opt_d",
+        "label": "D",
+        "content": "Twelve",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q04",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My … is located on Jalan Diponegoro. It has three bedrooms, one kitchen, one living room, two bathrooms, and a small pool.",
+    "imageUrl": null,
+    "explanation": "Bangunan yang punya kamar tidur, dapur, dan ruang keluarga adalah rumah (*house*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q04_opt_a",
+        "label": "A",
+        "content": "office",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q04_opt_b",
+        "label": "B",
+        "content": "library",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q04_opt_c",
+        "label": "C",
+        "content": "mall",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q04_opt_d",
+        "label": "D",
+        "content": "house",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q05",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "His uncle is a …, he always flies around the world.",
+    "imageUrl": null,
+    "explanation": "Orang yang pekerjaannya menerbangkan pesawat keliling dunia adalah **pilot**. *Chef* = koki, *fisherman* = nelayan, *tailor* = penjahit.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q05_opt_a",
+        "label": "A",
+        "content": "pilot",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q05_opt_b",
+        "label": "B",
+        "content": "chef",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q05_opt_c",
+        "label": "C",
+        "content": "fisherman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q05_opt_d",
+        "label": "D",
+        "content": "tailor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q06",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Family (Soal No. 6 – 10)]\n*Read the text to answer questions number 6 to 10!*\n\nI live in a house near the mountains. I have two brothers and one sister, and I was born last. My father teaches mathematics, and my mother is a nurse at a big hospital. My brothers are very smart and work hard in school. My sister is a nervous girl, but she is very kind. My grandmother also lives with us. She came from Italy when I was two years old. She has grown old, but she is still very strong. She cooks the best food!\n\nMy family is very important to me. We do lots of things together. My brothers and I like to go on long walks in the mountains. My sister likes to cook with my grandmother. On the weekends we all play board games together. We laugh and always have a good time. I love my family very much.\n:::\n\nWhere does my mother work?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"my mother is a nurse at a big **hospital**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q06_opt_a",
+        "label": "A",
+        "content": "School",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q06_opt_b",
+        "label": "B",
+        "content": "Supermarket",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q06_opt_c",
+        "label": "C",
+        "content": "Hospital",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q06_opt_d",
+        "label": "D",
+        "content": "Concert",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q07",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Family (Soal No. 6 – 10)]\n*Read the text to answer questions number 6 to 10!*\n\nI live in a house near the mountains. I have two brothers and one sister, and I was born last. My father teaches mathematics, and my mother is a nurse at a big hospital. My brothers are very smart and work hard in school. My sister is a nervous girl, but she is very kind. My grandmother also lives with us. She came from Italy when I was two years old. She has grown old, but she is still very strong. She cooks the best food!\n\nMy family is very important to me. We do lots of things together. My brothers and I like to go on long walks in the mountains. My sister likes to cook with my grandmother. On the weekends we all play board games together. We laugh and always have a good time. I love my family very much.\n:::\n\nMy house is located close to …",
+    "imageUrl": null,
+    "explanation": "Teks: *\"I live in a house near the **mountains**.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q07_opt_a",
+        "label": "A",
+        "content": "a hospital",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q07_opt_b",
+        "label": "B",
+        "content": "a school",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q07_opt_c",
+        "label": "C",
+        "content": "the mountains",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q07_opt_d",
+        "label": "D",
+        "content": "a lake",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q08",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My Family (Soal No. 6 – 10)]\n*Read the text to answer questions number 6 to 10!*\n\nI live in a house near the mountains. I have two brothers and one sister, and I was born last. My father teaches mathematics, and my mother is a nurse at a big hospital. My brothers are very smart and work hard in school. My sister is a nervous girl, but she is very kind. My grandmother also lives with us. She came from Italy when I was two years old. She has grown old, but she is still very strong. She cooks the best food!\n\nMy family is very important to me. We do lots of things together. My brothers and I like to go on long walks in the mountains. My sister likes to cook with my grandmother. On the weekends we all play board games together. We laugh and always have a good time. I love my family very much.\n:::\n\nMy grandmother used to live in … before she moved to our house.",
+    "imageUrl": null,
+    "explanation": "Teks: *\"She came from **Italy** when I was two years old.\"*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q08_opt_a",
+        "label": "A",
+        "content": "Italy",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q08_opt_b",
+        "label": "B",
+        "content": "Denmark",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q08_opt_c",
+        "label": "C",
+        "content": "the Netherlands",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q08_opt_d",
+        "label": "D",
+        "content": "Paris",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q09",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[My Family (Soal No. 6 – 10)]\n*Read the text to answer questions number 6 to 10!*\n\nI live in a house near the mountains. I have two brothers and one sister, and I was born last. My father teaches mathematics, and my mother is a nurse at a big hospital. My brothers are very smart and work hard in school. My sister is a nervous girl, but she is very kind. My grandmother also lives with us. She came from Italy when I was two years old. She has grown old, but she is still very strong. She cooks the best food!\n\nMy family is very important to me. We do lots of things together. My brothers and I like to go on long walks in the mountains. My sister likes to cook with my grandmother. On the weekends we all play board games together. We laugh and always have a good time. I love my family very much.\n:::\n\nWhat do we do during weekends?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"On the weekends we all **play board games** together.\"* Jalan-jalan ke gunung dilakukan oleh saya dan kakak laki-laki, tidak disebut khusus akhir pekan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q09_opt_a",
+        "label": "A",
+        "content": "Cook good meals",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q09_opt_b",
+        "label": "B",
+        "content": "Camping near the mountains",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q09_opt_c",
+        "label": "C",
+        "content": "Play board games",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q09_opt_d",
+        "label": "D",
+        "content": "Go on long walks in the mountains",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q10",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[My Family (Soal No. 6 – 10)]\n*Read the text to answer questions number 6 to 10!*\n\nI live in a house near the mountains. I have two brothers and one sister, and I was born last. My father teaches mathematics, and my mother is a nurse at a big hospital. My brothers are very smart and work hard in school. My sister is a nervous girl, but she is very kind. My grandmother also lives with us. She came from Italy when I was two years old. She has grown old, but she is still very strong. She cooks the best food!\n\nMy family is very important to me. We do lots of things together. My brothers and I like to go on long walks in the mountains. My sister likes to cook with my grandmother. On the weekends we all play board games together. We laugh and always have a good time. I love my family very much.\n:::\n\nHow many siblings do I have?",
+    "imageUrl": null,
+    "explanation": "*Siblings* = saudara kandung. Teks: *\"I have two brothers and one sister\"*, jadi $2 + 1 = 3$ (**three**).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q10_opt_a",
+        "label": "A",
+        "content": "One",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q10_opt_b",
+        "label": "B",
+        "content": "Two",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q10_opt_c",
+        "label": "C",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q10_opt_d",
+        "label": "D",
+        "content": "Four",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q11",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "A room in the school where guitars, keyboards, drums, etc. are stored is called …",
+    "imageUrl": null,
+    "explanation": "Gitar, keyboard, dan drum adalah alat musik, jadi disimpan di **music room** (ruang musik).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q11_opt_a",
+        "label": "A",
+        "content": "laboratory",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q11_opt_b",
+        "label": "B",
+        "content": "teacher room",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q11_opt_c",
+        "label": "C",
+        "content": "warehouse",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q11_opt_d",
+        "label": "D",
+        "content": "music room",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q12",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the school layout below!\n\nThe picture is a layout of a …",
+    "imageUrl": "/uploads/kmsi25_prov_e1_denah_sekolah.png",
+    "explanation": "Denah memiliki ruang kelas *Grade 1* sampai *Grade 6*, yaitu kelas 1–6 Sekolah Dasar (**Primary School**).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q12_opt_a",
+        "label": "A",
+        "content": "Kindergarten",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q12_opt_b",
+        "label": "B",
+        "content": "Primary School",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q12_opt_c",
+        "label": "C",
+        "content": "Junior High School",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q12_opt_d",
+        "label": "D",
+        "content": "Senior High School",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q13",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the school layout below!\n\nIf you are in grade 2, where should you go from the lobby?",
+    "imageUrl": "/uploads/kmsi25_prov_e1_denah_sekolah.png",
+    "explanation": "Dari lobi (menghadap ke dalam gedung), ruang *Grade 1, 2, 3* berada di sisi kiri, jadi kamu harus berjalan **ke kiri** (*to the left*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q13_opt_a",
+        "label": "A",
+        "content": "to the right",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q13_opt_b",
+        "label": "B",
+        "content": "to the left",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q13_opt_c",
+        "label": "C",
+        "content": "go straight",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q13_opt_d",
+        "label": "D",
+        "content": "turn around",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q14",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the school layout below!\n\nYou are a boy. If you want to go to the toilet, which room should you go to?",
+    "imageUrl": "/uploads/kmsi25_prov_e1_denah_sekolah.png",
+    "explanation": "Anak laki-laki menggunakan toilet laki-laki, yaitu **Male bathroom**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q14_opt_a",
+        "label": "A",
+        "content": "Laboratory",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q14_opt_b",
+        "label": "B",
+        "content": "Principal office",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q14_opt_c",
+        "label": "C",
+        "content": "Male bathroom",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q14_opt_d",
+        "label": "D",
+        "content": "Female bathroom",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q15",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "What is the difference between a watch and a clock?",
+    "imageUrl": null,
+    "explanation": "*Watch* adalah jam tangan yang dipakai di pergelangan dan bisa dibawa ke mana-mana, sedangkan *clock* adalah jam dinding/meja yang diam di tempat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q15_opt_a",
+        "label": "A",
+        "content": "A clock is a smaller version of a watch. Both serve the same purpose of timekeeping.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q15_opt_b",
+        "label": "B",
+        "content": "A watch is a portable timepiece worn on the wrist. A clock is typically a stationary device.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q15_opt_c",
+        "label": "C",
+        "content": "A watch and a clock have different historical developments. Clocks precede watches.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q15_opt_d",
+        "label": "D",
+        "content": "A watch is for public or communal timekeeping. A clock is used for personal timekeeping.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q16",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Which sentence uses the word “fuzzy” correctly?",
+    "imageUrl": null,
+    "explanation": "*Fuzzy* berarti berbulu halus. Kalimat yang tepat: **The fuzzy bear was soft and cuddly** (boneka beruang berbulu itu lembut dan enak dipeluk).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q16_opt_a",
+        "label": "A",
+        "content": "The fuzzy bear was soft and cuddly.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q16_opt_b",
+        "label": "B",
+        "content": "Everyone knows my fuzzy ability.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q16_opt_c",
+        "label": "C",
+        "content": "The mountain we climb is fuzzy.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q16_opt_d",
+        "label": "D",
+        "content": "The fuzzy runner won the race.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q17",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "The difference between *on time* and *in time* is …",
+    "imageUrl": null,
+    "explanation": "*On time* = tepat pada waktu yang dijadwalkan (*arrive at the arranged time*). *In time* = cukup awal sebelum terlambat. Pilihan B terbalik, C dan D tidak tepat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q17_opt_a",
+        "label": "A",
+        "content": "On time is when you arrive at the arranged time.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q17_opt_b",
+        "label": "B",
+        "content": "In time means punctual and on time is not too late.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q17_opt_c",
+        "label": "C",
+        "content": "In time means almost late while on time is the perfect time.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q17_opt_d",
+        "label": "D",
+        "content": "On time means that you come earlier than the arranged time.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q18",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Choose the sentence in the past continuous tense.",
+    "imageUrl": null,
+    "explanation": "*Past continuous* memakai pola *was/were + verb-ing*: **I was having dinner** when you came.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q18_opt_a",
+        "label": "A",
+        "content": "I had enjoyed the concert before it rained.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q18_opt_b",
+        "label": "B",
+        "content": "I have had enough candies this morning.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q18_opt_c",
+        "label": "C",
+        "content": "I am going to the doctor at twelve tomorrow.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q18_opt_d",
+        "label": "D",
+        "content": "I was having dinner when you came.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q19",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "A sentence is written in … when …",
+    "imageUrl": null,
+    "explanation": "Kalimat aktif (*active voice*) adalah kalimat yang subjeknya melakukan pekerjaan. Pada kalimat pasif, subjek dikenai pekerjaan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q19_opt_a",
+        "label": "A",
+        "content": "passive voice / the subject of the sentence is performing the action.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q19_opt_b",
+        "label": "B",
+        "content": "active voice / the subject of the sentence is performing the action.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q19_opt_c",
+        "label": "C",
+        "content": "passive voice / it involves two or more objects and at least one subject.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q19_opt_d",
+        "label": "D",
+        "content": "active voice / it involves two or more objects and at least one subject.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q20",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "What is a fable?",
+    "imageUrl": null,
+    "explanation": "Fabel adalah cerita pendek dengan tokoh **hewan** yang menyampaikan pesan moral. Pilihan B adalah legenda, D adalah biografi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q20_opt_a",
+        "label": "A",
+        "content": "A brief fictional work of prose that contains a lesson for humankind.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q20_opt_b",
+        "label": "B",
+        "content": "A story based on historical events but contains elements of fantasy or exaggeration.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q20_opt_c",
+        "label": "C",
+        "content": "A short story that often features animals as characters to teach morals.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q20_opt_d",
+        "label": "D",
+        "content": "A written account of a person's life.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q21",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Robin Hood and King Arthur are two examples of …",
+    "imageUrl": null,
+    "explanation": "Robin Hood dan Raja Arthur adalah tokoh dalam cerita rakyat yang dianggap pernah terjadi, yaitu **legenda** (*legend*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q21_opt_a",
+        "label": "A",
+        "content": "legend",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q21_opt_b",
+        "label": "B",
+        "content": "memoir",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q21_opt_c",
+        "label": "C",
+        "content": "parable",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q21_opt_d",
+        "label": "D",
+        "content": "essay",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q22",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "The word ‘state’ in the sentence ‘*The state does not collect enough revenue to cover its expenditure*’ has almost the same meaning as …",
+    "imageUrl": null,
+    "explanation": "Pihak yang memungut pendapatan (pajak) dan membiayai pengeluaran adalah negara, jadi *state* di sini bermakna **nation**. Arti *circumstance/condition* (keadaan) tidak cocok dengan kalimat ini.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q22_opt_a",
+        "label": "A",
+        "content": "circumstance",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q22_opt_b",
+        "label": "B",
+        "content": "condition",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q22_opt_c",
+        "label": "C",
+        "content": "a group of people",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q22_opt_d",
+        "label": "D",
+        "content": "nation",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q23",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "What is a ‘totality’?",
+    "imageUrl": null,
+    "explanation": "*Totality* adalah saat matahari atau bulan tertutup **seluruhnya** ketika gerhana total.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q23_opt_a",
+        "label": "A",
+        "content": "The moment or duration of total obscuration of the sun or moon during an eclipse.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q23_opt_b",
+        "label": "B",
+        "content": "The system of government that is centralised and dictatorial.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q23_opt_c",
+        "label": "C",
+        "content": "The whole damage in a ship or other vehicles.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q23_opt_d",
+        "label": "D",
+        "content": "The total amount of a racer to complete circulating a track.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q24",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "A glockenspiel and a xylophone are …",
+    "imageUrl": null,
+    "explanation": "*Glockenspiel* dan *xylophone* adalah alat musik pukul berbilah, jadi termasuk **musical instruments**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q24_opt_a",
+        "label": "A",
+        "content": "traditional tools",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q24_opt_b",
+        "label": "B",
+        "content": "digital devices",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q24_opt_c",
+        "label": "C",
+        "content": "recent technologies",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q24_opt_d",
+        "label": "D",
+        "content": "musical instruments",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q25",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the food prices below!\n\nRina wants to buy a slice of pizza, a bag of fries, and a cup of cola. How much is the total?",
+    "imageUrl": "/uploads/kmsi25_prov_e1_menu.png",
+    "explanation": "Pizza Rp11.000 + kentang goreng Rp8.500 + minuman Rp5.500 = Rp25.000, *twenty-five thousand rupiahs*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q25_opt_a",
+        "label": "A",
+        "content": "Fourteen thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q25_opt_b",
+        "label": "B",
+        "content": "Twenty-five thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q25_opt_c",
+        "label": "C",
+        "content": "Twenty-eight thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q25_opt_d",
+        "label": "D",
+        "content": "Thirty-two thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q26",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the food prices below!\n\nRina buys a slice of pizza, a bag of fries, and a cup of cola. If she brings Rp50.000 in cash, how much is the change?",
+    "imageUrl": "/uploads/kmsi25_prov_e1_menu.png",
+    "explanation": "Total belanja Rp25.000. Kembalian $= 50.000 - 25.000 = 25.000$, *twenty-five thousand rupiahs*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q26_opt_a",
+        "label": "A",
+        "content": "Thirty-six thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q26_opt_b",
+        "label": "B",
+        "content": "Twenty-five thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q26_opt_c",
+        "label": "C",
+        "content": "Twenty-two thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q26_opt_d",
+        "label": "D",
+        "content": "Eighteen thousand rupiahs",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q27",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "What is the shape of a ball? It is a …",
+    "imageUrl": null,
+    "explanation": "Bola adalah bangun ruang berbentuk **bola** (*sphere*). *Circle* (lingkaran) adalah bangun datar.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q27_opt_a",
+        "label": "A",
+        "content": "rectangle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q27_opt_b",
+        "label": "B",
+        "content": "square",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q27_opt_c",
+        "label": "C",
+        "content": "circle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q27_opt_d",
+        "label": "D",
+        "content": "sphere",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q28",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The Pentagon building in America is called the Pentagon because it is pentagon in shape. Which of the following shapes is a pentagon?",
+    "imageUrl": null,
+    "explanation": "*Pentagon* (segi lima) memiliki 5 sisi, yaitu bangun A. Bangun B segi enam, C segi tujuh, dan D segi delapan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q28_opt_a",
+        "label": "A",
+        "content": "Shape A",
+        "imageUrl": "/uploads/kmsi25_prov_e1_bangun_a.png",
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q28_opt_b",
+        "label": "B",
+        "content": "Shape B",
+        "imageUrl": "/uploads/kmsi25_prov_e1_bangun_b.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q28_opt_c",
+        "label": "C",
+        "content": "Shape C",
+        "imageUrl": "/uploads/kmsi25_prov_e1_bangun_c.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q28_opt_d",
+        "label": "D",
+        "content": "Shape D",
+        "imageUrl": "/uploads/kmsi25_prov_e1_bangun_d.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q29",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "She is my mother’s mother. She is my …",
+    "imageUrl": null,
+    "explanation": "Ibu dari ibu kita adalah nenek (*grandmother*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q29_opt_a",
+        "label": "A",
+        "content": "sister",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q29_opt_b",
+        "label": "B",
+        "content": "aunt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q29_opt_c",
+        "label": "C",
+        "content": "grandmother",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q29_opt_d",
+        "label": "D",
+        "content": "granddaughter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q30",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Mr. Brown has three kids: Mario, Martha, and Max. The three of them are …",
+    "imageUrl": null,
+    "explanation": "Mario dan Max laki-laki, Martha perempuan. Saudara kandung laki-laki dan perempuan disebut **siblings**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q30_opt_a",
+        "label": "A",
+        "content": "brothers",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q30_opt_b",
+        "label": "B",
+        "content": "sisters",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q30_opt_c",
+        "label": "C",
+        "content": "siblings",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q30_opt_d",
+        "label": "D",
+        "content": "cousins",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q31",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "My grandparents have two sons: they are my father and my uncle. My uncle has a daughter named Nancy. So, Nancy is my father’s …",
+    "imageUrl": null,
+    "explanation": "Nancy adalah anak perempuan dari saudara laki-laki ayah, jadi Nancy adalah keponakan perempuan ayah (*niece*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q31_opt_a",
+        "label": "A",
+        "content": "daughter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q31_opt_b",
+        "label": "B",
+        "content": "cousin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q31_opt_c",
+        "label": "C",
+        "content": "aunt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q31_opt_d",
+        "label": "D",
+        "content": "niece",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q32",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the following picture! It is called …",
+    "imageUrl": "/uploads/kmsi25_prov_e1_balok_mainan.png",
+    "explanation": "Gambar menunjukkan istana dari balok-balok mainan yang disusun, disebut **building blocks**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q32_opt_a",
+        "label": "A",
+        "content": "building blocks",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q32_opt_b",
+        "label": "B",
+        "content": "jumping rope",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q32_opt_c",
+        "label": "C",
+        "content": "puzzles",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q32_opt_d",
+        "label": "D",
+        "content": "kite",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q33",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the table of children's toys below!\n\nFrom the table, who has the most toys?",
+    "imageUrl": "/uploads/kmsi25_prov_e1_tabel_mainan.png",
+    "explanation": "Hitung centang tiap anak: Aldo 2, Bobby 2, **Chris 3** (robot, bola, kereta), Don 2.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q33_opt_a",
+        "label": "A",
+        "content": "Aldo",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q33_opt_b",
+        "label": "B",
+        "content": "Bobby",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q33_opt_c",
+        "label": "C",
+        "content": "Chris",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q33_opt_d",
+        "label": "D",
+        "content": "Don",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q34",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the table of children's toys below!\n\nFrom the table, the toy owned by the most children is the …",
+    "imageUrl": "/uploads/kmsi25_prov_e1_tabel_mainan.png",
+    "explanation": "Hitung centang tiap mainan: robot 2, bola 1, kuda goyang 1, sepeda 2, **kereta mainan 3** (Aldo, Chris, Don).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q34_opt_a",
+        "label": "A",
+        "content": "robot",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q34_opt_b",
+        "label": "B",
+        "content": "ball",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q34_opt_c",
+        "label": "C",
+        "content": "bike",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q34_opt_d",
+        "label": "D",
+        "content": "toy train",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q35",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "_____ have beautiful colourful feathers.",
+    "imageUrl": null,
+    "explanation": "Burung merak (*peacocks*) memiliki bulu (*feathers*) yang indah dan berwarna-warni.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q35_opt_a",
+        "label": "A",
+        "content": "Peacocks",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q35_opt_b",
+        "label": "B",
+        "content": "Dragons",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q35_opt_c",
+        "label": "C",
+        "content": "Cats",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q35_opt_d",
+        "label": "D",
+        "content": "Rabbits",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q36",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "This shirt is too _____. I need the _____ one.",
+    "imageUrl": null,
+    "explanation": "Baju yang terlalu sempit (*tight*) perlu diganti dengan yang longgar (*loose*). Pasangan lain tidak masuk akal (terlalu besar lalu butuh yang longgar).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q36_opt_a",
+        "label": "A",
+        "content": "tight, loose",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q36_opt_b",
+        "label": "B",
+        "content": "big, long",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q36_opt_c",
+        "label": "C",
+        "content": "tight, long",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q36_opt_d",
+        "label": "D",
+        "content": "big, loose",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q37",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The deer is fast, but the lion can catch the deer. The cheetah can run faster than the lion. Which statement is true?",
+    "imageUrl": null,
+    "explanation": "Singa bisa menangkap rusa (singa lebih cepat dari rusa), dan cheetah lebih cepat dari singa. Urutannya cheetah > singa > rusa, jadi **the cheetah is the fastest**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q37_opt_a",
+        "label": "A",
+        "content": "The deer is faster than the cheetah.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q37_opt_b",
+        "label": "B",
+        "content": "The cheetah is the fastest.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q37_opt_c",
+        "label": "C",
+        "content": "The lion is the slowest.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q37_opt_d",
+        "label": "D",
+        "content": "The lion is slower than the deer.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_1_q38",
+    "topicId": "top_kmsi_2025_ing_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nina has ten toys. Ana has fifteen, but Rani has twenty. Which statement is true?",
+    "imageUrl": null,
+    "explanation": "20 adalah jumlah terbanyak, jadi **Rani has the most toys**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q38_opt_a",
+        "label": "A",
+        "content": "Nina has the most toys.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q38_opt_b",
+        "label": "B",
+        "content": "Ana has more toys than Rani.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q38_opt_c",
+        "label": "C",
+        "content": "Rani has the most toys.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_1_q38_opt_d",
+        "label": "D",
+        "content": "Nina has more toys than Rani.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

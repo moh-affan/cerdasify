@@ -1,0 +1,1826 @@
+[
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q01",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Choose the right adverb to complete the sentence!\n\nShe is studying … for the test.",
+    "imageUrl": null,
+    "explanation": "*Diligently* = dengan tekun, paling cocok untuk belajar menghadapi ujian. *Carelessly* = ceroboh, *hardly* = hampir tidak, *relentlessly* = tanpa henti (bernuansa memaksa, kurang wajar untuk konteks ini).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q01_opt_a",
+        "label": "A",
+        "content": "diligently",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q01_opt_b",
+        "label": "B",
+        "content": "carelessly",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q01_opt_c",
+        "label": "C",
+        "content": "relentlessly",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q01_opt_d",
+        "label": "D",
+        "content": "hardly",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q02",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Identify the right category of the adverb in bold!\n\nDerek played **well** in the match yesterday.",
+    "imageUrl": null,
+    "explanation": "*Well* menjelaskan **bagaimana** Derek bermain, jadi termasuk *adverb of manner*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q02_opt_a",
+        "label": "A",
+        "content": "adverb of time",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q02_opt_b",
+        "label": "B",
+        "content": "adverb of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q02_opt_c",
+        "label": "C",
+        "content": "adverb of manner",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q02_opt_d",
+        "label": "D",
+        "content": "relative adverb",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q03",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Identify the right category of the words in bold!\n\nJanice is going to come home **on time** today.",
+    "imageUrl": null,
+    "explanation": "*On time* terdiri dari dua kata (preposisi + kata benda) yang berfungsi sebagai keterangan, jadi disebut *adverbial phrase*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q03_opt_a",
+        "label": "A",
+        "content": "adverbial phrase",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q03_opt_b",
+        "label": "B",
+        "content": "adverb of manner",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q03_opt_c",
+        "label": "C",
+        "content": "interrogative adverb",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q03_opt_d",
+        "label": "D",
+        "content": "adverb of place",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q04",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Identify the right category of the adverb in bold!\n\nShe **usually** fetches her groceries at the nearby farms.",
+    "imageUrl": null,
+    "explanation": "*Usually* menyatakan seberapa sering (frekuensi) suatu kegiatan terjadi. Adverb of frequency termasuk kelompok keterangan waktu (*adverb of time*); pilihan lain jelas tidak cocok.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q04_opt_a",
+        "label": "A",
+        "content": "adverb of manner",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q04_opt_b",
+        "label": "B",
+        "content": "adverbial phrase",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q04_opt_c",
+        "label": "C",
+        "content": "interrogative adverb",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q04_opt_d",
+        "label": "D",
+        "content": "adverb of time",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q05",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Yesterday was Friday. The day after tomorrow is …",
+    "imageUrl": null,
+    "explanation": "Kemarin Jumat, berarti hari ini Sabtu, besok Minggu, dan lusa (*the day after tomorrow*) **Senin** (*Monday*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q05_opt_a",
+        "label": "A",
+        "content": "Monday",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q05_opt_b",
+        "label": "B",
+        "content": "Tuesday",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q05_opt_c",
+        "label": "C",
+        "content": "Wednesday",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q05_opt_d",
+        "label": "D",
+        "content": "Thursday",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q06",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[This is my House (Soal No. 6 – 9)]\n*Read the text to answer the questions!*\n\nHello! My name is Peter and this is my house. My house is quite big. It has got two floors. It has also got an attic and a basement.\n\nOn the first floor there is the hall, the kitchen, a pantry, the living room, a big dining room and a toilet.\n\nOn the second floor, there are three bedrooms, one bathroom and a big corridor. My bedroom is between my parents’ bedroom and the bathroom. My sister’s bedroom is in front of me.\n\nI like my bedroom, but I also like the attic. In the attic, I keep some of my books and my old toys. I like to spend my time there because it is very spacious and there is a big sofa where I sometimes take a nap.\n\nThe basement is where we keep the washing machine, the drying machine, and the old stuff.\n\nAt the back of the house, there is also a garage, where my parents park the family car, and a lovely garden with many green spaces, flowers, two swings, and a small swimming-pool.\n\nI really love my house! It is very comfortable and cozy.\n:::\n\nHow many people are there in the family?",
+    "imageUrl": null,
+    "explanation": "Disebutkan Peter, orang tuanya (*my parents’ bedroom*, 2 orang), dan saudara perempuannya (*my sister’s bedroom*). Jumlahnya $1 + 2 + 1 = 4$ orang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q06_opt_a",
+        "label": "A",
+        "content": "two people",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q06_opt_b",
+        "label": "B",
+        "content": "three people",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q06_opt_c",
+        "label": "C",
+        "content": "four people",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q06_opt_d",
+        "label": "D",
+        "content": "five people",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q07",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[This is my House (Soal No. 6 – 9)]\n*Read the text to answer the questions!*\n\nHello! My name is Peter and this is my house. My house is quite big. It has got two floors. It has also got an attic and a basement.\n\nOn the first floor there is the hall, the kitchen, a pantry, the living room, a big dining room and a toilet.\n\nOn the second floor, there are three bedrooms, one bathroom and a big corridor. My bedroom is between my parents’ bedroom and the bathroom. My sister’s bedroom is in front of me.\n\nI like my bedroom, but I also like the attic. In the attic, I keep some of my books and my old toys. I like to spend my time there because it is very spacious and there is a big sofa where I sometimes take a nap.\n\nThe basement is where we keep the washing machine, the drying machine, and the old stuff.\n\nAt the back of the house, there is also a garage, where my parents park the family car, and a lovely garden with many green spaces, flowers, two swings, and a small swimming-pool.\n\nI really love my house! It is very comfortable and cozy.\n:::\n\nWhere is the attic located?",
+    "imageUrl": null,
+    "explanation": "*Attic* (loteng) adalah ruangan di bawah atap, yaitu **di atas lantai dua**. Ruang di bawah lantai satu adalah *basement*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q07_opt_a",
+        "label": "A",
+        "content": "Above the second floor",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q07_opt_b",
+        "label": "B",
+        "content": "Between the first floor and the second floor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q07_opt_c",
+        "label": "C",
+        "content": "Under the first floor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q07_opt_d",
+        "label": "D",
+        "content": "Next to the garage",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q08",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[This is my House (Soal No. 6 – 9)]\n*Read the text to answer the questions!*\n\nHello! My name is Peter and this is my house. My house is quite big. It has got two floors. It has also got an attic and a basement.\n\nOn the first floor there is the hall, the kitchen, a pantry, the living room, a big dining room and a toilet.\n\nOn the second floor, there are three bedrooms, one bathroom and a big corridor. My bedroom is between my parents’ bedroom and the bathroom. My sister’s bedroom is in front of me.\n\nI like my bedroom, but I also like the attic. In the attic, I keep some of my books and my old toys. I like to spend my time there because it is very spacious and there is a big sofa where I sometimes take a nap.\n\nThe basement is where we keep the washing machine, the drying machine, and the old stuff.\n\nAt the back of the house, there is also a garage, where my parents park the family car, and a lovely garden with many green spaces, flowers, two swings, and a small swimming-pool.\n\nI really love my house! It is very comfortable and cozy.\n:::\n\nWhere does Mom usually do the laundry?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"The basement is where we keep the washing machine, the drying machine…\"* Jadi mencuci dilakukan di **basement**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q08_opt_a",
+        "label": "A",
+        "content": "In the attic",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q08_opt_b",
+        "label": "B",
+        "content": "In the second floor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q08_opt_c",
+        "label": "C",
+        "content": "In the first floor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q08_opt_d",
+        "label": "D",
+        "content": "In the basement",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q09",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[This is my House (Soal No. 6 – 9)]\n*Read the text to answer the questions!*\n\nHello! My name is Peter and this is my house. My house is quite big. It has got two floors. It has also got an attic and a basement.\n\nOn the first floor there is the hall, the kitchen, a pantry, the living room, a big dining room and a toilet.\n\nOn the second floor, there are three bedrooms, one bathroom and a big corridor. My bedroom is between my parents’ bedroom and the bathroom. My sister’s bedroom is in front of me.\n\nI like my bedroom, but I also like the attic. In the attic, I keep some of my books and my old toys. I like to spend my time there because it is very spacious and there is a big sofa where I sometimes take a nap.\n\nThe basement is where we keep the washing machine, the drying machine, and the old stuff.\n\nAt the back of the house, there is also a garage, where my parents park the family car, and a lovely garden with many green spaces, flowers, two swings, and a small swimming-pool.\n\nI really love my house! It is very comfortable and cozy.\n:::\n\nIf Peter has old clothes which will not be used any longer but he doesn’t want to donate them, where would he put them?",
+    "imageUrl": null,
+    "explanation": "Teks: *\"The basement is where we keep … **the old stuff**.\"* Pakaian lama yang tidak dipakai termasuk barang lama, jadi disimpan di **basement**. Loteng hanya disebut untuk buku dan mainan lama Peter.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q09_opt_a",
+        "label": "A",
+        "content": "In the attic",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q09_opt_b",
+        "label": "B",
+        "content": "In the second floor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q09_opt_c",
+        "label": "C",
+        "content": "In the first floor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q09_opt_d",
+        "label": "D",
+        "content": "In the basement",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q10",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Choose the word that has the **same meaning** (synonym) as the word in bold!\n\nThis spaghetti **contains** mushrooms, coriander, and my mom’s special spices!",
+    "imageUrl": null,
+    "explanation": "*Contain* = berisi/mengandung, sama artinya dengan **include**. *Exclude* justru lawan katanya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q10_opt_a",
+        "label": "A",
+        "content": "accept",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q10_opt_b",
+        "label": "B",
+        "content": "include",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q10_opt_c",
+        "label": "C",
+        "content": "unite",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q10_opt_d",
+        "label": "D",
+        "content": "exclude",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q11",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Choose the word that has the **same meaning** (synonym) as the word in bold!\n\nWe need to shut the door to **prevent** burglary.",
+    "imageUrl": null,
+    "explanation": "*Prevent* = mencegah, sinonimnya **avoid** (menghindari). *Cause* (menyebabkan) adalah lawan katanya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q11_opt_a",
+        "label": "A",
+        "content": "avoid",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q11_opt_b",
+        "label": "B",
+        "content": "interrupt",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q11_opt_c",
+        "label": "C",
+        "content": "cancel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q11_opt_d",
+        "label": "D",
+        "content": "cause",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q12",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Choose the word that has the **opposite meaning** (antonym) of the word in bold!\n\nWe are late from the **scheduled** time, so let’s hurry up!",
+    "imageUrl": null,
+    "explanation": "*Scheduled* = terjadwal/direncanakan. Lawan katanya **unplanned** (tidak direncanakan).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q12_opt_a",
+        "label": "A",
+        "content": "assigned",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q12_opt_b",
+        "label": "B",
+        "content": "prepared",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q12_opt_c",
+        "label": "C",
+        "content": "unplanned",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q12_opt_d",
+        "label": "D",
+        "content": "late",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q13",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Choose the word that has the **same meaning** (synonym) as the word in bold!\n\nLoreinne loves to wear **dark** outfits.",
+    "imageUrl": null,
+    "explanation": "*Dark* = gelap, sinonimnya **shady** (teduh/gelap). *Brilliant* dan *vibrant* (cerah) adalah lawan katanya, *colorless* berarti tidak berwarna.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q13_opt_a",
+        "label": "A",
+        "content": "shady",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q13_opt_b",
+        "label": "B",
+        "content": "colorless",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q13_opt_c",
+        "label": "C",
+        "content": "brilliant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q13_opt_d",
+        "label": "D",
+        "content": "vibrant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q14",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Choose the word that has the **opposite meaning** (antonym) of the word in bold!\n\nYou are so **clever**, girl!",
+    "imageUrl": null,
+    "explanation": "*Clever* = pintar. Lawan katanya **dumb** (bodoh). *Brilliant* dan *smart* adalah sinonimnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q14_opt_a",
+        "label": "A",
+        "content": "dumb",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q14_opt_b",
+        "label": "B",
+        "content": "brilliant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q14_opt_c",
+        "label": "C",
+        "content": "sassy",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q14_opt_d",
+        "label": "D",
+        "content": "smart",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q15",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Which sentence is correct about *close* and/or *closed*?",
+    "imageUrl": null,
+    "explanation": "Sebagai kata sifat, *close* berarti **dekat** (*the store is close to my house*). Keadaan tertutup memakai *closed* (*the door is closed*), dan kata kerjanya adalah *close*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q15_opt_a",
+        "label": "A",
+        "content": "Closed as a verb refers to the action of shutting something.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q15_opt_b",
+        "label": "B",
+        "content": "Close as an adjective describes the state of being shut as in ‘the door is close’.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q15_opt_c",
+        "label": "C",
+        "content": "Close as an adjective refers to nearness or proximity.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q15_opt_d",
+        "label": "D",
+        "content": "The example of closed is ‘the store is closed to my house’.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q16",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "What is **not true** about the words ‘store’ and ‘shop’?",
+    "imageUrl": null,
+    "explanation": "*Store* biasanya lebih besar dan lebih komersial (misalnya *department store*), sedangkan *shop* lebih kecil dan personal serta lebih umum di British English. Jadi pernyataan **\"a shop is more commercial than a store\"** tidak benar.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q16_opt_a",
+        "label": "A",
+        "content": "A shop is used to indicate closeness to make it more personal.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q16_opt_b",
+        "label": "B",
+        "content": "A store is usually bigger in size than a shop.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q16_opt_c",
+        "label": "C",
+        "content": "A shop is more commercial than a store.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q16_opt_d",
+        "label": "D",
+        "content": "A shop is used more commonly in British English than in American English.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q17",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "What can be considered as a *maximum*?",
+    "imageUrl": null,
+    "explanation": "*Maximum* = batas tertinggi, contohnya **kecepatan tertinggi yang diizinkan** di jalan tol. *The least amount* justru *minimum*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q17_opt_a",
+        "label": "A",
+        "content": "The appropriate volume for a song in an outdoor setting.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q17_opt_b",
+        "label": "B",
+        "content": "The least amount of work a person can do in a day.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q17_opt_c",
+        "label": "C",
+        "content": "The exact number of guests someone has expected to come.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q17_opt_d",
+        "label": "D",
+        "content": "The top speed allowed for cars to reach on a highway.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q18",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Choose the correct common idiom.",
+    "imageUrl": null,
+    "explanation": "Idiom yang benar adalah *\"you’ve got another **think** coming\"*, artinya \"kamu keliru, pikir lagi\".",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q18_opt_a",
+        "label": "A",
+        "content": "They’ve got another thread coming after a while.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q18_opt_b",
+        "label": "B",
+        "content": "If you think it’s easy, you’ve got another think coming.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q18_opt_c",
+        "label": "C",
+        "content": "After a second thought, she’s got another thought coming.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q18_opt_d",
+        "label": "D",
+        "content": "We all know that it’s better to have another taught coming.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q19",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Which pair of words has the same vowel pronunciation?",
+    "imageUrl": null,
+    "explanation": "*Tor**na**do* dan *po**ta**to* sama-sama dibaca dengan bunyi /eɪ/ pada suku kata tengah dan berakhiran /oʊ/.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q19_opt_a",
+        "label": "A",
+        "content": "Alto and grade",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q19_opt_b",
+        "label": "B",
+        "content": "Hiatus and bravado",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q19_opt_c",
+        "label": "C",
+        "content": "Tornado and potato",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q19_opt_d",
+        "label": "D",
+        "content": "Data and altitude",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q20",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": ":::passage[Birds and Dinosaurs (Soal No. 20 – 23)]\n*Read the text about birds and dinosaurs to answer the questions!*\n\nBirds are fascinating creatures that share a remarkable connection with dinosaurs, specifically a group known as …(1)…, which included famous dinosaurs like *Tyrannosaurus rex* and *Velociraptor*. This connection shows that birds are not just modern animals; they are actually living …(2)… of dinosaurs. Scientists believe that some of these dinosaurs had feathers, much like modern birds, and this shared ancestry helps explain why birds have certain features, such as hollow bones and a lightweight body structure that allows them to fly.\n\nOver millions of years, birds evolved from their dinosaur ancestors and adapted to different environments. They developed a variety of sizes, colours, and behaviours that help them thrive in diverse habitats, from dense forests to open fields. For example, the colourful plumage of a parrot or the swift flight of a hawk showcases the incredible adaptations that birds have developed to survive and find food. These adaptations also help birds communicate with each other, attract mates, and escape from predators.\n\nUnderstanding the relationship between birds and dinosaurs not only fascinates scientists but also gives us insights into the history of life on Earth. By studying fossils and examining the physical characteristics of both birds and dinosaurs, researchers can piece together how these incredible creatures once lived. This connection reminds us of the rich …(3)… of life on our planet and how, through evolution, some of the most remarkable traits of dinosaurs continue to exist in the birds we see today.\n:::\n\nWhat could fill blank (1)?",
+    "imageUrl": null,
+    "explanation": "*Tyrannosaurus rex* dan *Velociraptor* termasuk dinosaurus **theropoda** (pemakan daging berkaki dua), kelompok yang menurunkan burung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q20_opt_a",
+        "label": "A",
+        "content": "Theropods",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q20_opt_b",
+        "label": "B",
+        "content": "Cerapoda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q20_opt_c",
+        "label": "C",
+        "content": "Ornithopods",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q20_opt_d",
+        "label": "D",
+        "content": "Sauropods",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q21",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Birds and Dinosaurs (Soal No. 20 – 23)]\n*Read the text about birds and dinosaurs to answer the questions!*\n\nBirds are fascinating creatures that share a remarkable connection with dinosaurs, specifically a group known as …(1)…, which included famous dinosaurs like *Tyrannosaurus rex* and *Velociraptor*. This connection shows that birds are not just modern animals; they are actually living …(2)… of dinosaurs. Scientists believe that some of these dinosaurs had feathers, much like modern birds, and this shared ancestry helps explain why birds have certain features, such as hollow bones and a lightweight body structure that allows them to fly.\n\nOver millions of years, birds evolved from their dinosaur ancestors and adapted to different environments. They developed a variety of sizes, colours, and behaviours that help them thrive in diverse habitats, from dense forests to open fields. For example, the colourful plumage of a parrot or the swift flight of a hawk showcases the incredible adaptations that birds have developed to survive and find food. These adaptations also help birds communicate with each other, attract mates, and escape from predators.\n\nUnderstanding the relationship between birds and dinosaurs not only fascinates scientists but also gives us insights into the history of life on Earth. By studying fossils and examining the physical characteristics of both birds and dinosaurs, researchers can piece together how these incredible creatures once lived. This connection reminds us of the rich …(3)… of life on our planet and how, through evolution, some of the most remarkable traits of dinosaurs continue to exist in the birds we see today.\n:::\n\nFill in blank (2).",
+    "imageUrl": null,
+    "explanation": "Burung adalah **keturunan** (*descendants*) dinosaurus. *Ancestors/predecessors* berarti nenek moyang, kebalikannya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q21_opt_a",
+        "label": "A",
+        "content": "predecessors",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q21_opt_b",
+        "label": "B",
+        "content": "ancestors",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q21_opt_c",
+        "label": "C",
+        "content": "apprentices",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q21_opt_d",
+        "label": "D",
+        "content": "descendants",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q22",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Birds and Dinosaurs (Soal No. 20 – 23)]\n*Read the text about birds and dinosaurs to answer the questions!*\n\nBirds are fascinating creatures that share a remarkable connection with dinosaurs, specifically a group known as …(1)…, which included famous dinosaurs like *Tyrannosaurus rex* and *Velociraptor*. This connection shows that birds are not just modern animals; they are actually living …(2)… of dinosaurs. Scientists believe that some of these dinosaurs had feathers, much like modern birds, and this shared ancestry helps explain why birds have certain features, such as hollow bones and a lightweight body structure that allows them to fly.\n\nOver millions of years, birds evolved from their dinosaur ancestors and adapted to different environments. They developed a variety of sizes, colours, and behaviours that help them thrive in diverse habitats, from dense forests to open fields. For example, the colourful plumage of a parrot or the swift flight of a hawk showcases the incredible adaptations that birds have developed to survive and find food. These adaptations also help birds communicate with each other, attract mates, and escape from predators.\n\nUnderstanding the relationship between birds and dinosaurs not only fascinates scientists but also gives us insights into the history of life on Earth. By studying fossils and examining the physical characteristics of both birds and dinosaurs, researchers can piece together how these incredible creatures once lived. This connection reminds us of the rich …(3)… of life on our planet and how, through evolution, some of the most remarkable traits of dinosaurs continue to exist in the birds we see today.\n:::\n\nIt is said that birds’ adaptations help them to do the following, **except** …",
+    "imageUrl": null,
+    "explanation": "Teks: adaptasi membantu burung *communicate with each other* (C), *attract mates* (D), dan *escape from predators* (A). **Meniru ciri nenek moyang** tidak disebutkan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q22_opt_a",
+        "label": "A",
+        "content": "be saved from the dangerous hunters",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q22_opt_b",
+        "label": "B",
+        "content": "mimic their forefathers’ characteristics",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q22_opt_c",
+        "label": "C",
+        "content": "interact with other birds",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q22_opt_d",
+        "label": "D",
+        "content": "reproduce by finding mates",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q23",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": ":::passage[Birds and Dinosaurs (Soal No. 20 – 23)]\n*Read the text about birds and dinosaurs to answer the questions!*\n\nBirds are fascinating creatures that share a remarkable connection with dinosaurs, specifically a group known as …(1)…, which included famous dinosaurs like *Tyrannosaurus rex* and *Velociraptor*. This connection shows that birds are not just modern animals; they are actually living …(2)… of dinosaurs. Scientists believe that some of these dinosaurs had feathers, much like modern birds, and this shared ancestry helps explain why birds have certain features, such as hollow bones and a lightweight body structure that allows them to fly.\n\nOver millions of years, birds evolved from their dinosaur ancestors and adapted to different environments. They developed a variety of sizes, colours, and behaviours that help them thrive in diverse habitats, from dense forests to open fields. For example, the colourful plumage of a parrot or the swift flight of a hawk showcases the incredible adaptations that birds have developed to survive and find food. These adaptations also help birds communicate with each other, attract mates, and escape from predators.\n\nUnderstanding the relationship between birds and dinosaurs not only fascinates scientists but also gives us insights into the history of life on Earth. By studying fossils and examining the physical characteristics of both birds and dinosaurs, researchers can piece together how these incredible creatures once lived. This connection reminds us of the rich …(3)… of life on our planet and how, through evolution, some of the most remarkable traits of dinosaurs continue to exist in the birds we see today.\n:::\n\nFill in blank (3).",
+    "imageUrl": null,
+    "explanation": "Kalimatnya membahas sejarah kehidupan di bumi melalui evolusi: *the rich **biological history** of life on our planet*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q23_opt_a",
+        "label": "A",
+        "content": "geographical landscape",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q23_opt_b",
+        "label": "B",
+        "content": "prehistoric atmosphere",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q23_opt_c",
+        "label": "C",
+        "content": "biological history",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q23_opt_d",
+        "label": "D",
+        "content": "primordial organisms",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q24",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rani eats breakfast, gets dressed, and takes her bag. What will she probably do next?",
+    "imageUrl": null,
+    "explanation": "Sarapan, berpakaian, lalu mengambil tas adalah persiapan **berangkat sekolah**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q24_opt_a",
+        "label": "A",
+        "content": "go to sleep",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q24_opt_b",
+        "label": "B",
+        "content": "go to school",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q24_opt_c",
+        "label": "C",
+        "content": "watch TV",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q24_opt_d",
+        "label": "D",
+        "content": "cook lunch",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q25",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the table below showing the number of pets in three houses.\n\n$$\\begin{array}{l|c|c|c} & \\text{House A} & \\text{House B} & \\text{House C} \\\\ \\hline \\text{Dogs} & 3 & 2 & 4 \\\\ \\text{Cats} & 1 & 5 & 2 \\\\ \\text{Rabbits} & 2 & 1 & 3 \\end{array}$$\n\nWhich house has the most animals?",
+    "imageUrl": null,
+    "explanation": "House A: $3+1+2 = 6$, House B: $2+5+1 = 8$, House C: $4+2+3 = 9$. Yang terbanyak **House C**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q25_opt_a",
+        "label": "A",
+        "content": "House A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q25_opt_b",
+        "label": "B",
+        "content": "House B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q25_opt_c",
+        "label": "C",
+        "content": "House C",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q25_opt_d",
+        "label": "D",
+        "content": "None",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q26",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Look at the table below showing the number of pets in three houses.\n\n$$\\begin{array}{l|c|c|c} & \\text{House A} & \\text{House B} & \\text{House C} \\\\ \\hline \\text{Dogs} & 3 & 2 & 4 \\\\ \\text{Cats} & 1 & 5 & 2 \\\\ \\text{Rabbits} & 2 & 1 & 3 \\end{array}$$\n\nIf House B wants to have the same number of rabbits as House C, how many more rabbits does it need?",
+    "imageUrl": null,
+    "explanation": "House B punya 1 kelinci, House C punya 3. Perlu $3 - 1 = 2$ kelinci lagi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q26_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q26_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q26_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q26_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q27",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Look at the table below showing the number of pets in three houses.\n\n$$\\begin{array}{l|c|c|c} & \\text{House A} & \\text{House B} & \\text{House C} \\\\ \\hline \\text{Dogs} & 3 & 2 & 4 \\\\ \\text{Cats} & 1 & 5 & 2 \\\\ \\text{Rabbits} & 2 & 1 & 3 \\end{array}$$\n\nWhich statement is TRUE based on the table?",
+    "imageUrl": null,
+    "explanation": "Jumlah kelinci $2 + 1 + 3 = 6$ ✓. Anjing B (2) lebih sedikit dari C (4), kucing A (1) tidak sama dengan B (5), dan kucing terbanyak ada di House B.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q27_opt_a",
+        "label": "A",
+        "content": "House B has more dogs than House C.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q27_opt_b",
+        "label": "B",
+        "content": "House A has the same number of cats as House B.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q27_opt_c",
+        "label": "C",
+        "content": "There are 6 rabbits in total in the three houses.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q27_opt_d",
+        "label": "D",
+        "content": "House C has the most cats of all.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q28",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Which question is correct to ask about time?",
+    "imageUrl": null,
+    "explanation": "Pola pertanyaan *simple present*: *Question word + do/does + subject + verb*, yaitu **What time do you wake up?**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q28_opt_a",
+        "label": "A",
+        "content": "What time you wake up?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q28_opt_b",
+        "label": "B",
+        "content": "When you wake up?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q28_opt_c",
+        "label": "C",
+        "content": "Do what time you wake up?",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q28_opt_d",
+        "label": "D",
+        "content": "What time do you wake up?",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q29",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Arrange the words to make a correct sentence.\n\n$$\\begin{array}{ccccccccc} \\text{do} & \\text{evening} & \\text{every} & \\text{forgets} & \\text{her} & \\text{homework} & \\text{never} & \\text{she} & \\text{to} \\\\ 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\end{array}$$",
+    "imageUrl": null,
+    "explanation": "*She never forgets to do her homework every evening* = 8 – 7 – 4 – 9 – 1 – 5 – 6 – 3 – 2.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q29_opt_a",
+        "label": "A",
+        "content": "8 – 7 – 4 – 9 – 1 – 5 – 6 – 3 – 2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q29_opt_b",
+        "label": "B",
+        "content": "3 – 2 – 7 – 8 – 4 – 9 – 1 – 5 – 6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q29_opt_c",
+        "label": "C",
+        "content": "8 – 4 – 9 – 7 – 1 – 5 – 6 – 3 – 2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q29_opt_d",
+        "label": "D",
+        "content": "3 – 2 – 8 – 4 – 9 – 7 – 1 – 5 – 6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q30",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which word does NOT belong to this group? \"apple, banana, carrot, grape\"",
+    "imageUrl": null,
+    "explanation": "Apel, pisang, dan anggur adalah buah. **Wortel** (*carrot*) adalah sayuran.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q30_opt_a",
+        "label": "A",
+        "content": "apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q30_opt_b",
+        "label": "B",
+        "content": "banana",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q30_opt_c",
+        "label": "C",
+        "content": "carrot",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q30_opt_d",
+        "label": "D",
+        "content": "grape",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q31",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which word best completes the sentence? \"A _______ lives under water.\"",
+    "imageUrl": null,
+    "explanation": "Hewan yang hidup di dalam air adalah ikan (*fish*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q31_opt_a",
+        "label": "A",
+        "content": "dog",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q31_opt_b",
+        "label": "B",
+        "content": "fish",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q31_opt_c",
+        "label": "C",
+        "content": "bird",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q31_opt_d",
+        "label": "D",
+        "content": "cat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q32",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "In the sentence “Lina felt excited before the school trip,” which word means the same as *excited*?",
+    "imageUrl": null,
+    "explanation": "*Excited* = bersemangat/gembira menantikan sesuatu, paling dekat dengan **happy**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q32_opt_a",
+        "label": "A",
+        "content": "bored",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q32_opt_b",
+        "label": "B",
+        "content": "nervous",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q32_opt_c",
+        "label": "C",
+        "content": "happy",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q32_opt_d",
+        "label": "D",
+        "content": "tired",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q33",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which word does NOT belong to this group? \"gigantic, huge, tiny, enormous\"",
+    "imageUrl": null,
+    "explanation": "*Gigantic, huge, enormous* berarti sangat besar, sedangkan **tiny** berarti sangat kecil.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q33_opt_a",
+        "label": "A",
+        "content": "gigantic",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q33_opt_b",
+        "label": "B",
+        "content": "huge",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q33_opt_c",
+        "label": "C",
+        "content": "tiny",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q33_opt_d",
+        "label": "D",
+        "content": "enormous",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q34",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "John _____ when he watched the sad movie.",
+    "imageUrl": null,
+    "explanation": "Kalimat memakai *watched* (lampau), jadi kata kerjanya juga bentuk lampau: **cried**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q34_opt_a",
+        "label": "A",
+        "content": "cry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q34_opt_b",
+        "label": "B",
+        "content": "cried",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q34_opt_c",
+        "label": "C",
+        "content": "cries",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q34_opt_d",
+        "label": "D",
+        "content": "is crying",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q35",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "There is not _____ orange juice left as Dad has drunk most of it.",
+    "imageUrl": null,
+    "explanation": "*Orange juice* tidak dapat dihitung (*uncountable*), dan dalam kalimat negatif dipakai **much**. *Many* untuk benda yang dapat dihitung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q35_opt_a",
+        "label": "A",
+        "content": "little",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q35_opt_b",
+        "label": "B",
+        "content": "some",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q35_opt_c",
+        "label": "C",
+        "content": "much",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q35_opt_d",
+        "label": "D",
+        "content": "many",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q36",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "“How about sharing your toys with _____ children over there?” the teacher asked.",
+    "imageUrl": null,
+    "explanation": "*Children* jamak dan letaknya jauh (*over there*), jadi memakai **those**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q36_opt_a",
+        "label": "A",
+        "content": "this",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q36_opt_b",
+        "label": "B",
+        "content": "that",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q36_opt_c",
+        "label": "C",
+        "content": "these",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q36_opt_d",
+        "label": "D",
+        "content": "those",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q37",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "______ girl sitting over there has the most beautiful smile.",
+    "imageUrl": null,
+    "explanation": "*Girl* tunggal dan letaknya jauh (*over there*), jadi memakai **that**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q37_opt_a",
+        "label": "A",
+        "content": "This",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q37_opt_b",
+        "label": "B",
+        "content": "That",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q37_opt_c",
+        "label": "C",
+        "content": "These",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q37_opt_d",
+        "label": "D",
+        "content": "Those",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_ing_prov_2_q38",
+    "topicId": "top_kmsi_2025_ing_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The postman usually _____ letters to the residents in the evening.",
+    "imageUrl": null,
+    "explanation": "*Usually* menandakan *simple present*, dan subjek *the postman* tunggal, jadi kata kerjanya ditambah -s: **delivers**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q38_opt_a",
+        "label": "A",
+        "content": "deliver",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q38_opt_b",
+        "label": "B",
+        "content": "delivers",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q38_opt_c",
+        "label": "C",
+        "content": "delivered",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_ing_prov_2_q38_opt_d",
+        "label": "D",
+        "content": "delivering",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

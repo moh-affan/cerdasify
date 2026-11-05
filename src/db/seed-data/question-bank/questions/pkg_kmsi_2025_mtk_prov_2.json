@@ -1,0 +1,1874 @@
+[
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q01",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Tentukan nilai $x$ jika $2x + 3y + 6z = -1{,}5$ dan $3x + 4y + 8z = 5$.",
+    "imageUrl": null,
+    "explanation": "Perhatikan bahwa koefisien $y$ dan $z$ pada persamaan kedua sebanding: $(4, 8) = \\frac{4}{3}(3, 6)$. Kalikan persamaan pertama dengan 4 dan persamaan kedua dengan 3:\n- $8x + 12y + 24z = -6$\n- $9x + 12y + 24z = 15$\n\nKurangkan: $x = 15 - (-6) = 21$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q01_opt_a",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q01_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q01_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q01_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q02",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pada segitiga di bawah ini, $AB = BD = DE = EC$. Diketahui $\\angle ABE = 120^\\circ$. Besar sudut $\\angle BDA$ adalah … °",
+    "imageUrl": "/uploads/kmsi25_prov_m2_segitiga.png",
+    "explanation": "Misalkan $\\angle C = \\theta$.\n- $DE = EC$, maka $\\angle EDC = \\theta$ dan sudut luar $\\angle DEB = 2\\theta$.\n- $BD = DE$, maka $\\angle DBE = \\angle DEB = 2\\theta$.\n- Sudut luar segitiga $BDC$: $\\angle BDA = \\angle DBC + \\angle C = 2\\theta + \\theta = 3\\theta$.\n- $AB = BD$, maka $\\angle BAD = \\angle BDA = 3\\theta$, sehingga $\\angle ABD = 180^\\circ - 6\\theta$.\n\n$\\angle ABE = \\angle ABD + \\angle DBE = 180^\\circ - 6\\theta + 2\\theta = 120^\\circ \\Rightarrow \\theta = 15^\\circ$.\n\nJadi $\\angle BDA = 3 \\times 15^\\circ = 45^\\circ$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q02_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q02_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q02_opt_c",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q02_opt_d",
+        "label": "D",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q03",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pada gambar, $ABCD$ adalah persegi dengan $AB = 20$ satuan, $AD$ adalah diameter dari setengah lingkaran, dan $AB$ adalah jari-jari dari seperempat lingkaran. Tentukan luas daerah yang diarsir! (gunakan $\\pi = 3{,}14$)",
+    "imageUrl": "/uploads/kmsi25_prov_m2_arsir.png",
+    "explanation": "Seperempat lingkaran berpusat di $A$ (jari-jari 20), setengah lingkaran berdiameter $AD$ (pusat di tengah $AD$, jari-jari 10). Diagonal $AC$ memotong setengah lingkaran di titik tengahnya.\n\n**Arsiran kiri** = tembereng setengah lingkaran di atas tali busur dari $A$ (sudut pusat $90^\\circ$):\n$\\frac{1}{4}\\pi(10)^2 - \\frac{1}{2}(10)(10) = 25\\pi - 50$.\n\n**Arsiran kanan** = juring $45^\\circ$ dari seperempat lingkaran dikurangi bagian setengah lingkaran di bawah diagonal:\n$\\frac{1}{8}\\pi(20)^2 - (50\\pi - (25\\pi - 50)) = 50\\pi - 25\\pi - 50 = 25\\pi - 50$.\n\nTotal $= 50\\pi - 100 = 157 - 100 = 57$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q03_opt_a",
+        "label": "A",
+        "content": "67",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q03_opt_b",
+        "label": "B",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q03_opt_c",
+        "label": "C",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q03_opt_d",
+        "label": "D",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q04",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Bilangan $X$ adalah bilangan komposit 3 digit dengan semua digit berbeda dan hasil kali digit-digitnya adalah 360. Berapa nilai terbesar yang mungkin dari $\\dfrac{X}{2+0+2+5}$? (nyatakan dalam bilangan bulat terdekat)",
+    "imageUrl": null,
+    "explanation": "$360 = 2^3 \\times 3^2 \\times 5$. Salah satu digit harus 5 (faktor 5 tidak bisa dipecah). Dua digit lainnya berhasil kali $360 : 5 = 72$, dan pasangan digit berbeda yang mungkin hanya $8 \\times 9$. Jadi digitnya 5, 8, 9.\n\n$X$ terbesar $= 985$ (komposit, karena $985 = 5 \\times 197$).\n\n$\\frac{985}{2+0+2+5} = \\frac{985}{9} \\approx 109{,}4 \\approx 109$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q04_opt_a",
+        "label": "A",
+        "content": "109",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q04_opt_b",
+        "label": "B",
+        "content": "110",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q04_opt_c",
+        "label": "C",
+        "content": "119",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q04_opt_d",
+        "label": "D",
+        "content": "120",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q05",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Angka ribuan dari bilangan 98.138 adalah …",
+    "imageUrl": null,
+    "explanation": "98.138: 9 puluh ribuan, **8 ribuan**, 1 ratusan, 3 puluhan, 8 satuan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q05_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q05_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q05_opt_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q05_opt_d",
+        "label": "D",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q06",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari seribu dua ratus tiga ditambah dua ribu dua puluh adalah …",
+    "imageUrl": null,
+    "explanation": "$1.203 + 2.020 = 3.223$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q06_opt_a",
+        "label": "A",
+        "content": "3.223",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q06_opt_b",
+        "label": "B",
+        "content": "3.403",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q06_opt_c",
+        "label": "C",
+        "content": "3.043",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q06_opt_d",
+        "label": "D",
+        "content": "3.250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q07",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bu Erin bekerja selama 6 jam. Waktu yang diperlukan Bu Erin untuk perjalanan menuju tempat bekerja adalah 45 menit, begitu pun sebaliknya. Jika Bu Erin berangkat bekerja pada pukul 07.15, maka Bu Erin sampai di rumahnya pada pukul …",
+    "imageUrl": null,
+    "explanation": "Sampai kantor: $07.15 + 45$ menit $= 08.00$. Selesai bekerja: $08.00 + 6$ jam $= 14.00$. Sampai rumah: $14.00 + 45$ menit $= 14.45$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q07_opt_a",
+        "label": "A",
+        "content": "14.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q07_opt_b",
+        "label": "B",
+        "content": "14.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q07_opt_c",
+        "label": "C",
+        "content": "14.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q07_opt_d",
+        "label": "D",
+        "content": "14.45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q08",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Suatu percetakan menyetorkan 120 buku cetak kepada toko buku. Satu minggu kemudian menyetorkan lagi 76 buku. Pada bulan pertama toko tersebut menjual 69 buku. Pada bulan kedua menjual 82 buku. Banyak buku yang belum terjual adalah …",
+    "imageUrl": null,
+    "explanation": "Buku masuk $= 120 + 76 = 196$. Terjual $= 69 + 82 = 151$. Belum terjual $= 196 - 151 = 45$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q08_opt_a",
+        "label": "A",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q08_opt_b",
+        "label": "B",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q08_opt_c",
+        "label": "C",
+        "content": "51",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q08_opt_d",
+        "label": "D",
+        "content": "61",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q09",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui $a$ adalah hasil penjumlahan bilangan prima antara 20 – 30 dan $b$ adalah jumlah faktor-faktor prima dari 51. Nilai dari $a - 2b$ adalah …",
+    "imageUrl": null,
+    "explanation": "Bilangan prima antara 20 dan 30: 23 dan 29, jadi $a = 52$. $51 = 3 \\times 17$, jadi $b = 3 + 17 = 20$. $a - 2b = 52 - 40 = 12$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q09_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q09_opt_b",
+        "label": "B",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q09_opt_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q09_opt_d",
+        "label": "D",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q10",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Diketahui bahwa semua tempat duduk pada suatu bus telah penuh dan ada 9 orang yang berdiri. Pada sebuah halte ada 12 orang yang turun bersamaan karena satu rombongan keluarga, dan ada 6 orang penumpang yang naik. Berapa orang yang berdiri pada bus tersebut?",
+    "imageUrl": null,
+    "explanation": "Sebelum halte, penumpang = kursi + 9. Setelah 12 turun: kursi + 9 − 12 = kursi − 3, artinya ada 3 kursi kosong (penumpang yang berdiri akan duduk). Lalu 6 orang naik: 3 orang dapat duduk, **3 orang** berdiri.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q10_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q10_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q10_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q10_opt_d",
+        "label": "D",
+        "content": "Tidak ada",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q11",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Intan mengikuti perlombaan panjat pinang. Setiap menit ia dapat memanjat 2 meter kemudian merosot 1 meter, demikian seterusnya. Jika tinggi pinang 15 meter, maka ia akan mencapai puncak pada menit ke …",
+    "imageUrl": null,
+    "explanation": "Setiap menit Intan naik bersih 1 meter, tetapi di menit terakhir ia tidak merosot lagi karena sudah sampai puncak. Setelah 13 menit ia berada di ketinggian 13 m. Pada menit ke-14 ia memanjat 2 m: $13 + 2 = 15$ m, sampai puncak. Jadi menit ke-**14**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q11_opt_a",
+        "label": "A",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q11_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q11_opt_c",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q11_opt_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q12",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Hanik menjumlahkan nomor halaman buku yang terdiri dari 96 halaman dan mendapat 4.672. Ternyata ada kekeliruan, yaitu ada satu halaman yang dihitung dua kali. Halaman tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Jumlah yang benar $1 + 2 + \\dots + 96 = \\frac{96 \\times 97}{2} = 4.656$. Kelebihannya $4.672 - 4.656 = 16$, jadi halaman yang dihitung dua kali adalah halaman **16**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q12_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q12_opt_b",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q12_opt_c",
+        "label": "C",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q12_opt_d",
+        "label": "D",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q13",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Mutia mempunyai uang Rp56.000,00 yang terdiri atas uang logam Rp200,00 dan Rp500,00. Jika Mutia mempunyai 250 keping uang logam, maka banyak uang Rp200,00 adalah …",
+    "imageUrl": null,
+    "explanation": "Misal keping Rp200 ada $x$ dan Rp500 ada $y$: $x + y = 250$ dan $200x + 500y = 56.000$ (bagi 100: $2x + 5y = 560$). Dari $2x + 2y = 500$, kurangkan: $3y = 60 \\Rightarrow y = 20$, sehingga $x = 230$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q13_opt_a",
+        "label": "A",
+        "content": "230",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q13_opt_b",
+        "label": "B",
+        "content": "220",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q13_opt_c",
+        "label": "C",
+        "content": "210",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q13_opt_d",
+        "label": "D",
+        "content": "200",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q14",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Two books, three pencils, and one eraser altogether cost Rp13.000,00. Two books, two pencils, and two erasers altogether cost Rp12.000,00. How much do you have to pay for three books, four pencils, and two erasers altogether?",
+    "imageUrl": null,
+    "explanation": "Misal buku $b$, pensil $p$, penghapus $e$.\n- $2b + 3p + e = 13.000$\n- $2b + 2p + 2e = 12.000 \\Rightarrow b + p + e = 6.000$\n\nJumlahkan kedua persamaan pertama: $4b + 5p + 3e = 25.000$. Maka $3b + 4p + 2e = (4b + 5p + 3e) - (b + p + e) = 25.000 - 6.000 = 19.000$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q14_opt_a",
+        "label": "A",
+        "content": "Rp19.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q14_opt_b",
+        "label": "B",
+        "content": "Rp18.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q14_opt_c",
+        "label": "C",
+        "content": "Rp16.500,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q14_opt_d",
+        "label": "D",
+        "content": "Rp15.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q15",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan 123.456 dibagi 7 akan bersisa …",
+    "imageUrl": null,
+    "explanation": "$7 \\times 17.636 = 123.452$, sehingga $123.456 - 123.452 = 4$. Sisanya **4**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q15_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q15_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q15_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q15_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q16",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Senja menggambar garis zig-zag pada sebuah persegi panjang dan menghasilkan sudut-sudut seperti gambar berikut. Besar sudut $x$ adalah … °",
+    "imageUrl": "/uploads/kmsi25_prov_m2_zigzag.png",
+    "explanation": "Garis zig-zag di antara dua garis sejajar (sisi kiri dan kanan persegi panjang) memenuhi: jumlah sudut yang membuka ke kanan = jumlah sudut yang membuka ke kiri.\n\n$(x - 12) + x + (x + 3) = (x - 5) + (x + 13)$\n$3x - 9 = 2x + 8 \\Rightarrow x = 17$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q16_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q16_opt_b",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q16_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q16_opt_d",
+        "label": "D",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q17",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Bilangan ratusan $x$ dan $y$ dengan $x = \\overline{apc}$ dan $y = \\overline{aqc}$ memenuhi $x - y = 50$ dan $p + q = 11$. Hasil dari $p \\times q$ adalah …",
+    "imageUrl": null,
+    "explanation": "Angka ratusan ($a$) dan satuan ($c$) sama, jadi $x - y = 10(p - q) = 50 \\Rightarrow p - q = 5$. Dengan $p + q = 11$: $p = 8$, $q = 3$. $p \\times q = 24$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q17_opt_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q17_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q17_opt_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q17_opt_d",
+        "label": "D",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q18",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sisa pembagian $2025^{2025}$ oleh $(1 \\times 4 \\times 4 \\times 6)$ adalah …",
+    "imageUrl": null,
+    "explanation": "$1 \\times 4 \\times 4 \\times 6 = 96$ dan $2025 = 96 \\times 21 + 9$, jadi cukup mencari sisa $9^{2025}$ dibagi 96.\n\nSisa pangkat 9: $9^1 \\to 9$, $9^2 \\to 81$, $9^3 \\to 57$, $9^4 \\to 33$, $9^5 \\to 9$, … berulang setiap 4.\n\n$2025 = 4 \\times 506 + 1$, jadi sisanya sama dengan $9^1$, yaitu **9**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q18_opt_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q18_opt_b",
+        "label": "B",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q18_opt_c",
+        "label": "C",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q18_opt_d",
+        "label": "D",
+        "content": "81",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q19",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika $a @ b = a^b - b^a$, maka hasil dari $2 @ (0 @ (2 @ 5))$ adalah …",
+    "imageUrl": null,
+    "explanation": "- $2 @ 5 = 2^5 - 5^2 = 32 - 25 = 7$\n- $0 @ 7 = 0^7 - 7^0 = 0 - 1 = -1$\n- $2 @ (-1) = 2^{-1} - (-1)^2 = \\frac{1}{2} - 1 = -\\frac{1}{2}$",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q19_opt_a",
+        "label": "A",
+        "content": "$\\frac{1}{2}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q19_opt_b",
+        "label": "B",
+        "content": "$-\\frac{1}{2}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q19_opt_c",
+        "label": "C",
+        "content": "$-\\frac{1}{3}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q19_opt_d",
+        "label": "D",
+        "content": "$\\frac{1}{3}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q20",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari $453 \\times 112 + 98.652 \\div 12 - 51.346$ adalah …",
+    "imageUrl": null,
+    "explanation": "Kali dan bagi dulu: $453 \\times 112 = 50.736$ dan $98.652 \\div 12 = 8.221$. Lalu $50.736 + 8.221 - 51.346 = 7.611$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q20_opt_a",
+        "label": "A",
+        "content": "7.611",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q20_opt_b",
+        "label": "B",
+        "content": "7.521",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q20_opt_c",
+        "label": "C",
+        "content": "6.611",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q20_opt_d",
+        "label": "D",
+        "content": "6.511",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q21",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "$1.440 \\div 12 + 54 \\times (25 - 15) = \\dots$",
+    "imageUrl": null,
+    "explanation": "Kurung dulu: $25 - 15 = 10$. Lalu $1.440 \\div 12 = 120$ dan $54 \\times 10 = 540$. Hasil $120 + 540 = 660$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q21_opt_a",
+        "label": "A",
+        "content": "440",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q21_opt_b",
+        "label": "B",
+        "content": "550",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q21_opt_c",
+        "label": "C",
+        "content": "660",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q21_opt_d",
+        "label": "D",
+        "content": "770",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q22",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pak Zaki membeli 50 kantong beras. Setiap kantong berisi 25 kg beras. Pak Zaki menggunakan 50 kg beras untuk kebutuhan sehari-hari, sedangkan sisanya dibagikan kepada 60 tetangga dengan jumlah yang sama. Beras yang diterima oleh masing-masing tetangga adalah … kg",
+    "imageUrl": null,
+    "explanation": "Total beras $= 50 \\times 25 = 1.250$ kg. Sisa $= 1.250 - 50 = 1.200$ kg. Tiap tetangga $= 1.200 : 60 = 20$ kg.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q22_opt_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q22_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q22_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q22_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q23",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Nama bangun datar berikut adalah …",
+    "imageUrl": "/uploads/kmsi25_prov_m2_belahketupat.png",
+    "explanation": "Keempat sisinya diberi tanda sama panjang, kedua diagonalnya berpotongan tegak lurus tetapi panjangnya berbeda (sudutnya bukan siku-siku). Bangun seperti ini adalah **belah ketupat**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q23_opt_a",
+        "label": "A",
+        "content": "Layang-layang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q23_opt_b",
+        "label": "B",
+        "content": "Trapesium",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q23_opt_c",
+        "label": "C",
+        "content": "Persegi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q23_opt_d",
+        "label": "D",
+        "content": "Belah ketupat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q24",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Penulisan angka *sembilan ribu seratus lima* adalah …",
+    "imageUrl": null,
+    "explanation": "Sembilan ribu = 9.000, seratus = 100, lima = 5. $9.000 + 100 + 5 = 9.105$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q24_opt_a",
+        "label": "A",
+        "content": "1.095",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q24_opt_b",
+        "label": "B",
+        "content": "9.150",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q24_opt_c",
+        "label": "C",
+        "content": "9.105",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q24_opt_d",
+        "label": "D",
+        "content": "9.015",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q25",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Nilai rata-rata ulangan dari 30 murid adalah 75. Tetapi dalam perhitungan rata-rata ini terjadi kesalahan, yaitu nilai seorang murid sebenarnya 77 tetapi terbaca 79. Nilai rata-rata yang benar adalah …",
+    "imageUrl": null,
+    "explanation": "Jumlah nilai tercatat $= 30 \\times 75 = 2.250$. Kelebihan 2 poin, jadi jumlah sebenarnya $2.248$. Rata-rata benar $= 2.248 : 30 \\approx 74{,}93 \\approx 74{,}9$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q25_opt_a",
+        "label": "A",
+        "content": "68,9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q25_opt_b",
+        "label": "B",
+        "content": "71,9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q25_opt_c",
+        "label": "C",
+        "content": "73,9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q25_opt_d",
+        "label": "D",
+        "content": "74,9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q26",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pak Ali berkunjung ke rumah Pak Yasin dengan jarak 200 km. Jarak 100 km pertama ditempuh dengan kecepatan 80 km/jam dan 100 km kedua ditempuh dengan kecepatan 120 km/jam. Jika setelah 100 km pertama ia beristirahat dulu selama 25 menit, berapa lama waktu yang dibutuhkan Pak Ali agar sampai ke rumah Pak Yasin?",
+    "imageUrl": null,
+    "explanation": "100 km pertama: $\\frac{100}{80}$ jam $= 75$ menit. Istirahat 25 menit. 100 km kedua: $\\frac{100}{120}$ jam $= 50$ menit. Total $= 75 + 25 + 50 = 150$ menit.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q26_opt_a",
+        "label": "A",
+        "content": "120 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q26_opt_b",
+        "label": "B",
+        "content": "135 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q26_opt_c",
+        "label": "C",
+        "content": "140 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q26_opt_d",
+        "label": "D",
+        "content": "150 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q27",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Harga satu buku tulis di toko Bu Laila Rp1.500,00. Jika membeli banyak, harga satu buku di toko Pak Ali lebih murah Rp30,00. Berapakah harga 155 buah buku bila membeli di toko Pak Ali setelah ditambah beban pajak 10%?",
+    "imageUrl": null,
+    "explanation": "Harga di toko Pak Ali $= 1.500 - 30 = 1.470$. Untuk 155 buku: $155 \\times 1.470 = 227.850$. Pajak 10% $= 22.785$. Total $= 227.850 + 22.785 = 250.635$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q27_opt_a",
+        "label": "A",
+        "content": "Rp227.850,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q27_opt_b",
+        "label": "B",
+        "content": "Rp250.635,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q27_opt_c",
+        "label": "C",
+        "content": "Rp257.725,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q27_opt_d",
+        "label": "D",
+        "content": "Rp261.635,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q28",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Mutia menjumlahkan $n$ bilangan asli pertama. Saat menjumlahkan, ia membuat kesalahan dengan menghitung sebuah bilangan dua kali sehingga diperoleh hasil 2.011. Tentukan bilangan yang dihitung dua kali tersebut!",
+    "imageUrl": null,
+    "explanation": "Jumlah yang benar $\\frac{n(n+1)}{2}$ harus sedikit kurang dari 2.011, dan selisihnya tidak boleh lebih dari $n$.\n- $n = 62$: $\\frac{62 \\times 63}{2} = 1.953$, selisih $2.011 - 1.953 = 58 \\le 62$ ✓\n- $n = 63$: $2.016 > 2.011$ ✗\n\nJadi bilangan yang dihitung dua kali adalah **58**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q28_opt_a",
+        "label": "A",
+        "content": "53",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q28_opt_b",
+        "label": "B",
+        "content": "58",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q28_opt_c",
+        "label": "C",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q28_opt_d",
+        "label": "D",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q29",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Intan menulis 11 bilangan bulat positif berurutan di papan tulis. Sebuah bilangan dihapus dan ternyata jumlah bilangan-bilangan yang tersisa adalah 2.011. Tentukan bilangan yang dihapus tersebut!",
+    "imageUrl": null,
+    "explanation": "Misal bilangannya $m, m+1, \\dots, m+10$ dengan jumlah $11m + 55$. Bilangan yang dihapus $m + j$ ($0 \\le j \\le 10$):\n$11m + 55 - (m + j) = 2.011 \\Rightarrow 10m - j = 1.956$.\n\nSatu-satunya kemungkinan $m = 196$, $j = 4$. Bilangan yang dihapus $= 196 + 4 = 200$.\n\nCek: $196 + \\dots + 206 = 2.211$, dan $2.211 - 200 = 2.011$ ✓",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q29_opt_a",
+        "label": "A",
+        "content": "199",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q29_opt_b",
+        "label": "B",
+        "content": "200",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q29_opt_c",
+        "label": "C",
+        "content": "201",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q29_opt_d",
+        "label": "D",
+        "content": "202",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q30",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Senja memotong papan kayu dengan lebar 8 cm menjadi 9 bagian. Satu bagian berbentuk persegi dan lainnya berbentuk persegi panjang. Kemudian ia menyusun semua bagian sehingga membentuk persegi besar seperti pada gambar. Tentukan panjang papan sebelum dipotong!",
+    "imageUrl": "/uploads/kmsi25_prov_m2_papan.png",
+    "explanation": "Persegi kecil di tengah bersisi 8 cm. Setiap lapisan 4 potongan di sekelilingnya menambah 8 cm di kedua sisi: lapisan pertama membuat sisi $8 + 16 = 24$ cm, lapisan kedua $24 + 16 = 40$ cm ($1 + 4 + 4 = 9$ potongan).\n\nLuas persegi besar $= 40 \\times 40 = 1.600$ cm², sama dengan luas papan semula. Panjang papan $= 1.600 : 8 = 200$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q30_opt_a",
+        "label": "A",
+        "content": "200 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q30_opt_b",
+        "label": "B",
+        "content": "100 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q30_opt_c",
+        "label": "C",
+        "content": "150 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q30_opt_d",
+        "label": "D",
+        "content": "250 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q31",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Terdapat delapan kepingan domino di atas meja. Setengah dari satu kepingan tertutup oleh kepingan lain. Delapan kepingan tersebut akan disusun menjadi petak $4 \\times 4$ sehingga jumlah titik pada setiap kolom dan setiap baris sama. Berapakah banyak titik pada bagian yang tertutup itu?",
+    "imageUrl": "/uploads/kmsi25_prov_m2_domino.png",
+    "explanation": "Jumlah titik yang terlihat: $(2+1) + (4+1) + (5+1) + (6+0) + (3+1) + (2+2) + (3+2) + 4 = 37$.\n\nKarena keempat baris jumlahnya sama, total titik harus habis dibagi 4. Bilangan kelipatan 4 yang paling dekat di atas 37 adalah 40, dan bagian domino paling banyak 6 titik, jadi bagian yang tertutup memiliki $40 - 37 = 3$ titik (setiap baris dan kolom berjumlah 10).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q31_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q31_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q31_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q31_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q32",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Lapangan berbentuk persegi $ABCD$ memiliki luas 2.025 m². Garis $CM$ dan $CN$ membagi persegi menjadi 3 bagian yang sama luas. Panjang $NB$ adalah … m",
+    "imageUrl": "/uploads/kmsi25_prov_m2_persegi_cmn.png",
+    "explanation": "Sisi persegi $= \\sqrt{2.025} = 45$ m. Setiap bagian luasnya $2.025 : 3 = 675$ m². Segitiga $CNB$ siku-siku di $B$: $\\frac{1}{2} \\times NB \\times 45 = 675 \\Rightarrow NB = 30$ m.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q32_opt_a",
+        "label": "A",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q32_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q32_opt_c",
+        "label": "C",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q32_opt_d",
+        "label": "D",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q33",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah persegi $ABCD$ memiliki keliling 88 cm. Garis $BE$ membagi sudut $CBD$ sama besar ($a = b$), dengan $E$ terletak pada diagonal $AC$. Panjang $AE$ adalah …",
+    "imageUrl": "/uploads/kmsi25_prov_m2_persegi_be.png",
+    "explanation": "Sisi persegi $= 88 : 4 = 22$ cm. $\\angle CBD = 45^\\circ$, jadi $\\angle EBC = 22{,}5^\\circ$ dan $\\angle ABE = 90^\\circ - 22{,}5^\\circ = 67{,}5^\\circ$.\n\nPada segitiga $ABE$: $\\angle BAE = 45^\\circ$ (diagonal), sehingga $\\angle AEB = 180^\\circ - 45^\\circ - 67{,}5^\\circ = 67{,}5^\\circ$.\n\nDua sudutnya sama, maka segitiga $ABE$ sama kaki dengan $AE = AB = 22$ cm.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q33_opt_a",
+        "label": "A",
+        "content": "20 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q33_opt_b",
+        "label": "B",
+        "content": "21 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q33_opt_c",
+        "label": "C",
+        "content": "22 cm",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q33_opt_d",
+        "label": "D",
+        "content": "23 cm",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q34",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "$2023 \\times \\dfrac{119}{17} - 2023 \\times \\dfrac{17}{119} = \\dots$",
+    "imageUrl": null,
+    "explanation": "Perhatikan $17 \\times 119 = 2.023$.\n- $2023 \\times \\frac{119}{17} = 119 \\times 119 = 14.161$\n- $2023 \\times \\frac{17}{119} = 17 \\times 17 = 289$\n\nHasil $= 14.161 - 289 = 13.872$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q34_opt_a",
+        "label": "A",
+        "content": "136",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q34_opt_b",
+        "label": "B",
+        "content": "102",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q34_opt_c",
+        "label": "C",
+        "content": "13.782",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q34_opt_d",
+        "label": "D",
+        "content": "13.872",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q35",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari $1 + 8 \\times 6 - 12 \\div 3$ adalah …",
+    "imageUrl": null,
+    "explanation": "Kali dan bagi dulu: $8 \\times 6 = 48$, $12 \\div 3 = 4$. Lalu $1 + 48 - 4 = 45$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q35_opt_a",
+        "label": "A",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q35_opt_b",
+        "label": "B",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q35_opt_c",
+        "label": "C",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q35_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q36",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$144 \\div n = 24$. Nilai $n = \\dots$",
+    "imageUrl": null,
+    "explanation": "$n = 144 \\div 24 = 6$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q36_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q36_opt_b",
+        "label": "B",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q36_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q36_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q37",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Intan menjual 15 buah apel dengan harga Rp3.000,00 setiap buahnya dan 12 buah jeruk dengan harga Rp2.500,00 setiap buahnya. Uang hasil penjualan tersebut diberikan kepada ibunya sebesar Rp25.000,00. Pada saat yang sama ayahnya memberikan uang kepada Intan sebesar Rp12.000,00. Banyak uang Intan sekarang …",
+    "imageUrl": null,
+    "explanation": "Penjualan $= 15 \\times 3.000 + 12 \\times 2.500 = 45.000 + 30.000 = 75.000$. Diberikan ke ibu: $75.000 - 25.000 = 50.000$. Ditambah dari ayah: $50.000 + 12.000 = 62.000$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q37_opt_a",
+        "label": "A",
+        "content": "Rp62.000,00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q37_opt_b",
+        "label": "B",
+        "content": "Rp63.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q37_opt_c",
+        "label": "C",
+        "content": "Rp64.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q37_opt_d",
+        "label": "D",
+        "content": "Rp65.000,00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q38",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari $\\dfrac{6}{5} + 3\\dfrac{1}{2} - 1{,}6$ adalah …",
+    "imageUrl": null,
+    "explanation": "Ubah ke desimal: $\\frac{6}{5} = 1{,}2$ dan $3\\frac{1}{2} = 3{,}5$. Hasil $= 1{,}2 + 3{,}5 - 1{,}6 = 3{,}1$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q38_opt_a",
+        "label": "A",
+        "content": "2,1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q38_opt_b",
+        "label": "B",
+        "content": "3,1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q38_opt_c",
+        "label": "C",
+        "content": "4,1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q38_opt_d",
+        "label": "D",
+        "content": "5,1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_2_q39",
+    "topicId": "top_kmsi_2025_mtk_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Mutia membeli pita sepanjang 7,5 m, kemudian membeli lagi $\\frac{3}{4}$ m. Pita tersebut digunakan untuk mendekor ruangan sebanyak $6\\frac{1}{2}$ m. Sisa pita yang dimiliki Mutia adalah …",
+    "imageUrl": null,
+    "explanation": "$7{,}5 + 0{,}75 - 6{,}5 = 1{,}75$ m.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q39_opt_a",
+        "label": "A",
+        "content": "1,75 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q39_opt_b",
+        "label": "B",
+        "content": "8,25 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q39_opt_c",
+        "label": "C",
+        "content": "13,25 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_2_q39_opt_d",
+        "label": "D",
+        "content": "14,75 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

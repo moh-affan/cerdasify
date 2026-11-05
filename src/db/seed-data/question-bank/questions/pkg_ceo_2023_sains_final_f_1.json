@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q01",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bagian gigi manusia yang berfungsi untuk menggigit adalah …",
+    "imageUrl": null,
+    "explanation": "**Gigi seri** (gigi depan yang tipis dan tajam) berfungsi menggigit/memotong makanan. Gigi taring merobek, gigi geraham mengunyah dan menghaluskan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q01_opt_a",
+        "label": "A",
+        "content": "Gigi geraham",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q01_opt_b",
+        "label": "B",
+        "content": "Gigi taring",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q01_opt_c",
+        "label": "C",
+        "content": "Gigi seri",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q01_opt_d",
+        "label": "D",
+        "content": "Gigi bungsu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q02",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Arah mata angin yang berada di antara timur dan selatan adalah …",
+    "imageUrl": null,
+    "explanation": "Di antara timur dan selatan adalah **tenggara**. Timur laut di antara utara dan timur, barat daya di antara selatan dan barat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q02_opt_a",
+        "label": "A",
+        "content": "Timur laut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q02_opt_b",
+        "label": "B",
+        "content": "Barat laut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q02_opt_c",
+        "label": "C",
+        "content": "Barat daya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q02_opt_d",
+        "label": "D",
+        "content": "Tenggara",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q03",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat yang digunakan untuk mengetahui arah mata angin adalah …",
+    "imageUrl": null,
+    "explanation": "**Kompas** memiliki jarum magnet yang selalu menunjuk arah utara–selatan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q03_opt_a",
+        "label": "A",
+        "content": "Kalkulator",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q03_opt_b",
+        "label": "B",
+        "content": "Termometer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q03_opt_c",
+        "label": "C",
+        "content": "Kompas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q03_opt_d",
+        "label": "D",
+        "content": "Amperemeter",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q04",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sinar matahari dibutuhkan manusia untuk …",
+    "imageUrl": null,
+    "explanation": "Panas matahari dimanfaatkan untuk **menjemur baju** agar cepat kering.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q04_opt_a",
+        "label": "A",
+        "content": "Memasak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q04_opt_b",
+        "label": "B",
+        "content": "Menghitamkan kulit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q04_opt_c",
+        "label": "C",
+        "content": "Menjemur baju",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q04_opt_d",
+        "label": "D",
+        "content": "Berolahraga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q05",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada sore hari, bayangan benda terbentuk di sebelah …",
+    "imageUrl": null,
+    "explanation": "Sore hari matahari berada di barat. Bayangan selalu berlawanan arah dengan sumber cahaya, jadi bayangan jatuh ke **timur**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q05_opt_a",
+        "label": "A",
+        "content": "Selatan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q05_opt_b",
+        "label": "B",
+        "content": "Barat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q05_opt_c",
+        "label": "C",
+        "content": "Utara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q05_opt_d",
+        "label": "D",
+        "content": "Timur",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q06",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Limbah sampah yang berasal dari sisa makhluk hidup disebut sampah …",
+    "imageUrl": null,
+    "explanation": "Sampah dari sisa makhluk hidup (daun, sisa makanan) disebut sampah **organik** dan mudah membusuk.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q06_opt_a",
+        "label": "A",
+        "content": "Reduce",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q06_opt_b",
+        "label": "B",
+        "content": "Organik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q06_opt_c",
+        "label": "C",
+        "content": "Anorganik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q06_opt_d",
+        "label": "D",
+        "content": "Recycle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q07",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berikut ini makanan yang mengandung protein nabati adalah …",
+    "imageUrl": null,
+    "explanation": "Protein nabati berasal dari tumbuhan. **Tahu dan tempe** dibuat dari kedelai. Ikan, telur, susu, dan keju adalah protein hewani.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q07_opt_a",
+        "label": "A",
+        "content": "Tahu dan tempe",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q07_opt_b",
+        "label": "B",
+        "content": "Ikan dan telur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q07_opt_c",
+        "label": "C",
+        "content": "Ikan dan susu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q07_opt_d",
+        "label": "D",
+        "content": "Susu dan keju",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q08",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gambar daun berikut menunjukkan peristiwa perubahan wujud …",
+    "imageUrl": "/uploads/ceo23_final_s1_embun.png",
+    "explanation": "Titik-titik air pada daun di pagi hari terbentuk dari uap air di udara yang mendingin menjadi air. Perubahan gas menjadi cair disebut **mengembun**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q08_opt_a",
+        "label": "A",
+        "content": "Menguap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q08_opt_b",
+        "label": "B",
+        "content": "Mengembun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q08_opt_c",
+        "label": "C",
+        "content": "Mencair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q08_opt_d",
+        "label": "D",
+        "content": "Membeku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q09",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ari memainkan mobil-mobilan. Cica menggendong kucing. Doni dan Budi membawa robot. Benda yang merupakan makhluk hidup dibawa oleh …",
+    "imageUrl": null,
+    "explanation": "Kucing adalah makhluk hidup, dan yang menggendong kucing adalah **Cica**. Mobil-mobilan dan robot adalah benda mati.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q09_opt_a",
+        "label": "A",
+        "content": "Doni",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q09_opt_b",
+        "label": "B",
+        "content": "Budi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q09_opt_c",
+        "label": "C",
+        "content": "Ari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q09_opt_d",
+        "label": "D",
+        "content": "Cica",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q10",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bahan makanan yang mengandung karbohidrat berfungsi sebagai …",
+    "imageUrl": null,
+    "explanation": "Karbohidrat (nasi, roti, jagung) adalah **sumber tenaga** (zat tenaga). Vitamin dan mineral adalah zat pengatur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q10_opt_a",
+        "label": "A",
+        "content": "Sumber tenaga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q10_opt_b",
+        "label": "B",
+        "content": "Zat pengatur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q10_opt_c",
+        "label": "C",
+        "content": "Zat cadangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q10_opt_d",
+        "label": "D",
+        "content": "Zat pengganti",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q11",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perahu layar dapat bergerak dengan memanfaatkan energi alternatif berupa …",
+    "imageUrl": null,
+    "explanation": "Layar perahu ditiup **angin** sehingga perahu bergerak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q11_opt_a",
+        "label": "A",
+        "content": "Gelombang laut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q11_opt_b",
+        "label": "B",
+        "content": "Sinar matahari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q11_opt_c",
+        "label": "C",
+        "content": "Angin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q11_opt_d",
+        "label": "D",
+        "content": "Aliran air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q12",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Secara berurutan, tisu dan baju terbuat dari …",
+    "imageUrl": null,
+    "explanation": "Tisu adalah sejenis kertas, dibuat dari bubur **kayu**. Baju dijahit dari **kain**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q12_opt_a",
+        "label": "A",
+        "content": "Kayu dan kain",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q12_opt_b",
+        "label": "B",
+        "content": "Kain dan benang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q12_opt_c",
+        "label": "C",
+        "content": "Kapas dan kain",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q12_opt_d",
+        "label": "D",
+        "content": "Kayu dan karet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q13",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berikut ini benda yang paling mudah bergerak (menggelinding) adalah …",
+    "imageUrl": null,
+    "explanation": "**Kelereng** berbentuk bulat sehingga paling mudah menggelinding.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q13_opt_a",
+        "label": "A",
+        "content": "Meja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q13_opt_b",
+        "label": "B",
+        "content": "Kelereng",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q13_opt_c",
+        "label": "C",
+        "content": "Ember",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q13_opt_d",
+        "label": "D",
+        "content": "Botol",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q14",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hewan yang cara berkembang biaknya sama seperti hewan pada gambar adalah …",
+    "imageUrl": "/uploads/ceo23_final_s1_kucing.png",
+    "explanation": "Gambar menunjukkan induk kucing dengan anak-anaknya. Kucing berkembang biak dengan **melahirkan** (vivipar), sama seperti **lumba-lumba**. Katak, penyu, dan buaya bertelur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q14_opt_a",
+        "label": "A",
+        "content": "Katak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q14_opt_b",
+        "label": "B",
+        "content": "Penyu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q14_opt_c",
+        "label": "C",
+        "content": "Lumba-lumba",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q14_opt_d",
+        "label": "D",
+        "content": "Buaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q15",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bagian tubuh ikan yang berfungsi untuk melindungi tubuhnya adalah …",
+    "imageUrl": null,
+    "explanation": "**Sisik** menutupi dan melindungi tubuh ikan. Insang untuk bernapas, sirip dan ekor untuk berenang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q15_opt_a",
+        "label": "A",
+        "content": "Insang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q15_opt_b",
+        "label": "B",
+        "content": "Sirip",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q15_opt_c",
+        "label": "C",
+        "content": "Ekor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q15_opt_d",
+        "label": "D",
+        "content": "Sisik",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q16",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Buah seperti pada gambar banyak mengandung vitamin …",
+    "imageUrl": "/uploads/ceo23_final_s1_jambu.png",
+    "explanation": "Gambar menunjukkan **jambu biji**, buah yang sangat kaya **vitamin C**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q16_opt_a",
+        "label": "A",
+        "content": "D",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q16_opt_b",
+        "label": "B",
+        "content": "C",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q16_opt_c",
+        "label": "C",
+        "content": "B",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q16_opt_d",
+        "label": "D",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q17",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bagian tumbuhan yang berfungsi untuk fotosintesis (membuat makanan) adalah …",
+    "imageUrl": null,
+    "explanation": "Fotosintesis terjadi di **daun** karena daun mengandung zat hijau daun (klorofil).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q17_opt_a",
+        "label": "A",
+        "content": "Akar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q17_opt_b",
+        "label": "B",
+        "content": "Daun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q17_opt_c",
+        "label": "C",
+        "content": "Bunga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q17_opt_d",
+        "label": "D",
+        "content": "Batang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q18",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kain sutra terbuat dari … ulat sutra.",
+    "imageUrl": null,
+    "explanation": "Benang sutra diambil dari **kepompong** yang dibuat oleh ulat sutra.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q18_opt_a",
+        "label": "A",
+        "content": "Kulit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q18_opt_b",
+        "label": "B",
+        "content": "Larva",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q18_opt_c",
+        "label": "C",
+        "content": "Kepompong",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q18_opt_d",
+        "label": "D",
+        "content": "Bulu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q19",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bagian bunga yang disukai oleh lebah dan kupu-kupu adalah …",
+    "imageUrl": null,
+    "explanation": "**Mahkota bunga** yang berwarna cerah dan harum menarik lebah dan kupu-kupu untuk mengisap nektar.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q19_opt_a",
+        "label": "A",
+        "content": "Mahkota bunga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q19_opt_b",
+        "label": "B",
+        "content": "Tangkai bunga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q19_opt_c",
+        "label": "C",
+        "content": "Kelopak bunga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q19_opt_d",
+        "label": "D",
+        "content": "Daun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q20",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tumbuhan yang dapat hidup di air adalah …",
+    "imageUrl": null,
+    "explanation": "**Eceng gondok** hidup mengapung di air. Benalu dan anggrek menempel di pohon, lavender hidup di darat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q20_opt_a",
+        "label": "A",
+        "content": "Benalu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q20_opt_b",
+        "label": "B",
+        "content": "Eceng gondok",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q20_opt_c",
+        "label": "C",
+        "content": "Anggrek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q20_opt_d",
+        "label": "D",
+        "content": "Lavender",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q21",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Air yang dipindahkan dari teko ke gelas, maka …",
+    "imageUrl": null,
+    "explanation": "Benda cair selalu mengikuti bentuk wadahnya, jadi bentuk air menjadi **seperti gelas**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q21_opt_a",
+        "label": "A",
+        "content": "Bentuknya seperti gelas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q21_opt_b",
+        "label": "B",
+        "content": "Bentuknya seperti mangkuk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q21_opt_c",
+        "label": "C",
+        "content": "Bentuknya seperti piring",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q21_opt_d",
+        "label": "D",
+        "content": "Bentuknya seperti teko",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q22",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Benda langit yang tidak dapat memancarkan cahaya sendiri adalah …",
+    "imageUrl": null,
+    "explanation": "**Bulan** tidak bercahaya sendiri; bulan tampak terang karena memantulkan cahaya matahari. Matahari adalah bintang yang memancarkan cahayanya sendiri.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q22_opt_a",
+        "label": "A",
+        "content": "Bintang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q22_opt_b",
+        "label": "B",
+        "content": "Bulan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q22_opt_c",
+        "label": "C",
+        "content": "Komet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q22_opt_d",
+        "label": "D",
+        "content": "Matahari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q23",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat elektronik yang dapat mengeluarkan bunyi dan cahaya adalah …",
+    "imageUrl": null,
+    "explanation": "**Televisi** mengeluarkan gambar (cahaya) dan suara. Radio hanya mengeluarkan bunyi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q23_opt_a",
+        "label": "A",
+        "content": "Radio",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q23_opt_b",
+        "label": "B",
+        "content": "Rice cooker",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q23_opt_c",
+        "label": "C",
+        "content": "Televisi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q23_opt_d",
+        "label": "D",
+        "content": "Hair dryer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q24",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Pekerjaan yang dipengaruhi oleh musim adalah …",
+    "imageUrl": null,
+    "explanation": "**Petani** menentukan waktu tanam dan panen berdasarkan musim hujan dan kemarau.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q24_opt_a",
+        "label": "A",
+        "content": "Pilot",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q24_opt_b",
+        "label": "B",
+        "content": "Petani",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q24_opt_c",
+        "label": "C",
+        "content": "Pedagang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q24_opt_d",
+        "label": "D",
+        "content": "Masinis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q25",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "(Uraian) Pasangan panca indra dan fungsinya yang benar adalah …",
+    "imageUrl": null,
+    "explanation": "Kelima panca indra dan fungsinya:\n- **Mata** untuk melihat\n- **Telinga** untuk mendengar\n- **Hidung** untuk mencium bau\n- **Lidah** untuk mengecap rasa\n- **Kulit** untuk meraba",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q25_opt_a",
+        "label": "A",
+        "content": "Mata – melihat, telinga – mendengar, hidung – mencium, lidah – mengecap, kulit – meraba",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q25_opt_b",
+        "label": "B",
+        "content": "Mata – mendengar, telinga – melihat, hidung – mengecap, lidah – mencium, kulit – meraba",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q25_opt_c",
+        "label": "C",
+        "content": "Mata – melihat, telinga – mencium, hidung – mendengar, lidah – meraba, kulit – mengecap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q25_opt_d",
+        "label": "D",
+        "content": "Mata – meraba, telinga – mendengar, hidung – melihat, lidah – mengecap, kulit – mencium",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_1_q26",
+    "topicId": "top_ceo_2023_sains_final_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "(Uraian) Kelompok hewan yang semuanya berkembang biak dengan cara ovipar (bertelur) adalah …",
+    "imageUrl": null,
+    "explanation": "Ovipar artinya berkembang biak dengan **bertelur**. Ayam, buaya, dan katak semuanya bertelur. Kucing, sapi, dan kambing melahirkan (vivipar).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q26_opt_a",
+        "label": "A",
+        "content": "Ayam, kucing, dan penyu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q26_opt_b",
+        "label": "B",
+        "content": "Ayam, buaya, dan katak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q26_opt_c",
+        "label": "C",
+        "content": "Sapi, burung, dan ikan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_1_q26_opt_d",
+        "label": "D",
+        "content": "Kambing, ular, dan bebek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

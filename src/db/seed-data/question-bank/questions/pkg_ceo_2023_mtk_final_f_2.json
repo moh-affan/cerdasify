@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q01",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar mata angin berikut! Sudut yang dibentuk oleh arah timur dan barat adalah …",
+    "imageUrl": "/uploads/ceo23_final_m2_kompas.png",
+    "explanation": "Arah timur dan barat saling berlawanan dan membentuk garis lurus, jadi sudutnya **180°**. Timur dan utara membentuk 90°, timur dan timur laut 45°.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q01_opt_a",
+        "label": "A",
+        "content": "45°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q01_opt_b",
+        "label": "B",
+        "content": "90°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q01_opt_c",
+        "label": "C",
+        "content": "135°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q01_opt_d",
+        "label": "D",
+        "content": "180°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q02",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai dari $0{,}006 \\times (6 : 0{,}02) = \\dots$",
+    "imageUrl": null,
+    "explanation": "Kurung dulu: $6 : 0{,}02 = 600 : 2 = 300$. Lalu $0{,}006 \\times 300 = 1{,}8$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q02_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q02_opt_b",
+        "label": "B",
+        "content": "1,8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q02_opt_c",
+        "label": "C",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q02_opt_d",
+        "label": "D",
+        "content": "2,6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q03",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Nilai $a$ pada kalimat $46 \\times a = 2.024$ adalah …",
+    "imageUrl": null,
+    "explanation": "$a = 2.024 : 46 = 44$. Cek: $46 \\times 44 = 2.024$ ✓",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q03_opt_a",
+        "label": "A",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q03_opt_b",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q03_opt_c",
+        "label": "C",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q03_opt_d",
+        "label": "D",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q04",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diva mulai belajar pukul 08.00. Jika Diva belajar selama 2 jam 30 menit dan diselingi istirahat 15 menit, pukul berapa Diva selesai belajar?",
+    "imageUrl": null,
+    "explanation": "Waktu total $= 2$ jam 30 menit $+ 15$ menit $= 2$ jam 45 menit. $08.00 + 2.45 = 10.45$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q04_opt_a",
+        "label": "A",
+        "content": "10.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q04_opt_b",
+        "label": "B",
+        "content": "10.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q04_opt_c",
+        "label": "C",
+        "content": "10.45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q04_opt_d",
+        "label": "D",
+        "content": "11.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q05",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "1 windu + $\\frac{1}{2}$ dasawarsa + 48 bulan = … tahun",
+    "imageUrl": null,
+    "explanation": "1 windu = 8 tahun, $\\frac{1}{2}$ dasawarsa = 5 tahun, 48 bulan = 4 tahun. Jumlah $= 8 + 5 + 4 = 17$ tahun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q05_opt_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q05_opt_b",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q05_opt_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q05_opt_d",
+        "label": "D",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q06",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Nilai rata-rata Matematika 10 orang siswa adalah 74. Dengan masuknya seorang siswa, nilai rata-ratanya menjadi 75. Berapakah nilai siswa yang baru masuk tersebut?",
+    "imageUrl": null,
+    "explanation": "Jumlah nilai awal $= 10 \\times 74 = 740$. Jumlah setelah siswa baru masuk $= 11 \\times 75 = 825$. Nilai siswa baru $= 825 - 740 = 85$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q06_opt_a",
+        "label": "A",
+        "content": "75",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q06_opt_b",
+        "label": "B",
+        "content": "78",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q06_opt_c",
+        "label": "C",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q06_opt_d",
+        "label": "D",
+        "content": "85",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q07",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di dapur rumah Tia terdapat 7 lusin piring, sepertiga gros mangkok, dan satu gros sendok. Berapa jumlah seluruh alat dapur di rumah Tia?",
+    "imageUrl": null,
+    "explanation": "1 lusin = 12, 1 gros = 144.\n- Piring: $7 \\times 12 = 84$\n- Mangkok: $\\frac{1}{3} \\times 144 = 48$\n- Sendok: $144$\n\nJumlah $= 84 + 48 + 144 = 276$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q07_opt_a",
+        "label": "A",
+        "content": "213",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q07_opt_b",
+        "label": "B",
+        "content": "247",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q07_opt_c",
+        "label": "C",
+        "content": "276",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q07_opt_d",
+        "label": "D",
+        "content": "295",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q08",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di sebuah warung makan terdapat 16 meja makan, setiap meja ditempati 6 orang. Dari semua meja itu, 28 orang memesan bakso, sisanya memesan mi ayam. Berapa orang yang memesan mi ayam?",
+    "imageUrl": null,
+    "explanation": "Jumlah orang $= 16 \\times 6 = 96$. Pemesan mi ayam $= 96 - 28 = 68$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q08_opt_a",
+        "label": "A",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q08_opt_b",
+        "label": "B",
+        "content": "74",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q08_opt_c",
+        "label": "C",
+        "content": "89",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q08_opt_d",
+        "label": "D",
+        "content": "96",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q09",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Berapakah jumlah segitiga pada gambar berikut?",
+    "imageUrl": "/uploads/ceo23_final_m2_segitiga.png",
+    "explanation": "Hitung menurut ukurannya:\n- **Segitiga kecil** (1 satuan): baris 1 ada 2, baris 2 ada 5, baris 3 ada 7, baris 4 ada 7 → 21\n- **Segitiga ukuran 2**: 7 menghadap ke atas dan 3 menghadap ke bawah → 10\n- **Segitiga ukuran 3**: 3 (menghadap ke atas)\n\nTotal $= 21 + 10 + 3 = 34$ segitiga.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q09_opt_a",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q09_opt_b",
+        "label": "B",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q09_opt_c",
+        "label": "C",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q09_opt_d",
+        "label": "D",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q10",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perbandingan berat bawang merah dan bawang putih yang dijual pedagang adalah 6 : 9. Selisih berat kedua bawang tersebut 48 kg. Berapa jumlah berat kedua bawang tersebut?",
+    "imageUrl": null,
+    "explanation": "Selisih bagian $= 9 - 6 = 3$ bagian $= 48$ kg, jadi 1 bagian $= 16$ kg. Jumlah $= (6 + 9) \\times 16 = 240$ kg.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q10_opt_a",
+        "label": "A",
+        "content": "200 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q10_opt_b",
+        "label": "B",
+        "content": "220 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q10_opt_c",
+        "label": "C",
+        "content": "240 kg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q10_opt_d",
+        "label": "D",
+        "content": "260 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q11",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ibu mempunyai uang Rp120.000 untuk belanja, lalu 65% digunakan untuk membeli sembako. Setengah dari sisa uang belanja digunakan untuk membeli 1 kg buah jeruk. Berapakah sisa uang belanja Ibu sekarang?",
+    "imageUrl": null,
+    "explanation": "Sisa setelah sembako $= 35\\% \\times 120.000 = 42.000$. Setengahnya untuk jeruk, jadi sisa $= 42.000 : 2 = 21.000$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q11_opt_a",
+        "label": "A",
+        "content": "Rp20.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q11_opt_b",
+        "label": "B",
+        "content": "Rp21.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q11_opt_c",
+        "label": "C",
+        "content": "Rp22.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q11_opt_d",
+        "label": "D",
+        "content": "Rp23.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q12",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Rumah Estin berada di antara rumah Akhyar dan Erika. Jarak rumah Akhyar dan Estin 84 m, sedangkan jarak rumah Estin dan Erika 78 m. Berapa jarak yang harus ditempuh jika Akhyar akan bermain ke rumah Erika?",
+    "imageUrl": null,
+    "explanation": "Akhyar melewati rumah Estin: $84 + 78 = 162$ m.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q12_opt_a",
+        "label": "A",
+        "content": "162 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q12_opt_b",
+        "label": "B",
+        "content": "152 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q12_opt_c",
+        "label": "C",
+        "content": "158 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q12_opt_d",
+        "label": "D",
+        "content": "164 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q13",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "$A = 3 + 6 + 9 + \\dots + 75$\n\n$B = 5 + 10 + 15 + \\dots + 125$\n\nNilai $B - A = \\dots$",
+    "imageUrl": null,
+    "explanation": "Keduanya terdiri dari 25 suku: $A = 3(1 + 2 + \\dots + 25)$ dan $B = 5(1 + 2 + \\dots + 25)$, dengan $1 + 2 + \\dots + 25 = \\frac{25 \\times 26}{2} = 325$.\n\n$B - A = (5 - 3) \\times 325 = 650$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q13_opt_a",
+        "label": "A",
+        "content": "650",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q13_opt_b",
+        "label": "B",
+        "content": "560",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q13_opt_c",
+        "label": "C",
+        "content": "430",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q13_opt_d",
+        "label": "D",
+        "content": "360",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q14",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan gambar persegi berikut! Berapakah perbandingan luas daerah abu-abu dengan luas keseluruhan?",
+    "imageUrl": "/uploads/ceo23_final_m2_persegi_abu.png",
+    "explanation": "Misalkan sisi persegi 4 satuan (luas 16), garis mendatar membagi persegi di tengah, dan segitiga besar berpuncak di tengah sisi atas.\n- Abu-abu kiri atas: persegi panjang $2 \\times 2 = 4$ dikurangi segitiga putih di kanan garis miring ($\\frac{1}{2} \\times 1 \\times 2 = 1$) $= 3$\n- Abu-abu tengah (segitiga kecil di dalam segitiga besar): $\\frac{1}{2} \\times 1 \\times 2 = 1$\n- Abu-abu kanan bawah (segitiga): $\\frac{1}{2} \\times 1 \\times 2 = 1$\n\nTotal abu-abu $= 5$, jadi perbandingannya $5 : 16$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q14_opt_a",
+        "label": "A",
+        "content": "5 : 16",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q14_opt_b",
+        "label": "B",
+        "content": "3 : 8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q14_opt_c",
+        "label": "C",
+        "content": "6 : 18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q14_opt_d",
+        "label": "D",
+        "content": "4 : 12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q15",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ani membuka sebuah buku. Ternyata kedua nomor halaman yang tampak bila dijumlahkan hasilnya 111. Kedua halaman yang dimaksud adalah …",
+    "imageUrl": null,
+    "explanation": "Dua halaman buku yang terbuka selalu berurutan: $n + (n + 1) = 111 \\Rightarrow n = 55$. Jadi halaman **55 dan 56**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q15_opt_a",
+        "label": "A",
+        "content": "54 dan 57",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q15_opt_b",
+        "label": "B",
+        "content": "51 dan 60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q15_opt_c",
+        "label": "C",
+        "content": "55 dan 56",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q15_opt_d",
+        "label": "D",
+        "content": "52 dan 59",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q16",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Prisma segiempat mempunyai titik sudut sebanyak …",
+    "imageUrl": null,
+    "explanation": "Prisma segiempat (seperti balok) punya 4 titik sudut di alas dan 4 di tutup, jadi **8** titik sudut.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q16_opt_a",
+        "label": "A",
+        "content": "4 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q16_opt_b",
+        "label": "B",
+        "content": "6 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q16_opt_c",
+        "label": "C",
+        "content": "7 buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q16_opt_d",
+        "label": "D",
+        "content": "8 buah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q17",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Fikri mempunyai 96 butir kelereng dan akan dibagikan kepada keempat temannya. Jika setiap anak mendapat 17 butir kelereng, maka jumlah kelereng yang tersisa adalah … butir",
+    "imageUrl": null,
+    "explanation": "Dibagikan $4 \\times 17 = 68$ butir. Sisa $= 96 - 68 = 28$ butir.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q17_opt_a",
+        "label": "A",
+        "content": "32",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q17_opt_b",
+        "label": "B",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q17_opt_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q17_opt_d",
+        "label": "D",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q18",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Berapakah nilai $n$ dari penjumlahan berikut ini?\n\n$$\\begin{array}{r} n\\,9\\,6 \\\\ 1\\,0\\,n \\\\ +\\quad 1\\,6\\,n\\,5 \\\\ \\hline 2\\,0\\,2\\,3 \\end{array}$$",
+    "imageUrl": null,
+    "explanation": "Kolom satuan: $6 + n + 5$ harus berakhiran 3, jadi $n = 2$ ($6 + 2 + 5 = 13$).\n\nCek: $296 + 102 + 1.625 = 2.023$ ✓",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q18_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q18_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q18_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q18_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q19",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika 7 kotak pensil berisi 182 buah pensil, berapa isi pensil dalam 10 kotak pensil?",
+    "imageUrl": null,
+    "explanation": "Isi 1 kotak $= 182 : 7 = 26$ pensil. 10 kotak $= 26 \\times 10 = 260$ pensil.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q19_opt_a",
+        "label": "A",
+        "content": "234",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q19_opt_b",
+        "label": "B",
+        "content": "240",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q19_opt_c",
+        "label": "C",
+        "content": "250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q19_opt_d",
+        "label": "D",
+        "content": "260",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q20",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari $13 + (-17) - (-45)$ adalah …",
+    "imageUrl": null,
+    "explanation": "$13 + (-17) = -4$, lalu $-4 - (-45) = -4 + 45 = 41$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q20_opt_a",
+        "label": "A",
+        "content": "-49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q20_opt_b",
+        "label": "B",
+        "content": "-15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q20_opt_c",
+        "label": "C",
+        "content": "41",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q20_opt_d",
+        "label": "D",
+        "content": "75",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q21",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Anis mempunyai pita berwarna-warni: pita merah panjangnya $1\\frac{3}{4}$ m, pita kuning 1,2 m, dan pita hijau $1\\frac{2}{3}$ m. Pernyataan yang benar adalah …",
+    "imageUrl": null,
+    "explanation": "Ubah ke desimal: merah $1\\frac{3}{4} = 1{,}75$ m, kuning $1{,}2$ m, hijau $1\\frac{2}{3} \\approx 1{,}67$ m. Yang terpanjang **pita merah**, yang terpendek pita kuning.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q21_opt_a",
+        "label": "A",
+        "content": "Pita merah adalah pita terpanjang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q21_opt_b",
+        "label": "B",
+        "content": "Pita hijau adalah pita terpendek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q21_opt_c",
+        "label": "C",
+        "content": "Pita merah dan kuning sama panjang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q21_opt_d",
+        "label": "D",
+        "content": "Pita kuning adalah pita terpanjang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q22",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari $24^3 : 6^3$ adalah …",
+    "imageUrl": null,
+    "explanation": "$24^3 : 6^3 = (24 : 6)^3 = 4^3 = 64$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q22_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q22_opt_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q22_opt_c",
+        "label": "C",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q22_opt_d",
+        "label": "D",
+        "content": "64",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q23",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "(Uraian) Diketahui pecahan berikut: $\\frac{5}{8}$; 32%; 0,75; 0,91; $\\frac{1}{4}$; 67%. Urutan pecahan dari yang terbesar adalah …",
+    "imageUrl": null,
+    "explanation": "Ubah semua ke desimal: $\\frac{5}{8} = 0{,}625$; 32% $= 0{,}32$; 0,75; 0,91; $\\frac{1}{4} = 0{,}25$; 67% $= 0{,}67$.\n\nDari terbesar: 0,91; 0,75; 0,67 (67%); 0,625 ($\\frac{5}{8}$); 0,32 (32%); 0,25 ($\\frac{1}{4}$).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q23_opt_a",
+        "label": "A",
+        "content": "0,91; 0,75; 67%; $\\frac{5}{8}$; 32%; $\\frac{1}{4}$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q23_opt_b",
+        "label": "B",
+        "content": "0,91; 67%; 0,75; $\\frac{5}{8}$; $\\frac{1}{4}$; 32%",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q23_opt_c",
+        "label": "C",
+        "content": "$\\frac{1}{4}$; 32%; $\\frac{5}{8}$; 67%; 0,75; 0,91",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q23_opt_d",
+        "label": "D",
+        "content": "0,91; 0,75; $\\frac{5}{8}$; 67%; 32%; $\\frac{1}{4}$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_mtk_final_f_2_q24",
+    "topicId": "top_ceo_2023_mtk_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "(Uraian) Perhatikan gambar berikut! Bangun terdiri dari persegi bersisi 12 cm dan segitiga siku-siku di sebelah kanannya. Tentukan luas daerah abu-abu!",
+    "imageUrl": "/uploads/ceo23_final_m2_trapesium.png",
+    "explanation": "Tanda pada gambar menunjukkan persegi kiri bersisi 12 cm dan alas segitiga kanan juga 12 cm, sehingga panjang alas seluruh bangun 24 cm. Garis miring dari pojok kiri atas ke pojok kanan bawah memotong garis tegak di tengah (tanda sama pada garis tegak), yaitu 6 cm dari bawah.\n\nDaerah abu-abu adalah segitiga dengan sisi tegak $12 - 6 = 6$ cm (pada garis tengah) dan tinggi mendatar 12 cm ke pojok kanan bawah:\n\nLuas $= \\frac{1}{2} \\times 6 \\times 12 = 36$ cm².",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q24_opt_a",
+        "label": "A",
+        "content": "24 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q24_opt_b",
+        "label": "B",
+        "content": "36 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q24_opt_c",
+        "label": "C",
+        "content": "48 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_mtk_final_f_2_q24_opt_d",
+        "label": "D",
+        "content": "72 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

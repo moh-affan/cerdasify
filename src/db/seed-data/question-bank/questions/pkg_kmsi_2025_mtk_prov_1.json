@@ -1,0 +1,1874 @@
+[
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q01",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Lambang bilangan *dua ratus dua puluh ribu enam puluh* adalah …",
+    "imageUrl": null,
+    "explanation": "Dua ratus dua puluh ribu = 220.000, enam puluh = 60. Jadi $220.000 + 60 = 220.060$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q01_opt_a",
+        "label": "A",
+        "content": "2.002.060",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q01_opt_b",
+        "label": "B",
+        "content": "202.600",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q01_opt_c",
+        "label": "C",
+        "content": "220.006",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q01_opt_d",
+        "label": "D",
+        "content": "220.060",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q02",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Delapan puluh dua dikurangi dua puluh delapan menghasilkan …",
+    "imageUrl": null,
+    "explanation": "$82 - 28 = 54$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q02_opt_a",
+        "label": "A",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q02_opt_b",
+        "label": "B",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q02_opt_c",
+        "label": "C",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q02_opt_d",
+        "label": "D",
+        "content": "82",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q03",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "$123 + 45 + 67 + 89 - 12 - 34 - 56 - 78 = \\dots$",
+    "imageUrl": null,
+    "explanation": "Jumlahkan yang ditambah: $123 + 45 + 67 + 89 = 324$. Jumlahkan yang dikurangi: $12 + 34 + 56 + 78 = 180$. Hasil $= 324 - 180 = 144$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q03_opt_a",
+        "label": "A",
+        "content": "124",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q03_opt_b",
+        "label": "B",
+        "content": "134",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q03_opt_c",
+        "label": "C",
+        "content": "144",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q03_opt_d",
+        "label": "D",
+        "content": "154",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q04",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "$-\\Big(-\\big(-6 \\times \\big(-(-8 - (-2))\\big) + 4\\big)\\Big) = \\dots$",
+    "imageUrl": null,
+    "explanation": "Kerjakan dari kurung terdalam:\n- $-8 - (-2) = -8 + 2 = -6$\n- $-(-6) = 6$\n- $-6 \\times 6 = -36$, lalu $-36 + 4 = -32$\n- $-(-32) = 32$\n- $-(32) = -32$\n\nJadi hasilnya $-32$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q04_opt_a",
+        "label": "A",
+        "content": "$-32$",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q04_opt_b",
+        "label": "B",
+        "content": "$32$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q04_opt_c",
+        "label": "C",
+        "content": "$52$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q04_opt_d",
+        "label": "D",
+        "content": "$-52$",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q05",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "$1 + 2 + 3 + \\dots + (1 + 8) + (1 + 9) + (2 + 0) = \\dots$",
+    "imageUrl": null,
+    "explanation": "Polanya adalah **jumlah angka-angka** dari bilangan 1 sampai 20 (misalnya 18 ditulis $1+8$, 20 ditulis $2+0$).\n- Bilangan 1–9: $1+2+\\dots+9 = 45$\n- Bilangan 10–19: $(1+0) + (1+1) + \\dots + (1+9) = 10 \\times 1 + 45 = 55$\n- Bilangan 20: $2 + 0 = 2$\n\nTotal $= 45 + 55 + 2 = 102$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q05_opt_a",
+        "label": "A",
+        "content": "92",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q05_opt_b",
+        "label": "B",
+        "content": "102",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q05_opt_c",
+        "label": "C",
+        "content": "112",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q05_opt_d",
+        "label": "D",
+        "content": "122",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q06",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$23 - 13 = \\dots$",
+    "imageUrl": null,
+    "explanation": "$23 - 13 = 10$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q06_opt_a",
+        "label": "A",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q06_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q06_opt_c",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q06_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q07",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Senja menutup 3 jari tangan sebelah kiri dan menutup 1 jari di sebelah kanan. Berapakah jari tangan Senja yang masih terbuka?",
+    "imageUrl": null,
+    "explanation": "Jari tangan kiri dan kanan ada $5 + 5 = 10$. Yang ditutup $3 + 1 = 4$. Yang masih terbuka $10 - 4 = 6$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q07_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q07_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q07_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q07_opt_d",
+        "label": "D",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q08",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ibu membeli 3 kg telur. Kemudian ibu menyimpan 1 kg telur dan sisanya digunakan untuk membuat adonan kue. Berapakah telur yang dipakai ibu untuk membuat adonan kue?",
+    "imageUrl": null,
+    "explanation": "Telur yang dipakai $= 3 \\text{ kg} - 1 \\text{ kg} = 2 \\text{ kg}$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q08_opt_a",
+        "label": "A",
+        "content": "3 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q08_opt_b",
+        "label": "B",
+        "content": "2 kg",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q08_opt_c",
+        "label": "C",
+        "content": "1 kg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q08_opt_d",
+        "label": "D",
+        "content": "Semua salah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q09",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kakak memiliki 9 buku cerita, dan adik memiliki 2 buku cerita. Berapa jumlah total buku cerita di rak buku mereka?",
+    "imageUrl": null,
+    "explanation": "$9 + 2 = 11$ buku.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q09_opt_a",
+        "label": "A",
+        "content": "9 buku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q09_opt_b",
+        "label": "B",
+        "content": "10 buku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q09_opt_c",
+        "label": "C",
+        "content": "11 buku",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q09_opt_d",
+        "label": "D",
+        "content": "12 buku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q10",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di sekolah, ada 7 murid di kelas 2A dan 6 murid di kelas 2B. Berapa jumlah total murid di kedua kelas tersebut?",
+    "imageUrl": null,
+    "explanation": "$7 + 6 = 13$ murid.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q10_opt_a",
+        "label": "A",
+        "content": "10 murid",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q10_opt_b",
+        "label": "B",
+        "content": "11 murid",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q10_opt_c",
+        "label": "C",
+        "content": "12 murid",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q10_opt_d",
+        "label": "D",
+        "content": "13 murid",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q11",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika hari ini adalah hari Sabtu, maka 2025 hari kemudian akan jatuh pada hari …",
+    "imageUrl": null,
+    "explanation": "Hari berulang setiap 7 hari. $2025 = 7 \\times 289 + 2$, jadi sisanya 2. Dua hari setelah Sabtu adalah Minggu, lalu **Senin**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q11_opt_a",
+        "label": "A",
+        "content": "Minggu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q11_opt_b",
+        "label": "B",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q11_opt_c",
+        "label": "C",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q11_opt_d",
+        "label": "D",
+        "content": "Jum’at",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q12",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang tukang sablon membuat nomor dada pada 51 kaos sepak bola mulai dari angka 1 sampai dengan angka 51. Banyaknya angka 0 yang telah ia buat adalah …",
+    "imageUrl": null,
+    "explanation": "Bilangan dari 1 sampai 51 yang memuat angka 0 hanyalah 10, 20, 30, 40, dan 50. Masing-masing memuat satu angka 0, jadi ada **5** angka 0.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q12_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q12_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q12_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q12_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q13",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Akbar mempunyai uang Rp56.000,00 yang terdiri atas uang logam Rp200,00 dan Rp500,00. Jika Akbar mempunyai 250 keping uang logam, maka banyak uang Rp200,00 adalah …",
+    "imageUrl": null,
+    "explanation": "Andaikan semua 250 keping adalah Rp200: nilainya $250 \\times 200 = 50.000$. Kekurangannya $56.000 - 50.000 = 6.000$. Setiap keping Rp200 yang diganti Rp500 menambah Rp300, jadi banyak keping Rp500 $= 6.000 : 300 = 20$. Keping Rp200 $= 250 - 20 = 230$.\n\nCek: $230 \\times 200 + 20 \\times 500 = 46.000 + 10.000 = 56.000$ ✓",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q13_opt_a",
+        "label": "A",
+        "content": "230",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q13_opt_b",
+        "label": "B",
+        "content": "220",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q13_opt_c",
+        "label": "C",
+        "content": "210",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q13_opt_d",
+        "label": "D",
+        "content": "200",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q14",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Usia Mutia (M) dua kali usia Intan (I), sedangkan usia Yasin (Y) 10 tahun lebih muda dari usia Mutia. Jika rata-rata usia ketiganya sama dengan usia Yasin, maka pernyataan berikut ini yang pasti benar adalah …",
+    "imageUrl": null,
+    "explanation": "$M = 2I$ dan $Y = M - 10 = 2I - 10$. Rata-rata sama dengan $Y$ berarti $M + I + Y = 3Y$, jadi $M + I = 2Y$.\n\n$2I + I = 2(2I - 10) \\Rightarrow 3I = 4I - 20 \\Rightarrow I = 20$. Maka $M = 40$ dan $Y = 30$.\n\nUrutannya $40 > 30 > 20$, yaitu $M > Y > I$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q14_opt_a",
+        "label": "A",
+        "content": "M < I < Y",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q14_opt_b",
+        "label": "B",
+        "content": "M > Y > I",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q14_opt_c",
+        "label": "C",
+        "content": "I = Y dan Y < M",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q14_opt_d",
+        "label": "D",
+        "content": "M = I = Y",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q15",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Banyak sayap pada 6 ekor burung adalah …",
+    "imageUrl": null,
+    "explanation": "Seekor burung punya 2 sayap. $6 \\times 2 = 12$ sayap.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q15_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q15_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q15_opt_c",
+        "label": "C",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q15_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q16",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mutia membeli 18 jeruk di pasar. Sampai rumah, ia makan 2 dan adiknya makan 3. Sisa jeruk adalah …",
+    "imageUrl": null,
+    "explanation": "Jeruk yang dimakan $2 + 3 = 5$. Sisa $18 - 5 = 13$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q16_opt_a",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q16_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q16_opt_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q16_opt_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q17",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah dua bilangan adalah 24 dan selisihnya 12. Bilangan terbesarnya adalah …",
+    "imageUrl": null,
+    "explanation": "Bilangan terbesar $= (\\text{jumlah} + \\text{selisih}) : 2 = (24 + 12) : 2 = 18$. Bilangan lainnya 6. Cek: $18 + 6 = 24$ dan $18 - 6 = 12$ ✓",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q17_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q17_opt_b",
+        "label": "B",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q17_opt_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q17_opt_d",
+        "label": "D",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q18",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$9 \\times 9 - 1 = \\dots$",
+    "imageUrl": null,
+    "explanation": "Kali dulu: $9 \\times 9 = 81$, lalu $81 - 1 = 80$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q18_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q18_opt_b",
+        "label": "B",
+        "content": "81",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q18_opt_c",
+        "label": "C",
+        "content": "80",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q18_opt_d",
+        "label": "D",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q19",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Akbar mulai belajar jam setengah delapan. Ia belajar selama 40 menit. Akbar selesai belajar pukul …",
+    "imageUrl": null,
+    "explanation": "Setengah delapan = pukul 07.30. Ditambah 40 menit: 07.30 + 30 menit = 08.00, lalu + 10 menit = **08.10**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q19_opt_a",
+        "label": "A",
+        "content": "07.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q19_opt_b",
+        "label": "B",
+        "content": "08.10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q19_opt_c",
+        "label": "C",
+        "content": "08.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q19_opt_d",
+        "label": "D",
+        "content": "09.10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q20",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Banyak sisi pada lingkaran adalah …",
+    "imageUrl": null,
+    "explanation": "Lingkaran hanya dibatasi oleh **satu** garis lengkung yang tidak terputus, sehingga lingkaran memiliki 1 sisi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q20_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q20_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q20_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q20_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q21",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika kamu memiliki 10 kelereng dan memberikan 4 kelereng kepada temanmu, berapa kelereng yang kamu miliki sekarang?",
+    "imageUrl": null,
+    "explanation": "$10 - 4 = 6$ kelereng.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q21_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q21_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q21_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q21_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q22",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika jarum jam (jarum pendek) menunjuk pada angka 3 dan jarum menit menunjuk pada angka 12, pukul berapa sekarang?",
+    "imageUrl": null,
+    "explanation": "Jarum menit di angka 12 berarti tepat (menit ke-0). Jarum pendek di angka 3, jadi pukul **3.00**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q22_opt_a",
+        "label": "A",
+        "content": "12.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q22_opt_b",
+        "label": "B",
+        "content": "9.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q22_opt_c",
+        "label": "C",
+        "content": "6.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q22_opt_d",
+        "label": "D",
+        "content": "3.00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q23",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pukul berapa jika jarum jam (jarum pendek) menunjuk pada angka 2 dan jarum menit menunjuk pada angka 9?",
+    "imageUrl": null,
+    "explanation": "Jarum menit di angka 9 berarti menit ke-$9 \\times 5 = 45$. Jarum pendek di angka 2, jadi pukul **2.45**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q23_opt_a",
+        "label": "A",
+        "content": "9.10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q23_opt_b",
+        "label": "B",
+        "content": "9.02",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q23_opt_c",
+        "label": "C",
+        "content": "2.45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q23_opt_d",
+        "label": "D",
+        "content": "2.09",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q24",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika waktu makan siangmu pukul 12.00 siang dan waktu makan malammu pukul 19.00 malam, berapa lama waktu antara makan siang dan makan malam?",
+    "imageUrl": null,
+    "explanation": "$19.00 - 12.00 = 7$ jam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q24_opt_a",
+        "label": "A",
+        "content": "7 jam",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q24_opt_b",
+        "label": "B",
+        "content": "6 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q24_opt_c",
+        "label": "C",
+        "content": "5 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q24_opt_d",
+        "label": "D",
+        "content": "4 jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q25",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bunyi menjalar dengan kecepatan 340 m per detik. Sebuah bom meledak dengan jarak 3.060 m dari tempat kita berada. Berapa detik kemudian kita akan mendengar ledakan bom itu?",
+    "imageUrl": null,
+    "explanation": "Waktu $= \\text{jarak} : \\text{kecepatan} = 3.060 : 340 = 9$ detik. Cek: $340 \\times 9 = 3.060$ ✓",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q25_opt_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q25_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q25_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q25_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q26",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pak Ali berkunjung ke rumah Pak Yasin dengan jarak 200 km. Jarak 100 km pertama ditempuh dengan kecepatan 80 km/jam dan 100 km kedua ditempuh dengan kecepatan 120 km/jam. Jika setelah 100 km pertama ia beristirahat dulu selama 25 menit, berapa lama waktu yang dibutuhkan Pak Ali agar sampai ke rumah Pak Yasin?",
+    "imageUrl": null,
+    "explanation": "- 100 km pertama: $\\frac{100}{80}$ jam $= 1\\frac{1}{4}$ jam $= 75$ menit\n- Istirahat: 25 menit\n- 100 km kedua: $\\frac{100}{120}$ jam $= \\frac{5}{6}$ jam $= 50$ menit\n\nTotal $= 75 + 25 + 50 = 150$ menit.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q26_opt_a",
+        "label": "A",
+        "content": "120 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q26_opt_b",
+        "label": "B",
+        "content": "135 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q26_opt_c",
+        "label": "C",
+        "content": "140 menit",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q26_opt_d",
+        "label": "D",
+        "content": "150 menit",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q27",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah barak pengungsian dihuni sebanyak 75 orang. Untuk memelihara kesehatan, mereka diwajibkan minum 2 pil vitamin C setiap hari. Para pengungsi itu telah tinggal selama 25 hari. Banyaknya pil yang telah dihabiskan para pengungsi selama itu adalah …",
+    "imageUrl": null,
+    "explanation": "Pil per hari $= 75 \\times 2 = 150$. Selama 25 hari $= 150 \\times 25 = 3.750$ pil.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q27_opt_a",
+        "label": "A",
+        "content": "3.250",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q27_opt_b",
+        "label": "B",
+        "content": "3.500",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q27_opt_c",
+        "label": "C",
+        "content": "3.750",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q27_opt_d",
+        "label": "D",
+        "content": "4.125",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q28",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "A dan B pada suatu hari pergi bersama-sama ke perpustakaan. A pergi ke perpustakaan setiap 6 hari, sedangkan B setiap 8 hari. Setelah berapa hari A dan B akan bersama-sama lagi ke perpustakaan?",
+    "imageUrl": null,
+    "explanation": "Cari KPK dari 6 dan 8. Kelipatan 6: 6, 12, 18, **24**, … Kelipatan 8: 8, 16, **24**, … Jadi mereka bertemu lagi setelah **24 hari**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q28_opt_a",
+        "label": "A",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q28_opt_b",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q28_opt_c",
+        "label": "C",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q28_opt_d",
+        "label": "D",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q29",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jarak kota A dan B sejauh 60 km. Seorang pelajar pulang dari kota B ke kota A naik sepeda dengan kecepatan 15 km per jam. Ia berangkat pukul 07.00. Di tengah perjalanan ia beristirahat 2 kali, masing-masing selama 41 menit. Pukul berapa pelajar itu sampai di kota A?",
+    "imageUrl": null,
+    "explanation": "Waktu bersepeda $= 60 : 15 = 4$ jam. Waktu istirahat $= 2 \\times 41 = 82$ menit $= 1$ jam 22 menit. Total $= 5$ jam 22 menit.\n\n$07.00 + 5.22 = 12.22$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q29_opt_a",
+        "label": "A",
+        "content": "10.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q29_opt_b",
+        "label": "B",
+        "content": "10.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q29_opt_c",
+        "label": "C",
+        "content": "11.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q29_opt_d",
+        "label": "D",
+        "content": "12.22",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q30",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar berikut! Banyak balon pada gambar adalah …",
+    "imageUrl": "/uploads/kmsi25_prov_m1_balon.png",
+    "explanation": "Hitung balon satu per satu menurut warnanya: biru (2), merah (2), oranye (2), kuning (2), hijau (1), ungu (1). Jumlahnya $2+2+2+2+1+1 = 10$ balon.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q30_opt_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q30_opt_b",
+        "label": "B",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q30_opt_c",
+        "label": "C",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q30_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q31",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Enam belas ditambah enam puluh sama dengan …",
+    "imageUrl": null,
+    "explanation": "$16 + 60 = 76$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q31_opt_a",
+        "label": "A",
+        "content": "76",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q31_opt_b",
+        "label": "B",
+        "content": "67",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q31_opt_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q31_opt_d",
+        "label": "D",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q32",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Angka ribuan pada bilangan 489.230 adalah …",
+    "imageUrl": null,
+    "explanation": "Nilai tempat 489.230: 4 ratus ribuan, 8 puluh ribuan, **9 ribuan**, 2 ratusan, 3 puluhan, 0 satuan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q32_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q32_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q32_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q32_opt_d",
+        "label": "D",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q33",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Lambang bilangan *sebelas ribu sebelas* adalah …",
+    "imageUrl": null,
+    "explanation": "Sebelas ribu = 11.000, sebelas = 11. $11.000 + 11 = 11.011$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q33_opt_a",
+        "label": "A",
+        "content": "11.110",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q33_opt_b",
+        "label": "B",
+        "content": "11.011",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q33_opt_c",
+        "label": "C",
+        "content": "10.111",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q33_opt_d",
+        "label": "D",
+        "content": "11.111",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q34",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$100 - 23 = \\dots$",
+    "imageUrl": null,
+    "explanation": "$100 - 23 = 77$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q34_opt_a",
+        "label": "A",
+        "content": "123",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q34_opt_b",
+        "label": "B",
+        "content": "87",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q34_opt_c",
+        "label": "C",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q34_opt_d",
+        "label": "D",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q35",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hasil dari tiga ditambah enam adalah …",
+    "imageUrl": null,
+    "explanation": "$3 + 6 = 9$ (sembilan).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q35_opt_a",
+        "label": "A",
+        "content": "Tiga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q35_opt_b",
+        "label": "B",
+        "content": "Enam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q35_opt_c",
+        "label": "C",
+        "content": "Tujuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q35_opt_d",
+        "label": "D",
+        "content": "Sembilan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q36",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Banyak buah pisang pada gambar berikut adalah …",
+    "imageUrl": "/uploads/kmsi25_prov_m1_pisang.png",
+    "explanation": "Hitung tangkai hijau pisang satu per satu: ada 6 pisang yang tangkainya di bagian atas keranjang dan 1 pisang yang berbaring di depan dengan tangkai di tengah. Jumlahnya **7** pisang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q36_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q36_opt_b",
+        "label": "B",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q36_opt_c",
+        "label": "C",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q36_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q37",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$15 - 7 = \\dots$",
+    "imageUrl": null,
+    "explanation": "$15 - 7 = 8$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q37_opt_a",
+        "label": "A",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q37_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q37_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q37_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q38",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "$11 - 4 = \\dots$",
+    "imageUrl": null,
+    "explanation": "$11 - 4 = 7$.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q38_opt_a",
+        "label": "A",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q38_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q38_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q38_opt_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_mtk_prov_1_q39",
+    "topicId": "top_kmsi_2025_mtk_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Mama memasak 5 pancake untuk sarapan pagi. Kemudian mama memasak 3 pancake lagi. Berapa total pancake yang mama masak?",
+    "imageUrl": null,
+    "explanation": "$5 + 3 = 8$ pancake.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q39_opt_a",
+        "label": "A",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q39_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q39_opt_c",
+        "label": "C",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_mtk_prov_1_q39_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

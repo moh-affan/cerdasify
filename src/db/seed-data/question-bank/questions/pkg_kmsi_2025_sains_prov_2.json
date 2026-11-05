@@ -1,0 +1,1874 @@
+[
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q01",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Cahaya yang mengenai permukaan benda yang licin dan datar akan …",
+    "imageUrl": null,
+    "explanation": "Permukaan licin dan datar (misalnya cermin) **memantulkan** cahaya secara teratur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q01_opt_a",
+        "label": "A",
+        "content": "Dibiaskan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q01_opt_b",
+        "label": "B",
+        "content": "Diuraikan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q01_opt_c",
+        "label": "C",
+        "content": "Dipantulkan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q01_opt_d",
+        "label": "D",
+        "content": "Merambat lurus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q02",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tempat terbentuknya bayangan benda di dalam mata, yang kemudian dikirim ke saraf, adalah …",
+    "imageUrl": null,
+    "explanation": "Bayangan benda jatuh di **retina** (selaput jala). Sel-sel di retina meneruskannya ke otak melalui saraf penglihatan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q02_opt_a",
+        "label": "A",
+        "content": "Pupil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q02_opt_b",
+        "label": "B",
+        "content": "Lensa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q02_opt_c",
+        "label": "C",
+        "content": "Kornea",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q02_opt_d",
+        "label": "D",
+        "content": "Retina",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q03",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Penderita gangguan mata berupa astigmatisma (silinder) dapat ditolong menggunakan kacamata berlensa …",
+    "imageUrl": null,
+    "explanation": "Astigmatisma terjadi karena kelengkungan kornea tidak rata, dan dibantu dengan lensa **silindris**. Lensa cekung untuk rabun jauh, lensa cembung untuk rabun dekat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q03_opt_a",
+        "label": "A",
+        "content": "Silindris",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q03_opt_b",
+        "label": "B",
+        "content": "Cekung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q03_opt_c",
+        "label": "C",
+        "content": "Cembung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q03_opt_d",
+        "label": "D",
+        "content": "Cekung-cembung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q04",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Alat optik yang digunakan untuk melihat benda-benda yang berukuran sangat kecil adalah …",
+    "imageUrl": null,
+    "explanation": "**Mikroskop** memperbesar benda yang sangat kecil seperti sel dan bakteri. Teleskop untuk benda yang sangat jauh.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q04_opt_a",
+        "label": "A",
+        "content": "Mikroskop",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q04_opt_b",
+        "label": "B",
+        "content": "Periskop",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q04_opt_c",
+        "label": "C",
+        "content": "Teleskop",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q04_opt_d",
+        "label": "D",
+        "content": "Kacamata",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q05",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jatuhnya buah mangga ke tanah termasuk salah satu penerapan dari adanya gaya …",
+    "imageUrl": null,
+    "explanation": "Bumi menarik semua benda ke arah pusatnya dengan **gaya gravitasi**, sehingga buah jatuh ke tanah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q05_opt_a",
+        "label": "A",
+        "content": "Gesek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q05_opt_b",
+        "label": "B",
+        "content": "Gravitasi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q05_opt_c",
+        "label": "C",
+        "content": "Pegas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q05_opt_d",
+        "label": "D",
+        "content": "Dorong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q06",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Ketika kita meletakkan gelas yang penuh es batu di atas meja, beberapa saat kemudian ada butiran-butiran air di luar gelas. Peristiwa ini disebut …",
+    "imageUrl": null,
+    "explanation": "Uap air di udara menyentuh dinding gelas yang dingin lalu berubah menjadi titik-titik air. Perubahan gas menjadi cair disebut **mengembun**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q06_opt_a",
+        "label": "A",
+        "content": "Mencair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q06_opt_b",
+        "label": "B",
+        "content": "Menguap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q06_opt_c",
+        "label": "C",
+        "content": "Mengembun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q06_opt_d",
+        "label": "D",
+        "content": "Membeku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q07",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bola basket yang dilempar ke atas akan selalu kembali jatuh ke tanah. Ini disebabkan oleh gaya …",
+    "imageUrl": null,
+    "explanation": "**Gaya gravitasi** bumi menarik bola kembali ke bawah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q07_opt_a",
+        "label": "A",
+        "content": "Dorong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q07_opt_b",
+        "label": "B",
+        "content": "Tarik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q07_opt_c",
+        "label": "C",
+        "content": "Gravitasi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q07_opt_d",
+        "label": "D",
+        "content": "Gesek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q08",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bentuk energi yang dihasilkan oleh matahari dan membuat bumi menjadi terang dan hangat adalah …",
+    "imageUrl": null,
+    "explanation": "Terang berasal dari **energi cahaya**, hangat berasal dari **energi panas** matahari.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q08_opt_a",
+        "label": "A",
+        "content": "Energi gerak dan bunyi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q08_opt_b",
+        "label": "B",
+        "content": "Energi listrik dan kimia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q08_opt_c",
+        "label": "C",
+        "content": "Energi cahaya dan panas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q08_opt_d",
+        "label": "D",
+        "content": "Energi nuklir dan magnet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q09",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What is the main function of the skeleton in the human body?",
+    "imageUrl": null,
+    "explanation": "Rangka menopang tubuh dan **melindungi organ** penting (*to protect organs*), misalnya tengkorak melindungi otak dan tulang rusuk melindungi jantung serta paru-paru.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q09_opt_a",
+        "label": "A",
+        "content": "To provide oxygen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q09_opt_b",
+        "label": "B",
+        "content": "To protect organs",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q09_opt_c",
+        "label": "C",
+        "content": "To digest food",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q09_opt_d",
+        "label": "D",
+        "content": "To produce sound",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q10",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jalanan berbatu akan menyebabkan roda sepeda …",
+    "imageUrl": null,
+    "explanation": "Permukaan berbatu kasar sehingga gaya geseknya besar. Gaya gesek menghambat gerak, jadi roda **berputar dengan lambat**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q10_opt_a",
+        "label": "A",
+        "content": "Cepat berputar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q10_opt_b",
+        "label": "B",
+        "content": "Mudah bergerak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q10_opt_c",
+        "label": "C",
+        "content": "Mudah menggelinding",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q10_opt_d",
+        "label": "D",
+        "content": "Berputar dengan lambat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q11",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Zat tambahan pada makanan disebut zat …",
+    "imageUrl": null,
+    "explanation": "Zat tambahan makanan (pewarna, pemanis, pengawet, penyedap) disebut **zat aditif**. Zat adiktif adalah zat yang menimbulkan ketagihan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q11_opt_a",
+        "label": "A",
+        "content": "Aditif",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q11_opt_b",
+        "label": "B",
+        "content": "Kimia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q11_opt_c",
+        "label": "C",
+        "content": "Adatif",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q11_opt_d",
+        "label": "D",
+        "content": "Adiktif",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q12",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Bagian telinga yang menjadi pembatas antara telinga tengah dan telinga dalam, berfungsi meneruskan getaran suara dari tulang sanggurdi ke rumah siput (koklea), adalah …",
+    "imageUrl": null,
+    "explanation": "Getaran dari tulang sanggurdi diteruskan ke rumah siput melalui **tingkap oval**. Gendang telinga membatasi telinga luar dan telinga tengah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q12_opt_a",
+        "label": "A",
+        "content": "Gendang telinga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q12_opt_b",
+        "label": "B",
+        "content": "Tingkap oval",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q12_opt_c",
+        "label": "C",
+        "content": "Saluran eustachius",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q12_opt_d",
+        "label": "D",
+        "content": "Tulang telinga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q13",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Mengkristal merupakan perubahan wujud benda dari …",
+    "imageUrl": null,
+    "explanation": "Mengkristal (deposisi) adalah perubahan **gas menjadi padat**, contohnya terbentuknya salju dari uap air. Padat ke gas disebut menyublim.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q13_opt_a",
+        "label": "A",
+        "content": "Gas ke cair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q13_opt_b",
+        "label": "B",
+        "content": "Padat ke gas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q13_opt_c",
+        "label": "C",
+        "content": "Gas ke padat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q13_opt_d",
+        "label": "D",
+        "content": "Padat ke cair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q14",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut ini yang **tidak termasuk** cara untuk mengurangi gaya gesek antara dua benda adalah …",
+    "imageUrl": null,
+    "explanation": "Lilin, pelumas, dan bantalan bulat (roda/bola) membuat permukaan lebih licin sehingga gesekan berkurang. Permukaan yang **lebih kasar** justru memperbesar gaya gesek.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q14_opt_a",
+        "label": "A",
+        "content": "Permukaannya dilapisi lilin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q14_opt_b",
+        "label": "B",
+        "content": "Permukaannya diberi pelumas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q14_opt_c",
+        "label": "C",
+        "content": "Permukaannya diberi bantalan bulat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q14_opt_d",
+        "label": "D",
+        "content": "Permukaannya dibuat lebih kasar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q15",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Gaya yang terjadi pada dua benda yang saling bersentuhan dan bergesekan dinamakan gaya …",
+    "imageUrl": null,
+    "explanation": "**Gaya gesek** muncul pada permukaan dua benda yang saling bersentuhan dan arahnya melawan gerak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q15_opt_a",
+        "label": "A",
+        "content": "Gesek",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q15_opt_b",
+        "label": "B",
+        "content": "Gravitasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q15_opt_c",
+        "label": "C",
+        "content": "Pegas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q15_opt_d",
+        "label": "D",
+        "content": "Dorong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q16",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika kita memiliki sebuah balok kayu dan sebuah balok besi dengan ukuran yang sama, balok besi terasa lebih berat. Hal ini menunjukkan bahwa balok besi memiliki …",
+    "imageUrl": null,
+    "explanation": "Ukuran (volume) keduanya sama, tetapi massa besi lebih besar. Artinya **massa jenis** besi lebih besar daripada kayu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q16_opt_a",
+        "label": "A",
+        "content": "Volume yang lebih besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q16_opt_b",
+        "label": "B",
+        "content": "Massa jenis yang lebih besar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q16_opt_c",
+        "label": "C",
+        "content": "Ukuran yang lebih besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q16_opt_d",
+        "label": "D",
+        "content": "Gaya gravitasi yang lebih kecil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q17",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika kita menyetrika baju, terjadi perubahan energi dari …",
+    "imageUrl": null,
+    "explanation": "Setrika memakai listrik untuk menghasilkan panas: **energi listrik menjadi energi panas**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q17_opt_a",
+        "label": "A",
+        "content": "Energi listrik menjadi energi gerak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q17_opt_b",
+        "label": "B",
+        "content": "Energi listrik menjadi energi panas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q17_opt_c",
+        "label": "C",
+        "content": "Energi panas menjadi energi listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q17_opt_d",
+        "label": "D",
+        "content": "Energi gerak menjadi energi panas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q18",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bayangan kita di cermin datar akan selalu terlihat …",
+    "imageUrl": null,
+    "explanation": "Bayangan cermin datar bersifat tegak, **sama besar**, dan berjarak sama dengan benda (hanya kiri-kanannya tertukar).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q18_opt_a",
+        "label": "A",
+        "content": "Lebih besar dari aslinya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q18_opt_b",
+        "label": "B",
+        "content": "Terbalik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q18_opt_c",
+        "label": "C",
+        "content": "Sama besar dengan aslinya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q18_opt_d",
+        "label": "D",
+        "content": "Lebih kecil dari aslinya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q19",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Which of these is the largest bone in the human body?",
+    "imageUrl": null,
+    "explanation": "Tulang terbesar dan terpanjang adalah **tulang paha** (*femur*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q19_opt_a",
+        "label": "A",
+        "content": "Skull",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q19_opt_b",
+        "label": "B",
+        "content": "Femur",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q19_opt_c",
+        "label": "C",
+        "content": "Rib",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q19_opt_d",
+        "label": "D",
+        "content": "Spine",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q20",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Dorongan atau tarikan yang dapat menyebabkan suatu benda bergerak atau berubah bentuk dinamakan …",
+    "imageUrl": null,
+    "explanation": "Pengertian **gaya** adalah dorongan atau tarikan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q20_opt_a",
+        "label": "A",
+        "content": "Suhu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q20_opt_b",
+        "label": "B",
+        "content": "Energi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q20_opt_c",
+        "label": "C",
+        "content": "Gaya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q20_opt_d",
+        "label": "D",
+        "content": "Daya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q21",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bunyi dapat merambat melalui …",
+    "imageUrl": null,
+    "explanation": "Bunyi merambat melalui zat perantara gas (udara), cair (air), dan padat. Contohnya kita bisa mendengar suara dari balik tembok.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q21_opt_a",
+        "label": "A",
+        "content": "Hanya udara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q21_opt_b",
+        "label": "B",
+        "content": "Hanya air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q21_opt_c",
+        "label": "C",
+        "content": "Hanya benda padat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q21_opt_d",
+        "label": "D",
+        "content": "Udara, air, dan benda padat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q22",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah mainan mobil-mobilan ditarik dengan benang. Semakin kuat kita menarik, semakin cepat mobil-mobilan bergerak. Ini menunjukkan pengaruh gaya terhadap …",
+    "imageUrl": null,
+    "explanation": "Gaya yang lebih besar membuat mobil-mobilan bergerak lebih cepat, jadi gaya memengaruhi **kecepatan gerak benda**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q22_opt_a",
+        "label": "A",
+        "content": "Perubahan bentuk benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q22_opt_b",
+        "label": "B",
+        "content": "Perubahan arah gerak benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q22_opt_c",
+        "label": "C",
+        "content": "Perubahan kecepatan gerak benda",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q22_opt_d",
+        "label": "D",
+        "content": "Perubahan warna benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q23",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika sebuah bola lampu di dalam rangkaian listrik sederhana putus, dan lampu lain dalam rangkaian itu ikut padam, maka rangkaian lampu tersebut adalah rangkaian …",
+    "imageUrl": null,
+    "explanation": "Pada **rangkaian seri** arus hanya punya satu jalur. Jika satu lampu putus, jalurnya terputus dan semua lampu padam.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q23_opt_a",
+        "label": "A",
+        "content": "Paralel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q23_opt_b",
+        "label": "B",
+        "content": "Seri",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q23_opt_c",
+        "label": "C",
+        "content": "Campuran",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q23_opt_d",
+        "label": "D",
+        "content": "Ganda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q24",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "How many bones do most adults have in their bodies?",
+    "imageUrl": null,
+    "explanation": "Rangka manusia dewasa terdiri atas **206** tulang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q24_opt_a",
+        "label": "A",
+        "content": "106",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q24_opt_b",
+        "label": "B",
+        "content": "206",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q24_opt_c",
+        "label": "C",
+        "content": "306",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q24_opt_d",
+        "label": "D",
+        "content": "406",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q25",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika suatu benda mengalami gaya gesek, maka yang terjadi pada benda tersebut adalah …",
+    "imageUrl": null,
+    "explanation": "Gaya gesek arahnya berlawanan dengan arah gerak, sehingga **menghambat gerak benda**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q25_opt_a",
+        "label": "A",
+        "content": "Mengubah arah benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q25_opt_b",
+        "label": "B",
+        "content": "Menambah kecepatan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q25_opt_c",
+        "label": "C",
+        "content": "Menambah gerak benda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q25_opt_d",
+        "label": "D",
+        "content": "Menghambat gerak benda",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q26",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika kita meniup balon, udara di dalam balon berwujud …",
+    "imageUrl": null,
+    "explanation": "Udara yang kita tiupkan berwujud **gas**; gas memenuhi seluruh ruang balon sehingga balon mengembang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q26_opt_a",
+        "label": "A",
+        "content": "Padat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q26_opt_b",
+        "label": "B",
+        "content": "Cair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q26_opt_c",
+        "label": "C",
+        "content": "Gas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q26_opt_d",
+        "label": "D",
+        "content": "Menguap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q27",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Pencernaan mengubah senyawa kompleks menjadi senyawa sederhana. Di bawah ini hasil pencernaan yang benar adalah …",
+    "imageUrl": null,
+    "explanation": "Hasil akhir pencernaan: **protein → asam amino**, karbohidrat → glukosa, lemak → asam lemak dan gliserol.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q27_opt_a",
+        "label": "A",
+        "content": "Protein menjadi glukosa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q27_opt_b",
+        "label": "B",
+        "content": "Lemak menjadi maltosa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q27_opt_c",
+        "label": "C",
+        "content": "Lemak menjadi asam amino",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q27_opt_d",
+        "label": "D",
+        "content": "Protein menjadi asam amino",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q28",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Radang pada usus buntu dengan tanda-tanda sakit pada perut sebelah kanan bawah disebut …",
+    "imageUrl": null,
+    "explanation": "Radang usus buntu disebut **apendisitis**. Hepatitis adalah radang hati, maag gangguan lambung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q28_opt_a",
+        "label": "A",
+        "content": "Hepatitis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q28_opt_b",
+        "label": "B",
+        "content": "Tipus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q28_opt_c",
+        "label": "C",
+        "content": "Apendisitis",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q28_opt_d",
+        "label": "D",
+        "content": "Maag",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q29",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "What kind of joint is found at the elbow?",
+    "imageUrl": null,
+    "explanation": "Siku hanya bisa ditekuk ke satu arah seperti engsel pintu, jadi disebut sendi engsel (*hinge joint*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q29_opt_a",
+        "label": "A",
+        "content": "Ball and socket",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q29_opt_b",
+        "label": "B",
+        "content": "Pivot",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q29_opt_c",
+        "label": "C",
+        "content": "Hinge",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q29_opt_d",
+        "label": "D",
+        "content": "Gliding",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q30",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Lapisan ozon terletak pada lapisan atmosfer bumi, yaitu …",
+    "imageUrl": null,
+    "explanation": "Lapisan ozon berada di **stratosfer**, sekitar 15–35 km di atas permukaan bumi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q30_opt_a",
+        "label": "A",
+        "content": "Troposfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q30_opt_b",
+        "label": "B",
+        "content": "Mesosfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q30_opt_c",
+        "label": "C",
+        "content": "Termosfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q30_opt_d",
+        "label": "D",
+        "content": "Stratosfer",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q31",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Peristiwa-peristiwa berikut terjadi pada lapisan termosfer, **kecuali** …",
+    "imageUrl": null,
+    "explanation": "Di termosfer muncul aurora, suhunya naik drastis, dan bagian ionosfernya memantulkan gelombang radio. Peristiwa cuaca seperti **angin kencang** terjadi di troposfer.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q31_opt_a",
+        "label": "A",
+        "content": "Munculnya aurora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q31_opt_b",
+        "label": "B",
+        "content": "Perubahan suhu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q31_opt_c",
+        "label": "C",
+        "content": "Munculnya angin yang sangat kencang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q31_opt_d",
+        "label": "D",
+        "content": "Tempat pemantulan gelombang radio",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q32",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Lapisan ozon yang menyelimuti atmosfer bumi memiliki fungsi, yaitu …",
+    "imageUrl": null,
+    "explanation": "Ozon menyerap sebagian besar **sinar ultraviolet** matahari yang berbahaya bagi kulit dan mata.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q32_opt_a",
+        "label": "A",
+        "content": "Melindungi bumi dari sinar radiasi ultraviolet matahari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q32_opt_b",
+        "label": "B",
+        "content": "Melindungi bumi dari badai besar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q32_opt_c",
+        "label": "C",
+        "content": "Melindungi bumi dari hantaman meteor",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q32_opt_d",
+        "label": "D",
+        "content": "Melindungi bumi dari jatuhnya benda-benda angkasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q33",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Lapisan atmosfer bumi yang paling luar adalah …",
+    "imageUrl": null,
+    "explanation": "Urutan lapisan dari bawah: troposfer, stratosfer, mesosfer, termosfer, dan yang paling luar **eksosfer**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q33_opt_a",
+        "label": "A",
+        "content": "Mesosfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q33_opt_b",
+        "label": "B",
+        "content": "Troposfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q33_opt_c",
+        "label": "C",
+        "content": "Ionosfer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q33_opt_d",
+        "label": "D",
+        "content": "Eksosfer",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q34",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Suatu ekosistem sawah terdiri atas berbagai makhluk hidup seperti tumbuhan padi, tikus, kucing, bakteri, dan jamur. Makhluk hidup yang berperan sebagai pengurai adalah …",
+    "imageUrl": null,
+    "explanation": "Pengurai (dekomposer) menguraikan sisa makhluk hidup yang mati, yaitu **jamur dan bakteri**. Padi produsen, tikus dan kucing konsumen.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q34_opt_a",
+        "label": "A",
+        "content": "Tumbuhan padi dan jamur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q34_opt_b",
+        "label": "B",
+        "content": "Jamur dan bakteri",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q34_opt_c",
+        "label": "C",
+        "content": "Kucing dan tumbuhan padi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q34_opt_d",
+        "label": "D",
+        "content": "Tikus dan kucing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q35",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Buah apel tidak akan melayang meskipun diletakkan di meja. Hal tersebut dikarenakan adanya pengaruh dari gaya …",
+    "imageUrl": null,
+    "explanation": "**Gaya gravitasi** menarik apel ke bawah sehingga apel tetap berada di atas meja.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q35_opt_a",
+        "label": "A",
+        "content": "Tarik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q35_opt_b",
+        "label": "B",
+        "content": "Gesek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q35_opt_c",
+        "label": "C",
+        "content": "Gravitasi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q35_opt_d",
+        "label": "D",
+        "content": "Pegas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q36",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Semakin tinggi … suatu sumber bunyi, maka semakin tinggi juga nadanya.",
+    "imageUrl": null,
+    "explanation": "Tinggi rendahnya nada ditentukan oleh **frekuensi** (banyak getaran tiap detik). Amplitudo menentukan kuat lemahnya bunyi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q36_opt_a",
+        "label": "A",
+        "content": "Amplitudo",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q36_opt_b",
+        "label": "B",
+        "content": "Frekuensi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q36_opt_c",
+        "label": "C",
+        "content": "Panjang gelombang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q36_opt_d",
+        "label": "D",
+        "content": "Letak sumber bunyi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q37",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Di bawah ini yang termasuk sumber daya alam yang dapat diperbarui adalah …",
+    "imageUrl": null,
+    "explanation": "**Kayu** berasal dari pohon yang dapat ditanam kembali. Tembaga, besi, dan batu bara adalah bahan tambang yang tidak dapat diperbarui.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q37_opt_a",
+        "label": "A",
+        "content": "Tembaga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q37_opt_b",
+        "label": "B",
+        "content": "Kayu bakar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q37_opt_c",
+        "label": "C",
+        "content": "Besi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q37_opt_d",
+        "label": "D",
+        "content": "Batu bara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q38",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Cara-cara berikut dapat mengurangi gaya gesek, **kecuali** …",
+    "imageUrl": null,
+    "explanation": "Bantalan bulat, permukaan licin, dan pelumas mengurangi gesekan. Permukaan yang **diperbesar dan dikasarkan** justru menambah gaya gesek.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q38_opt_a",
+        "label": "A",
+        "content": "Permukaannya diberi bantalan bulat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q38_opt_b",
+        "label": "B",
+        "content": "Permukaannya dilicinkan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q38_opt_c",
+        "label": "C",
+        "content": "Permukaannya diberi pelumas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q38_opt_d",
+        "label": "D",
+        "content": "Permukaannya diperbesar dan dikasarkan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_2_q39",
+    "topicId": "top_kmsi_2025_sains_prov_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Which of these is an example of an infectious disease?",
+    "imageUrl": null,
+    "explanation": "Penyakit menular (*infectious*) disebabkan kuman/virus. **Polio** disebabkan virus dan dapat menular. Diabetes, asma, dan patah kaki tidak menular.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q39_opt_a",
+        "label": "A",
+        "content": "Diabetes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q39_opt_b",
+        "label": "B",
+        "content": "Asthma",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q39_opt_c",
+        "label": "C",
+        "content": "Polio",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_2_q39_opt_d",
+        "label": "D",
+        "content": "Broken leg",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

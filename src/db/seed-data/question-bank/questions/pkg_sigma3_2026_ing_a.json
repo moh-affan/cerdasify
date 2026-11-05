@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "pkg_sigma3_2026_ing_a_q01",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "What is the English word for the number 13?",
+    "imageUrl": null,
+    "explanation": "13 = **thirteen** (tiga belas). *Three* = 3, *thirty* = 30, *twenty* = 20.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q01_opt_a",
+        "label": "A",
+        "content": "Twenty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q01_opt_b",
+        "label": "B",
+        "content": "Three",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q01_opt_c",
+        "label": "C",
+        "content": "Thirty",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q01_opt_d",
+        "label": "D",
+        "content": "Thirteen",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q02",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which animal has a long neck?",
+    "imageUrl": null,
+    "explanation": "Jerapah (*giraffe*) memiliki leher yang panjang. Gajah memiliki belalai panjang, bukan leher.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q02_opt_a",
+        "label": "A",
+        "content": "Cow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q02_opt_b",
+        "label": "B",
+        "content": "Mouse",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q02_opt_c",
+        "label": "C",
+        "content": "Giraffe",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q02_opt_d",
+        "label": "D",
+        "content": "Elephant",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q03",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of these is yellow?",
+    "imageUrl": null,
+    "explanation": "Pisang (*banana*) berwarna kuning (*yellow*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q03_opt_a",
+        "label": "A",
+        "content": "Apple",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q03_opt_b",
+        "label": "B",
+        "content": "Orange",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q03_opt_c",
+        "label": "C",
+        "content": "Banana",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q03_opt_d",
+        "label": "D",
+        "content": "Strawberry",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q04",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The Indonesian sentence \"Aku tidak suka jus jeruk\" translates to …",
+    "imageUrl": null,
+    "explanation": "*Tidak suka* = *don't like*, *jus jeruk* = *orange juice*. Jadi: **I don't like orange juice.**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q04_opt_a",
+        "label": "A",
+        "content": "I like orange juice.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q04_opt_b",
+        "label": "B",
+        "content": "I don't like orange juice.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q04_opt_c",
+        "label": "C",
+        "content": "I like orange.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q04_opt_d",
+        "label": "D",
+        "content": "I don't like apple juice.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q05",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Rina: Where are you going?\nArif: I am going to school.\n\nWhat time of day is this conversation most likely happening?",
+    "imageUrl": null,
+    "explanation": "Arif sedang **berangkat** ke sekolah, jadi percakapan terjadi pada **pagi hari** sebelum pelajaran dimulai.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q05_opt_a",
+        "label": "A",
+        "content": "Night, when Rina is sleeping.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q05_opt_b",
+        "label": "B",
+        "content": "Afternoon, after Arif finished school.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q05_opt_c",
+        "label": "C",
+        "content": "Evening, when Arif is going home.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q05_opt_d",
+        "label": "D",
+        "content": "Morning, before Arif starts his lesson.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q06",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "You are translating the sentence: \"Aku mempunyai empat buah penghapus.\" What is the English translation?",
+    "imageUrl": null,
+    "explanation": "*Empat* = *four*, *penghapus* = *eraser*. Karena jumlahnya lebih dari satu, ditambah -s: **I have four erasers.**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q06_opt_a",
+        "label": "A",
+        "content": "I have a ruler.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q06_opt_b",
+        "label": "B",
+        "content": "I have two pens.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q06_opt_c",
+        "label": "C",
+        "content": "I have four eraser.",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q06_opt_d",
+        "label": "D",
+        "content": "I have four erasers.",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q07",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "If you meet your teacher at 7:30 AM, you should say …",
+    "imageUrl": null,
+    "explanation": "Pukul 7.30 pagi (AM) kita mengucapkan **Good morning**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q07_opt_a",
+        "label": "A",
+        "content": "Good evening",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q07_opt_b",
+        "label": "B",
+        "content": "Good afternoon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q07_opt_c",
+        "label": "C",
+        "content": "Good morning",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q07_opt_d",
+        "label": "D",
+        "content": "Goodbye",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q08",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The color of the sky is usually …",
+    "imageUrl": null,
+    "explanation": "Langit biasanya berwarna biru (*blue*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q08_opt_a",
+        "label": "A",
+        "content": "Yellow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q08_opt_b",
+        "label": "B",
+        "content": "Red",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q08_opt_c",
+        "label": "C",
+        "content": "Blue",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q08_opt_d",
+        "label": "D",
+        "content": "Green",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q09",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Aisyah has a red bag. She says, \"I … a red bag.\"",
+    "imageUrl": null,
+    "explanation": "Subjek *I* memakai **have**. *Has* hanya untuk *he, she, it*.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q09_opt_a",
+        "label": "A",
+        "content": "has",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q09_opt_b",
+        "label": "B",
+        "content": "is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q09_opt_c",
+        "label": "C",
+        "content": "am",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q09_opt_d",
+        "label": "D",
+        "content": "have",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q10",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The color of blood is …",
+    "imageUrl": null,
+    "explanation": "Darah berwarna merah (*red*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q10_opt_a",
+        "label": "A",
+        "content": "Blue",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q10_opt_b",
+        "label": "B",
+        "content": "Green",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q10_opt_c",
+        "label": "C",
+        "content": "Red",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q10_opt_d",
+        "label": "D",
+        "content": "Brown",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q11",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "My mother has a white chicken. The subject *My mother* can be replaced by …",
+    "imageUrl": null,
+    "explanation": "*Mother* (ibu) adalah perempuan, jadi diganti dengan **she**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q11_opt_a",
+        "label": "A",
+        "content": "He",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q11_opt_b",
+        "label": "B",
+        "content": "I",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q11_opt_c",
+        "label": "C",
+        "content": "She",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q11_opt_d",
+        "label": "D",
+        "content": "We",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q12",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which word is not a family member?",
+    "imageUrl": null,
+    "explanation": "*Father, sister, grandfather* adalah anggota keluarga. *Fish* (ikan) bukan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q12_opt_a",
+        "label": "A",
+        "content": "Father",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q12_opt_b",
+        "label": "B",
+        "content": "Sister",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q12_opt_c",
+        "label": "C",
+        "content": "Grandfather",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q12_opt_d",
+        "label": "D",
+        "content": "Fish",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q13",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Made is a male student. We use the pronoun …",
+    "imageUrl": null,
+    "explanation": "Laki-laki (*male*) memakai kata ganti **he**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q13_opt_a",
+        "label": "A",
+        "content": "She",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q13_opt_b",
+        "label": "B",
+        "content": "I",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q13_opt_c",
+        "label": "C",
+        "content": "He",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q13_opt_d",
+        "label": "D",
+        "content": "You",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q14",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "An elephant is a big animal. The opposite of *big* is …",
+    "imageUrl": null,
+    "explanation": "Lawan kata *big* (besar) adalah **small** (kecil).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q14_opt_a",
+        "label": "A",
+        "content": "Circle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q14_opt_b",
+        "label": "B",
+        "content": "Triangle",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q14_opt_c",
+        "label": "C",
+        "content": "Red",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q14_opt_d",
+        "label": "D",
+        "content": "Small",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q15",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "My favorite fruit is apple. This means I … apples very much.",
+    "imageUrl": null,
+    "explanation": "Buah favorit berarti kita menyukainya. Subjek *I* memakai **like** (tanpa -s).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q15_opt_a",
+        "label": "A",
+        "content": "don't like",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q15_opt_b",
+        "label": "B",
+        "content": "doesn't like",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q15_opt_c",
+        "label": "C",
+        "content": "like",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q15_opt_d",
+        "label": "D",
+        "content": "likes",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q16",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "A: Does your father like pineapple?\nB: No, he …",
+    "imageUrl": null,
+    "explanation": "Pertanyaan dengan *does* dijawab negatif dengan **doesn't**: *No, he doesn't.*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q16_opt_a",
+        "label": "A",
+        "content": "is not",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q16_opt_b",
+        "label": "B",
+        "content": "don't",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q16_opt_c",
+        "label": "C",
+        "content": "does",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q16_opt_d",
+        "label": "D",
+        "content": "doesn't",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q17",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "The verb in the sentence \"My grandmother likes tea\" is …",
+    "imageUrl": null,
+    "explanation": "Kata kerja (*verb*) adalah kata yang menunjukkan perbuatan, yaitu **likes**. *My grandmother* adalah subjek, *tea* adalah objek.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q17_opt_a",
+        "label": "A",
+        "content": "My grandmother",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q17_opt_b",
+        "label": "B",
+        "content": "tea",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q17_opt_c",
+        "label": "C",
+        "content": "likes",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q17_opt_d",
+        "label": "D",
+        "content": "The whole sentence",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q18",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "The plural form of \"one book\" is …",
+    "imageUrl": null,
+    "explanation": "Bentuk jamak *book* adalah *books*, jadi **two books**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q18_opt_a",
+        "label": "A",
+        "content": "two book",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q18_opt_b",
+        "label": "B",
+        "content": "one book",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q18_opt_c",
+        "label": "C",
+        "content": "two books",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q18_opt_d",
+        "label": "D",
+        "content": "one books",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q19",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "I am thirsty. I want to … water.",
+    "imageUrl": null,
+    "explanation": "Saat haus (*thirsty*) kita minum (*drink*) air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q19_opt_a",
+        "label": "A",
+        "content": "eat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q19_opt_b",
+        "label": "B",
+        "content": "run",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q19_opt_c",
+        "label": "C",
+        "content": "drink",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q19_opt_d",
+        "label": "D",
+        "content": "sleep",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q20",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My School Day (Soal No. 20 – 23)]\n*Read the text below to answer the questions!*\n\nHello! My name is Made. I am a boy. I go to school in the morning. I have a small bag. The bag is red. Inside my bag, I have one …(1)… and five pencils.\n\nToday I meet my friend, Cici. She says, \"How …(2)… you, Made?\" I reply, \"I am fine.\"\n\nCici has a ruler. The ruler is long. Cici and I like to eat the fruit that is yellow and long; it is a banana.\n\nThere are …(3)… students in our class. When we finish school at 1 PM, we say …(4)… to the teacher. Cici has one brother. We both like to play in the park.\n:::\n\nWhat is the correct word for blank (1)?",
+    "imageUrl": null,
+    "explanation": "Benda yang dimasukkan ke dalam tas sekolah bersama pensil adalah **buku** (*book*). Kursi dan meja tidak muat di tas.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q20_opt_a",
+        "label": "A",
+        "content": "Chair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q20_opt_b",
+        "label": "B",
+        "content": "Table",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q20_opt_c",
+        "label": "C",
+        "content": "Rice",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q20_opt_d",
+        "label": "D",
+        "content": "Book",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q21",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My School Day (Soal No. 20 – 23)]\n*Read the text below to answer the questions!*\n\nHello! My name is Made. I am a boy. I go to school in the morning. I have a small bag. The bag is red. Inside my bag, I have one …(1)… and five pencils.\n\nToday I meet my friend, Cici. She says, \"How …(2)… you, Made?\" I reply, \"I am fine.\"\n\nCici has a ruler. The ruler is long. Cici and I like to eat the fruit that is yellow and long; it is a banana.\n\nThere are …(3)… students in our class. When we finish school at 1 PM, we say …(4)… to the teacher. Cici has one brother. We both like to play in the park.\n:::\n\nWhat is the correct word for blank (2)?",
+    "imageUrl": null,
+    "explanation": "Ungkapan menanyakan kabar: *How **are** you?*",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q21_opt_a",
+        "label": "A",
+        "content": "Is",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q21_opt_b",
+        "label": "B",
+        "content": "Am",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q21_opt_c",
+        "label": "C",
+        "content": "Have",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q21_opt_d",
+        "label": "D",
+        "content": "Are",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q22",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": ":::passage[My School Day (Soal No. 20 – 23)]\n*Read the text below to answer the questions!*\n\nHello! My name is Made. I am a boy. I go to school in the morning. I have a small bag. The bag is red. Inside my bag, I have one …(1)… and five pencils.\n\nToday I meet my friend, Cici. She says, \"How …(2)… you, Made?\" I reply, \"I am fine.\"\n\nCici has a ruler. The ruler is long. Cici and I like to eat the fruit that is yellow and long; it is a banana.\n\nThere are …(3)… students in our class. When we finish school at 1 PM, we say …(4)… to the teacher. Cici has one brother. We both like to play in the park.\n:::\n\nWhat is the correct word for blank (3)?",
+    "imageUrl": null,
+    "explanation": "*There are … students* membutuhkan bilangan lebih dari satu, yaitu **ten**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q22_opt_a",
+        "label": "A",
+        "content": "one",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q22_opt_b",
+        "label": "B",
+        "content": "class",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q22_opt_c",
+        "label": "C",
+        "content": "small",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q22_opt_d",
+        "label": "D",
+        "content": "ten",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_sigma3_2026_ing_a_q23",
+    "topicId": "top_sigma3_2026_ing_a",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": ":::passage[My School Day (Soal No. 20 – 23)]\n*Read the text below to answer the questions!*\n\nHello! My name is Made. I am a boy. I go to school in the morning. I have a small bag. The bag is red. Inside my bag, I have one …(1)… and five pencils.\n\nToday I meet my friend, Cici. She says, \"How …(2)… you, Made?\" I reply, \"I am fine.\"\n\nCici has a ruler. The ruler is long. Cici and I like to eat the fruit that is yellow and long; it is a banana.\n\nThere are …(3)… students in our class. When we finish school at 1 PM, we say …(4)… to the teacher. Cici has one brother. We both like to play in the park.\n:::\n\nWhat is the correct word for blank (4)?",
+    "imageUrl": null,
+    "explanation": "Sekolah selesai pukul 1 siang (1 PM), jadi ucapan yang tepat adalah **Good afternoon**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_sigma3_2026_ing_a_q23_opt_a",
+        "label": "A",
+        "content": "Good morning",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q23_opt_b",
+        "label": "B",
+        "content": "Good evening",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q23_opt_c",
+        "label": "C",
+        "content": "Good afternoon",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_sigma3_2026_ing_a_q23_opt_d",
+        "label": "D",
+        "content": "Good night",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

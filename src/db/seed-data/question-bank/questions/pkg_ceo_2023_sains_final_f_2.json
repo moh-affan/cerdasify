@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q01",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut ini yang termasuk ke dalam makhluk hidup, **kecuali** …",
+    "imageUrl": null,
+    "explanation": "Platipus (hewan), anggrek (tumbuhan), dan hydra (hewan air kecil) adalah makhluk hidup. **Virus** tidak dapat makan, bernapas, atau berkembang biak sendiri di luar sel makhluk lain, sehingga tidak digolongkan sebagai makhluk hidup sepenuhnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q01_opt_a",
+        "label": "A",
+        "content": "Platipus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q01_opt_b",
+        "label": "B",
+        "content": "Anggrek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q01_opt_c",
+        "label": "C",
+        "content": "Hydra",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q01_opt_d",
+        "label": "D",
+        "content": "Virus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q02",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hewan yang mengalami metamorfosis tidak sempurna adalah …",
+    "imageUrl": null,
+    "explanation": "Metamorfosis tidak sempurna: telur → nimfa → dewasa (tanpa kepompong), contohnya **belalang**. Kupu-kupu, lalat, dan lebah melalui tahap kepompong (metamorfosis sempurna).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q02_opt_a",
+        "label": "A",
+        "content": "Kupu-kupu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q02_opt_b",
+        "label": "B",
+        "content": "Belalang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q02_opt_c",
+        "label": "C",
+        "content": "Lalat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q02_opt_d",
+        "label": "D",
+        "content": "Lebah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q03",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut ini yang merupakan hewan marsupial (berkantung) adalah …",
+    "imageUrl": null,
+    "explanation": "Hewan D adalah **koala**, hewan berkantung (marsupial) dari Australia. Bayinya tumbuh di kantung induknya. Katak, kelinci, dan kuda tidak berkantung.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q03_opt_a",
+        "label": "A",
+        "content": "Hewan A",
+        "imageUrl": "/uploads/ceo23_final_s2_katak.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q03_opt_b",
+        "label": "B",
+        "content": "Hewan B",
+        "imageUrl": "/uploads/ceo23_final_s2_kelinci.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q03_opt_c",
+        "label": "C",
+        "content": "Hewan C",
+        "imageUrl": "/uploads/ceo23_final_s2_kuda.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q03_opt_d",
+        "label": "D",
+        "content": "Hewan D",
+        "imageUrl": "/uploads/ceo23_final_s2_koala.png",
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q04",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Penyakit yang disebabkan oleh pencemaran air adalah …",
+    "imageUrl": null,
+    "explanation": "**Kolera** disebabkan bakteri yang menyebar lewat air yang tercemar kotoran, dengan gejala diare berat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q04_opt_a",
+        "label": "A",
+        "content": "Demam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q04_opt_b",
+        "label": "B",
+        "content": "Kolera",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q04_opt_c",
+        "label": "C",
+        "content": "Anemia",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q04_opt_d",
+        "label": "D",
+        "content": "Batuk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q05",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut ini yang merupakan benda-benda yang mudah menguap adalah …",
+    "imageUrl": null,
+    "explanation": "**Spiritus dan parfum** sama-sama sangat mudah menguap; baunya cepat tercium dan cairannya cepat habis bila dibiarkan terbuka. Pada pilihan lain ada benda yang tidak mudah menguap (kecap, susu, air).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q05_opt_a",
+        "label": "A",
+        "content": "Air keran dan kecap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q05_opt_b",
+        "label": "B",
+        "content": "Spiritus dan parfum",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q05_opt_c",
+        "label": "C",
+        "content": "Alkohol dan susu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q05_opt_d",
+        "label": "D",
+        "content": "Bensin dan air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q06",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Berikut ini yang merupakan perubahan wujud yang **melepas** kalor adalah …",
+    "imageUrl": null,
+    "explanation": "**Mengembun** (gas → cair) melepaskan kalor. Mencair, menyublim, dan menguap justru membutuhkan (menyerap) kalor.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q06_opt_a",
+        "label": "A",
+        "content": "Mencair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q06_opt_b",
+        "label": "B",
+        "content": "Menyublim",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q06_opt_c",
+        "label": "C",
+        "content": "Mengembun",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q06_opt_d",
+        "label": "D",
+        "content": "Menguap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q07",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut ini yang merupakan contoh gerak benda vertikal adalah …",
+    "imageUrl": null,
+    "explanation": "Gerak vertikal adalah gerak naik-turun. Pada gambar A, bola basket dipantulkan **naik-turun**. Gambar B gerak zig-zag, C berenang (mendatar), D tarik tambang (mendatar).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q07_opt_a",
+        "label": "A",
+        "content": "Gambar A",
+        "imageUrl": "/uploads/ceo23_final_s2_gerak_a.png",
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q07_opt_b",
+        "label": "B",
+        "content": "Gambar B",
+        "imageUrl": "/uploads/ceo23_final_s2_gerak_b.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q07_opt_c",
+        "label": "C",
+        "content": "Gambar C",
+        "imageUrl": "/uploads/ceo23_final_s2_gerak_c.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q07_opt_d",
+        "label": "D",
+        "content": "Gambar D",
+        "imageUrl": "/uploads/ceo23_final_s2_gerak_d.png",
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q08",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Contoh peristiwa kondensasi (pengembunan) adalah …",
+    "imageUrl": null,
+    "explanation": "Kondensasi adalah uap air yang berubah menjadi titik-titik air. Uap air di udara yang mendingin dan mengembun membentuk **awan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q08_opt_a",
+        "label": "A",
+        "content": "Merebus air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q08_opt_b",
+        "label": "B",
+        "content": "Membuat es",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q08_opt_c",
+        "label": "C",
+        "content": "Membuat garam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q08_opt_d",
+        "label": "D",
+        "content": "Pembentukan awan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q09",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut ini yang **bukan** ciri-ciri energi adalah …",
+    "imageUrl": null,
+    "explanation": "Energi tidak dapat dilihat, tetapi dapat dirasakan dan dimanfaatkan (misalnya panas). Jadi \"**dapat terlihat**\" bukan ciri energi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q09_opt_a",
+        "label": "A",
+        "content": "Dapat dirasakan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q09_opt_b",
+        "label": "B",
+        "content": "Dapat dimanfaatkan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q09_opt_c",
+        "label": "C",
+        "content": "Dapat terlihat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q09_opt_d",
+        "label": "D",
+        "content": "Tidak terlihat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q10",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Peristiwa matinya bintang besar yang disertai ledakan dahsyat disebut …",
+    "imageUrl": null,
+    "explanation": "**Supernova** adalah ledakan bintang besar di akhir hidupnya. \"Bintang jatuh\" sebenarnya meteor yang terbakar di atmosfer.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q10_opt_a",
+        "label": "A",
+        "content": "Bintang jatuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q10_opt_b",
+        "label": "B",
+        "content": "Kaleidoskop",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q10_opt_c",
+        "label": "C",
+        "content": "Supernova",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q10_opt_d",
+        "label": "D",
+        "content": "Galaksi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q11",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Laut yang relatif sempit karena diapit oleh dua atau beberapa daratan (pulau) yang berdekatan disebut …",
+    "imageUrl": null,
+    "explanation": "**Selat** adalah laut sempit di antara dua pulau, contohnya Selat Sunda di antara Jawa dan Sumatra. Teluk adalah laut yang menjorok ke daratan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q11_opt_a",
+        "label": "A",
+        "content": "Pantai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q11_opt_b",
+        "label": "B",
+        "content": "Selat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q11_opt_c",
+        "label": "C",
+        "content": "Teluk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q11_opt_d",
+        "label": "D",
+        "content": "Laguna",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q12",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Berikut ini contoh sumber daya alam nonhayati adalah …",
+    "imageUrl": null,
+    "explanation": "SDA nonhayati berasal dari benda tak hidup, contohnya **mineral**. Tumbuhan, hewan, dan mikroba adalah SDA hayati.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q12_opt_a",
+        "label": "A",
+        "content": "Tumbuhan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q12_opt_b",
+        "label": "B",
+        "content": "Hewan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q12_opt_c",
+        "label": "C",
+        "content": "Mikroba",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q12_opt_d",
+        "label": "D",
+        "content": "Mineral",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q13",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bagian bunga yang berfungsi sebagai alat kelamin jantan ditunjukkan oleh nomor …",
+    "imageUrl": "/uploads/ceo23_final_s2_bunga.png",
+    "explanation": "Alat kelamin jantan adalah **benang sari**, yang ditunjuk nomor 1 (kepala sari di ujung tangkai sari). Nomor 2 adalah putik (alat kelamin betina), 3 mahkota, 4 bakal buah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q13_opt_a",
+        "label": "A",
+        "content": "1",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q13_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q13_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q13_opt_d",
+        "label": "D",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q14",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Fungsi akar pada singkong adalah …",
+    "imageUrl": null,
+    "explanation": "Akar singkong menggembung menjadi umbi untuk **menyimpan cadangan makanan** (zat tepung).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q14_opt_a",
+        "label": "A",
+        "content": "Tempat fotosintesis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q14_opt_b",
+        "label": "B",
+        "content": "Menyimpan cadangan makanan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q14_opt_c",
+        "label": "C",
+        "content": "Memasukkan oksigen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q14_opt_d",
+        "label": "D",
+        "content": "Menyalurkan hasil fotosintesis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q15",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bahan yang diperlukan tumbuhan untuk melakukan fotosintesis adalah …",
+    "imageUrl": null,
+    "explanation": "Fotosintesis memakai **air dan karbon dioksida** dengan bantuan cahaya matahari, menghasilkan karbohidrat (glukosa) dan oksigen.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q15_opt_a",
+        "label": "A",
+        "content": "Air dan oksigen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q15_opt_b",
+        "label": "B",
+        "content": "Oksigen dan cahaya matahari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q15_opt_c",
+        "label": "C",
+        "content": "Air dan karbon dioksida",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q15_opt_d",
+        "label": "D",
+        "content": "Karbon dioksida dan karbohidrat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q16",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Olahraga pada gambar memanfaatkan gaya …",
+    "imageUrl": "/uploads/ceo23_final_s2_panahan.png",
+    "explanation": "Pada panahan, tali busur yang ditarik akan kembali ke bentuk semula dan melontarkan anak panah. Ini memanfaatkan **gaya pegas** (gaya lenting).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q16_opt_a",
+        "label": "A",
+        "content": "Pegas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q16_opt_b",
+        "label": "B",
+        "content": "Gravitasi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q16_opt_c",
+        "label": "C",
+        "content": "Magnet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q16_opt_d",
+        "label": "D",
+        "content": "Listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q17",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Berikut ini yang **bukan** bentuk energi kinetik (energi gerak) adalah …",
+    "imageUrl": null,
+    "explanation": "Energi gravitasi (energi karena ketinggian benda) termasuk **energi potensial**, bukan energi kinetik.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q17_opt_a",
+        "label": "A",
+        "content": "Energi gravitasi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q17_opt_b",
+        "label": "B",
+        "content": "Energi cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q17_opt_c",
+        "label": "C",
+        "content": "Energi panas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q17_opt_d",
+        "label": "D",
+        "content": "Energi listrik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q18",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Semakin kasar permukaan ban sepeda yang bersentuhan dengan jalan, maka gaya gesek akan semakin …",
+    "imageUrl": null,
+    "explanation": "Permukaan yang lebih kasar membuat gaya gesek semakin **besar**, sehingga ban tidak mudah selip.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q18_opt_a",
+        "label": "A",
+        "content": "Besar",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q18_opt_b",
+        "label": "B",
+        "content": "Kecil",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q18_opt_c",
+        "label": "C",
+        "content": "Cepat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q18_opt_d",
+        "label": "D",
+        "content": "Berkurang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q19",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut ini tumbuhan yang bertulang daun sejajar adalah …",
+    "imageUrl": null,
+    "explanation": "**Jagung dan padi** termasuk rumput-rumputan dengan tulang daun sejajar. Mangga dan jambu bertulang daun menyirip.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q19_opt_a",
+        "label": "A",
+        "content": "Mangga dan rumput",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q19_opt_b",
+        "label": "B",
+        "content": "Jagung dan padi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q19_opt_c",
+        "label": "C",
+        "content": "Rumput dan jambu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q19_opt_d",
+        "label": "D",
+        "content": "Ilalang dan mangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q20",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tumbuhan bernapas menggunakan …",
+    "imageUrl": null,
+    "explanation": "Tumbuhan bertukar gas (mengambil oksigen dan karbon dioksida) melalui **stomata**, yaitu mulut daun. Xilem mengangkut air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q20_opt_a",
+        "label": "A",
+        "content": "Benang sari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q20_opt_b",
+        "label": "B",
+        "content": "Mahkota bunga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q20_opt_c",
+        "label": "C",
+        "content": "Stomata",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q20_opt_d",
+        "label": "D",
+        "content": "Xilem",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q21",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Berikut ini tumbuhan yang berkembang biak dengan cara stek, **kecuali** …",
+    "imageUrl": null,
+    "explanation": "Singkong, tebu, dan mawar bisa ditanam dari potongan batang (stek). **Padi** berkembang biak dengan biji.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q21_opt_a",
+        "label": "A",
+        "content": "Singkong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q21_opt_b",
+        "label": "B",
+        "content": "Tebu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q21_opt_c",
+        "label": "C",
+        "content": "Mawar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q21_opt_d",
+        "label": "D",
+        "content": "Padi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q22",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Pada siang hari yang cerah, rel kereta api pada bagian sambungan rel akan lebih rapat dibandingkan pada malam hari. Hal ini bisa terjadi karena …",
+    "imageUrl": null,
+    "explanation": "Besi rel **memuai** (bertambah panjang) saat panas, sehingga celah sambungan menyempit. Itu sebabnya sambungan rel diberi celah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q22_opt_a",
+        "label": "A",
+        "content": "Kualitas rel kereta api yang rendah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q22_opt_b",
+        "label": "B",
+        "content": "Rel kereta api mengalami pemuaian karena panas sinar matahari",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q22_opt_c",
+        "label": "C",
+        "content": "Pada siang hari lebih banyak kereta yang melewati rel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q22_opt_d",
+        "label": "D",
+        "content": "Rel kereta api mengalami penyusutan karena melepaskan panas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q23",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "(Uraian) Pengertian ekolokasi beserta contoh hewan yang menggunakannya adalah …",
+    "imageUrl": null,
+    "explanation": "**Ekolokasi** adalah kemampuan mengeluarkan bunyi lalu mendengarkan pantulannya untuk mengetahui letak benda atau mangsa. Hewan yang memakainya antara lain **kelelawar, lumba-lumba, dan paus**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q23_opt_a",
+        "label": "A",
+        "content": "Kemampuan menentukan letak benda dengan pantulan bunyi; contohnya kelelawar, lumba-lumba, dan paus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q23_opt_b",
+        "label": "B",
+        "content": "Kemampuan melihat dalam gelap; contohnya burung hantu, kucing, dan harimau",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q23_opt_c",
+        "label": "C",
+        "content": "Kemampuan mengubah warna kulit; contohnya bunglon, gurita, dan sotong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q23_opt_d",
+        "label": "D",
+        "content": "Kemampuan hidup di dua alam; contohnya katak, salamander, dan kodok",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_ceo_2023_sains_final_f_2_q24",
+    "topicId": "top_ceo_2023_sains_final_2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "(Uraian) Pernyataan yang tepat tentang pengertian dan proses fotosintesis adalah …",
+    "imageUrl": null,
+    "explanation": "Fotosintesis berlangsung di daun yang mengandung **klorofil**. Dengan energi **cahaya matahari**, air (dari akar) dan karbon dioksida (dari udara) diubah menjadi **glukosa** (makanan) dan **oksigen**. Pilihan B adalah respirasi, D adalah transpirasi.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q24_opt_a",
+        "label": "A",
+        "content": "Proses tumbuhan hijau membuat makanan sendiri: air dan karbon dioksida diubah menjadi glukosa dan oksigen dengan bantuan cahaya matahari dan klorofil",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q24_opt_b",
+        "label": "B",
+        "content": "Proses tumbuhan menyerap oksigen dan mengeluarkan karbon dioksida pada malam hari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q24_opt_c",
+        "label": "C",
+        "content": "Proses tumbuhan berkembang biak dengan biji melalui penyerbukan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_ceo_2023_sains_final_f_2_q24_opt_d",
+        "label": "D",
+        "content": "Proses penguapan air dari daun melalui stomata",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]

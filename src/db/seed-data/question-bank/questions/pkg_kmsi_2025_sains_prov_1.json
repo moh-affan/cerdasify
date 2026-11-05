@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q01",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Contoh hewan yang merugikan adalah …",
+    "imageUrl": null,
+    "explanation": "Tikus merusak tanaman dan menyebarkan penyakit, nyamuk menularkan demam berdarah dan malaria, lalat membawa kuman ke makanan. Lebah, burung, dan kupu-kupu justru membantu penyerbukan, sedangkan ayam, ikan, dan bebek adalah hewan ternak yang bermanfaat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q01_opt_a",
+        "label": "A",
+        "content": "Tikus, nyamuk, dan lalat",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q01_opt_b",
+        "label": "B",
+        "content": "Nyamuk, lebah, dan burung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q01_opt_c",
+        "label": "C",
+        "content": "Lalat, kupu-kupu, dan kecoa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q01_opt_d",
+        "label": "D",
+        "content": "Ayam, ikan, dan bebek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q02",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tumbuhan yang hidupnya menempel pada tumbuhan lain adalah …",
+    "imageUrl": null,
+    "explanation": "**Benalu** hidup menempel dan menyerap makanan dari tumbuhan inangnya (parasit).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q02_opt_a",
+        "label": "A",
+        "content": "Pisang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q02_opt_b",
+        "label": "B",
+        "content": "Benalu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q02_opt_c",
+        "label": "C",
+        "content": "Mangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q02_opt_d",
+        "label": "D",
+        "content": "Nangka",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q03",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tumbuhan yang hidupnya di air adalah …",
+    "imageUrl": null,
+    "explanation": "**Eceng gondok** mengapung di permukaan air berkat tangkai daunnya yang menggembung berisi udara.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q03_opt_a",
+        "label": "A",
+        "content": "Rumput",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q03_opt_b",
+        "label": "B",
+        "content": "Eceng gondok",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q03_opt_c",
+        "label": "C",
+        "content": "Jamur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q03_opt_d",
+        "label": "D",
+        "content": "Bunga mawar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q04",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Contoh tumbuhan sayuran adalah …",
+    "imageUrl": null,
+    "explanation": "Bayam, sawi, dan kangkung semuanya sayuran. Semangka, sawo, dan melon adalah buah-buahan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q04_opt_a",
+        "label": "A",
+        "content": "Bayam, semangka, dan kangkung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q04_opt_b",
+        "label": "B",
+        "content": "Bayam, sawo, dan kangkung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q04_opt_c",
+        "label": "C",
+        "content": "Bayam, sawi, dan kangkung",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q04_opt_d",
+        "label": "D",
+        "content": "Bayam, melon, dan kangkung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q05",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tulang daun pohon kelapa dapat dimanfaatkan untuk membuat …",
+    "imageUrl": null,
+    "explanation": "Tulang daun kelapa disebut **lidi**, yang diikat menjadi sapu lidi. Keset biasanya dari sabut kelapa.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q05_opt_a",
+        "label": "A",
+        "content": "Keset",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q05_opt_b",
+        "label": "B",
+        "content": "Sapu lidi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q05_opt_c",
+        "label": "C",
+        "content": "Bungkus makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q05_opt_d",
+        "label": "D",
+        "content": "Baju",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q06",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Buah mangga, apel, dan jeruk mengandung nutrisi yang sangat diperlukan tubuh. Jika kalian rajin memakan buah-buahan ini, tubuh kalian akan terhindar dari penyakit …",
+    "imageUrl": null,
+    "explanation": "Buah-buahan ini kaya **vitamin C** yang mencegah sariawan. Rabun senja karena kurang vitamin A, rakitis karena kurang vitamin D.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q06_opt_a",
+        "label": "A",
+        "content": "Sariawan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q06_opt_b",
+        "label": "B",
+        "content": "Rabun senja",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q06_opt_c",
+        "label": "C",
+        "content": "Demam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q06_opt_d",
+        "label": "D",
+        "content": "Rakitis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q07",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Benda yang sifatnya dapat mengalir dan bentuknya selalu mengikuti wadahnya adalah …",
+    "imageUrl": null,
+    "explanation": "Itu sifat **benda cair**, contohnya air. Batu dan kayu benda padat; udara benda gas yang memenuhi seluruh ruang.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q07_opt_a",
+        "label": "A",
+        "content": "Batu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q07_opt_b",
+        "label": "B",
+        "content": "Udara",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q07_opt_c",
+        "label": "C",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q07_opt_d",
+        "label": "D",
+        "content": "Kayu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q08",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika kita mendorong mainan mobil-mobilan, mobil-mobilan tersebut akan …",
+    "imageUrl": null,
+    "explanation": "Dorongan adalah gaya. Gaya dapat membuat benda diam menjadi **bergerak**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q08_opt_a",
+        "label": "A",
+        "content": "Berhenti",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q08_opt_b",
+        "label": "B",
+        "content": "Bergerak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q08_opt_c",
+        "label": "C",
+        "content": "Berubah bentuk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q08_opt_d",
+        "label": "D",
+        "content": "Berbunyi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q09",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Kita bisa melihat benda-benda di sekitar kita karena ada …",
+    "imageUrl": null,
+    "explanation": "Benda terlihat karena **cahaya** yang dipantulkan benda masuk ke mata kita. Di ruang yang gelap total kita tidak bisa melihat apa pun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q09_opt_a",
+        "label": "A",
+        "content": "Bunyi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q09_opt_b",
+        "label": "B",
+        "content": "Panas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q09_opt_c",
+        "label": "C",
+        "content": "Cahaya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q09_opt_d",
+        "label": "D",
+        "content": "Magnet",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q10",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Where can you find frogs?",
+    "imageUrl": null,
+    "explanation": "Katak adalah hewan amfibi yang dapat hidup **di darat dan di air** (*both land and water*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q10_opt_a",
+        "label": "A",
+        "content": "Land",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q10_opt_b",
+        "label": "B",
+        "content": "Water",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q10_opt_c",
+        "label": "C",
+        "content": "Both a and b",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q10_opt_d",
+        "label": "D",
+        "content": "Air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q11",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Contoh hewan amfibi adalah …",
+    "imageUrl": null,
+    "explanation": "Amfibi hidup di dua alam (air dan darat). Contohnya **katak**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q11_opt_a",
+        "label": "A",
+        "content": "Ikan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q11_opt_b",
+        "label": "B",
+        "content": "Kucing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q11_opt_c",
+        "label": "C",
+        "content": "Katak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q11_opt_d",
+        "label": "D",
+        "content": "Ayam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q12",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Hewan yang berkembang biak dengan cara melahirkan adalah …",
+    "imageUrl": null,
+    "explanation": "**Kucing** melahirkan anak (vivipar). Katak, ayam, dan bebek bertelur.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q12_opt_a",
+        "label": "A",
+        "content": "Kucing",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q12_opt_b",
+        "label": "B",
+        "content": "Katak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q12_opt_c",
+        "label": "C",
+        "content": "Ayam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q12_opt_d",
+        "label": "D",
+        "content": "Bebek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q13",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Anak ayam yang sudah dewasa, di kepalanya akan tumbuh …",
+    "imageUrl": null,
+    "explanation": "Ayam dewasa memiliki **jengger**, yaitu daging merah di atas kepala.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q13_opt_a",
+        "label": "A",
+        "content": "Tanduk",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q13_opt_b",
+        "label": "B",
+        "content": "Telinga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q13_opt_c",
+        "label": "C",
+        "content": "Belalai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q13_opt_d",
+        "label": "D",
+        "content": "Jengger",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q14",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Insang pada ikan berguna untuk …",
+    "imageUrl": null,
+    "explanation": "Insang menyaring oksigen dari air, jadi berguna untuk **bernapas**. Untuk berenang dan keseimbangan ikan memakai sirip.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q14_opt_a",
+        "label": "A",
+        "content": "Berenang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q14_opt_b",
+        "label": "B",
+        "content": "Bernapas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q14_opt_c",
+        "label": "C",
+        "content": "Keseimbangan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q14_opt_d",
+        "label": "D",
+        "content": "Bertelur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q15",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bagian tumbuhan untuk alat perkembangbiakan adalah …",
+    "imageUrl": null,
+    "explanation": "**Bunga** adalah alat perkembangbiakan generatif tumbuhan; di dalamnya terjadi penyerbukan yang menghasilkan biji.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q15_opt_a",
+        "label": "A",
+        "content": "Akar",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q15_opt_b",
+        "label": "B",
+        "content": "Daun",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q15_opt_c",
+        "label": "C",
+        "content": "Bunga",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q15_opt_d",
+        "label": "D",
+        "content": "Buah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q16",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hewan yang hanya dapat ditemukan di wilayah Arktik (kutub utara) adalah …",
+    "imageUrl": null,
+    "explanation": "**Walrus** hidup di laut dingin sekitar kutub utara (Arktik). Penguin hidup di belahan bumi selatan (Antartika), llama di pegunungan Amerika Selatan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q16_opt_a",
+        "label": "A",
+        "content": "Walrus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q16_opt_b",
+        "label": "B",
+        "content": "Llama",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q16_opt_c",
+        "label": "C",
+        "content": "Kura-kura",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q16_opt_d",
+        "label": "D",
+        "content": "Penguin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q17",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Benda yang paling mudah ditarik oleh magnet adalah …",
+    "imageUrl": null,
+    "explanation": "Magnet menarik benda dari besi atau baja, seperti **paku besi**. Kayu, plastik, dan kertas tidak ditarik magnet.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q17_opt_a",
+        "label": "A",
+        "content": "Kayu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q17_opt_b",
+        "label": "B",
+        "content": "Plastik",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q17_opt_c",
+        "label": "C",
+        "content": "Kertas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q17_opt_d",
+        "label": "D",
+        "content": "Paku besi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q18",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Ketika kita bermain perosotan, tubuh kita bergerak dari atas ke bawah karena adanya gaya …",
+    "imageUrl": null,
+    "explanation": "**Gaya gravitasi bumi** menarik semua benda ke bawah, sehingga kita meluncur turun.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q18_opt_a",
+        "label": "A",
+        "content": "Dorong",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q18_opt_b",
+        "label": "B",
+        "content": "Pegas",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q18_opt_c",
+        "label": "C",
+        "content": "Gravitasi bumi",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q18_opt_d",
+        "label": "D",
+        "content": "Gesek",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q19",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jika kamu meletakkan sebuah es batu di bawah sinar matahari, apa yang akan terjadi pada es batu itu?",
+    "imageUrl": null,
+    "explanation": "Panas matahari membuat es (padat) berubah menjadi air (cair). Peristiwa ini disebut **mencair**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q19_opt_a",
+        "label": "A",
+        "content": "Es batu akan membeku",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q19_opt_b",
+        "label": "B",
+        "content": "Es batu akan mencair",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q19_opt_c",
+        "label": "C",
+        "content": "Es batu akan menguap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q19_opt_d",
+        "label": "D",
+        "content": "Es batu akan berubah warna",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q20",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of the following animals has two legs?",
+    "imageUrl": null,
+    "explanation": "Burung hantu (*owl*) adalah burung, berkaki **dua**. Harimau, unta, dan sapi berkaki empat.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q20_opt_a",
+        "label": "A",
+        "content": "A tiger",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q20_opt_b",
+        "label": "B",
+        "content": "A camel",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q20_opt_c",
+        "label": "C",
+        "content": "An owl",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q20_opt_d",
+        "label": "D",
+        "content": "A cow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q21",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Apa yang menyebabkan terjadinya gerhana bulan?",
+    "imageUrl": null,
+    "explanation": "Gerhana bulan terjadi saat matahari–bumi–bulan segaris dan **bumi berada di tengah**, sehingga bayangan bumi menutupi bulan. Pilihan B adalah gerhana matahari.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q21_opt_a",
+        "label": "A",
+        "content": "Bumi menghalangi sinar bulan mencapai matahari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q21_opt_b",
+        "label": "B",
+        "content": "Bulan menghalangi pandangan kita terhadap matahari",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q21_opt_c",
+        "label": "C",
+        "content": "Matahari menghalangi pandangan kita ke arah bulan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q21_opt_d",
+        "label": "D",
+        "content": "Bumi menghalangi sinar matahari mencapai bulan",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q22",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bunyi yang sangat keras dapat membuat kita terkejut. Sumber bunyi yang keras itu dapat berasal dari …",
+    "imageUrl": null,
+    "explanation": "**Klakson bus** berbunyi sangat keras. Bisikan, bunga jatuh, dan daun jatuh bunyinya pelan.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q22_opt_a",
+        "label": "A",
+        "content": "Bisikan teman",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q22_opt_b",
+        "label": "B",
+        "content": "Bunga jatuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q22_opt_c",
+        "label": "C",
+        "content": "Klakson bus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q22_opt_d",
+        "label": "D",
+        "content": "Daun jatuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q23",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah gelas plastik dan sebuah gelas kaca dijatuhkan dari ketinggian yang sama. Gelas kaca kemungkinan besar akan pecah, sedangkan gelas plastik tidak. Hal ini karena gelas kaca lebih …",
+    "imageUrl": null,
+    "explanation": "Kaca bersifat **keras tetapi rapuh** (mudah pecah bila terbentur). Plastik lebih lentur sehingga tidak pecah.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q23_opt_a",
+        "label": "A",
+        "content": "Lentur",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q23_opt_b",
+        "label": "B",
+        "content": "Ringan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q23_opt_c",
+        "label": "C",
+        "content": "Keras dan rapuh",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q23_opt_d",
+        "label": "D",
+        "content": "Halus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q24",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika kamu menekan sebuah botol plastik kosong yang tertutup rapat, botol itu akan sedikit kempes. Ini menunjukkan bahwa udara di dalam botol termasuk …",
+    "imageUrl": null,
+    "explanation": "Udara adalah **benda gas**. Gas dapat dimampatkan (ditekan sehingga menempati ruang lebih kecil), sehingga botol bisa sedikit kempes.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q24_opt_a",
+        "label": "A",
+        "content": "Benda padat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q24_opt_b",
+        "label": "B",
+        "content": "Benda cair",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q24_opt_c",
+        "label": "C",
+        "content": "Benda gas",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q24_opt_d",
+        "label": "D",
+        "content": "Energi",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q25",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "What do you think will happen if plants get too much water?",
+    "imageUrl": null,
+    "explanation": "Air yang terlalu banyak membuat akar busuk dan tidak mendapat udara, sehingga tanaman bisa **mati** (*die*).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q25_opt_a",
+        "label": "A",
+        "content": "Grow",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q25_opt_b",
+        "label": "B",
+        "content": "Sprout",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q25_opt_c",
+        "label": "C",
+        "content": "Die",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q25_opt_d",
+        "label": "D",
+        "content": "Germinate",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q26",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Manakah berikut ini yang **bukan** merupakan contoh energi potensial?",
+    "imageUrl": null,
+    "explanation": "Energi potensial adalah energi yang dimiliki benda karena kedudukannya (ketinggian). Buah di pohon dan ayunan yang terangkat memiliki energi potensial. **Cahaya senter** adalah energi cahaya, bukan energi potensial.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q26_opt_a",
+        "label": "A",
+        "content": "Nelayan di pinggir laut",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q26_opt_b",
+        "label": "B",
+        "content": "Buah jatuh dari pohon",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q26_opt_c",
+        "label": "C",
+        "content": "Adik bermain ayunan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q26_opt_d",
+        "label": "D",
+        "content": "Cahaya dari senter",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q27",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perubahan energi yang terjadi saat kita menyalakan senter adalah …",
+    "imageUrl": null,
+    "explanation": "Senter memakai baterai yang menyimpan **energi kimia**. Energi ini diubah menjadi listrik, lalu menjadi **energi cahaya** di lampu.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q27_opt_a",
+        "label": "A",
+        "content": "Energi gerak menjadi energi cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q27_opt_b",
+        "label": "B",
+        "content": "Energi kimia menjadi energi cahaya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q27_opt_c",
+        "label": "C",
+        "content": "Energi panas menjadi energi cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q27_opt_d",
+        "label": "D",
+        "content": "Energi bunyi menjadi energi cahaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q28",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di bawah ini tumbuhan yang cara berkembang biaknya sama dengan pisang adalah …",
+    "imageUrl": null,
+    "explanation": "Pisang berkembang biak dengan **tunas** yang tumbuh di sekitar induknya. Bambu juga berkembang biak dengan tunas (rebung). Jahe berkembang biak dengan rimpang, kelapa dan aren dengan biji.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q28_opt_a",
+        "label": "A",
+        "content": "Kelapa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q28_opt_b",
+        "label": "B",
+        "content": "Bambu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q28_opt_c",
+        "label": "C",
+        "content": "Aren",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q28_opt_d",
+        "label": "D",
+        "content": "Jahe",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q29",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Beberapa burung memiliki bulu yang unik, cantik, dan berwarna-warni saat musim kawin. Bulu tersebut berguna untuk …",
+    "imageUrl": null,
+    "explanation": "Bulu yang mencolok saat musim kawin (contohnya burung merak jantan) berguna untuk **menarik pasangan**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q29_opt_a",
+        "label": "A",
+        "content": "Menutupi dan melindungi sumber makanan",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q29_opt_b",
+        "label": "B",
+        "content": "Membangun sarang burung yang indah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q29_opt_c",
+        "label": "C",
+        "content": "Menarik pasangan lawan jenis",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q29_opt_d",
+        "label": "D",
+        "content": "Mengelabui dan menghindari musuh alami",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q30",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Which of the following parts of the body helps us to know the taste of a doughnut?",
+    "imageUrl": null,
+    "explanation": "Indra pengecap adalah **lidah** (*tongue*). Hidung adalah indra pencium (untuk bau).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q30_opt_a",
+        "label": "A",
+        "content": "Eye",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q30_opt_b",
+        "label": "B",
+        "content": "Nose",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q30_opt_c",
+        "label": "C",
+        "content": "Tongue",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q30_opt_d",
+        "label": "D",
+        "content": "Both b and c",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q31",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Tumbuhan dapat menyimpan cadangan airnya di berbagai bagian tubuhnya. Manakah tumbuhan yang menyimpan sebagian besar cadangan airnya di bagian daun?",
+    "imageUrl": null,
+    "explanation": "**Lidah buaya** memiliki daun tebal berdaging yang berisi lendir dan banyak air.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q31_opt_a",
+        "label": "A",
+        "content": "Mangga",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q31_opt_b",
+        "label": "B",
+        "content": "Pepaya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q31_opt_c",
+        "label": "C",
+        "content": "Kelapa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q31_opt_d",
+        "label": "D",
+        "content": "Lidah buaya",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q32",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Udara terdiri dari banyak sekali gas. Dua gas yang paling banyak di udara adalah …",
+    "imageUrl": null,
+    "explanation": "Udara terdiri dari sekitar 78% **nitrogen** dan 21% **oksigen**; gas lain hanya sedikit.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q32_opt_a",
+        "label": "A",
+        "content": "Karbon dioksida dan uap air",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q32_opt_b",
+        "label": "B",
+        "content": "Oksigen dan hidrogen",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q32_opt_c",
+        "label": "C",
+        "content": "Nitrogen dan oksigen",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q32_opt_d",
+        "label": "D",
+        "content": "Hidrogen dan karbon dioksida",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q33",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Karnivora adalah hewan yang memangsa atau memakan hewan lain. Di antara hewan di bawah ini, manakah yang termasuk karnivora?",
+    "imageUrl": null,
+    "explanation": "**Singa** memakan daging hewan lain. Kambing, kuda, dan jerapah pemakan tumbuhan (herbivora).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q33_opt_a",
+        "label": "A",
+        "content": "Kambing",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q33_opt_b",
+        "label": "B",
+        "content": "Kuda",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q33_opt_c",
+        "label": "C",
+        "content": "Singa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q33_opt_d",
+        "label": "D",
+        "content": "Jerapah",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q34",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Di antara pernyataan berikut, manakah yang **tidak benar** mengenai benda cair?",
+    "imageUrl": null,
+    "explanation": "Benda cair bentuknya berubah mengikuti wadah. Pernyataan \"bentuknya tetap\" adalah sifat benda padat, jadi **tidak benar** untuk benda cair.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q34_opt_a",
+        "label": "A",
+        "content": "Bentuknya tetap dan tidak berubah",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q34_opt_b",
+        "label": "B",
+        "content": "Encer dan dapat dituang",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q34_opt_c",
+        "label": "C",
+        "content": "Volumenya tetap",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q34_opt_d",
+        "label": "D",
+        "content": "Bentuknya menyesuaikan dengan wadahnya",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q35",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Agus memakan *beef burger*. Beef burger terbuat dari roti, daging sapi, selada, dan tomat. Agus termasuk ke dalam …",
+    "imageUrl": null,
+    "explanation": "Agus memakan daging (dari hewan) sekaligus roti, selada, dan tomat (dari tumbuhan). Pemakan segala disebut **omnivora**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q35_opt_a",
+        "label": "A",
+        "content": "Dekomposer",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q35_opt_b",
+        "label": "B",
+        "content": "Karnivora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q35_opt_c",
+        "label": "C",
+        "content": "Herbivora",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q35_opt_d",
+        "label": "D",
+        "content": "Omnivora",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q36",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Planet-planet yang tidak memiliki satelit adalah …",
+    "imageUrl": null,
+    "explanation": "**Merkurius dan Venus** tidak memiliki satelit alami (bulan). Mars punya 2 satelit, sedangkan Jupiter, Saturnus, dan Neptunus punya banyak.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q36_opt_a",
+        "label": "A",
+        "content": "Jupiter dan Merkurius",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q36_opt_b",
+        "label": "B",
+        "content": "Mars dan Saturnus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q36_opt_c",
+        "label": "C",
+        "content": "Merkurius dan Venus",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q36_opt_d",
+        "label": "D",
+        "content": "Neptunus dan Saturnus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q37",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Unta memiliki kaki lebar yang mencegahnya tenggelam ke dalam pasir. Struktur kaki ini paling berperan untuk membantu unta dalam hal …",
+    "imageUrl": null,
+    "explanation": "Telapak kaki yang lebar membuat unta tidak terbenam di pasir gurun, sehingga mudah **bergerak** (berjalan).",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q37_opt_a",
+        "label": "A",
+        "content": "Bergerak",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q37_opt_b",
+        "label": "B",
+        "content": "Berkembang biak",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q37_opt_c",
+        "label": "C",
+        "content": "Bertumbuh",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q37_opt_d",
+        "label": "D",
+        "content": "Kamuflase",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q38",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Tanaman berikut ini yang bisa dimanfaatkan dan dikonsumsi batangnya, **kecuali** …",
+    "imageUrl": null,
+    "explanation": "Batang bambu dimanfaatkan, rebung adalah batang bambu muda yang dimakan, dan sagu diambil dari isi batang pohon sagu. Yang dimakan dari **singkong** adalah umbi akarnya, bukan batangnya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q38_opt_a",
+        "label": "A",
+        "content": "Bambu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q38_opt_b",
+        "label": "B",
+        "content": "Rebung",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q38_opt_c",
+        "label": "C",
+        "content": "Singkong",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q38_opt_d",
+        "label": "D",
+        "content": "Sagu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q39",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Penyebaran virus Covid-19 sangat cepat dan masif karena beberapa faktor berikut ini, **kecuali** …",
+    "imageUrl": null,
+    "explanation": "Covid-19 menular lewat kontak dekat, percikan air liur, dan permukaan benda yang tercemar. **Asap rokok dan obat terlarang** berbahaya bagi kesehatan, tetapi bukan cara penularan virus ini.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q39_opt_a",
+        "label": "A",
+        "content": "Kontak jarak dekat dengan penderita",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q39_opt_b",
+        "label": "B",
+        "content": "Semburan percikan air liur (droplet) di tempat umum dan ramai",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q39_opt_c",
+        "label": "C",
+        "content": "Permukaan benda yang tercemar virus",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q39_opt_d",
+        "label": "D",
+        "content": "Asap rokok dan konsumsi obat-obatan terlarang",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_kmsi_2025_sains_prov_1_q40",
+    "topicId": "top_kmsi_2025_sains_prov_1",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan gambar! What does he do with his toy car?",
+    "imageUrl": "/uploads/kmsi25_prov_s1_menarik.png",
+    "explanation": "Anak itu memegang tali dan berjalan di depan mainannya, berarti ia **menarik** (*pull*) mainannya.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q40_opt_a",
+        "label": "A",
+        "content": "Push",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q40_opt_b",
+        "label": "B",
+        "content": "Pull",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q40_opt_c",
+        "label": "C",
+        "content": "Lift",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_kmsi_2025_sains_prov_1_q40_opt_d",
+        "label": "D",
+        "content": "Put",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  }
+]
