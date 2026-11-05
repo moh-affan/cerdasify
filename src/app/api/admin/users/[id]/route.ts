@@ -4,7 +4,7 @@ import { users } from '@/db/schema';
 import { requireSuperAdmin, hashPassword, validateUsername, isUserRole } from '@/lib/auth';
 import { eq, and, sql } from 'drizzle-orm';
 import { alias } from 'drizzle-orm/pg-core';
-import { apiError, readJson } from '@/lib/api';
+import { ApiError, apiError, readJson } from '@/lib/api';
 
 const parents = alias(users, 'parents');
 
@@ -207,6 +207,7 @@ export async function PUT(
     // Eksekusi update dalam transaksi
     await client.begin(async (sqlClient) => {
       const updates: Record<string, unknown> = {};
+      const nextTokenVersion = (existingUser.tokenVersion ?? 1) + 1;
 
       if (cleanName !== undefined) updates.name = cleanName;
       if (cleanUsername !== undefined) updates.username = cleanUsername;
@@ -215,7 +216,7 @@ export async function PUT(
         updates.is_active = Boolean(isActive);
         // Jika dinonaktifkan, cabut sesi aktif seketika
         if (!isActive) {
-          updates.token_version = sql`token_version + 1`;
+          updates.token_version = nextTokenVersion;
         }
       }
 
@@ -225,7 +226,7 @@ export async function PUT(
         }
         updates.password_hash = await hashPassword(password.trim());
         // Jika password diubah, cabut sesi aktif di semua perangkat lain
-        updates.token_version = sql`token_version + 1`;
+        updates.token_version = nextTokenVersion;
       }
 
       if (parentId !== undefined) {
@@ -278,10 +279,10 @@ export async function PUT(
     }).catch((err) => {
       if (err instanceof Error) {
         if (err.message === 'PASSWORD_TOO_SHORT') {
-          throw new Error('Password minimal 6 karakter');
+          throw new ApiError('Password minimal 6 karakter', 400);
         }
         if (err.message === 'CANNOT_DISABLE_PARENT_WITH_CHILDREN') {
-          throw new Error('Status orang tua tidak dapat dinonaktifkan karena akun masih memiliki anak');
+          throw new ApiError('Status orang tua tidak dapat dinonaktifkan karena akun masih memiliki anak', 400);
         }
       }
       throw err;
@@ -414,10 +415,10 @@ export async function DELETE(
     }).catch((err) => {
       if (err instanceof Error) {
         if (err.message === 'INVALID_NEW_PARENT') {
-          throw new Error('Akun orang tua baru tidak valid atau merupakan akun anak');
+          throw new ApiError('Akun orang tua baru tidak valid atau merupakan akun anak', 400);
         }
         if (err.message === 'INVALID_DELETE_ACTION') {
-          throw new Error('Aksi penghapusan relasi orang tua tidak valid');
+          throw new ApiError('Aksi penghapusan relasi orang tua tidak valid', 400);
         }
       }
       throw err;
