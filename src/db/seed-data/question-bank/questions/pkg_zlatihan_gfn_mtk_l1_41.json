@@ -1,0 +1,386 @@
+[
+  {
+    "id": "q_gfn2_l1_jumlah_selisih_09",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah permen Budi dan Tono adalah 75. Permen Budi 5 lebih banyak daripada permen Tono. Banyak permen Budi adalah ...",
+    "imageUrl": null,
+    "explanation": "Jika kelebihan 5 disisihkan, sisanya 75 − 5 = 70 dibagi dua sama rata: Tono = 70 ÷ 2 = 35, Budi = 35 + 5 = 40. Jawaban: **40**.\n\nKunci Jawaban: **A (40)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_09_opt_a",
+        "label": "A",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_09_opt_b",
+        "label": "B",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_09_opt_c",
+        "label": "C",
+        "content": "70",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_09_opt_d",
+        "label": "D",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_usia_jumlah_02",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah usia Ayah, Ibu, dan Kevin sekarang adalah 83 tahun. Jumlah usia mereka 6 tahun yang lalu adalah ... tahun.",
+    "imageUrl": null,
+    "explanation": "Ada 3 orang dan masing-masing usianya berkurang 6 tahun, sehingga jumlah usia berkurang 3 × 6 = 18. Jadi 83 − 18 = **65**.\n\nKunci Jawaban: **C (65)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_usia_jumlah_02_opt_a",
+        "label": "A",
+        "content": "83",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_usia_jumlah_02_opt_b",
+        "label": "B",
+        "content": "71",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_usia_jumlah_02_opt_c",
+        "label": "C",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_usia_jumlah_02_opt_d",
+        "label": "D",
+        "content": "77",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_jadwal_sesi_02",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Lomba matematika dimulai pukul 08.15. Lomba terdiri atas 3 sesi, setiap sesi 25 menit, dan di antara dua sesi ada istirahat 15 menit. Lomba selesai pukul ...",
+    "imageUrl": null,
+    "explanation": "Waktu sesi = 3 × 25 = 75 menit. Istirahat hanya di antara sesi: 2 × 15 = 30 menit. Total 105 menit = 1 jam 45 menit. 08.15 + 1 jam 45 menit = **10.00**.\n\nKunci Jawaban: **D (10.00)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_02_opt_a",
+        "label": "A",
+        "content": "11.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_02_opt_b",
+        "label": "B",
+        "content": "10.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_02_opt_c",
+        "label": "C",
+        "content": "09.30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_02_opt_d",
+        "label": "D",
+        "content": "10.00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_huruf_ke_07",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kata PINTAR ditulis berulang-ulang tanpa spasi: PINTARPINTARPINTAR... Huruf ke-48 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kata PINTAR terdiri atas 6 huruf. 48 = 6 × 8 + 0, sisa 0 berarti huruf terakhir dari kata PINTAR: **R**.\n\nKunci Jawaban: **C (R)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_huruf_ke_07_opt_a",
+        "label": "A",
+        "content": "P",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_huruf_ke_07_opt_b",
+        "label": "B",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_huruf_ke_07_opt_c",
+        "label": "C",
+        "content": "R",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_huruf_ke_07_opt_d",
+        "label": "D",
+        "content": "I",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_halaman_04",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Erin membaca buku mulai dari halaman 32 sampai halaman 55. Banyak halaman yang dibaca Erin adalah ...",
+    "imageUrl": null,
+    "explanation": "Halaman 32 juga ikut dibaca, jadi banyak halaman = 55 − 32 + 1 = **24**.\n\nKunci Jawaban: **B (24)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_halaman_04_opt_a",
+        "label": "A",
+        "content": "25",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_halaman_04_opt_b",
+        "label": "B",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_halaman_04_opt_c",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_halaman_04_opt_d",
+        "label": "D",
+        "content": "23",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_nilai_tempat_07",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "5 ratusan + 25 puluhan + 12 satuan = ...",
+    "imageUrl": null,
+    "explanation": "5 ratusan = 500, 25 puluhan = 250, 12 satuan = 12. Jumlah = 500 + 250 + 12 = **762**.\n\nKunci Jawaban: **A (762)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_nilai_tempat_07_opt_a",
+        "label": "A",
+        "content": "762",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_nilai_tempat_07_opt_b",
+        "label": "B",
+        "content": "862",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_nilai_tempat_07_opt_c",
+        "label": "C",
+        "content": "537",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_nilai_tempat_07_opt_d",
+        "label": "D",
+        "content": "752",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_pohon_jalan_05",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Di satu sisi jalan sepanjang 60 meter dipasang lampu setiap 5 meter, mulai dari ujung awal sampai ujung akhir jalan. Banyak lampu seluruhnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Banyak jarak = 60 ÷ 5 = 12. Karena kedua ujung dipasang, banyak lampu pada satu sisi = 12 + 1 = 13. Jadi banyak lampu = **13**.\n\nKunci Jawaban: **B (13)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_pohon_jalan_05_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_pohon_jalan_05_opt_b",
+        "label": "B",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_pohon_jalan_05_opt_c",
+        "label": "C",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_pohon_jalan_05_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_potong_pita_06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Akbar memotong pita sepanjang 1 meter menjadi potongan-potongan sama panjang, masing-masing 20 cm. Setiap kali memotong, Akbar memerlukan waktu 3 menit. Waktu yang diperlukan untuk memotong seluruh pita adalah ... menit.",
+    "imageUrl": null,
+    "explanation": "1 m = 100 cm. Banyak potongan = 100 ÷ 20 = 5. Untuk mendapat 5 potongan cukup memotong 5 − 1 = 4 kali. Waktu = 4 × 3 = **12 menit**.\n\nKunci Jawaban: **C (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_potong_pita_06_opt_a",
+        "label": "A",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_potong_pita_06_opt_b",
+        "label": "B",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_potong_pita_06_opt_c",
+        "label": "C",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_potong_pita_06_opt_d",
+        "label": "D",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

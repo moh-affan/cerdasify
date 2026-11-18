@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "q_gfn2_l1_jumlah_selisih_04",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah stiker Hanik dan Fikri adalah 94. Stiker Hanik 26 lebih banyak daripada stiker Fikri. Banyak stiker Fikri adalah ...",
+    "imageUrl": null,
+    "explanation": "Jika kelebihan 26 disisihkan, sisanya 94 − 26 = 68 dibagi dua sama rata: Fikri = 68 ÷ 2 = 34, Hanik = 34 + 26 = 60. Jawaban: **34**.\n\nKunci Jawaban: **C (34)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_04_opt_a",
+        "label": "A",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_04_opt_b",
+        "label": "B",
+        "content": "60",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_04_opt_c",
+        "label": "C",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_04_opt_d",
+        "label": "D",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_usia_jumlah_03",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah usia Kakek, Nenek, Ayah, dan Intan sekarang adalah 88 tahun. Jumlah usia mereka 5 tahun yang lalu adalah ... tahun.",
+    "imageUrl": null,
+    "explanation": "Ada 4 orang dan masing-masing usianya berkurang 5 tahun, sehingga jumlah usia berkurang 4 × 5 = 20. Jadi 88 − 20 = **68**.\n\nKunci Jawaban: **D (68)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_usia_jumlah_03_opt_a",
+        "label": "A",
+        "content": "88",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_usia_jumlah_03_opt_b",
+        "label": "B",
+        "content": "78",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_usia_jumlah_03_opt_c",
+        "label": "C",
+        "content": "83",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_usia_jumlah_03_opt_d",
+        "label": "D",
+        "content": "68",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_jadwal_sesi_01",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Lomba matematika dimulai pukul 07.05. Lomba terdiri atas 4 sesi, setiap sesi 25 menit, dan di antara dua sesi ada istirahat 5 menit. Lomba selesai pukul ...",
+    "imageUrl": null,
+    "explanation": "Waktu sesi = 4 × 25 = 100 menit. Istirahat hanya di antara sesi: 3 × 5 = 15 menit. Total 115 menit = 1 jam 55 menit. 07.05 + 1 jam 55 menit = **09.00**.\n\nKunci Jawaban: **C (09.00)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_01_opt_a",
+        "label": "A",
+        "content": "09.05",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_01_opt_b",
+        "label": "B",
+        "content": "10.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_01_opt_c",
+        "label": "C",
+        "content": "09.00",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_01_opt_d",
+        "label": "D",
+        "content": "08.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_huruf_ke_05",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kata OLIMP ditulis berulang-ulang tanpa spasi: OLIMPOLIMPOLIMP... Huruf ke-196 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kata OLIMP terdiri atas 5 huruf. 196 = 5 × 39 + 1, sisa 1 berarti huruf ke-1 dari kata OLIMP: **O**.\n\nKunci Jawaban: **A (O)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_huruf_ke_05_opt_a",
+        "label": "A",
+        "content": "O",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_huruf_ke_05_opt_b",
+        "label": "B",
+        "content": "L",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_huruf_ke_05_opt_c",
+        "label": "C",
+        "content": "P",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_huruf_ke_05_opt_d",
+        "label": "D",
+        "content": "I",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_pola_beda_04",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola bilangan berikut: 5, 8, 12, 17, 23, ... Bilangan ke-7 adalah ...",
+    "imageUrl": null,
+    "explanation": "Selisih antarbilangan: 3, 4, 5, 6, ... selalu bertambah 1. Lanjutkan: 5, 8, 12, 17, 23, 30, 38. Bilangan ke-7 = **38**.\n\nKunci Jawaban: **B (38)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_pola_beda_04_opt_a",
+        "label": "A",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_pola_beda_04_opt_b",
+        "label": "B",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_pola_beda_04_opt_c",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_pola_beda_04_opt_d",
+        "label": "D",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_pola_gambar_05",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gambar ke-1 terdiri atas 1 titik, gambar ke-2 terdiri atas 2 × 2 = 4 titik, gambar ke-3 terdiri atas 3 × 3 = 9 titik, dan seterusnya. Banyaknya pada gambar ke-10 adalah ...",
+    "imageUrl": null,
+    "explanation": "Gambar ke-10 = 10 × 10 = **100** titik.\n\nKunci Jawaban: **C (100)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_pola_gambar_05_opt_a",
+        "label": "A",
+        "content": "110",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_pola_gambar_05_opt_b",
+        "label": "B",
+        "content": "81",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_pola_gambar_05_opt_c",
+        "label": "C",
+        "content": "100",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_pola_gambar_05_opt_d",
+        "label": "D",
+        "content": "121",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_pohon_jalan_09",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Di kedua sisi jalan sepanjang 45 meter dipasang lampu setiap 5 meter, mulai dari ujung awal sampai ujung akhir jalan. Banyak lampu seluruhnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Banyak jarak = 45 ÷ 5 = 9. Karena kedua ujung dipasang, banyak lampu pada satu sisi = 9 + 1 = 10. Untuk kedua sisi: 10 × 2 = **20**.\n\nKunci Jawaban: **B (20)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_pohon_jalan_09_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_pohon_jalan_09_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_pohon_jalan_09_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_pohon_jalan_09_opt_d",
+        "label": "D",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_pohon_keliling_08",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah kebun berbentuk persegi panjang berukuran 28 m × 12 m. Di sekeliling kebun ditanam pohon setiap 4 meter, dan di setiap pojok kebun ada pohon. Banyak pohon seluruhnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Keliling kebun = 2 × (28 + 12) = 80 m. Pada jalur tertutup (keliling), banyak pohon = banyak jarak = 80 ÷ 4 = **20** (tidak ditambah 1 karena ujung awal dan akhir bertemu).\n\nKunci Jawaban: **B (20)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_pohon_keliling_08_opt_a",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_pohon_keliling_08_opt_b",
+        "label": "B",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_pohon_keliling_08_opt_c",
+        "label": "C",
+        "content": "22",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_pohon_keliling_08_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_antre_di_antara_05",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Ada 29 anak berbaris ke belakang. Fikri berada di urutan ke-6 dari depan dan Rosa berada di urutan ke-5 dari belakang. Banyak anak yang berada di antara Fikri dan Rosa adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari depan, Rosa berada di urutan ke-29 − 5 + 1 = 25. Anak di antara urutan ke-6 dan ke-25 = 25 − 6 − 1 = **18**.\n\nKunci Jawaban: **A (18)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_antre_di_antara_05_opt_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_antre_di_antara_05_opt_b",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_antre_di_antara_05_opt_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_antre_di_antara_05_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_kepala_kaki_09",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Di sebuah tempat parkir terdapat sepeda (2 roda) dan becak (3 roda). Jumlahnya ada 15 kendaraan dengan 37 roda. Banyak sepeda adalah ...",
+    "imageUrl": null,
+    "explanation": "Andaikan semuanya sepeda: roda = 15 × 2 = 30. Kekurangan roda = 37 − 30 = 7. Setiap becak menambah 1 roda, jadi becak = 7 ÷ 1 = 7 dan sepeda = 15 − 7 = 8. Banyak sepeda = **8**.\n\nKunci Jawaban: **B (8)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_kepala_kaki_09_opt_a",
+        "label": "A",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_kepala_kaki_09_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_kepala_kaki_09_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_kepala_kaki_09_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_kali_lipat_02",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Buku Mutia 5 kali buku Lala. Jumlah buku mereka 78. Banyak buku Mutia adalah ...",
+    "imageUrl": null,
+    "explanation": "Bagian Lala = 1 bagian, Mutia = 5 bagian, jumlah = 6 bagian = 78. 1 bagian = 13, jadi Mutia = 65. Jawaban: **65**.\n\nKunci Jawaban: **D (65)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_kali_lipat_02_opt_a",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_kali_lipat_02_opt_b",
+        "label": "B",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_kali_lipat_02_opt_c",
+        "label": "C",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_kali_lipat_02_opt_d",
+        "label": "D",
+        "content": "65",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_pindah_isi_06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Kotak A dan kotak B berisi 24 kelereng seluruhnya. Jika 9 kelereng dari kotak A dipindahkan ke kotak B, isi kedua kotak menjadi sama banyak. Isi kotak A mula-mula adalah ...",
+    "imageUrl": null,
+    "explanation": "Setelah dipindah, tiap kotak berisi 24 ÷ 2 = 12. Kotak A mula-mula = 12 + 9 = **21**.\n\nKunci Jawaban: **B (21)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_pindah_isi_06_opt_a",
+        "label": "A",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_pindah_isi_06_opt_b",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_pindah_isi_06_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_pindah_isi_06_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_hari_n_05",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hari ini hari Minggu. 178 hari lagi adalah hari ...",
+    "imageUrl": null,
+    "explanation": "Setiap 7 hari, hari berulang. 178 = 7 × 25 + 3, jadi cukup maju 3 hari dari Minggu: **Rabu**.\n\nKunci Jawaban: **C (Rabu)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_hari_n_05_opt_a",
+        "label": "A",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_hari_n_05_opt_b",
+        "label": "B",
+        "content": "Kamis",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_hari_n_05_opt_c",
+        "label": "C",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_hari_n_05_opt_d",
+        "label": "D",
+        "content": "Jumat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_jam_salah_01",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jam dinding di rumah Intan terlambat 35 menit. Saat jam itu menunjukkan pukul 09.20, waktu yang sebenarnya adalah pukul ...",
+    "imageUrl": null,
+    "explanation": "Jam yang terlambat menunjukkan waktu lebih awal dari sebenarnya, jadi waktu sebenarnya = 09.20 + 35 menit = **09.55**.\n\nKunci Jawaban: **D (09.55)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_jam_salah_01_opt_a",
+        "label": "A",
+        "content": "08.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_jam_salah_01_opt_b",
+        "label": "B",
+        "content": "10.05",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_jam_salah_01_opt_c",
+        "label": "C",
+        "content": "09.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_jam_salah_01_opt_d",
+        "label": "D",
+        "content": "09.55",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_hitung_angka_07",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Fikri menulis semua bilangan dari 1 sampai 67. Banyak angka 5 yang ditulis Fikri adalah ...",
+    "imageUrl": null,
+    "explanation": "Hitung per tempat. Angka 5 di tempat satuan: 7 kali. Di tempat puluhan: 10 kali. Jumlah = **17**. (Bilangan 55 dihitung 2 kali.)\n\nKunci Jawaban: **B (17)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_hitung_angka_07_opt_a",
+        "label": "A",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_hitung_angka_07_opt_b",
+        "label": "B",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_hitung_angka_07_opt_c",
+        "label": "C",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_hitung_angka_07_opt_d",
+        "label": "D",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_digit_halaman_03",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Halaman sebuah buku diberi nomor 1 sampai 77. Banyak angka (digit) yang dipakai untuk menomori semua halaman adalah ...",
+    "imageUrl": null,
+    "explanation": "Halaman 1–9: 9 × 1 = 9 digit. Halaman 10–77: 68 × 2 = 136 digit. Jumlah = **145** digit.\n\nKunci Jawaban: **B (145)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_digit_halaman_03_opt_a",
+        "label": "A",
+        "content": "154",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_digit_halaman_03_opt_b",
+        "label": "B",
+        "content": "145",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_digit_halaman_03_opt_c",
+        "label": "C",
+        "content": "146",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_digit_halaman_03_opt_d",
+        "label": "D",
+        "content": "136",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_deret_05",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil dari 1 + 2 + 3 + ... + 27 + 28 adalah ...",
+    "imageUrl": null,
+    "explanation": "Banyak suku = 28. Pasangkan suku pertama dengan terakhir: 1 + 28 = 29, dan seterusnya. Jumlah = 29 × 28 ÷ 2 = **406**.\n\nKunci Jawaban: **A (406)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_deret_05_opt_a",
+        "label": "A",
+        "content": "406",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_deret_05_opt_b",
+        "label": "B",
+        "content": "434",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_deret_05_opt_c",
+        "label": "C",
+        "content": "378",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_deret_05_opt_d",
+        "label": "D",
+        "content": "812",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_selang_seling_06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil dari 72 − 71 + 70 − 69 + ... + 4 − 3 + 2 − 1 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kelompokkan berpasangan: (72 − 71) + (70 − 69) + ... + (2 − 1). Setiap pasangan bernilai 1, dan ada 72 ÷ 2 = 36 pasangan. Hasil = **36**.\n\nKunci Jawaban: **B (36)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_selang_seling_06_opt_a",
+        "label": "A",
+        "content": "37",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_selang_seling_06_opt_b",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_selang_seling_06_opt_c",
+        "label": "C",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_selang_seling_06_opt_d",
+        "label": "D",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_simbol_dua_03",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Diketahui ♣ + ♣ + ♦ = 21 dan ♣ + ♦ = 15. Hasil dari ♦ − ♣ adalah ...",
+    "imageUrl": null,
+    "explanation": "Kurangkan kedua persamaan: (♣ + ♣ + ♦) − (♣ + ♦) = 21 − 15, jadi ♣ = 6. Maka ♦ = 15 − 6 = 9. ♦ − ♣ = **3**.\n\nKunci Jawaban: **B (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_simbol_dua_03_opt_a",
+        "label": "A",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_simbol_dua_03_opt_b",
+        "label": "B",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_simbol_dua_03_opt_c",
+        "label": "C",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_simbol_dua_03_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_mesin_bilangan_07",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah bilangan dimasukkan ke mesin: dikali 2, lalu ditambah 2, kemudian dibagi 2. Hasil akhirnya 15. Bilangan mula-mula adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan mundur dengan operasi kebalikan: 15 × 2 = 30, lalu 30 − 2 = 28, lalu 28 ÷ 2 = **14**.\n\nKunci Jawaban: **D (14)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_mesin_bilangan_07_opt_a",
+        "label": "A",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_mesin_bilangan_07_opt_b",
+        "label": "B",
+        "content": "16",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_mesin_bilangan_07_opt_c",
+        "label": "C",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_mesin_bilangan_07_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_timbangan_03",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Berat 1 nanas sama dengan berat 2 jeruk. Berat 1 jeruk sama dengan berat 5 stroberi. Berat 2 nanas dan 2 jeruk sama dengan berat ... stroberi.",
+    "imageUrl": null,
+    "explanation": "1 nanas = 2 jeruk = 2 × 5 = 10 stroberi. Jadi 2 nanas = 20 stroberi, dan 2 jeruk = 10 stroberi. Jumlah = 20 + 10 = **30** stroberi.\n\nKunci Jawaban: **C (30)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_timbangan_03_opt_a",
+        "label": "A",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_timbangan_03_opt_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_timbangan_03_opt_c",
+        "label": "C",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_timbangan_03_opt_d",
+        "label": "D",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_wadah_minimal_09",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah perahu dapat memuat 7 orang, termasuk 1 pengemudi yang selalu ikut. Ada 37 penumpang yang ingin menyeberang sungai. Perahu harus menyeberang (berangkat dari tepi awal) paling sedikit ... kali.",
+    "imageUrl": null,
+    "explanation": "Setiap kali menyeberang hanya 7 − 1 = 6 penumpang yang bisa ikut. 37 ÷ 6 = 6 sisa 1, sehingga diperlukan 6 + 1 = **7** kali.\n\nKunci Jawaban: **C (7)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_wadah_minimal_09_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_wadah_minimal_09_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_wadah_minimal_09_opt_c",
+        "label": "C",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_wadah_minimal_09_opt_d",
+        "label": "D",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_mundur_setengah_01",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Wima memberikan setengah permennya kepada Ozi, lalu memberikan 7 permen kepada Raka. Sekarang permen Wima tinggal 12. Banyak permen Wima mula-mula adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan mundur: sebelum memberi Raka, permen Wima = 12 + 7 = 19. Itu setengah dari permen mula-mula, jadi mula-mula = 19 × 2 = **38**.\n\nKunci Jawaban: **A (38)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_mundur_setengah_01_opt_a",
+        "label": "A",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_mundur_setengah_01_opt_b",
+        "label": "B",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_mundur_setengah_01_opt_c",
+        "label": "C",
+        "content": "31",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_mundur_setengah_01_opt_d",
+        "label": "D",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_potong_pita_08",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Erin memotong pita sepanjang 2 meter menjadi potongan-potongan sama panjang, masing-masing 20 cm. Setiap kali memotong, Erin memerlukan waktu 5 menit. Waktu yang diperlukan untuk memotong seluruh pita adalah ... menit.",
+    "imageUrl": null,
+    "explanation": "2 m = 200 cm. Banyak potongan = 200 ÷ 20 = 10. Untuk mendapat 10 potongan cukup memotong 10 − 1 = 9 kali. Waktu = 9 × 5 = **45 menit**.\n\nKunci Jawaban: **A (45)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_potong_pita_08_opt_a",
+        "label": "A",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_potong_pita_08_opt_b",
+        "label": "B",
+        "content": "55",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_potong_pita_08_opt_c",
+        "label": "C",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_potong_pita_08_opt_d",
+        "label": "D",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_antre_total_06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dalam sebuah antrean, Intan berada di urutan ke-12 dari depan dan Tono berada di urutan ke-10 dari belakang. Intan berada di depan Tono, dan di antara mereka ada 12 orang. Banyak orang dalam antrean itu adalah ...",
+    "imageUrl": null,
+    "explanation": "Hitung dari depan: 12 orang sampai Intan (termasuk Intan), lalu 12 orang di antara, lalu 10 orang dari Tono sampai paling belakang (termasuk Tono). Jumlah = 12 + 12 + 10 = **34**.\n\nKunci Jawaban: **D (34)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_antre_total_06_opt_a",
+        "label": "A",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_antre_total_06_opt_b",
+        "label": "B",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_antre_total_06_opt_c",
+        "label": "C",
+        "content": "33",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_antre_total_06_opt_d",
+        "label": "D",
+        "content": "34",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_dua_koin_01",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Akbar mempunyai 17 lembar uang yang terdiri atas Rp2.000 dan Rp5.000. Jumlah uangnya Rp76.000. Banyak lembar uang Rp2.000 adalah ...",
+    "imageUrl": null,
+    "explanation": "Andaikan semuanya Rp5.000: 17 × 5.000 = Rp85.000. Kelebihan = 85.000 − 76.000 = Rp9.000. Setiap lembar uang Rp2.000 mengurangi 3.000, jadi banyaknya = 9.000 ÷ 3.000 = **3**.\n\nKunci Jawaban: **C (3)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_dua_koin_01_opt_a",
+        "label": "A",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_dua_koin_01_opt_b",
+        "label": "B",
+        "content": "2",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_dua_koin_01_opt_c",
+        "label": "C",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_dua_koin_01_opt_d",
+        "label": "D",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_usia_kali_06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sekarang usia Vadya 6 tahun dan usia Ibu 42 tahun. 3 kali usia Vadya akan sama dengan usia Ibu ... tahun lagi.",
+    "imageUrl": null,
+    "explanation": "Selisih usia selalu tetap = 42 − 6 = 36 tahun. Saat usia Ibu = 3 kali usia Vadya, selisihnya = 2 kali usia Vadya, sehingga usia Vadya = 36 ÷ 2 = 18. Itu terjadi 18 − 6 = **12 tahun lagi**.\n\nKunci Jawaban: **D (12)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_usia_kali_06_opt_a",
+        "label": "A",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_usia_kali_06_opt_b",
+        "label": "B",
+        "content": "14",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_usia_kali_06_opt_c",
+        "label": "C",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_usia_kali_06_opt_d",
+        "label": "D",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_lusa_kemarin_06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Jika lusa adalah hari Kamis, maka 36 hari setelah kemarin adalah hari ...",
+    "imageUrl": null,
+    "explanation": "Lusa = 2 hari lagi, jadi hari ini Selasa dan kemarin Senin. 36 = 7 × 5 + 1, maka 36 hari setelah Senin sama dengan maju 1 hari: **Selasa**.\n\nKunci Jawaban: **A (Selasa)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_lusa_kemarin_06_opt_a",
+        "label": "A",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_lusa_kemarin_06_opt_b",
+        "label": "B",
+        "content": "Rabu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_lusa_kemarin_06_opt_c",
+        "label": "C",
+        "content": "Jumat",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_lusa_kemarin_06_opt_d",
+        "label": "D",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_kpk_bertemu_02",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Fikri pergi berenang setiap 2 hari sekali, sedangkan Sari setiap 10 hari sekali. Pada tanggal 9 Oktober mereka berenang bersama. Mereka akan berenang bersama lagi pada tanggal ... Oktober.",
+    "imageUrl": null,
+    "explanation": "Mereka bertemu lagi setelah KPK dari 2 dan 10 = 10 hari. Tanggal 9 + 10 = **19 Oktober**.\n\nKunci Jawaban: **C (19)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_kpk_bertemu_02_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_kpk_bertemu_02_opt_b",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_kpk_bertemu_02_opt_c",
+        "label": "C",
+        "content": "19",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_kpk_bertemu_02_opt_d",
+        "label": "D",
+        "content": "29",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_simbol_tiga_05",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Diketahui:\n\n◇ + ◇ + ◇ = 18\n\n□ + □ + ◇ = 10\n\n○ + □ + ◇ = 15\n\nNilai dari ◇ × ○ + □ adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari ◇ + ◇ + ◇ = 18, ◇ = 6. Lalu □ + □ = 10 − 6 = 4, jadi □ = 2. ○ = 15 − 2 − 6 = 7. Maka ◇ × ○ + □ = 6 × 7 + 2 = 42 + 2 = **44** (kalikan dulu, baru tambahkan).\n\nKunci Jawaban: **A (44)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_simbol_tiga_05_opt_a",
+        "label": "A",
+        "content": "44",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_simbol_tiga_05_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_simbol_tiga_05_opt_c",
+        "label": "C",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_simbol_tiga_05_opt_d",
+        "label": "D",
+        "content": "42",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_operasi_buatan_07",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Didefinisikan operasi a ◎ b = a + b × 2. Contoh: 3 ◎ 2 = 3 + 2 × 2 = 7. Hasil dari (5 ◎ 4) ◎ 2 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kerjakan yang di dalam kurung dulu: 5 ◎ 4 = 5 + 4 × 2 = 13. Lalu 13 ◎ 2 = 13 + 2 × 2 = **17**.\n\nKunci Jawaban: **A (17)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_operasi_buatan_07_opt_a",
+        "label": "A",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_operasi_buatan_07_opt_b",
+        "label": "B",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_operasi_buatan_07_opt_c",
+        "label": "C",
+        "content": "18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_operasi_buatan_07_opt_d",
+        "label": "D",
+        "content": "13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_kriptaritma_06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Pada penjumlahan A9 + 4A = 115, huruf A mewakili angka yang sama. Nilai A × A adalah ...",
+    "imageUrl": null,
+    "explanation": "A9 = 10 × A + 9 dan 4A = 40 + A. Jumlahnya 11 × A + 49 = 115, jadi 11 × A = 66 dan A = 6. A × A = **36**.\n\nKunci Jawaban: **B (36)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_kriptaritma_06_opt_a",
+        "label": "A",
+        "content": "12",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_kriptaritma_06_opt_b",
+        "label": "B",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_kriptaritma_06_opt_c",
+        "label": "C",
+        "content": "49",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_kriptaritma_06_opt_d",
+        "label": "D",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_tukar_digit_09",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah bilangan dua angka memiliki jumlah angka-angkanya 11. Jika angka puluhan dan angka satuannya ditukar, bilangannya bertambah 27. Bilangan itu adalah ...",
+    "imageUrl": null,
+    "explanation": "Menukar angka mengubah bilangan sebesar 9 × (selisih kedua angka). 27 ÷ 9 = 3, jadi angka satuan 3 lebih besar dari angka puluhan. Dua angka berjumlah 11 dan berselisih 3: 4 dan 7. Bilangannya **47** (periksa: 74 − 47 = 27).\n\nKunci Jawaban: **D (47)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_tukar_digit_09_opt_a",
+        "label": "A",
+        "content": "38",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_tukar_digit_09_opt_b",
+        "label": "B",
+        "content": "74",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_tukar_digit_09_opt_c",
+        "label": "C",
+        "content": "56",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_tukar_digit_09_opt_d",
+        "label": "D",
+        "content": "47",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_susun_bilangan_06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dari angka-angka 1, 2, dan 6 akan disusun bilangan tiga angka dengan angka-angka yang berbeda. Banyak bilangan yang dapat disusun adalah ...",
+    "imageUrl": null,
+    "explanation": "Daftar secara teratur (angka ratusan tidak boleh 0). Bilangannya: 126, 162, 216, 261, 612, 621. Banyaknya **6**.\n\nKunci Jawaban: **A (6)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_susun_bilangan_06_opt_a",
+        "label": "A",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_susun_bilangan_06_opt_b",
+        "label": "B",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_susun_bilangan_06_opt_c",
+        "label": "C",
+        "content": "4",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_susun_bilangan_06_opt_d",
+        "label": "D",
+        "content": "3",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_hitung_kotak_09",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah persegi panjang dibagi menjadi 5 kotak berjajar dalam satu baris kotak yang sama besar. Banyak persegi panjang seluruhnya (termasuk persegi) adalah ...",
+    "imageUrl": null,
+    "explanation": "Pilih 2 garis tegak dari 6 garis: 15 cara. Garis mendatar hanya 2 (atas dan bawah): 1 cara. Banyak persegi panjang = 15 × 1 = **15**.\n\nKunci Jawaban: **B (15)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_hitung_kotak_09_opt_a",
+        "label": "A",
+        "content": "5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_hitung_kotak_09_opt_b",
+        "label": "B",
+        "content": "15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_hitung_kotak_09_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_hitung_kotak_09_opt_d",
+        "label": "D",
+        "content": "17",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_segitiga_kipas_06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Dari puncak sebuah segitiga ditarik 5 garis lurus ke alasnya, sehingga alas terbagi menjadi 6 bagian. Banyak segitiga seluruhnya adalah ...",
+    "imageUrl": null,
+    "explanation": "Dari puncak ada 7 garis (2 sisi + 5 garis). Setiap pasang garis membentuk satu segitiga dengan alas: 6 + 5 + 4 + 3 + 2 + 1 = 21. Jadi ada **21** segitiga.\n\nKunci Jawaban: **A (21)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_segitiga_kipas_06_opt_a",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_segitiga_kipas_06_opt_b",
+        "label": "B",
+        "content": "6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_segitiga_kipas_06_opt_c",
+        "label": "C",
+        "content": "26",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_segitiga_kipas_06_opt_d",
+        "label": "D",
+        "content": "20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_sisa_bagi_08",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Aku adalah bilangan di antara 56 dan 67. Jika aku dibagi 3, sisanya 1. Jika aku dibagi 4, sisanya 1. Aku adalah bilangan ...",
+    "imageUrl": null,
+    "explanation": "Bilangan di antara 56 dan 67 yang bersisa 1 jika dibagi 3: 58, 61, 64. Dari daftar itu, yang bersisa 1 jika dibagi 4 hanya **61**.\n\nKunci Jawaban: **B (61)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_sisa_bagi_08_opt_a",
+        "label": "A",
+        "content": "57",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_sisa_bagi_08_opt_b",
+        "label": "B",
+        "content": "61",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_sisa_bagi_08_opt_c",
+        "label": "C",
+        "content": "62",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_sisa_bagi_08_opt_d",
+        "label": "D",
+        "content": "58",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_kalender_02",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Tanggal 5 April 2029 jatuh pada hari Kamis. Tanggal 6 Mei 2029 jatuh pada hari ...",
+    "imageUrl": null,
+    "explanation": "Sisa hari di bulan April: 30 − 5 = 25 hari, ditambah 6 hari di bulan Mei, total 31 hari. 31 = 7 × 4 + 3, jadi maju 3 hari dari Kamis: **Minggu**.\n\nKunci Jawaban: **A (Minggu)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_kalender_02_opt_a",
+        "label": "A",
+        "content": "Minggu",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_kalender_02_opt_b",
+        "label": "B",
+        "content": "Selasa",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_kalender_02_opt_c",
+        "label": "C",
+        "content": "Sabtu",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_kalender_02_opt_d",
+        "label": "D",
+        "content": "Senin",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_kubus_cat_04",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Sebuah kubus besar disusun dari 5 × 5 × 5 kubus kecil yang sama besar. Seluruh permukaan luar kubus besar dicat merah. Banyak kubus kecil yang sama sekali tidak terkena cat adalah ...",
+    "imageUrl": null,
+    "explanation": "Kubus dengan 3 sisi bercat ada di pojok, 2 sisi di rusuk (bukan pojok), 1 sisi di tengah muka, dan 0 sisi di bagian dalam. Banyaknya: (5 − 2) × (5 − 2) × (5 − 2) = 27. Jawaban: **27**.\n\nKunci Jawaban: **B (27)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_kubus_cat_04_opt_a",
+        "label": "A",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_kubus_cat_04_opt_b",
+        "label": "B",
+        "content": "27",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_kubus_cat_04_opt_c",
+        "label": "C",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_kubus_cat_04_opt_d",
+        "label": "D",
+        "content": "8",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_bilangan_terkecil_03",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Bilangan 3 angka terkecil yang jumlah angka-angkanya 21 adalah ...",
+    "imageUrl": null,
+    "explanation": "Agar terkecil, angka paling kiri dibuat sekecil mungkin dan angka di kanan sebesar mungkin (paling besar 9). Diperoleh **399** (jumlah angkanya 3 + 9 + 9 = 21).\n\nKunci Jawaban: **B (399)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_bilangan_terkecil_03_opt_a",
+        "label": "A",
+        "content": "489",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_bilangan_terkecil_03_opt_b",
+        "label": "B",
+        "content": "399",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_bilangan_terkecil_03_opt_c",
+        "label": "C",
+        "content": "498",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_bilangan_terkecil_03_opt_d",
+        "label": "D",
+        "content": "993",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  }
+]

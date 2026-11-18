@@ -1,0 +1,290 @@
+[
+  {
+    "id": "q_gfn2_l1_jumlah_selisih_02",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah kartu Mutia dan Intan adalah 100. Kartu Mutia 4 lebih banyak daripada kartu Intan. Banyak kartu Mutia adalah ...",
+    "imageUrl": null,
+    "explanation": "Jika kelebihan 4 disisihkan, sisanya 100 − 4 = 96 dibagi dua sama rata: Intan = 96 ÷ 2 = 48, Mutia = 48 + 4 = 52. Jawaban: **52**.\n\nKunci Jawaban: **C (52)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_02_opt_a",
+        "label": "A",
+        "content": "96",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_02_opt_b",
+        "label": "B",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_02_opt_c",
+        "label": "C",
+        "content": "52",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_jumlah_selisih_02_opt_d",
+        "label": "D",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_usia_jumlah_08",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jumlah usia Kakek, Nenek, Ayah, dan Rani sekarang adalah 89 tahun. Jumlah usia mereka 6 tahun yang akan datang adalah ... tahun.",
+    "imageUrl": null,
+    "explanation": "Ada 4 orang dan masing-masing usianya bertambah 6 tahun, sehingga jumlah usia bertambah 4 × 6 = 24. Jadi 89 + 24 = **113**.\n\nKunci Jawaban: **A (113)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_usia_jumlah_08_opt_a",
+        "label": "A",
+        "content": "113",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_usia_jumlah_08_opt_b",
+        "label": "B",
+        "content": "89",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_usia_jumlah_08_opt_c",
+        "label": "C",
+        "content": "101",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_usia_jumlah_08_opt_d",
+        "label": "D",
+        "content": "95",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_jadwal_sesi_06",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Lomba matematika dimulai pukul 08.05. Lomba terdiri atas 3 sesi, setiap sesi 40 menit, dan di antara dua sesi ada istirahat 5 menit. Lomba selesai pukul ...",
+    "imageUrl": null,
+    "explanation": "Waktu sesi = 3 × 40 = 120 menit. Istirahat hanya di antara sesi: 2 × 5 = 10 menit. Total 130 menit = 2 jam 10 menit. 08.05 + 2 jam 10 menit = **10.15**.\n\nKunci Jawaban: **C (10.15)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_06_opt_a",
+        "label": "A",
+        "content": "11.15",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_06_opt_b",
+        "label": "B",
+        "content": "10.20",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_06_opt_c",
+        "label": "C",
+        "content": "10.15",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_jadwal_sesi_06_opt_d",
+        "label": "D",
+        "content": "10.05",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_huruf_ke_03",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Kata HIJAU ditulis berulang-ulang tanpa spasi: HIJAUHIJAUHIJAU... Huruf ke-52 adalah ...",
+    "imageUrl": null,
+    "explanation": "Kata HIJAU terdiri atas 5 huruf. 52 = 5 × 10 + 2, sisa 2 berarti huruf ke-2 dari kata HIJAU: **I**.\n\nKunci Jawaban: **A (I)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_huruf_ke_03_opt_a",
+        "label": "A",
+        "content": "I",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_huruf_ke_03_opt_b",
+        "label": "B",
+        "content": "J",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_huruf_ke_03_opt_c",
+        "label": "C",
+        "content": "H",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_huruf_ke_03_opt_d",
+        "label": "D",
+        "content": "A",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_pola_beda_09",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Perhatikan pola bilangan berikut: 4, 5, 9, 16, 26, ... Bilangan ke-7 adalah ...",
+    "imageUrl": null,
+    "explanation": "Selisih antarbilangan: 1, 4, 7, 10, ... selalu bertambah 3. Lanjutkan: 4, 5, 9, 16, 26, 39, 55. Bilangan ke-7 = **55**.\n\nKunci Jawaban: **C (55)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_pola_beda_09_opt_a",
+        "label": "A",
+        "content": "39",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_pola_beda_09_opt_b",
+        "label": "B",
+        "content": "46",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_pola_beda_09_opt_c",
+        "label": "C",
+        "content": "55",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_pola_beda_09_opt_d",
+        "label": "D",
+        "content": "74",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      }
+    ]
+  },
+  {
+    "id": "q_gfn2_l1_pola_gambar_04",
+    "topicId": "top_latihan_mtk_l1_grandfinal",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Gambar ke-1 terdiri atas 1 titik, gambar ke-2 terdiri atas 3 titik (1 + 2), gambar ke-3 terdiri atas 6 titik (1 + 2 + 3), dan seterusnya. Banyaknya pada gambar ke-7 adalah ...",
+    "imageUrl": null,
+    "explanation": "Gambar ke-7 = 1 + 2 + ... + 7 = **28** titik.\n\nKunci Jawaban: **D (28)**",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "q_gfn2_l1_pola_gambar_04_opt_a",
+        "label": "A",
+        "content": "21",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 0
+      },
+      {
+        "id": "q_gfn2_l1_pola_gambar_04_opt_b",
+        "label": "B",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "q_gfn2_l1_pola_gambar_04_opt_c",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "q_gfn2_l1_pola_gambar_04_opt_d",
+        "label": "D",
+        "content": "28",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      }
+    ]
+  }
+]
