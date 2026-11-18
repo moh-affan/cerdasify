@@ -275,7 +275,7 @@ Ini memastikan pada layar ponsel selebar 360px–420px, rumus dapat di-scroll se
 
 ## 9. Bank Soal & Seeder Kanonik
 
-Bank soal (1.994 butir, 61 paket, 11 kategori, 78 topik per Oktober 2026) disimpan di repo sebagai **sumber kebenaran**:
+Bank soal (3.809 butir, 166 paket, 15 kategori, 118 topik per November 2026) disimpan di repo sebagai **sumber kebenaran**:
 
 ```
 src/db/seed-data/question-bank/

@@ -7,7 +7,7 @@
 
 ## 📌 Sekilas Tentang Cerdasify
 
-**Cerdasify** adalah sistem aplikasi web fullstack modern berbasis **Next.js 16 (App Router)** dan **PostgreSQL (Supabase)** yang dirancang untuk kebutuhan latihan soal mandiri serta simulasi ujian berskala profesional. Platform ini dilengkapi **1.994 butir soal** dalam **61 paket** (olimpiade Matematika, Sains, dan Bahasa Inggris; OSN; profiling ASN; dan simulasi CPNS SKD), ditambah Pustaka Belajar untuk anak.
+**Cerdasify** adalah sistem aplikasi web fullstack modern berbasis **Next.js 16 (App Router)** dan **PostgreSQL** (Supabase atau server PostgreSQL mana pun) yang dirancang untuk kebutuhan latihan soal mandiri serta simulasi ujian berskala profesional. Platform ini dilengkapi **3.809 butir soal** dalam **166 paket** (olimpiade Matematika, Sains, dan Bahasa Inggris; OSN; profiling ASN; dan simulasi CPNS SKD), ditambah Pustaka Belajar untuk anak.
 
 Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa distraksi**, dengan performa instan di ponsel pintar (smartphone) maupun komputer desktop tanpa memberatkan kuota internet atau memori perangkat.
 
@@ -15,7 +15,7 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 
 ## ✨ Fitur Unggulan
 
-### 1. Bank Soal & Konten Lengkap (1.994 Soal, 61 Paket)
+### 1. Bank Soal & Konten Lengkap (3.809 Soal, 166 Paket)
 - **Olimpiade Matematika:** PRISMA 2024/2025, CEO 2025, ORION 2025/2026, IMOCSEA, OSN SD (97 soal hasil rekonstruksi dari buku sumber), Buku Soal Sesi 1–5/13/21, Aljabar Marathon 100.
 - **Olimpiade Sains & Bahasa Inggris:** PRISMA, CEO, JSO 2025, KMSI 2024, dan latihan Level 1–2 (penyisihan & provinsi), lengkap dengan gambar asli naskah.
 - **ASN/CPNS:** SJT Manajerial, Sosio-Kultural BerAKHLAK, Potensi Kognitif, Literasi Digital, Mini CPNS SKD.
@@ -79,7 +79,7 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 - **User / Siswa:** Mengakses katalog paket, mengerjakan ujian/latihan, dan memantau riwayat progres.
 
 ### 5. Arsitektur Ringan & Aman
-- Basis data **PostgreSQL (Supabase)** dengan Drizzle ORM dan transaksi atomik.
+- Basis data **PostgreSQL** (Supabase atau server PostgreSQL mana pun) dengan Drizzle ORM dan transaksi atomik.
 - Penilaian 100% di server, validasi waktu ujian di server, kunci jawaban tidak pernah dikirim ke browser selama ujian berlangsung.
 - Unggahan gambar tervalidasi (JPEG/PNG/WebP, maks. 5MB, cek isi file) dan tersimpan di Supabase Storage.
 
@@ -109,8 +109,9 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 ## 🚀 Panduan Memulai Cepat (Quick Start)
 
 ### 1. Prasyarat
-- Node.js versi 18.18.0 atau lebih baru
+- Node.js versi 22 atau lebih baru
 - npm / pnpm / yarn
+- PostgreSQL 14+ (Supabase, Neon, server sendiri, atau Docker lokal). Supabase **tidak wajib**: seluruh isi database bisa dibangun ulang dari repo ini.
 
 ### 2. Instalasi Dependensi
 ```bash
@@ -127,33 +128,42 @@ cp .env.example .env.local
 
 Isi konfigurasi pada `.env.local`:
 ```env
-# Database
-DATABASE_PATH="./data/cerdasify.db"
+# PostgreSQL apa saja. Contoh Docker lokal (lihat langkah 4):
+DATABASE_URL="postgresql://postgres:<password>@localhost:5432/cerdasify"
 
-# Session & Security (Gunakan string acak minimal 32 karakter)
-SESSION_SECRET="cerdasify_super_secret_session_key_production_2026_xyz"
+# Session & Security (string acak minimal 32 karakter)
+SESSION_SECRET="<string-acak-panjang>"
 
 # Akun Super Admin Awal
 DEFAULT_ADMIN_USERNAME="superadmin"
 DEFAULT_ADMIN_PASSWORD="<password-kuat-anda>"
+
+# Opsional: Supabase Storage untuk gambar yang diunggah lewat panel admin.
+# Bila kosong, unggahan disimpan ke public/uploads/ (ikut repo).
+# NEXT_PUBLIC_SUPABASE_URL=...
+# SUPABASE_SERVICE_ROLE_KEY=...
 ```
 
-### 4. Migrasi Skema & Seeding Bank Soal
+### 4. Membangun Database dari Nol
+Semua konten (kategori, topik, 166 paket, 3.809 soal + opsi + urutan soal per paket, Pustaka Belajar, set game) tersimpan di `src/db/seed-data/`, dan semua gambarnya di `public/` — tidak ada yang hanya tersimpan di Supabase. Tiga perintah berikut membangun database kosong menjadi identik dengan produksi (diverifikasi November 2026: 12 tabel konten, 36.565 baris, sama persis):
+
 ```bash
-# Buat/perbarui tabel dan semai seluruh bank soal (1.994 soal, 61 paket) dari src/db/seed-data/question-bank
-npm run seed
+# (opsional) PostgreSQL lokal via Docker
+docker run -d --name cerdasify-db -e POSTGRES_PASSWORD=<password> -e POSTGRES_DB=cerdasify -p 5432:5432 postgres:16-alpine
 
-# Setelah mengedit soal di panel admin: simpan kembali ke berkas bank soal, lalu commit
-npm run bank:export
-
-# Konten Pustaka Belajar
-npm run seed:learning
-
-# Set game edukasi (Bermain) — jalankan setelah seed:learning (butuh tabel mata pelajaran)
-npm run seed:games
-# Setelah mengubah set game di panel admin: simpan ke src/db/seed-data/games/admin-overrides.json, lalu commit
-npm run games:export
+npm run seed            # migrasi skema + Super Admin + bank soal (src/db/seed-data/question-bank)
+npm run seed:learning   # Pustaka Belajar (mata pelajaran, bacaan, kosakata, kuis)
+npm run seed:games      # set game edukasi (butuh tabel mata pelajaran dari seed:learning)
 ```
+
+Data pengguna (akun, hasil ujian, progres membaca, sesi game) tidak ada di repo; pindahkan dengan `npm run db:backup` / `npm run db:restore` bila perlu.
+
+**Agar repo tetap menjadi sumber kebenaran**, setiap perubahan konten lewat panel admin wajib diekspor lalu di-commit:
+```bash
+npm run bank:export     # soal & paket -> src/db/seed-data/question-bank/
+npm run games:export    # set game -> src/db/seed-data/games/admin-overrides.json
+```
+Konten Pustaka Belajar yang diedit lewat panel admin (`edited_at` terisi) belum punya ekspor otomatis: salin perubahannya ke berkas `src/db/seed-data/learning/` yang sesuai.
 
 ### 5. Menjalankan Server
 ```bash
