@@ -152,7 +152,7 @@ Seluruh kalkulasi skor dilakukan oleh `finalizeAttempt()` ([src/lib/exam-grading
 | `passingScore` | Ambang lulus skor total | 60% skor maksimum |
 | `twkPassingGrade`, `tiuPassingGrade`, `tkpPassingGrade` | Ambang per subtes CPNS (dicocokkan dari nama topik) | — |
 
-Konvensi: paket latihan anak/olimpiade tanpa nilai minus memakai `wrongScore: 0`; simulasi yang meniru lomba bernilai minus (PRISMA, Sesi Simulasi) memakai `-1`; `emptyScore` tidak pernah lebih kecil dari 0. Soal `GRADED_SCALE` (SJT/TKP) selalu memakai poin opsi 1–5, jadi `correctScore`/`wrongScore` tidak berlaku. Tulis aturan secara eksplisit di setiap paket agar tidak jatuh ke default `-1`.
+Konvensi: paket latihan anak/olimpiade tanpa nilai minus memakai `wrongScore: 0`; simulasi yang meniru lomba bernilai minus (PRISMA, Sesi Simulasi) serta semua paket babak Grand Final/Final Nasional dan Final Provinsi (termasuk Final NTB) memakai `-1`; `emptyScore` tidak pernah lebih kecil dari 0. Soal `GRADED_SCALE` (SJT/TKP) selalu memakai poin opsi 1–5, jadi `correctScore`/`wrongScore` tidak berlaku. Tulis aturan secara eksplisit di setiap paket agar tidak jatuh ke default `-1`.
 
 **Soal berbobot (`GRADED_SCALE`).** Untuk soal tanpa benar/salah mutlak (SJT ASN, TKP CPNS, atau soal sikap lainnya), setiap opsi punya bobot sendiri di `question_options.score_value` (bilangan bulat 1–5):
 - Peserta memilih satu opsi dan memperoleh bobot opsi itu; tidak pernah ada nilai minus. Soal kosong mengikuti `emptyScore` (default 0).
@@ -315,7 +315,7 @@ Temuan yang perlu diingat saat menambah soal:
 - Kunci/pembahasan dari dokumen sumber pun bisa keliru (mis. buku OSN no. 18, 65, 75; kunci JSO no. 9) — hitung sendiri.
 - Soal yang kuncinya tidak bisa dipastikan (gambar buram/ambigu, tidak ada opsi yang benar, redaksi kontradiktif) **tidak diikutkan**; redaksi yang jelas salah ketik diperbaiki dan diberi catatan di pembahasan. Keduanya dicatat di berkas audit.
 - Soal isian singkat (mis. Grand Final JSO) diubah menjadi pilihan ganda: kunci dihitung sendiri + tiga pengecoh dari kesalahan umum, dengan catatan "aslinya isian singkat".
-- Aturan penilaian paket olimpiade anak tetap `correctScore: 4, wrongScore: 0, emptyScore: 0` walaupun naskah resmi memakai −1.
+- Aturan penilaian paket olimpiade anak adalah `correctScore: 4, wrongScore: 0, emptyScore: 0`, kecuali paket babak Grand Final/Final Nasional dan Final Provinsi (termasuk Final NTB) yang memakai `correctScore: 4, wrongScore: -1, emptyScore: 0`.
 - Soal berbobot (SJT/TKP): setiap opsi harus masuk akal, bobot 5 = tindakan tuntas & sesuai aturan, 1 = melanggar etika/hukum, dan pembahasan menjelaskan alasan kelima bobot.
 
 ---

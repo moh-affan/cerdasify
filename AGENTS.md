@@ -55,7 +55,7 @@ export const db = drizzle(client, { schema });
 - **Kalkulasi Nilai:**
   - Penilaian dilakukan **100% di server** (`finalizeAttempt` di `src/lib/exam-grading.ts`) saat submit atau saat waktu habis.
   - Soal pilihan tunggal hanya benar bila **tepat satu** opsi dipilih dan itu kuncinya; pilihan ganda kompleks harus sama persis dengan himpunan kunci.
-  - Aturan paket (`passing_grade_rules`) hanya mengenal `correctScore`, `wrongScore`, `emptyScore`, `passingScore`, dan `twk/tiu/tkpPassingGrade`. Tulis secara eksplisit di setiap paket (tanpa aturan, salah = −1); paket latihan anak memakai `wrongScore: 0` dan `emptyScore` tidak boleh negatif.
+  - Aturan paket (`passing_grade_rules`) hanya mengenal `correctScore`, `wrongScore`, `emptyScore`, `passingScore`, dan `twk/tiu/tkpPassingGrade`. Tulis secara eksplisit di setiap paket (tanpa aturan, salah = −1); paket latihan anak memakai `wrongScore: 0`, kecuali paket babak Grand Final/Final Nasional dan Final Provinsi (termasuk Final NTB) yang memakai benar +4, salah −1, kosong 0; `emptyScore` tidak boleh negatif.
 - **Soal Berbobot (`GRADED_SCALE`):** setiap opsi berbobot 1–5 (SJT/TKP), tanpa nilai minus; bobot 5 = tindakan tuntas & sesuai aturan, 1 = melanggar etika/hukum. Setiap opsi harus masuk akal dan pembahasan menjelaskan alasan kelima bobot.
 - **Perbaikan Isi Soal:** kunci, pembahasan, dan gambar wajib diverifikasi ulang (hitung sendiri, buka berkas gambarnya, cocokkan dengan naskah sumber) — jangan percaya teks hasil ekstraksi PDF maupun kunci sumber begitu saja. Simpan hasil akhirnya ke bank soal (lihat §2.6).
 - **Validasi Waktu di Server (`src/lib/exam-time.ts`):**
