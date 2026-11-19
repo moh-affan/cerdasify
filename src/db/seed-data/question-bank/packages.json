@@ -9017,5 +9017,49 @@
       "q_gfn2_l1_kubus_cat_06",
       "q_gfn2_l1_bilangan_terkecil_07"
     ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1",
+    "title": "Olimpiade FEXEL — Latihan Soal Matematika Level 2 (Kelas 3–4)",
+    "slug": "olimpiade-fexel-latihan-matematika-level-2",
+    "categoryId": "cat_olimpiade_fexel",
+    "type": "PRACTICE",
+    "durationMinutes": 60,
+    "shuffleQuestions": false,
+    "shuffleOptions": false,
+    "passingGradeRules": {
+      "correctScore": 4,
+      "wrongScore": 0,
+      "emptyScore": 0,
+      "passingScore": 60
+    },
+    "isPublished": true,
+    "questions": [
+      "pkg_fexel_mtk_l2_1_q01",
+      "pkg_fexel_mtk_l2_1_q02",
+      "pkg_fexel_mtk_l2_1_q03",
+      "pkg_fexel_mtk_l2_1_q04",
+      "pkg_fexel_mtk_l2_1_q05",
+      "pkg_fexel_mtk_l2_1_q06",
+      "pkg_fexel_mtk_l2_1_q07",
+      "pkg_fexel_mtk_l2_1_q08",
+      "pkg_fexel_mtk_l2_1_q09",
+      "pkg_fexel_mtk_l2_1_q10",
+      "pkg_fexel_mtk_l2_1_q11",
+      "pkg_fexel_mtk_l2_1_q12",
+      "pkg_fexel_mtk_l2_1_q13",
+      "pkg_fexel_mtk_l2_1_q14",
+      "pkg_fexel_mtk_l2_1_q15",
+      "pkg_fexel_mtk_l2_1_q16",
+      "pkg_fexel_mtk_l2_1_q17",
+      "pkg_fexel_mtk_l2_1_q18",
+      "pkg_fexel_mtk_l2_1_q19",
+      "pkg_fexel_mtk_l2_1_q20",
+      "pkg_fexel_mtk_l2_1_q21",
+      "pkg_fexel_mtk_l2_1_q22",
+      "pkg_fexel_mtk_l2_1_q23",
+      "pkg_fexel_mtk_l2_1_q24",
+      "pkg_fexel_mtk_l2_1_q25"
+    ]
   }
 ]

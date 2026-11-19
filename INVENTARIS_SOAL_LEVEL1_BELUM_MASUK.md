@@ -331,6 +331,21 @@ Belum diimpor: `CODING KELAS 1–4` VENUS (hampir seluruhnya soal gambar/arah) s
 | VENUS IPS A | 22 | pengecoh diganti | "Agar alat komunikasi bisa dibawa ke mana-mana" juga masuk akal sebagai tujuan |
 | VENUS IPS B | 24, 39 | dibuang | Kuliah: sekunder/tersier berbeda antarbuku; sawit dan padi sama-sama di dataran rendah |
 
+## Impor 19-11-2026: FEXEL
+
+Salinan lokal: `~/Downloads/LATIHAN SOAL MTK LEVEL 2 .pdf` (hasil pindai, 4 halaman, tanpa kunci). Semua kunci dihitung ulang.
+
+| Sumber | Paket | Soal |
+|---|---|---:|
+| `LATIHAN SOAL MTK LEVEL 2 .pdf` (Latihan Matematika Kelas 3–4) | pkg_fexel_mtk_l2_1 | 25 |
+
+### Soal yang diubah
+
+| Naskah | No. | Tindakan | Alasan |
+|---|---:|---|---|
+| FEXEL Mat L2 | 2, 3, 5, 6, 7, 8, 9, 17, 19, 24, 25 | opsi disesuaikan | Jawaban benar tidak ada di opsi (4.005; 199; 2.550 g; 13 : 12; 52,5 km/jam; 102; 625 cm²; 875 m; 71, 89, 109; A + B = 10; 81 + 121 = 202); satu pengecoh diganti jawaban benar |
+| FEXEL Mat L2 | 15 | opsi disesuaikan | Opsi 1.950–2.250 kuintal 10 kali terlalu besar; jawaban 215 kuintal, opsi diubah menjadi 195–225 kuintal |
+
 ## Duplikat (tidak dihitung)
 
 | Berkas | Mapel | Keterangan |

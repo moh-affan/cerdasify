@@ -706,5 +706,11 @@
     "categoryId": "cat_olimpiade_venus",
     "name": "IPS Level B (Kelas 3–4) Final VENUS ke-3 2025",
     "slug": "kompetisi-venus-3-2025-final-ips-level-b"
+  },
+  {
+    "id": "top_fexel_mtk_l2",
+    "categoryId": "cat_olimpiade_fexel",
+    "name": "Matematika Level 2 (Kelas 3–4) Latihan FEXEL",
+    "slug": "olimpiade-fexel-latihan-matematika-level-2"
   }
 ]

@@ -103,5 +103,12 @@
     "slug": "kompetisi-venus",
     "description": "Naskah Kompetisi Matematika, Sains, IPS, dan Bahasa Inggris VENUS tingkat SD.",
     "orderIndex": 0
+  },
+  {
+    "id": "cat_olimpiade_fexel",
+    "name": "Olimpiade FEXEL",
+    "slug": "olimpiade-fexel",
+    "description": "Latihan soal Olimpiade FEXEL Matematika tingkat SD.",
+    "orderIndex": 0
   }
 ]

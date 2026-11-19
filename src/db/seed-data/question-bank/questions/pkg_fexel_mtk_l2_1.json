@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "pkg_fexel_mtk_l2_1_q01",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Perhatikan bilangan berikut:\n\n456.789, 465.798, 456.987, 465.879, dan 459.678.\n\nJika bilangan tersebut diurutkan dari terbesar ke terkecil, bilangan yang berada pada urutan ketiga adalah ….",
+    "imageUrl": null,
+    "explanation": "Bandingkan dari angka paling kiri. Urutan dari terbesar: 465.879, 465.798, **459.678**, 456.987, 456.789.\n\nUrutan ketiga adalah **459.678**.\n\nKunci Jawaban: **A (459.678)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q01_opt_a",
+        "label": "A",
+        "content": "459.678",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q01_opt_b",
+        "label": "B",
+        "content": "465.798",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q01_opt_c",
+        "label": "C",
+        "content": "456.987",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q01_opt_d",
+        "label": "D",
+        "content": "456.789",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q02",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah toko memiliki 15 kardus. Setiap kardus berisi 24 kotak pensil. Setiap kotak berisi 18 pensil. Jika 2.475 pensil terjual, jumlah pensil yang tersisa adalah ….",
+    "imageUrl": null,
+    "explanation": "Jumlah pensil: $15 \\times 24 = 360$ kotak, lalu $360 \\times 18 = 6.480$ pensil.\n\nSisa pensil: $6.480 - 2.475 = 4.005$.\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **C (4.005)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q02_opt_a",
+        "label": "A",
+        "content": "3.925",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q02_opt_b",
+        "label": "B",
+        "content": "3.975",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q02_opt_c",
+        "label": "C",
+        "content": "4.005",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q02_opt_d",
+        "label": "D",
+        "content": "4.025",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q03",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari operasi hitung berikut adalah ….\n\n$$720 - (18 \\times 24) + (540 \\div 15) - 125$$",
+    "imageUrl": null,
+    "explanation": "Kerjakan yang di dalam kurung dulu: $18 \\times 24 = 432$ dan $540 \\div 15 = 36$.\n\n$720 - 432 + 36 - 125 = 288 + 36 - 125 = 324 - 125 = 199$.\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **C (199)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q03_opt_a",
+        "label": "A",
+        "content": "187",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q03_opt_b",
+        "label": "B",
+        "content": "195",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q03_opt_c",
+        "label": "C",
+        "content": "199",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q03_opt_d",
+        "label": "D",
+        "content": "203",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q04",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika diketahui:\n\n$$640 - n = 5 \\times (160 - n)$$\n\nNilai $n$ adalah ….",
+    "imageUrl": null,
+    "explanation": "$5 \\times (160 - n) = 800 - 5n$, jadi $640 - n = 800 - 5n$.\n\nPindahkan: $5n - n = 800 - 640$, sehingga $4n = 160$ dan $n = 40$.\n\nCek: $640 - 40 = 600$ dan $5 \\times 120 = 600$ ✓.\n\nKunci Jawaban: **B (40)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q04_opt_a",
+        "label": "A",
+        "content": "35",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q04_opt_b",
+        "label": "B",
+        "content": "40",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q04_opt_c",
+        "label": "C",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q04_opt_d",
+        "label": "D",
+        "content": "50",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q05",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Berat 4 buah mangga sama dengan berat 6 buah apel. Jika berat 9 buah apel adalah 1.350 gram, berat 8 buah mangga dan 5 buah apel adalah ….",
+    "imageUrl": null,
+    "explanation": "1 apel $= 1.350 \\div 9 = 150$ gram.\n\n4 mangga = 6 apel $= 900$ gram, jadi 8 mangga = 12 apel $= 1.800$ gram.\n\n5 apel $= 750$ gram.\n\nTotal: $1.800 + 750 = 2.550$ gram.\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **A (2.550 gram)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q05_opt_a",
+        "label": "A",
+        "content": "2.550 gram",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q05_opt_b",
+        "label": "B",
+        "content": "2.700 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q05_opt_c",
+        "label": "C",
+        "content": "3.000 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q05_opt_d",
+        "label": "D",
+        "content": "3.150 gram",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q06",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Jumlah kelereng Andi dan Budi adalah 288 butir. Perbandingan kelereng mereka adalah 5 : 7. Kemudian Andi membeli 36 kelereng, sedangkan Budi kehilangan 24 kelereng. Perbandingan jumlah kelereng mereka sekarang adalah ….",
+    "imageUrl": null,
+    "explanation": "Mula-mula: Andi $= \\frac{5}{12} \\times 288 = 120$, Budi $= \\frac{7}{12} \\times 288 = 168$.\n\nSekarang: Andi $= 120 + 36 = 156$, Budi $= 168 - 24 = 144$.\n\n$156 : 144$, keduanya dibagi 12 menjadi **13 : 12** (kelereng Andi sekarang lebih banyak).\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **D (13 : 12)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q06_opt_a",
+        "label": "A",
+        "content": "4 : 5",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q06_opt_b",
+        "label": "B",
+        "content": "5 : 6",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q06_opt_c",
+        "label": "C",
+        "content": "12 : 13",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q06_opt_d",
+        "label": "D",
+        "content": "13 : 12",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q07",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah mobil menempuh jarak 120 km dalam waktu 2 jam. Setelah beristirahat selama 30 menit, mobil melanjutkan perjalanan sejauh 90 km selama 1 jam 30 menit. Kecepatan rata-rata seluruh perjalanan termasuk waktu istirahat adalah ….",
+    "imageUrl": null,
+    "explanation": "Jarak total: $120 + 90 = 210$ km.\n\nWaktu total (termasuk istirahat): 2 jam + 30 menit + 1 jam 30 menit = 4 jam.\n\nKecepatan rata-rata $= 210 \\div 4 = 52{,}5$ km/jam.\n\n(Jika istirahat tidak dihitung, hasilnya $210 \\div 3{,}5 = 60$ km/jam — itu jebakan.)\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **B (52,5 km/jam)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q07_opt_a",
+        "label": "A",
+        "content": "50 km/jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q07_opt_b",
+        "label": "B",
+        "content": "52,5 km/jam",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q07_opt_c",
+        "label": "C",
+        "content": "55 km/jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q07_opt_d",
+        "label": "D",
+        "content": "60 km/jam",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q08",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Diketahui:\n\n$$a \\times b = 360$$\n$$4b = 60$$\n\nNilai dari $(3a + 2b)$ adalah ….",
+    "imageUrl": null,
+    "explanation": "Dari $4b = 60$, maka $b = 15$.\n\nDari $a \\times 15 = 360$, maka $a = 24$.\n\n$3a + 2b = 72 + 30 = 102$.\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **D (102)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q08_opt_a",
+        "label": "A",
+        "content": "62",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q08_opt_b",
+        "label": "B",
+        "content": "66",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q08_opt_c",
+        "label": "C",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q08_opt_d",
+        "label": "D",
+        "content": "102",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q09",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah persegi memiliki luas 400 cm². Jika panjang sisinya ditambah 5 cm, luas persegi yang baru adalah ….",
+    "imageUrl": null,
+    "explanation": "Sisi lama: $20 \\times 20 = 400$, jadi sisi $= 20$ cm.\n\nSisi baru $= 25$ cm, luas baru $= 25 \\times 25 = 625$ cm².\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **D (625 cm²)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q09_opt_a",
+        "label": "A",
+        "content": "525 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q09_opt_b",
+        "label": "B",
+        "content": "550 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q09_opt_c",
+        "label": "C",
+        "content": "600 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q09_opt_d",
+        "label": "D",
+        "content": "625 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q10",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Tiga sudut memiliki ukuran masing-masing 38°, 117°, dan 180°. Jika ketiga sudut tersebut dijumlahkan, hasilnya adalah ….",
+    "imageUrl": null,
+    "explanation": "$38° + 117° + 180° = 155° + 180° = 335°$.\n\nKunci Jawaban: **C (335°)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q10_opt_a",
+        "label": "A",
+        "content": "325°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q10_opt_b",
+        "label": "B",
+        "content": "330°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q10_opt_c",
+        "label": "C",
+        "content": "335°",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q10_opt_d",
+        "label": "D",
+        "content": "345°",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q11",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Hasil dari operasi berikut adalah ….\n\n$$250 - (-35) \\times 4 + (-120) \\div 6$$",
+    "imageUrl": null,
+    "explanation": "Kali dan bagi dikerjakan dulu: $(-35) \\times 4 = -140$ dan $(-120) \\div 6 = -20$.\n\n$250 - (-140) + (-20) = 250 + 140 - 20 = 370$.\n\nKunci Jawaban: **C (370)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q11_opt_a",
+        "label": "A",
+        "content": "330",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q11_opt_b",
+        "label": "B",
+        "content": "350",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q11_opt_c",
+        "label": "C",
+        "content": "370",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q11_opt_d",
+        "label": "D",
+        "content": "390",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q12",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Jika:\n\n$$P + P + P + P + P + P = 9 \\times 18$$\n\nMaka nilai dari $(3P - 27)$ adalah ….",
+    "imageUrl": null,
+    "explanation": "$6P = 162$, jadi $P = 27$.\n\n$3P - 27 = 81 - 27 = 54$.\n\nKunci Jawaban: **B (54)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q12_opt_a",
+        "label": "A",
+        "content": "45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q12_opt_b",
+        "label": "B",
+        "content": "54",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q12_opt_c",
+        "label": "C",
+        "content": "63",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q12_opt_d",
+        "label": "D",
+        "content": "72",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q13",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bus A berangkat dari terminal setiap 18 menit sekali, sedangkan bus B setiap 24 menit sekali. Kedua bus berangkat bersama pukul 06.30. Kedua bus akan berangkat bersama lagi pada pukul ….",
+    "imageUrl": null,
+    "explanation": "KPK dari 18 dan 24: $18 = 2 \\times 3^2$, $24 = 2^3 \\times 3$, KPK $= 2^3 \\times 3^2 = 72$ menit = 1 jam 12 menit.\n\n06.30 + 1 jam 12 menit = **07.42**.\n\nKunci Jawaban: **A (07.42)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q13_opt_a",
+        "label": "A",
+        "content": "07.42",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q13_opt_b",
+        "label": "B",
+        "content": "08.00",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q13_opt_c",
+        "label": "C",
+        "content": "08.06",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q13_opt_d",
+        "label": "D",
+        "content": "08.18",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q14",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Seorang pedagang memiliki 144 jeruk dan 180 apel. Semua buah akan dimasukkan ke dalam beberapa keranjang dengan jumlah setiap jenis buah sama banyak dan tanpa sisa. Jumlah keranjang terbanyak yang dapat dibuat adalah ….",
+    "imageUrl": null,
+    "explanation": "Jumlah keranjang terbanyak = FPB dari 144 dan 180.\n\n$144 = 2^4 \\times 3^2$, $180 = 2^2 \\times 3^2 \\times 5$, FPB $= 2^2 \\times 3^2 = 36$.\n\nSetiap keranjang berisi 4 jeruk dan 5 apel.\n\nKunci Jawaban: **C (36)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q14_opt_a",
+        "label": "A",
+        "content": "24",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q14_opt_b",
+        "label": "B",
+        "content": "30",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q14_opt_c",
+        "label": "C",
+        "content": "36",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q14_opt_d",
+        "label": "D",
+        "content": "48",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q15",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah gudang memiliki 12,5 ton beras. Kemudian menerima tambahan 275 kuintal beras. Setelah itu, sebanyak 18.500 kg beras dikirim ke toko. Sisa beras di gudang adalah ….",
+    "imageUrl": null,
+    "explanation": "Ubah ke kuintal (1 ton = 10 kuintal, 1 kuintal = 100 kg):\n\n12,5 ton = 125 kuintal; 18.500 kg = 185 kuintal.\n\nSisa: $125 + 275 - 185 = 215$ kuintal.\n\nCatatan: opsi pada naskah asli tertulis 1.950 / 2.050 / 2.150 / 2.250 kuintal (10 kali terlalu besar), sehingga opsi disesuaikan.\n\nKunci Jawaban: **C (215 kuintal)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q15_opt_a",
+        "label": "A",
+        "content": "195 kuintal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q15_opt_b",
+        "label": "B",
+        "content": "205 kuintal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q15_opt_c",
+        "label": "C",
+        "content": "215 kuintal",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q15_opt_d",
+        "label": "D",
+        "content": "225 kuintal",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q16",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Sebuah persegi panjang memiliki panjang 25 cm dan lebar 16 cm. Jika panjangnya bertambah 5 cm dan lebarnya berkurang 4 cm, luas bangun yang baru adalah ….",
+    "imageUrl": null,
+    "explanation": "Panjang baru $= 30$ cm, lebar baru $= 12$ cm.\n\nLuas baru $= 30 \\times 12 = 360$ cm².\n\nKunci Jawaban: **A (360 cm²)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q16_opt_a",
+        "label": "A",
+        "content": "360 cm²",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q16_opt_b",
+        "label": "B",
+        "content": "378 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q16_opt_c",
+        "label": "C",
+        "content": "390 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q16_opt_d",
+        "label": "D",
+        "content": "420 cm²",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q17",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Hasil dari:\n\n$$0{,}45 \\text{ km} + 0{,}75 \\text{ hm} + 35 \\text{ dam}$$\n\nJika dinyatakan dalam meter adalah ….",
+    "imageUrl": null,
+    "explanation": "0,45 km = 450 m; 0,75 hm = 75 m; 35 dam = 350 m.\n\n$450 + 75 + 350 = 875$ m.\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **B (875 m)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q17_opt_a",
+        "label": "A",
+        "content": "870 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q17_opt_b",
+        "label": "B",
+        "content": "875 m",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q17_opt_c",
+        "label": "C",
+        "content": "900 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q17_opt_d",
+        "label": "D",
+        "content": "920 m",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q18",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Bilangan Romawi MMDCCLXXXIX jika ditulis dalam bilangan biasa adalah ….",
+    "imageUrl": null,
+    "explanation": "MM = 2.000, DCC = 700, LXXX = 80, IX = 9.\n\n$2.000 + 700 + 80 + 9 = 2.789$.\n\nKunci Jawaban: **C (2.789)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q18_opt_a",
+        "label": "A",
+        "content": "2.769",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q18_opt_b",
+        "label": "B",
+        "content": "2.779",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q18_opt_c",
+        "label": "C",
+        "content": "2.789",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q18_opt_d",
+        "label": "D",
+        "content": "2.799",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q19",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan pola bilangan berikut:\n\n5, 11, 19, 29, 41, 55, …\n\nTiga bilangan berikutnya adalah ….",
+    "imageUrl": null,
+    "explanation": "Selisihnya: +6, +8, +10, +12, +14 (selalu bertambah 2).\n\nSelisih berikutnya +16, +18, +20: $55 + 16 = 71$, $71 + 18 = 89$, $89 + 20 = 109$.\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **D (71, 89, 109)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q19_opt_a",
+        "label": "A",
+        "content": "67, 81, 97",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q19_opt_b",
+        "label": "B",
+        "content": "69, 85, 103",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q19_opt_c",
+        "label": "C",
+        "content": "71, 87, 105",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q19_opt_d",
+        "label": "D",
+        "content": "71, 89, 109",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q20",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Sebuah perlombaan dimulai pukul 08.45. Peserta menyelesaikan perlombaan dalam waktu 2 jam 35 menit 45 detik. Perlombaan tersebut selesai pada pukul ….",
+    "imageUrl": null,
+    "explanation": "08.45.00 + 2 jam = 10.45.00.\n\n10.45.00 + 35 menit = 11.20.00.\n\n11.20.00 + 45 detik = **11.20.45**.\n\nKunci Jawaban: **C (11.20.45)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q20_opt_a",
+        "label": "A",
+        "content": "11.10.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q20_opt_b",
+        "label": "B",
+        "content": "11.15.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q20_opt_c",
+        "label": "C",
+        "content": "11.20.45",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q20_opt_d",
+        "label": "D",
+        "content": "11.25.45",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q21",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "EASY",
+    "content": "Jumlah uang Budi adalah Rp25.000 lebih banyak daripada tiga kali uang Andi. Jika uang Andi Rp35.000, jumlah uang Budi adalah ….",
+    "imageUrl": null,
+    "explanation": "Tiga kali uang Andi: $3 \\times 35.000 = 105.000$.\n\nUang Budi: $105.000 + 25.000 = 130.000$, yaitu Rp130.000.\n\nKunci Jawaban: **C (Rp130.000)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q21_opt_a",
+        "label": "A",
+        "content": "Rp115.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q21_opt_b",
+        "label": "B",
+        "content": "Rp120.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q21_opt_c",
+        "label": "C",
+        "content": "Rp130.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q21_opt_d",
+        "label": "D",
+        "content": "Rp135.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q22",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Sebuah taman berbentuk persegi panjang berukuran 32 m × 20 m. Di tengah taman terdapat kolam berbentuk persegi dengan panjang sisi 8 m. Bagian taman selain kolam akan dipasang rumput sintetis seharga Rp17.500 per m². Biaya pemasangan rumput seluruhnya adalah ….",
+    "imageUrl": null,
+    "explanation": "Luas taman: $32 \\times 20 = 640$ m². Luas kolam: $8 \\times 8 = 64$ m².\n\nLuas rumput: $640 - 64 = 576$ m².\n\nBiaya: $576 \\times 17.500 = 10.080.000$, yaitu Rp10.080.000.\n\nKunci Jawaban: **B (Rp10.080.000)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q22_opt_a",
+        "label": "A",
+        "content": "Rp9.800.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q22_opt_b",
+        "label": "B",
+        "content": "Rp10.080.000",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q22_opt_c",
+        "label": "C",
+        "content": "Rp10.360.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q22_opt_d",
+        "label": "D",
+        "content": "Rp10.500.000",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q23",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "content": "Bilangan berikut yang habis dibagi 2, 3, 5, dan 10 sekaligus adalah ….",
+    "imageUrl": null,
+    "explanation": "Habis dibagi 2, 5, dan 10 berarti angka satuannya 0. Hanya 456.780 yang berakhiran 0.\n\nCek habis dibagi 3: $4 + 5 + 6 + 7 + 8 + 0 = 30$, dan 30 habis dibagi 3 ✓.\n\nJadi jawabannya **456.780**.\n\nKunci Jawaban: **B (456.780)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q23_opt_a",
+        "label": "A",
+        "content": "345.675",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q23_opt_b",
+        "label": "B",
+        "content": "456.780",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q23_opt_c",
+        "label": "C",
+        "content": "567.895",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q23_opt_d",
+        "label": "D",
+        "content": "678.905",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q24",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HARD",
+    "content": "Perhatikan penjumlahan berikut:\n\n$$\\begin{array}{r} 3\\,A\\,8 \\\\ +\\; 2\\,7\\,B \\\\ \\hline 6\\,1\\,5 \\end{array}$$\n\nJika A dan B adalah angka yang belum diketahui, nilai A + B adalah ….",
+    "imageUrl": null,
+    "explanation": "Satuan: $8 + B$ berakhiran 5, jadi $8 + B = 15$, $B = 7$ (simpan 1).\n\nPuluhan: $A + 7 + 1$ berakhiran 1, jadi $A + 8 = 11$, $A = 3$ (simpan 1).\n\nRatusan: $3 + 2 + 1 = 6$ ✓. Cek: $338 + 277 = 615$ ✓.\n\n$A + B = 3 + 7 = 10$.\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **C (10)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q24_opt_a",
+        "label": "A",
+        "content": "7",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q24_opt_b",
+        "label": "B",
+        "content": "9",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q24_opt_c",
+        "label": "C",
+        "content": "10",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q24_opt_d",
+        "label": "D",
+        "content": "11",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "pkg_fexel_mtk_l2_1_q25",
+    "topicId": "top_fexel_mtk_l2",
+    "type": "SINGLE_CHOICE",
+    "difficulty": "HOTS",
+    "content": "Perhatikan pola bilangan berikut:\n\n4, 9, 16, 25, 36, 49, …\n\nJumlah bilangan pada urutan ke-8 dan ke-10 adalah ….",
+    "imageUrl": null,
+    "explanation": "Pola: $2^2, 3^2, 4^2, 5^2, \\dots$ — bilangan urutan ke-$n$ adalah $(n + 1)^2$.\n\nUrutan ke-8 $= 9^2 = 81$, urutan ke-10 $= 11^2 = 121$.\n\nJumlah: $81 + 121 = 202$.\n\nCatatan: opsi pada naskah asli tidak memuat jawaban yang benar, sehingga opsi disesuaikan.\n\nKunci Jawaban: **D (202)**.",
+    "explanationImageUrl": null,
+    "options": [
+      {
+        "id": "pkg_fexel_mtk_l2_1_q25_opt_a",
+        "label": "A",
+        "content": "145",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 1
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q25_opt_b",
+        "label": "B",
+        "content": "164",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 2
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q25_opt_c",
+        "label": "C",
+        "content": "181",
+        "imageUrl": null,
+        "isCorrect": false,
+        "scoreValue": 0,
+        "order": 3
+      },
+      {
+        "id": "pkg_fexel_mtk_l2_1_q25_opt_d",
+        "label": "D",
+        "content": "202",
+        "imageUrl": null,
+        "isCorrect": true,
+        "scoreValue": 4,
+        "order": 4
+      }
+    ]
+  }
+]

@@ -7,7 +7,7 @@
 
 ## 📌 Sekilas Tentang Cerdasify
 
-**Cerdasify** adalah sistem aplikasi web fullstack modern berbasis **Next.js 16 (App Router)** dan **PostgreSQL** (Supabase atau server PostgreSQL mana pun) yang dirancang untuk kebutuhan latihan soal mandiri serta simulasi ujian berskala profesional. Platform ini dilengkapi **3.809 butir soal** dalam **166 paket** (olimpiade Matematika, Sains, dan Bahasa Inggris; OSN; profiling ASN; dan simulasi CPNS SKD), ditambah Pustaka Belajar untuk anak.
+**Cerdasify** adalah sistem aplikasi web fullstack modern berbasis **Next.js 16 (App Router)** dan **PostgreSQL** (Supabase atau server PostgreSQL mana pun) yang dirancang untuk kebutuhan latihan soal mandiri serta simulasi ujian berskala profesional. Platform ini dilengkapi **3.834 butir soal** dalam **167 paket** (olimpiade Matematika, Sains, dan Bahasa Inggris; OSN; profiling ASN; dan simulasi CPNS SKD), ditambah Pustaka Belajar untuk anak.
 
 Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa distraksi**, dengan performa instan di ponsel pintar (smartphone) maupun komputer desktop tanpa memberatkan kuota internet atau memori perangkat.
 
@@ -15,7 +15,7 @@ Cerdasify berfokus pada pengalaman pengguna yang **bersih, elegan, dan tanpa dis
 
 ## ✨ Fitur Unggulan
 
-### 1. Bank Soal & Konten Lengkap (3.809 Soal, 166 Paket)
+### 1. Bank Soal & Konten Lengkap (3.834 Soal, 167 Paket)
 - **Olimpiade Matematika:** PRISMA 2024/2025, CEO 2025, ORION 2025/2026, IMOCSEA, OSN SD (97 soal hasil rekonstruksi dari buku sumber), Buku Soal Sesi 1–5/13/21, Aljabar Marathon 100.
 - **Olimpiade Sains & Bahasa Inggris:** PRISMA, CEO, JSO 2025, KMSI 2024, dan latihan Level 1–2 (penyisihan & provinsi), lengkap dengan gambar asli naskah.
 - **ASN/CPNS:** SJT Manajerial, Sosio-Kultural BerAKHLAK, Potensi Kognitif, Literasi Digital, Mini CPNS SKD.
@@ -145,7 +145,7 @@ DEFAULT_ADMIN_PASSWORD="<password-kuat-anda>"
 ```
 
 ### 4. Membangun Database dari Nol
-Semua konten (kategori, topik, 166 paket, 3.809 soal + opsi + urutan soal per paket, Pustaka Belajar, set game) tersimpan di `src/db/seed-data/`, dan semua gambarnya di `public/` — tidak ada yang hanya tersimpan di Supabase. Tiga perintah berikut membangun database kosong menjadi identik dengan produksi (diverifikasi November 2026: 12 tabel konten, 36.565 baris, sama persis):
+Semua konten (kategori, topik, 167 paket, 3.834 soal + opsi + urutan soal per paket, Pustaka Belajar, set game) tersimpan di `src/db/seed-data/`, dan semua gambarnya di `public/` — tidak ada yang hanya tersimpan di Supabase. Tiga perintah berikut membangun database kosong menjadi identik dengan produksi (diverifikasi November 2026: 12 tabel konten, 36.565 baris, sama persis):
 
 ```bash
 # (opsional) PostgreSQL lokal via Docker
